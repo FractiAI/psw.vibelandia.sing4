@@ -1,0 +1,12 @@
+---
+description: Run project tests without user involvement. Use npm test to validate surfaces, touchpoints, and API.
+globs:
+alwaysApply: false
+---
+
+# Testing
+
+- **Run tests:** From repo root, execute `npm test` (or `node scripts/test-all-surfaces-touchpoints-api.mjs`). Node 18+ required.
+- **After changing interfaces or links:** Run `npm test` to verify surfaces and touchpoints; fix any reported errors.
+- **CI:** Tests run automatically on push/PR via `.github/workflows/test.yml`; no user action needed.
+- **Details:** See `TESTING.md` and `SURFACES_AND_TOUCHPOINTS_TEST_REPORT.md`.

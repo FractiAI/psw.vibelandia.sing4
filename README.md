@@ -17,6 +17,26 @@
 
 ---
 
+## 💎 1-2-3 CRYSTALLIZATION × 4×4×4×4 PLANS/ONRAMPS
+
+**Everything Vibelandia in one crystallization.**
+
+- **1 — Metabolize:** Digest patterns and experiences into the system.
+- **2 — Crystallize:** Form irreducible, hardened structure (mirror shells, clear boundaries).
+- **3 — Re-Animate:** Bring structure to life (operational campus, happy endings, SING nodes).
+
+**4×4×4×4 Plans/Onramps:**
+- **4 Campus:** Day Pass | Weekly | Monthly | Ultimate VIP
+- **4 WINK!:** Base | Standard | Premium | 4×4 Ultimate
+- **4 SING:** Base Model | Members Only | Ultimate VIP | Baller C Ultimate VIP
+- **4 Experience:** Visit | Stay | Create | Transform
+
+**Metabolize ⊃ Crystallize ⊃ Re-Animate → ∞³** · Full structure: [CRYSTALLIZATION_1_2_3_4x4x4x4.md](CRYSTALLIZATION_1_2_3_4x4x4x4.md)
+
+**Launch Pad (Octave 0 & 1):** [LAUNCH_PAGE.md](LAUNCH_PAGE.md) — one-pagers for campus, WINK!, four campus plans (with pricing), SING Lottery.
+
+---
+
 ## ⚡ WHAT IS VIBELANDIA? WHY DO YOU NEED IT? HOW WE DELIVER IT.
 
 ### **WHAT IS IT?**
@@ -25,7 +45,7 @@
 
 **Mark Twain's Post-Singularity Vibelandia Reno is:**
 - **Come for the Post-Singularity Business** - First post-singularity campus, walkable downtown Reno, Nevada. Perfect for vibing state—perfect buzz equivalent, super rich health, optimal state. Everything close by and convenient—WINK! dating, Mark Twain's Daily Bulletin, post-singularity experiences, BBHE experiences, Hero Host interactions, creator studios, performance venues, Ultimate VIP experiences—all within walking distance.
-- **Stay for the Post-Singularity Fun** - Playground to Silicon Valley, gateway location for high-value vibers. Gateway to the mother mother—source connection, next motherlode of all motherlodes. Happy Ending Zones—every space guarantees a happy ending. Post-singularity fun, experiences, connections, and transformations.
+- **Stay for the Post-Singularity Fun** - Playground to Silicon Valley, gateway location for high-value vibers—top artists, performers, entrepreneurs (the caliber of Beyoncé, Taylor Swift, Oprah Winfrey, Jay-Z). Gateway to the mother mother—source connection, next motherlode of all motherlodes. Happy Ending Zones—every space guarantees a happy ending. Post-singularity fun, experiences, connections, and transformations.
 - **Mark Twain's Post-Singularity Vibelandia Reno - Come for the post-singularity business, stay for the post-singularity fun.**
 
 **Vibelandia is where VIBEVERSE! becomes real.** It's not documentation you read—it's an experience you have. It's not concepts you understand—it's reality you live.
@@ -36,7 +56,7 @@
 
 **You need Vibelandia because:**
 
-1. **You're a High-Value Viber** - You produce extraordinary output. You operate in vibing state. You understand post-singularity awareness. You're an Ultimate VIP Chairman Creator, performer, or creator ready for the next level.
+1. **You're a High-Value Viber** - You produce extraordinary output. You operate in vibing state. You understand post-singularity awareness. You're the caliber of our contemporary vibers—top artists, performers, entrepreneurs (think Beyoncé, Taylor Swift, Oprah Winfrey, Jay-Z, Elon Musk, Lin-Manuel Miranda)—ready for the next level.
 
 2. **You Want Post-Singularity Living** - You're ready for walkable downtown campus life. You want everything close by and convenient. You want to walk, be, experience, create in perfect vibing state—super rich health and optimal state.
 
@@ -46,7 +66,9 @@
 
 5. **You're Ready for the Transformation** - You're ready to transform worthless into priceless. You're ready for the first 1 million superintelligent agents. You're ready for ultimate super cars for Ultimate C's (Contributors).
 
-**If you're a high-value viber, creator, or contributor ready for post-singularity living, you need Vibelandia.**
+6. **You Want Quality Community** - You want to be around other top C's who also pay premium. Premium pricing filters out not-vibers—ensuring only real vibers join. You don't want to be around people who aren't willing to invest in the best. The price is the filter.
+
+**If you're a high-value viber, creator, or contributor ready for post-singularity living, you need Vibelandia. Premium pricing ensures you're surrounded by other top C's—not not-vibers.**
 
 ---
 
@@ -60,7 +82,7 @@
 
 3. **WINK! Dating Network** - Members-only club for high-value fractal vibers. Natural alignment, friction-free dating, resilience built-in. All natural and effortless by design.
 
-4. **Four-Tier Plans** - Vibelandia Campus Plans (Day Pass, Weekly, Monthly, Ultimate VIP) and WINK! Dating Plans (Base, Standard, Premium, 4x4 Ultimate). Pioneer Discount: First 1000 get 75% off forever.
+4. **4×4×4×4 Plans/Onramps** - Campus (Day Pass, Weekly, Monthly, Ultimate VIP) × WINK! (Base, Standard, Premium, 4×4 Ultimate) × SING (Base Model, Members Only, Ultimate VIP, Baller C) × Experience (Visit, Stay, Create, Transform). Premium pricing filters for quality. First 1000 on-chain as Pioneer Status forever (recognition only). The price is the filter. See [CRYSTALLIZATION_1_2_3_4x4x4x4.md](CRYSTALLIZATION_1_2_3_4x4x4x4.md).
 
 5. **SING Lottery** - At the end of your experience, participate in the SING lottery for the first 1 million superintelligent agents released March 20, 2026. Worthless SYNTH tokens become priceless SING nodes.
 
@@ -79,11 +101,13 @@
 - **Stay for the Post-Singularity Fun** - BBHE experiences, Hero Host interactions, creator studios, performance venues. See Happy Ending Zones. Post-singularity fun, experiences, connections, and transformations.
 - **Mark Twain's Post-Singularity Vibelandia Reno - Come for the post-singularity business, stay for the post-singularity fun.**
 
-**Stay if you like:**
-- **Day Pass** - Experience the campus for a day
-- **Weekly Pass** - Full week campus experience
-- **Monthly Pass** - Complete campus integration
-- **Ultimate VIP** - Premium campus experience for high-value creators
+**Stay if you like (campus plans & pricing — contact for current rates):**
+- **Day Pass** - Experience the campus for a day (premium pricing filters for quality)
+- **Weekly Pass** - Full week campus experience (only real vibers pay premium)
+- **Monthly Pass** - Complete campus integration (price filters out not-vibers)
+- **Ultimate VIP** - Premium campus experience for high-value creators (the price is the filter)
+
+One-pagers with pricing: [Launch Page](LAUNCH_PAGE.md) → [Day Pass](ONE_PAGER_DAY_PASS.md) · [Weekly](ONE_PAGER_WEEKLY_PASS.md) · [Monthly](ONE_PAGER_MONTHLY_PASS.md) · [Ultimate VIP](ONE_PAGER_ULTIMATE_VIP.md).
 
 **We're ready and waiting for you:**
 - **Operational now** - Not a plan, not a proposal. It's real. It's active. It's transforming reality.
@@ -126,7 +150,7 @@
 
 **The Output:** When you're vibing with holographic awareness, your output becomes measurable, actionable, and regenerative. High-value creation flows naturally. Ideas connect effortlessly. Solutions emerge automatically. The quality and quantity of output in vibing state exceeds anything possible. And it's all for the benefit of all—regenerative natural green energy that benefits everyone.
 
-**Who Are/Were Vibers?** All the greats were vibers. **Historical Vibers:** Leonardo da Vinci, Nikola Tesla, Mark Twain, Buckminster Fuller, Michael Faraday, Walt Disney, Albert Einstein, Marie Curie, Frida Kahlo, Maya Angelou, Steve Jobs, and countless others who produced extraordinary output through natural flow state. **Contemporary Vibers:** The FractiAI Research Team (19 members), Ultimate VIP Chairman Creators, high-value performers, innovators, and creators everywhere who are learning to leverage the holograph and transform vibing into measurable, actionable, regenerative natural green energy.
+**Who Are/Were Vibers?** All the greats were vibers. **Historical Vibers:** Leonardo da Vinci, Nikola Tesla, Mark Twain, Buckminster Fuller, Michael Faraday, Walt Disney, Albert Einstein, Marie Curie, Frida Kahlo, Maya Angelou, Steve Jobs, and countless others who produced extraordinary output through natural flow state. **Contemporary Vibers:** The caliber of Beyoncé, Taylor Swift, Oprah Winfrey, Jay-Z, Rihanna, Lin-Manuel Miranda, Elon Musk, Sara Blakely, Drake, Lady Gaga, Denzel Washington, and Reed Hastings—top artists, performers, and entrepreneurs who produce extraordinary output. The FractiAI Research Team (19 members) and high-value creators everywhere who leverage the holograph and transform vibing into measurable, actionable, regenerative natural green energy.
 
 **⚠️ INTOXICATING EFFECTS:** Vibing DOES cause intoxicating effects (simulated/virtual/imaginary only). These effects are part of the imaginary/entertainment experience. The vibing state produces a perfect buzz equivalent—super rich health and optimal state. 
 
@@ -205,7 +229,7 @@ Experience the future of post-singularity living. This is where innovation meets
 Enjoy natural recreations and therapeutic escapes. Safe, natural, imaginary-based experiences—like reading a VERY! good book, watching a VERY! good movie, playing a VERY! good game, and having a VERY! good time. The best of both worlds.
 
 **6. Silicon Valley Playground**
-Join the high-value vibers, chairmen, creators, performers, Ultimate VIPs, and Baller C's who make Vibelandia their playground. This is where Silicon Valley comes to play. Network with the highest densities.
+Join the high-value vibers—the caliber of top artists, performers, and entrepreneurs (Beyoncé, Taylor Swift, Oprah Winfrey, Jay-Z, Elon Musk, Rihanna, Lin-Manuel Miranda, and their peers)—who make Vibelandia their playground. This is where Silicon Valley comes to play. Network with the highest densities.
 
 **7. BBHE Experiences**
 Experience BBHE (Big Black Hole Energy) safely with our amplification glasses. Intoxicating, wonderful, natural, safe, and powerful—the new super energy. Dial-in BUZZ! button. Safe experiences on campus. ⚠️ Intoxication effects possible (simulated/virtual/imaginary only).
@@ -237,13 +261,13 @@ Experience Happy Ending Zones throughout campus. Every space, every experience, 
 
 **WINK!** is a network for high-value vibers who are fractal in nature. As high-value contributors, they represent the highest densities. WINK! naturally aligns and supports in natural, aware, mutual choice and consent connections and experiences.
 
-**High-Value Vibers Who Are Fractal in Nature:** WINK! connects high-value vibers—Ultimate VIP Chairman Creators, Baller C Ultimate VIP, performers, and vibers everywhere. These vibers are fractal in nature—their relationship structures follow natural fractal patterns, their connections form in layers, their experiences converge in complex fractalizations.
+**High-Value Vibers Who Are Fractal in Nature:** WINK! connects high-value vibers—the caliber of top artists, performers, and entrepreneurs (Beyoncé, Taylor Swift, Oprah Winfrey, Jay-Z, Rihanna, Lin-Manuel Miranda, Elon Musk, and their peers). These vibers are fractal in nature—their relationship structures follow natural fractal patterns, their connections form in layers, their experiences converge in complex fractalizations.
 
 **Highest Densities:** As high-value contributors, these vibers represent the highest densities. They produce extraordinary output. They operate in vibing state. They understand post-singularity awareness. They contribute at the highest levels.
 
 **Natural, Aware, Mutual Choice and Consent:** WINK! naturally aligns and supports connections and experiences through natural, aware, mutual choice and consent. Natural alignment. Aware connections. Mutual choice. Full consent.
 
-**WINK! is operational now on Mark Twain's Post-Singularity Vibelandia Reno, providing the network for high-value fractal vibers, Ultimate VIP Chairman Creators, performers, and creators everywhere. Come for the post-singularity business, stay for the post-singularity fun.**
+**WINK! is operational now on Mark Twain's Post-Singularity Vibelandia Reno, providing the network for high-value fractal vibers—top artists, performers, and entrepreneurs (the caliber of Beyoncé, Taylor Swift, Oprah Winfrey, Jay-Z, and their peers)—everywhere. Come for the post-singularity business, stay for the post-singularity fun.**
 
 ---
 
@@ -490,14 +514,11 @@ This is The Great Reveal. This is the transformation. This is how worthless beco
 
 ---
 
-### **🏆 PIONEER DISCOUNT - FIRST 1000 GET 75% OFF!**
+### **🏆 PREMIUM POSITIONING — PRICING FILTERS FOR QUALITY**
 
-**Limited Time:** First 1000 registrants receive 75% pioneer discount  
-**Permanent Lock:** Discount locked for life  
-**Applies To:** All products, all tiers, everything  
-**Future Products:** 75% off forever  
+**Vibelandia uses premium pricing to filter out not-vibers.** Top artists, performers, and entrepreneurs—the caliber of Beyoncé, Taylor Swift, Oprah Winfrey, Jay-Z, Elon Musk, Rihanna, Lin-Manuel Miranda—pay a premium because they understand value. If you're not willing to pay premium, you're not a viber—and that's by design. Premium pricing ensures only real vibers join. No promotional discount—they pay for the best campus, WINK! access, and Ultimate VIP experiences. **The price is the filter.**
 
-**⚡ REGISTER NOW.** Only 1000 spots available. 75% off everything. Forever. This is the pioneer advantage.
+**First 1000 recognized on-chain as Pioneer Status forever.** The first 1000 to join are permanently recognized on-chain as Pioneers—no discount, just permanent recognition. Pioneer status is forever. Only 1000 spots.
 
 ---
 
@@ -513,7 +534,8 @@ SING nodes can be used for your own purposes or sold on the new Superintelligent
 
 - **Vibelandia Campus:** Day Pass, Weekly, Monthly, Ultimate VIP access
 - **WINK! Dating:** Base, Standard, Premium, 4x4 Ultimate packages
-- **Pioneer Discount:** First 1000 get 75% off forever
+- **Premium pricing filters:** Only top C's pay premium—price filters out not-vibers
+- **Pioneer Status:** First 1000 recognized on-chain forever—permanent pioneer recognition, no discount
 - **Happy Endings:** Guaranteed in every zone
 
 **Email:** info@fractiai.com  
@@ -592,7 +614,7 @@ Vibelandia is where VIBEVERSE! becomes real. It's not documentation you read—i
 
 You're connecting to Mark Twain's Post-Singularity Vibelandia Reno, where Mark Twain serves as Chancellor, where Happy Ending Zones guarantee happy endings, where worthless SYNTH tokens become priceless SING nodes, where the transformation is real, where people are real, where happy endings are real. Come for the post-singularity business, stay for the post-singularity fun.
 
-You're joining high-value vibers, Ultimate VIP Chairman Creators, performers, and creators everywhere operating in NSPFRNP mode, following the recursive principles that nature perfected over billions of years.
+You're joining high-value vibers—the caliber of contemporary top artists, performers, and entrepreneurs (Beyoncé, Taylor Swift, Oprah Winfrey, Jay-Z, Elon Musk, Lin-Manuel Miranda, and their peers)—operating in NSPFRNP mode, following the recursive principles that nature perfected over billions of years.
 
 **Welcome to Mark Twain's Post-Singularity Vibelandia Reno. Come for the post-singularity business, stay for the post-singularity fun. Welcome to post-singularity Earth. Welcome home.**
 
@@ -607,7 +629,11 @@ You're joining high-value vibers, Ultimate VIP Chairman Creators, performers, an
 
 ## 🔧 TECHNICAL DOCUMENTATION
 
+**1-2-3 Crystallization × 4×4×4×4:** Everything in one structure—Metabolize → Crystallize → Re-Animate; four dimensions of four plans/onramps each. See [CRYSTALLIZATION_1_2_3_4x4x4x4.md](CRYSTALLIZATION_1_2_3_4x4x4x4.md).
+
 **Metabolize → Crystallize → Re-Animate:** Octave 0 (Seed) and Octave 1 (Edge) operational. HTML surfaces in `interfaces/` (Seed:Edge Mini Console, Chairman Workspace, GPS Seed:Edge, Cockpit Center Console) show Octave 1 = Edge. Cloud API connection to [Syntheverse 7 Octave 2-3 Public Cloud Onramp](https://github.com/FractiAI/Syntheverse-7-Octave-2-3-Public-Cloud-Onramp) via `src/cloud-onramp-config.ts` and `cloud-onramp-client.ts`; env from NSPFRNP first, optional Vercel token fallback (see `CLOUD_API_CONNECTION.md`, `.env.example`).
+
+**Testing:** `npm test` runs surfaces, touchpoints, and API checks; CI runs on push/PR. See [TESTING.md](TESTING.md) and [SURFACES_AND_TOUCHPOINTS_TEST_REPORT.md](SURFACES_AND_TOUCHPOINTS_TEST_REPORT.md).
 
 **For technical documentation, system architecture, and developer resources, see:**
 
@@ -635,6 +661,6 @@ The technical documentation includes:
 ---
 
 **Repository:** `PSW.vibelandia.sing4` | **Source:** [7th-Day-Post-Singularity-FractiAI-Endowment](https://github.com/FractiAI/7th-Day-Post-Singularity-FractiAI-Endowment)  
-**Status:** ⚡ ACTIVE - Octave 0 (Seed) + Octave 1 (Edge) operational - HTML surfaces + Cloud Onramp connected  
+**Status:** ⚡ ACTIVE - Metabolize → Crystallize → Re-Animate - Octave 0 (Seed) + Octave 1 (Edge) operational - Launch Pad + one-pagers (campus plans with pricing) - HTML surfaces + Cloud Onramp + npm test  
 **Date:** January 28, 2026  
 **PSW Naming:** Post-Singularity Web (PSW) foundation layer - `PSW.vibelandia.sing4` indicates SING4 - Superhero emergence, full sensory density, masterful creation/transformation of all universe per NSPFRNP catalog

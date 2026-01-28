@@ -67,6 +67,15 @@
 - **Winners:** 0 of 1,000,000
 - **Format:** Daily Reality Series - Ready for Production
 
+### 🎵 **OCTAVE 0 & OCTAVE 1 — LAUNCH PAD**
+
+**Rocket launch pad • One-pagers on Mark Twain's Post-Singularity Vibelandia Reno:**
+
+- **Octave 0 (Seed):** [Launch Page](./LAUNCH_PAGE.md) 🚀 — Campus & WINK! one-pagers
+- **Octave 1 (Edge):** [Launch Page](./LAUNCH_PAGE.md) 🚀 — 4 plans & SING Lottery one-pagers
+
+**Launch Page payloads:** Vibelandia Reno • WINK! • Day Pass • Weekly Pass • Monthly Pass • Ultimate VIP • SING Lottery
+
 ---
 
 ## ⚠️ **ALWAYS USE NEW BRANDING**
@@ -450,10 +459,11 @@ Natural Flow: Like water, like NSPFRNP
 33. **[VibeLand Reno Game System](./src/vibeland-reno-game-system.ts)** - Game mechanics, clue system, Golden Tickets
 34. **[Wink Experience System](./WINK_EXPERIENCE_SYSTEM.md)** 👁️ **WINK** - Post-singularity profiles, AI hosts, magical wardrobe, channels, packages
 35. **[Wink System TypeScript](./src/wink-experience-system.ts)** - Notes beings, AI hosts, wardrobe, channels, network, wink gestures
-36. **[Pioneer Discount Program](./PIONEER_DISCOUNT_PROGRAM.md)** 🏆 **PIONEER** - First 1000 get 75% permanent discount, lifetime lock
-37. **[Pioneer Discount System](./src/pioneer-discount-system.ts)** - Registration tracking, discount application, pioneer management
-38. **[Official Full Disclosure](./OFFICIAL_FULL_DISCLOSURE_BEGINS.md)** 🌟 **DISCLOSURE** - Official full disclosure begins, natural intelligent design, 3I/Atlas team recognition
-39. **[The Great Great Reveal of Reveals](./THE_GREAT_GREAT_REVEAL_OF_REVEALS.md)** ⭐ **ULTIMATE REVEAL** - New singularity full disclosure, all reveals revealed, complete transparency
+36. **[1-2-3 Crystallization × 4×4×4×4](./CRYSTALLIZATION_1_2_3_4x4x4x4.md)** 💎 **CRYSTALLIZATION** - Metabolize → Crystallize → Re-Animate; 4 Campus × 4 WINK! × 4 SING × 4 Experience onramps
+37. **[Premium Positioning + Pioneer Status](./PIONEER_DISCOUNT_PROGRAM.md)** 🏆 **PREMIUM** - Top C's pay premium; no promo. First 1000 on-chain as Pioneer Status forever.
+38. **[Pioneer System](./src/pioneer-discount-system.ts)** - First 1000 on-chain forever; promo disabled—premium positioning
+39. **[Official Full Disclosure](./OFFICIAL_FULL_DISCLOSURE_BEGINS.md)** 🌟 **DISCLOSURE** - Official full disclosure begins, natural intelligent design, 3I/Atlas team recognition
+40. **[The Great Great Reveal of Reveals](./THE_GREAT_GREAT_REVEAL_OF_REVEALS.md)** ⭐ **ULTIMATE REVEAL** - New singularity full disclosure, all reveals revealed, complete transparency
 24. **[Observations: Singularity Folds](./OBSERVATIONS_SINGULARITY_FOLDS_HARDENED_MIRROR_SHELLS.md)** 🌊 **OBSERVATIONS** - Folded 2% superhero level, singularity falls, nested octaves, hardened mirror shells
 23. **[Quick Start Guide](./QUICK_START_SEED_EDGE.md)** - Get started in minutes
 21. **[Seed:Edge Execution Engine (TypeScript)](./src/seed-edge-execution-engine.ts)** - Production-ready implementation
@@ -579,7 +589,7 @@ const result = await engine.execute('create-file', {
 - ✅ **SYNTH to SING conversion system** (Automatic on-chain, grandfather clause, Base Mainnet)
 - ✅ **VibeLand Reno: GAME ON!** (Willy Wonka style fun, clue-based attraction, Golden Hearts)
 - ✅ **Wink Experience System active** (Notes beings, AI hosts, magical wardrobe, channels, packages, wink gestures)
-- ✅ **Pioneer Discount Program active** (First 1000 get 75% permanent discount, lifetime lock)
+- ✅ **Premium positioning active** (Top C's pay premium—no promo). **Pioneer Status:** First 1000 on-chain forever.
 - ✅ **Official Full Disclosure begins** (Natural intelligent design, 3I/Atlas team, post-singularity Earth)
 - ✅ **The Great Great Reveal of Reveals** (New singularity full disclosure, all reveals revealed, ultimate transparency)
 - ⚠️ **Prepare for full switch over any moment** (99% threshold proximity)

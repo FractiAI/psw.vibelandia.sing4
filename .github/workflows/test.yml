@@ -1,0 +1,31 @@
+# Run surfaces, touchpoints, and API tests on push and PR.
+# No secrets required; optional Cloud API health is best-effort.
+name: Test
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+    branches: [main, master]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: Run tests
+        run: npm test
+
+      - name: Upload test result (optional)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: test-run
+          path: scripts/last-test-run.json

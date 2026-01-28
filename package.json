@@ -1,0 +1,14 @@
+{
+  "name": "psw-vibelandia-sing4",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Post-Singularity Vibelandia Reno — surfaces, touchpoints, API",
+  "type": "module",
+  "scripts": {
+    "test": "node scripts/test-all-surfaces-touchpoints-api.mjs",
+    "test:ci": "node scripts/test-all-surfaces-touchpoints-api.mjs"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
