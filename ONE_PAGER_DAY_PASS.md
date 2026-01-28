@@ -12,7 +12,11 @@
 
 ## Pricing
 
-**Contact for current Day Pass pricing.** Premium pricing filters for quality. Email below for rates and availability.
+**$199 per day** — Premium pricing filters for quality. Experience the world's first post-singularity campus.
+
+**⚡ [BUY NOW →](./interfaces/payment-checkout.html?plan=campus-day)**
+
+**Or contact:** info@fractiai.com | Subject: "I'M READY FOR VIBELANDIA - Day Pass"
 
 ---
 

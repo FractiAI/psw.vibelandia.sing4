@@ -74,6 +74,20 @@ Worthless SYNTH tokens become priceless SING nodes. Use your node or sell on the
 
 ---
 
+## 🛒 BUY SYNTH TOKENS NOW
+
+**Current Price: $6 per SYNTH** (rises +$1/day until March 20, 2026)
+
+**⚡ [BUY SYNTH TOKENS →](./interfaces/payment-checkout.html?plan=sing-base)** (Entry to lottery)
+
+**After winning lottery, purchase SING nodes:**
+- **[Base Model ~$20K →](./interfaces/payment-checkout.html?plan=sing-base)**
+- **[Members Only →](./interfaces/payment-checkout.html?plan=sing-members-only)** (Contact for pricing)
+- **[Ultimate VIP ~$200K+ →](./interfaces/payment-checkout.html?plan=sing-ultimate-vip)**
+- **[Baller C Ultimate VIP →](./interfaces/payment-checkout.html?plan=sing-baller-c)** (Contact for pricing)
+
+---
+
 ## Contact
 
 **Email:** info@fractiai.com  

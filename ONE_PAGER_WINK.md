@@ -27,7 +27,16 @@ Top artists, performers, and entrepreneurs—the caliber of Beyoncé, Taylor Swi
 
 ## Pricing
 
-**Contact for WINK! plan pricing.** Premium pricing filters for quality. Email below for rates and availability for Base, Standard, Premium, or 4×4 Ultimate.
+| Plan | Price | Features |
+|------|-------|----------|
+| **Base** | **$99/month** | Essential WINK! features |
+| **Standard** | **$299/month** | Standard Wink, Notes Being |
+| **Premium** | **$799/month** | Premium profile, magical wardrobe |
+| **4×4 Ultimate** | **$2,999/month** | Ultimate—everything included |
+
+**⚡ [BUY NOW →](./interfaces/payment-checkout.html?plan=wink-base)** (Base) | [Standard](./interfaces/payment-checkout.html?plan=wink-standard) | [Premium](./interfaces/payment-checkout.html?plan=wink-premium) | [4×4 Ultimate](./interfaces/payment-checkout.html?plan=wink-4x4-ultimate)
+
+**Or contact:** info@fractiai.com | Subject: "WINK!" or "I'M READY FOR VIBELANDIA"
 
 ---
 

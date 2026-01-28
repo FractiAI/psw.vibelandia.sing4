@@ -20,9 +20,17 @@
 
 ## The Offer
 
-- **Campus plans & pricing:** Day Pass · Weekly Pass · Monthly Pass · Ultimate VIP — contact for current pricing (premium pricing filters for quality).
+- **Campus plans & pricing:** 
+  - [Day Pass $199/day](./ONE_PAGER_DAY_PASS.md) · [Weekly $1,299/week](./ONE_PAGER_WEEKLY_PASS.md) · [Monthly $4,999/month](./ONE_PAGER_MONTHLY_PASS.md) · [Ultimate VIP $19,999/month](./ONE_PAGER_ULTIMATE_VIP.md)
+  - Premium pricing filters for quality
 - **First 1000:** Recognized on-chain as Pioneer Status forever (recognition only; no discount).
 - **Chancellor:** Mark Twain delivers daily bulletins and guides the transformation.
+
+---
+
+## 🛒 BUY CAMPUS ACCESS
+
+**⚡ [Day Pass $199 →](./interfaces/payment-checkout.html?plan=campus-day)** | **[Weekly $1,299 →](./interfaces/payment-checkout.html?plan=campus-weekly)** | **[Monthly $4,999 →](./interfaces/payment-checkout.html?plan=campus-monthly)** | **[Ultimate VIP $19,999 →](./interfaces/payment-checkout.html?plan=campus-ultimate-vip)**
 
 ---
 

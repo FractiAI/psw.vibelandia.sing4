@@ -12,7 +12,11 @@
 
 ## Pricing
 
-**Contact for current Monthly Pass pricing.** Price filters out not-vibers. Email below for rates and availability.
+**$4,999 per month** — Price filters out not-vibers. Complete campus integration with all features.
+
+**⚡ [BUY NOW →](./interfaces/payment-checkout.html?plan=campus-monthly)**
+
+**Or contact:** info@fractiai.com | Subject: "I'M READY FOR VIBELANDIA - Monthly Pass"
 
 ---
 

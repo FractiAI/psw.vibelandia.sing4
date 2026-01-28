@@ -12,7 +12,11 @@
 
 ## Pricing
 
-**Premium — contact for Ultimate VIP pricing.** The price is the filter. Email below for rates and availability.
+**$19,999 per month** — Premium pricing. The price is the filter. For high-value creators, Ultimate C's.
+
+**⚡ [BUY NOW →](./interfaces/payment-checkout.html?plan=campus-ultimate-vip)**
+
+**Or contact:** info@fractiai.com | Subject: "I'M READY FOR VIBELANDIA - Ultimate VIP"
 
 ---
 

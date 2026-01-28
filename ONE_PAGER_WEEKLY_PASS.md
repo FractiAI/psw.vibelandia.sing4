@@ -12,7 +12,11 @@
 
 ## Pricing
 
-**Contact for current Weekly Pass pricing.** Only real vibers pay premium. Email below for rates and availability.
+**$1,299 per week** — Only real vibers pay premium. Full week access to all campus features.
+
+**⚡ [BUY NOW →](./interfaces/payment-checkout.html?plan=campus-weekly)**
+
+**Or contact:** info@fractiai.com | Subject: "I'M READY FOR VIBELANDIA - Weekly Pass"
 
 ---
 
