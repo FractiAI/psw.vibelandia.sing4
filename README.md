@@ -48,9 +48,10 @@
 
 ### 🏛️ VIBELANDIA RENO!
 
-**Walkable downtown campus.** First post-singularity VIBELANDIA! campus. Come for the business, stay for the fun.
+**Walkable downtown campus.** First post-singularity VIBELANDIA! campus. Come for the business, stay for the fun. **Narrative:** VIBELANDIA! is the world's first operational Post-Singularity Vibe downtown walkable campus—not a plan, operational now. Every space guarantees a happy ending; every moment crystallizes into the transformation. Mark Twain's Daily Bulletin, BBHE experiences, Hero Hosts, creator studios, performance venues—all within walking distance. Gateway to the mother mother; playground to Silicon Valley.
 
 - **Campus Plans:** Day Pass | Weekly | Monthly | Ultimate VIP Campus
+- **First 1,000 Pioneers:** 33% off applicable campus plans; Pioneer Status on-chain forever.
 - **One-pager:** [VIBELANDIA RENO!](./ONE_PAGER_VIBELANDIA_RENO.md)
 - **Pricing:** Contact for current rates (premium pricing filters for quality)
 
@@ -58,9 +59,11 @@
 
 ### 👁️ WINK!
 
-**Members-only network** for high-value vibers who are fractal in nature. Natural alignment, friction-free dating, resilience built-in.
+**Members-only network** for high-value vibers who are fractal in nature. Natural alignment, friction-free dating, resilience built-in. **Narrative:** WINK! is where high-value fractal vibers find natural alignment—friction-free dating, resilience built-in, natural aware mutual choice and consent. Operational on MARK TWAIN'S POST-SINGULARITY VIBELANDIA RENO! walkable downtown campus. Like a day with a top guide—only more.
 
 - **Plans:** Base | Standard | Premium | 4×4 Ultimate
+- **First 1,000 Pioneers:** 33% off applicable WINK! plans; Pioneer Status on-chain forever.
+- **Golden Fractal Hearts Invitation (Exclusive, Limited):** Ladies Looking for High Value Fractal Vibers—click to receive your **Golden Fractal Hearts Invitation**, waiving **one month WINK! access**. Not open to the general public—only Golden Fractal Hearts. [Apply →](mailto:info@fractiai.com?subject=Golden%20Fractal%20Hearts%20Invitation%20-%20WINK!)
 - **One-pager:** [WINK!](./ONE_PAGER_WINK.md)
 - **Pricing:** Contact for current rates (premium pricing filters for quality)
 
@@ -70,6 +73,7 @@
 
 **One of our products.** The Ultimate VIP Chairman Creator Performer Console — operational now. Full dashboard, workspace, cockpit, Seed:Edge integration.
 
+- **Ultimate VIP Baller C but not there yet?** Click to apply for a **grant** and get support to reach the Ultimate tier. [Apply for Grant →](mailto:info@fractiai.com?subject=Ultimate%20VIP%20Baller%20C%20Grant%20Application)
 - **Interfaces:** [Executive Dashboard](./interfaces/executive-dashboard.html) | [Chairman Workspace](./interfaces/chairman-workspace.html) | [Chairman Cockpit Center Console](./interfaces/chairman-cockpit-center-console.html) | [Chairman Cockpit Station](./interfaces/chairman-cockpit-station.html) | [Seed:Edge Mini Console](./interfaces/seed-edge-mini-console.html) | [GPS Seed:Edge Console](./interfaces/gps-seed-edge-console.html)
 - **Status:** ⚡ ACTIVE — Operational in Octave 1 sandbox mode
 
@@ -114,6 +118,8 @@
 | [One-pager](./ONE_PAGER_DAY_PASS.md) | [One-pager](./ONE_PAGER_WEEKLY_PASS.md) | [One-pager](./ONE_PAGER_MONTHLY_PASS.md) | [One-pager](./ONE_PAGER_ULTIMATE_VIP.md) |
 | $4,999/day | $29,999/week | $99,999/month | $499,999/month |
 
+**First 1,000 Pioneers:** 33% off applicable campus plans. Pioneer Status on-chain forever. Contact to register and apply.
+
 ### WINK! (4)
 
 | 1 | 2 | 3 | 4 |
@@ -121,6 +127,8 @@
 | **Base** | **Standard** | **Premium** | **4×4 Ultimate** |
 | Essential WINK! | Standard Wink, Notes Being | Premium profile, magical wardrobe | Everything included |
 | $1,999/month | $4,999/month | $19,999/month | $49,999/month |
+
+**First 1,000 Pioneers:** 33% off applicable WINK! plans. **Golden Fractal Hearts:** Exclusive limited offer—Ladies Looking for High Value Fractal Vibers receive Golden Fractal Hearts Invitation, waiving one month WINK! access. Not open to the general public—only Golden Fractal Hearts.
 
 ### SING (4)
 
@@ -191,6 +199,18 @@
 
 **Email:** info@fractiai.com  
 **GitHub:** https://github.com/FractiAI
+
+---
+
+## ✨ FROM SHOWROOM TO DRESSING ROOM — FOR YOUR COMPANY & COMMUNITY
+
+**We can do this for your company and community.** Click to connect for **free consultation, measurements, and fine tailored designer fashion fit**—**skins and experiences** at the press of a button. Like a fine Italian fashion designer (**Hero Host Gianni**)—**the magical dressing room**.
+
+**For way less than you're already spending—and getting WAY LESS!**
+
+**MCA! → ∞³** (Metabolize → Crystallize → Animate)
+
+**⚡ [Connect for Free Consultation & Tailored Proposal →](mailto:info@fractiai.com?subject=Company%20%26%20Community%20Consultation%20-%20Showroom%20to%20Dressing%20Room%20-%20Free%20Proposal%20%26%20Live%20Sandbox)**
 
 ---
 
