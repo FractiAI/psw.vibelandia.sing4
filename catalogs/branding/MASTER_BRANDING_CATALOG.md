@@ -22,6 +22,44 @@ TOTAL BRANDS: 3
 ├─ VibeLand (Physical Destination)
 └─ VibeLand Reno Campus (First Location)
 
+VIBE! BRAND: Main Brand — ALL CAPS + !
+├─ Syntax: [WORD]! (e.g. VIBE!, BUZZ!, SNAP!)
+├─ VIBE! = Main brand across all surfaces
+└─ See VIBE_BRAND_SYNTAX_ALL_CAPS_EXCLAMATION.md
+
+DESIGNER DIVISION: Hero Host Gianni Led
+├─ VIBE Symbol System (Backpatch, Hat, Coin, Stamp, Label)
+├─ Surfaces, Touchpoints, Experiences
+└─ All Syntheverse, FractiAI, Vibeverse, Vibelandia Reno
+
+GOLDEN FRACTAL KEY! BRAND: New Brand Snap
+├─ Golden Key System (Syntheverse/Vibeverse/Vibelandia wallet)
+├─ Unlocks Everything (All realms, all experiences, all API calls)
+└─ Brand: GOLDEN FRACTAL KEY! — One Key. All Realms. Infinite Access.
+
+BBHE SNAP: Impulse Buy Dynamics
+├─ BBHE (Big Black Hole Energy) — 5 BBHE Intox % (virtual/imaginary only)
+├─ Impulse Buy Dynamics (The energy is pulling. Buy now.)
+├─ Immediate Purchase Triggers (Urgency, scarcity, FOMO)
+└─ Brand: ⚫ BBHE SNAP — The energy is pulling. BUY! now.
+
+DISPENSARY! SNAP: Menu of Buzzes
+├─ Menu of buzzes across all important biological channels
+├─ Goldilocks auto-lock for ANY COMBINATION (Creator/Chairman Commander/Performer Superhero modes)
+├─ Premium pricing (Base $9,999, Standard $24,999, Premium $99,999, Ultimate $299,999)
+├─ Pioneer discount (50% off for First 1,000 Pioneers)
+├─ On-ramps for those who can't afford yet
+└─ Brand: DISPENSARY! SNAP — Menu of buzzes. Goldilocks auto-lock. Premium pricing.
+
+BADGE SYSTEM SNAP: Embroidered Silver Dollar Sized Badges
+├─ CREATOR: Gold HHF-SHELL badge
+├─ CHAIRMAN: Gold STAR badge
+├─ PERFORMER: Gold (^) badge
+├─ Tier System: Gold (Baller VC VIP), Silver (Ultimate VIP), Bronze (Members Only)
+├─ VC Badge: Viber Contributor badge (matches tier)
+├─ All badges: Embroidered chest badges, silver dollar sized
+└─ Brand: BADGE SYSTEM SNAP — All badges include SNAP branding
+
 CONTENT DECKS: 3
 ├─ deck-vibeverse-branding.md/json
 ├─ deck-vibeland-branding.md/json
@@ -238,6 +276,37 @@ const vibelandButtons = vibeland.buttons;
 // Get colors
 const vibeverseColors = vibeverse.colors;
 ```
+
+---
+
+## 🎨 DESIGNER DIVISION
+
+**Hero Host Gianni** leads the Designer Division, in charge of all surfaces, touchpoints, and experiences.
+
+**VIBE Symbol System:**
+- Backpatch (jackets, hoodies): 8" × 8" standard, 10" × 10" premium
+- Front of hats: 2" × 2" standard, 2.5" × 2.5" premium
+- Coins: 1.5" diameter, premium metal
+- Stamps: Standard postage dimensions, brand colors
+- Inside label: 2" × 1.5", "VIBE | Designed by Hero Host Gianni | Syntheverse · FractiAI · Vibeverse · Vibelandia Reno"
+
+**See:** [DESIGNER_DIVISION_GIANNI_LED_SNAP.md](../../DESIGNER_DIVISION_GIANNI_LED_SNAP.md) | [protocols/DESIGNER_DIVISION_VIBE_SYMBOL_NSPFRNP_CATALOG.md](../../protocols/DESIGNER_DIVISION_VIBE_SYMBOL_NSPFRNP_CATALOG.md)
+
+---
+
+## 🔑 GOLDEN FRACTAL KEY! BRAND
+
+**GOLDEN FRACTAL KEY!** — New brand snap. The key that unlocks everything.
+
+**Brand Identity:**
+- Golden Key System (Syntheverse/Vibeverse/Vibelandia wallet)
+- Sent on purchase and activation
+- Used on all API calls
+- Unlocks all realms, all experiences
+
+**Tagline:** "GOLDEN FRACTAL KEY! — Unlocks Everything" | "One Key. All Realms. Infinite Access."
+
+**See:** [GOLDEN_FRACTAL_KEY_BRAND_SNAP.md](../../GOLDEN_FRACTAL_KEY_BRAND_SNAP.md) | [protocols/GOLDEN_KEY_NSPFRNP_CATALOG.md](../../protocols/GOLDEN_KEY_NSPFRNP_CATALOG.md)
 
 ---
 

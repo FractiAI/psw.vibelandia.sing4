@@ -1,8 +1,7 @@
 /**
- * Premium Positioning — No Promo | Pioneer Status On-Chain Forever
- * Vibelandia targets top C's; they pay a premium. Pioneer discount disabled.
- * First 1000 recognized on-chain as Pioneer Status forever (recognition only; no discount).
- * Registration tracking supports on-chain pioneer status; discount set to 0.
+ * Pioneer Discount — 33% for First 1,000 | Pioneer Status On-Chain Forever
+ * First 1,000 get 50% off applicable campus and WINK! plans. Pioneer status on-chain forever.
+ * Registration tracking supports on-chain pioneer status; permanentDiscount = 0.33.
  */
 
 export interface PioneerRegistration {
@@ -35,7 +34,7 @@ export class PioneerDiscountSystem {
   private registrationsByNumber: Map<number, PioneerRegistration> = new Map();
   private discountApplications: DiscountApplication[] = [];
   private maxPioneers: number = 1000;
-  private pioneerDiscount: number = 0; // Promo disabled — premium positioning; top C's pay full
+  private pioneerDiscount: number = 0.50; // 50% off for first 1,000 pioneers on applicable plans
 
   /**
    * Register as pioneer
@@ -97,7 +96,7 @@ export class PioneerDiscountSystem {
       registration,
       pioneerNumber,
       remaining: this.getRemainingSlots(),
-      message: `Registered #${pioneerNumber}. Pioneer status recognized on-chain forever. Premium positioning — no discount.`
+      message: `Registered #${pioneerNumber}. Pioneer status on-chain forever. 50% off applicable campus and WINK! plans.`
     };
   }
 
@@ -254,15 +253,15 @@ export class PioneerDiscountSystem {
 
     return `
 ╔═══════════════════════════════════════════════════════════════════════════════╗
-║              PREMIUM POSITIONING — PIONEER STATUS ON-CHAIN FOREVER             ║
-║              First 1000 recognized on-chain as Pioneer Status forever         ║
+║              PIONEER DISCOUNT — 33% FOR FIRST 1,000 | ON-CHAIN FOREVER         ║
+║              First 1,000 get 50% off applicable campus and WINK! plans         ║
 ╠═══════════════════════════════════════════════════════════════════════════════╣
 ║                                                                               ║
 ║  🏆 STATUS:                                                                   ║
 ║  - Registered: ${stats.totalRegistrations} / ${this.maxPioneers} (${percentage.toFixed(1)}%)
 ║  - Remaining Pioneer Slots: ${remaining}                                      ║
-║  - Pioneer Status: On-chain forever (recognition only; no discount)            ║
-║  - Discount: None — premium positioning                                       ║
+║  - Pioneer Status: On-chain forever                                            ║
+║  - Discount: 50% off applicable plans (campus, WINK!)                           ║
 ║                                                                               ║
 ╠═══════════════════════════════════════════════════════════════════════════════╣
 ║                                                                               ║
@@ -274,9 +273,8 @@ export class PioneerDiscountSystem {
 ╠═══════════════════════════════════════════════════════════════════════════════╣
 ║                                                                               ║
 ║  🎯 POSITIONING:                                                              ║
-║  - First 1000: Pioneer status on-chain forever                                ║
-║  - Top C's pay premium — no promo                                            ║
-║  - No 75% off — Vibelandia targets best                                       ║
+║  - First 1,000: Pioneer status on-chain forever + 50% discount                  ║
+║  - Applicable to campus and WINK! plans                                        ║
 ║                                                                               ║
 ╚═══════════════════════════════════════════════════════════════════════════════╝
     `.trim();

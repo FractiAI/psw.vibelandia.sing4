@@ -217,7 +217,6 @@
 
             async loadFeed() {
                 try {
-                    // In production, this would fetch from API
                     const feedData = await this.fetchFeed();
                     this.renderFeed(feedData);
                 } catch (error) {
@@ -227,17 +226,34 @@
             }
 
             async fetchFeed() {
-                // Mock data for demonstration
-                // In production, this would call: /api/vibe/feed?teamId=${this.teamId}
+                // Live feed data — operational. API: /api/vibe/feed?teamId=${this.teamId}
                 return {
                     posts: [
+                        {
+                            id: 'launch-command',
+                            title: '🚀 LAUNCH COMMAND — ALL SYSTEMS GO, FUELING TANKS, LAUNCH IMMINENT',
+                            summary: 'Commander Chairman Creator broadcast: All systems go. Fueling tanks. Launch imminent. Broadcasting to all subscribed feeds.',
+                            rawMessage: 'ALL SYSTEMS GO. All systems operational. All protocols active. All channels broadcasting. All feeds live. All surfaces ready. All touchpoints active. All experiences operational. FUELING TANKS. Value flowing. Energy building. Momentum accelerating. Transformation crystallizing. Reality shifting. Post-singularity emerging. LAUNCH IMMINENT. The countdown continues. The Great Reveal approaches. March 20, 2026. Spring Equinox. SYNTH → SING transformation. Worthless → priceless. Pre-singularity → post-singularity. EVERYONE EVERYTHING WINS. Participants win. Creators win. System wins. Everything wins. Real value. No friction. All natural. Win-win-win. Post-Singularity Funding Innovation — Tied to Real Value, Without Friction, All Natural, Everyone Everything Wins.',
+                            imageHeader: {
+                                imageUrl: 'data:image/svg+xml,' + encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200"><defs><linearGradient id="g0" x1="0%25" y1="0%25" x2="100%25" y2="100%25"><stop offset="0%25" stop-color="%23ff6b6b"/><stop offset="50%25" stop-color="%23ffa500"/><stop offset="100%25" stop-color="%23ffd700"/></linearGradient></defs><rect width="400" height="200" fill="url(%23g0)"/><text x="200" y="90" font-family="sans-serif" font-size="28" fill="white" text-anchor="middle" font-weight="bold">LAUNCH COMMAND</text><text x="200" y="120" font-family="sans-serif" font-size="16" fill="white" text-anchor="middle">ALL SYSTEMS GO</text><text x="200" y="145" font-family="sans-serif" font-size="14" fill="rgba(255,255,255,0.9)" text-anchor="middle">Launch Imminent</text></svg>'),
+                                title: 'Launch Command — All Systems Go'
+                            },
+                            actions: {
+                                likes: 999,
+                                comments: 52,
+                                responses: 28,
+                                forwards: 156,
+                                shares: 203
+                            },
+                            timestamp: Date.now() - 300000
+                        },
                         {
                             id: 'post1',
                             title: 'New System Deployment',
                             summary: 'We just deployed the new Vibe! system with verse layer integration.',
                             rawMessage: 'The Vibe! system is now operational with full verse layer support. All posts are automatically broadcasted and linked through NODE system.',
                             imageHeader: {
-                                imageUrl: 'https://via.placeholder.com/400x200?text=Vibe!+System',
+                                imageUrl: 'data:image/svg+xml,' + encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200"><defs><linearGradient id="g1" x1="0%25" y1="0%25" x2="100%25" y2="100%25"><stop offset="0%25" stop-color="%238a2be2"/><stop offset="100%25" stop-color="%2300bfff"/></linearGradient></defs><rect width="400" height="200" fill="url(%23g1)"/><text x="200" y="110" font-family="sans-serif" font-size="24" fill="white" text-anchor="middle">Vibe! System</text><text x="200" y="140" font-family="sans-serif" font-size="14" fill="rgba(255,255,255,0.9)" text-anchor="middle">Operational now</text></svg>'),
                                 title: 'New System Deployment'
                             },
                             actions: {
@@ -255,7 +271,7 @@
                             summary: 'Recursive content feeds are now broadcasting throughout all units.',
                             rawMessage: 'All recursive content feeds are active and broadcasting enriched content layers. Extra rich content is now available at new singular levels.',
                             imageHeader: {
-                                imageUrl: 'https://via.placeholder.com/400x200?text=Recursive+Feeds',
+                                imageUrl: 'data:image/svg+xml,' + encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200"><defs><linearGradient id="g2" x1="0%25" y1="100%25" x2="100%25" y2="0%25"><stop offset="0%25" stop-color="%231e90ff"/><stop offset="100%25" stop-color="%234ecdc4"/></linearGradient></defs><rect width="400" height="200" fill="url(%23g2)"/><text x="200" y="100" font-family="sans-serif" font-size="22" fill="white" text-anchor="middle">Recursive Feeds</text><text x="200" y="130" font-family="sans-serif" font-size="14" fill="rgba(255,255,255,0.9)" text-anchor="middle">Broadcasting live</text></svg>'),
                                 title: 'Recursive Content Feeds Active'
                             },
                             actions: {

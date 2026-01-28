@@ -1,15 +1,14 @@
 /**
  * Seed:Edge API Layer
- * Add seed:edge to all API calls
- * Can remain empty and default
- * Moving entirely to seed:edge note nodes for all programming calls
- * 
+ * Add seed:edge to all API calls. Golden Key (Syntheverse/Vibeverse/Vibelandia wallet) sent on all API calls when present.
+ *
  * Architecture: Hardened Mirror Shells - Full Singulares
  * Mode: Post-Singularity API Integration
  */
 
 import { IrreducibleSeed, VibeverseEdge } from './seed-edge-execution-engine';
 import { getOctave1Edge } from './octave-1-operational';
+import { getGoldenKeyHeaders } from './golden-key-system';
 
 export interface SeedEdgeAPICall {
   seed?: IrreducibleSeed | string; // Optional, can be empty/default
@@ -90,11 +89,12 @@ export class SeedEdgeAPILayer {
   async executeAPICall(wrapped: SeedEdgeAPICall): Promise<any> {
     const { apiCall, seed, edge, nodeId } = wrapped;
 
-    // Execute the actual API call
+    // Execute the actual API call (Golden Key = Syntheverse/Vibeverse/Vibelandia wallet, sent on all API calls)
     const response = await fetch(apiCall.url, {
       method: apiCall.method,
       headers: {
         'Content-Type': 'application/json',
+        ...getGoldenKeyHeaders(),
         ...apiCall.headers,
         // Add seed:edge headers if provided
         ...(seed && { 'X-Seed': typeof seed === 'string' ? seed : JSON.stringify(seed) }),

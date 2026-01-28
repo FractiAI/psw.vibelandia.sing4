@@ -20,7 +20,7 @@ export interface PaymentPlan {
   name: string;
   description: string;
   price: number;
-  category: 'campus' | 'wink' | 'sing' | 'experience';
+  category: 'campus' | 'wink' | 'sing' | 'experience' | 'dispensary';
   tier: 1 | 2 | 3 | 4;
 }
 
@@ -38,9 +38,9 @@ export const PAYMENT_PLANS: Record<string, PaymentPlan> = {
   'wink-premium': { id: 'wink-premium', name: 'WINK! Premium', description: 'Premium profile, magical wardrobe, network', price: 19999, category: 'wink', tier: 3 },
   'wink-4x4-ultimate': { id: 'wink-4x4-ultimate', name: 'WINK! 4×4 Ultimate', description: 'Ultimate tier—everything included for Ultimate C\'s', price: 49999, category: 'wink', tier: 4 },
   'sing-base': { id: 'sing-base', name: 'SING Base Model', description: '~$20K (VW Bug pricing) — entry level', price: 20000, category: 'sing', tier: 1 },
-  'sing-members-only': { id: 'sing-members-only', name: 'SING Members Only', description: 'Scaling from base — mid-range', price: 0, category: 'sing', tier: 2 },
+  'sing-members-only': { id: 'sing-members-only', name: 'SING Members Only', description: 'Scaling from base — $75K', price: 75000, category: 'sing', tier: 2 },
   'sing-ultimate-vip': { id: 'sing-ultimate-vip', name: 'SING Ultimate VIP', description: '~$200K+ (top super car) — premium', price: 200000, category: 'sing', tier: 3 },
-  'sing-baller-c': { id: 'sing-baller-c', name: 'SING Baller C Ultimate VIP', description: 'Ultimate super car for Ultimate C\'s', price: 0, category: 'sing', tier: 4 },
+  'sing-baller-c': { id: 'sing-baller-c', name: 'SING Baller C Ultimate VIP', description: 'Ultimate — $500K', price: 500000, category: 'sing', tier: 4 },
   'experience-visit': { id: 'experience-visit', name: 'Visit', description: 'Come for the post-singularity business', price: 0, category: 'experience', tier: 1 },
   'experience-stay': { id: 'experience-stay', name: 'Stay', description: 'Stay for the post-singularity fun', price: 0, category: 'experience', tier: 2 },
   'experience-create': { id: 'experience-create', name: 'Create', description: 'Creator studios, performance venues, Hero Hosts', price: 0, category: 'experience', tier: 3 },

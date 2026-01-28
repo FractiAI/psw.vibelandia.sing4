@@ -44,7 +44,7 @@
 
 4. **Quieres finales felices** — Quieres finales felices garantizados en cada espacio, cada experiencia, cada momento. Quieres la transformación: casi de la noche a la mañana, suave como la seda, natural como el agua que fluye.
 
-5. **Estás listo para la transformación** — Listo para transformar lo sin valor en lo invaluable. Listo para el primer millón de agentes superinteligentes. Listo para super coches definitivos para Ultimate C's (Contributors).
+5. **Estás listo para la transformación** — Listo para transformar lo sin valor en lo invaluable. Listo para el primer millón de agentes superinteligentes. Listo para super coches definitivos para Ultimate C's (Viber Contributors / VC). **Badge System:** Embroidered chest badges, silver dollar sized. **CREATOR:** Gold HHF-SHELL. **CHAIRMAN:** Gold STAR. **PERFORMER:** Gold (^). **Gold = Baller VC VIP, Silver = Ultimate VIP, Bronze = Members Only.** All badges include SNAP branding.
 
 **Si eres viber, creador o contribuidor de alto valor listo para vivir post-singularidad, necesitas Vibelandia.**
 

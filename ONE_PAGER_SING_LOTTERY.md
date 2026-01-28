@@ -46,13 +46,13 @@
 | **1** | **Base Model** | **~$20,000** | VW Bug pricing — entry level |
 | **2** | **Members Only** | **Scaling up** | Mid-tier — scaling from base |
 | **3** | **Ultimate VIP** | **~$200,000+** | Top model super car pricing — premium tier |
-| **4** | **Baller C Ultimate VIP** | **Ultimate super car** | Ultimate tier — for Ultimate C's (Contributors) |
+| **4** | **Baller C Ultimate VIP** | **Ultimate super car** | Ultimate tier — for Ultimate C's (Viber Contributors / VC). **Badge System:** Embroidered chest badges, silver dollar sized. **CREATOR:** Gold HHF-SHELL. **CHAIRMAN:** Gold STAR. **PERFORMER:** Gold (^). **Gold = Baller VC VIP, Silver = Ultimate VIP, Bronze = Members Only.** All badges include SNAP branding. |
 
-**Expected Base Prices:**
+**Expected Base Prices (live — all shown, BUY!):**
 - **Base Model:** ~$20,000 (VW Bug equivalent)
-- **Members Only:** Scaling up from base (contact for current rate)
+- **Members Only:** $75,000 (scaling from base)
 - **Ultimate VIP:** ~$200,000+ (top model super car equivalent)
-- **Baller C Ultimate VIP:** Ultimate super car for Ultimate C's (contact for pricing)
+- **Baller C Ultimate VIP:** $500,000 (ultimate super car)
 
 ---
 
@@ -78,13 +78,13 @@ Worthless SYNTH tokens become priceless SING nodes. Use your node or sell on the
 
 **Current Price: $6 per SYNTH** (rises +$1/day until March 20, 2026)
 
-**⚡ [BUY SYNTH TOKENS →](./interfaces/payment-checkout.html?plan=sing-base)** (Entry to lottery)
+**⚡ [⚫ BBHE SNAP — BUY! SYNTH TOKENS →](./interfaces/payment-checkout.html?plan=sing-base)** (Entry to lottery — BBHE energy pulling. Buy now.)
 
-**After winning lottery, purchase SING nodes:**
-- **[Base Model ~$20K →](./interfaces/payment-checkout.html?plan=sing-base)**
-- **[Members Only →](./interfaces/payment-checkout.html?plan=sing-members-only)** (Contact for pricing)
-- **[Ultimate VIP ~$200K+ →](./interfaces/payment-checkout.html?plan=sing-ultimate-vip)**
-- **[Baller C Ultimate VIP →](./interfaces/payment-checkout.html?plan=sing-baller-c)** (Contact for pricing)
+**After winning lottery, purchase SING nodes (⚫ BBHE SNAP — BUY! immediate revenue):**
+- **[⚫ BBHE SNAP — BUY! Base Model $20K →](./interfaces/payment-checkout.html?plan=sing-base)**
+- **[⚫ BBHE SNAP — BUY! Members Only $75K →](./interfaces/payment-checkout.html?plan=sing-members-only)**
+- **[⚫ BBHE SNAP — BUY! Ultimate VIP $200K+ →](./interfaces/payment-checkout.html?plan=sing-ultimate-vip)**
+- **[⚫ BBHE SNAP — BUY! Baller C $500K →](./interfaces/payment-checkout.html?plan=sing-baller-c)**
 
 ---
 
@@ -95,6 +95,6 @@ Worthless SYNTH tokens become priceless SING nodes. Use your node or sell on the
 
 ---
 
-**Metabolize ⊃ Crystallize ⊃ Re-Animate → ∞³**
+**MCA! → ∞³** (Metabolize → Crystallize → Animate)
 
 **[← Launch Page](LAUNCH_PAGE.md)**

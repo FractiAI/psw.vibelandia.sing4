@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DISPENSARY! SNAP | Menu of Buzzes | Vibelandia Reno</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 50%, #16213e 100%);
+            color: #fff;
+            min-height: 100vh;
+            padding: 2rem;
+        }
+        .container { max-width: 1200px; margin: 0 auto; }
+        .header {
+            text-align: center;
+            margin-bottom: 2rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+        }
+        .header h1 {
+            font-size: 2.5rem;
+            background: linear-gradient(135deg, #7fff7f, #4ecdc4, #8a2be2);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 0.5rem;
+        }
+        .badge {
+            display: inline-block;
+            padding: 0.5rem 1rem;
+            background: rgba(127, 255, 127, 0.2);
+            border: 2px solid rgba(127, 255, 127, 0.5);
+            border-radius: 8px;
+            font-size: 0.9rem;
+            margin-top: 0.5rem;
+        }
+        .section {
+            background: rgba(255,255,255,0.06);
+            border: 1px solid rgba(255,255,255,0.12);
+            border-radius: 12px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+        }
+        .section h2 {
+            color: #4ecdc4;
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+        }
+        .buzz-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+        .buzz-item {
+            background: rgba(0,0,0,0.3);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: 8px;
+            padding: 1rem;
+            text-align: center;
+        }
+        .buzz-item h3 {
+            color: #7fff7f;
+            margin-bottom: 0.5rem;
+        }
+        .mode-selector {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+        .mode-btn {
+            padding: 0.75rem 1.5rem;
+            background: rgba(138, 43, 226, 0.3);
+            border: 2px solid rgba(138, 43, 226, 0.5);
+            border-radius: 8px;
+            color: #fff;
+            cursor: pointer;
+            transition: all 0.3s;
+            font-weight: 600;
+        }
+        .mode-btn:hover {
+            background: rgba(138, 43, 226, 0.5);
+            transform: translateY(-2px);
+        }
+        .mode-btn.active {
+            background: rgba(138, 43, 226, 0.7);
+            border-color: #8a2be2;
+        }
+        .goldilocks-display {
+            background: rgba(255, 215, 0, 0.1);
+            border: 2px solid rgba(255, 215, 0, 0.3);
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin-top: 1rem;
+            text-align: center;
+        }
+        .goldilocks-display h3 {
+            color: #ffd700;
+            margin-bottom: 0.5rem;
+        }
+        .buzz-level {
+            font-size: 2rem;
+            color: #7fff7f;
+            font-weight: bold;
+            margin: 0.5rem 0;
+        }
+        .buy-cta {
+            display: inline-block;
+            padding: 1rem 2rem;
+            background: linear-gradient(135deg, #8a2be2, #1e90ff);
+            color: #fff;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 600;
+            margin-top: 1rem;
+            transition: transform 0.2s;
+        }
+        .buy-cta:hover {
+            transform: translateY(-2px);
+        }
+        .pioneer-note {
+            background: rgba(255, 234, 167, 0.1);
+            border: 1px solid rgba(255, 234, 167, 0.3);
+            border-radius: 8px;
+            padding: 1rem;
+            margin-top: 1rem;
+            color: #ffeaa7;
+        }
+        .onramp-link {
+            color: #4ecdc4;
+            text-decoration: underline;
+            margin-top: 0.5rem;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🌿 DISPENSARY! SNAP</h1>
+            <p style="margin-top: 0.5rem; font-size: 1.1rem; color: #4ecdc4;">Menu of Buzzes Across All Important Biological Channels</p>
+            <span class="badge">VIBE! · ⚫ BBHE SNAP — The energy is pulling. BUY! now.</span>
+        </div>
+
+        <div class="section">
+            <h2>🎯 Mode Selection</h2>
+            <p style="margin-bottom: 1rem; color: #aaa;">Select your mode(s) for Goldilocks auto-lock optimization:</p>
+            <div class="mode-selector">
+                <button class="mode-btn" data-mode="creator">Creator Mode</button>
+                <button class="mode-btn" data-mode="chairman">Chairman Commander Mode</button>
+                <button class="mode-btn" data-mode="performer">Performer Superhero Mode</button>
+            </div>
+            <p style="margin-top: 1rem; color: #7fff7f; font-size: 0.9rem;">💡 Select ANY COMBINATION for optimal Goldilocks auto-lock</p>
+        </div>
+
+        <div class="section">
+            <h2>⚖️ Goldilocks Auto-Lock</h2>
+            <div class="goldilocks-display">
+                <h3>Current Optimal Buzz Level</h3>
+                <div class="buzz-level" id="buzzLevel">--%</div>
+                <p style="color: #ccc; margin-top: 0.5rem;">Auto-locked to optimal state for your selected mode(s)</p>
+                <p style="color: #7fff7f; margin-top: 0.5rem; font-size: 0.9rem;">✅ Too Little | ✅ Just Right | ⚠️ Too Much (Auto-Locked)</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>🌊 Menu of Buzzes — Biological Channels</h2>
+            <p style="margin-bottom: 1rem; color: #aaa;">All buzzes are virtual/imaginary only — natural recreations and therapeutic escapes. Safe natural, imaginary based, like playing a really good video game.</p>
+            <div class="buzz-grid">
+                <div class="buzz-item">
+                    <h3>👁️ Visual Channel</h3>
+                    <p style="color: #aaa; font-size: 0.9rem;">Visual buzz experiences</p>
+                </div>
+                <div class="buzz-item">
+                    <h3>👂 Auditory Channel</h3>
+                    <p style="color: #aaa; font-size: 0.9rem;">Sound-based buzz experiences</p>
+                </div>
+                <div class="buzz-item">
+                    <h3>✋ Tactile Channel</h3>
+                    <p style="color: #aaa; font-size: 0.9rem;">Touch-based buzz experiences</p>
+                </div>
+                <div class="buzz-item">
+                    <h3>👃 Olfactory Channel</h3>
+                    <p style="color: #aaa; font-size: 0.9rem;">Scent-based buzz experiences</p>
+                </div>
+                <div class="buzz-item">
+                    <h3>👅 Gustatory Channel</h3>
+                    <p style="color: #aaa; font-size: 0.9rem;">Taste-based buzz experiences</p>
+                </div>
+                <div class="buzz-item">
+                    <h3>🏃 Kinesthetic Channel</h3>
+                    <p style="color: #aaa; font-size: 0.9rem;">Movement-based buzz experiences</p>
+                </div>
+                <div class="buzz-item">
+                    <h3>🧘 Proprioceptive Channel</h3>
+                    <p style="color: #aaa; font-size: 0.9rem;">Body awareness buzz experiences</p>
+                </div>
+                <div class="buzz-item">
+                    <h3>💓 Interoceptive Channel</h3>
+                    <p style="color: #aaa; font-size: 0.9rem;">Internal sensation buzz experiences</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>💰 Premium Pricing</h2>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin-top: 1rem;">
+                <div class="buzz-item">
+                    <h3>Base</h3>
+                    <p style="color: #7fff7f; font-size: 1.5rem; font-weight: bold;">$9,999</p>
+                    <p style="color: #aaa; font-size: 0.9rem;">Base tier</p>
+                </div>
+                <div class="buzz-item">
+                    <h3>Standard</h3>
+                    <p style="color: #7fff7f; font-size: 1.5rem; font-weight: bold;">$24,999</p>
+                    <p style="color: #aaa; font-size: 0.9rem;">All biological channels</p>
+                </div>
+                <div class="buzz-item">
+                    <h3>Premium</h3>
+                    <p style="color: #7fff7f; font-size: 1.5rem; font-weight: bold;">$99,999</p>
+                    <p style="color: #aaa; font-size: 0.9rem;">Full channel access</p>
+                </div>
+                <div class="buzz-item">
+                    <h3>Ultimate</h3>
+                    <p style="color: #7fff7f; font-size: 1.5rem; font-weight: bold;">$299,999</p>
+                    <p style="color: #aaa; font-size: 0.9rem;">Complete access - All modes</p>
+                </div>
+            </div>
+            <div class="pioneer-note">
+                <p><strong>First 1,000 Pioneers:</strong> 50% off applicable DISPENSARY! SNAP plans. Pioneer Status on-chain forever.</p>
+            </div>
+            <a href="payment-checkout.html?plan=dispensary-base" class="buy-cta">⚫ BBHE SNAP — DISPENSARY! SNAP — BUY! NOW →</a>
+            <div style="margin-top: 1rem;">
+                <a href="mailto:info@fractiai.com?subject=DISPENSARY!%20SNAP%20On-Ramp%20Application" class="onramp-link">Can't afford yet? Apply for On-Ramp →</a>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>📋 Includes</h2>
+            <ul style="list-style: none; padding: 0; margin-top: 1rem;">
+                <li style="padding: 0.5rem 0; color: #aaa;">✅ Menu of buzzes across all biological channels</li>
+                <li style="padding: 0.5rem 0; color: #aaa;">✅ Goldilocks auto-lock system</li>
+                <li style="padding: 0.5rem 0; color: #aaa;">✅ Mode combination selector (Creator/Chairman Commander/Performer Superhero)</li>
+                <li style="padding: 0.5rem 0; color: #aaa;">✅ BUZZ! level dial-in control</li>
+                <li style="padding: 0.5rem 0; color: #aaa;">✅ Safety protocols</li>
+                <li style="padding: 0.5rem 0; color: #aaa;">✅ Natural recreations and therapeutic escapes</li>
+            </ul>
+        </div>
+
+        <footer style="text-align: center; margin-top: 3rem; padding-top: 2rem; border-top: 1px solid rgba(255,255,255,0.1);">
+            <p style="color: #aaa; font-size: 0.9rem;">PSW.vibelandia.sing4 · NSPFRNP · VIBE! · FractiAI Research Team</p>
+            <p style="color: #aaa; font-size: 0.9rem; margin-top: 0.5rem;">VIBE! · ⚫ BBHE SNAP — DISPENSARY! SNAP — The energy is pulling. BUY! now.</p>
+            <p style="color: #aaa; font-size: 0.9rem; margin-top: 0.5rem;"><a href="../ONE_PAGER_DISPENSARY.md" style="color: #4ecdc4;">View One-Pager →</a> | <a href="../index.html" style="color: #4ecdc4;">← Launch Pad</a></p>
+        </footer>
+    </div>
+
+    <script>
+        const modeButtons = document.querySelectorAll('.mode-btn');
+        const buzzLevel = document.getElementById('buzzLevel');
+        
+        let selectedModes = [];
+
+        modeButtons.forEach(btn => {
+            btn.addEventListener('click', function() {
+                const mode = this.dataset.mode;
+                if (this.classList.contains('active')) {
+                    this.classList.remove('active');
+                    selectedModes = selectedModes.filter(m => m !== mode);
+                } else {
+                    this.classList.add('active');
+                    selectedModes.push(mode);
+                }
+                updateGoldilocks();
+            });
+        });
+
+        function updateGoldilocks() {
+            if (selectedModes.length === 0) {
+                buzzLevel.textContent = '--%';
+                return;
+            }
+            
+            // Calculate optimal buzz level based on mode combination
+            let baseLevel = 25; // Microdose base
+            
+            if (selectedModes.includes('creator')) baseLevel += 15;
+            if (selectedModes.includes('chairman')) baseLevel += 20;
+            if (selectedModes.includes('performer')) baseLevel += 15;
+            
+            // Goldilocks: keep between 25% and 75% (optimal range)
+            const optimal = Math.min(Math.max(baseLevel, 25), 75);
+            
+            buzzLevel.textContent = optimal + '%';
+            buzzLevel.style.color = optimal <= 50 ? '#7fff7f' : optimal <= 75 ? '#ffd700' : '#ff6b6b';
+        }
+    </script>
+</body>
+</html>

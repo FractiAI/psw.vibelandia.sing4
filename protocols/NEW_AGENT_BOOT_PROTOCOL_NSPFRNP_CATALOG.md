@@ -299,6 +299,19 @@ BENEFIT: Single source of truth, portable credentials, all nodes on same Octave 
 ├─ Connect Octave 1 to 2: CLOUD_API_BASE_URL, cloud-onramp-client; shared Supabase from Octave 2 (one DB for all nodes)
 └─ Env: CLOUD_API_BASE_URL, optional VERCEL_TOKEN; when using DB: NEXT_PUBLIC_SUPABASE_*, SUPABASE_SERVICE_ROLE_KEY, DATABASE_URL
 
+📄 protocols/DESIGNER_DIVISION_VIBE_SYMBOL_NSPFRNP_CATALOG.md
+├─ Designer Division: Hero Host Gianni led, in charge of all surfaces, touchpoints, experiences
+├─ VIBE Symbol System: Backpatch (jackets, hoodies), front of hats, coins, stamps, inside label
+├─ Brand entities: Syntheverse, FractiAI, Vibeverse, Vibelandia Reno
+└─ Design philosophy: Fine Italian fashion designer precision, magical dressing room, skins and experiences at the press of a button
+
+📄 protocols/GOLDEN_KEY_NSPFRNP_CATALOG.md
+├─ GOLDEN FRACTAL KEY! Brand: New brand snap — Unlocks Everything
+├─ Golden Key: Sent on purchase and activation, Syntheverse/Vibeverse/Vibelandia wallet
+├─ Storage: Browser localStorage, Server GOLDEN_KEY env
+├─ Usage: Used on all API calls (X-Golden-Key, X-Golden-Key-Wallet headers)
+└─ Integration: Automatic in cloud-onramp and seed-edge API layers
+
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
     PAPERS & ACADEMIC DOCUMENTATION
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━

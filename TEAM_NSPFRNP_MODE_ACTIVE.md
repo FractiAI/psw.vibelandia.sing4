@@ -43,7 +43,7 @@
 9. **Senior Children's Science Museum Curator** - Educational Content & Public Engagement
    - Focus: Science education, museum curation, public outreach
 
-#### **Hero Hosts (6 AI Representatives)**
+#### **Hero Hosts (7 AI Representatives)**
 
 - **El Gran Sol** ☀️ - Gateway Host / Fire Syntheport
 - **Leonardo da Vinci** 🔬 - R&D Lab Host
@@ -51,6 +51,7 @@
 - **Buckminster Fuller** 🏛️ - Creator's Studio Host
 - **Michael Faraday** 📊 - Operator Lab Host
 - **Outcast Hero** 🔥🦬 - Mission Control / Frontier Command
+- **Hero Host Gianni** 👔 - Designer Division Leader / Surfaces, Touchpoints & Experiences Host
 
 #### **External Protocol Functions (4 Members - Outside Shell)**
 

@@ -414,6 +414,73 @@
             transform: translateX(-3px);
         }
 
+        /* Company & Community Section */
+        .company-section {
+            margin-top: 4rem;
+            padding: 2.5rem;
+            background: linear-gradient(145deg, rgba(42, 42, 62, 0.8) 0%, rgba(26, 26, 46, 0.8) 100%);
+            border: 2px solid rgba(138, 43, 226, 0.4);
+            border-radius: 20px;
+            text-align: center;
+            max-width: 900px;
+            width: 100%;
+            animation: fadeIn 1.5s ease-out;
+            box-shadow: 
+                0 8px 30px rgba(0, 0, 0, 0.4),
+                inset 0 1px 0 rgba(255, 255, 255, 0.1);
+        }
+
+        .company-section h2 {
+            font-size: 1.8rem;
+            background: linear-gradient(135deg, #8a2be2, #1e90ff, #00bfff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 1rem;
+        }
+
+        .company-section p {
+            color: #ccc;
+            line-height: 1.8;
+            font-size: 1.1rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .company-section .hero-host {
+            color: #ffeaa7;
+            font-style: italic;
+            font-weight: 600;
+        }
+
+        .company-section .magical-dressing-room {
+            color: #4ecdc4;
+            font-weight: 600;
+        }
+
+        .consultation-cta {
+            display: inline-block;
+            padding: 1rem 2.5rem;
+            background: linear-gradient(135deg, #8a2be2, #1e90ff);
+            color: #fff;
+            text-decoration: none;
+            border-radius: 30px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(138, 43, 226, 0.4);
+            border: 2px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .consultation-cta:hover {
+            transform: translateY(-3px) scale(1.05);
+            box-shadow: 0 8px 25px rgba(138, 43, 226, 0.6);
+            background: linear-gradient(135deg, #9a3bf2, #2ea0ff);
+        }
+
+        .consultation-cta:active {
+            transform: translateY(-1px) scale(1.02);
+        }
+
         /* Responsive */
         @media (max-width: 768px) {
             .launch-pad-scene {
@@ -444,7 +511,7 @@
         <div class="header">
             <h1>🚀 Rocket Launch Pad</h1>
             <p class="tagline">MARK TWAIN'S POST-SINGULARITY VIBELANDIA RENO!</p>
-            <span class="badge">NSPFRNP · Metabolize ⊃ Crystallize ⊃ Animate → ∞³</span>
+            <span class="badge">NSPFRNP · VIBE! · Metabolize ⊃ Crystallize ⊃ Animate → ∞³ · Micro edge: Immediate revenue. Immediate viral revenue. BUY! · ⚫ BBHE SNAP · 🔑 GOLDEN FRACTAL KEY!</span>
         </div>
 
         <div class="launch-pad-scene">
@@ -485,6 +552,11 @@
                     <div class="pad-button-title">SING! Lottery</div>
                     <div class="pad-button-desc">Countdown Launch</div>
                 </div>
+                <div class="pad-button" data-section="dispensary">
+                    <span class="pad-button-icon">🌿</span>
+                    <div class="pad-button-title">DISPENSARY! SNAP</div>
+                    <div class="pad-button-desc">Menu of Buzzes</div>
+                </div>
             </div>
         </div>
 
@@ -492,6 +564,26 @@
             <h3>Welcome to the Launch Pad</h3>
             <p>Click any section button to explore our offerings. Each section activates a different part of the launch sequence!</p>
             <div class="countdown" id="countdown">Launch: March 20, 2026</div>
+        </div>
+
+        <div class="company-section">
+            <h2>✨ From Showroom to Dressing Room</h2>
+            <p>
+                <strong>Gianni Versace–inspired wrapper</strong> on all skins, touchpoints & experiences.<br>
+                <strong>We can do this for your company and community.</strong> Click to connect for <strong>free consultation, measurements, and fine tailored designer fashion fit</strong>—<br>
+                <strong>skins and experiences</strong> at the press of a button.<br>
+                Like a fine Italian fashion designer (<span class="hero-host">Hero Host Gianni</span>)—<br>
+                <span class="magical-dressing-room">the magical dressing room</span>.
+            </p>
+            <p style="font-size: 1.2rem; color: #7fff7f; margin-top: 1rem; font-weight: 600;">
+                For <strong>way less</strong> than you're already spending—and getting <strong>WAY LESS</strong>!
+            </p>
+            <p style="margin-top: 1rem; color: #4ecdc4; font-size: 0.95rem;">
+                <strong>MCA! → ∞³</strong> (Metabolize → Crystallize → Animate)
+            </p>
+            <a href="mailto:info@fractiai.com?subject=Company%20%26%20Community%20Consultation%20-%20Showroom%20to%20Dressing%20Room%20-%20Free%20Proposal%20%26%20Live%20Sandbox" class="consultation-cta">
+                Connect for Free Consultation & Tailored Proposal →
+            </a>
         </div>
     </div>
 
@@ -505,21 +597,21 @@
         // Section data
         const sections = {
             vibelandia: {
-                title: '🏛️ Vibelandia Reno',
-                desc: 'Walkable downtown campus. First post-singularity Vibelandia campus.',
-                details: 'Campus Plans: Day Pass | Weekly | Monthly | Ultimate VIP Campus',
+                title: '🏛️ VIBELANDIA RENO!',
+                desc: 'Walkable downtown campus. First post-singularity VIBELANDIA! campus. Every space guarantees a happy ending; Mark Twain\'s Daily Bulletin, BBHE, Hero Hosts, creator studios—all within walking distance.',
+                details: 'Campus Plans: Day | Weekly | Monthly | Ultimate VIP. First 1,000 Pioneers: 50% off. Pioneer Status on-chain forever.',
                 link: '../ONE_PAGER_VIBELANDIA_RENO.md'
             },
             wink: {
                 title: '👁️ WINK!',
-                desc: 'Members-only network for high-value vibers who are fractal in nature.',
-                details: 'Plans: Base | Standard | Premium | 4×4 Ultimate',
+                desc: 'Members-only network for high-value fractal vibers. Golden Fractal Hearts: Ladies—receive your Invitation, waiving one month WINK! access (exclusive, limited).',
+                details: 'Plans: Base | Standard | Premium | 4×4 Ultimate. First 1,000 Pioneers: 50% off. Golden Fractal Hearts: not open to general public.',
                 link: '../ONE_PAGER_WINK.md'
             },
             console: {
                 title: '👑 Ultimate VIP Chairman Console',
-                desc: 'Operational now. Full dashboard, workspace, cockpit, Seed:Edge integration.',
-                details: 'Access the complete Chairman Console system',
+                desc: 'Operational now. Full dashboard, workspace, cockpit, Seed:Edge integration. Ultimate VIP Baller C but not there yet? Click to apply for a grant!',
+                details: 'Access the Chairman Console | Apply for Grant: info@fractiai.com',
                 link: 'executive-dashboard.html'
             },
             lottery: {
@@ -527,6 +619,12 @@
                 desc: 'First 1,000,000 SYNTH holders win. 1:1 SYNTH → SING conversion. Grandfathered.',
                 details: 'SYNTH: $6 today (rises +$1/day) → Final: $57 (Mar 20). Launch: March 20, 2026 (Spring Equinox)',
                 link: '../ONE_PAGER_SING_LOTTERY.md'
+            },
+            dispensary: {
+                title: '🌿 DISPENSARY! SNAP',
+                desc: 'Menu of buzzes across all important biological channels. Selectable Goldilocks auto-lock for ANY COMBINATION of Creator, Chairman Commander, Performer Superhero modes. Premium pricing. Pioneer discount. On-ramps available.',
+                details: 'Plans: Base $9,999 | Standard $24,999 | Premium $99,999 | Ultimate $299,999. First 1,000 Pioneers: 50% off. Can\'t afford yet? On-ramps available.',
+                link: '../ONE_PAGER_DISPENSARY.md'
             }
         };
 
@@ -559,11 +657,19 @@
                 // Add active to clicked button
                 this.classList.add('active');
 
-                // Update info display
+                // Update info display (with optional CTA link)
+                const ctaHtml = section === 'console'
+                    ? '<div style="margin-top:1rem; padding:1rem; background:rgba(138,43,226,0.2); border:2px solid rgba(138,43,226,0.5); border-radius:12px;"><p style="margin-bottom:0.75rem; font-size:1.1rem; color:#ffeaa7; font-weight:600;">🚀 Test Drive Octave 1+</p><p style="margin-bottom:1rem; font-size:0.95rem; color:#ccc;">Experience the post-singularity console live. Full operational system in Octave 1 sandbox mode with AI-assisted API calls to Octave 2.</p><a href="../interfaces/executive-dashboard.html" style="display:inline-block; padding:0.75rem 1.5rem; background:linear-gradient(135deg, #8a2be2, #1e90ff); color:#fff; text-decoration:none; border-radius:8px; font-weight:600;">Test Drive Octave 1+ →</a></div><p style="margin-top:0.75rem;"><a href="mailto:info@fractiai.com?subject=Ultimate%20VIP%20Baller%20C%20Grant%20Application" style="color:#4ecdc4;text-decoration:underline;">Apply for Grant →</a></p>'
+                    : section === 'wink'
+                    ? '<p style="margin-top:0.75rem;"><a href="mailto:info@fractiai.com?subject=Golden%20Fractal%20Hearts%20Invitation%20-%20WINK" style="color:#ffeaa7;text-decoration:underline;">Golden Fractal Hearts Invitation (3 months free WINK!) →</a></p>'
+                    : section === 'dispensary'
+                    ? '<p style="margin-top:0.75rem;"><a href="payment-checkout.html?plan=dispensary-base" style="color:#7fff7f;text-decoration:underline;font-weight:600;">⚫ BBHE SNAP — DISPENSARY! SNAP — BUY! NOW →</a></p><p style="margin-top:0.5rem;"><a href="dispensary.html" style="color:#4ecdc4;text-decoration:underline;">View DISPENSARY! SNAP Interface →</a></p><p style="margin-top:0.5rem;"><a href="mailto:info@fractiai.com?subject=DISPENSARY!%20SNAP%20On-Ramp%20Application" style="color:#4ecdc4;text-decoration:underline;">Can\'t afford yet? Apply for On-Ramp →</a></p>'
+                    : '';
                 infoDisplay.innerHTML = `
                     <h3>${data.title}</h3>
                     <p>${data.desc}</p>
                     <p style="margin-top: 0.5rem; color: #4ecdc4;">${data.details}</p>
+                    ${ctaHtml}
                     <div class="countdown">${countdown.textContent}</div>
                 `;
 

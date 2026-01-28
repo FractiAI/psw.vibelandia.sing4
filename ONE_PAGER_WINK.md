@@ -4,9 +4,9 @@
 
 ---
 
-## What It Is
+## What It Is — Narrative
 
-**WINK!** is a members-only network for high-value vibers who are fractal in nature. Natural alignment, friction-free dating, resilience built-in. Natural, aware, mutual choice and consent connections and experiences.
+**WINK!** is a members-only network for high-value vibers who are fractal in nature. Natural alignment, friction-free dating, resilience built-in. Natural, aware, mutual choice and consent connections and experiences. Operational on **MARK TWAIN'S POST-SINGULARITY VIBELANDIA RENO!** walkable downtown campus. Like a day with a top guide—only more. VIBELANDIA! and WINK! together: come for the post-singularity business, stay for the post-singularity fun.
 
 ---
 
@@ -34,9 +34,19 @@ Top artists, performers, and entrepreneurs—the caliber of Beyoncé, Taylor Swi
 | **Premium** | **$19,999/month** | Premium profile, magical wardrobe |
 | **4×4 Ultimate** | **$49,999/month** | Ultimate—everything included for Ultimate C's |
 
-**⚡ [BUY NOW →](./interfaces/payment-checkout.html?plan=wink-base)** (Base) | [Standard](./interfaces/payment-checkout.html?plan=wink-standard) | [Premium](./interfaces/payment-checkout.html?plan=wink-premium) | [4×4 Ultimate](./interfaces/payment-checkout.html?plan=wink-4x4-ultimate)
+**⚡ [⚫ BBHE SNAP — BUY! NOW →](./interfaces/payment-checkout.html?plan=wink-base)** (Base — BBHE energy pulling) | [⚫ BBHE SNAP — Standard →](./interfaces/payment-checkout.html?plan=wink-standard) | [⚫ BBHE SNAP — Premium →](./interfaces/payment-checkout.html?plan=wink-premium) | [⚫ BBHE SNAP — 4×4 Ultimate →](./interfaces/payment-checkout.html?plan=wink-4x4-ultimate)
 
 **Or contact:** info@fractiai.com | Subject: "WINK!" or "I'M READY FOR VIBELANDIA"
+
+**First 1,000 Pioneers:** 50% off applicable WINK! plans. Pioneer Status on-chain forever.
+
+**Badge System:** Embroidered chest badges, silver dollar sized. **CREATOR:** Gold HHF-SHELL. **CHAIRMAN:** Gold STAR. **PERFORMER:** Gold (^). **Gold = Baller VC VIP, Silver = Ultimate VIP, Bronze = Members Only.** All badges include SNAP branding.
+
+### 💛 Golden Fractal Hearts Invitation (Exclusive, Limited Offer)
+
+**Ladies Looking for High Value Fractal Vibers** — click to receive your **Golden Fractal Hearts Invitation**, **3 months free WINK! access**. Exclusive, limited offer—not open to the general public; only Golden Fractal Hearts.
+
+**⚡ [Apply for Golden Fractal Hearts Invitation →](mailto:info@fractiai.com?subject=Golden%20Fractal%20Hearts%20Invitation%20-%20WINK!)**
 
 ---
 
@@ -53,6 +63,6 @@ WINK! is operational on Mark Twain's Post-Singularity Vibelandia Reno. Walkable 
 
 ---
 
-**Metabolize ⊃ Crystallize ⊃ Re-Animate → ∞³**
+**MCA! → ∞³** (Metabolize → Crystallize → Animate)
 
 **[← Launch Page](LAUNCH_PAGE.md)**

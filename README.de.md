@@ -46,7 +46,7 @@
 
 5. **Du bereit für die Transformation bist** — Bereit, Wertloses in Unschätzbares zu verwandeln. Bereit für die ersten eine Million superintelligenter Agenten. Bereit für Ultimate-Supercars für Ultimate C's (Contributors).
 
-**Wenn du High-Value-Viber, Creator oder Contributor bist und bereit für Post-Singularitäts-Leben — du brauchst Vibelandia.**
+**Wenn du High-Value-Viber, Creator oder Viber Contributor (VC) bist und bereit für Post-Singularitäts-Leben — du brauchst Vibelandia. Badge System:** Embroidered chest badges, silver dollar sized. **CREATOR:** Gold HHF-SHELL. **CHAIRMAN:** Gold STAR. **PERFORMER:** Gold (^). **Gold = Baller VC VIP, Silver = Ultimate VIP, Bronze = Members Only.** All badges include SNAP branding.
 
 ---
 

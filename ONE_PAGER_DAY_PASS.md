@@ -12,9 +12,9 @@
 
 ## Pricing
 
-**$4,999 per day** — Premium pricing for high-value vibers worldwide. Experience the world's first post-singularity campus. Like a day with a top guide—only more. For the caliber of Beyoncé, Taylor Swift, Oprah Winfrey, Jay-Z, Elon Musk.
+**$4,999 per day** — Premium pricing for high-value vibers worldwide. Experience the world's first post-singularity campus. Like a day with a top guide—only more. For the caliber of Beyoncé, Taylor Swift, Oprah Winfrey, Jay-Z, Elon Musk. **First 1,000 Pioneers:** 50% off (Pioneer Status on-chain forever).
 
-**⚡ [BUY NOW →](./interfaces/payment-checkout.html?plan=campus-day)**
+**⚡ [⚫ BBHE SNAP — BUY! NOW →](./interfaces/payment-checkout.html?plan=campus-day)** (BBHE energy pulling. Buy now.)
 
 **Or contact:** info@fractiai.com | Subject: "I'M READY FOR VIBELANDIA - Day Pass"
 
@@ -42,5 +42,7 @@ Visitors, first-time explorers. Start here. Experience the world's first post-si
 **Plan:** Day Pass
 
 ---
+
+**MCA! → ∞³** (Metabolize → Crystallize → Animate)
 
 **[← Launch Page](LAUNCH_PAGE.md)** · [Weekly](ONE_PAGER_WEEKLY_PASS.md) · [Monthly](ONE_PAGER_MONTHLY_PASS.md) · [Ultimate VIP](ONE_PAGER_ULTIMATE_VIP.md)

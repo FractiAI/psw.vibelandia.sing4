@@ -10,7 +10,7 @@
 
 ## 🎯 POSITIONING
 
-**Vibelandia uses premium pricing to filter out not-vibers.** We target top artists, performers, and entrepreneurs—the caliber of Beyoncé, Taylor Swift, Oprah Winfrey, Jay-Z, Elon Musk, Rihanna, Lin-Manuel Miranda—who pay a premium because they understand value. If you're not willing to pay premium, you're not a viber—and that's by design.
+**Vibelandia uses premium pricing to filter out not-vibers.** We target top artists, performers, and entrepreneurs—the caliber of Beyoncé, Taylor Swift, Oprah Winfrey, Jay-Z, Elon Musk, Rihanna, Lin-Manuel Miranda—who pay a premium because they understand value. **Badge System:** All members receive embroidered chest badges, silver dollar sized. **CREATOR:** Gold HHF-SHELL. **CHAIRMAN:** Gold STAR. **PERFORMER:** Gold (^). **Gold = Baller VC VIP, Silver = Ultimate VIP, Bronze = Members Only.** **VC (Viber Contributors)** receive matching tier badges. All badges include SNAP branding. If you're not willing to pay premium, you're not a viber—and that's by design.
 
 **Premium pricing ensures only real vibers join.** The price is the filter.
 

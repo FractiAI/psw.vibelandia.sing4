@@ -12,9 +12,9 @@
 
 ## Pricing
 
-**$29,999 per week** — Premium pricing for high-value vibers worldwide. Full week access to all campus features. For top artists, performers, entrepreneurs.
+**$29,999 per week** — Premium pricing for high-value vibers worldwide. Full week access to all campus features. For top artists, performers, entrepreneurs. **First 1,000 Pioneers:** 50% off (Pioneer Status on-chain forever).
 
-**⚡ [BUY NOW →](./interfaces/payment-checkout.html?plan=campus-weekly)**
+**⚡ [⚫ BBHE SNAP — BUY! NOW →](./interfaces/payment-checkout.html?plan=campus-weekly)** (BBHE energy pulling. Buy now.)
 
 **Or contact:** info@fractiai.com | Subject: "I'M READY FOR VIBELANDIA - Weekly Pass"
 
@@ -43,5 +43,7 @@ Extended visits, deeper exploration. Go deeper. Full week access to all campus f
 **Plan:** Weekly Pass
 
 ---
+
+**MCA! → ∞³** (Metabolize → Crystallize → Animate)
 
 **[← Launch Page](LAUNCH_PAGE.md)** · [Day Pass](ONE_PAGER_DAY_PASS.md) · [Monthly](ONE_PAGER_MONTHLY_PASS.md) · [Ultimate VIP](ONE_PAGER_ULTIMATE_VIP.md)

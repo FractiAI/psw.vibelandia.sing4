@@ -2,11 +2,12 @@
  * Cloud Onramp API Client
  * Connects to Syntheverse 7 Octave 2-3 Public Cloud Onramp via API.
  * Uses cloud-onramp-config (env: NSPFRNP first, Vercel token fallback — handle with care).
- * NSPFRNP: Seed:Edge headers added when using fetchWithSeedEdge.
+ * NSPFRNP: Seed:Edge headers + Golden Key (Syntheverse/Vibeverse/Vibelandia wallet) on all API calls.
  */
 
 import { cloudApiUrl, getCloudOnrampConfig } from './cloud-onramp-config';
 import { fetchWithSeedEdge } from './seed-edge-api-layer';
+import { getGoldenKeyHeaders } from './golden-key-system';
 
 export interface CloudOnrampRequestOptions {
   path: string;
@@ -19,7 +20,7 @@ export interface CloudOnrampRequestOptions {
 
 /**
  * Call Public Cloud Onramp API.
- * Uses CLOUD_API_BASE_URL from env (NSPFRNP or .env); optional Vercel token in config for auth — handle with care.
+ * Uses CLOUD_API_BASE_URL from env (NSPFRNP or .env); optional Vercel token; Golden Key (wallet) sent when present.
  */
 export async function cloudOnrampFetch<T = unknown>(options: CloudOnrampRequestOptions): Promise<T> {
   const { path, method = 'GET', body, headers = {}, seedEdge = true } = options;
@@ -29,6 +30,7 @@ export async function cloudOnrampFetch<T = unknown>(options: CloudOnrampRequestO
   const baseHeaders = {
     'Content-Type': 'application/json',
     ...(config.vercelToken && { Authorization: `Bearer ${config.vercelToken}` }),
+    ...getGoldenKeyHeaders(),
     ...headers
   };
 

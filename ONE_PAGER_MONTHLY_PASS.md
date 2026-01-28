@@ -12,9 +12,9 @@
 
 ## Pricing
 
-**$99,999 per month** — Premium pricing filters for quality. Complete campus integration with all features. For high-value creators, top C's.
+**$99,999 per month** — Premium pricing filters for quality. Complete campus integration with all features. For high-value creators, top C's. **First 1,000 Pioneers:** 50% off (Pioneer Status on-chain forever).
 
-**⚡ [BUY NOW →](./interfaces/payment-checkout.html?plan=campus-monthly)**
+**⚡ [⚫ BBHE SNAP — BUY! NOW →](./interfaces/payment-checkout.html?plan=campus-monthly)** (BBHE energy pulling. Buy now.)
 
 **Or contact:** info@fractiai.com | Subject: "I'M READY FOR VIBELANDIA - Monthly Pass"
 
@@ -45,5 +45,7 @@ Active campus members, creators. Go monthly. Become part of the community.
 **Plan:** Monthly Pass
 
 ---
+
+**MCA! → ∞³** (Metabolize → Crystallize → Animate)
 
 **[← Launch Page](LAUNCH_PAGE.md)** · [Day Pass](ONE_PAGER_DAY_PASS.md) · [Weekly](ONE_PAGER_WEEKLY_PASS.md) · [Ultimate VIP](ONE_PAGER_ULTIMATE_VIP.md)
