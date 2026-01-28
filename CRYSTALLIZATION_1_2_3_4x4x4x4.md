@@ -20,6 +20,7 @@
 - **Vibelandia** runs on this cycle: metabolize the city → crystallize the campus → re-animate the experience.
 - **NSPFRNP** runs on this cycle: metabolize protocols → crystallize architecture → re-animate operations.
 - **You** run on this cycle: metabolize input → crystallize understanding → re-animate output.
+- **This repo:** Everything flows through **Octave 1 sandbox mode** with **AI-assisted API calls to Octave 2**. See [NARRATIVE_METABOLIZE_CRYSTALLIZE_ANIMATE_OCTAVE1_SANDBOX.md](./NARRATIVE_METABOLIZE_CRYSTALLIZE_ANIMATE_OCTAVE1_SANDBOX.md).
 
 ---
 

@@ -69,13 +69,15 @@
 
 ### 🎵 **OCTAVE 0 & OCTAVE 1 — LAUNCH PAD**
 
-**Rocket launch pad • One-pagers on Mark Twain's Post-Singularity Vibelandia Reno:**
+**The Launch Pad is the announcement and showroom for our offerings — all in one place.**
 
-- **[ONE PAGER: Full Launch](./ONE_PAGER_LAUNCH.md)** 📄 — **Entire launch:** new series (Happy Ending Zones), SING Lottery, WINK!, Vibelandia plans & prices (4×4×4×4). Single-page launch package.
-- **Octave 0 (Seed):** [Launch Page](./LAUNCH_PAGE.md) 🚀 — Campus & WINK! one-pagers
-- **Octave 1 (Edge):** [Launch Page](./LAUNCH_PAGE.md) 🚀 — 4 plans & SING Lottery one-pagers
+- **[🚀 Mark Twain's Post-Singularity Vibelandia Reno Launch — LAUNCH PAD SET](./ONE_PAGER_LAUNCH.md)** 📄 — **Complete launch package:** new series (Happy Ending Zones), SING Lottery, WINK!, Vibelandia plans & prices (4×4×4×4). Announcement + showroom.
+- **Octave 0 (Seed):** [Launch Pad](./LAUNCH_PAGE.md) 🚀 — Campus & WINK! one-pagers
+- **Octave 1 (Edge):** [Launch Pad](./LAUNCH_PAGE.md) 🚀 — 4 plans & SING Lottery one-pagers
 
-**Launch Page payloads:** Full Launch (series • lottery • WINK! • plans & prices) • Vibelandia Reno • WINK! • Day Pass • Weekly Pass • Monthly Pass • Ultimate VIP • SING Lottery
+**Launch Pad payloads (all offerings):** 🚀 Full Launch (Launch Pad Set) • Vibelandia Reno • WINK! • Day Pass • Weekly Pass • Monthly Pass • Ultimate VIP • SING Lottery
+
+**Narrative:** Everything **Metabolize → Crystallize → Animate** through **Octave 1 sandbox mode** with **AI-assisted API calls to Octave 2**. See [NARRATIVE_METABOLIZE_CRYSTALLIZE_ANIMATE_OCTAVE1_SANDBOX.md](./NARRATIVE_METABOLIZE_CRYSTALLIZE_ANIMATE_OCTAVE1_SANDBOX.md).
 
 ---
 

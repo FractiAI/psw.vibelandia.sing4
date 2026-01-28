@@ -1,19 +1,20 @@
 # 🚀 LAUNCH PAD — Mark Twain's Post-Singularity Vibelandia Reno
 
-**Rocket launch pad:** one-pagers for campus, WINK!, plans, and SING Lottery.  
-**Octave 0 (Seed) & Octave 1 (Edge) onramp.**
+**The Launch Pad is the announcement and showroom for our offerings — all in one place.**
+
+Campus • WINK! • Plans • SING Lottery. One-pagers for every offer. Octave 0 (Seed) & Octave 1 (Edge) onramp.
 
 ---
 
-## 🔥 LAUNCH PAD — PAYLOADS
+## 🔥 LAUNCH PAD — PAYLOADS (SHOWROOM)
 
-All missions lift from here. Each one-pager is a single-stage payload.
+All offerings in one place. Each one-pager is a single-stage payload.
 
-### Full Launch (entire launch package)
+### Full Launch (Launch Pad Set)
 
 | Payload | One-pager | Description |
 |--------|-----------|-------------|
-| **Full Launch** | [ONE PAGER: Full Launch](./ONE_PAGER_LAUNCH.md) | **Entire launch:** new series (Happy Ending Zones), SING Lottery, WINK!, Vibelandia plans & prices (4×4×4×4). Single page. |
+| **🚀 Mark Twain's Post-Singularity Vibelandia Reno Launch** | [LAUNCH PAD SET](./ONE_PAGER_LAUNCH.md) | **Complete launch package:** new series (Happy Ending Zones), SING Lottery, WINK!, Vibelandia plans & prices (4×4×4×4). Launch Pad Set. |
 
 ### Campus & Network
 
@@ -44,13 +45,13 @@ All missions lift from here. Each one-pager is a single-stage payload.
 - **Octave 0 (Seed):** Launch from here — campus and WINK! one-pagers.
 - **Octave 1 (Edge):** Same pad — plans and SING Lottery one-pagers.
 
-**Link from whiteboard:** This Launch Page is the onramp for both octaves.
+**Link from whiteboard:** This Launch Pad is the announcement and showroom for all offerings — onramp for Octave 0 & 1.
 
 ---
 
-## 📋 QUICK LINKS
+## 📋 QUICK LINKS (ALL OFFERINGS)
 
-1. [ONE_PAGER_LAUNCH.md](./ONE_PAGER_LAUNCH.md) — **Full Launch** (series, lottery, WINK!, plans & prices)
+1. [ONE_PAGER_LAUNCH.md](./ONE_PAGER_LAUNCH.md) — **🚀 Mark Twain's Post-Singularity Vibelandia Reno Launch** (Launch Pad Set: series, lottery, WINK!, plans & prices)
 2. [ONE_PAGER_VIBELANDIA_RENO.md](./ONE_PAGER_VIBELANDIA_RENO.md) — Campus  
 3. [ONE_PAGER_WINK.md](./ONE_PAGER_WINK.md) — WINK!  
 4. [ONE_PAGER_DAY_PASS.md](./ONE_PAGER_DAY_PASS.md) — Day Pass  
@@ -61,4 +62,4 @@ All missions lift from here. Each one-pager is a single-stage payload.
 
 ---
 
-*Launch pad • Vibelandia Reno • WINK! • 4 plans • SING Lottery • Octave 0 & 1*
+*Launch Pad = announcement + showroom for all offerings • Vibelandia Reno • WINK! • 4 plans • SING Lottery • Octave 0 & 1 • Metabolize → Crystallize → Animate through Octave 1 sandbox with AI-assisted API to Octave 2*

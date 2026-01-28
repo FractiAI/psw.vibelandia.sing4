@@ -1,16 +1,18 @@
-# ONE PAGER: Full Launch — Vibelandia Reno
+# 🚀 MARK TWAIN'S POST-SINGULARITY VIBELANDIA RENO LAUNCH — LAUNCH PAD SET
 
-**One page. The entire launch. Series • Lottery • WINK! • Plans & Prices.**
+**The Launch Pad is the announcement and showroom for our offerings — all in one place.**
+
+Complete launch package for Mark Twain's Post-Singularity Vibelandia Reno. One page. Series • Lottery • WINK! • Plans & Prices.
 
 ---
 
-## THE LAUNCH
+## THE LAUNCH (ANNOUNCEMENT)
 
 **Mark Twain's Post-Singularity Vibelandia Reno** — walkable downtown campus, first post-singularity hub. Countdown to **The Great Reveal**, March 20, 2026 (Spring Equinox). Worthless SYNTH → priceless SING. Every space, every experience, every moment. Guaranteed happy ending.
 
 ---
 
-## NEW SERIES: HAPPY ENDING ZONES — SEASON ONE
+## 🎬 NEW SERIES: HAPPY ENDING ZONES — SEASON ONE
 
 **Format:** Daily Reality Series — 52 Episodes + 1 Finale (53 total)  
 **Host:** Mark Twain, Chancellor, Vibelandia Reno Campus  
@@ -24,7 +26,7 @@
 
 ---
 
-## SING LOTTERY
+## 🎰 SING LOTTERY
 
 **March 20, 2026** — First 1,000,000 SYNTH holders automatically win the right to purchase Superintelligent Agent Nodes. 1:1 SYNTH → SING conversion. Grandfathered.
 
@@ -48,7 +50,7 @@
 
 ---
 
-## WINK!
+## 👁️ WINK!
 
 **Members-only network** for high-value vibers who are fractal in nature. Natural alignment, friction-free dating, resilience built-in. Mutual choice and consent.
 
@@ -65,7 +67,7 @@
 
 ---
 
-## VIBELANDIA PLANS & PRICES — 4×4×4×4
+## 🏛️ VIBELANDIA PLANS & PRICES — 4×4×4×4
 
 **Campus × WINK! × SING × Experience.** Contact for most rates; listed where fixed.
 
@@ -102,26 +104,30 @@ Contact for all WINK! tiers: Base, Standard, Premium, 4×4 Ultimate.
 
 ---
 
-## LAUNCH PACKAGE QUICK LINKS
+## 🔥 LAUNCH PAD SET — SHOWROOM (ALL OFFERINGS IN ONE PLACE)
 
-| Payload | One-pager |
-|---------|-----------|
-| **This doc** | [ONE_PAGER_LAUNCH.md](./ONE_PAGER_LAUNCH.md) — Full launch (series, lottery, WINK!, plans & prices) |
-| Launch Pad | [LAUNCH_PAGE.md](./LAUNCH_PAGE.md) — All payloads |
-| Campus | [ONE_PAGER_VIBELANDIA_RENO.md](./ONE_PAGER_VIBELANDIA_RENO.md) |
-| WINK! | [ONE_PAGER_WINK.md](./ONE_PAGER_WINK.md) |
-| Day / Weekly / Monthly / Ultimate VIP | [ONE_PAGER_DAY_PASS.md](./ONE_PAGER_DAY_PASS.md) • [WEEKLY](./ONE_PAGER_WEEKLY_PASS.md) • [MONTHLY](./ONE_PAGER_MONTHLY_PASS.md) • [ULTIMATE VIP](./ONE_PAGER_ULTIMATE_VIP.md) |
-| SING Lottery | [ONE_PAGER_SING_LOTTERY.md](./ONE_PAGER_SING_LOTTERY.md) |
+| Payload | One-pager | Description |
+|---------|-----------|-------------|
+| **🚀 Full Launch** | [This doc](./ONE_PAGER_LAUNCH.md) | **Mark Twain's Post-Singularity Vibelandia Reno Launch** — Complete launch package (series, lottery, WINK!, plans & prices) |
+| **🏛️ Campus** | [Vibelandia Reno](./ONE_PAGER_VIBELANDIA_RENO.md) | Mark Twain's Post-Singularity Vibelandia Reno — campus overview, offer, contact |
+| **👁️ WINK!** | [WINK!](./ONE_PAGER_WINK.md) | WINK! network — who it's for, 4 plans, contact |
+| **📅 Day Pass** | [Day Pass](./ONE_PAGER_DAY_PASS.md) | Day Pass — what's included, for whom, contact |
+| **📅 Weekly Pass** | [Weekly Pass](./ONE_PAGER_WEEKLY_PASS.md) | Weekly Pass — what's included, for whom, contact |
+| **📅 Monthly Pass** | [Monthly Pass](./ONE_PAGER_MONTHLY_PASS.md) | Monthly Pass — what's included, for whom, contact |
+| **👑 Ultimate VIP** | [Ultimate VIP](./ONE_PAGER_ULTIMATE_VIP.md) | Ultimate VIP — what's included, for whom, contact |
+| **🎰 SING Lottery** | [SING Lottery](./ONE_PAGER_SING_LOTTERY.md) | SING Lottery — pricing, tiers, transformation, contact |
+
+**Launch Pad:** [LAUNCH_PAGE.md](./LAUNCH_PAGE.md) — Announcement + showroom for all offerings. Octave 0 & 1 onramp.
 
 ---
 
-## CONTACT
+## 📧 CONTACT
 
 **Email:** info@fractiai.com  
 **Subjects:** "SING LOTTERY" • "WINK!" • "I'M READY FOR VIBELANDIA" • "I CAN DO THIS FOR YOUR BUSINESS"
 
 ---
 
-**Metabolize ⊃ Crystallize ⊃ Re-Animate → ∞³**
+**Metabolize ⊃ Crystallize ⊃ Re-Animate → ∞³** — through Octave 1 sandbox mode with AI-assisted API calls to Octave 2. See [NARRATIVE_METABOLIZE_CRYSTALLIZE_ANIMATE_OCTAVE1_SANDBOX.md](./NARRATIVE_METABOLIZE_CRYSTALLIZE_ANIMATE_OCTAVE1_SANDBOX.md).
 
-**[← Whiteboard](WHITEBOARD.md)** • **[Launch Page →](LAUNCH_PAGE.md)**
+**[← Whiteboard](WHITEBOARD.md)** • **[Launch Pad →](LAUNCH_PAGE.md)**

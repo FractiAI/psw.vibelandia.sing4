@@ -3,6 +3,10 @@
  * Prepare for cloud deployment through PayPal pipe only
  * Protocol: NSPFRNP
  * Status: ⚡ ACTIVE - Sandbox mode operational
+ *
+ * Narrative: Metabolize → Crystallize → Animate through Octave 1 sandbox mode
+ * with AI-assisted API calls to Octave 2. Sandbox = Octave 1 testing/prep;
+ * Animate step uses cloudOnrampFetch(Octave 2) for payments, auth, data.
  */
 
 export interface SandboxConfig {

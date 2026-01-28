@@ -76,6 +76,7 @@ EDGE (Vibeverse Experience)
 - **Connection:** `CLOUD_API_BASE_URL` → `https://syntheverse-poc.vercel.app`; `src/cloud-onramp-client.ts`.
 - **Shared DB:** Use Octave 2 Supabase env (`NEXT_PUBLIC_SUPABASE_*`, `SUPABASE_SERVICE_ROLE_KEY`, `DATABASE_URL`).
 - **Full metapattern:** [protocols/CONNECT_OCTAVE_1_TO_2_NSPFRNP.md](protocols/CONNECT_OCTAVE_1_TO_2_NSPFRNP.md).
+- **Narrative:** Everything **Metabolize → Crystallize → Animate** through **Octave 1 sandbox mode** with **AI-assisted API calls to Octave 2**. See [NARRATIVE_METABOLIZE_CRYSTALLIZE_ANIMATE_OCTAVE1_SANDBOX.md](NARRATIVE_METABOLIZE_CRYSTALLIZE_ANIMATE_OCTAVE1_SANDBOX.md).
 
 ---
 

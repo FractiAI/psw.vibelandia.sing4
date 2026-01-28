@@ -88,6 +88,10 @@ Optional (when using shared Supabase): add Supabase client that reads same env a
 
 ---
 
+**Narrative:** Everything flows **Metabolize → Crystallize → Animate** through **Octave 1 sandbox mode** with **AI-assisted API calls to Octave 2**. See [NARRATIVE_METABOLIZE_CRYSTALLIZE_ANIMATE_OCTAVE1_SANDBOX.md](../NARRATIVE_METABOLIZE_CRYSTALLIZE_ANIMATE_OCTAVE1_SANDBOX.md).
+
+---
+
 **Protocol:** CONNECT-OCTAVE-1-TO-2-NSPFRNP  
 **Catalog:** NSPFRNP Metapatterns — Connect Octave 1 to 2  
 **Reference:** Boot protocol → Etched Pathways → Octave navigation

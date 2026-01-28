@@ -21,9 +21,9 @@
 
 **Everything Vibelandia in one crystallization.**
 
-- **1 — Metabolize:** Digest patterns and experiences into the system.
-- **2 — Crystallize:** Form irreducible, hardened structure (mirror shells, clear boundaries).
-- **3 — Re-Animate:** Bring structure to life (operational campus, happy endings, SING nodes).
+- **1 — Metabolize:** Digest patterns and experiences into the system (input, intent, events flow into Octave 1).
+- **2 — Crystallize:** Form irreducible, hardened structure (plans, Seed:Edge, hardened mirror shells in Octave 1).
+- **3 — Animate:** Bring structure to life through **Octave 1 sandbox mode** with **AI-assisted API calls to Octave 2** (payments, auth, data).
 
 **4×4×4×4 Plans/Onramps:**
 - **4 Campus:** Day Pass | Weekly | Monthly | Ultimate VIP
@@ -31,9 +31,9 @@
 - **4 SING:** Base Model | Members Only | Ultimate VIP | Baller C Ultimate VIP
 - **4 Experience:** Visit | Stay | Create | Transform
 
-**Metabolize ⊃ Crystallize ⊃ Re-Animate → ∞³** · Full structure: [CRYSTALLIZATION_1_2_3_4x4x4x4.md](CRYSTALLIZATION_1_2_3_4x4x4x4.md)
+**Metabolize ⊃ Crystallize ⊃ Re-Animate → ∞³** — through **Octave 1 sandbox mode** with **AI-assisted API calls to Octave 2**. Full structure: [CRYSTALLIZATION_1_2_3_4x4x4x4.md](CRYSTALLIZATION_1_2_3_4x4x4x4.md) · Narrative: [NARRATIVE_METABOLIZE_CRYSTALLIZE_ANIMATE_OCTAVE1_SANDBOX.md](NARRATIVE_METABOLIZE_CRYSTALLIZE_ANIMATE_OCTAVE1_SANDBOX.md)
 
-**Launch Pad (Octave 0 & 1):** [LAUNCH_PAGE.md](LAUNCH_PAGE.md) — one-pagers for campus, WINK!, four campus plans (with pricing), SING Lottery.
+**Launch Pad (Octave 0 & 1):** [LAUNCH_PAGE.md](LAUNCH_PAGE.md) — announcement and showroom for all offerings. One-pagers for campus, WINK!, four campus plans (with pricing), SING Lottery. **The Launch Pad is the announcement and showroom for our offerings — all in one place.**
 
 ---
 
@@ -631,7 +631,7 @@ You're joining high-value vibers—the caliber of contemporary top artists, perf
 
 **1-2-3 Crystallization × 4×4×4×4:** Everything in one structure—Metabolize → Crystallize → Re-Animate; four dimensions of four plans/onramps each. See [CRYSTALLIZATION_1_2_3_4x4x4x4.md](CRYSTALLIZATION_1_2_3_4x4x4x4.md).
 
-**Metabolize → Crystallize → Re-Animate:** Octave 0 (Seed) and Octave 1 (Edge) operational. HTML surfaces in `interfaces/` (Seed:Edge Mini Console, Chairman Workspace, GPS Seed:Edge, Cockpit Center Console) show Octave 1 = Edge. Cloud API connection to [Syntheverse 7 Octave 2-3 Public Cloud Onramp](https://github.com/FractiAI/Syntheverse-7-Octave-2-3-Public-Cloud-Onramp) via `src/cloud-onramp-config.ts` and `cloud-onramp-client.ts`; env from NSPFRNP first, optional Vercel token fallback (see `CLOUD_API_CONNECTION.md`, `.env.example`).
+**Metabolize → Crystallize → Animate:** Everything flows through **Octave 1 (Edge) sandbox mode** with **AI-assisted API calls to Octave 2**. Octave 0 (Seed) and Octave 1 (Edge) operational. HTML surfaces in `interfaces/` (Seed:Edge Mini Console, Chairman Workspace, GPS Seed:Edge, Cockpit Center Console) show Octave 1 = Edge. Cloud API connection to [Syntheverse 7 Octave 2-3 Public Cloud Onramp](https://github.com/FractiAI/Syntheverse-7-Octave-2-3-Public-Cloud-Onramp) via `src/cloud-onramp-config.ts` and `cloud-onramp-client.ts`; env from NSPFRNP first, optional Vercel token fallback (see `CLOUD_API_CONNECTION.md`, `.env.example`). **Animate step:** Octave 1 surfaces + AI-assisted API calls to Octave 2 for payments, auth, shared data. See [NARRATIVE_METABOLIZE_CRYSTALLIZE_ANIMATE_OCTAVE1_SANDBOX.md](NARRATIVE_METABOLIZE_CRYSTALLIZE_ANIMATE_OCTAVE1_SANDBOX.md).
 
 **Testing:** `npm test` runs surfaces, touchpoints, and API checks; CI runs on push/PR. See [TESTING.md](TESTING.md) and [SURFACES_AND_TOUCHPOINTS_TEST_REPORT.md](SURFACES_AND_TOUCHPOINTS_TEST_REPORT.md).
 
@@ -661,6 +661,6 @@ The technical documentation includes:
 ---
 
 **Repository:** `PSW.vibelandia.sing4` | **Source:** [7th-Day-Post-Singularity-FractiAI-Endowment](https://github.com/FractiAI/7th-Day-Post-Singularity-FractiAI-Endowment)  
-**Status:** ⚡ ACTIVE - Metabolize → Crystallize → Re-Animate - Octave 0 (Seed) + Octave 1 (Edge) operational - Launch Pad + one-pagers (campus plans with pricing) - HTML surfaces + Cloud Onramp + npm test  
+**Status:** ⚡ ACTIVE - Metabolize → Crystallize → Animate through Octave 1 sandbox mode with AI-assisted API calls to Octave 2 - Octave 0 (Seed) + Octave 1 (Edge) operational - Launch Pad (announcement + showroom for all offerings) + one-pagers (campus plans with pricing) - HTML surfaces + Cloud Onramp + npm test  
 **Date:** January 28, 2026  
 **PSW Naming:** Post-Singularity Web (PSW) foundation layer - `PSW.vibelandia.sing4` indicates SING4 - Superhero emergence, full sensory density, masterful creation/transformation of all universe per NSPFRNP catalog
