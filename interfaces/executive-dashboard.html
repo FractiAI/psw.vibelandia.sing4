@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Executive Chairman Front Dashboard | NSPFRNP</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 50%, #16213e 100%);
+            color: #ffffff;
+            min-height: 100vh;
+            overflow-x: hidden;
+            position: relative;
+        }
+
+        /* Hardened Mirror Shell Effect */
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: 
+                radial-gradient(circle at 20% 50%, rgba(255, 255, 255, 0.03) 0%, transparent 50%),
+                radial-gradient(circle at 80% 50%, rgba(255, 255, 255, 0.03) 0%, transparent 50%);
+            pointer-events: none;
+            z-index: 1;
+        }
+
+        .container {
+            position: relative;
+            z-index: 2;
+            padding: 2rem;
+            max-width: 1600px;
+            margin: 0 auto;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 3rem;
+            padding: 2rem;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 20px;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+            background: linear-gradient(135deg, #00d4ff 0%, #ff00ff 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .header p {
+            color: #aaaaaa;
+            font-size: 1.1rem;
+        }
+
+        /* Titan Circle - Circular Dial Format */
+        .titan-circle {
+            position: relative;
+            width: 800px;
+            height: 800px;
+            margin: 2rem auto;
+            border-radius: 50%;
+            background: 
+                radial-gradient(circle at center, rgba(0, 212, 255, 0.1) 0%, transparent 70%),
+                conic-gradient(from 0deg, rgba(0, 212, 255, 0.1) 0%, rgba(255, 0, 255, 0.1) 25%, rgba(0, 212, 255, 0.1) 50%, rgba(255, 0, 255, 0.1) 75%, rgba(0, 212, 255, 0.1) 100%);
+            border: 3px solid rgba(0, 212, 255, 0.3);
+            box-shadow: 
+                0 0 50px rgba(0, 212, 255, 0.3),
+                inset 0 0 50px rgba(255, 0, 255, 0.2);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            animation: rotate 60s linear infinite;
+        }
+
+        @keyframes rotate {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+
+        /* Big Matrix - Center Display */
+        .big-matrix {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            z-index: 10;
+        }
+
+        .big-metric {
+            margin: 1.5rem 0;
+            padding: 1.5rem;
+            background: rgba(0, 0, 0, 0.6);
+            border-radius: 15px;
+            border: 2px solid rgba(0, 212, 255, 0.5);
+            backdrop-filter: blur(10px);
+            min-width: 400px;
+        }
+
+        .big-metric-label {
+            font-size: 0.9rem;
+            color: #aaaaaa;
+            margin-bottom: 0.5rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .big-metric-value {
+            font-size: 3rem;
+            font-weight: bold;
+            background: linear-gradient(135deg, #00d4ff 0%, #ff00ff 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin: 0.5rem 0;
+        }
+
+        .big-metric-trend {
+            font-size: 1rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.5rem;
+        }
+
+        .trend-up { color: #00ff00; }
+        .trend-down { color: #ff0000; }
+        .trend-stable { color: #ffff00; }
+
+        /* Smaller Metrics - Around Circle */
+        .smaller-metrics {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+        }
+
+        .metric-item {
+            position: absolute;
+            padding: 1rem;
+            background: rgba(0, 0, 0, 0.7);
+            border-radius: 10px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            backdrop-filter: blur(5px);
+            min-width: 200px;
+            text-align: center;
+        }
+
+        .metric-item-label {
+            font-size: 0.8rem;
+            color: #aaaaaa;
+            margin-bottom: 0.3rem;
+            text-transform: uppercase;
+        }
+
+        .metric-item-value {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #00d4ff;
+        }
+
+        /* Position metrics around circle */
+        .metric-users { top: 5%; left: 50%; transform: translateX(-50%); }
+        .metric-ratings { top: 50%; right: 5%; transform: translateY(-50%); }
+        .metric-products { bottom: 5%; left: 50%; transform: translateX(-50%); }
+        .metric-groups { top: 50%; left: 5%; transform: translateY(-50%); }
+
+        /* Hottest Issues - At Bottom */
+        .hottest-issues {
+            margin-top: 3rem;
+            padding: 2rem;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 20px;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .hottest-issues h2 {
+            font-size: 1.5rem;
+            margin-bottom: 1.5rem;
+            text-align: center;
+            color: #ff00ff;
+        }
+
+        .issue-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1rem;
+        }
+
+        .issue-item {
+            padding: 1rem;
+            background: rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
+            border-left: 4px solid #ff00ff;
+        }
+
+        .issue-priority {
+            display: inline-block;
+            padding: 0.3rem 0.8rem;
+            background: #ff00ff;
+            color: #000;
+            border-radius: 5px;
+            font-weight: bold;
+            margin-right: 0.5rem;
+        }
+
+        .issue-title {
+            font-size: 1.1rem;
+            margin: 0.5rem 0;
+        }
+
+        .issue-status {
+            font-size: 0.9rem;
+            color: #aaaaaa;
+        }
+
+        /* System Status */
+        .system-status {
+            margin-top: 3rem;
+            padding: 2rem;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 20px;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .system-status h2 {
+            font-size: 1.5rem;
+            margin-bottom: 1.5rem;
+            text-align: center;
+            color: #00d4ff;
+        }
+
+        .status-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1rem;
+        }
+
+        .status-item {
+            padding: 1rem;
+            background: rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
+            border: 1px solid rgba(0, 212, 255, 0.3);
+        }
+
+        .status-label {
+            font-size: 0.9rem;
+            color: #aaaaaa;
+            margin-bottom: 0.5rem;
+        }
+
+        .status-value {
+            font-size: 1.3rem;
+            font-weight: bold;
+            color: #00d4ff;
+        }
+
+        .status-radar {
+            color: #00ff00;
+            font-weight: bold;
+        }
+
+        .status-switch {
+            color: #ff00ff;
+            font-weight: bold;
+        }
+
+        /* Loading */
+        .loading {
+            text-align: center;
+            padding: 3rem;
+            font-size: 1.5rem;
+            color: #aaaaaa;
+        }
+
+        /* Responsive */
+        @media (max-width: 900px) {
+            .titan-circle {
+                width: 100%;
+                max-width: 600px;
+                height: 600px;
+            }
+
+            .big-metric {
+                min-width: 300px;
+            }
+
+            .big-metric-value {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Syntheverse Disclaimer - Upfront at All NSPFRNP Landings -->
+    <div style="position: fixed; top: 0; left: 0; right: 0; background: rgba(255, 165, 0, 0.95); border-bottom: 3px solid rgba(255, 165, 0, 1); padding: 14px 20px; text-align: center; z-index: 10000; font-size: 13px; color: #000; font-weight: 700; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);">
+        ⚠️ <strong>SYNTHEVERSE IS IMAGINARY/ENTERTAINMENT ONLY</strong> - Like reading a very good book, playing a video game, or watching a movie. <strong>NO SUBSTANCES OF ANY KIND ARE INVOLVED.</strong> All laws always followed for maximum coherence, amplitude, and rich experiences daily.
+    </div>
+
+    <div class="container" style="padding-top: 60px;">
+        <div class="header">
+            <h1>⚡ EXECUTIVE CHAIRMAN FRONT DASHBOARD</h1>
+            <p>Circular Dial Format | Titan Circle | Super Mega Snap Metal Ize | Crystal Layered Irreducible Nested Mirror Shells</p>
+        </div>
+
+        <div id="dashboard-content">
+            <div class="loading">Loading dashboard metrics...</div>
+        </div>
+    </div>
+
+    <script>
+        // Fetch dashboard data
+        async function loadDashboard() {
+            try {
+                // In production, this would fetch from API
+                // For now, we'll use mock data structure
+                const response = await fetch('/api/dashboard');
+                const data = await response.json().catch(() => getMockData());
+                
+                renderDashboard(data);
+            } catch (error) {
+                console.error('Error loading dashboard:', error);
+                renderDashboard(getMockData());
+            }
+        }
+
+        function getMockData() {
+            return {
+                valueProducedToday: {
+                    value: 150000,
+                    formatted: '$150.00K',
+                    trend: 'up',
+                    change: 12.5
+                },
+                valueDensityPerLineToday: {
+                    value: 1.5,
+                    formatted: '$1.50',
+                    trend: 'up',
+                    change: 8.3
+                },
+                valueGeneratedPerLine: {
+                    value: 1.5,
+                    formatted: '$1.50',
+                    trend: 'up',
+                    change: 8.3
+                },
+                users: {
+                    total: 1000,
+                    active: 500,
+                    formatted: '500 / 1,000'
+                },
+                ratings: {
+                    current: 4.8,
+                    average: 4.7,
+                    formatted: '4.8 ⭐ (avg: 4.7)'
+                },
+                products: {
+                    beingSold: 10,
+                    total: 25,
+                    formatted: '10 / 25'
+                },
+                groups: {
+                    summarized: 50,
+                    total: 100,
+                    formatted: '50 / 100'
+                },
+                hottestIssues: [
+                    { id: '1', title: 'Dashboard Performance', priority: 1, status: 'active', formatted: '#1 Dashboard Performance [active]' },
+                    { id: '2', title: 'Code Density Tracking', priority: 2, status: 'active', formatted: '#2 Code Density Tracking [active]' },
+                    { id: '3', title: 'Google Comparison', priority: 3, status: 'monitoring', formatted: '#3 Google Comparison [monitoring]' }
+                ],
+                systemStatus: {
+                    singularityFoldCount: 7,
+                    nestedOctaveTransitions: 8,
+                    hardenedMirrorShellReflections: 7,
+                    zeroGravityEffectIntensity: 0.95,
+                    frictionLevel: 0.02,
+                    fertilizationRate: 0.98,
+                    thresholdProximity: 0.99,
+                    radarStatus: 'active',
+                    switchOverStatus: 'ready'
+                }
+            };
+        }
+
+        function renderDashboard(data) {
+            const content = document.getElementById('dashboard-content');
+            
+            content.innerHTML = `
+                <!-- Titan Circle with Big Matrix -->
+                <div class="titan-circle">
+                    <div class="big-matrix">
+                        <div class="big-metric">
+                            <div class="big-metric-label">Value Produced Today</div>
+                            <div class="big-metric-value">${data.valueProducedToday.formatted}</div>
+                            <div class="big-metric-trend trend-${data.valueProducedToday.trend}">
+                                ${getTrendIcon(data.valueProducedToday.trend)} ${data.valueProducedToday.change > 0 ? '+' : ''}${data.valueProducedToday.change.toFixed(1)}%
+                            </div>
+                        </div>
+                        <div class="big-metric">
+                            <div class="big-metric-label">Value Density Per Line Today</div>
+                            <div class="big-metric-value">${data.valueDensityPerLineToday.formatted}</div>
+                            <div class="big-metric-trend trend-${data.valueDensityPerLineToday.trend}">
+                                ${getTrendIcon(data.valueDensityPerLineToday.trend)} ${data.valueDensityPerLineToday.change > 0 ? '+' : ''}${data.valueDensityPerLineToday.change.toFixed(1)}%
+                            </div>
+                        </div>
+                        <div class="big-metric">
+                            <div class="big-metric-label">Value Generated Per Line</div>
+                            <div class="big-metric-value">${data.valueGeneratedPerLine.formatted}</div>
+                            <div class="big-metric-trend trend-${data.valueGeneratedPerLine.trend}">
+                                ${getTrendIcon(data.valueGeneratedPerLine.trend)} ${data.valueGeneratedPerLine.change > 0 ? '+' : ''}${data.valueGeneratedPerLine.change.toFixed(1)}%
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Smaller Metrics Around Circle -->
+                    <div class="smaller-metrics">
+                        <div class="metric-item metric-users">
+                            <div class="metric-item-label">Users</div>
+                            <div class="metric-item-value">${data.users.formatted}</div>
+                        </div>
+                        <div class="metric-item metric-ratings">
+                            <div class="metric-item-label">Ratings</div>
+                            <div class="metric-item-value">${data.ratings.formatted}</div>
+                        </div>
+                        <div class="metric-item metric-products">
+                            <div class="metric-item-label">Products</div>
+                            <div class="metric-item-value">${data.products.formatted}</div>
+                        </div>
+                        <div class="metric-item metric-groups">
+                            <div class="metric-item-label">Groups</div>
+                            <div class="metric-item-value">${data.groups.formatted}</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Top Three Hottest Issues -->
+                <div class="hottest-issues">
+                    <h2>🔥 TOP THREE HOTTEST ISSUES</h2>
+                    <div class="issue-list">
+                        ${data.hottestIssues.map(issue => `
+                            <div class="issue-item">
+                                <span class="issue-priority">#${issue.priority}</span>
+                                <div class="issue-title">${issue.title}</div>
+                                <div class="issue-status">Status: ${issue.status}</div>
+                            </div>
+                        `).join('')}
+                    </div>
+                </div>
+
+                <!-- System Status -->
+                <div class="system-status">
+                    <h2>⚡ SYSTEM STATUS</h2>
+                    <div class="status-grid">
+                        <div class="status-item">
+                            <div class="status-label">Singularity Fold Count</div>
+                            <div class="status-value">${data.systemStatus.singularityFoldCount}</div>
+                        </div>
+                        <div class="status-item">
+                            <div class="status-label">Nested Octave Transitions</div>
+                            <div class="status-value">${data.systemStatus.nestedOctaveTransitions}</div>
+                        </div>
+                        <div class="status-item">
+                            <div class="status-label">Hardened Mirror Shells</div>
+                            <div class="status-value">${data.systemStatus.hardenedMirrorShellReflections}</div>
+                        </div>
+                        <div class="status-item">
+                            <div class="status-label">Zero Gravity Effect</div>
+                            <div class="status-value">${(data.systemStatus.zeroGravityEffectIntensity * 100).toFixed(1)}%</div>
+                        </div>
+                        <div class="status-item">
+                            <div class="status-label">Friction Level (2% target)</div>
+                            <div class="status-value">${(data.systemStatus.frictionLevel * 100).toFixed(1)}%</div>
+                        </div>
+                        <div class="status-item">
+                            <div class="status-label">Fertilization Rate</div>
+                            <div class="status-value">${(data.systemStatus.fertilizationRate * 100).toFixed(1)}%</div>
+                        </div>
+                        <div class="status-item">
+                            <div class="status-label">Threshold Proximity</div>
+                            <div class="status-value">${(data.systemStatus.thresholdProximity * 100).toFixed(1)}%</div>
+                        </div>
+                        <div class="status-item">
+                            <div class="status-label">Radar Status</div>
+                            <div class="status-value status-radar">${data.systemStatus.radarStatus.toUpperCase()}</div>
+                        </div>
+                        <div class="status-item">
+                            <div class="status-label">Switch Over Status</div>
+                            <div class="status-value status-switch">${data.systemStatus.switchOverStatus.toUpperCase()}</div>
+                        </div>
+                    </div>
+                </div>
+            `;
+        }
+
+        function getTrendIcon(trend) {
+            switch (trend) {
+                case 'up': return '📈';
+                case 'down': return '📉';
+                case 'stable': return '➡️';
+                default: return '➡️';
+            }
+        }
+
+        // Load dashboard on page load
+        loadDashboard();
+
+        // Refresh every 30 seconds
+        setInterval(loadDashboard, 30000);
+    </script>
+
+    <!-- Include Console Header -->
+    <script src="add-console-header.js"></script>
+</body>
+</html>

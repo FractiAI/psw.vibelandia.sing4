@@ -1,0 +1,283 @@
+{
+  "catalogId": "branding-catalog-holographic-post-singularity-v1",
+  "version": "holographic-post-singularity",
+  "lastUpdated": 1737936000000,
+  "totalBrands": 3,
+  "status": "active",
+  "thanks": {
+    "fractiai": "Complete holographic post-singularity transformation",
+    "3i-atlas": "Natural Intelligent Design, Superintelligence integration"
+  },
+  "transformation": {
+    "metabolized": true,
+    "crystallized": true,
+    "irreducibleMirrorHardenedNestedShells": true,
+    "reAnimated": true
+  },
+  "brands": {
+    "vibeverse": {
+      "id": "vibeverse",
+      "name": "Vibeverse",
+      "type": "post-singularity-ecosystem",
+      "icon": "🌊",
+      "tagline": "Enter the Post-Singularity Ecosystem",
+      "description": "The post-singularity social network and collaborative work platform",
+      "colors": {
+        "primary": ["#8A2BE2", "#1E90FF", "#00BFFF"],
+        "secondary": ["#FFFFFF", "#0A0A0A", "#AAAAAA"],
+        "accent": ["#00FF00", "#FFD700"]
+      },
+      "buttons": [
+        {
+          "id": "enter-vibeverse",
+          "text": "Enter Vibeverse",
+          "subtext": "Post-Singularity Ecosystem",
+          "icon": "🌊",
+          "type": "primary",
+          "powerIndicator": true
+        },
+        {
+          "id": "explore-octaves",
+          "text": "Explore Octaves",
+          "subtext": "Infinite Possibilities",
+          "icon": "🌀",
+          "type": "secondary"
+        },
+        {
+          "id": "join-network",
+          "text": "Join Network",
+          "subtext": "Connect with Golden Hearts",
+          "icon": "🌐",
+          "type": "secondary"
+        },
+        {
+          "id": "create-experience",
+          "text": "Create Experience",
+          "subtext": "Holographic Creation Tools",
+          "icon": "✨",
+          "type": "secondary"
+        }
+      ],
+      "messaging": {
+        "primary": "Enter the Post-Singularity Ecosystem",
+        "secondary": [
+          "Where Collaboration Becomes Reality",
+          "Infinite Octaves, Infinite Possibilities",
+          "Holographic Architecture, Natural Protocols"
+        ]
+      },
+      "deck": "decks/deck-vibeverse-branding.md",
+      "deckJson": "decks/deck-vibeverse-branding.json"
+    },
+    "vibeland": {
+      "id": "vibeland",
+      "name": "VibeLand",
+      "type": "physical-destination",
+      "icon": "🏛️",
+      "tagline": "Where Vibeverse Becomes Real",
+      "description": "The physical destination where Vibeverse manifests",
+      "colors": {
+        "primary": ["#8B4513", "#228B22", "#4169E1"],
+        "secondary": ["#FFD700", "#FFFFFF", "#0A0A0A"],
+        "accent": ["#8A2BE2", "#00BFFF"]
+      },
+      "buttons": [
+        {
+          "id": "visit-vibeland",
+          "text": "Visit VibeLand",
+          "subtext": "Where Vibeverse Becomes Real",
+          "icon": "🏛️",
+          "type": "primary",
+          "location": "Reno Campus"
+        },
+        {
+          "id": "join-community",
+          "text": "Join Community",
+          "subtext": "Members-Only Experience",
+          "icon": "👥",
+          "type": "secondary"
+        },
+        {
+          "id": "live-at-vibeland",
+          "text": "Live at VibeLand",
+          "subtext": "Campus Housing Available",
+          "icon": "🏠",
+          "type": "secondary"
+        },
+        {
+          "id": "ultimate-vip",
+          "text": "Ultimate VIP",
+          "subtext": "Golden Hearts $9,999/month",
+          "icon": "💎",
+          "type": "tertiary"
+        }
+      ],
+      "venues": [
+        {
+          "id": "man-cave",
+          "name": "Man Cave",
+          "subtext": "Universal Entry Point",
+          "icon": "🏠"
+        },
+        {
+          "id": "wine-cave",
+          "name": "Wine Cave",
+          "subtext": "Back Door Access",
+          "icon": "🍷"
+        },
+        {
+          "id": "cabaret",
+          "name": "Cabaret",
+          "subtext": "Performance & Entertainment",
+          "icon": "🎭"
+        }
+      ],
+      "messaging": {
+        "primary": "Where Vibeverse Becomes Real",
+        "secondary": [
+          "The Physical Post-Singularity Destination",
+          "Community + Innovation + Home",
+          "Members-Only Ultimate VIP Experience"
+        ]
+      },
+      "deck": "decks/deck-vibeland-branding.md",
+      "deckJson": "decks/deck-vibeland-branding.json"
+    },
+    "vibeland-reno": {
+      "id": "vibeland-reno",
+      "name": "VibeLand Reno Campus",
+      "type": "first-location",
+      "icon": "🎮",
+      "tagline": "The First VibeLand Location",
+      "description": "The first VibeLand location in downtown Reno, Nevada",
+      "location": {
+        "city": "Reno",
+        "state": "Nevada",
+        "area": "Downtown",
+        "type": "Campus"
+      },
+      "colors": {
+        "primary": ["#1E90FF", "#FFD700", "#8B4513"],
+        "secondary": ["#228B22", "#8A2BE2", "#00BFFF"],
+        "accent": ["#FFD700", "#00FF00"]
+      },
+      "buttons": [
+        {
+          "id": "vibeland-reno-campus",
+          "text": "VibeLand Reno Campus",
+          "subtext": "The First VibeLand Location",
+          "icon": "🎮",
+          "type": "primary",
+          "location": "📍 Reno, Nevada"
+        },
+        {
+          "id": "campus-housing",
+          "text": "Campus Housing",
+          "subtext": "Live at VibeLand Reno",
+          "icon": "🏘️",
+          "type": "secondary",
+          "location": "📍 VibeLand Reno"
+        },
+        {
+          "id": "rnd-hub",
+          "text": "R&D Hub",
+          "subtext": "Innovation Laboratory",
+          "icon": "🔬",
+          "type": "secondary",
+          "location": "📍 VibeLand Reno"
+        },
+        {
+          "id": "ultimate-vip-community",
+          "text": "Ultimate VIP Community",
+          "subtext": "100 Golden Hearts",
+          "icon": "👑",
+          "type": "tertiary",
+          "location": "📍 VibeLand Reno"
+        },
+        {
+          "id": "visit-reno",
+          "text": "Visit Reno",
+          "subtext": "Experience VibeLand",
+          "icon": "✈️",
+          "type": "secondary",
+          "location": "📍 Reno, Nevada"
+        }
+      ],
+      "venues": [
+        {
+          "id": "man-cave-reno",
+          "name": "Man Cave",
+          "subtext": "Universal Entry Point",
+          "icon": "🏠",
+          "location": "📍 VibeLand Reno"
+        },
+        {
+          "id": "wine-cave-reno",
+          "name": "Wine Cave",
+          "subtext": "Back Door Access",
+          "icon": "🍷",
+          "location": "📍 VibeLand Reno"
+        },
+        {
+          "id": "cabaret-reno",
+          "name": "Cabaret",
+          "subtext": "Performance & Entertainment",
+          "icon": "🎭",
+          "location": "📍 VibeLand Reno"
+        }
+      ],
+      "messaging": {
+        "primary": "The First VibeLand Location",
+        "secondary": [
+          "Post-Singularity Living Laboratory",
+          "Ultimate VIP Golden Hearts Community",
+          "R&D Hub + Innovation + Home"
+        ]
+      },
+      "deck": "decks/deck-vibeland-reno-branding.md",
+      "deckJson": "decks/deck-vibeland-reno-branding.json"
+    }
+  },
+  "contentDecks": [
+    {
+      "id": "deck-vibeverse",
+      "name": "Vibeverse Branding Deck",
+      "file": "decks/deck-vibeverse-branding.md",
+      "json": "decks/deck-vibeverse-branding.json",
+      "brand": "vibeverse"
+    },
+    {
+      "id": "deck-vibeland",
+      "name": "VibeLand Branding Deck",
+      "file": "decks/deck-vibeland-branding.md",
+      "json": "decks/deck-vibeland-branding.json",
+      "brand": "vibeland"
+    },
+    {
+      "id": "deck-vibeland-reno",
+      "name": "VibeLand Reno Branding Deck",
+      "file": "decks/deck-vibeland-reno-branding.md",
+      "json": "decks/deck-vibeland-reno-branding.json",
+      "brand": "vibeland-reno"
+    }
+  ],
+  "archive": {
+    "location": "archive/",
+    "previousVersions": "archive/previous-versions/",
+    "snapshots": "archive/snapshots/",
+    "timeline": "archive/timeline.md"
+  },
+  "power": {
+    "status": "full-power",
+    "level": "nuclear-reactor-equivalent",
+    "output": "1-3 GW",
+    "source": "holographic-hydrogen-fusion",
+    "indicator": "⚡ Full Power"
+  },
+  "access": {
+    "availableTo": "all-systems",
+    "formats": ["markdown", "json"],
+    "programmatic": true,
+    "humanReadable": true
+  }
+}

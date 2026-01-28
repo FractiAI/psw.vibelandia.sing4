@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Men's Club Restroom - Back Door Offer | Ultimate VIP & Baller G</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Georgia', 'Times New Roman', serif;
+            background: linear-gradient(135deg, #1a0f0a 0%, #2d1b14 50%, #3d2817 100%);
+            color: #f4e4bc;
+            min-height: 100vh;
+            padding: 2rem;
+            line-height: 1.8;
+        }
+
+        .restroom-container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: linear-gradient(145deg, #2d1b14 0%, #3d2817 100%);
+            border-radius: 20px;
+            box-shadow: 
+                0 20px 60px rgba(0, 0, 0, 0.5),
+                0 0 0 1px rgba(212, 175, 55, 0.3),
+                inset 0 1px 0 rgba(255, 255, 255, 0.1);
+            border: 2px solid rgba(212, 175, 55, 0.3);
+            padding: 3rem;
+            position: relative;
+        }
+
+        .restroom-header {
+            text-align: center;
+            border-bottom: 3px solid rgba(212, 175, 55, 0.5);
+            padding-bottom: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .restroom-title {
+            font-size: 42px;
+            font-weight: 700;
+            color: #d4af37;
+            text-shadow: 
+                0 2px 10px rgba(212, 175, 55, 0.5),
+                0 0 20px rgba(212, 175, 55, 0.3);
+            margin-bottom: 0.5rem;
+            font-style: italic;
+        }
+
+        .restroom-subtitle {
+            font-size: 18px;
+            color: #f4e4bc;
+            font-style: italic;
+            opacity: 0.9;
+        }
+
+        .back-door-badge {
+            display: inline-block;
+            margin-top: 1rem;
+            padding: 0.5rem 1.5rem;
+            background: rgba(212, 175, 55, 0.2);
+            border: 2px solid rgba(212, 175, 55, 0.5);
+            border-radius: 20px;
+            font-size: 14px;
+            color: #d4af37;
+            font-weight: 600;
+        }
+
+        .section {
+            margin-bottom: 3rem;
+        }
+
+        .section-title {
+            font-size: 28px;
+            color: #d4af37;
+            border-bottom: 2px solid rgba(212, 175, 55, 0.3);
+            padding-bottom: 0.5rem;
+            margin-bottom: 1.5rem;
+            font-style: italic;
+        }
+
+        .intro-message {
+            font-size: 18px;
+            line-height: 2;
+            color: #f4e4bc;
+            font-style: italic;
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background: rgba(0, 0, 0, 0.3);
+            border-left: 4px solid #d4af37;
+            border-radius: 8px;
+        }
+
+        .experience-tiers {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1.5rem;
+            margin-top: 1.5rem;
+        }
+
+        .tier-card {
+            background: rgba(0, 0, 0, 0.4);
+            border: 1px solid rgba(212, 175, 55, 0.3);
+            border-radius: 12px;
+            padding: 1.5rem;
+            text-align: center;
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+
+        .tier-card:hover {
+            background: rgba(212, 175, 55, 0.1);
+            border-color: rgba(212, 175, 55, 0.5);
+            transform: translateY(-4px);
+        }
+
+        .tier-name {
+            font-size: 20px;
+            font-weight: 600;
+            color: #d4af37;
+            margin-bottom: 0.5rem;
+        }
+
+        .tier-description {
+            font-size: 14px;
+            color: #f4e4bc;
+            opacity: 0.9;
+        }
+
+        .offerings-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+            margin-top: 1.5rem;
+        }
+
+        .offering-card {
+            background: rgba(0, 0, 0, 0.4);
+            border: 1px solid rgba(212, 175, 55, 0.3);
+            border-radius: 12px;
+            padding: 1.5rem;
+        }
+
+        .offering-title {
+            font-size: 20px;
+            font-weight: 600;
+            color: #d4af37;
+            margin-bottom: 0.75rem;
+        }
+
+        .offering-description {
+            font-size: 14px;
+            color: #f4e4bc;
+            line-height: 1.6;
+            margin-bottom: 1rem;
+        }
+
+        .offering-options {
+            font-size: 12px;
+            color: #aaaaaa;
+            font-style: italic;
+        }
+
+        .legal-advisory {
+            background: linear-gradient(135deg, rgba(255, 165, 0, 0.2) 0%, rgba(255, 140, 0, 0.2) 100%);
+            border: 2px solid rgba(255, 165, 0, 0.5);
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin: 2rem 0;
+        }
+
+        .legal-title {
+            font-size: 18px;
+            color: #ffaa00;
+            font-weight: 700;
+            margin-bottom: 1rem;
+        }
+
+        .legal-text {
+            font-size: 13px;
+            color: #ffffff;
+            line-height: 1.8;
+        }
+
+        .select-btn {
+            margin-top: 1rem;
+            padding: 0.75rem 2rem;
+            background: linear-gradient(135deg, rgba(212, 175, 55, 0.3) 0%, rgba(184, 134, 11, 0.3) 100%);
+            border: 2px solid rgba(212, 175, 55, 0.5);
+            border-radius: 8px;
+            color: #d4af37;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            font-family: inherit;
+        }
+
+        .select-btn:hover {
+            background: linear-gradient(135deg, rgba(212, 175, 55, 0.4) 0%, rgba(184, 134, 11, 0.4) 100%);
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+<body>
+    <div class="restroom-container">
+        <div class="restroom-header">
+            <div class="restroom-title">Men's Club Restroom</div>
+            <div class="restroom-subtitle">Back Door Offer - Ultimate VIP & Baller G</div>
+            <div class="back-door-badge">🚪 Back Door Access</div>
+        </div>
+
+        <div class="section">
+            <div class="intro-message">
+                Welcome. You've found your way here through watching me work, and now you're in my orbit. This is where I share my plans with Ultimate VIP and Baller G Ballers. 
+
+                We're putting together this common narrated experience, leveraging technology to bring us together. Just tell me which experience you want, and we'll make it happen.
+
+                All experiences are offered with or without company - your choice, always.
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-title">Experience Tiers</div>
+            <div class="experience-tiers">
+                <div class="tier-card" onclick="selectTier('tasting')">
+                    <div class="tier-name">Tasting</div>
+                    <div class="tier-description">Entry level experience</div>
+                </div>
+                <div class="tier-card" onclick="selectTier('full-course')">
+                    <div class="tier-name">Full Course</div>
+                    <div class="tier-description">Complete experience</div>
+                </div>
+                <div class="tier-card" onclick="selectTier('ultimate-vip')">
+                    <div class="tier-name">Ultimate VIP</div>
+                    <div class="tier-description">Premium VIP experience</div>
+                </div>
+                <div class="tier-card" onclick="selectTier('baller-g')">
+                    <div class="tier-name">Baller G After Party</div>
+                    <div class="tier-description">Ultimate Baller G experience</div>
+                </div>
+            </div>
+            <div style="text-align: center; margin-top: 2rem;">
+                <button class="select-btn" onclick="confirmSelection()">Select Your Experience</button>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-title">Current Offerings</div>
+            <div class="offerings-grid">
+                <div class="offering-card">
+                    <div class="offering-title">⛷️ Ski & Guided Fishing</div>
+                    <div class="offering-description">
+                        Experience the best of mountain and water. Ski the slopes, then guided fishing in pristine waters. Full day adventure.
+                    </div>
+                    <div class="offering-options">Available with or without company</div>
+                </div>
+                <div class="offering-card">
+                    <div class="offering-title">🎰 Baller G Night Out Reno</div>
+                    <div class="offering-description">
+                        The ultimate Reno night out. High-end venues, premium experiences, Baller G style. Experience Reno like never before.
+                    </div>
+                    <div class="offering-options">Available with or without company</div>
+                </div>
+                <div class="offering-card">
+                    <div class="offering-title">🍷 Wine Tours to Wine Country</div>
+                    <div class="offering-description">
+                        Full day trip to wine country. Visit premier wineries, tastings, beautiful scenery. Overnight stay recommended for the full experience.
+                    </div>
+                    <div class="offering-options">Full day trip, overnight recommended. Available with or without company</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="legal-advisory">
+            <div class="legal-title">⚠️ IMPORTANT LEGAL ADVISORIES</div>
+            <div class="legal-text">
+                <strong>SYNTHEVERSE IS IMAGINARY/ENTERTAINMENT ONLY</strong> - Like reading a very good book, playing a video game, or watching a movie. <strong>NO SUBSTANCES OF ANY KIND ARE INVOLVED.</strong> All laws always followed for maximum coherence, amplitude, and rich experiences daily.
+
+                <br><br><strong>INTOXICANT WARNING & ANNOUNCEMENT:</strong> These new safe, natural, no substance, legal but powerful and productive effects amplify performance and output omniversally. ⚫ BBHE (Big Black Hole Energy) is intoxicating. 5 BBHE Intox % (virtual/imaginary only). Magnified when using +1 reading glasses. Selectable and safe in all VibeLand 🏛️ campuses (imaginary/entertainment only).
+
+                <br><br>All experiences are <strong>imaginary/entertainment only</strong>. No real substances, no illegal activities. Everything is safe, natural, legal, and designed for maximum enjoyment within the bounds of all applicable laws.
+
+                <br><br>See: <a href="SYNTHEVERSE_IMAGINARY_ENTERTAINMENT_ONLY.md" style="color: #ffaa00; text-decoration: underline;">SYNTHEVERSE_IMAGINARY_ENTERTAINMENT_ONLY.md</a> for complete details.
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let selectedTier = null;
+
+        function selectTier(tier) {
+            selectedTier = tier;
+            // Update visual selection
+            document.querySelectorAll('.tier-card').forEach(card => {
+                card.style.borderColor = 'rgba(212, 175, 55, 0.3)';
+                card.style.background = 'rgba(0, 0, 0, 0.4)';
+            });
+            event.currentTarget.style.borderColor = 'rgba(212, 175, 55, 0.8)';
+            event.currentTarget.style.background = 'rgba(212, 175, 55, 0.2)';
+        }
+
+        function confirmSelection() {
+            if (!selectedTier) {
+                alert('Please select an experience tier first.');
+                return;
+            }
+            console.log('[Restroom Landing] Selected tier:', selectedTier);
+            // In production, this would send selection to backend
+            alert(`Experience tier selected: ${selectedTier}. We'll be in touch to arrange your experience.`);
+        }
+
+        console.log('[Restroom Landing] Men\'s Club Restroom Back Door Offer initialized');
+    </script>
+</body>
+</html>

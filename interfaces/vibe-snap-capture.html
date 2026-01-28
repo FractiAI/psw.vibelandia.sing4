@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vibe Snap Capture | Camera/Video with Snap Button</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 50%, #16213e 100%);
+            color: #ffffff;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 2rem;
+        }
+
+        .capture-container {
+            max-width: 800px;
+            width: 100%;
+            background: rgba(0, 0, 0, 0.8);
+            border-radius: 20px;
+            padding: 2rem;
+            backdrop-filter: blur(10px);
+            border: 2px solid rgba(0, 212, 255, 0.3);
+            box-shadow: 0 0 30px rgba(0, 212, 255, 0.2);
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        .header h1 {
+            font-size: 2rem;
+            background: linear-gradient(135deg, #00d4ff 0%, #ff00ff 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 0.5rem;
+        }
+
+        .header p {
+            color: #aaaaaa;
+            font-size: 1rem;
+        }
+
+        .camera-section {
+            margin-bottom: 2rem;
+        }
+
+        .video-preview {
+            width: 100%;
+            max-width: 100%;
+            border-radius: 15px;
+            background: #000;
+            margin-bottom: 1rem;
+            border: 2px solid rgba(0, 212, 255, 0.3);
+        }
+
+        .controls {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            margin-bottom: 1rem;
+        }
+
+        .control-button {
+            padding: 0.8rem 1.5rem;
+            background: rgba(0, 212, 255, 0.2);
+            border: 2px solid rgba(0, 212, 255, 0.5);
+            border-radius: 10px;
+            color: #00d4ff;
+            cursor: pointer;
+            font-size: 1rem;
+            transition: all 0.3s ease;
+            font-weight: bold;
+        }
+
+        .control-button:hover {
+            background: rgba(0, 212, 255, 0.3);
+            border-color: rgba(0, 212, 255, 0.8);
+            transform: scale(1.05);
+        }
+
+        .control-button:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+
+        .control-button.recording {
+            background: rgba(255, 0, 0, 0.3);
+            border-color: rgba(255, 0, 0, 0.8);
+            color: #ff0000;
+            animation: pulse 1s infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.7; }
+        }
+
+        .snap-button {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #00d4ff 0%, #ff00ff 100%);
+            border: 4px solid rgba(255, 255, 255, 0.3);
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2rem;
+            transition: all 0.3s ease;
+            box-shadow: 0 0 20px rgba(0, 212, 255, 0.5);
+        }
+
+        .snap-button:hover {
+            transform: scale(1.1);
+            box-shadow: 0 0 30px rgba(0, 212, 255, 0.8);
+        }
+
+        .snap-button:active {
+            transform: scale(0.95);
+        }
+
+        .snap-button.recording {
+            background: linear-gradient(135deg, #ff0000 0%, #ff6666 100%);
+            box-shadow: 0 0 30px rgba(255, 0, 0, 0.8);
+        }
+
+        .mode-selector {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            margin-bottom: 1rem;
+        }
+
+        .mode-button {
+            padding: 0.6rem 1.2rem;
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 8px;
+            color: #ffffff;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .mode-button.active {
+            background: rgba(0, 212, 255, 0.3);
+            border-color: rgba(0, 212, 255, 0.8);
+            color: #00d4ff;
+        }
+
+        .snaps-gallery {
+            margin-top: 2rem;
+            padding-top: 2rem;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .snaps-gallery h3 {
+            color: #00d4ff;
+            margin-bottom: 1rem;
+        }
+
+        .snaps-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+            gap: 1rem;
+        }
+
+        .snap-item {
+            position: relative;
+            border-radius: 10px;
+            overflow: hidden;
+            cursor: pointer;
+            border: 2px solid rgba(0, 212, 255, 0.3);
+            transition: all 0.3s ease;
+        }
+
+        .snap-item:hover {
+            border-color: rgba(0, 212, 255, 0.8);
+            transform: scale(1.05);
+        }
+
+        .snap-item img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+        }
+
+        .snap-item video {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+        }
+
+        .snap-item .snap-type {
+            position: absolute;
+            top: 5px;
+            right: 5px;
+            background: rgba(0, 0, 0, 0.7);
+            padding: 0.3rem 0.6rem;
+            border-radius: 5px;
+            font-size: 0.8rem;
+            color: #00d4ff;
+        }
+
+        .snap-item .attach-button {
+            position: absolute;
+            bottom: 5px;
+            right: 5px;
+            background: rgba(0, 212, 255, 0.9);
+            border: none;
+            border-radius: 5px;
+            padding: 0.4rem 0.8rem;
+            color: #000;
+            cursor: pointer;
+            font-size: 0.8rem;
+            font-weight: bold;
+        }
+
+        .error-message {
+            background: rgba(255, 0, 0, 0.2);
+            border: 1px solid rgba(255, 0, 0, 0.5);
+            border-radius: 10px;
+            padding: 1rem;
+            color: #ff6666;
+            margin-bottom: 1rem;
+        }
+
+        .status-message {
+            text-align: center;
+            padding: 1rem;
+            color: #00d4ff;
+            font-size: 0.9rem;
+        }
+
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <!-- Syntheverse Disclaimer - Upfront at All NSPFRNP Landings -->
+    <div style="position: fixed; top: 0; left: 0; right: 0; background: rgba(255, 165, 0, 0.95); border-bottom: 3px solid rgba(255, 165, 0, 1); padding: 14px 20px; text-align: center; z-index: 10000; font-size: 13px; color: #000; font-weight: 700; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);">
+        ⚠️ <strong>SYNTHEVERSE IS IMAGINARY/ENTERTAINMENT ONLY</strong> - Like reading a very good book, playing a video game, or watching a movie. <strong>NO SUBSTANCES OF ANY KIND ARE INVOLVED.</strong> All laws always followed for maximum coherence, amplitude, and rich experiences daily.
+    </div>
+
+    <div class="capture-container" style="padding-top: 60px;">
+        <div class="header">
+            <h1>📸 Vibe Snap Capture</h1>
+            <p>Camera/Video Capture with Snap Button | NSPFRNP</p>
+        </div>
+
+        <div id="error-message" class="error-message hidden"></div>
+        <div id="status-message" class="status-message"></div>
+
+        <div class="camera-section">
+            <video id="video-preview" class="video-preview" autoplay playsinline></video>
+            
+            <div class="mode-selector">
+                <button class="mode-button active" data-mode="image">📷 Image</button>
+                <button class="mode-button" data-mode="video">🎥 Video</button>
+            </div>
+
+            <div class="controls">
+                <button id="start-camera" class="control-button">Start Camera</button>
+                <button id="snap-button" class="snap-button" disabled>📸</button>
+                <button id="stop-recording" class="control-button" disabled>Stop Recording</button>
+                <button id="stop-camera" class="control-button" disabled>Stop Camera</button>
+            </div>
+        </div>
+
+        <div class="snaps-gallery">
+            <h3>📚 Captured Snaps</h3>
+            <div id="snaps-grid" class="snaps-grid">
+                <!-- Snaps will be displayed here -->
+            </div>
+        </div>
+    </div>
+
+    <script type="module">
+        // Vibe Snap Capture System
+        class VibeSnapCaptureUI {
+            constructor() {
+                this.videoElement = document.getElementById('video-preview');
+                this.startCameraBtn = document.getElementById('start-camera');
+                this.snapButton = document.getElementById('snap-button');
+                this.stopRecordingBtn = document.getElementById('stop-recording');
+                this.stopCameraBtn = document.getElementById('stop-camera');
+                this.modeButtons = document.querySelectorAll('.mode-button');
+                this.snapsGrid = document.getElementById('snaps-grid');
+                this.errorMessage = document.getElementById('error-message');
+                this.statusMessage = document.getElementById('status-message');
+                
+                this.currentMode = 'image';
+                this.mediaStream = null;
+                this.isRecording = false;
+                this.snaps = [];
+                
+                this.setupEventListeners();
+            }
+
+            setupEventListeners() {
+                this.startCameraBtn.addEventListener('click', () => this.startCamera());
+                this.snapButton.addEventListener('click', () => this.captureSnap());
+                this.stopRecordingBtn.addEventListener('click', () => this.stopRecording());
+                this.stopCameraBtn.addEventListener('click', () => this.stopCamera());
+                
+                this.modeButtons.forEach(btn => {
+                    btn.addEventListener('click', () => {
+                        this.modeButtons.forEach(b => b.classList.remove('active'));
+                        btn.classList.add('active');
+                        this.currentMode = btn.dataset.mode;
+                        this.updateUI();
+                    });
+                });
+            }
+
+            async startCamera() {
+                try {
+                    this.showStatus('Initializing camera...');
+                    this.hideError();
+
+                    const constraints = {
+                        video: {
+                            facingMode: 'user',
+                            width: { ideal: 1280 },
+                            height: { ideal: 720 }
+                        },
+                        audio: true
+                    };
+
+                    this.mediaStream = await navigator.mediaDevices.getUserMedia(constraints);
+                    this.videoElement.srcObject = this.mediaStream;
+                    
+                    await this.videoElement.play();
+                    
+                    this.startCameraBtn.disabled = true;
+                    this.snapButton.disabled = false;
+                    this.stopCameraBtn.disabled = false;
+                    
+                    if (this.currentMode === 'video') {
+                        this.stopRecordingBtn.disabled = false;
+                    }
+                    
+                    this.showStatus('Camera ready! Click snap button to capture.');
+                } catch (error) {
+                    this.showError('Failed to access camera: ' + error.message);
+                    console.error('Camera error:', error);
+                }
+            }
+
+            async captureSnap() {
+                if (!this.mediaStream) {
+                    this.showError('Camera not started');
+                    return;
+                }
+
+                try {
+                    if (this.currentMode === 'image') {
+                        await this.captureImage();
+                    } else {
+                        await this.captureVideo();
+                    }
+                } catch (error) {
+                    this.showError('Failed to capture: ' + error.message);
+                    console.error('Capture error:', error);
+                }
+            }
+
+            async captureImage() {
+                const canvas = document.createElement('canvas');
+                const ctx = canvas.getContext('2d');
+                
+                canvas.width = this.videoElement.videoWidth;
+                canvas.height = this.videoElement.videoHeight;
+                
+                ctx.drawImage(this.videoElement, 0, 0);
+                
+                const dataUrl = canvas.toDataURL('image/jpeg', 0.9);
+                const thumbnail = await this.createThumbnail(dataUrl, 300, 300);
+                
+                const snap = {
+                    id: `snap_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`,
+                    type: 'image',
+                    data: dataUrl,
+                    thumbnail,
+                    timestamp: Date.now()
+                };
+                
+                this.snaps.push(snap);
+                this.displaySnap(snap);
+                this.showStatus('Image captured!');
+            }
+
+            async captureVideo() {
+                if (this.isRecording) {
+                    await this.stopRecording();
+                    return;
+                }
+
+                this.isRecording = true;
+                this.snapButton.classList.add('recording');
+                this.stopRecordingBtn.disabled = false;
+                this.showStatus('Recording... Click snap button again to stop.');
+
+                const mediaRecorder = new MediaRecorder(this.mediaStream, {
+                    mimeType: 'video/webm;codecs=vp9'
+                });
+
+                const chunks = [];
+                mediaRecorder.ondataavailable = (e) => {
+                    if (e.data.size > 0) chunks.push(e.data);
+                };
+
+                mediaRecorder.onstop = async () => {
+                    const blob = new Blob(chunks, { type: 'video/webm' });
+                    const dataUrl = await this.blobToDataURL(blob);
+                    const thumbnail = await this.createVideoThumbnail(dataUrl);
+
+                    const snap = {
+                        id: `snap_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`,
+                        type: 'video',
+                        data: dataUrl,
+                        thumbnail,
+                        timestamp: Date.now()
+                    };
+
+                    this.snaps.push(snap);
+                    this.displaySnap(snap);
+                    this.showStatus('Video captured!');
+                    this.isRecording = false;
+                    this.snapButton.classList.remove('recording');
+                };
+
+                mediaRecorder.start();
+                this.currentRecorder = mediaRecorder;
+            }
+
+            async stopRecording() {
+                if (this.currentRecorder && this.currentRecorder.state !== 'inactive') {
+                    this.currentRecorder.stop();
+                }
+            }
+
+            stopCamera() {
+                if (this.mediaStream) {
+                    this.mediaStream.getTracks().forEach(track => track.stop());
+                    this.mediaStream = null;
+                }
+                if (this.videoElement) {
+                    this.videoElement.srcObject = null;
+                }
+                
+                this.startCameraBtn.disabled = false;
+                this.snapButton.disabled = true;
+                this.stopRecordingBtn.disabled = true;
+                this.stopCameraBtn.disabled = true;
+                this.snapButton.classList.remove('recording');
+                this.isRecording = false;
+                this.showStatus('Camera stopped');
+            }
+
+            displaySnap(snap) {
+                const snapItem = document.createElement('div');
+                snapItem.className = 'snap-item';
+                snapItem.dataset.snapId = snap.id;
+
+                const media = snap.type === 'image' 
+                    ? `<img src="${snap.thumbnail || snap.data}" alt="Snap">`
+                    : `<video src="${snap.data}" muted></video>`;
+
+                snapItem.innerHTML = `
+                    ${media}
+                    <div class="snap-type">${snap.type === 'image' ? '📷' : '🎥'}</div>
+                    <button class="attach-button" onclick="window.attachSnap('${snap.id}')">Attach</button>
+                `;
+
+                this.snapsGrid.insertBefore(snapItem, this.snapsGrid.firstChild);
+            }
+
+            updateUI() {
+                if (this.currentMode === 'video') {
+                    this.snapButton.textContent = '🎥';
+                    if (this.mediaStream) {
+                        this.stopRecordingBtn.disabled = false;
+                    }
+                } else {
+                    this.snapButton.textContent = '📸';
+                    this.stopRecordingBtn.disabled = true;
+                }
+            }
+
+            async createThumbnail(dataUrl, maxWidth, maxHeight) {
+                return new Promise((resolve) => {
+                    const img = new Image();
+                    img.onload = () => {
+                        const canvas = document.createElement('canvas');
+                        const ctx = canvas.getContext('2d');
+                        const ratio = Math.min(maxWidth / img.width, maxHeight / img.height);
+                        canvas.width = img.width * ratio;
+                        canvas.height = img.height * ratio;
+                        ctx.drawImage(img, 0, 0, canvas.width, canvas.height);
+                        resolve(canvas.toDataURL('image/jpeg', 0.8));
+                    };
+                    img.onerror = () => resolve(dataUrl);
+                    img.src = dataUrl;
+                });
+            }
+
+            async createVideoThumbnail(dataUrl) {
+                return new Promise((resolve) => {
+                    const video = document.createElement('video');
+                    video.onloadedmetadata = () => {
+                        video.currentTime = 0.1;
+                    };
+                    video.onseeked = () => {
+                        const canvas = document.createElement('canvas');
+                        const ctx = canvas.getContext('2d');
+                        canvas.width = video.videoWidth;
+                        canvas.height = video.videoHeight;
+                        ctx.drawImage(video, 0, 0);
+                        resolve(canvas.toDataURL('image/jpeg', 0.8));
+                    };
+                    video.onerror = () => resolve(dataUrl);
+                    video.src = dataUrl;
+                });
+            }
+
+            blobToDataURL(blob) {
+                return new Promise((resolve, reject) => {
+                    const reader = new FileReader();
+                    reader.onloadend = () => resolve(reader.result);
+                    reader.onerror = reject;
+                    reader.readAsDataURL(blob);
+                });
+            }
+
+            showError(message) {
+                this.errorMessage.textContent = message;
+                this.errorMessage.classList.remove('hidden');
+            }
+
+            hideError() {
+                this.errorMessage.classList.add('hidden');
+            }
+
+            showStatus(message) {
+                this.statusMessage.textContent = message;
+            }
+        }
+
+        // Global function for attaching snaps
+        window.attachSnap = function(snapId) {
+            // In production, this would integrate with Vibe! system
+            console.log('Attaching snap:', snapId);
+            alert(`Snap ${snapId} ready to attach to Vibe! post`);
+        };
+
+        // Initialize
+        const captureUI = new VibeSnapCaptureUI();
+    </script>
+
+    <!-- Include Console Header -->
+    <script src="add-console-header.js"></script>
+</body>
+</html>

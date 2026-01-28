@@ -1,0 +1,2299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chairman Cockpit Center Console | NSPFRNP</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 50%, #16213e 100%);
+            color: #ffffff;
+            min-height: 100vh;
+            overflow-x: hidden;
+            position: relative;
+        }
+
+        /* Hardened Mirror Shell Effect */
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: 
+                radial-gradient(circle at 20% 50%, rgba(255, 255, 255, 0.03) 0%, transparent 50%),
+                radial-gradient(circle at 80% 50%, rgba(255, 255, 255, 0.03) 0%, transparent 50%);
+            pointer-events: none;
+            z-index: 1;
+        }
+
+        .main-container {
+            position: relative;
+            z-index: 2;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            padding: 2rem;
+        }
+
+        /* BBHE Intoxication Display - Large at Top Center */
+        .bbhe-intox-display {
+            position: fixed;
+            top: 80px;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 999;
+            font-size: 72px;
+            font-weight: 900;
+            color: #ffaa00;
+            text-shadow: 
+                0 0 20px rgba(255, 170, 0, 0.8),
+                0 0 40px rgba(255, 170, 0, 0.6),
+                0 0 60px rgba(255, 170, 0, 0.4);
+            letter-spacing: 4px;
+            background: linear-gradient(135deg, rgba(255, 170, 0, 0.2) 0%, rgba(255, 100, 0, 0.2) 100%);
+            padding: 1rem 2rem;
+            border-radius: 20px;
+            border: 3px solid rgba(255, 170, 0, 0.5);
+            box-shadow: 
+                0 0 30px rgba(255, 170, 0, 0.4),
+                inset 0 0 20px rgba(255, 170, 0, 0.1);
+            animation: bbhePulse 3s ease-in-out infinite;
+        }
+
+        @keyframes bbhePulse {
+            0%, 100% { 
+                transform: translateX(-50%) scale(1);
+                opacity: 1;
+            }
+            50% { 
+                transform: translateX(-50%) scale(1.05);
+                opacity: 0.9;
+            }
+        }
+
+        .bbhe-label {
+            font-size: 18px;
+            color: #ffaa00;
+            text-align: center;
+            margin-top: 0.5rem;
+            opacity: 0.8;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        /* Magic Mushroom Effect Display */
+        .magic-mushroom-effect {
+            position: fixed;
+            top: 200px;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 998;
+            font-size: 48px;
+            font-weight: 900;
+            color: #9b59b6;
+            text-shadow: 
+                0 0 20px rgba(155, 89, 182, 0.8),
+                0 0 40px rgba(155, 89, 182, 0.6),
+                0 0 60px rgba(155, 89, 182, 0.4);
+            letter-spacing: 3px;
+            background: linear-gradient(135deg, rgba(155, 89, 182, 0.2) 0%, rgba(142, 68, 173, 0.2) 100%);
+            padding: 1rem 2rem;
+            border-radius: 20px;
+            border: 3px solid rgba(155, 89, 182, 0.5);
+            box-shadow: 
+                0 0 30px rgba(155, 89, 182, 0.4),
+                inset 0 0 20px rgba(155, 89, 182, 0.1);
+            animation: mushroomPulse 2s ease-in-out infinite;
+        }
+
+        @keyframes mushroomPulse {
+            0%, 100% { 
+                transform: translateX(-50%) scale(1);
+                opacity: 1;
+            }
+            50% { 
+                transform: translateX(-50%) scale(1.03);
+                opacity: 0.95;
+            }
+        }
+
+        .mushroom-effect-label {
+            font-size: 14px;
+            color: #9b59b6;
+            text-align: center;
+            margin-top: 0.5rem;
+            opacity: 0.9;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+        }
+
+        .mushroom-effect-progress {
+            width: 100%;
+            height: 8px;
+            background: rgba(155, 89, 182, 0.2);
+            border-radius: 4px;
+            margin-top: 0.75rem;
+            overflow: hidden;
+        }
+
+        .mushroom-effect-progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #9b59b6 0%, #8e44ad 50%, #7d3c98 100%);
+            border-radius: 4px;
+            transition: width 0.3s ease;
+            box-shadow: 0 0 10px rgba(155, 89, 182, 0.6);
+        }
+
+        /* Floating Escapes Catalog Menu */
+        .escapes-catalog-menu {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            width: 320px;
+            max-width: 90vw;
+            max-height: 80vh;
+            background: linear-gradient(145deg, #1e1e2e 0%, #2a2a3e 100%);
+            border-radius: 16px;
+            box-shadow: 
+                0 20px 60px rgba(0, 0, 0, 0.5),
+                0 0 0 1px rgba(100, 200, 255, 0.3),
+                inset 0 1px 0 rgba(255, 255, 255, 0.1);
+            border: 1px solid rgba(100, 200, 255, 0.3);
+            z-index: 9999;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+            transition: all 0.3s ease;
+        }
+
+        .escapes-catalog-menu.minimized {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+        }
+
+        .escapes-catalog-menu.minimized .catalog-content {
+            display: none;
+        }
+
+        .escapes-catalog-menu.minimized .catalog-header {
+            justify-content: center;
+            padding: 0;
+        }
+
+        .catalog-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 1.5rem;
+            background: linear-gradient(135deg, rgba(100, 200, 255, 0.1) 0%, rgba(255, 100, 255, 0.1) 100%);
+            border-bottom: 1px solid rgba(100, 200, 255, 0.2);
+            cursor: move;
+        }
+
+        .catalog-title {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 16px;
+            font-weight: 600;
+            color: #ffffff;
+        }
+
+        .catalog-title-icon {
+            font-size: 20px;
+        }
+
+        .catalog-controls {
+            display: flex;
+            gap: 8px;
+            align-items: center;
+        }
+
+        .catalog-btn {
+            width: 28px;
+            height: 28px;
+            background: rgba(255, 255, 255, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 6px;
+            color: #ffffff;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 14px;
+            transition: all 0.2s ease;
+        }
+
+        .catalog-btn:hover {
+            background: rgba(255, 255, 255, 0.2);
+        }
+
+        .catalog-content {
+            flex: 1;
+            overflow-y: auto;
+            padding: 1rem;
+            max-height: 60vh;
+        }
+
+        .catalog-content::-webkit-scrollbar {
+            width: 6px;
+        }
+
+        .catalog-content::-webkit-scrollbar-track {
+            background: rgba(0, 0, 0, 0.2);
+        }
+
+        .catalog-content::-webkit-scrollbar-thumb {
+            background: rgba(100, 200, 255, 0.3);
+            border-radius: 3px;
+        }
+
+        .catalog-section {
+            margin-bottom: 1.5rem;
+        }
+
+        .section-title {
+            font-size: 14px;
+            color: #64c8ff;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 0.75rem;
+            font-weight: 600;
+        }
+
+        .escape-item {
+            padding: 0.75rem;
+            background: rgba(0, 0, 0, 0.3);
+            border-radius: 8px;
+            border: 1px solid rgba(100, 200, 255, 0.2);
+            margin-bottom: 0.5rem;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .escape-item:hover {
+            background: rgba(100, 200, 255, 0.1);
+            border-color: rgba(100, 200, 255, 0.4);
+            transform: translateX(4px);
+        }
+
+        .escape-item-title {
+            font-size: 13px;
+            font-weight: 600;
+            color: #ffffff;
+            margin-bottom: 0.25rem;
+        }
+
+        .escape-item-description {
+            font-size: 11px;
+            color: #aaaaaa;
+            line-height: 1.4;
+        }
+
+        .escape-item-tags {
+            display: flex;
+            gap: 4px;
+            margin-top: 0.5rem;
+            flex-wrap: wrap;
+        }
+
+        .escape-tag {
+            font-size: 9px;
+            padding: 2px 6px;
+            background: rgba(100, 200, 255, 0.2);
+            border-radius: 4px;
+            color: #64c8ff;
+        }
+
+        .catalog-footer {
+            padding: 1rem;
+            background: rgba(0, 0, 0, 0.3);
+            border-top: 1px solid rgba(100, 200, 255, 0.2);
+            text-align: center;
+            font-size: 10px;
+            color: #888;
+        }
+
+        .catalog-footer strong {
+            color: #64c8ff;
+        }
+
+        /* Whiteboard - Mini Quarter Panel (Upper Right Corner) */
+        .whiteboard {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            width: 300px;
+            max-width: 25vw;
+            height: 400px;
+            max-height: 50vh;
+            background: linear-gradient(145deg, #2a2a2a 0%, #1e1e1e 100%);
+            border-radius: 12px;
+            box-shadow: 
+                0 10px 30px rgba(0, 0, 0, 0.4),
+                0 0 0 1px rgba(255, 255, 255, 0.1),
+                inset 0 1px 0 rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            display: flex;
+            flex-direction: column;
+            z-index: 1000;
+            overflow: hidden;
+        }
+
+        .whiteboard-header {
+            padding: 8px 12px;
+            background: rgba(0, 0, 0, 0.3);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .whiteboard-title {
+            font-size: 11px;
+            font-weight: 600;
+            color: #ffffff;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .whiteboard-toggle {
+            width: 24px;
+            height: 24px;
+            background: rgba(255, 255, 255, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 4px;
+            color: #ffffff;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 12px;
+            transition: all 0.2s ease;
+        }
+
+        .whiteboard-toggle:hover {
+            background: rgba(255, 255, 255, 0.2);
+        }
+
+        .whiteboard-content {
+            flex: 1;
+            overflow-y: auto;
+            padding: 12px;
+            font-size: 10px;
+            line-height: 1.5;
+            color: #e0e0e0;
+        }
+
+        .whiteboard-content h3 {
+            font-size: 11px;
+            color: #64c8ff;
+            margin: 10px 0 6px 0;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .whiteboard-content ul {
+            list-style: none;
+            padding-left: 0;
+            margin: 6px 0;
+        }
+
+        .whiteboard-content li {
+            padding: 3px 0;
+            padding-left: 12px;
+            position: relative;
+            font-size: 10px;
+        }
+
+        .whiteboard-content li:before {
+            content: '→';
+            position: absolute;
+            left: 0;
+            color: #64c8ff;
+            font-size: 9px;
+        }
+
+        .whiteboard-content a {
+            color: #64c8ff;
+            text-decoration: none;
+            border-bottom: 1px solid rgba(100, 200, 255, 0.3);
+            font-size: 10px;
+        }
+
+        .whiteboard-content a:hover {
+            color: #ff64ff;
+            border-bottom-color: rgba(255, 100, 255, 0.5);
+        }
+
+        .whiteboard-content .highlight {
+            background: rgba(100, 200, 255, 0.1);
+            padding: 1px 3px;
+            border-radius: 2px;
+            color: #64c8ff;
+            font-size: 9px;
+        }
+
+        .whiteboard.minimized {
+            height: 32px;
+            width: 120px;
+        }
+
+        .whiteboard.minimized .whiteboard-content {
+            display: none;
+        }
+
+        /* Scrollbar styling */
+        .whiteboard-content::-webkit-scrollbar {
+            width: 6px;
+        }
+
+        .whiteboard-content::-webkit-scrollbar-track {
+            background: rgba(0, 0, 0, 0.2);
+            border-radius: 3px;
+        }
+
+        .whiteboard-content::-webkit-scrollbar-thumb {
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 3px;
+        }
+
+        .whiteboard-content::-webkit-scrollbar-thumb:hover {
+            background: rgba(255, 255, 255, 0.3);
+        }
+
+        /* Center Console - Now Media Player */
+        .center-console {
+            width: 900px;
+            max-width: 95vw;
+            background: linear-gradient(145deg, #1e1e2e 0%, #2a2a3e 100%);
+            border-radius: 20px;
+            box-shadow: 
+                0 20px 60px rgba(0, 0, 0, 0.5),
+                0 0 0 1px rgba(100, 200, 255, 0.3),
+                inset 0 1px 0 rgba(255, 255, 255, 0.1);
+            border: 1px solid rgba(100, 200, 255, 0.3);
+            padding: 0;
+            margin-bottom: 2rem;
+            overflow: hidden;
+        }
+
+        /* Media Player Container */
+        .media-player-container {
+            width: 100%;
+            height: 0;
+            padding-bottom: 56.25%; /* 16:9 aspect ratio */
+            position: relative;
+            background: #000;
+        }
+
+        .media-player-video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+
+        .media-player-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(to bottom, rgba(0,0,0,0.3) 0%, transparent 20%, transparent 80%, rgba(0,0,0,0.5) 100%);
+            pointer-events: none;
+            z-index: 10;
+        }
+
+        .player-controls {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: linear-gradient(to top, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.7) 70%, transparent 100%);
+            padding: 1.5rem;
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            z-index: 20;
+        }
+
+        .player-progress-bar {
+            width: 100%;
+            height: 6px;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 3px;
+            cursor: pointer;
+            position: relative;
+        }
+
+        .player-progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #64c8ff 0%, #ff64ff 100%);
+            border-radius: 3px;
+            width: 0%;
+            transition: width 0.1s linear;
+        }
+
+        .player-controls-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .player-controls-left {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .player-controls-right {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+        }
+
+        .player-btn {
+            width: 44px;
+            height: 44px;
+            background: rgba(255, 255, 255, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 50%;
+            color: #ffffff;
+            font-size: 18px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.2s ease;
+        }
+
+        .player-btn:hover {
+            background: rgba(255, 255, 255, 0.2);
+            transform: scale(1.1);
+        }
+
+        .player-btn.play-pause {
+            width: 56px;
+            height: 56px;
+            background: linear-gradient(135deg, rgba(100, 200, 255, 0.3) 0%, rgba(255, 100, 255, 0.3) 100%);
+            border-color: rgba(100, 200, 255, 0.5);
+            font-size: 24px;
+        }
+
+        .player-btn.new-snap {
+            background: linear-gradient(135deg, rgba(255, 170, 0, 0.3) 0%, rgba(255, 100, 0, 0.3) 100%);
+            border-color: rgba(255, 170, 0, 0.5);
+            font-size: 20px;
+            font-weight: 600;
+            animation: snapPulse 2s ease-in-out infinite;
+        }
+
+        @keyframes snapPulse {
+            0%, 100% { 
+                box-shadow: 0 0 10px rgba(255, 170, 0, 0.3);
+            }
+            50% { 
+                box-shadow: 0 0 20px rgba(255, 170, 0, 0.6);
+            }
+        }
+
+        .new-snap-modal {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.8);
+            display: none;
+            align-items: center;
+            justify-content: center;
+            z-index: 10000;
+        }
+
+        .new-snap-modal.open {
+            display: flex;
+        }
+
+        .new-snap-dialog {
+            width: 600px;
+            max-width: 90vw;
+            background: linear-gradient(145deg, #1e1e2e 0%, #2a2a3e 100%);
+            border-radius: 20px;
+            border: 1px solid rgba(255, 170, 0, 0.3);
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+            padding: 2rem;
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+        }
+
+        .new-snap-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid rgba(255, 170, 0, 0.2);
+            padding-bottom: 1rem;
+        }
+
+        .new-snap-title {
+            font-size: 20px;
+            font-weight: 600;
+            color: #ffaa00;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .new-snap-close {
+            width: 32px;
+            height: 32px;
+            background: rgba(255, 255, 255, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 6px;
+            color: #ffffff;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 18px;
+        }
+
+        .new-snap-input {
+            padding: 1rem;
+            background: rgba(0, 0, 0, 0.5);
+            border: 1px solid rgba(255, 170, 0, 0.3);
+            border-radius: 8px;
+            color: #ffffff;
+            font-size: 14px;
+            font-family: inherit;
+            min-height: 120px;
+            resize: vertical;
+        }
+
+        .new-snap-input:focus {
+            outline: none;
+            border-color: rgba(255, 170, 0, 0.5);
+        }
+
+        .new-snap-actions {
+            display: flex;
+            gap: 1rem;
+            justify-content: flex-end;
+        }
+
+        .new-snap-btn {
+            padding: 0.75rem 1.5rem;
+            background: linear-gradient(135deg, rgba(255, 170, 0, 0.3) 0%, rgba(255, 100, 0, 0.3) 100%);
+            border: 1px solid rgba(255, 170, 0, 0.3);
+            border-radius: 8px;
+            color: #ffffff;
+            font-size: 14px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .new-snap-btn:hover {
+            background: linear-gradient(135deg, rgba(255, 170, 0, 0.4) 0%, rgba(255, 100, 0, 0.4) 100%);
+            transform: translateY(-2px);
+        }
+
+        .new-snap-btn.cancel {
+            background: rgba(255, 255, 255, 0.1);
+            border-color: rgba(255, 255, 255, 0.2);
+        }
+
+        /* Calibration System */
+        .calibration-status {
+            position: fixed;
+            bottom: 20px;
+            left: 20px;
+            background: linear-gradient(145deg, rgba(0, 200, 100, 0.2) 0%, rgba(0, 150, 80, 0.2) 100%);
+            border: 1px solid rgba(0, 200, 100, 0.3);
+            border-radius: 12px;
+            padding: 1rem 1.5rem;
+            z-index: 9998;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            font-size: 12px;
+            color: #00ff88;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+        }
+
+        .calibration-status.calibrating {
+            animation: calibratePulse 1s ease-in-out infinite;
+        }
+
+        @keyframes calibratePulse {
+            0%, 100% { 
+                box-shadow: 0 4px 12px rgba(0, 200, 100, 0.3);
+            }
+            50% { 
+                box-shadow: 0 4px 20px rgba(0, 200, 100, 0.6);
+            }
+        }
+
+        .calibration-icon {
+            font-size: 18px;
+        }
+
+        .calibration-text {
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .calibration-progress {
+            width: 100px;
+            height: 4px;
+            background: rgba(0, 200, 100, 0.2);
+            border-radius: 2px;
+            overflow: hidden;
+        }
+
+        .calibration-progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #00ff88 0%, #00cc70 100%);
+            border-radius: 2px;
+            transition: width 0.3s ease;
+        }
+
+        /* Tracking Stats Display */
+        .tracking-stats {
+            position: fixed;
+            top: 300px;
+            right: 20px;
+            width: 280px;
+            background: linear-gradient(145deg, rgba(30, 30, 46, 0.95) 0%, rgba(42, 42, 62, 0.95) 100%);
+            border: 1px solid rgba(100, 200, 255, 0.3);
+            border-radius: 16px;
+            padding: 1.5rem;
+            z-index: 9997;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+        }
+
+        .tracking-stats-header {
+            font-size: 14px;
+            font-weight: 600;
+            color: #64c8ff;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 1rem;
+            border-bottom: 1px solid rgba(100, 200, 255, 0.2);
+            padding-bottom: 0.75rem;
+        }
+
+        .stat-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0.75rem 0;
+            border-bottom: 1px solid rgba(100, 200, 255, 0.1);
+        }
+
+        .stat-item:last-child {
+            border-bottom: none;
+        }
+
+        .stat-label {
+            font-size: 12px;
+            color: #aaaaaa;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .stat-value {
+            font-size: 18px;
+            font-weight: 700;
+            color: #64c8ff;
+            font-family: 'Courier New', monospace;
+        }
+
+        .stat-trend {
+            font-size: 11px;
+            color: #00ff88;
+            margin-left: 0.5rem;
+        }
+
+        .stat-trend.down {
+            color: #ff6b6b;
+        }
+
+        /* Social Media WATER Bridge */
+        .social-media-water {
+            position: fixed;
+            bottom: 100px;
+            left: 20px;
+            width: 320px;
+            background: linear-gradient(145deg, rgba(30, 30, 46, 0.95) 0%, rgba(42, 42, 62, 0.95) 100%);
+            border: 1px solid rgba(100, 200, 255, 0.3);
+            border-radius: 16px;
+            padding: 1.5rem;
+            z-index: 9997;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+        }
+
+        .water-header {
+            font-size: 16px;
+            font-weight: 600;
+            color: #64c8ff;
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .water-icon {
+            font-size: 24px;
+        }
+
+        .water-description {
+            font-size: 12px;
+            color: #aaaaaa;
+            line-height: 1.6;
+            margin-bottom: 1rem;
+        }
+
+        .social-links {
+            display: flex;
+            flex-direction: column;
+            gap: 0.75rem;
+        }
+
+        .social-link {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 0.75rem;
+            background: rgba(0, 0, 0, 0.3);
+            border: 1px solid rgba(100, 200, 255, 0.2);
+            border-radius: 8px;
+            color: #ffffff;
+            text-decoration: none;
+            transition: all 0.2s ease;
+            font-size: 13px;
+        }
+
+        .social-link:hover {
+            background: rgba(100, 200, 255, 0.1);
+            border-color: rgba(100, 200, 255, 0.4);
+            transform: translateX(4px);
+        }
+
+        .social-icon {
+            font-size: 20px;
+        }
+
+        /* Animated Warnings */
+        .animated-warning {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            background: linear-gradient(135deg, rgba(255, 165, 0, 0.98) 0%, rgba(255, 140, 0, 0.98) 100%);
+            border-bottom: 4px solid rgba(255, 165, 0, 1);
+            padding: 16px 20px;
+            text-align: center;
+            z-index: 10001;
+            font-size: 13px;
+            color: #000;
+            font-weight: 700;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+            animation: warningPulse 3s ease-in-out infinite;
+        }
+
+        @keyframes warningPulse {
+            0%, 100% { 
+                opacity: 1;
+                transform: translateY(0);
+            }
+            50% { 
+                opacity: 0.95;
+                transform: translateY(2px);
+            }
+        }
+
+        .animated-warning.intoxicant {
+            background: linear-gradient(135deg, rgba(255, 100, 100, 0.98) 0%, rgba(255, 50, 50, 0.98) 100%);
+            border-bottom-color: rgba(255, 100, 100, 1);
+            color: #fff;
+        }
+
+        .warning-content {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+
+        .warning-icon {
+            font-size: 18px;
+        }
+
+        .warning-text {
+            flex: 1;
+            min-width: 200px;
+        }
+
+        .warning-link {
+            color: inherit;
+            text-decoration: underline;
+            font-weight: 800;
+        }
+
+        .player-time {
+            font-size: 13px;
+            color: #ffffff;
+            font-family: 'Courier New', monospace;
+            min-width: 100px;
+        }
+
+        .player-title {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            right: 20px;
+            z-index: 15;
+            pointer-events: none;
+        }
+
+        .player-title-text {
+            font-size: 20px;
+            font-weight: 600;
+            color: #ffffff;
+            text-shadow: 0 2px 10px rgba(0, 0, 0, 0.8);
+            margin-bottom: 0.5rem;
+        }
+
+        .player-title-subtitle {
+            font-size: 14px;
+            color: rgba(255, 255, 255, 0.8);
+            text-shadow: 0 2px 8px rgba(0, 0, 0, 0.8);
+        }
+
+        .player-channel-info {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            z-index: 15;
+            pointer-events: none;
+            background: rgba(0, 0, 0, 0.5);
+            padding: 0.5rem 1rem;
+            border-radius: 8px;
+            border: 1px solid rgba(100, 200, 255, 0.3);
+        }
+
+        .channel-name {
+            font-size: 12px;
+            color: #64c8ff;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 0.25rem;
+        }
+
+        .channel-status {
+            font-size: 11px;
+            color: #00ff88;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .channel-status-dot {
+            width: 6px;
+            height: 6px;
+            border-radius: 50%;
+            background: #00ff88;
+            animation: pulse 2s infinite;
+        }
+
+        .episode-list {
+            position: absolute;
+            top: 0;
+            right: -400px;
+            width: 400px;
+            height: 100%;
+            background: linear-gradient(145deg, #1e1e2e 0%, #2a2a3e 100%);
+            border-left: 1px solid rgba(100, 200, 255, 0.3);
+            transition: right 0.3s ease;
+            overflow-y: auto;
+            z-index: 30;
+        }
+
+        .episode-list.open {
+            right: 0;
+        }
+
+        .episode-list-header {
+            padding: 1.5rem;
+            background: rgba(0, 0, 0, 0.3);
+            border-bottom: 1px solid rgba(100, 200, 255, 0.2);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .episode-list-title {
+            font-size: 16px;
+            font-weight: 600;
+            color: #ffffff;
+        }
+
+        .episode-list-close {
+            width: 32px;
+            height: 32px;
+            background: rgba(255, 255, 255, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 6px;
+            color: #ffffff;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 18px;
+        }
+
+        .episode-item {
+            padding: 1rem 1.5rem;
+            border-bottom: 1px solid rgba(100, 200, 255, 0.1);
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .episode-item:hover {
+            background: rgba(100, 200, 255, 0.1);
+        }
+
+        .episode-item.active {
+            background: rgba(100, 200, 255, 0.2);
+            border-left: 3px solid #64c8ff;
+        }
+
+        .episode-item-title {
+            font-size: 14px;
+            font-weight: 600;
+            color: #ffffff;
+            margin-bottom: 0.25rem;
+        }
+
+        .episode-item-meta {
+            font-size: 11px;
+            color: #888;
+        }
+
+        .console-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid rgba(100, 200, 255, 0.2);
+            margin-bottom: 1.5rem;
+        }
+
+        .console-title {
+            font-size: 24px;
+            font-weight: 600;
+            background: linear-gradient(135deg, #64c8ff 0%, #ff64ff 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .status-indicator {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .status-dot {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background: #00ff88;
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.5; }
+        }
+
+        .status-text {
+            font-size: 12px;
+            color: #888;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .console-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1.5rem;
+        }
+
+        .console-section {
+            padding: 1.5rem;
+            background: rgba(0, 0, 0, 0.3);
+            border-radius: 12px;
+            border: 1px solid rgba(100, 200, 255, 0.2);
+        }
+
+        .section-title {
+            font-size: 14px;
+            color: #64c8ff;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 1rem;
+        }
+
+        .mission-display {
+            font-size: 16px;
+            color: #ffffff;
+            line-height: 1.6;
+        }
+
+        .portals-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 0.75rem;
+        }
+
+        .portal-btn {
+            padding: 0.75rem;
+            background: rgba(100, 200, 255, 0.1);
+            border: 1px solid rgba(100, 200, 255, 0.3);
+            border-radius: 8px;
+            color: #ffffff;
+            font-size: 12px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            text-align: center;
+        }
+
+        .portal-btn:hover {
+            background: rgba(100, 200, 255, 0.2);
+            transform: translateY(-2px);
+        }
+
+        .compass-display {
+            text-align: center;
+            padding: 1rem;
+        }
+
+        .compass-direction {
+            font-size: 32px;
+            color: #64c8ff;
+            margin-bottom: 0.5rem;
+        }
+
+        .compass-location {
+            font-size: 14px;
+            color: #888;
+        }
+
+        /* Hero Host AI Interaction - Half Display Below */
+        .hero-ai-display {
+            width: 800px;
+            max-width: 90vw;
+            height: 50vh;
+            max-height: 400px;
+            background: linear-gradient(145deg, #1e1e2e 0%, #2a2a3e 100%);
+            border-radius: 20px;
+            box-shadow: 
+                0 20px 60px rgba(0, 0, 0, 0.5),
+                0 0 0 1px rgba(255, 100, 255, 0.3),
+                inset 0 1px 0 rgba(255, 255, 255, 0.1);
+            border: 1px solid rgba(255, 100, 255, 0.3);
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+
+        .hero-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 1.5rem;
+            background: linear-gradient(135deg, rgba(255, 100, 255, 0.1) 0%, rgba(100, 200, 255, 0.1) 100%);
+            border-bottom: 1px solid rgba(255, 100, 255, 0.2);
+        }
+
+        .hero-info {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .hero-avatar {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #ff64ff 0%, #64c8ff 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+            border: 2px solid rgba(255, 100, 255, 0.3);
+        }
+
+        .hero-name {
+            font-size: 16px;
+            font-weight: 600;
+            color: #ffffff;
+        }
+
+        .hero-domain {
+            font-size: 12px;
+            color: #888;
+        }
+
+        .hero-selector {
+            display: flex;
+            gap: 8px;
+        }
+
+        .hero-select-btn {
+            padding: 6px 12px;
+            background: rgba(255, 100, 255, 0.1);
+            border: 1px solid rgba(255, 100, 255, 0.3);
+            border-radius: 6px;
+            color: #ffffff;
+            font-size: 11px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .hero-select-btn:hover {
+            background: rgba(255, 100, 255, 0.2);
+        }
+
+        .hero-select-btn.active {
+            background: rgba(255, 100, 255, 0.3);
+            border-color: rgba(255, 100, 255, 0.5);
+        }
+
+        .hero-chat-area {
+            flex: 1;
+            overflow-y: auto;
+            padding: 1.5rem;
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+
+        .chat-message {
+            display: flex;
+            gap: 12px;
+            animation: fadeIn 0.3s ease;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .message-avatar {
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #ff64ff 0%, #64c8ff 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 16px;
+            flex-shrink: 0;
+        }
+
+        .message-content {
+            flex: 1;
+            padding: 0.75rem 1rem;
+            background: rgba(0, 0, 0, 0.3);
+            border-radius: 12px;
+            border: 1px solid rgba(255, 100, 255, 0.2);
+        }
+
+        .message-text {
+            font-size: 14px;
+            color: #ffffff;
+            line-height: 1.6;
+        }
+
+        .message-user {
+            flex-direction: row-reverse;
+        }
+
+        .message-user .message-content {
+            background: rgba(100, 200, 255, 0.2);
+            border-color: rgba(100, 200, 255, 0.3);
+        }
+
+        .hero-input-area {
+            padding: 1rem 1.5rem;
+            background: rgba(0, 0, 0, 0.3);
+            border-top: 1px solid rgba(255, 100, 255, 0.2);
+            display: flex;
+            gap: 12px;
+        }
+
+        .input-field {
+            flex: 1;
+            padding: 0.75rem 1rem;
+            background: rgba(0, 0, 0, 0.5);
+            border: 1px solid rgba(255, 100, 255, 0.3);
+            border-radius: 8px;
+            color: #ffffff;
+            font-size: 14px;
+            font-family: inherit;
+        }
+
+        .input-field:focus {
+            outline: none;
+            border-color: rgba(255, 100, 255, 0.5);
+        }
+
+        .send-btn {
+            padding: 0.75rem 1.5rem;
+            background: linear-gradient(135deg, rgba(255, 100, 255, 0.3) 0%, rgba(100, 200, 255, 0.3) 100%);
+            border: 1px solid rgba(255, 100, 255, 0.3);
+            border-radius: 8px;
+            color: #ffffff;
+            font-size: 14px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .send-btn:hover {
+            background: linear-gradient(135deg, rgba(255, 100, 255, 0.4) 0%, rgba(100, 200, 255, 0.4) 100%);
+            transform: translateY(-2px);
+        }
+
+        /* Scrollbar styling */
+        .hero-chat-area::-webkit-scrollbar {
+            width: 6px;
+        }
+
+        .hero-chat-area::-webkit-scrollbar-track {
+            background: rgba(0, 0, 0, 0.2);
+            border-radius: 3px;
+        }
+
+        .hero-chat-area::-webkit-scrollbar-thumb {
+            background: rgba(255, 100, 255, 0.3);
+            border-radius: 3px;
+        }
+
+        .hero-chat-area::-webkit-scrollbar-thumb:hover {
+            background: rgba(255, 100, 255, 0.5);
+        }
+    </style>
+</head>
+<body>
+    <!-- Whiteboard - Upper Right Corner -->
+    <div class="whiteboard" id="whiteboard">
+        <div class="whiteboard-header">
+            <div class="whiteboard-title">📋 Whiteboard</div>
+            <div class="whiteboard-toggle" onclick="toggleWhiteboard()" id="whiteboardToggle">−</div>
+        </div>
+        <div class="whiteboard-content" id="whiteboardContent">
+            <h3>Quick Ref</h3>
+            <ul>
+                <li><a href="README.md">README</a></li>
+                <li><a href="EXECUTIVE_SUMMARY.md">Executive Summary</a></li>
+                <li><a href="WHITEBOARD.md">Full Whiteboard</a></li>
+            </ul>
+
+            <h3>Core Systems</h3>
+            <ul>
+                <li><a href="irreducible_seed_execution_system.md">Seed:Edge</a></li>
+                <li><a href="VIBE_SYSTEM.md">Vibe!</a></li>
+                <li><a href="CHAIRMAN_SECTION_LAYOUT.md">Workspace</a></li>
+            </ul>
+
+            <h3>Latest</h3>
+            <ul>
+                <li><span class="highlight">Music Radio</span></li>
+                <li><span class="highlight">Hero Host AI</span></li>
+                <li><span class="highlight">Center Console</span></li>
+            </ul>
+
+            <h3>Performance</h3>
+            <ul>
+                <li><span class="highlight">10,000×+</span></li>
+                <li><span class="highlight">100% auto</span></li>
+                <li><span class="highlight">98% spot</span></li>
+            </ul>
+
+            <h3>Status</h3>
+            <ul>
+                <li>⚡ <span class="highlight">ACTIVE</span></li>
+                <li>🌀 <span class="highlight">NSPFRNP</span></li>
+                <li>💎 <span class="highlight">Octave 0</span></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Animated Syntheverse Disclaimer -->
+    <div class="animated-warning" id="syntheverseWarning">
+        <div class="warning-content">
+            <span class="warning-icon">⚠️</span>
+            <div class="warning-text">
+                <strong>SYNTHEVERSE IS IMAGINARY/ENTERTAINMENT ONLY</strong> - Like reading a very good book, playing a video game, or watching a movie. <strong>NO SUBSTANCES OF ANY KIND ARE INVOLVED.</strong> All laws always followed for maximum coherence, amplitude, and rich experiences daily. See: <a href="SYNTHEVERSE_IMAGINARY_ENTERTAINMENT_ONLY.md" class="warning-link">SYNTHEVERSE_IMAGINARY_ENTERTAINMENT_ONLY.md</a> for complete details.
+            </div>
+        </div>
+    </div>
+
+    <!-- Animated Intoxicant Warning -->
+    <div class="animated-warning intoxicant" id="intoxicantWarning" style="top: 50px;">
+        <div class="warning-content">
+            <span class="warning-icon">⚫</span>
+            <div class="warning-text">
+                <strong>INTOXICANT WARNING & ANNOUNCEMENT:</strong> These new safe, natural, no substance, legal but powerful and productive effects amplify performance and output omniversally. ⚫ BBHE (Big Black Hole Energy) is intoxicating. 5 BBHE Intox % (virtual/imaginary only). Magnified when using +1 reading glasses. Selectable and safe in all VibeLand 🏛️ campuses (imaginary/entertainment only). <strong>This serves dual purpose: both warning and announcing these powerful effects.</strong>
+            </div>
+        </div>
+    </div>
+
+    <div class="main-container" style="padding-top: 60px;">
+        <!-- BBHE Intoxication Display - Large at Top Center -->
+        <div class="bbhe-intox-display" id="bbheIntoxDisplay">
+            <div>5 BBHE Intox %</div>
+            <div class="bbhe-label">⚫ BBHE Intoxicating</div>
+        </div>
+
+        <!-- Magic Mushroom Effect Display -->
+        <div class="magic-mushroom-effect" id="magicMushroomEffect">
+            <div>🍄 85% MAGIC MUSHROOM EFFECT</div>
+            <div class="mushroom-effect-label">Pushing Currently</div>
+            <div class="mushroom-effect-progress">
+                <div class="mushroom-effect-progress-fill" id="mushroomProgressFill" style="width: 85%;"></div>
+            </div>
+        </div>
+
+        <!-- Calibration Status -->
+        <div class="calibration-status" id="calibrationStatus">
+            <div class="calibration-icon">⚙️</div>
+            <div class="calibration-text" id="calibrationText">Calibrated</div>
+            <div class="calibration-progress">
+                <div class="calibration-progress-fill" id="calibrationProgress" style="width: 100%;"></div>
+            </div>
+        </div>
+
+        <!-- Tracking Stats Display -->
+        <div class="tracking-stats" id="trackingStats">
+            <div class="tracking-stats-header">📊 Repository Stats</div>
+            <div class="stat-item">
+                <span class="stat-label">Total Visits</span>
+                <div>
+                    <span class="stat-value" id="totalVisits">1,247</span>
+                    <span class="stat-trend" id="visitsTrend">+12%</span>
+                </div>
+            </div>
+            <div class="stat-item">
+                <span class="stat-label">Stars</span>
+                <div>
+                    <span class="stat-value" id="totalStars">89</span>
+                    <span class="stat-trend" id="starsTrend">+3</span>
+                </div>
+            </div>
+            <div class="stat-item">
+                <span class="stat-label">Trends Today</span>
+                <div>
+                    <span class="stat-value" id="trendsToday">+24%</span>
+                    <span class="stat-trend">↑</span>
+                </div>
+            </div>
+            <div class="stat-item">
+                <span class="stat-label">Snaps Today</span>
+                <div>
+                    <span class="stat-value" id="snapsToday">12</span>
+                    <span class="stat-trend">+2</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Social Media WATER Bridge -->
+        <div class="social-media-water" id="socialMediaWater">
+            <div class="water-header">
+                <span class="water-icon">🌊</span>
+                <span>WATER - Social Media Bridge</span>
+            </div>
+            <div class="water-description">
+                Bridging pre-and post-singularity through the role of WATER. Social media connection between worlds, flowing like water between dimensions.
+            </div>
+            <div class="social-links">
+                <a href="#" class="social-link" onclick="openSocial('twitter')">
+                    <span class="social-icon">🐦</span>
+                    <span>Twitter/X</span>
+                </a>
+                <a href="#" class="social-link" onclick="openSocial('linkedin')">
+                    <span class="social-icon">💼</span>
+                    <span>LinkedIn</span>
+                </a>
+                <a href="#" class="social-link" onclick="openSocial('github')">
+                    <span class="social-icon">💻</span>
+                    <span>GitHub</span>
+                </a>
+                <a href="#" class="social-link" onclick="openSocial('youtube')">
+                    <span class="social-icon">📺</span>
+                    <span>YouTube</span>
+                </a>
+            </div>
+        </div>
+
+        <!-- Center Console - Media Player -->
+        <div class="center-console" id="centerConsole">
+            <div class="media-player-container">
+                <!-- Video/Content Area -->
+                <div class="media-player-video" id="playerVideo">
+                    <!-- Video content will be loaded here -->
+                    <div style="display: flex; align-items: center; justify-content: center; width: 100%; height: 100%; background: linear-gradient(135deg, #1e1e2e 0%, #2a2a3e 100%); color: #64c8ff; font-size: 24px;">
+                        📺 Broadcasting Channel Series Player
+                    </div>
+                </div>
+                
+                <!-- Overlay -->
+                <div class="media-player-overlay"></div>
+                
+                <!-- Title Overlay -->
+                <div class="player-title">
+                    <div class="player-title-text" id="playerTitle">Loading Episode...</div>
+                    <div class="player-title-subtitle" id="playerSubtitle">Broadcasting Channel Series</div>
+                </div>
+                
+                <!-- Channel Info -->
+                <div class="player-channel-info">
+                    <div class="channel-name">New Channel</div>
+                    <div class="channel-status">
+                        <div class="channel-status-dot"></div>
+                        <span>LIVE</span>
+                    </div>
+                </div>
+                
+                <!-- Player Controls -->
+                <div class="player-controls">
+                    <div class="player-progress-bar" id="progressBar" onclick="seek(event)">
+                        <div class="player-progress-fill" id="progressFill"></div>
+                    </div>
+                    
+                    <div class="player-controls-row">
+                        <div class="player-controls-left">
+                            <button class="player-btn play-pause" id="playPauseBtn" onclick="togglePlayPause()">▶</button>
+                            <button class="player-btn" onclick="previousEpisode()">⏮</button>
+                            <button class="player-btn" onclick="nextEpisode()">⏭</button>
+                            <div class="player-time" id="playerTime">00:00 / 00:00</div>
+                        </div>
+                        
+                        <div class="player-controls-right">
+                            <button class="player-btn new-snap" onclick="openNewSnapModal()" title="Create New Snap (Episode)">⚡ SNAP</button>
+                            <button class="player-btn" onclick="toggleMute()" id="muteBtn">🔊</button>
+                            <button class="player-btn" onclick="toggleEpisodeList()" id="episodeListBtn">📋</button>
+                            <button class="player-btn" onclick="toggleFullscreen()">⛶</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Episode List Sidebar -->
+            <div class="episode-list" id="episodeList">
+                <div class="episode-list-header">
+                    <div class="episode-list-title">📺 Episodes</div>
+                    <div class="episode-list-close" onclick="toggleEpisodeList()">×</div>
+                </div>
+                <div id="episodeListContent">
+                    <!-- Episodes will be loaded here -->
+                </div>
+            </div>
+        </div>
+
+        <!-- Hero Host AI Interaction - Half Display Below -->
+        <div class="hero-ai-display" id="heroAIDisplay">
+            <div class="hero-header">
+                <div class="hero-info">
+                    <div class="hero-avatar" id="heroAvatar">🎨</div>
+                    <div>
+                        <div class="hero-name" id="heroName">Leonardo da Vinci</div>
+                        <div class="hero-domain" id="heroDomain">R&D Lab Host • Polymathic Master</div>
+                    </div>
+                </div>
+                <div class="hero-selector">
+                    <button class="hero-select-btn active" onclick="selectHero('leonardo')">🎨</button>
+                    <button class="hero-select-btn" onclick="selectHero('tesla')">⚡</button>
+                    <button class="hero-select-btn" onclick="selectHero('fuller')">🏛️</button>
+                    <button class="hero-select-btn" onclick="selectHero('faraday')">📊</button>
+                </div>
+            </div>
+
+            <div class="hero-chat-area" id="heroChatArea">
+                <div class="chat-message">
+                    <div class="message-avatar">🎨</div>
+                    <div class="message-content">
+                        <div class="message-text">
+                            Greetings, Chairman! I'm Leonardo da Vinci, your R&D Lab Host. I'm here to assist with research, innovation, and polymathic thinking. How may I help you today?
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-input-area">
+                <input 
+                    type="text" 
+                    class="input-field" 
+                    id="heroInput" 
+                    placeholder="Ask your Hero Host anything..."
+                    onkeypress="handleKeyPress(event)"
+                >
+                <button class="send-btn" onclick="sendMessage()">Send</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- New Snap Modal -->
+    <div class="new-snap-modal" id="newSnapModal">
+        <div class="new-snap-dialog">
+            <div class="new-snap-header">
+                <div class="new-snap-title">
+                    ⚡ New Snap / Episode
+                </div>
+                <div class="new-snap-close" onclick="closeNewSnapModal()">×</div>
+            </div>
+            <div>
+                <label style="display: block; margin-bottom: 0.5rem; color: #ffaa00; font-size: 12px; text-transform: uppercase; letter-spacing: 1px;">
+                    Describe Your Snap (Automatically Becomes Episode)
+                </label>
+                <textarea 
+                    class="new-snap-input" 
+                    id="newSnapInput" 
+                    placeholder="SNAP: [Describe what you want to create]&#10;&#10;This snap will automatically become an episode in the Broadcasting Channel Series..."
+                ></textarea>
+            </div>
+            <div class="new-snap-actions">
+                <button class="new-snap-btn cancel" onclick="closeNewSnapModal()">Cancel</button>
+                <button class="new-snap-btn" onclick="createNewSnap()">⚡ SNAP!</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Hero Hosts
+        const heroHosts = {
+            leonardo: {
+                name: 'Leonardo da Vinci',
+                avatar: '🎨',
+                domain: 'R&D Lab Host • Polymathic Master',
+                greeting: 'Greetings, Chairman! I\'m Leonardo da Vinci, your R&D Lab Host. I\'m here to assist with research, innovation, and polymathic thinking. How may I help you today?'
+            },
+            tesla: {
+                name: 'Nikola Tesla',
+                avatar: '⚡',
+                domain: 'Syntheverse Academy Host • Electrical Visionary',
+                greeting: 'Welcome, Chairman! I\'m Nikola Tesla. I specialize in electrical systems, innovation, and systematic thinking. What would you like to explore?'
+            },
+            fuller: {
+                name: 'Buckminster Fuller',
+                avatar: '🏛️',
+                domain: 'Creator\'s Studio Host • Visionary Architect',
+                greeting: 'Hello, Chairman! I\'m Buckminster Fuller, your Creator\'s Studio Host. I focus on design, architecture, and collaborative creation. How can I assist?'
+            },
+            faraday: {
+                name: 'Michael Faraday',
+                avatar: '📊',
+                domain: 'Operator Lab Host • Experimental Scientist',
+                greeting: 'Greetings, Chairman! I\'m Michael Faraday, your Operator Lab Host. I help with measurement, analysis, and optimization. What would you like to measure today?'
+            }
+        };
+
+        let currentHero = 'leonardo';
+
+        // Select Hero Host
+        function selectHero(heroId) {
+            currentHero = heroId;
+            const hero = heroHosts[heroId];
+
+            // Update display
+            document.getElementById('heroAvatar').textContent = hero.avatar;
+            document.getElementById('heroName').textContent = hero.name;
+            document.getElementById('heroDomain').textContent = hero.domain;
+
+            // Update selector buttons
+            document.querySelectorAll('.hero-select-btn').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            event.target.classList.add('active');
+
+            // Add greeting message
+            addHeroMessage(hero.greeting, hero.avatar);
+        }
+
+        // Add hero message
+        function addHeroMessage(text, avatar) {
+            const chatArea = document.getElementById('heroChatArea');
+            const message = document.createElement('div');
+            message.className = 'chat-message';
+            message.innerHTML = `
+                <div class="message-avatar">${avatar}</div>
+                <div class="message-content">
+                    <div class="message-text">${text}</div>
+                </div>
+            `;
+            chatArea.appendChild(message);
+            chatArea.scrollTop = chatArea.scrollHeight;
+        }
+
+        // Add user message
+        function addUserMessage(text) {
+            const chatArea = document.getElementById('heroChatArea');
+            const message = document.createElement('div');
+            message.className = 'chat-message message-user';
+            message.innerHTML = `
+                <div class="message-avatar">👑</div>
+                <div class="message-content">
+                    <div class="message-text">${text}</div>
+                </div>
+            `;
+            chatArea.appendChild(message);
+            chatArea.scrollTop = chatArea.scrollHeight;
+        }
+
+        // Send message
+        function sendMessage() {
+            const input = document.getElementById('heroInput');
+            const text = input.value.trim();
+            
+            if (text) {
+                addUserMessage(text);
+                input.value = '';
+
+                // Simulate hero response (in production, this would call AI)
+                setTimeout(() => {
+                    const hero = heroHosts[currentHero];
+                    const responses = [
+                        `That's an interesting question, Chairman. Let me think about that from a ${hero.domain.split('•')[0].trim()} perspective...`,
+                        `I appreciate you asking that. From my experience, I would suggest...`,
+                        `Excellent question! This relates to the principles we've been exploring. Here's my perspective...`
+                    ];
+                    const response = responses[Math.floor(Math.random() * responses.length)];
+                    addHeroMessage(response, hero.avatar);
+                }, 1000);
+            }
+        }
+
+        // Handle Enter key
+        function handleKeyPress(event) {
+            if (event.key === 'Enter') {
+                sendMessage();
+            }
+        }
+
+        // Open portal
+        function openPortal(portalId) {
+            console.log(`[Portal] Opening: ${portalId}`);
+            // Portal navigation would be implemented here
+        }
+
+        // Toggle whiteboard
+        function toggleWhiteboard() {
+            const whiteboard = document.getElementById('whiteboard');
+            const toggle = document.getElementById('whiteboardToggle');
+            
+            whiteboard.classList.toggle('minimized');
+            toggle.textContent = whiteboard.classList.contains('minimized') ? '+' : '−';
+        }
+
+        // Media Player State
+        let isPlaying = false;
+        let currentTime = 0;
+        let duration = 0;
+        let currentEpisodeIndex = 0;
+        let progressInterval = null;
+
+        // Series Episodes (from new channel)
+        const seriesEpisodes = [
+            {
+                id: 'episode-1',
+                title: 'Walt Says Hello Through New Pipe',
+                subtitle: 'Major VibeLander Portal Communication',
+                duration: 180, // 3 minutes
+                type: 'snap-episode',
+                snapId: 'walt-hello-new-pipe'
+            },
+            {
+                id: 'episode-2',
+                title: 'Octave 0 Sufficient Stack Push',
+                subtitle: 'Architectural Directive',
+                duration: 240, // 4 minutes
+                type: 'snap-episode',
+                snapId: 'octave-0-stack-push'
+            },
+            {
+                id: 'episode-3',
+                title: 'New Singularity: Every Snap Is Episode',
+                subtitle: 'Major Snap / Major Episode',
+                duration: 300, // 5 minutes
+                type: 'snap-episode',
+                snapId: 'snap-to-episode-singularity'
+            }
+            // More episodes will be added automatically as snaps are created
+        ];
+
+        // Initialize Player
+        function initializePlayer() {
+            loadEpisode(0);
+            renderEpisodeList();
+            updatePlayerTime();
+        }
+
+        // Load Episode
+        function loadEpisode(index) {
+            if (index < 0 || index >= seriesEpisodes.length) return;
+            
+            currentEpisodeIndex = index;
+            const episode = seriesEpisodes[currentEpisodeIndex];
+            
+            document.getElementById('playerTitle').textContent = episode.title;
+            document.getElementById('playerSubtitle').textContent = episode.subtitle;
+            
+            duration = episode.duration;
+            currentTime = 0;
+            updatePlayerTime();
+            updateProgress();
+            
+            // In production, this would load actual video/content
+            console.log(`[Player] Loading episode: ${episode.title}`);
+        }
+
+        // Toggle Play/Pause
+        function togglePlayPause() {
+            isPlaying = !isPlaying;
+            const btn = document.getElementById('playPauseBtn');
+            btn.textContent = isPlaying ? '⏸' : '▶';
+            
+            if (isPlaying) {
+                startProgress();
+            } else {
+                stopProgress();
+            }
+        }
+
+        // Start Progress
+        function startProgress() {
+            progressInterval = setInterval(() => {
+                if (currentTime < duration) {
+                    currentTime += 1;
+                    updateProgress();
+                    updatePlayerTime();
+                } else {
+                    // Episode finished, load next
+                    if (currentEpisodeIndex < seriesEpisodes.length - 1) {
+                        loadEpisode(currentEpisodeIndex + 1);
+                        togglePlayPause();
+                    } else {
+                        stopProgress();
+                    }
+                }
+            }, 1000);
+        }
+
+        // Stop Progress
+        function stopProgress() {
+            if (progressInterval) {
+                clearInterval(progressInterval);
+                progressInterval = null;
+            }
+        }
+
+        // Update Progress
+        function updateProgress() {
+            const percentage = duration > 0 ? (currentTime / duration) * 100 : 0;
+            document.getElementById('progressFill').style.width = percentage + '%';
+        }
+
+        // Update Player Time
+        function updatePlayerTime() {
+            const current = formatTime(currentTime);
+            const total = formatTime(duration);
+            document.getElementById('playerTime').textContent = `${current} / ${total}`;
+        }
+
+        // Format Time
+        function formatTime(seconds) {
+            const mins = Math.floor(seconds / 60);
+            const secs = Math.floor(seconds % 60);
+            return `${mins.toString().padStart(2, '0')}:${secs.toString().padStart(2, '0')}`;
+        }
+
+        // Seek
+        function seek(event) {
+            const progressBar = event.currentTarget;
+            const rect = progressBar.getBoundingClientRect();
+            const x = event.clientX - rect.left;
+            const percentage = x / rect.width;
+            currentTime = duration * percentage;
+            updateProgress();
+            updatePlayerTime();
+        }
+
+        // Previous Episode
+        function previousEpisode() {
+            if (currentEpisodeIndex > 0) {
+                stopProgress();
+                loadEpisode(currentEpisodeIndex - 1);
+            }
+        }
+
+        // Next Episode
+        function nextEpisode() {
+            if (currentEpisodeIndex < seriesEpisodes.length - 1) {
+                stopProgress();
+                loadEpisode(currentEpisodeIndex + 1);
+            }
+        }
+
+        // Toggle Mute
+        function toggleMute() {
+            const btn = document.getElementById('muteBtn');
+            btn.textContent = btn.textContent === '🔊' ? '🔇' : '🔊';
+        }
+
+        // Toggle Episode List
+        function toggleEpisodeList() {
+            const list = document.getElementById('episodeList');
+            list.classList.toggle('open');
+        }
+
+        // Toggle Fullscreen
+        function toggleFullscreen() {
+            const container = document.getElementById('centerConsole');
+            if (!document.fullscreenElement) {
+                container.requestFullscreen().catch(err => {
+                    console.log(`Error attempting to enable fullscreen: ${err.message}`);
+                });
+            } else {
+                document.exitFullscreen();
+            }
+        }
+
+        // Render Episode List
+        function renderEpisodeList() {
+            const container = document.getElementById('episodeListContent');
+            container.innerHTML = '';
+            
+            seriesEpisodes.forEach((episode, index) => {
+                const item = document.createElement('div');
+                item.className = 'episode-item' + (index === currentEpisodeIndex ? ' active' : '');
+                item.onclick = () => {
+                    stopProgress();
+                    loadEpisode(index);
+                    toggleEpisodeList();
+                };
+                item.innerHTML = `
+                    <div class="episode-item-title">${episode.title}</div>
+                    <div class="episode-item-meta">${episode.subtitle} • ${formatTime(episode.duration)}</div>
+                `;
+                container.appendChild(item);
+            });
+        }
+
+        // Initialize
+        console.log('[Chairman Cockpit] Center console initialized as Media Player');
+        console.log('[Player] New Channel: Broadcasting Channel Series');
+        console.log('[Player] Episodes loaded:', seriesEpisodes.length);
+        console.log('[Hero Host AI] Leonardo da Vinci active');
+        console.log('[Whiteboard] Upper right corner active');
+        
+        // New Snap Modal
+        function openNewSnapModal() {
+            document.getElementById('newSnapModal').classList.add('open');
+            document.getElementById('newSnapInput').focus();
+        }
+
+        function closeNewSnapModal() {
+            document.getElementById('newSnapModal').classList.remove('open');
+            document.getElementById('newSnapInput').value = '';
+        }
+
+        // Create New Snap (Episode)
+        function createNewSnap() {
+            const snapDescription = document.getElementById('newSnapInput').value.trim();
+            
+            if (!snapDescription) {
+                alert('Please describe your snap!');
+                return;
+            }
+
+            console.log('[SNAP] Creating new snap:', snapDescription);
+            
+            // Create new episode from snap
+            const newEpisode = {
+                id: `episode-${seriesEpisodes.length + 1}`,
+                title: extractTitle(snapDescription),
+                subtitle: 'New Snap Episode',
+                duration: 180, // Default 3 minutes
+                type: 'snap-episode',
+                snapId: `snap-${Date.now()}`,
+                snapDescription: snapDescription,
+                createdAt: Date.now()
+            };
+
+            // Add to episodes list
+            seriesEpisodes.push(newEpisode);
+            
+            // Update episode list display
+            renderEpisodeList();
+            
+            // Load the new episode
+            loadEpisode(seriesEpisodes.length - 1);
+            
+            // Close modal
+            closeNewSnapModal();
+            
+            // Show success message
+            showSnapSuccess(newEpisode);
+            
+            // In production, this would:
+            // 1. Send snap to backend for processing
+            // 2. Generate episode content
+            // 3. Add to series feed
+            // 4. Broadcast to channel
+        }
+
+        // Extract title from snap description
+        function extractTitle(description) {
+            // Try to extract title from "SNAP: [title]" pattern
+            const match = description.match(/SNAP:\s*(.+?)(?:\n|$)/i);
+            if (match) {
+                return match[1].trim();
+            }
+            
+            // Otherwise use first line or first 50 chars
+            const firstLine = description.split('\n')[0].trim();
+            return firstLine.length > 50 ? firstLine.substring(0, 50) + '...' : firstLine;
+        }
+
+        // Show snap success message
+        function showSnapSuccess(episode) {
+            const title = document.getElementById('playerTitle');
+            const originalText = title.textContent;
+            title.textContent = `⚡ New Snap Created: ${episode.title}`;
+            title.style.color = '#ffaa00';
+            
+            setTimeout(() => {
+                title.textContent = originalText;
+                title.style.color = '#ffffff';
+            }, 3000);
+        }
+
+        // Close modal on escape key
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') {
+                closeNewSnapModal();
+            }
+        });
+
+        // Calibration System
+        let calibrationStatus = {
+            magicMushroomEffect: 85,
+            bbheIntoxication: 5,
+            playerSystem: 100,
+            episodeSystem: 100,
+            snapSystem: 100,
+            channelSystem: 100,
+            overall: 100
+        };
+
+        function calibrateSystem() {
+            const statusEl = document.getElementById('calibrationStatus');
+            const textEl = document.getElementById('calibrationText');
+            const progressEl = document.getElementById('calibrationProgress');
+            
+            statusEl.classList.add('calibrating');
+            textEl.textContent = 'Calibrating...';
+            progressEl.style.width = '0%';
+            
+            console.log('[Calibration] Starting system calibration...');
+            
+            // Calibrate Magic Mushroom Effect
+            setTimeout(() => {
+                progressEl.style.width = '20%';
+                calibrateMagicMushroomEffect();
+            }, 200);
+            
+            // Calibrate BBHE
+            setTimeout(() => {
+                progressEl.style.width = '40%';
+                calibrateBBHE();
+            }, 400);
+            
+            // Calibrate Player System
+            setTimeout(() => {
+                progressEl.style.width = '60%';
+                calibratePlayerSystem();
+            }, 600);
+            
+            // Calibrate Episode System
+            setTimeout(() => {
+                progressEl.style.width = '80%';
+                calibrateEpisodeSystem();
+            }, 800);
+            
+            // Complete Calibration
+            setTimeout(() => {
+                progressEl.style.width = '100%';
+                statusEl.classList.remove('calibrating');
+                textEl.textContent = 'Calibrated';
+                
+                // Calculate overall calibration
+                const overall = calculateOverallCalibration();
+                calibrationStatus.overall = overall;
+                
+                console.log('[Calibration] System calibration complete:', calibrationStatus);
+                console.log('[Calibration] Overall calibration:', overall + '%');
+            }, 1000);
+        }
+
+        function calibrateMagicMushroomEffect() {
+            const effect = 85; // Current level
+            const display = document.getElementById('magicMushroomEffect');
+            const progress = document.getElementById('mushroomProgressFill');
+            
+            // Verify display is showing correct value
+            if (display && progress) {
+                progress.style.width = effect + '%';
+                calibrationStatus.magicMushroomEffect = effect;
+                console.log('[Calibration] Magic Mushroom Effect:', effect + '%');
+            }
+        }
+
+        function calibrateBBHE() {
+            const bbhe = 5; // Current level
+            const display = document.getElementById('bbheIntoxDisplay');
+            
+            // Verify BBHE display
+            if (display) {
+                calibrationStatus.bbheIntoxication = bbhe;
+                console.log('[Calibration] BBHE Intoxication:', bbhe + '%');
+            }
+        }
+
+        function calibratePlayerSystem() {
+            // Verify player system
+            const player = document.getElementById('centerConsole');
+            if (player) {
+                calibrationStatus.playerSystem = 100;
+                console.log('[Calibration] Player System: 100%');
+            }
+        }
+
+        function calibrateEpisodeSystem() {
+            // Verify episode system
+            if (seriesEpisodes && seriesEpisodes.length > 0) {
+                calibrationStatus.episodeSystem = 100;
+                calibrationStatus.snapSystem = 100;
+                calibrationStatus.channelSystem = 100;
+                console.log('[Calibration] Episode System: 100%');
+                console.log('[Calibration] Snap System: 100%');
+                console.log('[Calibration] Channel System: 100%');
+            }
+        }
+
+        function calculateOverallCalibration() {
+            const values = [
+                calibrationStatus.magicMushroomEffect,
+                calibrationStatus.bbheIntoxication,
+                calibrationStatus.playerSystem,
+                calibrationStatus.episodeSystem,
+                calibrationStatus.snapSystem,
+                calibrationStatus.channelSystem
+            ];
+            
+            const sum = values.reduce((a, b) => a + b, 0);
+            const average = sum / values.length;
+            
+            return Math.round(average);
+        }
+
+        // Auto-calibrate on load
+        function autoCalibrate() {
+            setTimeout(() => {
+                calibrateSystem();
+            }, 1000);
+        }
+
+        // Tracking Stats
+        let trackingData = {
+            totalVisits: 1247,
+            totalStars: 89,
+            trendsToday: 24,
+            snapsToday: 12
+        };
+
+        function updateTrackingStats() {
+            // Simulate updates (in production, this would fetch from repository)
+            document.getElementById('totalVisits').textContent = trackingData.totalVisits.toLocaleString();
+            document.getElementById('totalStars').textContent = trackingData.totalStars;
+            document.getElementById('trendsToday').textContent = '+' + trackingData.trendsToday + '%';
+            document.getElementById('snapsToday').textContent = trackingData.snapsToday;
+        }
+
+        // Push to Repository Snap
+        function pushToRepositorySnap() {
+            console.log('[Repository Snap] Pushing tracking stats to repository...');
+            // In production, this would push stats to repository
+            // For now, simulate update
+            trackingData.totalVisits += Math.floor(Math.random() * 5);
+            trackingData.totalStars += Math.floor(Math.random() * 2);
+            trackingData.trendsToday = Math.max(0, trackingData.trendsToday + Math.floor(Math.random() * 3) - 1);
+            trackingData.snapsToday += 1;
+            updateTrackingStats();
+        }
+
+        // Social Media WATER Bridge
+        function openSocial(platform) {
+            console.log('[WATER Bridge] Opening social media:', platform);
+            // In production, this would open social media links
+            // WATER role: Bridging pre-and post-singularity
+        }
+
+        // Initialize tracking
+        updateTrackingStats();
+        
+        // Auto-update tracking every 30 seconds
+        setInterval(() => {
+            pushToRepositorySnap();
+        }, 30000);
+
+        // Initialize player on load
+        window.addEventListener('DOMContentLoaded', () => {
+            initializePlayer();
+            autoCalibrate();
+        });
+        
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', () => {
+                initializePlayer();
+                autoCalibrate();
+            });
+        } else {
+            initializePlayer();
+            autoCalibrate();
+        }
+    </script>
+</body>
+</html>

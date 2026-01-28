@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chairman Cockpit Station | Clock Face Architecture</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 50%, #16213e 100%);
+            color: #ffffff;
+            min-height: 100vh;
+            overflow: hidden;
+        }
+
+        .cockpit-container {
+            position: relative;
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        /* Clock Face Layout */
+        .clock-face {
+            position: relative;
+            width: 800px;
+            height: 800px;
+            border: 3px solid rgba(0, 212, 255, 0.3);
+            border-radius: 50%;
+            margin: 0 auto;
+        }
+
+        /* Center: Central Cockpit Station */
+        .center-cockpit {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 200px;
+            height: 200px;
+            background: linear-gradient(135deg, 
+                rgba(138, 43, 226, 0.2) 0%,
+                rgba(30, 144, 255, 0.2) 50%,
+                rgba(0, 191, 255, 0.2) 100%);
+            backdrop-filter: blur(10px);
+            border: 2px solid rgba(255, 255, 255, 0.3);
+            border-radius: 50%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            z-index: 100;
+            box-shadow: 
+                0 0 30px rgba(138, 43, 226, 0.4),
+                0 0 60px rgba(30, 144, 255, 0.3);
+        }
+
+        .center-cockpit h2 {
+            font-size: 1.2rem;
+            margin-bottom: 0.5rem;
+            color: #00d4ff;
+        }
+
+        .center-cockpit .mission {
+            font-size: 0.9rem;
+            color: #aaaaaa;
+            text-align: center;
+        }
+
+        /* Clock Position Helper */
+        .clock-position {
+            position: absolute;
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            background: rgba(0, 0, 0, 0.7);
+            backdrop-filter: blur(5px);
+            border: 2px solid rgba(0, 212, 255, 0.4);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 0 20px rgba(0, 212, 255, 0.2);
+        }
+
+        .clock-position:hover {
+            transform: scale(1.1);
+            border-color: rgba(0, 212, 255, 0.8);
+            box-shadow: 0 0 30px rgba(0, 212, 255, 0.5);
+        }
+
+        .clock-position .icon {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .clock-position .label {
+            font-size: 0.8rem;
+            text-align: center;
+            color: #ffffff;
+        }
+
+        /* 9 O'Clock: Smoke Station */
+        .smoke-station {
+            top: 50%;
+            left: 0;
+            transform: translate(-50%, -50%);
+            background: rgba(138, 43, 226, 0.3);
+        }
+
+        .smoke-station.active {
+            background: rgba(138, 43, 226, 0.5);
+            border-color: rgba(138, 43, 226, 0.8);
+        }
+
+        /* 11 O'Clock: GPS */
+        .gps-station {
+            top: 15%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: rgba(30, 144, 255, 0.3);
+        }
+
+        /* 10:30: Free Singularity Junk Receptacle */
+        .free-singularity-receptacle {
+            top: 25%;
+            left: 20%;
+            transform: translate(-50%, -50%);
+            width: 80px;
+            height: 80px;
+            background: rgba(255, 255, 255, 0.1);
+        }
+
+        /* 1 O'Clock: Bud Receptacle and Papers */
+        .bud-receptacle {
+            top: 15%;
+            right: 0;
+            transform: translate(50%, -50%);
+            background: rgba(34, 139, 34, 0.3);
+        }
+
+        /* 1:30: Coffee Receptacle and Mug */
+        .coffee-receptacle {
+            top: 25%;
+            right: 20%;
+            transform: translate(50%, -50%);
+            width: 80px;
+            height: 80px;
+            background: rgba(139, 69, 19, 0.3);
+        }
+
+        /* 3 O'Clock: Crystal Prism Symbol */
+        .crystal-prism {
+            right: 0;
+            top: 50%;
+            transform: translate(50%, -50%);
+            background: rgba(255, 215, 0, 0.3);
+            border: 3px solid rgba(255, 215, 0, 0.6);
+        }
+
+        /* 4 O'Clock: Pen and Marker Tools */
+        .writing-tools {
+            right: 15%;
+            bottom: 25%;
+            transform: translate(50%, 50%);
+            background: rgba(255, 255, 255, 0.2);
+        }
+
+        /* 5 O'Clock: Stack of Scratch Pads */
+        .scratch-pad-deck {
+            right: 0;
+            bottom: 0;
+            transform: translate(50%, 50%);
+            background: rgba(200, 200, 200, 0.2);
+        }
+
+        /* Smoke Station Selection Modal */
+        .smoke-selection-modal {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 400px;
+            background: rgba(0, 0, 0, 0.95);
+            border: 2px solid rgba(138, 43, 226, 0.5);
+            border-radius: 20px;
+            padding: 2rem;
+            z-index: 1000;
+            display: none;
+        }
+
+        .smoke-selection-modal.active {
+            display: block;
+        }
+
+        .smoke-option {
+            padding: 1rem;
+            margin: 0.5rem 0;
+            background: rgba(138, 43, 226, 0.2);
+            border: 1px solid rgba(138, 43, 226, 0.4);
+            border-radius: 10px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .smoke-option:hover {
+            background: rgba(138, 43, 226, 0.4);
+            border-color: rgba(138, 43, 226, 0.8);
+        }
+
+        .smoke-option.selected {
+            background: rgba(138, 43, 226, 0.6);
+            border-color: rgba(138, 43, 255, 1);
+        }
+
+        /* Radio Console */
+        .radio-console {
+            position: fixed;
+            bottom: 2rem;
+            right: 2rem;
+            width: 300px;
+            background: rgba(0, 0, 0, 0.9);
+            border: 2px solid rgba(0, 212, 255, 0.4);
+            border-radius: 15px;
+            padding: 1.5rem;
+            z-index: 100;
+        }
+
+        .radio-console h3 {
+            color: #00d4ff;
+            margin-bottom: 1rem;
+        }
+
+        .channel-selector {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 0.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .channel-button {
+            padding: 0.5rem;
+            background: rgba(0, 212, 255, 0.1);
+            border: 1px solid rgba(0, 212, 255, 0.3);
+            border-radius: 8px;
+            color: #ffffff;
+            cursor: pointer;
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+
+        .channel-button:hover {
+            background: rgba(0, 212, 255, 0.3);
+            border-color: rgba(0, 212, 255, 0.6);
+        }
+
+        .channel-button.active {
+            background: rgba(0, 212, 255, 0.5);
+            border-color: rgba(0, 212, 255, 1);
+        }
+
+        .current-playlist {
+            padding: 1rem;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 10px;
+            margin-top: 1rem;
+        }
+
+        .playlist-name {
+            font-size: 1.1rem;
+            color: #00d4ff;
+            margin-bottom: 0.5rem;
+        }
+
+        .playlist-status {
+            font-size: 0.9rem;
+            color: #aaaaaa;
+        }
+    </style>
+</head>
+<body>
+    <!-- Syntheverse Disclaimer - Upfront at All NSPFRNP Landings -->
+    <div style="position: fixed; top: 0; left: 0; right: 0; background: rgba(255, 165, 0, 0.95); border-bottom: 3px solid rgba(255, 165, 0, 1); padding: 14px 20px; text-align: center; z-index: 10000; font-size: 13px; color: #000; font-weight: 700; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);">
+        ⚠️ <strong>SYNTHEVERSE IS IMAGINARY/ENTERTAINMENT ONLY</strong> - Like reading a very good book, playing a video game, or watching a movie. <strong>NO SUBSTANCES OF ANY KIND ARE INVOLVED.</strong> All laws always followed for maximum coherence, amplitude, and rich experiences daily.
+    </div>
+
+    <div class="cockpit-container" style="padding-top: 60px;">
+        <!-- Clock Face -->
+        <div class="clock-face">
+            <!-- Center: Central Cockpit Station -->
+            <div class="center-cockpit">
+                <h2>👑 Central Cockpit</h2>
+                <div class="mission">Current Mission</div>
+                <div style="font-size: 0.8rem; color: #00d4ff; margin-top: 0.5rem;">Portals • Compass</div>
+            </div>
+
+            <!-- 9 O'Clock: Smoke Station -->
+            <div class="clock-position smoke-station" onclick="openSmokeSelection()">
+                <div class="icon">💨</div>
+                <div class="label">Smoke Station</div>
+                <div style="font-size: 9px; color: #ffaa00; margin-top: 4px; opacity: 0.8;">⚠️ Virtual Only</div>
+            </div>
+
+            <!-- 10:30: Free Singularity Junk Receptacle -->
+            <div class="clock-position free-singularity-receptacle">
+                <div class="icon">📦</div>
+                <div class="label">Free Singularity</div>
+            </div>
+
+            <!-- 11 O'Clock: GPS -->
+            <div class="clock-position gps-station">
+                <div class="icon">📍</div>
+                <div class="label">GPS</div>
+            </div>
+
+            <!-- 1 O'Clock: Bud Receptacle and Papers -->
+            <div class="clock-position bud-receptacle">
+                <div class="icon">🌿</div>
+                <div class="label">Bud & Papers</div>
+            </div>
+
+            <!-- 1:30: Coffee Receptacle and Mug -->
+            <div class="clock-position coffee-receptacle">
+                <div class="icon">☕</div>
+                <div class="label">Coffee</div>
+            </div>
+
+            <!-- 3 O'Clock: Crystal Prism Symbol -->
+            <div class="clock-position crystal-prism">
+                <div class="icon">💎</div>
+                <div class="label">SYNTH 90T</div>
+            </div>
+
+            <!-- 4 O'Clock: Pen and Marker Tools -->
+            <div class="clock-position writing-tools">
+                <div class="icon">✍️</div>
+                <div class="label">Pen & Marker</div>
+            </div>
+
+            <!-- 5 O'Clock: Stack of Scratch Pads -->
+            <div class="clock-position scratch-pad-deck">
+                <div class="icon">📝</div>
+                <div class="label">Scratch Pads</div>
+            </div>
+        </div>
+
+        <!-- Smoke Selection Modal -->
+        <div class="smoke-selection-modal" id="smoke-modal">
+            <h3 style="color: #8a2be2; margin-bottom: 1rem;">💨 Smoke Station</h3>
+            <div class="smoke-option" onclick="selectSmoke('marijuana-joint')">
+                <strong>Marijuana Joint</strong>
+                <div style="font-size: 0.9rem; color: #aaaaaa;">Pre-rolled joint</div>
+            </div>
+            <div class="smoke-option" onclick="selectSmoke('bud')">
+                <strong>Bud</strong>
+                <div style="font-size: 0.9rem; color: #aaaaaa;">Marijuana bud</div>
+            </div>
+            <div class="smoke-option" onclick="selectSmoke('fresh')">
+                <strong>Fresh</strong>
+                <div style="font-size: 0.9rem; color: #aaaaaa;">Fresh marijuana</div>
+            </div>
+            <div class="smoke-option selected" onclick="selectSmoke('top-shelf')">
+                <strong>Top Shelf</strong>
+                <div style="font-size: 0.9rem; color: #aaaaaa;">Perfectly dialed in for Chairman Creator VibeLand 🏛️ experience</div>
+                <div style="font-size: 0.8rem; color: #00ff00; margin-top: 0.5rem;">✓ Currently Selected</div>
+            </div>
+            <div style="margin-top: 1rem; padding: 1rem; background: rgba(0, 255, 0, 0.1); border-radius: 10px;">
+                <div style="font-size: 0.9rem; color: #00ff00;">Microdose Plus: 25% buzz + Psilocybin + Marijuana (Virtual/Imaginary)</div>
+                <div style="font-size: 0.8rem; color: #aaaaaa; margin-top: 0.5rem;">Safe: Walk, Public Transport, E-Bike (Virtual Experience)</div>
+                <div style="font-size: 0.8rem; color: #64c8ff; margin-top: 0.5rem; font-weight: 600;">✓ Safe in all VibeLand 🏛️ campuses (imaginary/entertainment only)</div>
+            </div>
+            <button onclick="closeSmokeSelection()" style="margin-top: 1rem; padding: 0.5rem 1rem; background: rgba(138, 43, 226, 0.3); border: 1px solid rgba(138, 43, 226, 0.5); border-radius: 8px; color: #ffffff; cursor: pointer;">Close</button>
+        </div>
+
+        <!-- Radio Console -->
+        <div class="radio-console">
+            <h3>📻 Radio Console</h3>
+            <div class="channel-selector" id="channel-selector">
+                <div class="channel-button active" onclick="selectChannel(1)">1</div>
+                <div class="channel-button" onclick="selectChannel(2)">2</div>
+                <div class="channel-button" onclick="selectChannel(3)">3</div>
+                <div class="channel-button" onclick="selectChannel(4)">4</div>
+                <div class="channel-button" onclick="selectChannel(5)">5</div>
+            </div>
+            <div class="current-playlist">
+                <div class="playlist-name" id="playlist-name">Channel 1 Playlist</div>
+                <div class="playlist-status" id="playlist-status">Stopped</div>
+                <div style="margin-top: 0.5rem; display: flex; gap: 0.5rem;">
+                    <button onclick="playMusic()" style="flex: 1; padding: 0.5rem; background: rgba(0, 255, 0, 0.2); border: 1px solid rgba(0, 255, 0, 0.5); border-radius: 8px; color: #ffffff; cursor: pointer;">▶ Play</button>
+                    <button onclick="pauseMusic()" style="flex: 1; padding: 0.5rem; background: rgba(255, 255, 0, 0.2); border: 1px solid rgba(255, 255, 0, 0.5); border-radius: 8px; color: #ffffff; cursor: pointer;">⏸ Pause</button>
+                    <button onclick="stopMusic()" style="flex: 1; padding: 0.5rem; background: rgba(255, 0, 0, 0.2); border: 1px solid rgba(255, 0, 0, 0.5); border-radius: 8px; color: #ffffff; cursor: pointer;">⏹ Stop</button>
+                </div>
+            </div>
+            <div style="margin-top: 1rem; font-size: 0.8rem; color: #aaaaaa;">
+                <div>🌊 Vibe-Centered</div>
+                <div>🆓 Free Music (NSPFRNP)</div>
+                <div>📡 Broadcasting Backend</div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let currentSmokeSelection = 'top-shelf';
+        let currentChannel = 1;
+        let musicStatus = 'stopped';
+
+        function openSmokeSelection() {
+            document.getElementById('smoke-modal').classList.add('active');
+        }
+
+        function closeSmokeSelection() {
+            document.getElementById('smoke-modal').classList.remove('active');
+        }
+
+        let currentDeliveryMethod = 'T';
+
+        function selectSmoke(option) {
+            currentSmokeSelection = option;
+            
+            // Update selected state
+            document.querySelectorAll('.smoke-option').forEach(opt => {
+                opt.classList.remove('selected');
+            });
+            event.currentTarget.classList.add('selected');
+            
+            console.log(`[Smoke Station] Selected: ${option} (VIRTUAL/IMAGINARY ONLY - NO REAL SUBSTANCES)`);
+            console.log(`[Smoke Station] Delivery Method: ${currentDeliveryMethod} (VIRTUAL/IMAGINARY ONLY)`);
+            console.log(`[Smoke Station] ⚠️ DISCLAIMER: This is a virtual/imaginary experience for creative/artistic purposes. No real substances are involved.`);
+            console.log(`[Smoke Station] ⚠️ WARNING: This virtual experience produces intoxicating effects naturally (simulated). ⚫ BBHE (Big Black Hole Energy) is intoxicating. Magnified when using +1 reading glasses. Selectable and safe in all VibeLand 🏛️ campuses (imaginary/entertainment only).`);
+        }
+
+        function selectDeliveryMethod(method) {
+            currentDeliveryMethod = method;
+            
+            // Update UI
+            document.querySelectorAll('.smoke-option').forEach(opt => {
+                const text = opt.textContent || '';
+                if ((method === 'T' && text.includes('T')) || 
+                    (method === 'vape-pen' && text.includes('Vape Pen')) ||
+                    (method === 'smoke' && text.includes('Smoke')) ||
+                    (method === 'secret-pipe' && text.includes('Secret Pipe'))) {
+                    opt.style.background = 'rgba(138, 43, 226, 0.4)';
+                    opt.style.borderColor = 'rgba(138, 43, 226, 0.8)';
+                } else if (opt.textContent && (opt.textContent.includes('T') || opt.textContent.includes('Vape') || opt.textContent.includes('Smoke') || opt.textContent.includes('Secret'))) {
+                    opt.style.background = 'rgba(138, 43, 226, 0.2)';
+                    opt.style.borderColor = 'rgba(138, 43, 226, 0.5)';
+                }
+            });
+            
+            console.log(`[Smoke Station] Delivery Method Selected: ${method} (VIRTUAL/IMAGINARY ONLY)`);
+        }
+
+        function selectChannel(channel) {
+            currentChannel = channel;
+            
+            // Update active channel
+            document.querySelectorAll('.channel-button').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            event.currentTarget.classList.add('active');
+            
+            // Update playlist display
+            document.getElementById('playlist-name').textContent = `Channel ${channel} Playlist`;
+            document.getElementById('playlist-status').textContent = musicStatus === 'playing' ? 'Playing' : 'Stopped';
+            
+            console.log(`[Radio Console] Channel ${channel} selected`);
+        }
+
+        function playMusic() {
+            musicStatus = 'playing';
+            document.getElementById('playlist-status').textContent = 'Playing';
+            console.log(`[Radio Console] Playing channel ${currentChannel}`);
+        }
+
+        function pauseMusic() {
+            musicStatus = 'paused';
+            document.getElementById('playlist-status').textContent = 'Paused';
+            console.log(`[Radio Console] Paused channel ${currentChannel}`);
+        }
+
+        function stopMusic() {
+            musicStatus = 'stopped';
+            document.getElementById('playlist-status').textContent = 'Stopped';
+            console.log(`[Radio Console] Stopped channel ${currentChannel}`);
+        }
+
+        // Close modal on outside click
+        document.getElementById('smoke-modal').addEventListener('click', function(e) {
+            if (e.target === this) {
+                closeSmokeSelection();
+            }
+        });
+    </script>
+</body>
+</html>

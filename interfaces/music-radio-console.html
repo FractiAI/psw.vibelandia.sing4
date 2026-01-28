@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Radio Console - NSPFRNP</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 100%);
+            color: #e0e0e0;
+            overflow: hidden;
+            height: 100vh;
+        }
+
+        .radio-console {
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(145deg, #1e1e2e 0%, #2a2a3e 100%);
+            border-radius: 16px;
+            box-shadow: 
+                0 20px 60px rgba(0, 0, 0, 0.5),
+                0 0 0 1px rgba(100, 200, 255, 0.2),
+                inset 0 1px 0 rgba(255, 255, 255, 0.1);
+            display: flex;
+            flex-direction: column;
+            border: 1px solid rgba(100, 200, 255, 0.3);
+            padding: 20px;
+        }
+
+        .console-header {
+            padding: 12px 16px;
+            background: linear-gradient(135deg, rgba(100, 200, 255, 0.1) 0%, rgba(255, 100, 255, 0.1) 100%);
+            border-bottom: 1px solid rgba(100, 200, 255, 0.2);
+            border-radius: 12px 12px 0 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: -20px -20px 20px -20px;
+        }
+
+        .console-title {
+            font-size: 14px;
+            font-weight: 600;
+            color: #64c8ff;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .nspfrnp-badge {
+            font-size: 10px;
+            color: #ff64ff;
+            background: rgba(255, 100, 255, 0.1);
+            padding: 4px 8px;
+            border-radius: 4px;
+            border: 1px solid rgba(255, 100, 255, 0.2);
+        }
+
+        .current-channel-display {
+            text-align: center;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.3);
+            border-radius: 12px;
+            margin-bottom: 20px;
+            border: 1px solid rgba(100, 200, 255, 0.2);
+        }
+
+        .channel-number {
+            font-size: 48px;
+            font-weight: bold;
+            color: #64c8ff;
+            margin-bottom: 8px;
+            text-shadow: 0 0 20px rgba(100, 200, 255, 0.5);
+        }
+
+        .playlist-name {
+            font-size: 16px;
+            color: #ffffff;
+            margin-bottom: 4px;
+        }
+
+        .vibe-alignment {
+            font-size: 12px;
+            color: #ff64ff;
+            margin-top: 8px;
+        }
+
+        .status-indicator {
+            display: inline-block;
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: #00ff88;
+            margin-right: 6px;
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.5; }
+        }
+
+        .status-stopped {
+            background: #666;
+            animation: none;
+        }
+
+        .status-paused {
+            background: #ffaa00;
+            animation: none;
+        }
+
+        .channel-list {
+            flex: 1;
+            overflow-y: auto;
+            padding-right: 8px;
+        }
+
+        .channel-item {
+            padding: 12px;
+            margin-bottom: 8px;
+            background: rgba(0, 0, 0, 0.3);
+            border-radius: 8px;
+            border: 1px solid rgba(100, 200, 255, 0.1);
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .channel-item:hover {
+            background: rgba(100, 200, 255, 0.1);
+            border-color: rgba(100, 200, 255, 0.3);
+            transform: translateX(4px);
+        }
+
+        .channel-item.active {
+            background: rgba(100, 200, 255, 0.2);
+            border-color: rgba(100, 200, 255, 0.5);
+        }
+
+        .channel-item-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 4px;
+        }
+
+        .channel-number-small {
+            font-size: 18px;
+            font-weight: bold;
+            color: #64c8ff;
+        }
+
+        .channel-status {
+            font-size: 10px;
+            color: #888;
+            text-transform: uppercase;
+        }
+
+        .channel-name {
+            font-size: 14px;
+            color: #ffffff;
+        }
+
+        .controls {
+            display: flex;
+            gap: 12px;
+            padding: 16px;
+            background: rgba(0, 0, 0, 0.3);
+            border-radius: 12px;
+            margin-top: 16px;
+            border: 1px solid rgba(100, 200, 255, 0.2);
+        }
+
+        .control-btn {
+            flex: 1;
+            padding: 12px;
+            background: linear-gradient(135deg, rgba(100, 200, 255, 0.2) 0%, rgba(255, 100, 255, 0.2) 100%);
+            border: 1px solid rgba(100, 200, 255, 0.3);
+            border-radius: 8px;
+            color: #ffffff;
+            font-size: 14px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .control-btn:hover {
+            background: linear-gradient(135deg, rgba(100, 200, 255, 0.3) 0%, rgba(255, 100, 255, 0.3) 100%);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(100, 200, 255, 0.3);
+        }
+
+        .control-btn:active {
+            transform: translateY(0);
+        }
+
+        .free-music-indicator {
+            text-align: center;
+            padding: 8px;
+            font-size: 11px;
+            color: #00ff88;
+            background: rgba(0, 255, 136, 0.1);
+            border-radius: 6px;
+            margin-top: 12px;
+            border: 1px solid rgba(0, 255, 136, 0.2);
+        }
+
+        /* Scrollbar styling */
+        .channel-list::-webkit-scrollbar {
+            width: 6px;
+        }
+
+        .channel-list::-webkit-scrollbar-track {
+            background: rgba(0, 0, 0, 0.2);
+            border-radius: 3px;
+        }
+
+        .channel-list::-webkit-scrollbar-thumb {
+            background: rgba(100, 200, 255, 0.3);
+            border-radius: 3px;
+        }
+
+        .channel-list::-webkit-scrollbar-thumb:hover {
+            background: rgba(100, 200, 255, 0.5);
+        }
+    </style>
+</head>
+<body>
+    <!-- Syntheverse Disclaimer - Upfront at All NSPFRNP Landings -->
+    <div style="position: fixed; top: 0; left: 0; right: 0; background: rgba(255, 165, 0, 0.95); border-bottom: 3px solid rgba(255, 165, 0, 1); padding: 14px 20px; text-align: center; z-index: 10000; font-size: 13px; color: #000; font-weight: 700; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);">
+        ⚠️ <strong>SYNTHEVERSE IS IMAGINARY/ENTERTAINMENT ONLY</strong> - Like reading a very good book, playing a video game, or watching a movie. <strong>NO SUBSTANCES OF ANY KIND ARE INVOLVED.</strong> All laws always followed for maximum coherence, amplitude, and rich experiences daily.
+    </div>
+
+    <div class="radio-console" id="radioConsole" style="margin-top: 60px;">
+        <div class="console-header">
+            <div>
+                <div class="console-title">📻 Music Radio Console</div>
+            </div>
+            <div class="nspfrnp-badge">NSPFRNP</div>
+        </div>
+
+        <div class="current-channel-display">
+            <div class="channel-number" id="currentChannelNumber">1</div>
+            <div class="playlist-name" id="currentPlaylistName">VibeLand Baseline</div>
+            <div class="vibe-alignment" id="currentVibeAlignment">Vibe Alignment: 75%</div>
+            <div style="margin-top: 12px;">
+                <span class="status-indicator" id="statusIndicator"></span>
+                <span id="statusText" style="font-size: 12px; color: #888;">STOPPED</span>
+            </div>
+        </div>
+
+        <div class="channel-list" id="channelList">
+            <!-- Channels will be populated here -->
+        </div>
+
+        <div class="controls">
+            <button class="control-btn" onclick="playMusic()">▶ Play</button>
+            <button class="control-btn" onclick="pauseMusic()">⏸ Pause</button>
+            <button class="control-btn" onclick="stopMusic()">⏹ Stop</button>
+        </div>
+
+        <div class="free-music-indicator">
+            🆓 Free Music • NSPFRNP Natural Protocol • Automatic
+        </div>
+    </div>
+
+    <script>
+        // Channel data (would come from TypeScript system)
+        let channels = [
+            { channelNumber: 1, playlistName: 'VibeLand Baseline', vibeAlignment: 75, status: 'stopped' },
+            { channelNumber: 2, playlistName: 'Chairman Creator Flow', vibeAlignment: 85, status: 'stopped' },
+            { channelNumber: 3, playlistName: 'Microdose Plus Vibes', vibeAlignment: 80, status: 'stopped' },
+            { channelNumber: 4, playlistName: 'Natural Protocol Sounds', vibeAlignment: 90, status: 'stopped' },
+            { channelNumber: 5, playlistName: 'Holographic Frequencies', vibeAlignment: 88, status: 'stopped' }
+        ];
+
+        let currentChannel = 1;
+        let currentStatus = 'stopped';
+
+        // Initialize
+        function init() {
+            renderChannels();
+            updateCurrentChannel();
+        }
+
+        // Render channel list
+        function renderChannels() {
+            const channelList = document.getElementById('channelList');
+            channelList.innerHTML = '';
+
+            channels.forEach(channel => {
+                const item = document.createElement('div');
+                item.className = `channel-item ${channel.channelNumber === currentChannel ? 'active' : ''}`;
+                item.onclick = () => selectChannel(channel.channelNumber);
+
+                item.innerHTML = `
+                    <div class="channel-item-header">
+                        <div class="channel-number-small">${channel.channelNumber}</div>
+                        <div class="channel-status">${channel.status}</div>
+                    </div>
+                    <div class="channel-name">${channel.playlistName}</div>
+                `;
+
+                channelList.appendChild(item);
+            });
+        }
+
+        // Select channel (select channel = select playlist)
+        function selectChannel(channelNumber) {
+            currentChannel = channelNumber;
+            currentStatus = 'stopped';
+            updateCurrentChannel();
+            renderChannels();
+            console.log(`[Radio Console] Channel ${channelNumber} selected`);
+        }
+
+        // Update current channel display
+        function updateCurrentChannel() {
+            const channel = channels.find(c => c.channelNumber === currentChannel);
+            if (channel) {
+                document.getElementById('currentChannelNumber').textContent = channel.channelNumber;
+                document.getElementById('currentPlaylistName').textContent = channel.playlistName;
+                document.getElementById('currentVibeAlignment').textContent = `Vibe Alignment: ${channel.vibeAlignment}%`;
+                updateStatus(currentStatus);
+            }
+        }
+
+        // Update status
+        function updateStatus(status) {
+            currentStatus = status;
+            const indicator = document.getElementById('statusIndicator');
+            const statusText = document.getElementById('statusText');
+
+            indicator.className = 'status-indicator';
+            if (status === 'stopped') {
+                indicator.className = 'status-indicator status-stopped';
+                statusText.textContent = 'STOPPED';
+            } else if (status === 'paused') {
+                indicator.className = 'status-indicator status-paused';
+                statusText.textContent = 'PAUSED';
+            } else {
+                statusText.textContent = 'PLAYING';
+            }
+
+            // Update channel status
+            const channel = channels.find(c => c.channelNumber === currentChannel);
+            if (channel) {
+                channel.status = status;
+                renderChannels();
+            }
+        }
+
+        // Play music
+        function playMusic() {
+            updateStatus('playing');
+            console.log(`[Radio Console] Playing: Channel ${currentChannel}`);
+        }
+
+        // Pause music
+        function pauseMusic() {
+            updateStatus('paused');
+            console.log(`[Radio Console] Paused: Channel ${currentChannel}`);
+        }
+
+        // Stop music
+        function stopMusic() {
+            updateStatus('stopped');
+            console.log(`[Radio Console] Stopped: Channel ${currentChannel}`);
+        }
+
+        // Initialize on load
+        init();
+    </script>
+</body>
+</html>

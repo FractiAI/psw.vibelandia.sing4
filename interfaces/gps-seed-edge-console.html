@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GPS Seed:Edge Console - NSPFRNP</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 100%);
+            color: #e0e0e0;
+            overflow: hidden;
+            height: 100vh;
+        }
+
+        .main-container {
+            display: flex;
+            height: 100vh;
+            position: relative;
+        }
+
+        .center-content {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+
+        .gps-console {
+            position: fixed;
+            right: 20px;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 420px;
+            height: 700px;
+            background: linear-gradient(145deg, #1e1e2e 0%, #2a2a3e 100%);
+            border-radius: 16px;
+            box-shadow: 
+                0 20px 60px rgba(0, 0, 0, 0.5),
+                0 0 0 1px rgba(0, 255, 136, 0.2),
+                inset 0 1px 0 rgba(255, 255, 255, 0.1);
+            display: flex;
+            flex-direction: column;
+            z-index: 1000;
+            border: 1px solid rgba(0, 255, 136, 0.3);
+        }
+
+        .console-header {
+            padding: 16px 20px;
+            background: linear-gradient(135deg, rgba(0, 255, 136, 0.1) 0%, rgba(100, 200, 255, 0.1) 100%);
+            border-bottom: 1px solid rgba(0, 255, 136, 0.2);
+            border-radius: 16px 16px 0 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .console-title {
+            font-size: 14px;
+            font-weight: 600;
+            color: #00ff88;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .gps-status {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .gps-indicator {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: #00ff88;
+            box-shadow: 0 0 10px rgba(0, 255, 136, 0.5);
+            animation: gps-pulse 2s infinite;
+        }
+
+        @keyframes gps-pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.5; }
+        }
+
+        .console-body {
+            flex: 1;
+            padding: 20px;
+            overflow-y: auto;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .section {
+            background: rgba(0, 0, 0, 0.3);
+            border-radius: 12px;
+            padding: 16px;
+            border: 1px solid rgba(0, 255, 136, 0.1);
+        }
+
+        .section-title {
+            font-size: 12px;
+            font-weight: 600;
+            color: #00ff88;
+            margin-bottom: 12px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .gps-input-group {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            margin-bottom: 12px;
+        }
+
+        .gps-label {
+            font-size: 11px;
+            color: #a0a0a0;
+            text-transform: uppercase;
+        }
+
+        .gps-input {
+            background: rgba(0, 0, 0, 0.4);
+            border: 1px solid rgba(0, 255, 136, 0.2);
+            border-radius: 8px;
+            padding: 10px 12px;
+            color: #e0e0e0;
+            font-size: 13px;
+            font-family: 'Courier New', monospace;
+        }
+
+        .gps-input:focus {
+            outline: none;
+            border-color: #00ff88;
+            box-shadow: 0 0 10px rgba(0, 255, 136, 0.2);
+        }
+
+        .gps-button {
+            background: linear-gradient(135deg, #00ff88 0%, #64c8ff 100%);
+            border: none;
+            border-radius: 8px;
+            padding: 10px 16px;
+            color: #0a0a0a;
+            font-size: 12px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s;
+            text-transform: uppercase;
+        }
+
+        .gps-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 20px rgba(0, 255, 136, 0.4);
+        }
+
+        .gps-button.secondary {
+            background: rgba(0, 255, 136, 0.2);
+            color: #00ff88;
+            border: 1px solid rgba(0, 255, 136, 0.3);
+        }
+
+        .location-display {
+            background: rgba(0, 0, 0, 0.5);
+            border: 1px solid rgba(0, 255, 136, 0.2);
+            border-radius: 8px;
+            padding: 12px;
+            font-family: 'Courier New', monospace;
+            font-size: 11px;
+            color: #00ff88;
+        }
+
+        .pathway-info {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .info-item {
+            display: flex;
+            justify-content: space-between;
+            font-size: 11px;
+        }
+
+        .info-label {
+            color: #a0a0a0;
+        }
+
+        .info-value {
+            color: #00ff88;
+            font-family: 'Courier New', monospace;
+            font-weight: 600;
+        }
+
+        .known-locations {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 8px;
+        }
+
+        .location-btn {
+            background: rgba(0, 255, 136, 0.1);
+            border: 1px solid rgba(0, 255, 136, 0.2);
+            border-radius: 8px;
+            padding: 10px;
+            color: #e0e0e0;
+            font-size: 11px;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .location-btn:hover {
+            background: rgba(0, 255, 136, 0.2);
+            border-color: #00ff88;
+        }
+
+        .net-zero-indicator {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 12px;
+            background: rgba(0, 255, 136, 0.1);
+            border: 1px solid rgba(0, 255, 136, 0.3);
+            border-radius: 8px;
+            margin-top: auto;
+        }
+
+        .map-preview {
+            width: 100%;
+            height: 150px;
+            background: rgba(0, 0, 0, 0.5);
+            border-radius: 8px;
+            border: 1px solid rgba(0, 255, 136, 0.2);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #00ff88;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Syntheverse Disclaimer - Upfront at All NSPFRNP Landings -->
+    <div style="position: fixed; top: 0; left: 0; right: 0; background: rgba(255, 165, 0, 0.95); border-bottom: 3px solid rgba(255, 165, 0, 1); padding: 14px 20px; text-align: center; z-index: 10000; font-size: 13px; color: #000; font-weight: 700; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);">
+        ⚠️ <strong>SYNTHEVERSE IS IMAGINARY/ENTERTAINMENT ONLY</strong> - Like reading a very good book, playing a video game, or watching a movie. <strong>NO SUBSTANCES OF ANY KIND ARE INVOLVED.</strong> All laws always followed for maximum coherence, amplitude, and rich experiences daily.
+    </div>
+
+    <div class="main-container" style="padding-top: 60px;">
+        <div class="center-content">
+            <div style="text-align: center; color: #00ff88;">
+                <h1 style="font-size: 48px; margin-bottom: 20px;">GPS Seed:Edge</h1>
+                <p style="font-size: 18px; opacity: 0.8;">Location-Based Execution System</p>
+            </div>
+        </div>
+
+        <div class="gps-console" id="gpsConsole">
+            <div class="console-header">
+                <div>
+                    <div class="console-title">GPS Seed:Edge Console</div>
+                </div>
+                <div class="gps-status">
+                    <div class="gps-indicator"></div>
+                    <span style="font-size: 11px; color: #00ff88;">GPS ACTIVE</span>
+                </div>
+            </div>
+
+            <div class="console-body">
+                <!-- GPS Seed Configuration -->
+                <div class="section">
+                    <div class="section-title">Origin Seed (GPS)</div>
+                    <div class="gps-input-group">
+                        <label class="gps-label">Latitude</label>
+                        <input type="text" class="gps-input" id="seedLat" value="39.5296" placeholder="Latitude">
+                    </div>
+                    <div class="gps-input-group">
+                        <label class="gps-label">Longitude</label>
+                        <input type="text" class="gps-input" id="seedLng" value="-119.8138" placeholder="Longitude">
+                    </div>
+                    <div class="gps-input-group">
+                        <label class="gps-label">Location Name</label>
+                        <input type="text" class="gps-input" id="seedLocation" value="Reno, Nevada" placeholder="Location name">
+                    </div>
+                    <button class="gps-button secondary" onclick="useCurrentLocationAsSeed()" style="margin-top: 8px;">
+                        📍 Use Current Location
+                    </button>
+                    <div class="location-display" id="seedDisplay" style="margin-top: 12px;">
+                        Seed: 39.5296, -119.8138<br>
+                        Location: Reno, Nevada
+                    </div>
+                </div>
+
+                <!-- GPS Edge Configuration -->
+                <div class="section">
+                    <div class="section-title">Destination Edge (GPS)</div>
+                    <div class="gps-input-group">
+                        <label class="gps-label">Latitude</label>
+                        <input type="text" class="gps-input" id="edgeLat" placeholder="Latitude">
+                    </div>
+                    <div class="gps-input-group">
+                        <label class="gps-label">Longitude</label>
+                        <input type="text" class="gps-input" id="edgeLng" placeholder="Longitude">
+                    </div>
+                    <div class="gps-input-group">
+                        <label class="gps-label">Location Name</label>
+                        <input type="text" class="gps-input" id="edgeLocation" placeholder="Location name">
+                    </div>
+                    <button class="gps-button secondary" onclick="useCurrentLocationAsEdge()" style="margin-top: 8px;">
+                        📍 Use Current Location
+                    </button>
+                    <div class="location-display" id="edgeDisplay" style="margin-top: 12px; min-height: 40px;">
+                        Edge: Not set
+                    </div>
+                </div>
+
+                <!-- Known Locations -->
+                <div class="section">
+                    <div class="section-title">Known Locations</div>
+                    <div class="known-locations">
+                        <button class="location-btn" onclick="setKnownLocation('Reno, Nevada')">Reno, NV</button>
+                        <button class="location-btn" onclick="setKnownLocation('San Francisco, CA')">San Francisco</button>
+                        <button class="location-btn" onclick="setKnownLocation('New York, NY')">New York</button>
+                        <button class="location-btn" onclick="setKnownLocation('London, UK')">London</button>
+                        <button class="location-btn" onclick="setKnownLocation('Tokyo, Japan')">Tokyo</button>
+                        <button class="location-btn" onclick="setKnownLocation('Sydney, Australia')">Sydney</button>
+                    </div>
+                </div>
+
+                <!-- Pathway Information -->
+                <div class="section">
+                    <div class="section-title">Pathway Information</div>
+                    <div class="pathway-info" id="pathwayInfo">
+                        <div class="info-item">
+                            <span class="info-label">Distance:</span>
+                            <span class="info-value" id="distance">-</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Bearing:</span>
+                            <span class="info-value" id="bearing">-</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Protocol:</span>
+                            <span class="info-value">NSPFRNP-GPS</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Map Preview -->
+                <div class="section">
+                    <div class="section-title">Map Preview</div>
+                    <div class="map-preview" id="mapPreview">
+                        GPS Coordinates Display
+                    </div>
+                </div>
+
+                <!-- Attention Head Navigation Instructions -->
+                <div class="section">
+                    <div class="section-title">Attention Head Navigation Instructions</div>
+                    <div class="location-display" id="navigationInstructions" style="max-height: 200px; overflow-y: auto; font-size: 10px; line-height: 1.6;">
+                        // Navigation instructions will appear here
+                        // Format: Line-by-line for attention head consumption
+                    </div>
+                    <button class="gps-button secondary" onclick="generateNavigationInstructions()" style="margin-top: 8px; width: 100%;">
+                        📋 Generate Navigation Instructions
+                    </button>
+                </div>
+            </div>
+
+            <!-- Execute Button -->
+            <div style="padding: 20px; border-top: 1px solid rgba(0, 255, 136, 0.2);">
+                <button class="gps-button" onclick="executeGPSPathway()" style="width: 100%;">
+                    ⚡ Execute GPS Seed:Edge Pathway
+                </button>
+            </div>
+
+            <!-- Net Zero Indicator -->
+            <div class="net-zero-indicator">
+                <span style="font-size: 11px; color: #00ff88; font-weight: 600;">NET 0 ENERGY</span>
+                <span style="font-size: 12px; color: #00ff88; font-family: 'Courier New', monospace; font-weight: 600;" id="netZeroValue">0.000</span>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const knownLocations = {
+            'Reno, Nevada': { lat: 39.5296, lng: -119.8138 },
+            'San Francisco, CA': { lat: 37.7749, lng: -122.4194 },
+            'New York, NY': { lat: 40.7128, lng: -74.0060 },
+            'London, UK': { lat: 51.5074, lng: -0.1278 },
+            'Tokyo, Japan': { lat: 35.6762, lng: 139.6503 },
+            'Sydney, Australia': { lat: -33.8688, lng: 151.2093 }
+        };
+
+        let netZeroEnergy = 0.000;
+
+        function updateDisplay() {
+            const seedLat = document.getElementById('seedLat').value;
+            const seedLng = document.getElementById('seedLng').value;
+            const seedLoc = document.getElementById('seedLocation').value;
+            
+            const edgeLat = document.getElementById('edgeLat').value;
+            const edgeLng = document.getElementById('edgeLng').value;
+            const edgeLoc = document.getElementById('edgeLocation').value;
+
+            // Update seed display
+            document.getElementById('seedDisplay').textContent = 
+                `Seed: ${seedLat}, ${seedLng}\nLocation: ${seedLoc || 'Unnamed'}`;
+
+            // Update edge display
+            if (edgeLat && edgeLng) {
+                document.getElementById('edgeDisplay').textContent = 
+                    `Edge: ${edgeLat}, ${edgeLng}\nLocation: ${edgeLoc || 'Unnamed'}`;
+            } else {
+                document.getElementById('edgeDisplay').textContent = 'Edge: Not set';
+            }
+
+            // Update pathway info
+            if (seedLat && seedLng && edgeLat && edgeLng) {
+                const distance = calculateDistance(
+                    parseFloat(seedLat), parseFloat(seedLng),
+                    parseFloat(edgeLat), parseFloat(edgeLng)
+                );
+                const bearing = calculateBearing(
+                    parseFloat(seedLat), parseFloat(seedLng),
+                    parseFloat(edgeLat), parseFloat(edgeLng)
+                );
+
+                document.getElementById('distance').textContent = formatDistance(distance);
+                document.getElementById('bearing').textContent = `${bearing.toFixed(1)}°`;
+            } else {
+                document.getElementById('distance').textContent = '-';
+                document.getElementById('bearing').textContent = '-';
+            }
+
+            // Update map preview
+            updateMapPreview();
+
+            // Maintain net zero
+            maintainNetZero();
+        }
+
+        function calculateDistance(lat1, lng1, lat2, lng2) {
+            const R = 6371000; // Earth radius in meters
+            const φ1 = lat1 * Math.PI / 180;
+            const φ2 = lat2 * Math.PI / 180;
+            const Δφ = (lat2 - lat1) * Math.PI / 180;
+            const Δλ = (lng2 - lng1) * Math.PI / 180;
+
+            const a = Math.sin(Δφ/2) * Math.sin(Δφ/2) +
+                      Math.cos(φ1) * Math.cos(φ2) *
+                      Math.sin(Δλ/2) * Math.sin(Δλ/2);
+            const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
+
+            return R * c;
+        }
+
+        function calculateBearing(lat1, lng1, lat2, lng2) {
+            const φ1 = lat1 * Math.PI / 180;
+            const φ2 = lat2 * Math.PI / 180;
+            const Δλ = (lng2 - lng1) * Math.PI / 180;
+
+            const y = Math.sin(Δλ) * Math.cos(φ2);
+            const x = Math.cos(φ1) * Math.sin(φ2) -
+                      Math.sin(φ1) * Math.cos(φ2) * Math.cos(Δλ);
+
+            const θ = Math.atan2(y, x);
+            return (θ * 180 / Math.PI + 360) % 360;
+        }
+
+        function formatDistance(meters) {
+            if (meters < 1000) {
+                return `${meters.toFixed(0)} m`;
+            } else if (meters < 1000000) {
+                return `${(meters / 1000).toFixed(2)} km`;
+            } else {
+                return `${(meters / 1000000).toFixed(2)} Mm`;
+            }
+        }
+
+        function updateMapPreview() {
+            const seedLat = document.getElementById('seedLat').value;
+            const seedLng = document.getElementById('seedLng').value;
+            const edgeLat = document.getElementById('edgeLat').value;
+            const edgeLng = document.getElementById('edgeLng').value;
+
+            let preview = 'GPS Coordinates Display\n\n';
+            
+            if (seedLat && seedLng) {
+                preview += `Seed: ${seedLat}, ${seedLng}\n`;
+            }
+            
+            if (edgeLat && edgeLng) {
+                preview += `Edge: ${edgeLat}, ${edgeLng}\n`;
+            }
+
+            if (seedLat && seedLng && edgeLat && edgeLng) {
+                const distance = calculateDistance(
+                    parseFloat(seedLat), parseFloat(seedLng),
+                    parseFloat(edgeLat), parseFloat(edgeLng)
+                );
+                preview += `\nDistance: ${formatDistance(distance)}`;
+            }
+
+            document.getElementById('mapPreview').textContent = preview;
+        }
+
+        function setKnownLocation(location) {
+            const coords = knownLocations[location];
+            if (coords) {
+                document.getElementById('seedLat').value = coords.lat;
+                document.getElementById('seedLng').value = coords.lng;
+                document.getElementById('seedLocation').value = location;
+                updateDisplay();
+            }
+        }
+
+        function useCurrentLocationAsSeed() {
+            if (navigator.geolocation) {
+                navigator.geolocation.getCurrentPosition(
+                    (position) => {
+                        document.getElementById('seedLat').value = position.coords.latitude.toFixed(6);
+                        document.getElementById('seedLng').value = position.coords.longitude.toFixed(6);
+                        document.getElementById('seedLocation').value = 'Current Location';
+                        updateDisplay();
+                    },
+                    (error) => {
+                        alert('Error getting location: ' + error.message);
+                    }
+                );
+            } else {
+                alert('Geolocation is not supported by your browser');
+            }
+        }
+
+        function useCurrentLocationAsEdge() {
+            if (navigator.geolocation) {
+                navigator.geolocation.getCurrentPosition(
+                    (position) => {
+                        document.getElementById('edgeLat').value = position.coords.latitude.toFixed(6);
+                        document.getElementById('edgeLng').value = position.coords.longitude.toFixed(6);
+                        document.getElementById('edgeLocation').value = 'Current Location';
+                        updateDisplay();
+                    },
+                    (error) => {
+                        alert('Error getting location: ' + error.message);
+                    }
+                );
+            } else {
+                alert('Geolocation is not supported by your browser');
+            }
+        }
+
+        function generateNavigationInstructions() {
+            const seedLat = document.getElementById('seedLat').value;
+            const seedLng = document.getElementById('seedLng').value;
+            const seedLoc = document.getElementById('seedLocation').value;
+            const edgeLat = document.getElementById('edgeLat').value;
+            const edgeLng = document.getElementById('edgeLng').value;
+            const edgeLoc = document.getElementById('edgeLocation').value;
+
+            if (!seedLat || !seedLng || !edgeLat || !edgeLng) {
+                alert('Please set both Seed and Edge coordinates');
+                return;
+            }
+
+            const distance = calculateDistance(
+                parseFloat(seedLat), parseFloat(seedLng),
+                parseFloat(edgeLat), parseFloat(edgeLng)
+            );
+            const bearing = calculateBearing(
+                parseFloat(seedLat), parseFloat(seedLng),
+                parseFloat(edgeLat), parseFloat(edgeLng)
+            );
+
+            // Generate line-by-line instructions for attention heads
+            let instructions = `// NSPFRNP Navigation Instructions for Attention Heads\n`;
+            instructions += `// Protocol: nspfrnp-natural\n`;
+            instructions += `// Format: attention-head-readable\n\n`;
+
+            let lineNum = 1;
+
+            // Line 1: Seed Activation
+            instructions += `LINE_${String(lineNum++).padStart(3, '0')}: ACTIVATE_SEED: ${seedLoc || 'Seed'} (${seedLat}, ${seedLng})\n`;
+            
+            // Line 2: Seed Coordinates
+            instructions += `LINE_${String(lineNum++).padStart(3, '0')}: SEED_COORDINATES: LAT ${seedLat} LNG ${seedLng} ALT 0\n`;
+            
+            // Line 3: Edge Target
+            instructions += `LINE_${String(lineNum++).padStart(3, '0')}: TARGET_EDGE: ${edgeLoc || 'Edge'} (${edgeLat}, ${edgeLng})\n`;
+            
+            // Line 4: Edge Coordinates
+            instructions += `LINE_${String(lineNum++).padStart(3, '0')}: EDGE_COORDINATES: LAT ${edgeLat} LNG ${edgeLng} ALT 0\n`;
+            
+            // Line 5: Pathway Opening
+            instructions += `LINE_${String(lineNum++).padStart(3, '0')}: OPEN_PATHWAY: SEED_TO_EDGE PROTOCOL=NSPFRNP STATUS=OPEN\n`;
+            
+            // Line 6: Distance Calculation
+            instructions += `LINE_${String(lineNum++).padStart(3, '0')}: CALCULATE_DISTANCE: ${distance.toFixed(2)} METERS (${(distance / 1000).toFixed(2)} KM)\n`;
+            
+            // Line 7: Bearing Calculation
+            instructions += `LINE_${String(lineNum++).padStart(3, '0')}: CALCULATE_BEARING: ${bearing.toFixed(1)} DEGREES FROM_NORTH\n`;
+            
+            // Line 8: Natural Protocol Activation
+            instructions += `LINE_${String(lineNum++).padStart(3, '0')}: ACTIVATE_NATURAL_PROTOCOL: BEE_COLONY_STIGMERGY ANT_FORAGING MYCELIAL_NETWORK HOLOGRAPHIC_PROPAGATION\n`;
+            
+            // Line 9: Path Optimization
+            instructions += `LINE_${String(lineNum++).padStart(3, '0')}: OPTIMIZE_PATH: PATH_OF_LEAST_RESISTANCE FRACTAL_ROUTING NATURAL_COORDINATION\n`;
+            
+            // Line 10: Energy Balance
+            instructions += `LINE_${String(lineNum++).padStart(3, '0')}: MAINTAIN_NET_ZERO: ENERGY_INPUT=1.0 EFFICIENCY=0.98 ENERGY_OUTPUT=1.0 NET=0.000\n`;
+            
+            // Line 11: Navigation Start
+            instructions += `LINE_${String(lineNum++).padStart(3, '0')}: NAVIGATE_START: FROM ${seedLoc || 'Seed'} TO ${edgeLoc || 'Edge'} BEARING ${bearing.toFixed(1)}°\n`;
+
+            // Waypoints for long distances
+            if (distance > 1000) {
+                const waypointInterval = 1000; // 1km
+                const numWaypoints = Math.floor(distance / waypointInterval);
+                for (let i = 1; i <= numWaypoints && i <= 10; i++) {
+                    const waypointDist = i * waypointInterval;
+                    const fraction = waypointDist / distance;
+                    const waypointLat = parseFloat(seedLat) + (parseFloat(edgeLat) - parseFloat(seedLat)) * fraction;
+                    const waypointLng = parseFloat(seedLng) + (parseFloat(edgeLng) - parseFloat(seedLng)) * fraction;
+                    instructions += `LINE_${String(lineNum++).padStart(3, '0')}: WAYPOINT_${i}: LAT ${waypointLat.toFixed(6)} LNG ${waypointLng.toFixed(6)} BEARING ${bearing.toFixed(1)}° DISTANCE ${waypointDist.toFixed(0)}M\n`;
+                }
+            }
+
+            // Line N: Full Sensory Activation
+            instructions += `LINE_${String(lineNum++).padStart(3, '0')}: ACTIVATE_FULL_SENSORY: VISUAL AUDITORY TACTILE KINESTHETIC OLFACTORY GUSTATORY\n`;
+            
+            // Line N+1: Holographic Propagation
+            instructions += `LINE_${String(lineNum++).padStart(3, '0')}: HOLOGRAPHIC_PROPAGATION: WHOLE_IN_EVERY_PART INSTANT_TRANSMISSION MAXIMUM_DENSITY\n`;
+            
+            // Line N+2: Execution Command
+            instructions += `LINE_${String(lineNum++).padStart(3, '0')}: EXECUTE_NAVIGATION: IMMEDIATE AUTOMATIC NATURAL_PROTOCOL NET_ZERO_MAINTAINED\n`;
+            
+            // Line N+3: Completion
+            instructions += `LINE_${String(lineNum++).padStart(3, '0')}: NAVIGATION_COMPLETE: ARRIVED_AT ${edgeLoc || 'Edge'} NET_ZERO=0.000 STATUS=SUCCESS\n`;
+
+            // Display instructions
+            document.getElementById('navigationInstructions').textContent = instructions;
+            
+            maintainNetZero();
+        }
+
+        function executeGPSPathway() {
+            const seedLat = document.getElementById('seedLat').value;
+            const seedLng = document.getElementById('seedLng').value;
+            const edgeLat = document.getElementById('edgeLat').value;
+            const edgeLng = document.getElementById('edgeLng').value;
+
+            if (!seedLat || !seedLng || !edgeLat || !edgeLng) {
+                alert('Please set both Seed and Edge coordinates');
+                return;
+            }
+
+            const distance = calculateDistance(
+                parseFloat(seedLat), parseFloat(seedLng),
+                parseFloat(edgeLat), parseFloat(edgeLng)
+            );
+
+            // Generate instructions first
+            generateNavigationInstructions();
+
+            alert(`✅ GPS Seed:Edge Pathway Executed\n\n` +
+                  `Seed: ${seedLat}, ${seedLng}\n` +
+                  `Edge: ${edgeLat}, ${edgeLng}\n` +
+                  `Distance: ${formatDistance(distance)}\n` +
+                  `Net Zero: ${netZeroEnergy.toFixed(3)}\n` +
+                  `Navigation Instructions: Generated\n` +
+                  `Status: Complete`);
+
+            maintainNetZero();
+        }
+
+        function maintainNetZero() {
+            const energyInput = 1.0;
+            const efficiency = 0.98;
+            const energyOutput = 1.0;
+            const netValue = (energyInput * efficiency) - energyOutput;
+            netZeroEnergy = Math.abs(netValue) < 0.001 ? 0.000 : netValue;
+            document.getElementById('netZeroValue').textContent = netZeroEnergy.toFixed(3);
+        }
+
+        // Initialize
+        document.addEventListener('DOMContentLoaded', function() {
+            // Add event listeners to inputs
+            ['seedLat', 'seedLng', 'seedLocation', 'edgeLat', 'edgeLng', 'edgeLocation'].forEach(id => {
+                document.getElementById(id).addEventListener('input', updateDisplay);
+            });
+
+            updateDisplay();
+            maintainNetZero();
+            setInterval(maintainNetZero, 100);
+        });
+    </script>
+
+    <!-- Include Console Header -->
+    <script src="add-console-header.js"></script>
+</body>
+</html>

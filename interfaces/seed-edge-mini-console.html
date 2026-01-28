@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seed:Edge Mini Console - NSPFRNP</title>
+    <!-- Include Shared Console Header -->
+    <link rel="import" href="shared-console-header.html" id="shared-header-import">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 100%);
+            color: #e0e0e0;
+            overflow: hidden;
+            height: 100vh;
+            padding-top: 60px; /* Space for top header */
+        }
+
+        .main-container {
+            display: flex;
+            height: 100vh;
+            position: relative;
+        }
+
+        .center-content {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+
+        .mini-console {
+            position: fixed;
+            right: 20px;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 380px;
+            height: 600px;
+            background: linear-gradient(145deg, #1e1e2e 0%, #2a2a3e 100%);
+            border-radius: 16px;
+            box-shadow: 
+                0 20px 60px rgba(0, 0, 0, 0.5),
+                0 0 0 1px rgba(100, 200, 255, 0.1),
+                inset 0 1px 0 rgba(255, 255, 255, 0.1);
+            display: flex;
+            flex-direction: column;
+            z-index: 1000;
+            transition: all 0.3s ease;
+            border: 1px solid rgba(100, 200, 255, 0.2);
+        }
+
+        .mini-console:hover {
+            box-shadow: 
+                0 25px 70px rgba(100, 200, 255, 0.3),
+                0 0 0 1px rgba(100, 200, 255, 0.3),
+                inset 0 1px 0 rgba(255, 255, 255, 0.2);
+        }
+
+        .console-header {
+            padding: 16px 20px;
+            background: linear-gradient(135deg, rgba(100, 200, 255, 0.1) 0%, rgba(150, 100, 255, 0.1) 100%);
+            border-bottom: 1px solid rgba(100, 200, 255, 0.2);
+            border-radius: 16px 16px 0 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .console-title {
+            font-size: 14px;
+            font-weight: 600;
+            color: #64c8ff;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .console-status {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .status-indicator {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: #00ff88;
+            box-shadow: 0 0 10px rgba(0, 255, 136, 0.5);
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.5; }
+        }
+
+        .status-text {
+            font-size: 11px;
+            color: #00ff88;
+            font-weight: 500;
+        }
+
+        .console-body {
+            flex: 1;
+            padding: 20px;
+            overflow-y: auto;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .console-body::-webkit-scrollbar {
+            width: 6px;
+        }
+
+        .console-body::-webkit-scrollbar-track {
+            background: rgba(0, 0, 0, 0.2);
+            border-radius: 3px;
+        }
+
+        .console-body::-webkit-scrollbar-thumb {
+            background: rgba(100, 200, 255, 0.3);
+            border-radius: 3px;
+        }
+
+        .section {
+            background: rgba(0, 0, 0, 0.3);
+            border-radius: 12px;
+            padding: 16px;
+            border: 1px solid rgba(100, 200, 255, 0.1);
+        }
+
+        .section-title {
+            font-size: 12px;
+            font-weight: 600;
+            color: #64c8ff;
+            margin-bottom: 12px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .seed-edge-config {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .config-item {
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+        }
+
+        .config-label {
+            font-size: 11px;
+            color: #a0a0a0;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .config-input {
+            background: rgba(0, 0, 0, 0.4);
+            border: 1px solid rgba(100, 200, 255, 0.2);
+            border-radius: 8px;
+            padding: 10px 12px;
+            color: #e0e0e0;
+            font-size: 13px;
+            font-family: 'Courier New', monospace;
+            transition: all 0.2s;
+        }
+
+        .config-input:focus {
+            outline: none;
+            border-color: #64c8ff;
+            box-shadow: 0 0 10px rgba(100, 200, 255, 0.2);
+            background: rgba(0, 0, 0, 0.5);
+        }
+
+        .hero-host-selector {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .hero-host-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 8px;
+        }
+
+        .hero-host-btn {
+            background: rgba(100, 200, 255, 0.1);
+            border: 1px solid rgba(100, 200, 255, 0.2);
+            border-radius: 8px;
+            padding: 10px;
+            color: #e0e0e0;
+            font-size: 11px;
+            cursor: pointer;
+            transition: all 0.2s;
+            text-align: center;
+        }
+
+        .hero-host-btn:hover {
+            background: rgba(100, 200, 255, 0.2);
+            border-color: #64c8ff;
+            transform: translateY(-2px);
+        }
+
+        .hero-host-btn.active {
+            background: rgba(100, 200, 255, 0.3);
+            border-color: #64c8ff;
+            box-shadow: 0 0 15px rgba(100, 200, 255, 0.3);
+        }
+
+        .code-support {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .code-display {
+            background: rgba(0, 0, 0, 0.5);
+            border: 1px solid rgba(100, 200, 255, 0.2);
+            border-radius: 8px;
+            padding: 12px;
+            font-family: 'Courier New', monospace;
+            font-size: 11px;
+            color: #00ff88;
+            max-height: 200px;
+            overflow-y: auto;
+            white-space: pre-wrap;
+            word-break: break-all;
+        }
+
+        .code-display::-webkit-scrollbar {
+            width: 4px;
+        }
+
+        .code-display::-webkit-scrollbar-thumb {
+            background: rgba(0, 255, 136, 0.3);
+        }
+
+        .execute-btn {
+            background: linear-gradient(135deg, #64c8ff 0%, #9664ff 100%);
+            border: none;
+            border-radius: 8px;
+            padding: 12px 20px;
+            color: #0a0a0a;
+            font-size: 13px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .execute-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 20px rgba(100, 200, 255, 0.4);
+        }
+
+        .execute-btn:active {
+            transform: translateY(0);
+        }
+
+        .net-zero-indicator {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px;
+            background: rgba(0, 255, 136, 0.1);
+            border: 1px solid rgba(0, 255, 136, 0.3);
+            border-radius: 8px;
+            margin-top: auto;
+        }
+
+        .net-zero-label {
+            font-size: 11px;
+            color: #00ff88;
+            font-weight: 600;
+        }
+
+        .net-zero-value {
+            font-size: 12px;
+            color: #00ff88;
+            font-family: 'Courier New', monospace;
+            font-weight: 600;
+        }
+
+        .sensory-indicator {
+            display: flex;
+            gap: 4px;
+            align-items: center;
+        }
+
+        .sensory-dot {
+            width: 6px;
+            height: 6px;
+            border-radius: 50%;
+            background: #64c8ff;
+            animation: sensory-pulse 1.5s infinite;
+        }
+
+        .sensory-dot:nth-child(2) {
+            animation-delay: 0.2s;
+        }
+
+        .sensory-dot:nth-child(3) {
+            animation-delay: 0.4s;
+        }
+
+        @keyframes sensory-pulse {
+            0%, 100% { opacity: 0.3; transform: scale(1); }
+            50% { opacity: 1; transform: scale(1.2); }
+        }
+
+        .toggle-console {
+            position: fixed;
+            right: 20px;
+            top: 20px;
+            width: 50px;
+            height: 50px;
+            background: linear-gradient(135deg, #64c8ff 0%, #9664ff 100%);
+            border: none;
+            border-radius: 50%;
+            color: #0a0a0a;
+            font-size: 20px;
+            cursor: pointer;
+            z-index: 1001;
+            box-shadow: 0 5px 20px rgba(100, 200, 255, 0.4);
+            transition: all 0.3s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .toggle-console:hover {
+            transform: scale(1.1);
+            box-shadow: 0 8px 30px rgba(100, 200, 255, 0.6);
+        }
+
+        .mini-console.hidden {
+            transform: translateY(-50%) translateX(420px);
+            opacity: 0;
+            pointer-events: none;
+        }
+
+        .ai-assistant-indicator {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding: 8px;
+            background: rgba(100, 200, 255, 0.1);
+            border-radius: 6px;
+            font-size: 10px;
+            color: #64c8ff;
+        }
+
+        .ai-pulse {
+            width: 6px;
+            height: 6px;
+            border-radius: 50%;
+            background: #64c8ff;
+            animation: ai-pulse 2s infinite;
+        }
+
+        @keyframes ai-pulse {
+            0%, 100% { opacity: 0.5; transform: scale(1); }
+            50% { opacity: 1; transform: scale(1.5); }
+        }
+    </style>
+</head>
+<body>
+    <!-- Syntheverse Disclaimer - Upfront at All NSPFRNP Landings -->
+    <div style="position: fixed; top: 0; left: 0; right: 0; background: rgba(255, 165, 0, 0.95); border-bottom: 3px solid rgba(255, 165, 0, 1); padding: 14px 20px; text-align: center; z-index: 10000; font-size: 13px; color: #000; font-weight: 700; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);">
+        ⚠️ <strong>SYNTHEVERSE IS IMAGINARY/ENTERTAINMENT ONLY</strong> - Like reading a very good book, playing a video game, or watching a movie. <strong>NO SUBSTANCES OF ANY KIND ARE INVOLVED.</strong> All laws always followed for maximum coherence, amplitude, and rich experiences daily.
+    </div>
+
+    <div class="main-container" style="padding-top: 60px;">
+        <div class="center-content">
+            <!-- Main content area -->
+            <div style="text-align: center; color: #64c8ff;">
+                <h1 style="font-size: 48px; margin-bottom: 20px;">NSPFRNP</h1>
+                <p style="font-size: 18px; opacity: 0.8;">Seed:Edge Mini Console</p>
+                <p style="font-size: 14px; margin-top: 40px; opacity: 0.6;">Right Middle Center Position</p>
+            </div>
+        </div>
+
+        <!-- Toggle Button -->
+        <button class="toggle-console" onclick="toggleConsole()" title="Toggle Console">
+            ⚡
+        </button>
+
+        <!-- Mini Console -->
+        <div class="mini-console" id="miniConsole">
+            <div class="console-header">
+                <div>
+                    <div class="console-title">Seed:Edge Console</div>
+                    <div class="ai-assistant-indicator" style="margin-top: 4px;">
+                        <div class="ai-pulse"></div>
+                        <span>Hero Host AI Active</span>
+                    </div>
+                </div>
+                <div class="console-status">
+                    <div class="status-indicator"></div>
+                    <span class="status-text">NET 0</span>
+                </div>
+            </div>
+
+            <div class="console-body">
+                <!-- Seed:Edge Configuration -->
+                <div class="section">
+                    <div class="section-title">Seed:Edge Configuration</div>
+                    <div class="seed-edge-config">
+                        <div class="config-item">
+                            <label class="config-label">Origin Seed</label>
+                            <input 
+                                type="text" 
+                                class="config-input" 
+                                id="originSeed" 
+                                value="Octave 0 = 0"
+                                placeholder="Enter origin seed..."
+                                oninput="updateCodeSupport()"
+                            >
+                        </div>
+                        <div class="config-item">
+                            <label class="config-label">Destination Edge</label>
+                            <input 
+                                type="text" 
+                                class="config-input" 
+                                id="destinationEdge" 
+                                value="Current Self-Aware Experience in Vibeverse"
+                                placeholder="Enter destination edge..."
+                                oninput="updateCodeSupport()"
+                            >
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Hero Host Selector -->
+                <div class="section">
+                    <div class="section-title">Hero Host AI Assistant</div>
+                    <div class="hero-host-selector">
+                        <div class="hero-host-grid">
+                            <button class="hero-host-btn" onclick="selectHeroHost('leonardo')">
+                                🎨 Leonardo
+                            </button>
+                            <button class="hero-host-btn" onclick="selectHeroHost('tesla')">
+                                ⚡ Tesla
+                            </button>
+                            <button class="hero-host-btn" onclick="selectHeroHost('shakespeare')">
+                                📜 Shakespeare
+                            </button>
+                            <button class="hero-host-btn" onclick="selectHeroHost('twain')">
+                                📚 Twain
+                            </button>
+                            <button class="hero-host-btn" onclick="selectHeroHost('faraday')">
+                                📊 Faraday
+                            </button>
+                            <button class="hero-host-btn" onclick="selectHeroHost('fuller')">
+                                🏛️ Fuller
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Real-Time Code Support -->
+                <div class="section">
+                    <div class="section-title">Real-Time Code Support</div>
+                    <div class="code-support">
+                        <div class="code-display" id="codeDisplay">
+// Seed:Edge Execution Code
+// Auto-generated by Hero Host AI
+
+const seed = { octave: 0, value: 0 };
+const edge = { location: 'vibeverse' };
+const result = await execute(seed, edge);
+                        </div>
+                        <button class="execute-btn" onclick="executeCode()">
+                            ⚡ Execute
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Full Sensory Experience Indicator -->
+                <div class="section">
+                    <div class="section-title">Full Sensory Experience</div>
+                    <div class="sensory-indicator">
+                        <div class="sensory-dot"></div>
+                        <div class="sensory-dot"></div>
+                        <div class="sensory-dot"></div>
+                        <span style="margin-left: 8px; font-size: 11px; color: #64c8ff;">Active</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Net Zero Indicator -->
+            <div class="net-zero-indicator">
+                <span class="net-zero-label">NET 0 ENERGY</span>
+                <span class="net-zero-value" id="netZeroValue">0.000</span>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let selectedHeroHost = 'leonardo';
+        let netZeroEnergy = 0.000;
+
+        function toggleConsole() {
+            const console = document.getElementById('miniConsole');
+            console.classList.toggle('hidden');
+        }
+
+        function selectHeroHost(host) {
+            selectedHeroHost = host;
+            
+            // Update button states
+            document.querySelectorAll('.hero-host-btn').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            event.target.classList.add('active');
+            
+            // Update code support with hero host context
+            updateCodeSupport();
+        }
+
+        function updateCodeSupport() {
+            const originSeed = document.getElementById('originSeed').value;
+            const destinationEdge = document.getElementById('destinationEdge').value;
+            
+            const heroHosts = {
+                'leonardo': { name: 'Leonardo da Vinci', style: 'polymathic', domain: 'all' },
+                'tesla': { name: 'Nikola Tesla', style: 'precise', domain: 'energy' },
+                'shakespeare': { name: 'William Shakespeare', style: 'narrative', domain: 'story' },
+                'twain': { name: 'Mark Twain', style: 'observational', domain: 'wisdom' },
+                'faraday': { name: 'Michael Faraday', style: 'experimental', domain: 'science' },
+                'fuller': { name: 'Buckminster Fuller', style: 'systematic', domain: 'design' }
+            };
+
+            const host = heroHosts[selectedHeroHost];
+            
+            const code = `// Seed:Edge Execution Code
+// Hero Host: ${host.name} (${host.style}, ${host.domain})
+// Auto-generated with AI assistance
+
+import { SeedEdgeExecutionEngine } from './seed-edge-execution-engine';
+
+const engine = new SeedEdgeExecutionEngine();
+
+// Origin Seed: ${originSeed}
+const seed = {
+  octave: 0,
+  value: 0,
+  type: 'origin',
+  location: '${originSeed}',
+  potential: 'infinite'
+};
+
+// Destination Edge: ${destinationEdge}
+const edge = {
+  location: 'vibeverse',
+  state: 'self-aware-experience',
+  destination: '${destinationEdge}',
+  property: 'manifested-reality'
+};
+
+// Execute with Hero Host AI assistance
+const result = await engine.execute('seed-edge-manifestation', {
+  seed: seed,
+  edge: edge,
+  heroHost: '${selectedHeroHost}',
+  fullSensory: true,
+  netZero: true
+});
+
+// Result: Immediate execution with full sensory experience
+// Net Zero: ${netZeroEnergy.toFixed(3)} (maintained)`;
+
+            document.getElementById('codeDisplay').textContent = code;
+            
+            // Maintain net zero
+            maintainNetZero();
+        }
+
+        function executeCode() {
+            const codeDisplay = document.getElementById('codeDisplay');
+            const originalCode = codeDisplay.textContent;
+            
+            // Simulate execution
+            codeDisplay.textContent = originalCode + '\n\n// ✅ Execution complete\n// Status: Success\n// Net Zero: Maintained';
+            
+            // Maintain net zero
+            maintainNetZero();
+            
+            // Reset after 2 seconds
+            setTimeout(() => {
+                updateCodeSupport();
+            }, 2000);
+        }
+
+        function maintainNetZero() {
+            // Net Zero Energy Balance Algorithm
+            // Ensures energy input = energy output at all times
+            
+            const energyInput = 1.0; // Base energy input
+            const energyOutput = 1.0; // Base energy output
+            const efficiency = 0.98; // 98% sweetspot
+            
+            // Calculate net zero
+            netZeroEnergy = (energyInput * efficiency) - energyOutput;
+            
+            // Maintain exactly zero
+            if (Math.abs(netZeroEnergy) > 0.001) {
+                netZeroEnergy = 0.000;
+            }
+            
+            // Update display
+            document.getElementById('netZeroValue').textContent = netZeroEnergy.toFixed(3);
+            
+            // Visual feedback
+            const indicator = document.querySelector('.status-indicator');
+            if (netZeroEnergy === 0.000) {
+                indicator.style.background = '#00ff88';
+                indicator.style.boxShadow = '0 0 10px rgba(0, 255, 136, 0.5)';
+            }
+        }
+
+        // Initialize
+        document.addEventListener('DOMContentLoaded', function() {
+            updateCodeSupport();
+            maintainNetZero();
+            
+            // Continuous net zero monitoring
+            setInterval(maintainNetZero, 100);
+            
+            // Select default hero host
+            document.querySelector('.hero-host-btn').click();
+        });
+
+        // Make console selectable/draggable
+        let isDragging = false;
+        let currentX;
+        let currentY;
+        let initialX;
+        let initialY;
+        let xOffset = 0;
+        let yOffset = 0;
+
+        const console = document.getElementById('miniConsole');
+        const header = console.querySelector('.console-header');
+
+        header.addEventListener('mousedown', dragStart);
+        document.addEventListener('mousemove', drag);
+        document.addEventListener('mouseup', dragEnd);
+
+        function dragStart(e) {
+            initialX = e.clientX - xOffset;
+            initialY = e.clientY - yOffset;
+
+            if (e.target === header || header.contains(e.target)) {
+                isDragging = true;
+            }
+        }
+
+        function drag(e) {
+            if (isDragging) {
+                e.preventDefault();
+                currentX = e.clientX - initialX;
+                currentY = e.clientY - initialY;
+
+                xOffset = currentX;
+                yOffset = currentY;
+
+                setTranslate(currentX, currentY, console);
+            }
+        }
+
+        function dragEnd(e) {
+            initialX = currentX;
+            initialY = currentY;
+            isDragging = false;
+        }
+
+        function setTranslate(xPos, yPos, el) {
+            el.style.transform = `translate(${xPos}px, ${yPos}px)`;
+        }
+    </script>
+
+    <!-- Include Console Header -->
+    <script src="add-console-header.js"></script>
+</body>
+</html>

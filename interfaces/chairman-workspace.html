@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chairman Workspace | NSPFRNP Command Center</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 50%, #16213e 100%);
+            color: #ffffff;
+            min-height: 100vh;
+            overflow-x: hidden;
+            position: relative;
+        }
+
+        /* Hardened Mirror Shell Effect */
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: 
+                radial-gradient(circle at 20% 50%, rgba(255, 255, 255, 0.03) 0%, transparent 50%),
+                radial-gradient(circle at 80% 50%, rgba(255, 255, 255, 0.03) 0%, transparent 50%);
+            pointer-events: none;
+            z-index: 1;
+        }
+
+        .container {
+            position: relative;
+            z-index: 2;
+            padding: 2rem;
+            max-width: 1800px;
+            margin: 0 auto;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 3rem;
+            padding: 2rem;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 20px;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+            background: linear-gradient(135deg, #00d4ff 0%, #ff00ff 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        /* Workspace Layout - 3D Perspective */
+        .workspace-layout {
+            display: grid;
+            grid-template-columns: 1fr 2fr 1fr;
+            grid-template-rows: auto 1fr auto;
+            gap: 2rem;
+            min-height: 80vh;
+            perspective: 1000px;
+        }
+
+        /* Base Layer - Map */
+        .base-layer {
+            grid-column: 1 / -1;
+            grid-row: 1;
+            padding: 2rem;
+            background: rgba(0, 0, 0, 0.6);
+            border-radius: 15px;
+            border: 2px solid rgba(0, 212, 255, 0.3);
+            backdrop-filter: blur(10px);
+        }
+
+        .base-layer h2 {
+            color: #00d4ff;
+            margin-bottom: 1rem;
+        }
+
+        .map-container {
+            height: 200px;
+            background: rgba(0, 212, 255, 0.1);
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid rgba(0, 212, 255, 0.2);
+        }
+
+        /* Surface Layer - Current Story */
+        .surface-layer {
+            grid-column: 1 / -1;
+            grid-row: 2;
+            padding: 1rem;
+            background: rgba(255, 255, 255, 0.03);
+            border-radius: 10px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .current-story {
+            padding: 1rem;
+            background: rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
+            min-height: 100px;
+        }
+
+        /* Main Surface - Center */
+        .main-surface {
+            grid-column: 2;
+            grid-row: 2;
+            padding: 2rem;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 20px;
+            backdrop-filter: blur(10px);
+            border: 2px solid rgba(0, 212, 255, 0.3);
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+        }
+
+        .dashboard-section {
+            padding: 1.5rem;
+            background: rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
+            border: 1px solid rgba(0, 212, 255, 0.2);
+        }
+
+        .sacred-objects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+
+        .sacred-object {
+            padding: 1rem;
+            background: rgba(255, 0, 255, 0.1);
+            border-radius: 10px;
+            border: 1px solid rgba(255, 0, 255, 0.3);
+            text-align: center;
+        }
+
+        .sacred-object h3 {
+            color: #ff00ff;
+            font-size: 0.9rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .sacred-object .status {
+            font-size: 0.8rem;
+            color: #aaaaaa;
+        }
+
+        /* Right Side - Content & Tools */
+        .right-side {
+            grid-column: 3;
+            grid-row: 2;
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+
+        .playlist-catalog {
+            padding: 1.5rem;
+            background: rgba(0, 0, 0, 0.6);
+            border-radius: 15px;
+            border: 1px solid rgba(0, 212, 255, 0.3);
+            flex: 1;
+        }
+
+        .artist-tools {
+            padding: 1.5rem;
+            background: rgba(0, 0, 0, 0.6);
+            border-radius: 15px;
+            border: 1px solid rgba(0, 212, 255, 0.3);
+            flex: 1;
+        }
+
+        /* Left Side - Tools & Archives */
+        .left-side {
+            grid-column: 1;
+            grid-row: 2;
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+
+        .working-tools {
+            padding: 1.5rem;
+            background: rgba(0, 0, 0, 0.6);
+            border-radius: 15px;
+            border: 1px solid rgba(0, 212, 255, 0.3);
+        }
+
+        .scratch-pad {
+            padding: 1.5rem;
+            background: rgba(0, 0, 0, 0.6);
+            border-radius: 15px;
+            border: 1px solid rgba(0, 212, 255, 0.3);
+            flex: 1;
+        }
+
+        /* Edge Device Pad */
+        .edge-device-pad {
+            grid-column: 2;
+            grid-row: 3;
+            padding: 1.5rem;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 15px;
+            border: 2px solid rgba(0, 212, 255, 0.5);
+            text-align: center;
+        }
+
+        .edge-device-pad h3 {
+            color: #00d4ff;
+            margin-bottom: 1rem;
+        }
+
+        .dock-status {
+            padding: 1rem;
+            background: rgba(0, 212, 255, 0.1);
+            border-radius: 10px;
+            border: 1px solid rgba(0, 212, 255, 0.3);
+        }
+
+        /* Back Cave - Art */
+        .back-cave {
+            grid-column: 1 / -1;
+            grid-row: 3;
+            padding: 2rem;
+            background: rgba(0, 0, 0, 0.6);
+            border-radius: 15px;
+            border: 2px solid rgba(255, 255, 255, 0.2);
+            margin-top: 2rem;
+        }
+
+        .art-gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+
+        .art-item {
+            padding: 1rem;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 10px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            text-align: center;
+            min-height: 150px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        /* Upper Areas - Quick Access */
+        .upper-areas {
+            position: fixed;
+            top: 2rem;
+            right: 2rem;
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+            z-index: 100;
+        }
+
+        .quick-access {
+            padding: 0.5rem 1rem;
+            background: rgba(0, 0, 0, 0.8);
+            border-radius: 10px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            cursor: pointer;
+            font-size: 0.9rem;
+            transition: all 0.3s;
+        }
+
+        .quick-access:hover {
+            background: rgba(0, 212, 255, 0.2);
+            border-color: rgba(0, 212, 255, 0.5);
+        }
+
+        /* Cockpit Shells */
+        .cockpit-shells {
+            position: fixed;
+            top: 50%;
+            left: 2rem;
+            transform: translateY(-50%);
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+            z-index: 100;
+        }
+
+        .shell-button {
+            padding: 0.8rem 1.2rem;
+            background: rgba(0, 0, 0, 0.8);
+            border-radius: 10px;
+            border: 2px solid rgba(0, 212, 255, 0.3);
+            cursor: pointer;
+            font-size: 0.9rem;
+            transition: all 0.3s;
+            color: #ffffff;
+        }
+
+        .shell-button:hover {
+            background: rgba(0, 212, 255, 0.2);
+            border-color: rgba(0, 212, 255, 0.6);
+        }
+
+        .shell-button.active {
+            background: rgba(0, 212, 255, 0.3);
+            border-color: rgba(0, 212, 255, 0.8);
+        }
+
+        /* Outer Edge Mirror */
+        .outer-edge-mirror {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            z-index: 50;
+            background: 
+                radial-gradient(circle at 50% 50%, rgba(255, 255, 255, 0.02) 0%, transparent 70%);
+            opacity: 0.5;
+        }
+
+        /* Responsive */
+        @media (max-width: 1200px) {
+            .workspace-layout {
+                grid-template-columns: 1fr;
+                grid-template-rows: auto;
+            }
+
+            .main-surface,
+            .right-side,
+            .left-side,
+            .edge-device-pad,
+            .back-cave {
+                grid-column: 1;
+            }
+        }
+
+        .section-title {
+            color: #00d4ff;
+            font-size: 1.2rem;
+            margin-bottom: 1rem;
+            border-bottom: 1px solid rgba(0, 212, 255, 0.3);
+            padding-bottom: 0.5rem;
+        }
+
+        .tool-item {
+            padding: 0.8rem;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 8px;
+            margin-bottom: 0.5rem;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .tool-item:hover {
+            background: rgba(0, 212, 255, 0.1);
+        }
+
+        .tool-item.active {
+            background: rgba(0, 212, 255, 0.2);
+            border: 1px solid rgba(0, 212, 255, 0.5);
+        }
+    </style>
+</head>
+<body>
+    <!-- Syntheverse Disclaimer - Upfront at All NSPFRNP Landings -->
+    <div style="position: fixed; top: 0; left: 0; right: 0; background: rgba(255, 165, 0, 0.95); border-bottom: 3px solid rgba(255, 165, 0, 1); padding: 14px 20px; text-align: center; z-index: 10000; font-size: 13px; color: #000; font-weight: 700; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);">
+        ⚠️ <strong>SYNTHEVERSE IS IMAGINARY/ENTERTAINMENT ONLY</strong> - Like reading a very good book, playing a video game, or watching a movie. <strong>NO SUBSTANCES OF ANY KIND ARE INVOLVED.</strong> All laws always followed for maximum coherence, amplitude, and rich experiences daily.
+    </div>
+
+    <!-- Outer Edge Mirror (Constant Fixed Point Reflecting) -->
+    <div class="outer-edge-mirror"></div>
+
+    <div class="container" style="padding-top: 60px;">
+        <div class="header">
+            <h1>👑 CHAIRMAN WORKSPACE</h1>
+            <p>Complete Physical Workspace Architecture | NSPFRNP Command Center</p>
+        </div>
+
+        <!-- Cockpit Shells (Selectable/Insertable) -->
+        <div class="cockpit-shells">
+            <div class="shell-button active" data-shell="operational">Operational</div>
+            <div class="shell-button" data-shell="strategic">Strategic</div>
+            <div class="shell-button" data-shell="creative">Creative</div>
+            <div class="shell-button" data-shell="monitoring">Monitoring</div>
+            <div class="shell-button" data-shell="reflection">Reflection</div>
+        </div>
+
+        <!-- Upper Areas - Quick Access -->
+        <div class="upper-areas">
+            <div class="quick-access" data-access="reload">Reload</div>
+            <div class="quick-access" data-access="coffee">Coffee</div>
+            <div class="quick-access" data-access="accessories">Accessories</div>
+            <div class="quick-access" data-access="secret-object">Secret Object</div>
+            <div class="quick-access" data-access="junk-stash">Junk Stash</div>
+        </div>
+
+        <!-- Workspace Layout -->
+        <div class="workspace-layout">
+            <!-- Base Layer: Holographic Map -->
+            <div class="base-layer">
+                <h2>🗺️ Holographic Hydrogen Continent Map</h2>
+                <div class="map-container">
+                    <div id="holographic-map">Map visualization loading...</div>
+                </div>
+            </div>
+
+            <!-- Surface Layer: Current Story -->
+            <div class="surface-layer">
+                <div class="current-story">
+                    <h3 class="section-title">📖 Current Story</h3>
+                    <div id="current-story-content">Loading current story...</div>
+                </div>
+            </div>
+
+            <!-- Left Side: Working Tools & Scratch Pad -->
+            <div class="left-side">
+                <div class="working-tools">
+                    <h3 class="section-title">✍️ Working Tools</h3>
+                    <div class="tool-item" data-tool="pen">
+                        <strong>Pen</strong> - Primary writing instrument
+                    </div>
+                    <div class="tool-item" data-tool="marker">
+                        <strong>Marker</strong> - Thick ink marker for sketches
+                    </div>
+                    <div class="tool-item" data-tool="genesis-prism">
+                        <strong>Genesis Prism</strong> - Sacred symbol behind tools
+                    </div>
+                </div>
+
+                <div class="scratch-pad">
+                    <h3 class="section-title">📝 Scratch Pad (Five Pad)</h3>
+                    <div id="scratch-pad-content">
+                        <p>Archive access and sketch workspace</p>
+                        <button onclick="openArchives()">Open Archives</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Main Surface: Dashboard & Sacred Objects -->
+            <div class="main-surface">
+                <div class="dashboard-section">
+                    <h3 class="section-title">⚡ Main Dashboard</h3>
+                    <div id="main-dashboard-content">Dashboard loading...</div>
+                </div>
+
+                <div class="sacred-objects">
+                    <div class="sacred-object" id="smoke-pad">
+                        <h3>💨 Sacred Smoke Pad</h3>
+                        <div class="status">Sativa liming (micro)</div>
+                    </div>
+                    <div class="sacred-object" id="octave-zero">
+                        <h3>🌀 Octave Layer Zero</h3>
+                        <div class="status">Idea-Manifestation Bridge</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Side: Content & Tools -->
+            <div class="right-side">
+                <div class="playlist-catalog">
+                    <h3 class="section-title">🎵 Rich Playlist Catalog</h3>
+                    <div id="playlist-content">Content catalog loading...</div>
+                </div>
+
+                <div class="artist-tools">
+                    <h3 class="section-title">🎨 Artist/Creator Tools</h3>
+                    <div id="artist-tools-content">Creator tools loading...</div>
+                </div>
+            </div>
+
+            <!-- Edge Device Pad Landing -->
+            <div class="edge-device-pad">
+                <h3>📱 Edge Device Pad Landing</h3>
+                <div class="dock-status" id="dock-status">
+                    <div>Snap Pad Docking Station</div>
+                    <div id="device-status">No device docked</div>
+                </div>
+            </div>
+
+            <!-- Back Cave: Art -->
+            <div class="back-cave">
+                <h2 class="section-title">🎨 Back Cave - Holographic Symbols Art</h2>
+                <p style="margin-bottom: 1rem; color: #aaaaaa;">Layer Zero: Black and white thick ink marker sketches on reused canvases</p>
+                <div class="art-gallery" id="art-gallery">
+                    <div class="art-item">Symbol 1</div>
+                    <div class="art-item">Symbol 2</div>
+                    <div class="art-item">Symbol 3</div>
+                    <div class="art-item">Symbol 4</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Load workspace state
+        async function loadWorkspace() {
+            try {
+                // In production, fetch from API
+                const response = await fetch('/api/workspace');
+                const data = await response.json().catch(() => getMockWorkspaceData());
+                
+                renderWorkspace(data);
+            } catch (error) {
+                console.error('Error loading workspace:', error);
+                renderWorkspace(getMockWorkspaceData());
+            }
+        }
+
+        function getMockWorkspaceData() {
+            return {
+                currentStory: 'Active story in progress...',
+                holographicMap: {
+                    nodes: ['Node 1', 'Node 2', 'Node 3'],
+                    edges: ['Edge 1', 'Edge 2'],
+                    names: ['Name 1', 'Name 2']
+                },
+                sacredObjects: {
+                    smokePad: { current: 'Sativa liming', quantity: 'micro' },
+                    octaveZero: { active: true, vibration: 1.0 }
+                },
+                dockedDevice: null,
+                archives: []
+            };
+        }
+
+        function renderWorkspace(data) {
+            // Update current story
+            document.getElementById('current-story-content').textContent = data.currentStory || 'No active story';
+
+            // Update map
+            const mapEl = document.getElementById('holographic-map');
+            if (data.holographicMap) {
+                mapEl.innerHTML = `
+                    <div>Nodes: ${data.holographicMap.nodes?.length || 0}</div>
+                    <div>Edges: ${data.holographicMap.edges?.length || 0}</div>
+                    <div>Names: ${data.holographicMap.names?.length || 0}</div>
+                `;
+            }
+
+            // Update dock status
+            const dockStatus = document.getElementById('device-status');
+            dockStatus.textContent = data.dockedDevice ? `Device: ${data.dockedDevice}` : 'No device docked';
+        }
+
+        // Shell selection
+        document.querySelectorAll('.shell-button').forEach(btn => {
+            btn.addEventListener('click', function() {
+                document.querySelectorAll('.shell-button').forEach(b => b.classList.remove('active'));
+                this.classList.add('active');
+                const shell = this.dataset.shell;
+                console.log('Switched to shell:', shell);
+            });
+        });
+
+        // Tool activation
+        document.querySelectorAll('.tool-item').forEach(item => {
+            item.addEventListener('click', function() {
+                document.querySelectorAll('.tool-item').forEach(i => i.classList.remove('active'));
+                this.classList.add('active');
+                const tool = this.dataset.tool;
+                console.log('Activated tool:', tool);
+            });
+        });
+
+        // Quick access
+        document.querySelectorAll('.quick-access').forEach(access => {
+            access.addEventListener('click', function() {
+                const type = this.dataset.access;
+                console.log('Quick access:', type);
+            });
+        });
+
+        function openArchives() {
+            console.log('Opening archives...');
+            alert('Archive access - Coming soon');
+        }
+
+        // Load on page load
+        loadWorkspace();
+
+        // Refresh every 30 seconds
+        setInterval(loadWorkspace, 30000);
+    </script>
+
+    <!-- Include Console Header -->
+    <script src="add-console-header.js"></script>
+</body>
+</html>

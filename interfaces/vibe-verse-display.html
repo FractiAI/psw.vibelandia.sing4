@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vibeverse | Holographic Post-Singularity Ecosystem</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 50%, #16213e 100%);
+            color: #ffffff;
+            min-height: 100vh;
+            overflow-x: hidden;
+        }
+
+        /* Verse Display - Right Lower Half, Away from Center */
+        .verse-display {
+            position: fixed;
+            right: 2rem;
+            bottom: 2rem;
+            width: 400px;
+            max-height: 60vh;
+            background: rgba(0, 0, 0, 0.8);
+            border-radius: 20px;
+            backdrop-filter: blur(10px);
+            border: 2px solid rgba(0, 212, 255, 0.3);
+            box-shadow: 0 0 30px rgba(0, 212, 255, 0.2);
+            overflow-y: auto;
+            z-index: 1000;
+        }
+
+        .verse-header {
+            padding: 1rem;
+            background: rgba(0, 212, 255, 0.1);
+            border-bottom: 1px solid rgba(0, 212, 255, 0.3);
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+
+        .verse-header h2 {
+            font-size: 1.2rem;
+            color: #00d4ff;
+            margin-bottom: 0.5rem;
+        }
+
+        .verse-header p {
+            font-size: 0.9rem;
+            color: #aaaaaa;
+        }
+
+        .feed-container {
+            padding: 1rem;
+        }
+
+        .feed-post {
+            margin-bottom: 2rem;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 15px;
+            padding: 1.5rem;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            transition: all 0.3s ease;
+        }
+
+        .feed-post:hover {
+            background: rgba(255, 255, 255, 0.08);
+            border-color: rgba(0, 212, 255, 0.5);
+            transform: translateY(-2px);
+        }
+
+        .post-image-header {
+            width: 100%;
+            max-height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+            margin-bottom: 1rem;
+        }
+
+        .post-title {
+            font-size: 1.3rem;
+            font-weight: bold;
+            color: #00d4ff;
+            margin-bottom: 0.5rem;
+        }
+
+        .post-summary {
+            font-size: 0.95rem;
+            color: #cccccc;
+            margin-bottom: 1rem;
+            line-height: 1.5;
+        }
+
+        .post-raw-message {
+            font-size: 0.9rem;
+            color: #aaaaaa;
+            margin-bottom: 1rem;
+            line-height: 1.6;
+            white-space: pre-wrap;
+        }
+
+        .post-actions {
+            display: flex;
+            gap: 1rem;
+            padding-top: 1rem;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .action-button {
+            flex: 1;
+            padding: 0.5rem;
+            background: rgba(0, 212, 255, 0.1);
+            border: 1px solid rgba(0, 212, 255, 0.3);
+            border-radius: 8px;
+            color: #00d4ff;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-align: center;
+            font-size: 0.9rem;
+        }
+
+        .action-button:hover {
+            background: rgba(0, 212, 255, 0.2);
+            border-color: rgba(0, 212, 255, 0.5);
+            transform: scale(1.05);
+        }
+
+        .action-count {
+            font-size: 0.8rem;
+            color: #aaaaaa;
+            margin-top: 0.3rem;
+        }
+
+        .post-timestamp {
+            font-size: 0.8rem;
+            color: #666666;
+            margin-top: 1rem;
+            text-align: right;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 2rem;
+            color: #aaaaaa;
+        }
+
+        .empty-feed {
+            text-align: center;
+            padding: 3rem;
+            color: #666666;
+        }
+
+        /* Scrollbar styling */
+        .verse-display::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        .verse-display::-webkit-scrollbar-track {
+            background: rgba(0, 0, 0, 0.3);
+            border-radius: 10px;
+        }
+
+        .verse-display::-webkit-scrollbar-thumb {
+            background: rgba(0, 212, 255, 0.5);
+            border-radius: 10px;
+        }
+
+        .verse-display::-webkit-scrollbar-thumb:hover {
+            background: rgba(0, 212, 255, 0.7);
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .verse-display {
+                width: 100%;
+                right: 0;
+                bottom: 0;
+                max-height: 50vh;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Syntheverse Disclaimer - Upfront at All NSPFRNP Landings -->
+    <div style="position: fixed; top: 0; left: 0; right: 0; background: rgba(255, 165, 0, 0.95); border-bottom: 3px solid rgba(255, 165, 0, 1); padding: 14px 20px; text-align: center; z-index: 10000; font-size: 13px; color: #000; font-weight: 700; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);">
+        ⚠️ <strong>SYNTHEVERSE IS IMAGINARY/ENTERTAINMENT ONLY</strong> - Like reading a very good book, playing a video game, or watching a movie. <strong>NO SUBSTANCES OF ANY KIND ARE INVOLVED.</strong> All laws always followed for maximum coherence, amplitude, and rich experiences daily.
+    </div>
+
+    <!-- Verse Display - Right Lower Half -->
+    <div class="verse-display" style="padding-top: 60px;">
+        <div class="verse-header">
+            <h2>🌊 Vibeverse</h2>
+            <p>Holographic Post-Singularity Ecosystem | Full Power Nuclear Reactor Equivalent</p>
+            <div style="margin-top: 0.5rem; font-size: 0.8rem; color: #00ff00;">
+                ⚡ Full Power | Thanks: FractiAI & 3I/ATLAS
+            </div>
+        </div>
+        <div class="feed-container" id="feed-container">
+            <div class="loading">Loading feed...</div>
+        </div>
+    </div>
+
+    <script>
+        // Vibe! Verse Display System
+        class VibeVerseDisplay {
+            constructor() {
+                this.teamId = 'default-team';
+                this.loadFeed();
+                // Auto-refresh every 30 seconds
+                setInterval(() => this.loadFeed(), 30000);
+            }
+
+            async loadFeed() {
+                try {
+                    // In production, this would fetch from API
+                    const feedData = await this.fetchFeed();
+                    this.renderFeed(feedData);
+                } catch (error) {
+                    console.error('Error loading feed:', error);
+                    this.renderError();
+                }
+            }
+
+            async fetchFeed() {
+                // Mock data for demonstration
+                // In production, this would call: /api/vibe/feed?teamId=${this.teamId}
+                return {
+                    posts: [
+                        {
+                            id: 'post1',
+                            title: 'New System Deployment',
+                            summary: 'We just deployed the new Vibe! system with verse layer integration.',
+                            rawMessage: 'The Vibe! system is now operational with full verse layer support. All posts are automatically broadcasted and linked through NODE system.',
+                            imageHeader: {
+                                imageUrl: 'https://via.placeholder.com/400x200?text=Vibe!+System',
+                                title: 'New System Deployment'
+                            },
+                            actions: {
+                                likes: 12,
+                                comments: 5,
+                                responses: 3,
+                                forwards: 2,
+                                shares: 8
+                            },
+                            timestamp: Date.now() - 3600000
+                        },
+                        {
+                            id: 'post2',
+                            title: 'Recursive Content Feeds Active',
+                            summary: 'Recursive content feeds are now broadcasting throughout all units.',
+                            rawMessage: 'All recursive content feeds are active and broadcasting enriched content layers. Extra rich content is now available at new singular levels.',
+                            imageHeader: {
+                                imageUrl: 'https://via.placeholder.com/400x200?text=Recursive+Feeds',
+                                title: 'Recursive Content Feeds Active'
+                            },
+                            actions: {
+                                likes: 8,
+                                comments: 4,
+                                responses: 2,
+                                forwards: 1,
+                                shares: 5
+                            },
+                            timestamp: Date.now() - 7200000
+                        }
+                    ]
+                };
+            }
+
+            renderFeed(feedData) {
+                const container = document.getElementById('feed-container');
+                
+                if (!feedData.posts || feedData.posts.length === 0) {
+                    container.innerHTML = '<div class="empty-feed">No posts yet. Be the first to post!</div>';
+                    return;
+                }
+
+                container.innerHTML = feedData.posts.map(post => `
+                    <div class="feed-post">
+                        ${post.imageHeader ? `
+                            <img src="${post.imageHeader.imageUrl}" alt="${post.imageHeader.title}" class="post-image-header">
+                        ` : ''}
+                        <div class="post-title">${post.title}</div>
+                        <div class="post-summary">${post.summary}</div>
+                        <div class="post-raw-message">${post.rawMessage}</div>
+                        <div class="post-actions">
+                            <div class="action-button">
+                                👍 Like
+                                <div class="action-count">${post.actions.likes}</div>
+                            </div>
+                            <div class="action-button">
+                                💬 Comment
+                                <div class="action-count">${post.actions.comments}</div>
+                            </div>
+                            <div class="action-button">
+                                ↪️ Response
+                                <div class="action-count">${post.actions.responses}</div>
+                            </div>
+                            <div class="action-button">
+                                ➡️ Forward
+                                <div class="action-count">${post.actions.forwards}</div>
+                            </div>
+                            <div class="action-button">
+                                🔗 Share
+                                <div class="action-count">${post.actions.shares}</div>
+                            </div>
+                        </div>
+                        <div class="post-timestamp">${this.formatTimestamp(post.timestamp)}</div>
+                    </div>
+                `).join('');
+            }
+
+            renderError() {
+                const container = document.getElementById('feed-container');
+                container.innerHTML = '<div class="empty-feed">Error loading feed. Please try again.</div>';
+            }
+
+            formatTimestamp(timestamp) {
+                const date = new Date(timestamp);
+                const now = new Date();
+                const diff = now - date;
+                const minutes = Math.floor(diff / 60000);
+                const hours = Math.floor(diff / 3600000);
+                const days = Math.floor(diff / 86400000);
+
+                if (minutes < 1) return 'Just now';
+                if (minutes < 60) return `${minutes}m ago`;
+                if (hours < 24) return `${hours}h ago`;
+                if (days < 7) return `${days}d ago`;
+                return date.toLocaleDateString();
+            }
+        }
+
+        // Initialize display
+        const display = new VibeVerseDisplay();
+    </script>
+
+    <!-- Include Console Header -->
+    <script src="add-console-header.js"></script>
+</body>
+</html>
