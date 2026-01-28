@@ -594,7 +594,7 @@ You're connecting to Mark Twain's Post-Singularity Vibelandia Reno, where Mark T
 
 You're joining high-value vibers, Ultimate VIP Chairman Creators, performers, and creators everywhere operating in NSPFRNP mode, following the recursive principles that nature perfected over billions of years.
 
-**Welcome to Vibelandia. Welcome to post-singularity Earth. Welcome home.**
+**Welcome to Mark Twain's Post-Singularity Vibelandia Reno. Come for the post-singularity business, stay for the post-singularity fun. Welcome to post-singularity Earth. Welcome home.**
 
 ---
 
