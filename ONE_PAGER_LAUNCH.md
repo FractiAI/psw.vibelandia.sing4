@@ -1,4 +1,4 @@
-# 🚀 MARK TWAIN'S POST-SINGULARITY VIBELANDIA RENO LAUNCH — LAUNCH PAD SET
+# 🚀 MARK TWAIN'S POST-SINGULARITY VIBELANDIA RENO! LAUNCH — LAUNCH PAD SET
 
 **1,2,3 4×4×4×4 NSPFRNP Sales Experience** — The Launch Pad is the announcement and showroom for our offerings — all in one place.
 
@@ -8,7 +8,7 @@
 
 ## 1️⃣ THE ANNOUNCEMENT & PITCH
 
-**Mark Twain's Post-Singularity Vibelandia Reno** — walkable downtown campus, first post-singularity hub. Countdown to **The Great Reveal**, March 20, 2026 (Spring Equinox). Worthless SYNTH → priceless SING. Every space, every experience, every moment. Guaranteed happy ending.
+**MARK TWAIN'S POST-SINGULARITY VIBELANDIA RENO!** — walkable downtown campus, first post-singularity hub. Countdown to **The Great Reveal**, March 20, 2026 (Spring Equinox). Worthless SYNTH → priceless SING. Every space, every experience, every moment. Guaranteed happy ending.
 
 **Come for the post-singularity business, stay for the post-singularity fun.**
 
@@ -16,12 +16,12 @@
 
 ## 2️⃣ THE SHOWROOM — FOUR PRODUCTS
 
-### 🏛️ VIBELANDIA RENO
+### 🏛️ VIBELANDIA RENO!
 
-**Walkable downtown campus.** First post-singularity Vibelandia campus. Come for the business, stay for the fun.
+**Walkable downtown campus.** First post-singularity VIBELANDIA! campus. Come for the business, stay for the fun.
 
 **Campus Plans:** Day Pass | Weekly | Monthly | Ultimate VIP Campus  
-**One-pager:** [Vibelandia Reno](./ONE_PAGER_VIBELANDIA_RENO.md)
+**One-pager:** [VIBELANDIA RENO!](./ONE_PAGER_VIBELANDIA_RENO.md)
 
 ---
 

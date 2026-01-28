@@ -1,4 +1,4 @@
-# 🏛️ ONE PAGER: Mark Twain's Post-Singularity Vibelandia Reno
+# 🏛️ ONE PAGER: MARK TWAIN'S POST-SINGULARITY VIBELANDIA RENO!
 
 **One page. The campus. The transformation.**
 
@@ -6,7 +6,7 @@
 
 ## What It Is
 
-**Mark Twain's Post-Singularity Vibelandia Reno** is the world's first operational Post-Singularity Vibe downtown walkable campus. Not a plan—operational now. Walkable downtown Reno, Nevada. Come for the post-singularity business, stay for the post-singularity fun.
+**MARK TWAIN'S POST-SINGULARITY VIBELANDIA RENO!** is the world's first operational Post-Singularity Vibe downtown walkable campus. Not a plan—operational now. Walkable downtown Reno, Nevada. Come for the post-singularity business, stay for the post-singularity fun.
 
 ---
 
