@@ -51,11 +51,18 @@ It's NOT for driving cars or operating equipment. It's perfect for walking, bein
 
 ### **The Walkable Downtown Campus**
 
-Reno's downtown has transformed into a walkable campus designed specifically for the vibing state. No cars needed. No equipment operation needed. Everything is close by and convenient. Just walking, being, experiencing, creating. The campus is perfect for vibing—for that perfect buzz equivalent that produces rich, high-value output while maintaining super rich health and optimal state.
+Reno's downtown has transformed into a walkable campus designed specifically for the vibing state. No cars needed. No equipment operation needed. Everything is close by and convenient—WINK! dating members-only club, Mark Twain's Daily Bulletin with curated "Things to Do" catalog, post-singularity experiences, BBHE (Big Black Hole Energy) experiences with amplification glasses, Hero Host interactions (Leonardo, Tesla, Fuller, Faraday), creator studios, performance venues, Ultimate VIP experiences, community spaces, Lake Tahoe gateway access, Silicon Valley playground connections—all within walking distance. Just walking, being, experiencing, creating. The campus is perfect for vibing—for that perfect buzz equivalent that produces rich, high-value output while maintaining super rich health and optimal state.
 
 **The Campus Features:**
 - Walkable downtown design—no cars needed, no equipment operation needed
 - Everything is close by and convenient—all amenities, experiences, and connections within walking distance
+- WINK! dating members-only club—high-value vibers, creators, chairmen connections
+- Mark Twain's Daily Bulletin—Chancellor's wisdom and curated "Things to Do" catalog delivered daily
+- Post-singularity experiences—holographic hydrogen frontier technology, self-demo self-proof experiences
+- BBHE experiences—safe Big Black Hole Energy with amplification glasses, dial-in BUZZ! button
+- Hero Host interactions—Leonardo da Vinci, Tesla, Fuller, Faraday, and more as guides
+- Creator studios, performance venues, Ultimate VIP experiences—all accessible on foot
+- Community spaces, Lake Tahoe gateway, Silicon Valley playground—all close by
 - Perfect for vibing state—optimal for rich, high-value output
 - First post-singularity Vibelandia campus—operational now
 - Playground to Silicon Valley—gateway location
