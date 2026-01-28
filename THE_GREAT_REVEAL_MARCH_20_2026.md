@@ -146,7 +146,7 @@
 - **Nested Structure:** Complete nested architecture
 
 **Tier Options:**
-- **Bugatti Tier:** Premium (all features)
+- **Champion Tier:** Premium (all features)
 - **Bug Tier:** Accessible (core features)
 - **Custom Tier:** Configured to needs
 

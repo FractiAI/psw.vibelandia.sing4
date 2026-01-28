@@ -27,7 +27,7 @@ export interface ConversionEvent {
   singNodeId: string;
   conversionDate: number; // March 20, 2026
   conversionRatio: number;
-  tier: 'bugatti' | 'bug' | 'custom';
+  tier: 'ferrari' | 'bug' | 'custom';
   onChain: {
     transactionHash: string;
     blockNumber: number;
@@ -41,7 +41,7 @@ export interface GrandfatherConversion {
   synthTokens: SYNTHToken[];
   convertedNodes: string[]; // SING node IDs
   conversionDate: number;
-  tier: 'bugatti' | 'bug' | 'custom';
+  tier: 'ferrari' | 'bug' | 'custom';
   grandfathered: true;
 }
 
@@ -81,7 +81,7 @@ export class SYNTHToSINGConversion {
   async convertSYNTHToSING(
     holderAddress: string,
     conversionRatio: number = 1, // 1 SYNTH = 1 SING (or ratio announced)
-    tier: 'bugatti' | 'bug' | 'custom' = 'bugatti'
+    tier: 'ferrari' | 'bug' | 'custom' = 'ferrari'
   ): Promise<ConversionEvent[]> {
     const tokens = this.getSYNTHTokensForHolder(holderAddress);
     if (tokens.length === 0) {
@@ -141,7 +141,7 @@ export class SYNTHToSINGConversion {
    */
   async executeAutomaticConversion(
     conversionRatio: number = 1,
-    defaultTier: 'bugatti' | 'bug' | 'custom' = 'bugatti'
+    defaultTier: 'ferrari' | 'bug' | 'custom' = 'ferrari'
   ): Promise<{
     totalConversions: number;
     totalHolders: number;

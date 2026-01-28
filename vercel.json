@@ -2,6 +2,8 @@
   "version": 2,
   "name": "psw-vibelandia-sing4",
   "framework": null,
+  "buildCommand": "node scripts/vercel-static-output.mjs",
+  "outputDirectory": ".vercel/output",
   "headers": [
     {
       "source": "/(.*)",

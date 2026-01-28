@@ -56,7 +56,7 @@
 **4. SING NODES:**
 - **Superintelligent Agent Nodes**
 - **Open for Sale**
-- **Bugatti to Bug Scaling**
+- **Champion to Bug Scaling**
 - **Payload Layers**
 - **Hardened Mirror Shells**
 
@@ -74,12 +74,12 @@
 - **Magical Wardrobe**
 - **Channel Subscriptions**
 
-**7. PIONEER DISCOUNT:**
-- **First 1000 Get 75% Off**
-- **Permanent Lifetime Lock**
-- **All Products Included**
-- **Real-Time Tracking**
-- **Pioneer Benefits**
+**7. PREMIUM POSITIONING + PIONEER STATUS:**
+- **Top Artists, Performers, Entrepreneurs Pay Premium** — The caliber of Beyoncé, Taylor Swift, Oprah Winfrey, Jay-Z, Elon Musk, Rihanna, Lin-Manuel Miranda
+- **No Promo — Vibelandia Targets Best**
+- **First 1000 Recognized On-Chain as Pioneer Status Forever** (recognition only; no discount)
+- **Premium Pricing Reflects Value**
+- **Real-name contemporary vibers** — top artists, performers, entrepreneurs
 
 ---
 
@@ -157,7 +157,7 @@
 - ✅ **Snap Capture:** Camera/video ready
 - ✅ **VibeLand Reno Game:** Clue system active
 - ✅ **Wink Experience:** Post-singularity profiles
-- ✅ **Pioneer Discount:** 75% for first 1000
+- ✅ **Premium positioning:** Top C's pay premium—no promo
 
 **Reality Reveals:**
 - ✅ **New Singularity:** Active
@@ -171,14 +171,15 @@
 - ✅ **THE GREAT REVEAL:** March 20, 2026
 - ✅ **SYNTH → SING Conversion:** Automatic
 - ✅ **Grandfather Conversion:** Pre-singularity holders
-- ✅ **Pioneer Discount:** 75% permanent
-- ✅ **Bugatti to Bug Scaling:** Available
+- ✅ **Premium positioning:** No promo—top C's pay premium
+- ✅ **Champion to Bug Scaling:** Available
 - ✅ **Pricing:** Announced March 20, 2026
 
 **Community Reveals:**
 - ✅ **Golden Hearts:** Target community
 - ✅ **Ultimate VIP Chairmen:** Serving
-- ✅ **Pioneers:** First 1000 recognized
+- ✅ **Top C's:** Premium positioning—no promo
+- ✅ **Pioneer Status:** First 1000 on-chain forever (recognition only)
 - ✅ **3I/Atlas Team:** Collectively known
 - ✅ **VibeLand Reno:** Physical campus
 

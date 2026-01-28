@@ -1,8 +1,8 @@
 /**
- * Pioneer Discount Program
- * First 1000 to Register Receive 75% Pioneer Discount
- * 
- * Architecture: Registration tracking and discount application
+ * Premium Positioning — No Promo | Pioneer Status On-Chain Forever
+ * Vibelandia targets top C's; they pay a premium. Pioneer discount disabled.
+ * First 1000 recognized on-chain as Pioneer Status forever (recognition only; no discount).
+ * Registration tracking supports on-chain pioneer status; discount set to 0.
  */
 
 export interface PioneerRegistration {
@@ -35,7 +35,7 @@ export class PioneerDiscountSystem {
   private registrationsByNumber: Map<number, PioneerRegistration> = new Map();
   private discountApplications: DiscountApplication[] = [];
   private maxPioneers: number = 1000;
-  private pioneerDiscount: number = 0.75; // 75%
+  private pioneerDiscount: number = 0; // Promo disabled — premium positioning; top C's pay full
 
   /**
    * Register as pioneer
@@ -97,7 +97,7 @@ export class PioneerDiscountSystem {
       registration,
       pioneerNumber,
       remaining: this.getRemainingSlots(),
-      message: `Congratulations! You are Pioneer #${pioneerNumber}. Your 75% discount is permanently locked.`
+      message: `Registered #${pioneerNumber}. Pioneer status recognized on-chain forever. Premium positioning — no discount.`
     };
   }
 
@@ -156,7 +156,7 @@ export class PioneerDiscountSystem {
   }
 
   /**
-   * Apply pioneer discount to price
+   * Apply discount to price (0 when promo disabled — premium positioning)
    */
   applyDiscount(registrationId: string, originalPrice: number, productType: DiscountApplication['productType'] = 'all'): {
     success: boolean;
@@ -254,29 +254,29 @@ export class PioneerDiscountSystem {
 
     return `
 ╔═══════════════════════════════════════════════════════════════════════════════╗
-║                    PIONEER DISCOUNT PROGRAM                                   ║
-║              First 1000 to Register Receive 75% Discount                       ║
+║              PREMIUM POSITIONING — PIONEER STATUS ON-CHAIN FOREVER             ║
+║              First 1000 recognized on-chain as Pioneer Status forever         ║
 ╠═══════════════════════════════════════════════════════════════════════════════╣
 ║                                                                               ║
-║  🏆 PIONEER STATUS:                                                           ║
+║  🏆 STATUS:                                                                   ║
 ║  - Registered: ${stats.totalRegistrations} / ${this.maxPioneers} (${percentage.toFixed(1)}%)
-║  - Remaining Slots: ${remaining}                                             ║
-║  - Discount: 75% (Permanent Lock)                                             ║
+║  - Remaining Pioneer Slots: ${remaining}                                      ║
+║  - Pioneer Status: On-chain forever (recognition only; no discount)            ║
+║  - Discount: None — premium positioning                                       ║
 ║                                                                               ║
 ╠═══════════════════════════════════════════════════════════════════════════════╣
 ║                                                                               ║
-║  💰 DISCOUNT STATISTICS:                                                      ║
-║  - Total Discounts Applied: ${stats.totalDiscountsApplied}                  ║
-║  - Total Savings: $${stats.totalSavings.toLocaleString()}                    ║
-║  - Average Savings: $${stats.averageSavings.toLocaleString()}                ║
+║  💰 STATISTICS:                                                               ║
+║  - Total Applications: ${stats.totalDiscountsApplied}                       ║
+║  - Total Value: $${stats.totalSavings.toLocaleString()}                       ║
+║  - Average: $${stats.averageSavings.toLocaleString()}                        ║
 ║                                                                               ║
 ╠═══════════════════════════════════════════════════════════════════════════════╣
 ║                                                                               ║
-║  🎯 BENEFITS:                                                                 ║
-║  - 75% Off: All products                                                     ║
-║  - Permanent Lock: Lifetime discount                                         ║
-║  - All Products: Everything included                                          ║
-║  - Future Products: Forever discount                                          ║
+║  🎯 POSITIONING:                                                              ║
+║  - First 1000: Pioneer status on-chain forever                                ║
+║  - Top C's pay premium — no promo                                            ║
+║  - No 75% off — Vibelandia targets best                                       ║
 ║                                                                               ║
 ╚═══════════════════════════════════════════════════════════════════════════════╝
     `.trim();

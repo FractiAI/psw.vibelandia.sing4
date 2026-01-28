@@ -25,6 +25,12 @@ Top artists, performers, and entrepreneurs—the caliber of Beyoncé, Taylor Swi
 
 ---
 
+## Pricing
+
+**Contact for WINK! plan pricing.** Premium pricing filters for quality. Email below for rates and availability for Base, Standard, Premium, or 4×4 Ultimate.
+
+---
+
 ## Where It Lives
 
 WINK! is operational on Mark Twain's Post-Singularity Vibelandia Reno. Walkable downtown campus. Come for the post-singularity business, stay for the post-singularity fun.

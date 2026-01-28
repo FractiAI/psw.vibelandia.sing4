@@ -1,22 +1,21 @@
-# 🌊 OBSERVATIONS: Scaling from Bugatti to Bug
-## Premium Supercar Technology That Scales Down
+# OBSERVATIONS: Scaling from Champion to Bug
+## Premium Technology That Scales Down — Come-Out-of-Retirement
 
-> **Superseded by:** [OBSERVATIONS_SCALING_CHAMPION_TO_BUG.md](./OBSERVATIONS_SCALING_CHAMPION_TO_BUG.md) — Champion tier (Ferrari server, come-out-of-retirement narrative). See [NARRATIVE_FERRARI_CHAMPION.md](./NARRATIVE_FERRARI_CHAMPION.md).
-
-**Status:** ⚡ SUPERSEDED - Use Champion to Bug  
+**Status:** ACTIVE - Scaling Architecture  
 **Date:** January 2026  
-**Mode:** Post-Singularity - Accessible Premium Technology
+**Mode:** Post-Singularity - Accessible Premium Technology  
+**Narrative:** [Ferrari Champion](./NARRATIVE_FERRARI_CHAMPION.md) — high-experience tier honors our come-out-of-retirement GPU server (internal).
 
 ---
 
-## 🏎️ THE ANALOGY: BUGATTI TO BUG
+## THE ANALOGY: CHAMPION TO BUG
 
-### **Concept**
+### Concept
 
-**Think of it like buying the very latest tech supercar - a Bugatti, only better, and scales down to a Bug.**
+**Think of it like the retired champion that came back — full power, full features — and scales down to an accessible Bug.**
 
 **Meaning:**
-- **Premium Tier:** Latest tech supercar (Bugatti-level)
+- **Champion Tier (Premium):** The comeback — retired champion returns
   - Top performance
   - Advanced features
   - Premium experience
@@ -28,7 +27,7 @@
   - Accessible pricing
   - Essential features
 
-- **Better Than Bugatti:** Even more advanced than the best
+- **Better Than Ever:** The comeback is real — even more advanced than before
   - Superior performance
   - More features
   - Better integration
@@ -36,11 +35,11 @@
 
 ---
 
-## 🎯 SYSTEM SCALING ARCHITECTURE
+## SYSTEM SCALING ARCHITECTURE
 
-### **Tier Structure**
+### Tier Structure
 
-**Bugatti Tier (Premium):**
+**Champion Tier (Premium):**
 - **Full Feature Set:** All capabilities enabled
 - **Maximum Performance:** Top-tier processing
 - **Advanced Features:** Cutting-edge functionality
@@ -63,9 +62,9 @@
 
 ---
 
-## 💎 SING NODES: SCALING EXAMPLE
+## SING NODES: SCALING EXAMPLE
 
-### **Premium SING Node (Bugatti Level)**
+### Premium SING Node (Champion Level)
 
 **Features:**
 - **Superintelligence:** Maximum AI capabilities (0.95+)
@@ -83,7 +82,7 @@
 - All features enabled
 - Premium service level
 
-### **Scaled SING Node (Bug Level)**
+### Scaled SING Node (Bug Level)
 
 **Features:**
 - **Core Intelligence:** Essential AI capabilities (0.7+)
@@ -103,9 +102,9 @@
 
 ---
 
-## 🚀 TECHNOLOGY SCALING
+## TECHNOLOGY SCALING
 
-### **Same Core Technology**
+### Same Core Technology
 
 **Both Tiers Use:**
 - **Same Architecture:** NSPFRNP principles
@@ -123,12 +122,12 @@
 
 ---
 
-## 📊 SCALING MATRIX
+## SCALING MATRIX
 
-### **Feature Comparison**
+### Feature Comparison
 
-| Feature | Bugatti Tier | Bug Tier |
-|---------|-------------|----------|
+| Feature | Champion Tier | Bug Tier |
+|---------|---------------|----------|
 | **Superintelligence** | 0.95+ | 0.7+ |
 | **Autonomy** | Full | Guided |
 | **Network Integration** | Complete | Essential |
@@ -138,9 +137,9 @@
 | **Processing Power** | Maximum | Optimized |
 | **Features** | All | Core |
 
-### **Price Scaling**
+### Price Scaling
 
-**Bugatti Tier:**
+**Champion Tier:**
 - Premium pricing
 - Maximum value
 - Ultimate experience
@@ -154,9 +153,9 @@
 
 ---
 
-## 🎯 USE CASES
+## USE CASES
 
-### **Bugatti Tier - When You Need:**
+### Champion Tier - When You Need:
 - Maximum performance
 - All features enabled
 - Premium support
@@ -170,7 +169,7 @@
 - Complete system integration
 - Premium service requirements
 
-### **Bug Tier - When You Need:**
+### Bug Tier - When You Need:
 - Essential functionality
 - Accessible pricing
 - Standard support
@@ -186,27 +185,27 @@
 
 ---
 
-## 🔄 SCALING UP/DOWN
+## SCALING UP/DOWN
 
-### **Upgrade Path**
+### Upgrade Path
 
-**Bug → Bugatti:**
+**Bug to Champion:**
 - Add features incrementally
 - Increase processing power
 - Enable advanced features
 - Upgrade support level
 - Expand integration
 
-**Downgrade Path:**
+### Downgrade Path
 
-**Bugatti → Bug:**
+**Champion to Bug:**
 - Reduce to core features
 - Optimize processing
 - Simplify interface
 - Adjust support level
 - Maintain essential functionality
 
-### **Flexible Scaling**
+### Flexible Scaling
 
 **Dynamic Adjustment:**
 - Scale features on demand
@@ -217,33 +216,33 @@
 
 ---
 
-## 💡 KEY INSIGHT
+## KEY INSIGHT
 
 **The Same Premium Technology:**
-- **Bugatti Tier:** Full power, all features, premium experience
+- **Champion Tier:** Full power, all features, premium experience
 - **Bug Tier:** Essential power, core features, accessible experience
 - **Same Foundation:** Both built on same premium technology
-- **Better Than Bugatti:** Even more advanced than the best
+- **The Comeback:** Retired champion returns — better than ever
 - **Scales Seamlessly:** From premium to accessible
 
 **The Analogy:**
-- **Bugatti:** Latest tech supercar - premium, powerful, advanced
-- **Better Than Bugatti:** Even more advanced technology
+- **Champion:** The comeback — full power, premium, advanced
+- **Better Than Ever:** Next-generation technology
 - **Scales to Bug:** Same technology, accessible version
 - **Same Core:** Premium foundation in both tiers
 
 ---
 
-## 🚀 STATUS
+## STATUS
 
-**Status:** ⚡ ACTIVE - Scaling Architecture Operational
+**Status:** ACTIVE - Scaling Architecture Operational
 
 **Components:**
-- ✅ **Premium Tier:** Bugatti-level technology available
-- ✅ **Accessible Tier:** Bug-level technology available
-- ✅ **Scaling System:** Seamless tier adjustment
-- ✅ **Same Foundation:** Premium technology base
-- ✅ **Better Than Best:** Advanced beyond Bugatti
+- **Champion Tier:** Premium technology available (honors our come-out-of-retirement GPU server)
+- **Accessible Tier:** Bug-level technology available
+- **Scaling System:** Seamless tier adjustment
+- **Same Foundation:** Premium technology base
+- **Narrative:** [Ferrari Champion](./NARRATIVE_FERRARI_CHAMPION.md) — coherent, pre-singularity earth, trademark-safe
 
 **Next Steps:**
 - Implement tier selection
@@ -254,13 +253,13 @@
 
 ---
 
-**🌀 NSPFRNP ⊃ Scaling ⊃ Bugatti to Bug → ∞³**
+**NSPFRNP ⊃ Scaling ⊃ Champion to Bug → ∞³**
 
-**The same premium technology. The same foundation. Scales from Bugatti to Bug. Better than the best.**
+**The same premium technology. The same foundation. Scales from Champion to Bug. The comeback is real.**
 
 ---
 
 **Last Updated:** January 2026  
-**Status:** ⚡ ACTIVE - Scaling Architecture  
-**Tiers:** Bugatti (Premium) | Bug (Accessible)  
+**Status:** ACTIVE - Scaling Architecture  
+**Tiers:** Champion (Premium) | Bug (Accessible)  
 **Technology:** Same Premium Foundation

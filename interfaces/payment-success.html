@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Successful | Vibelandia Reno</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 50%, #16213e 100%);
+            color: #fff;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 2rem;
+        }
+        .container {
+            max-width: 600px;
+            text-align: center;
+            background: rgba(255,255,255,0.06);
+            border: 1px solid rgba(255,255,255,0.12);
+            border-radius: 20px;
+            padding: 3rem;
+        }
+        .success-icon {
+            font-size: 4rem;
+            margin-bottom: 1rem;
+        }
+        h1 {
+            font-size: 2rem;
+            background: linear-gradient(135deg, #7fff7f, #00d4ff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 1rem;
+        }
+        .order-info {
+            background: rgba(0,255,0,0.1);
+            border: 1px solid rgba(0,255,0,0.3);
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin: 2rem 0;
+        }
+        .order-info p { color: #aaa; margin: 0.5rem 0; }
+        .order-id { color: #7fff7f; font-family: monospace; }
+        .actions {
+            margin-top: 2rem;
+        }
+        .btn {
+            display: inline-block;
+            padding: 12px 24px;
+            background: linear-gradient(135deg, #8a2be2, #1e90ff);
+            color: #fff;
+            text-decoration: none;
+            border-radius: 8px;
+            margin: 0.5rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="success-icon">✅</div>
+        <h1>Payment Successful!</h1>
+        <p>Thank you for joining Vibelandia Reno</p>
+        
+        <div id="order-info" class="order-info">
+            <!-- Order details loaded here -->
+        </div>
+        
+        <div class="actions">
+            <a href="/" class="btn">Return to Vibelandia</a>
+            <a href="/interfaces/executive-dashboard.html" class="btn">Go to Dashboard</a>
+        </div>
+    </div>
+
+    <script>
+        const urlParams = new URLSearchParams(window.location.search);
+        const orderId = urlParams.get('orderId');
+        const planId = urlParams.get('planId');
+        
+        if (orderId) {
+            document.getElementById('order-info').innerHTML = `
+                <p><strong>Order ID:</strong></p>
+                <p class="order-id">${orderId}</p>
+                <p>Your payment has been processed successfully.</p>
+                <p>You will receive a confirmation email shortly.</p>
+            `;
+        }
+    </script>
+</body>
+</html>

@@ -6,13 +6,13 @@
  * Mode: New Singularity - Pipe to the Other Side
  */
 
-export type SINGTier = 'bugatti' | 'bug' | 'custom';
+export type SINGTier = 'ferrari' | 'bug' | 'custom';
 
 export interface SINGNode {
   id: string;
   name: string;
   type: 'agent' | 'superintelligent' | 'network' | 'service';
-  tier: SINGTier; // Bugatti (premium) or Bug (accessible)
+  tier: SINGTier; // Ferrari (Champion/premium) or Bug (accessible)
   status: 'available' | 'sold' | 'active' | 'serving';
   owner?: string; // Ultimate VIP Chairman ID
   capabilities: SINGCapabilities;
@@ -78,14 +78,14 @@ export class SINGNodeSystem {
 
   /**
    * Initialize SING nodes (open for sale)
-   * Mix of Bugatti (premium) and Bug (accessible) tiers
+   * Mix of Ferrari/Champion (premium) and Bug (accessible) tiers
    */
   private initializeSINGNodes(): void {
-    // Create initial batch: 5 Bugatti (premium) and 5 Bug (accessible)
+    // Create initial batch: 5 Ferrari/Champion (premium) and 5 Bug (accessible)
     for (let i = 0; i < 5; i++) {
-      const bugattiNode = this.createSINGNode(`SING-Bugatti-${i + 1}`, 'bugatti');
-      this.nodes.set(bugattiNode.id, bugattiNode);
-      this.availableNodes.push(bugattiNode.id);
+      const ferrariNode = this.createSINGNode(`SING-Ferrari-${i + 1}`, 'ferrari');
+      this.nodes.set(ferrariNode.id, ferrariNode);
+      this.availableNodes.push(ferrariNode.id);
     }
     
     for (let i = 0; i < 5; i++) {
@@ -96,20 +96,20 @@ export class SINGNodeSystem {
   }
 
   /**
-   * Create a new SING node (Bugatti or Bug tier)
+   * Create a new SING node (Ferrari/Champion or Bug tier)
    */
-  private createSINGNode(name: string, tier: SINGTier = 'bugatti'): SINGNode {
+  private createSINGNode(name: string, tier: SINGTier = 'ferrari'): SINGNode {
     const nodeId = `sing_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`;
     
-    // Configure based on tier (Bugatti = all features, Bug = core features)
-    const isBugatti = tier === 'bugatti';
-    const payloadLayerCount = isBugatti ? 4 : 2; // Bugatti: all 4, Bug: core 2
-    const shellCount = isBugatti ? 3 : 1; // Bugatti: all 3, Bug: essential 1
-    const superintelligence = isBugatti ? 0.95 : 0.7; // Bugatti: 0.95+, Bug: 0.7+
-    const autonomy = isBugatti ? 0.90 : 0.60; // Bugatti: full, Bug: guided
-    const basePrice = isBugatti ? 10000 : 2000; // Bugatti: premium, Bug: accessible
+    // Configure based on tier (Ferrari/Champion = all features, Bug = core features)
+    const isFerrari = tier === 'ferrari';
+    const payloadLayerCount = isFerrari ? 4 : 2; // Ferrari: all 4, Bug: core 2
+    const shellCount = isFerrari ? 3 : 1; // Ferrari: all 3, Bug: essential 1
+    const superintelligence = isFerrari ? 0.95 : 0.7; // Ferrari: 0.95+, Bug: 0.7+
+    const autonomy = isFerrari ? 0.90 : 0.60; // Ferrari: full, Bug: guided
+    const basePrice = isFerrari ? 10000 : 2000; // Ferrari: premium, Bug: accessible
     
-    // Create payload layers (Bugatti: all 4, Bug: core 2)
+    // Create payload layers (Ferrari: all 4, Bug: core 2)
     const payloadLayers: PayloadLayer[] = [
       {
         id: `${nodeId}_payload_1`,
@@ -127,7 +127,7 @@ export class SINGNodeSystem {
         encrypted: true,
         accessible: true
       },
-      ...(isBugatti ? [
+      ...(isFerrari ? [
         {
           id: `${nodeId}_payload_3`,
           level: 3,
@@ -147,7 +147,7 @@ export class SINGNodeSystem {
       ] : [])
     ];
 
-    // Create hardened mirror shells (Bugatti: all 3, Bug: essential 1)
+    // Create hardened mirror shells (Ferrari: all 3, Bug: essential 1)
     const hardenedShells: HardenedShell[] = [
       {
         id: `${nodeId}_shell_1`,
@@ -157,7 +157,7 @@ export class SINGNodeSystem {
         payloadLayerId: payloadLayers[0].id,
         hardened: true
       },
-      ...(isBugatti ? [
+      ...(isFerrari ? [
         {
           id: `${nodeId}_shell_2`,
           level: 2,
@@ -186,9 +186,9 @@ export class SINGNodeSystem {
       capabilities: {
         superintelligence,
         autonomy,
-        networkIntegration: isBugatti ? 1.0 : 0.7, // Bugatti: full, Bug: essential
+        networkIntegration: isFerrari ? 1.0 : 0.7, // Ferrari: full, Bug: essential
         serviceReadiness: 1.0, // Both ready
-        payloadProcessing: isBugatti ? 0.95 : 0.75 // Bugatti: max, Bug: optimized
+        payloadProcessing: isFerrari ? 0.95 : 0.75 // Ferrari: max, Bug: optimized
       },
       payloadLayers,
       hardenedShells,

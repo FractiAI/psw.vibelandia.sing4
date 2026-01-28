@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Checkout | Vibelandia Reno</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 50%, #16213e 100%);
+            color: #fff;
+            min-height: 100vh;
+            padding: 2rem;
+        }
+        .container { max-width: 800px; margin: 0 auto; }
+        .header {
+            text-align: center;
+            margin-bottom: 2rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+        }
+        .header h1 {
+            font-size: 2rem;
+            background: linear-gradient(135deg, #8a2be2, #1e90ff, #00bfff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 0.5rem;
+        }
+        .plan-details {
+            background: rgba(255,255,255,0.06);
+            border: 1px solid rgba(255,255,255,0.12);
+            border-radius: 12px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+        }
+        .plan-details h2 { color: #00d4ff; margin-bottom: 1rem; }
+        .plan-details p { color: #aaa; margin-bottom: 0.5rem; }
+        .price { font-size: 2rem; color: #7fff7f; font-weight: bold; margin: 1rem 0; }
+        .paypal-container {
+            background: rgba(255,255,255,0.06);
+            border: 1px solid rgba(255,255,255,0.12);
+            border-radius: 12px;
+            padding: 2rem;
+            text-align: center;
+        }
+        .sandbox-badge {
+            display: inline-block;
+            padding: 6px 14px;
+            background: rgba(255,165,0,0.2);
+            border: 1px solid rgba(255,165,0,0.4);
+            border-radius: 20px;
+            font-size: 0.85rem;
+            color: #ffa500;
+            margin-bottom: 1rem;
+        }
+        .contact-required {
+            background: rgba(138,43,226,0.2);
+            border: 1px solid rgba(138,43,226,0.5);
+            border-radius: 12px;
+            padding: 2rem;
+            text-align: center;
+        }
+        .contact-required h3 { color: #8a2be2; margin-bottom: 1rem; }
+        .contact-required a {
+            display: inline-block;
+            padding: 12px 24px;
+            background: linear-gradient(135deg, #8a2be2, #1e90ff);
+            color: #fff;
+            text-decoration: none;
+            border-radius: 8px;
+            margin-top: 1rem;
+        }
+        .back-link {
+            display: inline-block;
+            margin-top: 2rem;
+            color: #00bfff;
+            text-decoration: none;
+        }
+        .api-note {
+            font-size: 0.85rem;
+            color: #666;
+            margin-top: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>Vibelandia Payment</h1>
+            <p>Mark Twain's Post-Singularity Vibelandia Reno</p>
+        </header>
+
+        <div id="plan-details" class="plan-details">
+            <!-- Plan details loaded here -->
+        </div>
+
+        <div id="payment-container" class="paypal-container">
+            <!-- PayPal button or contact CTA loaded here -->
+        </div>
+
+        <p class="api-note">Payment is handled by the Syntheverse Cloud Onramp API (Octave 2). NSPFRNP.</p>
+        <a href="/" class="back-link">← Back to Vibelandia</a>
+    </div>
+
+    <script>
+        // Octave 2 API base — payment handled by repository: Syntheverse 7 Octave 2-3 Public Cloud Onramp
+        const PAYMENT_API_BASE = 'https://syntheverse-poc.vercel.app';
+
+        const urlParams = new URLSearchParams(window.location.search);
+        const planId = urlParams.get('plan') || 'campus-day';
+
+        const plans = {
+            'campus-day': { name: 'Day Pass', price: 0, description: 'Experience the campus for a day' },
+            'campus-weekly': { name: 'Weekly Pass', price: 0, description: 'Full week campus experience' },
+            'campus-monthly': { name: 'Monthly Pass', price: 0, description: 'Complete campus integration' },
+            'campus-ultimate-vip': { name: 'Ultimate VIP Campus', price: 0, description: 'Premium campus experience' },
+            'wink-base': { name: 'WINK! Base', price: 0, description: 'Essential WINK! features' },
+            'wink-standard': { name: 'WINK! Standard', price: 0, description: 'Standard Wink experience' },
+            'wink-premium': { name: 'WINK! Premium', price: 0, description: 'Premium profile, magical wardrobe' },
+            'wink-4x4-ultimate': { name: 'WINK! 4×4 Ultimate', price: 0, description: 'Ultimate tier—everything included' },
+            'sing-base': { name: 'SING Base Model', price: 20000, description: '~$20K (VW Bug pricing)' },
+            'sing-members-only': { name: 'SING Members Only', price: 0, description: 'Scaling from base' },
+            'sing-ultimate-vip': { name: 'SING Ultimate VIP', price: 200000, description: '~$200K+ (top super car)' },
+            'sing-baller-c': { name: 'SING Baller C Ultimate VIP', price: 0, description: 'Ultimate super car' },
+            'experience-visit': { name: 'Visit', price: 0, description: 'Come for the post-singularity business' },
+            'experience-stay': { name: 'Stay', price: 0, description: 'Stay for the post-singularity fun' },
+            'experience-create': { name: 'Create', price: 0, description: 'Creator studios, performance venues' },
+            'experience-transform': { name: 'Transform', price: 0, description: 'Happy Ending Zones, SING lottery' }
+        };
+
+        const plan = plans[planId] || plans['campus-day'];
+
+        document.getElementById('plan-details').innerHTML = `
+            <h2>${plan.name}</h2>
+            <p>${plan.description}</p>
+            ${plan.price > 0 ? `<div class="price">$${plan.price.toLocaleString()}</div>` : ''}
+        `;
+
+        if (plan.price === 0) {
+            document.getElementById('payment-container').innerHTML = `
+                <div class="contact-required">
+                    <h3>Contact for Pricing</h3>
+                    <p>This plan requires custom pricing. Please contact us to proceed.</p>
+                    <a href="mailto:info@fractiai.com?subject=Vibelandia ${plan.name} Inquiry">Contact Us</a>
+                </div>
+            `;
+        } else {
+            // Payment handled by API call to Octave 2 (Syntheverse repository)
+            async function initPayPal() {
+                let clientId = '';
+                try {
+                    const configRes = await fetch(PAYMENT_API_BASE + '/api/payment/paypal/config');
+                    if (configRes.ok) {
+                        const config = await configRes.json();
+                        clientId = config.clientId || '';
+                    }
+                } catch (e) {
+                    console.warn('PayPal config from API failed, using placeholder', e);
+                }
+                if (!clientId) {
+                    document.getElementById('payment-container').innerHTML = `
+                        <div class="sandbox-badge">SANDBOX MODE</div>
+                        <p>PayPal is configured via the Cloud Onramp API. Set up PayPal in the Syntheverse repository, then create order and capture via:</p>
+                        <p style="margin-top:0.5rem; font-family:monospace; font-size:0.9rem;">POST ${PAYMENT_API_BASE}/api/payment/paypal/create-order</p>
+                        <p style="font-family:monospace; font-size:0.9rem;">POST ${PAYMENT_API_BASE}/api/payment/paypal/capture-order</p>
+                        <a href="mailto:info@fractiai.com?subject=Vibelandia ${plan.name} Payment">Contact for payment</a>
+                    `;
+                    return;
+                }
+                const script = document.createElement('script');
+                script.src = 'https://www.paypal.com/sdk/js?client-id=' + clientId + '&currency=USD';
+                script.onload = function() {
+                    const isSandbox = window.location.hostname.includes('localhost') || window.location.hostname.includes('vercel.app');
+                    let html = '';
+                    if (isSandbox) html += '<div class="sandbox-badge">SANDBOX MODE</div>';
+                    html += '<div id="paypal-button-container"></div>';
+                    document.getElementById('payment-container').innerHTML = html;
+
+                    paypal.Buttons({
+                        createOrder: function(data, actions) {
+                            return fetch(PAYMENT_API_BASE + '/api/payment/paypal/create-order', {
+                                method: 'POST',
+                                headers: { 'Content-Type': 'application/json' },
+                                body: JSON.stringify({ planId, amount: plan.price, currency: 'USD', description: plan.name })
+                            }).then(function(res) { return res.json(); }).then(function(data) {
+                                return data.orderId || data.id;
+                            });
+                        },
+                        onApprove: function(data) {
+                            return fetch(PAYMENT_API_BASE + '/api/payment/paypal/capture-order', {
+                                method: 'POST',
+                                headers: { 'Content-Type': 'application/json' },
+                                body: JSON.stringify({ orderId: data.orderID, payerId: data.payerID })
+                            }).then(function(res) { return res.json(); }).then(function(result) {
+                                if (result.success !== false) {
+                                    window.location.href = 'payment-success.html?orderId=' + encodeURIComponent(data.orderID) + '&planId=' + encodeURIComponent(planId);
+                                } else {
+                                    window.location.href = 'payment-error.html?error=' + encodeURIComponent(result.error || 'Capture failed');
+                                }
+                            });
+                        },
+                        onError: function(err) {
+                            window.location.href = 'payment-error.html?error=' + encodeURIComponent(err.message || 'Payment error');
+                        }
+                    }).render('#paypal-button-container');
+                };
+                document.head.appendChild(script);
+            }
+            initPayPal();
+        }
+    </script>
+</body>
+</html>

@@ -6,9 +6,15 @@
   "type": "module",
   "scripts": {
     "test": "node scripts/test-all-surfaces-touchpoints-api.mjs",
-    "test:ci": "node scripts/test-all-surfaces-touchpoints-api.mjs"
+    "test:ci": "node scripts/test-all-surfaces-touchpoints-api.mjs",
+    "build": "node scripts/vercel-static-output.mjs",
+    "deploy": "node scripts/deploy-vercel.mjs",
+    "deploy:vercel": "vercel --yes"
   },
   "engines": {
     "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@paypal/paypal-js": "^8.1.3"
   }
 }

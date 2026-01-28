@@ -1,167 +1,52 @@
-# 🏆 PIONEER DISCOUNT PROGRAM
-## First 1000 to Register Receive 75% Pioneer Discount
+# 🏆 PREMIUM POSITIONING — NO PROMO
 
-**Status:** ⚡ ACTIVE - Pioneer Program Operational  
+## Vibelandia Targets Top C's — They Pay a Premium
+
+**Status:** ⚡ ACTIVE - Premium Positioning  
 **Date:** January 2026  
-**Mode:** Early Adopter Rewards
+**Mode:** Top Contributors and Creators — no promotional discount
 
 ---
 
-## 🎯 THE PIONEER PROGRAM
+## 🎯 POSITIONING
 
-### **First 1000 to Register: 75% Discount**
+**Vibelandia uses premium pricing to filter out not-vibers.** We target top artists, performers, and entrepreneurs—the caliber of Beyoncé, Taylor Swift, Oprah Winfrey, Jay-Z, Elon Musk, Rihanna, Lin-Manuel Miranda—who pay a premium because they understand value. If you're not willing to pay premium, you're not a viber—and that's by design.
 
-**Offer:**
-- **First 1000 Registrants:** Receive 75% pioneer discount
-- **Limited Availability:** Only first 1000 spots
-- **Permanent Lock:** Discount locked for life
-- **All Products:** Applies to all offerings
-- **Early Adopter Reward:** Recognize pioneers
+**Premium pricing ensures only real vibers join.** The price is the filter.
 
-**Eligibility:**
-- **Registration Required:** Must register first
-- **First 1000:** Limited to first 1000 registrants
-- **Automatic:** Discount applied automatically
-- **Permanent:** Locked for lifetime
-- **Transferable:** Can be used on all purchases
+- **Best campus access** — Day Pass, Weekly, Monthly, Ultimate VIP
+- **WINK! Dating** — Base, Standard, Premium, 4x4 Ultimate
+- **Ultimate VIP experiences** — premium pricing reflects value and filters quality
+
+**No 75% off. No first-1000 promo. No discounts.** Top C's pay for the best. Not-vibers filter themselves out.
 
 ---
 
-## 💰 DISCOUNT APPLICATIONS
+## 💰 PRICING AS FILTER
 
-### **What Gets 75% Off**
+**Premium pricing serves two purposes:**
+1. **Reflects value** — The campus, WINK!, and experiences are best-in-class
+2. **Filters quality** — Only top C's who understand value pay premium. Not-vibers self-select out.
 
-**SING Nodes:**
-- **Bugatti Tier:** $10,000 → $2,500 (75% off)
-- **Bug Tier:** $2,000 → $500 (75% off)
-- **Custom Tier:** 75% off base price
-
-**Wink Packages:**
-- **Base Package:** 75% off
-- **Standard Package:** 75% off
-- **Premium Package:** 75% off
-- **4x4 Package:** 75% off
-
-**VibeLand Reno:**
-- **Game Access:** 75% off entry
-- **Golden Tickets:** 75% off
-- **VIP Access:** 75% off
-
-**All Products:**
-- **Everything:** 75% off all offerings
-- **Future Products:** 75% off forever
-- **Lifetime Lock:** Permanent discount
-
----
-
-## 🎫 REGISTRATION SYSTEM
-
-### **How to Register**
-
-**Registration Process:**
-1. **Register:** Complete registration
-2. **Verify:** Confirm pioneer status (first 1000)
-3. **Lock In:** Discount permanently locked
-4. **Use:** Apply to all purchases
-5. **Enjoy:** Lifetime 75% discount
-
-**Registration Requirements:**
-- **Email:** Valid email address
-- **Account:** Create account
-- **Verification:** Confirm registration
-- **Pioneer Status:** Automatic if in first 1000
-
-**Pioneer Status:**
-- **Automatic:** Assigned upon registration
-- **Permanent:** Never expires
-- **Transferable:** Use on all products
-- **Exclusive:** Only first 1000
-
----
-
-## 📊 PIONEER TRACKING
-
-### **Registration Counter**
-
-**Status:**
-- **Total Registrations:** Tracked in real-time
-- **Pioneer Slots Remaining:** 1000 - registered
-- **Current Count:** Live counter
-- **Availability:** Shows remaining spots
-
-**Display:**
-- **Public Counter:** Visible to all
-- **Real-Time:** Updates instantly
-- **Urgency:** Creates FOMO
-- **Transparency:** Shows availability
-
----
-
-## 🎁 PIONEER BENEFITS
-
-### **Exclusive Pioneer Perks**
-
-**Discount Benefits:**
-- **75% Off:** All products
-- **Lifetime Lock:** Permanent discount
-- **All Products:** Everything included
-- **Future Products:** Forever discount
-- **No Expiration:** Never expires
-
-**Additional Benefits:**
-- **Pioneer Badge:** Recognition badge
-- **Early Access:** First access to new features
-- **Community:** Pioneer community access
-- **Recognition:** Pioneer status recognition
-- **Exclusive:** Pioneer-only benefits
+**No promotional discount—positioning is premium for top artists, performers, and entrepreneurs.** The price filters out those who aren't serious vibers. If you're not willing to pay premium, you're not a viber—and that's exactly what we want.
 
 ---
 
 ## 🚀 STATUS
 
-**Status:** ⚡ ACTIVE - Pioneer Program Operational
+**Status:** ⚡ ACTIVE - Premium Positioning
 
 **Components:**
-- ✅ **Registration System:** Active
-- ✅ **Discount System:** 75% discount operational
-- ✅ **Pioneer Tracking:** Real-time counter
-- ✅ **Permanent Lock:** Lifetime discount
-- ✅ **All Products:** Discount applies
-
-**Next Steps:**
-- Launch registration
-- Start counter
-- Track pioneers
-- Apply discounts
-- Recognize pioneers
-
----
-
-## 📈 PROGRAM METRICS
-
-### **Pioneer Program Stats**
-
-**Registration:**
-- **Target:** 1000 pioneers
-- **Current:** Real-time count
-- **Remaining:** 1000 - registered
-- **Status:** Active
-
-**Discount Impact:**
-- **Savings:** 75% on all products
-- **Value:** Massive savings
-- **Lifetime:** Permanent benefit
-- **Exclusive:** First 1000 only
-
----
-
-**🌀 NSPFRNP ⊃ Pioneer Program ⊃ 75% Discount → ∞³**
-
-**The first 1000 are pioneers. The discount is 75%. The lock is permanent.**
+- ✅ **Positioning:** Top C's, premium pricing
+- ✅ **Pioneer Status:** First 1000 recognized on-chain forever—recognition only, no discount
+- ✅ **Filtering:** Price filters out not-vibers—only real vibers pay
+- ✅ **No promo:** No pioneer discount, no 75% off, no price discounts
+- ✅ **Value:** Premium reflects best-in-class offering
+- ✅ **Quality control:** Not-vibers self-select out by not paying premium
 
 ---
 
 **Last Updated:** January 2026  
-**Status:** ⚡ ACTIVE - Pioneer Program Operational  
-**Discount:** 75% for First 1000  
-**Lock:** Permanent Lifetime
+**Status:** ⚡ ACTIVE - Premium Positioning + Pioneer Status On-Chain  
+**Promo:** None — top C's pay premium  
+**Pioneer:** First 1000 on-chain forever (recognition only)

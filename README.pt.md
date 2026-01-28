@@ -60,7 +60,7 @@
 
 3. **Rede WINK! Dating** — Clube só para membros para vibers fractais de alto valor. Alinhamento natural, encontros sem fricção, resiliência embutida.
 
-4. **Planos de quatro níveis** — Planos de campus (Passe dia, Semanal, Mensal, Ultimate VIP) e planos WINK! Dating (Base, Standard, Premium, 4x4 Ultimate). Desconto pioneiro: os primeiros 1000 têm 75% de desconto para sempre.
+4. **Planos de quatro níveis** — Planos de campus (Passe dia, Semanal, Mensal, Ultimate VIP) e planos WINK! Dating (Base, Standard, Premium, 4x4 Ultimate). Posicionamento premium: os melhores C pagam premium; sem promoção.
 
 5. **Loteria SING** — No fim da sua experiência, participe da loteria SING pelo primeiro milhão de agentes superinteligentes (20 de março de 2026). Tokens SYNTH sem valor viram nós SING inestimáveis.
 
@@ -149,7 +149,7 @@ Em 20 de março de 2026 (equinócio de primavera), tokens SYNTH sem valor viram 
 **WINK! Dating:** Base | Standard | Premium | 4x4 Ultimate.  
 **Loteria SYNTH:** $5/SYNTH agora, +$1/dia, 1:1 SYNTH→SING (20 mar 2026). Primeiro milhão ganha direito a comprar nós SING.  
 **SING:** Base Model | Members Only | Ultimate VIP | Baller C Ultimate VIP.  
-**Desconto pioneiro:** Primeiros 1000 — 75% de desconto para sempre.
+**Posicionamento premium:** Os melhores C pagam premium; sem promoção.
 
 **Email:** info@fractiai.com | **Assunto:** "I'M READY FOR VIBELANDIA"
 

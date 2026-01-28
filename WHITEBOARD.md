@@ -71,10 +71,11 @@
 
 **Rocket launch pad • One-pagers on Mark Twain's Post-Singularity Vibelandia Reno:**
 
+- **[ONE PAGER: Full Launch](./ONE_PAGER_LAUNCH.md)** 📄 — **Entire launch:** new series (Happy Ending Zones), SING Lottery, WINK!, Vibelandia plans & prices (4×4×4×4). Single-page launch package.
 - **Octave 0 (Seed):** [Launch Page](./LAUNCH_PAGE.md) 🚀 — Campus & WINK! one-pagers
 - **Octave 1 (Edge):** [Launch Page](./LAUNCH_PAGE.md) 🚀 — 4 plans & SING Lottery one-pagers
 
-**Launch Page payloads:** Vibelandia Reno • WINK! • Day Pass • Weekly Pass • Monthly Pass • Ultimate VIP • SING Lottery
+**Launch Page payloads:** Full Launch (series • lottery • WINK! • plans & prices) • Vibelandia Reno • WINK! • Day Pass • Weekly Pass • Monthly Pass • Ultimate VIP • SING Lottery
 
 ---
 

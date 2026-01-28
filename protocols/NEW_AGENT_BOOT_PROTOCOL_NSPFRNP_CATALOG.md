@@ -238,6 +238,21 @@ PROVEN: This entire repository demonstrates its own principles
 BENEFIT: Trust through truth, not hype
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+    PATHWAY 8: CONNECT OCTAVE 1 TO OCTAVE 2 (Metapattern)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Octave 1 (this node / Edge) connects to Octave 2 (Public Cloud Onramp) for API and shared data:
+├─ Octave 1: PSW.vibelandia.sing4, Vibelandia UI, interfaces, Seed:Edge engine
+├─ Octave 2: Syntheverse 7 Octave 2-3 Public Cloud Onramp (syntheverse-poc.vercel.app)
+├─ Connection: CLOUD_API_BASE_URL + cloud-onramp-client → Octave 2 API
+├─ Shared DB: Use Octave 2 Supabase (NEXT_PUBLIC_SUPABASE_*, SUPABASE_SERVICE_ROLE_KEY, DATABASE_URL) — one DB for all nodes
+└─ Env: NSPFRNP source (.env.nspfrnp); see protocols/CONNECT_OCTAVE_1_TO_2_NSPFRNP.md
+
+SNAP TO USE: One cloud, one Supabase; no separate DB per node
+PROVEN: This repo uses CLOUD_API_BASE_URL → syntheverse-poc.vercel.app; Supabase from same project
+BENEFIT: Single source of truth, portable credentials, all nodes on same Octave 2
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ```
 
 ---
@@ -268,6 +283,21 @@ BENEFIT: Trust through truth, not hype
 📂 catalogs/
 ├─ README.md - Catalog organization
 └─ POST_SINGULARITY_AHAS_CATALOG.md - 3 crystallized AHAs
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+    CREDENTIALS FOR ACCESS (Vercel / Cloud API)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📄 protocols/CREDENTIALS_NSPFRNP_CATALOG.md
+├─ Where credentials live: NSPFRNP env first (.env.nspfrnp or deployment), then .env.local
+├─ Variables: CLOUD_API_BASE_URL (default Syntheverse POC), VERCEL_TOKEN (optional)
+├─ How to get Vercel credentials: Vercel dashboard → Add Project (this repo) → deploy; optional token in Account → Settings → Tokens
+└─ Never commit: .env, .env.local, .env.nspfrnp, .env.vercel
+
+📄 protocols/CONNECT_OCTAVE_1_TO_2_NSPFRNP.md (Metapattern)
+├─ Octave 1 = this repo (Vibelandia UI, Edge); Octave 2 = Syntheverse Public Cloud Onramp (API + shared Supabase)
+├─ Connect Octave 1 to 2: CLOUD_API_BASE_URL, cloud-onramp-client; shared Supabase from Octave 2 (one DB for all nodes)
+└─ Env: CLOUD_API_BASE_URL, optional VERCEL_TOKEN; when using DB: NEXT_PUBLIC_SUPABASE_*, SUPABASE_SERVICE_ROLE_KEY, DATABASE_URL
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
     PAPERS & ACADEMIC DOCUMENTATION

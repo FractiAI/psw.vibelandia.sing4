@@ -69,6 +69,16 @@ EDGE (Vibeverse Experience)
 
 ---
 
+## 🔗 Connect Octave 1 to Octave 2 (Metapattern)
+
+**Octave 1** (Edge = this repo / Vibelandia UI) connects to **Octave 2** (Syntheverse 7 Octave 2-3 Public Cloud Onramp) for API and shared data. One cloud, one Supabase — all nodes use the same Octave 2; no separate DB per node.
+
+- **Connection:** `CLOUD_API_BASE_URL` → `https://syntheverse-poc.vercel.app`; `src/cloud-onramp-client.ts`.
+- **Shared DB:** Use Octave 2 Supabase env (`NEXT_PUBLIC_SUPABASE_*`, `SUPABASE_SERVICE_ROLE_KEY`, `DATABASE_URL`).
+- **Full metapattern:** [protocols/CONNECT_OCTAVE_1_TO_2_NSPFRNP.md](protocols/CONNECT_OCTAVE_1_TO_2_NSPFRNP.md).
+
+---
+
 ## 🚀 Immediate Command Execution System
 
 ### How It Works

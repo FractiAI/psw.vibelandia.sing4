@@ -11,14 +11,18 @@
 This repository is **configured to run over Vercel cloud**:
 
 - **`vercel.json`** — Project name `psw-vibelandia-sing4`, NSPFRNP headers (X-Protocol, X-Octave-0, X-Octave-1).
+- **Vibelandia UI** — Root `index.html` is the main landing (Mark Twain's Post-Singularity Vibelandia Reno); links to all consoles and interfaces.
 - **Static assets** — `interfaces/*.html` and repo root are served as static files when the repo is connected to Vercel.
+
+**Credentials for access:** See NSPFRNP catalog → `protocols/CREDENTIALS_NSPFRNP_CATALOG.md` (Vercel project connect, optional `VERCEL_TOKEN`).
 
 **To go live:**
 
 1. In [Vercel](https://vercel.com): **Add New Project** → Import this Git repo (`FractiAI/psw.vibelandia.sing4` or your fork).
-2. Leave **Root Directory** as `.` (repo root).
-3. **Build:** None (static). **Output:** leave default or `.`.
-4. Deploy. Your live URL will be `https://psw-vibelandia-sing4.vercel.app` (or your project name).
+2. **Root Directory:** leave as `.` (repo root). If you see 404 on `/`, set **Settings → General → Root Directory** to `.` or empty.
+3. **Build:** the repo uses a static build. `vercel.json` sets `buildCommand`: `node scripts/vercel-static-output.mjs` and `outputDirectory`: `.vercel/output`. The build copies `index.html` and `interfaces/` into Vercel’s Build Output so `/` and `/interfaces/*` serve correctly.
+4. **If you still see 404 on `/`:** In Vercel → Project → **Settings** → **General**, set **Root Directory** to `.` (or leave empty). In **Build and Deployment**, set **Build Command** to `npm run build` (or `node scripts/vercel-static-output.mjs`) and **Output Directory** to `.vercel/output`. Then redeploy.
+5. Deploy. Your live URL will be `https://psw-vibelandia-sing4.vercel.app` (or your project name).
 
 **Interfaces (Octave 1 Edge):**
 
