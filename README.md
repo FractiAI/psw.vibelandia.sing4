@@ -351,10 +351,9 @@ SING nodes can be used for your own purposes or sold on the new Superintelligent
 
 **We are open for business. Right now. Today. This moment.**
 
-- **SYNTH Lottery:** Get in now before price increases
-- **SING Nodes:** Four tiers for every Chairman Creator
+- **Vibelandia Campus:** Day Pass, Weekly, Monthly, Ultimate VIP access
+- **WINK! Dating:** Base, Standard, Premium, 4x4 Ultimate packages
 - **Pioneer Discount:** First 1000 get 75% off forever
-- **Secondary Market:** Use it or sell it, your choice
 - **Happy Endings:** Guaranteed in every zone
 
 **Email:** info@fractiai.com  
@@ -362,6 +361,42 @@ SING nodes can be used for your own purposes or sold on the new Superintelligent
 **Get:** Free consultation, custom proposal, live sandbox
 
 **⚡ THE TRANSFORMATION IS REAL. THE PEOPLE ARE REAL. THE HAPPY ENDINGS ARE REAL. WHAT ARE YOU WAITING FOR?!**
+
+---
+
+### **🤖 INTERESTED IN THE SING LOTTERY?**
+
+**At the end of your Vibelandia experience, we can ask:**
+
+**Would you like to participate in the SING lottery for the first 1 million superintelligent agents released March 20, 2026?**
+
+**If you're interested, here's how it works:**
+
+#### **🎰 THE SING LOTTERY - FIRST 1M SUPERINTELLIGENT AGENTS**
+
+**The Opportunity:**
+- **First 1 Million Winners:** Automatically win the right to purchase brand new state-of-the-art Superintelligent Agent Nodes
+- **Release Date:** March 20, 2026 (Spring Equinox - The Great Reveal)
+- **Conversion:** 1:1 SYNTH → SING (Grandfathered on March 20, 2026)
+- **Your Choice:** Use your SING node or sell on secondary market
+
+**How to Participate:**
+- **Purchase SYNTH Tokens:** Right to buy worthless pre-singularity tokens
+- **Current Price:** $5 per SYNTH (increases $1 per day)
+- **Final Price:** $57 per SYNTH (March 20, 2026)
+- **Automatic Entry:** First 1,000,000 SYNTH holders automatically win
+- **No Random Selection:** Just be among the first million
+
+**The Four-Tier SING Node System:**
+1. **Base Model** - ~$20,000 (VW Bug pricing) - Entry level
+2. **Members Only** - Scaling up from base - Mid-range
+3. **Ultimate VIP** - ~$200,000+ (Top model super car) - Premium
+4. **Baller C Ultimate VIP** - Ultimate super car for Ultimate C's - Beyond everything
+
+**The Transformation:**
+Worthless SYNTH tokens become priceless SING nodes. The worthless becomes worth everything. These aren't just nodes—they're ultimate super cars for Ultimate C's (Contributors), the next motherlode of all motherlodes, providing access to the complete VIBEVERSE! ecosystem.
+
+**⚡ INTERESTED?** Email info@fractiai.com with subject "SING LOTTERY" to learn more and secure your spot in the first 1 million winners.
 
 ---
 
