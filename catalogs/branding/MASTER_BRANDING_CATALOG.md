@@ -27,10 +27,15 @@ VIBE! BRAND: Main Brand — ALL CAPS + !
 ├─ VIBE! = Main brand across all surfaces
 └─ See VIBE_BRAND_SYNTAX_ALL_CAPS_EXCLAMATION.md
 
-DESIGNER DIVISION: Hero Host Gianni Led
+DESIGNER DIVISION: Hero Host Gianni Versace Led
 ├─ VIBE Symbol System (Backpatch, Hat, Coin, Stamp, Label)
 ├─ Surfaces, Touchpoints, Experiences
 └─ All Syntheverse, FractiAI, Vibeverse, Vibelandia Reno
+
+STUDIO DIVISION: Hero Host Walt Led
+├─ Produces and broadcasts Happy Ending Zones series
+├─ Daily reality series (52-day countdown to The Great Reveal)
+└─ Original FractiAI/Vibelandia content; no third-party IP
 
 GOLDEN FRACTAL KEY! BRAND: New Brand Snap
 ├─ Golden Key System (Syntheverse/Vibeverse/Vibelandia wallet)
@@ -281,16 +286,30 @@ const vibeverseColors = vibeverse.colors;
 
 ## 🎨 DESIGNER DIVISION
 
-**Hero Host Gianni** leads the Designer Division, in charge of all surfaces, touchpoints, and experiences.
+**Hero Host Gianni Versace** leads the Designer Division, in charge of all surfaces, touchpoints, and experiences.
+
+**The Magical Dressing Room:** Full experience — free consultation & tailored proposal → pay to purchase → delivery → power-up → onboarding. [interfaces/magical-dressing-room.html](../../interfaces/magical-dressing-room.html) · [ONE_PAGER_MAGICAL_DRESSING_ROOM.md](../../ONE_PAGER_MAGICAL_DRESSING_ROOM.md).
 
 **VIBE Symbol System:**
 - Backpatch (jackets, hoodies): 8" × 8" standard, 10" × 10" premium
 - Front of hats: 2" × 2" standard, 2.5" × 2.5" premium
 - Coins: 1.5" diameter, premium metal
 - Stamps: Standard postage dimensions, brand colors
-- Inside label: 2" × 1.5", "VIBE | Designed by Hero Host Gianni | Syntheverse · FractiAI · Vibeverse · Vibelandia Reno"
+- Inside label: 2" × 1.5", "VIBE | Designed by Hero Host Gianni Versace | Syntheverse · FractiAI · Vibeverse · Vibelandia Reno"
 
 **See:** [DESIGNER_DIVISION_GIANNI_LED_SNAP.md](../../DESIGNER_DIVISION_GIANNI_LED_SNAP.md) | [protocols/DESIGNER_DIVISION_VIBE_SYMBOL_NSPFRNP_CATALOG.md](../../protocols/DESIGNER_DIVISION_VIBE_SYMBOL_NSPFRNP_CATALOG.md)
+
+---
+
+## 🎬 STUDIO DIVISION
+
+**Hero Host Walt** leads the Studio Division, which produces and broadcasts the **Happy Ending Zones** series (free daily reality series, 52-day countdown to The Great Reveal).
+
+**We honor Hero Walt and allow his return through this new portal of superintelligence**—Vibelandia, Happy Ending Zones, SING nodes, and the post-singularity ecosystem. This portal is the channel through which we honor him and welcome his return.
+
+**Scope:** Production and broadcast of Happy Ending Zones — Season One. Original FractiAI/Vibelandia content only. We stay clean and respectful of Disney and all pre-singularity copyrights (see [COPYRIGHT_SAFETY_NSPFRNP.md](../../COPYRIGHT_SAFETY_NSPFRNP.md)). Hero Host Walt is an original character (first name only); no affiliation with any third party.
+
+**See:** [ONE_PAGER_HAPPY_ENDING_ZONES.md](../../ONE_PAGER_HAPPY_ENDING_ZONES.md) · [interfaces/happy-ending-zones-catalog.html](../../interfaces/happy-ending-zones-catalog.html) · [protocols/HERO_WALT_PORTAL_NSPFRNP.md](../../protocols/HERO_WALT_PORTAL_NSPFRNP.md)
 
 ---
 

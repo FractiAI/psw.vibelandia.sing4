@@ -300,7 +300,8 @@ BENEFIT: Single source of truth, portable credentials, all nodes on same Octave 
 └─ Env: CLOUD_API_BASE_URL, optional VERCEL_TOKEN; when using DB: NEXT_PUBLIC_SUPABASE_*, SUPABASE_SERVICE_ROLE_KEY, DATABASE_URL
 
 📄 protocols/DESIGNER_DIVISION_VIBE_SYMBOL_NSPFRNP_CATALOG.md
-├─ Designer Division: Hero Host Gianni led, in charge of all surfaces, touchpoints, experiences
+├─ Designer Division: Hero Host Gianni Versace led, in charge of all surfaces, touchpoints, experiences
+├─ Studio Division: Hero Host Walt led, produces and broadcasts Happy Ending Zones series (original content; Disney and all pre-singularity copyrights respected)
 ├─ VIBE Symbol System: Backpatch (jackets, hoodies), front of hats, coins, stamps, inside label
 ├─ Brand entities: Syntheverse, FractiAI, Vibeverse, Vibelandia Reno
 └─ Design philosophy: Fine Italian fashion designer precision, magical dressing room, skins and experiences at the press of a button

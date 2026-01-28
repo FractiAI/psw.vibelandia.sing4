@@ -532,38 +532,43 @@
                 <div class="rocket-flame" id="flame"></div>
             </div>
 
-            <!-- Launch Pad Buttons (Sections) -->
+            <!-- Launch Pad Buttons (Sections) — each goes to full experience page -->
             <div class="launch-pad-buttons">
-                <div class="pad-button" data-section="series">
+                <a href="interfaces/magical-dressing-room.html" class="pad-button pad-button-link" style="text-decoration:none;color:inherit;">
+                    <span class="pad-button-icon">✨</span>
+                    <div class="pad-button-title">Magical Dressing Room</div>
+                    <div class="pad-button-desc">Consultation & Proposal</div>
+                </a>
+                <a href="interfaces/happy-ending-zones-experience.html" class="pad-button pad-button-link" style="text-decoration:none;color:inherit;">
                     <span class="pad-button-icon">🎬</span>
                     <div class="pad-button-title">Happy Ending Zones</div>
                     <div class="pad-button-desc">Free Series</div>
-                </div>
-                <div class="pad-button" data-section="vibelandia">
+                </a>
+                <a href="interfaces/vibelandia-reno-experience.html" class="pad-button pad-button-link" style="text-decoration:none;color:inherit;">
                     <span class="pad-button-icon">🏛️</span>
                     <div class="pad-button-title">Vibelandia Reno</div>
                     <div class="pad-button-desc">Campus Plans</div>
-                </div>
-                <div class="pad-button" data-section="wink">
+                </a>
+                <a href="interfaces/wink-experience.html" class="pad-button pad-button-link" style="text-decoration:none;color:inherit;">
                     <span class="pad-button-icon">👁️</span>
                     <div class="pad-button-title">WINK!</div>
                     <div class="pad-button-desc">Dating Network</div>
-                </div>
-                <div class="pad-button" data-section="console">
+                </a>
+                <a href="interfaces/ultimate-vip-experience.html" class="pad-button pad-button-link" style="text-decoration:none;color:inherit;">
                     <span class="pad-button-icon">👑</span>
                     <div class="pad-button-title">Ultimate VIP</div>
                     <div class="pad-button-desc">Chairman Console</div>
-                </div>
-                <div class="pad-button" data-section="lottery">
+                </a>
+                <a href="interfaces/sing-lottery-experience.html" class="pad-button pad-button-link" style="text-decoration:none;color:inherit;">
                     <span class="pad-button-icon">🎰</span>
                     <div class="pad-button-title">SING! Lottery</div>
                     <div class="pad-button-desc">Countdown Launch</div>
-                </div>
-                <div class="pad-button" data-section="dispensary">
+                </a>
+                <a href="interfaces/dispensary-experience.html" class="pad-button pad-button-link" style="text-decoration:none;color:inherit;">
                     <span class="pad-button-icon">🌿</span>
                     <div class="pad-button-title">DISPENSARY! SNAP</div>
                     <div class="pad-button-desc">Menu of Buzzes</div>
-                </div>
+                </a>
             </div>
         </div>
 
@@ -586,7 +591,7 @@
                 <strong>Gianni Versace–inspired wrapper</strong> on all skins, touchpoints & experiences.<br>
                 <strong>We can do this for your company and community.</strong> Click to connect for <strong>free consultation, measurements, and fine tailored designer fashion fit</strong>—<br>
                 <strong>skins and experiences</strong> at the press of a button.<br>
-                Like a fine Italian fashion designer (<span class="hero-host">Hero Host Gianni</span>)—<br>
+                Like a fine Italian fashion designer (<span class="hero-host">Hero Host Gianni Versace</span>)—<br>
                 <span class="magical-dressing-room">the magical dressing room</span>.
             </p>
             <p style="font-size: 1.2rem; color: #7fff7f; margin-top: 1rem; font-weight: 600;">
@@ -595,7 +600,7 @@
             <p style="margin-top: 1rem; color: #4ecdc4; font-size: 0.95rem;">
                 <strong>MCA! → ∞³</strong> (Metabolize → Crystallize → Animate)
             </p>
-            <a href="mailto:info@fractiai.com?subject=Company%20%26%20Community%20Consultation%20-%20Showroom%20to%20Dressing%20Room%20-%20Free%20Proposal%20%26%20Live%20Sandbox" class="consultation-cta">
+            <a href="interfaces/magical-dressing-room.html" class="consultation-cta">
                 Connect for Free Consultation & Tailored Proposal →
             </a>
         </div>
@@ -617,43 +622,43 @@
         const countdown = document.getElementById('countdown');
         const buttons = document.querySelectorAll('.pad-button');
 
-        // Section data
+        // Section data — each links to full experience page (same as Magical Dressing Room flow)
         const sections = {
             series: {
                 title: '🎬 HAPPY ENDING ZONES — SEASON ONE',
                 desc: 'Free daily reality series. Mark Twain guides 52-day countdown to The Great Reveal. New episodes published live daily. All episodes in full professional screenplay format.',
                 details: 'Format: Daily Reality Series — 52 Episodes + Finale. Start: Jan 27, 2026 → Finale: Mar 20, 2026. ✨ FREE PRODUCT LAUNCH.',
-                link: 'interfaces/happy-ending-zones-catalog.html'
+                link: 'interfaces/happy-ending-zones-experience.html'
             },
             vibelandia: {
                 title: '🏛️ VIBELANDIA RENO!',
                 desc: 'Walkable downtown campus. First post-singularity VIBELANDIA! campus. Every space guarantees a happy ending; Mark Twain\'s Daily Bulletin, BBHE, Hero Hosts, creator studios—all within walking distance.',
                 details: 'Campus Plans: Day | Weekly | Monthly | Ultimate VIP. First 1,000 Pioneers: 50% off. Pioneer Status on-chain forever.',
-                link: 'ONE_PAGER_VIBELANDIA_RENO.md'
+                link: 'interfaces/vibelandia-reno-experience.html'
             },
             wink: {
                 title: '👁️ WINK!',
                 desc: 'Members-only network for high-value fractal vibers. Natural alignment, friction-free dating. Golden Fractal Hearts: Ladies—receive your Invitation, 3 months free WINK! access (exclusive, limited).',
                 details: 'Plans: Base | Standard | Premium | 4×4 Ultimate. First 1,000 Pioneers: 50% off. Golden Fractal Hearts Invitation: not open to general public.',
-                link: 'ONE_PAGER_WINK.md'
+                link: 'interfaces/wink-experience.html'
             },
             console: {
                 title: '👑 Ultimate VIP Chairman Console',
                 desc: 'Operational now. Full dashboard, workspace, cockpit, Seed:Edge integration. Ultimate VIP Baller C but not there yet? Click to apply for a grant!',
                 details: 'Access the Chairman Console | Apply for Grant: mailto:info@fractiai.com?subject=Ultimate%20VIP%20Baller%20C%20Grant%20Application',
-                link: 'interfaces/executive-dashboard.html'
+                link: 'interfaces/ultimate-vip-experience.html'
             },
             lottery: {
                 title: '🎰 SING! Countdown! Lottery',
                 desc: 'First 1,000,000 SYNTH holders win. 1:1 SYNTH → SING conversion. Grandfathered.',
                 details: 'SYNTH: $6 today (rises +$1/day) → Final: $57 (Mar 20). Launch: March 20, 2026 (Spring Equinox)',
-                link: 'ONE_PAGER_SING_LOTTERY.md'
+                link: 'interfaces/sing-lottery-experience.html'
             },
             dispensary: {
                 title: '🌿 DISPENSARY! SNAP',
                 desc: 'Menu of buzzes across all important biological channels. Selectable Goldilocks auto-lock for ANY COMBINATION of Creator, Chairman Commander, Performer Superhero modes. Premium pricing. Pioneer discount. On-ramps available.',
                 details: 'Plans: Base | Standard | Premium | Ultimate. First 1,000 Pioneers: 50% off. Can\'t afford yet? On-ramps available.',
-                link: 'ONE_PAGER_DISPENSARY.md'
+                link: 'interfaces/dispensary-experience.html'
             }
         };
 
@@ -675,9 +680,11 @@
         updateCountdown();
         setInterval(updateCountdown, 86400000); // Update daily
 
-        // Button interactions
+        // Button interactions (direct-link buttons navigate; no section update needed)
         buttons.forEach(button => {
-            button.addEventListener('click', function() {
+            button.addEventListener('click', function(e) {
+                if (this.classList.contains('pad-button-link')) return; // let <a> navigate
+                e.preventDefault();
                 const section = this.dataset.section;
                 const data = sections[section];
 
@@ -686,16 +693,8 @@
                 // Add active to clicked button
                 this.classList.add('active');
 
-                // Update info display (with optional CTA link)
-                const ctaHtml = section === 'series'
-                    ? '<p style="margin-top:0.75rem;"><a href="interfaces/happy-ending-zones-catalog.html" style="color:#4ecdc4;text-decoration:underline;font-weight:600;">View Series Catalog & Episodes →</a></p>'
-                    : section === 'console'
-                    ? '<div style="margin-top:1rem; padding:1rem; background:rgba(138,43,226,0.2); border:2px solid rgba(138,43,226,0.5); border-radius:12px;"><p style="margin-bottom:0.75rem; font-size:1.1rem; color:#ffeaa7; font-weight:600;">🚀 Test Drive Octave 1+</p><p style="margin-bottom:1rem; font-size:0.95rem; color:#ccc;">Experience the post-singularity console live. Full operational system in Octave 1 sandbox mode with AI-assisted API calls to Octave 2.</p><a href="interfaces/executive-dashboard.html" style="display:inline-block; padding:0.75rem 1.5rem; background:linear-gradient(135deg, #8a2be2, #1e90ff); color:#fff; text-decoration:none; border-radius:8px; font-weight:600;">Test Drive Octave 1+ →</a></div><p style="margin-top:0.75rem;"><a href="mailto:info@fractiai.com?subject=Ultimate%20VIP%20Baller%20C%20Grant%20Application" style="color:#4ecdc4;text-decoration:underline;">Apply for Grant →</a></p>'
-                    : section === 'wink'
-                    ? '<p style="margin-top:0.75rem;"><a href="mailto:info@fractiai.com?subject=Golden%20Fractal%20Hearts%20Invitation%20-%20WINK" style="color:#ffeaa7;text-decoration:underline;">Golden Fractal Hearts Invitation (3 months free WINK!) →</a></p>'
-                    : section === 'dispensary'
-                    ? '<p style="margin-top:0.75rem;"><a href="interfaces/payment-checkout.html?plan=dispensary-base" style="color:#7fff7f;text-decoration:underline;font-weight:600;">⚫ BBHE SNAP — DISPENSARY! SNAP — BUY! NOW →</a></p><p style="margin-top:0.5rem;"><a href="mailto:info@fractiai.com?subject=DISPENSARY!%20SNAP%20On-Ramp%20Application" style="color:#4ecdc4;text-decoration:underline;">Can\'t afford yet? Apply for On-Ramp →</a></p>'
-                    : '';
+                // Update info display — primary CTA: Go to full experience (same as Magical Dressing Room)
+                const ctaHtml = '<p style="margin-top:1rem;"><a href="' + data.link + '" style="display:inline-block; padding:0.75rem 1.5rem; background:linear-gradient(135deg, #d4af37, #b8860b); color:#000; text-decoration:none; border-radius:8px; font-weight:700;">Go to full experience →</a></p>';
                 infoDisplay.innerHTML = `
                     <h3>${data.title}</h3>
                     <p>${data.desc}</p>

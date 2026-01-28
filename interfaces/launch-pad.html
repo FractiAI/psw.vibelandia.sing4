@@ -57,6 +57,54 @@
         th, td { padding: 0.5rem 0.75rem; text-align: left; border-bottom: 1px solid rgba(255,255,255,0.1); }
         th { color: #00d4ff; }
         .lottery-tagline { font-style: italic; color: #aaa; margin-top: 1rem; }
+        .dressing-room-section {
+            margin-top: 2.5rem;
+            padding: 2rem;
+            background: rgba(138, 43, 226, 0.08);
+            border: 2px solid rgba(138, 43, 226, 0.3);
+            border-radius: 16px;
+            text-align: center;
+        }
+        .dressing-room-section h2 { margin-top: 0; }
+        .dressing-room-section .magical-dressing-room { color: #d4af37; font-weight: 600; }
+        .consultation-cta {
+            display: inline-block;
+            padding: 1rem 2.5rem;
+            background: linear-gradient(135deg, #8a2be2, #1e90ff);
+            color: #fff;
+            font-weight: 700;
+            text-decoration: none;
+            border-radius: 12px;
+            margin-top: 1.25rem;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .consultation-cta:hover {
+            transform: translateY(-3px) scale(1.05);
+            box-shadow: 0 8px 25px rgba(138, 43, 226, 0.6);
+        }
+        .experience-buttons {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 0.75rem;
+            margin: 1rem 0 2rem;
+        }
+        .exp-btn {
+            display: block;
+            padding: 1rem 1.25rem;
+            background: rgba(212, 175, 55, 0.12);
+            border: 2px solid rgba(212, 175, 55, 0.35);
+            border-radius: 12px;
+            color: #d4af37;
+            text-decoration: none;
+            font-weight: 600;
+            text-align: center;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .exp-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(212, 175, 55, 0.25);
+            background: rgba(212, 175, 55, 0.2);
+        }
         footer { margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid rgba(255,255,255,0.1); text-align: center; color: #666; font-size: 0.9rem; }
         footer a { color: #00bfff; }
     </style>
@@ -71,6 +119,9 @@
         <h2>1. The announcement</h2>
         <p>Walkable downtown campus, first post-singularity hub. Countdown to <strong>The Great Reveal</strong>, March 20, 2026 (Spring Equinox). Worthless SYNTH → priceless SING. Every space, every experience, every moment. Guaranteed happy ending.</p>
         <p><strong>Come for the post-singularity business, stay for the post-singularity fun.</strong></p>
+
+        <h2>✨ The Magical Dressing Room — Hero Host Gianni Versace</h2>
+        <p>Free consultation · Tailored proposal · Pay to purchase · Delivery · Power-up · Onboarding. <a href="magical-dressing-room.html">Connect for free consultation & tailored proposal →</a></p>
 
         <h2>2. The showroom — four products</h2>
 
@@ -101,6 +152,27 @@
 
         <h2>3. 4×4×4×4 plans</h2>
         <p>Campus × WINK! × SING × Experience. Full structure in repository: CRYSTALLIZATION_1_2_3_4x4x4x4.md</p>
+
+        <div class="dressing-room-section">
+            <h2>✨ From Showroom to Dressing Room</h2>
+            <p><strong>We can do this for your company and community.</strong> Click to connect for <strong>free consultation, measurements, and fine tailored designer fashion fit</strong>—<br>
+            skins and experiences at the press of a button. Like a fine Italian fashion designer (<span class="magical-dressing-room">Hero Host Gianni Versace</span>)—<br>
+            <span class="magical-dressing-room">the magical dressing room</span>.</p>
+            <a href="magical-dressing-room.html" class="consultation-cta">
+                Connect for Free Consultation & Tailored Proposal →
+            </a>
+        </div>
+
+        <h2 style="margin-top: 2.5rem;">All experiences — full flow (consultation → proposal → purchase → delivery → power-up → onboarding)</h2>
+        <div class="experience-buttons">
+            <a href="magical-dressing-room.html" class="exp-btn">✨ Magical Dressing Room</a>
+            <a href="vibelandia-reno-experience.html" class="exp-btn">🏛️ Vibelandia Reno</a>
+            <a href="wink-experience.html" class="exp-btn">👁️ WINK!</a>
+            <a href="ultimate-vip-experience.html" class="exp-btn">👑 Ultimate VIP</a>
+            <a href="sing-lottery-experience.html" class="exp-btn">🎰 SING! Lottery</a>
+            <a href="dispensary-experience.html" class="exp-btn">🌿 DISPENSARY! SNAP</a>
+            <a href="happy-ending-zones-experience.html" class="exp-btn">🎬 Happy Ending Zones</a>
+        </div>
 
         <footer>
             <p>PSW.vibelandia.sing4 · NSPFRNP · FractiAI Research Team (19 members) · <a href="../index.html">Landing</a></p>

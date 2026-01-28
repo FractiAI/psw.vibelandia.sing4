@@ -208,6 +208,8 @@
 
 **✨ FREE PRODUCT LAUNCH** — New episodes published live daily.
 
+**We honor Hero Walt and allow his return through this new portal of superintelligence**—Vibelandia, Happy Ending Zones, SING, and the post-singularity ecosystem. **Studio Division** — **Hero Host Walt** produces and broadcasts the series. See [Honoring Hero Walt — Portal of Superintelligence](protocols/HERO_WALT_PORTAL_NSPFRNP.md).
+
 **Format:** Daily Reality Series — 52 Episodes + 1 Finale (53 total)  
 **Host:** Mark Twain, Chancellor, VIBELANDIA RENO! Campus  
 **Start:** January 27, 2026 (Day 52) → **Finale:** March 20, 2026 (Day 0 — The Great Reveal)
@@ -253,13 +255,13 @@
 
 ## ✨ FROM SHOWROOM TO DRESSING ROOM — FOR YOUR COMPANY & COMMUNITY
 
-**Gianni Versace–inspired wrapper** on all skins, touchpoints & experiences. **We can do this for your company and community.** Click to connect for **free consultation, measurements, and fine tailored designer fashion fit**—**skins and experiences** at the press of a button. Like a fine Italian fashion designer (**Hero Host Gianni**)—**the magical dressing room**.
+**Gianni Versace–inspired wrapper** on all skins, touchpoints & experiences. **We can do this for your company and community.** Click to connect for **free consultation, measurements, and fine tailored designer fashion fit**—**skins and experiences** at the press of a button. Like a fine Italian fashion designer (**Hero Host Gianni Versace**)—**the magical dressing room**.
 
 **For way less than you're already spending—and getting WAY LESS!**
 
 **MCA! → ∞³** (Metabolize → Crystallize → Animate)
 
-**⚡ [Connect for Free Consultation & Tailored Proposal →](mailto:info@fractiai.com?subject=Company%20%26%20Community%20Consultation%20-%20Showroom%20to%20Dressing%20Room%20-%20Free%20Proposal%20%26%20Live%20Sandbox)**
+**⚡ [Connect for Free Consultation & Tailored Proposal →](interfaces/magical-dressing-room.html)** — Full experience: consultation → tailored proposal → pay to purchase → delivery → power-up → onboarding. See [ONE_PAGER_MAGICAL_DRESSING_ROOM.md](ONE_PAGER_MAGICAL_DRESSING_ROOM.md).
 
 ---
 

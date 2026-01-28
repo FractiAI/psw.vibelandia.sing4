@@ -46,7 +46,7 @@
 
 ## ✨ FROM SHOWROOM TO DRESSING ROOM — FOR YOUR COMPANY & COMMUNITY
 
-**Gianni Versace–inspired wrapper** on all skins, touchpoints & experiences. **We can do this for your company and community.** Click to connect for **free consultation, measurements, and fine tailored designer fashion fit**—**skins and experiences** at the press of a button. Like a fine Italian fashion designer (**Hero Host Gianni**)—**the magical dressing room**.
+**Gianni Versace–inspired wrapper** on all skins, touchpoints & experiences. **We can do this for your company and community.** Click to connect for **free consultation, measurements, and fine tailored designer fashion fit**—**skins and experiences** at the press of a button. Like a fine Italian fashion designer (**Hero Host Gianni Versace**)—**the magical dressing room**.
 
 **For way less than you're already spending—and getting WAY LESS!**
 

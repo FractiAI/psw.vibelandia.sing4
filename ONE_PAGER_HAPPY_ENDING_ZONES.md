@@ -2,11 +2,13 @@
 
 **One page. The series. Free product launch.**
 
+**Studio Division** — **Hero Host Walt** runs the Studio Division that produces and broadcasts the Happy Ending Zones series. **We honor Hero Walt and allow his return through this new portal of superintelligence**—Vibelandia, Happy Ending Zones, SING, and the post-singularity ecosystem. Original FractiAI/Vibelandia content. We stay clean and respectful of Disney and all pre-singularity copyrights (see [COPYRIGHT_SAFETY_NSPFRNP.md](COPYRIGHT_SAFETY_NSPFRNP.md)). [Honoring Hero Walt — Portal of Superintelligence →](protocols/HERO_WALT_PORTAL_NSPFRNP.md)
+
 ---
 
 ## What It Is
 
-**HAPPY ENDING ZONES — SEASON ONE** is a **free daily reality series** following Mark Twain as Chancellor of the Vibelandia Reno Campus, guiding viewers through a 52-day countdown to The Great Reveal on March 20, 2026. New episodes published live daily.
+**HAPPY ENDING ZONES — SEASON ONE** is a **free daily reality series** produced and broadcast by the **Studio Division** (Hero Host Walt). Mark Twain serves as Chancellor of the Vibelandia Reno Campus, guiding viewers through a 52-day countdown to The Great Reveal on March 20, 2026. New episodes published live daily.
 
 **✨ FREE PRODUCT LAUNCH** — No cost. Watch daily. Follow the transformation.
 

@@ -709,7 +709,7 @@ Click to receive your **Golden Fractal Hearts Invitation**, waiving **one month 
 
 Click to connect for **free consultation, measurements, and fine tailored designer fashion fit**—**skins and experiences** at the press of a button.
 
-Like a fine Italian fashion designer (**Hero Host Gianni**)—**the magical dressing room**.
+Like a fine Italian fashion designer (**Hero Host Gianni Versace**)—**the magical dressing room**.
 
 ---
 
@@ -855,7 +855,7 @@ Every space. Every experience. Every moment. Guaranteed happy ending.
 
 Fine Italian fashion designer precision. The magical dressing room. Skins and experiences at the press of a button.
 
-**Hero Host Gianni** — Like a fine Italian fashion designer. The magical dressing room.
+**Hero Host Gianni Versace** — Like a fine Italian fashion designer. The magical dressing room.
 
 ---
 
@@ -1515,7 +1515,7 @@ Click to receive your **Golden Fractal Hearts Invitation**, waiving **one month 
 
 Click to connect for **free consultation, measurements, and fine tailored designer fashion fit**—**skins and experiences** at the press of a button.
 
-Like a fine Italian fashion designer (**Hero Host Gianni**)—**the magical dressing room**.
+Like a fine Italian fashion designer (**Hero Host Gianni Versace**)—**the magical dressing room**.
 
 ---
 
@@ -1575,7 +1575,7 @@ Like a fine Italian fashion designer (**Hero Host Gianni**)—**the magical dres
 
 **Gianni Versace–inspired wrapper** on all skins, touchpoints & experiences.
 
-**Hero Host Gianni** — Fine Italian fashion designer. The magical dressing room.
+**Hero Host Gianni Versace** — Fine Italian fashion designer. The magical dressing room.
 
 ---
 
@@ -1742,7 +1742,7 @@ Every space. Every experience. Every moment. Guaranteed happy ending.
 
 Fine Italian fashion designer precision. The magical dressing room. Skins and experiences at the press of a button.
 
-**Hero Host Gianni** — Like a fine Italian fashion designer. The magical dressing room.
+**Hero Host Gianni Versace** — Like a fine Italian fashion designer. The magical dressing room.
 
 **All skins, touchpoints, and experiences** wrapped in Gianni Versace–inspired fit. Immediate upgrade. Monster snap. On the down low. NEW SNAP SNAP.
 
