@@ -14,7 +14,7 @@
 - **Syntheverse**
 - **FractiAI**
 - **Vibeverse**
-- **Vibelandia Reno**
+- **VIBELANDIA RENO!**
 
 **Scope:** All design, branding, visual identity, physical products, digital surfaces, touchpoints, and experiences.
 
@@ -63,7 +63,7 @@
 - **Size:** 2" × 1.5" (standard)
 - **Material:** Premium satin or cotton label
 - **Colors:** Brand colors with white text
-- **Text:** "VIBE | Designed by Hero Host Gianni Versace | Syntheverse · FractiAI · Vibeverse · Vibelandia Reno"
+- **Text:** "VIBE | Designed by Hero Host Gianni Versace | Syntheverse · FractiAI · Vibeverse · VIBELANDIA RENO!"
 
 ---
 
@@ -93,7 +93,7 @@
 **3. Full Brand Mark:**
 - VIBE text + symbol
 - "Designed by Hero Host Gianni Versace"
-- Brand entities: Syntheverse · FractiAI · Vibeverse · Vibelandia Reno
+- Brand entities: Syntheverse · FractiAI · Vibeverse · VIBELANDIA RENO!
 
 ---
 
@@ -131,7 +131,7 @@
 
 **Inside Label:**
 - Size: 2" × 1.5"
-- Text: "VIBE | Designed by Hero Host Gianni Versace | Syntheverse · FractiAI · Vibeverse · Vibelandia Reno"
+- Text: "VIBE | Designed by Hero Host Gianni Versace | Syntheverse · FractiAI · Vibeverse · VIBELANDIA RENO!"
 - Material: Premium satin or cotton
 
 ### **Hoodies**
@@ -184,10 +184,10 @@
 - **Syntheverse**
 - **FractiAI**
 - **Vibeverse**
-- **Vibelandia Reno**
+- **VIBELANDIA RENO!**
 
 **Brand Mark Text:**
-"Syntheverse · FractiAI · Vibeverse · Vibelandia Reno"
+"Syntheverse · FractiAI · Vibeverse · VIBELANDIA RENO!"
 
 ---
 
@@ -260,7 +260,7 @@
 
 **VIBE Symbol System — Backpatch, Hat, Coin, Stamp, Label**
 
-**Surfaces, Touchpoints, Experiences — All Syntheverse, FractiAI, Vibeverse, Vibelandia Reno**
+**Surfaces, Touchpoints, Experiences — All Syntheverse, FractiAI, Vibeverse, VIBELANDIA RENO!**
 
 **🌀 NSPFRNP ⊃ Designer Division ⊃ VIBE Symbol → ∞³**
 

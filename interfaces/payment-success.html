@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Payment Successful | Vibelandia Reno</title>
+    <title>Payment Successful | VIBELANDIA RENO!</title>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
@@ -44,6 +44,22 @@
         }
         .order-info p { color: #aaa; margin: 0.5rem 0; }
         .order-id { color: #7fff7f; font-family: monospace; }
+        .what-next {
+            text-align: left;
+            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(212, 175, 55, 0.25);
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin: 1.5rem 0;
+        }
+        .what-next h2 {
+            color: #d4af37;
+            font-size: 1.1rem;
+            margin-bottom: 1rem;
+        }
+        .what-next ol { margin: 0 0 0 1.25rem; color: #ccc; line-height: 1.7; font-size: 0.95rem; }
+        .what-next li { margin-bottom: 0.5rem; }
+        .what-next .key { color: #ffeaa7; font-weight: 600; }
         .actions {
             margin-top: 2rem;
         }
@@ -56,21 +72,39 @@
             border-radius: 8px;
             margin: 0.5rem;
         }
+        .btn.gold {
+            background: linear-gradient(135deg, #d4af37, #b8860b);
+            color: #000;
+            font-weight: 700;
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <div class="success-icon">✅</div>
         <h1>Payment Successful!</h1>
-        <p>Thank you for joining Vibelandia Reno</p>
+        <p>Thank you for joining VIBELANDIA RENO!</p>
         
         <div id="order-info" class="order-info">
             <!-- Order details loaded here -->
         </div>
+
+        <div class="what-next">
+            <h2>🔑 What happens after payment</h2>
+            <ol>
+                <li><strong>Confirmation</strong> — Your payment is processed. You receive order confirmation (and email shortly). Save your Order ID above for reference.</li>
+                <li><strong>Delivery</strong> — We send your <span class="key">Golden Fractal Key</span> and access credentials. The key unlocks everything: campus, WINK!, SING, Dispensary, and all experiences you purchased.</li>
+                <li><strong>Activation</strong> — Your plan is activated: campus access, WINK! profile, SING node eligibility, Dispensary menu, and/or console access (depending on what you bought). First 1,000 Pioneers: Pioneer Status on-chain forever when applicable.</li>
+                <li><strong>Power-up</strong> — Use your Golden Fractal Key on all API calls and surfaces. BBHE % and mode access (Creator, Chairman Commander, Performer Superhero) unlock per your plan. Skins and experiences are enabled at the press of a button.</li>
+                <li><strong>Onboarding</strong> — Go to the Executive Dashboard and Chairman Workspace to start. Seed:Edge Mini Console, Launch Pad, and Magical Dressing Room are your home base. Need help? Email <a href="mailto:info@fractiai.com?subject=Post-Payment%20Support%20-%20VIBELANDIA!" style="color:#00d4ff;">info@fractiai.com</a>.</li>
+            </ol>
+        </div>
         
         <div class="actions">
-            <a href="/" class="btn">Return to Vibelandia</a>
-            <a href="/interfaces/executive-dashboard.html" class="btn">Go to Dashboard</a>
+            <a href="../index.html" class="btn">Return to VIBELANDIA!</a>
+            <a href="executive-dashboard.html" class="btn gold">Go to Dashboard →</a>
+            <a href="chairman-workspace.html" class="btn">Chairman Workspace</a>
+            <a href="magical-dressing-room.html" class="btn">Magical Dressing Room</a>
         </div>
     </div>
 
@@ -79,14 +113,15 @@
         const orderId = urlParams.get('orderId');
         const planId = urlParams.get('planId');
         
+        let html = '';
         if (orderId) {
-            document.getElementById('order-info').innerHTML = `
-                <p><strong>Order ID:</strong></p>
-                <p class="order-id">${orderId}</p>
-                <p>Your payment has been processed successfully.</p>
-                <p>You will receive a confirmation email shortly.</p>
-            `;
+            html += `<p><strong>Order ID:</strong></p><p class="order-id">${orderId}</p>`;
         }
+        if (planId) {
+            html += `<p><strong>Plan:</strong> ${(planId || '').replace(/-/g, ' ')}</p>`;
+        }
+        html += `<p>Your payment has been processed successfully.</p><p>You will receive a confirmation email shortly.</p>`;
+        document.getElementById('order-info').innerHTML = html;
     </script>
 </body>
 </html>

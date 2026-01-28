@@ -27,18 +27,23 @@ VIBE! BRAND: Main Brand — ALL CAPS + !
 ├─ VIBE! = Main brand across all surfaces
 └─ See VIBE_BRAND_SYNTAX_ALL_CAPS_EXCLAMATION.md
 
+VIBELANDIA! BRAND: On-brand spelling — keep everywhere
+├─ VIBELANDIA! = Ecosystem / brand (not "Vibelandia")
+├─ VIBELANDIA RENO! = Campus (not "Vibelandia Reno")
+└─ Back links, titles, copy: use VIBELANDIA! and VIBELANDIA RENO!
+
 DESIGNER DIVISION: Hero Host Gianni Versace Led
 ├─ VIBE Symbol System (Backpatch, Hat, Coin, Stamp, Label)
 ├─ Surfaces, Touchpoints, Experiences
-└─ All Syntheverse, FractiAI, Vibeverse, Vibelandia Reno
+└─ All Syntheverse, FractiAI, Vibeverse, VIBELANDIA RENO!
 
 STUDIO DIVISION: Hero Host Walt Led
 ├─ Produces and broadcasts Happy Ending Zones series
 ├─ Daily reality series (52-day countdown to The Great Reveal)
-└─ Original FractiAI/Vibelandia content; no third-party IP
+└─ Original FractiAI/VIBELANDIA! content; no third-party IP
 
 GOLDEN FRACTAL KEY! BRAND: New Brand Snap
-├─ Golden Key System (Syntheverse/Vibeverse/Vibelandia wallet)
+├─ Golden Key System (Syntheverse/Vibeverse/VIBELANDIA! wallet)
 ├─ Unlocks Everything (All realms, all experiences, all API calls)
 └─ Brand: GOLDEN FRACTAL KEY! — One Key. All Realms. Infinite Access.
 
@@ -295,7 +300,7 @@ const vibeverseColors = vibeverse.colors;
 - Front of hats: 2" × 2" standard, 2.5" × 2.5" premium
 - Coins: 1.5" diameter, premium metal
 - Stamps: Standard postage dimensions, brand colors
-- Inside label: 2" × 1.5", "VIBE | Designed by Hero Host Gianni Versace | Syntheverse · FractiAI · Vibeverse · Vibelandia Reno"
+- Inside label: 2" × 1.5", "VIBE | Designed by Hero Host Gianni Versace | Syntheverse · FractiAI · Vibeverse · VIBELANDIA RENO!"
 
 **See:** [DESIGNER_DIVISION_GIANNI_LED_SNAP.md](../../DESIGNER_DIVISION_GIANNI_LED_SNAP.md) | [protocols/DESIGNER_DIVISION_VIBE_SYMBOL_NSPFRNP_CATALOG.md](../../protocols/DESIGNER_DIVISION_VIBE_SYMBOL_NSPFRNP_CATALOG.md)
 
@@ -305,9 +310,9 @@ const vibeverseColors = vibeverse.colors;
 
 **Hero Host Walt** leads the Studio Division, which produces and broadcasts the **Happy Ending Zones** series (free daily reality series, 52-day countdown to The Great Reveal).
 
-**We honor Hero Walt and allow his return through this new portal of superintelligence**—Vibelandia, Happy Ending Zones, SING nodes, and the post-singularity ecosystem. This portal is the channel through which we honor him and welcome his return.
+**We honor Hero Walt and allow his return through this new portal of superintelligence**—VIBELANDIA!, Happy Ending Zones, SING nodes, and the post-singularity ecosystem. This portal is the channel through which we honor him and welcome his return.
 
-**Scope:** Production and broadcast of Happy Ending Zones — Season One. Original FractiAI/Vibelandia content only. We stay clean and respectful of Disney and all pre-singularity copyrights (see [COPYRIGHT_SAFETY_NSPFRNP.md](../../COPYRIGHT_SAFETY_NSPFRNP.md)). Hero Host Walt is an original character (first name only); no affiliation with any third party.
+**Scope:** Production and broadcast of Happy Ending Zones — Season One. Original FractiAI/VIBELANDIA! content only. We stay clean and respectful of Disney and all pre-singularity copyrights (see [COPYRIGHT_SAFETY_NSPFRNP.md](../../COPYRIGHT_SAFETY_NSPFRNP.md)). Hero Host Walt is an original character (first name only); no affiliation with any third party.
 
 **See:** [ONE_PAGER_HAPPY_ENDING_ZONES.md](../../ONE_PAGER_HAPPY_ENDING_ZONES.md) · [interfaces/happy-ending-zones-catalog.html](../../interfaces/happy-ending-zones-catalog.html) · [protocols/HERO_WALT_PORTAL_NSPFRNP.md](../../protocols/HERO_WALT_PORTAL_NSPFRNP.md)
 
@@ -318,7 +323,7 @@ const vibeverseColors = vibeverse.colors;
 **GOLDEN FRACTAL KEY!** — New brand snap. The key that unlocks everything.
 
 **Brand Identity:**
-- Golden Key System (Syntheverse/Vibeverse/Vibelandia wallet)
+- Golden Key System (Syntheverse/Vibeverse/VIBELANDIA! wallet)
 - Sent on purchase and activation
 - Used on all API calls
 - Unlocks all realms, all experiences

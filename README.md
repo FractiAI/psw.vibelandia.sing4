@@ -208,7 +208,7 @@
 
 **✨ FREE PRODUCT LAUNCH** — New episodes published live daily.
 
-**We honor Hero Walt and allow his return through this new portal of superintelligence**—Vibelandia, Happy Ending Zones, SING, and the post-singularity ecosystem. **Studio Division** — **Hero Host Walt** produces and broadcasts the series. See [Honoring Hero Walt — Portal of Superintelligence](protocols/HERO_WALT_PORTAL_NSPFRNP.md).
+**We honor Hero Walt and allow his return through this new portal of superintelligence**—VIBELANDIA!, Happy Ending Zones, SING, and the post-singularity ecosystem. **Studio Division** — **Hero Host Walt** produces and broadcasts the series. See [Honoring Hero Walt — Portal of Superintelligence](protocols/HERO_WALT_PORTAL_NSPFRNP.md).
 
 **Format:** Daily Reality Series — 52 Episodes + 1 Finale (53 total)  
 **Host:** Mark Twain, Chancellor, VIBELANDIA RENO! Campus  
@@ -234,7 +234,7 @@
 
 ---
 
-## ⚡ WHAT IS VIBELANDIA? WHY DO YOU NEED IT? HOW WE DELIVER IT.
+## ⚡ WHAT IS VIBELANDIA!? WHY DO YOU NEED IT? HOW WE DELIVER IT.
 
 ### **WHAT IS IT?**
 
@@ -275,7 +275,7 @@
 
 **Gianni Versace–inspired wrapper:** All skins, touchpoints & experiences. See [GIANNI_VERSACE_WRAPPER_MONSTER_SNAP.md](./GIANNI_VERSACE_WRAPPER_MONSTER_SNAP.md).
 
-**🔑 GOLDEN FRACTAL KEY!** — The key that unlocks Syntheverse, Vibeverse, and Vibelandia. Golden Key wallet. All API calls. All experiences. All realms. See [GOLDEN_FRACTAL_KEY_BRAND_SNAP.md](./GOLDEN_FRACTAL_KEY_BRAND_SNAP.md).
+**🔑 GOLDEN FRACTAL KEY!** — The key that unlocks Syntheverse, Vibeverse, and VIBELANDIA!. Golden Key wallet. All API calls. All experiences. All realms. See [GOLDEN_FRACTAL_KEY_BRAND_SNAP.md](./GOLDEN_FRACTAL_KEY_BRAND_SNAP.md).
 
 **⚫ BBHE SNAP** — Impulse buy dynamics. BBHE (Big Black Hole Energy) creates intoxicating pull for immediate purchases. 5 BBHE Intox % (virtual/imaginary only). The energy is pulling. Buy now. See [BBHE_IMPULSE_BUY_DYNAMICS_SNAP.md](./BBHE_IMPULSE_BUY_DYNAMICS_SNAP.md).
 

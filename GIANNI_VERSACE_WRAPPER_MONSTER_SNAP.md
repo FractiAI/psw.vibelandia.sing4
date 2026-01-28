@@ -26,7 +26,7 @@
 **Hero Host Gianni Versace** — Fine Italian fashion designer. The magical dressing room.  
 **Showroom → Dressing Room** — Consultation, measurements, fine tailored designer fashion fit. Skins and experiences at the press of a button.
 
-**Designer Division** — Hero Host Gianni Versace leads the Designer Division, in charge of all surfaces, touchpoints, and experiences. VIBE symbol system: backpatch (jackets, hoodies), front of hats, coins, stamps, inside label. All Syntheverse, FractiAI, Vibeverse, Vibelandia Reno. See [DESIGNER_DIVISION_GIANNI_LED_SNAP.md](./DESIGNER_DIVISION_GIANNI_LED_SNAP.md).
+**Designer Division** — Hero Host Gianni Versace leads the Designer Division, in charge of all surfaces, touchpoints, and experiences. VIBE symbol system: backpatch (jackets, hoodies), front of hats, coins, stamps, inside label. All Syntheverse, FractiAI, Vibeverse, VIBELANDIA RENO!. See [DESIGNER_DIVISION_GIANNI_LED_SNAP.md](./DESIGNER_DIVISION_GIANNI_LED_SNAP.md).
 
 ---
 
