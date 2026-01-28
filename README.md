@@ -7,7 +7,7 @@
 
 ## 🌍 MULTI-LANGUAGE ON-RAMP
 
-**English** | **Español** | **中文** | **日本語** | **Français** | **Deutsch** | **Português** | **العربية** | **Русский** | **हिन्दी**
+**[English](README.md)** | **[Español](README.es.md)** | **[中文](README.zh.md)** | **[日本語](README.ja.md)** | **[Français](README.fr.md)** | **[Deutsch](README.de.md)** | **[Português](README.pt.md)** | **[العربية](README.ar.md)** | **[Русский](README.ru.md)** | **[हिन्दी](README.hi.md)**
 
 *Select your language to begin. All content available in all languages. Natural protocol translation active.*
 
