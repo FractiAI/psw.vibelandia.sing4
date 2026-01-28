@@ -15,7 +15,7 @@
 
 ## ⚠️ **SYNTHEVERSE: IMAGINARY/ENTERTAINMENT ONLY**
 
-**Syntheverse is IMAGINARY/ENTERTAINMENT ONLY - like reading a book, playing a game, or watching a movie.**
+**Syntheverse is IMAGINARY/ENTERTAINMENT ONLY - like reading a VERY! good book, watching a VERY! good movie, playing a VERY! good game, and having a VERY! good time.**
 
 **⚠️ INTOXICATION EFFECTS: Syntheverse DOES cause intoxication effects (simulated/virtual/imaginary only). These effects are part of the imaginary/entertainment experience and are NOT real substances.**
 
