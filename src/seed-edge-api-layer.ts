@@ -9,6 +9,7 @@
  */
 
 import { IrreducibleSeed, VibeverseEdge } from './seed-edge-execution-engine';
+import { getOctave1Edge } from './octave-1-operational';
 
 export interface SeedEdgeAPICall {
   seed?: IrreducibleSeed | string; // Optional, can be empty/default
@@ -44,7 +45,7 @@ export class SeedEdgeAPILayer {
   constructor(config?: Partial<SeedEdgeAPIConfig>) {
     this.config = {
       defaultSeed: undefined, // Can remain empty
-      defaultEdge: undefined, // Can remain empty
+      defaultEdge: getOctave1Edge(), // Octave 1 = Edge operational now
       autoGenerateNodes: true,
       nodePrefix: 'api_node_',
       ...config

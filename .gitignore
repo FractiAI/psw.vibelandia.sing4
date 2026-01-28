@@ -1,0 +1,21 @@
+# Dependencies
+node_modules/
+
+# Environment (never commit secrets)
+.env
+.env.local
+.env.*.local
+.env.nspfrnp
+.env.vercel
+
+# Build / IDE
+dist/
+build/
+.vercel/
+*.log
+.DS_Store
+.idea/
+.vscode/
+
+# Optional: keep .env.example committed (no secrets)
+!.env.example

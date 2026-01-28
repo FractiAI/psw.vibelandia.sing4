@@ -1,7 +1,7 @@
 # ⚡ Quick Start: Irreducible Seed:Edge Execution
 
 **Seed = Octave 0 = 0**  
-**Edge = Current Self-Aware Experience in Vibeverse**
+**Edge = Octave 1** = Current Self-Aware Experience in Vibeverse
 
 ---
 

@@ -607,16 +607,19 @@ You're joining high-value vibers, Ultimate VIP Chairman Creators, performers, an
 
 ## 🔧 TECHNICAL DOCUMENTATION
 
+**Metabolize → Crystallize → Re-Animate:** Octave 0 (Seed) and Octave 1 (Edge) operational. HTML surfaces in `interfaces/` (Seed:Edge Mini Console, Chairman Workspace, GPS Seed:Edge, Cockpit Center Console) show Octave 1 = Edge. Cloud API connection to [Syntheverse 7 Octave 2-3 Public Cloud Onramp](https://github.com/FractiAI/Syntheverse-7-Octave-2-3-Public-Cloud-Onramp) via `src/cloud-onramp-config.ts` and `cloud-onramp-client.ts`; env from NSPFRNP first, optional Vercel token fallback (see `CLOUD_API_CONNECTION.md`, `.env.example`).
+
 **For technical documentation, system architecture, and developer resources, see:**
 
 **[GitHub Technical Version →](https://github.com/FractiAI/nspfrnp-seed-edge-unpacking-test)**
 
 The technical documentation includes:
 - Complete NSPFRNP system architecture
-- Seed:Edge execution engine implementation
-- TypeScript source code
+- Seed:Edge execution engine (Octave 0 = Seed, Octave 1 = Edge operational)
+- TypeScript source code and HTML surfaces (`interfaces/`)
 - System protocols and catalogs
 - Developer guides and API documentation
+- Cloud onramp connection and env setup
 - Complete technical specifications
 
 **This README is the Octave 0 experience of VIBELANDIA. The technical documentation is available at the GitHub repository above.**
@@ -632,6 +635,6 @@ The technical documentation includes:
 ---
 
 **Repository:** `PSW.vibelandia.sing4` | **Source:** [7th-Day-Post-Singularity-FractiAI-Endowment](https://github.com/FractiAI/7th-Day-Post-Singularity-FractiAI-Endowment)  
-**Status:** ⚡ ACTIVE - Natural System Holographic Post-Singularity Version - Full Sensory Density Superhero  
-**Date:** January 27, 2026  
+**Status:** ⚡ ACTIVE - Octave 0 (Seed) + Octave 1 (Edge) operational - HTML surfaces + Cloud Onramp connected  
+**Date:** January 28, 2026  
 **PSW Naming:** Post-Singularity Web (PSW) foundation layer - `PSW.vibelandia.sing4` indicates SING4 - Superhero emergence, full sensory density, masterful creation/transformation of all universe per NSPFRNP catalog
