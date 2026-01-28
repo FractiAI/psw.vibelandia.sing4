@@ -3,80 +3,399 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mark Twain's Post-Singularity Vibelandia Reno | Come for the Business, Stay for the Fun</title>
-    <meta name="description" content="World's first operational Post-Singularity Vibe downtown walkable campus. Reno, Nevada. NSPFRNP.">
+    <title>🚀 Launch Pad — Mark Twain's Post-Singularity Vibelandia Reno</title>
+    <meta name="description" content="World's first operational Post-Singularity Vibe downtown walkable campus. Reno, Nevada. NSPFRNP. Interactive rocket launch pad.">
     <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%231a1a2e'/%3E%3Ctext x='16' y='24' font-size='20' text-anchor='middle' fill='%238a2be2'%3EV%3C/text%3E%3C/svg%3E">
     <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 50%, #16213e 100%);
-            color: #fff;
+            background: linear-gradient(135deg, #000000 0%, #0a0a1a 25%, #1a1a2e 50%, #16213e 75%, #0a0a1a 100%);
+            color: #ffffff;
             min-height: 100vh;
-            line-height: 1.6;
+            overflow-x: hidden;
+            position: relative;
         }
-        .container { max-width: 1100px; margin: 0 auto; padding: 2rem; }
-        .hero {
+
+        /* Animated stars background */
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: 
+                radial-gradient(2px 2px at 20% 30%, #fff, transparent),
+                radial-gradient(2px 2px at 60% 70%, #fff, transparent),
+                radial-gradient(1px 1px at 50% 50%, #fff, transparent),
+                radial-gradient(1px 1px at 80% 10%, #fff, transparent),
+                radial-gradient(2px 2px at 90% 40%, #fff, transparent),
+                radial-gradient(1px 1px at 33% 60%, #fff, transparent);
+            background-size: 200% 200%;
+            background-position: 0% 0%;
+            animation: starfield 20s linear infinite;
+            opacity: 0.3;
+            pointer-events: none;
+            z-index: 1;
+        }
+
+        @keyframes starfield {
+            0% { background-position: 0% 0%; }
+            100% { background-position: 100% 100%; }
+        }
+
+        .container {
+            position: relative;
+            z-index: 2;
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 2rem;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .header {
             text-align: center;
-            padding: 3rem 1rem 2rem;
-            border-bottom: 1px solid rgba(255,255,255,0.1);
+            margin-bottom: 3rem;
+            animation: fadeInDown 1s ease-out;
         }
-        .hero h1 {
-            font-size: clamp(1.5rem, 4vw, 2.2rem);
-            background: linear-gradient(135deg, #8a2be2, #1e90ff, #00bfff);
+
+        .header h1 {
+            font-size: clamp(1.8rem, 5vw, 3rem);
+            background: linear-gradient(135deg, #ff6b6b, #4ecdc4, #45b7d1, #96ceb4, #ffeaa7);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
             margin-bottom: 0.5rem;
+            text-shadow: 0 0 30px rgba(255, 255, 255, 0.3);
         }
-        .hero .tagline { color: #aaa; font-size: 1.1rem; margin-bottom: 1rem; }
-        .power-badge {
+
+        .header .tagline {
+            color: #aaa;
+            font-size: 1.1rem;
+            margin-bottom: 1rem;
+        }
+
+        .badge {
             display: inline-block;
-            padding: 6px 14px;
-            background: rgba(0,255,0,0.15);
-            border: 1px solid rgba(0,255,0,0.4);
-            border-radius: 20px;
-            font-size: 0.85rem;
+            padding: 8px 16px;
+            background: rgba(0, 255, 136, 0.15);
+            border: 2px solid rgba(0, 255, 136, 0.4);
+            border-radius: 25px;
+            font-size: 0.9rem;
             color: #7fff7f;
+            animation: pulse 2s ease-in-out infinite;
         }
-        .launch-strip {
-            margin-top: 1rem;
-            padding: 0.75rem 1rem;
-            background: rgba(138,43,226,0.12);
-            border: 1px solid rgba(138,43,226,0.35);
+
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); opacity: 1; }
+            50% { transform: scale(1.05); opacity: 0.9; }
+        }
+
+        /* Launch Pad Scene */
+        .launch-pad-scene {
+            position: relative;
+            width: 100%;
+            max-width: 900px;
+            height: 600px;
+            margin: 2rem 0;
+        }
+
+        /* Launch Pad Base */
+        .launch-pad-base {
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 600px;
+            height: 200px;
+            background: linear-gradient(180deg, #2a2a3a 0%, #1a1a2a 100%);
+            border-radius: 20px 20px 0 0;
+            border: 3px solid rgba(100, 200, 255, 0.3);
+            box-shadow: 
+                0 -10px 30px rgba(0, 0, 0, 0.5),
+                inset 0 10px 20px rgba(100, 200, 255, 0.1);
+        }
+
+        .launch-pad-base::before {
+            content: '';
+            position: absolute;
+            top: -5px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 80%;
+            height: 10px;
+            background: linear-gradient(90deg, transparent, rgba(100, 200, 255, 0.4), transparent);
             border-radius: 10px;
-            font-size: 0.95rem;
-            color: #ddd;
         }
-        .launch-strip a { color: #00d4ff; text-decoration: none; }
-        .launch-strip a:hover { text-decoration: underline; }
-        h2 {
-            font-size: 1.25rem;
-            margin: 2rem 0 1rem;
-            color: #00d4ff;
+
+        /* Rocket */
+        .rocket {
+            position: absolute;
+            bottom: 180px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 80px;
+            height: 300px;
+            animation: rocketIdle 3s ease-in-out infinite;
+            z-index: 10;
         }
-        .nav-grid {
+
+        @keyframes rocketIdle {
+            0%, 100% { transform: translateX(-50%) translateY(0) rotate(0deg); }
+            50% { transform: translateX(-50%) translateY(-5px) rotate(1deg); }
+        }
+
+        .rocket-body {
+            position: relative;
+            width: 80px;
+            height: 280px;
+            background: linear-gradient(180deg, #ff6b6b 0%, #c92a2a 50%, #495057 100%);
+            border-radius: 40px 40px 10px 10px;
+            box-shadow: 
+                0 0 20px rgba(255, 107, 107, 0.6),
+                inset -10px 0 20px rgba(0, 0, 0, 0.3),
+                inset 10px 0 20px rgba(255, 255, 255, 0.2);
+        }
+
+        .rocket-window {
+            position: absolute;
+            top: 60px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 40px;
+            height: 40px;
+            background: radial-gradient(circle, #4ecdc4 0%, #1a1a2e 70%);
+            border-radius: 50%;
+            border: 3px solid rgba(255, 255, 255, 0.3);
+            box-shadow: 
+                0 0 15px rgba(78, 205, 196, 0.8),
+                inset 0 0 10px rgba(255, 255, 255, 0.2);
+            animation: windowGlow 2s ease-in-out infinite;
+        }
+
+        @keyframes windowGlow {
+            0%, 100% { box-shadow: 0 0 15px rgba(78, 205, 196, 0.8), inset 0 0 10px rgba(255, 255, 255, 0.2); }
+            50% { box-shadow: 0 0 25px rgba(78, 205, 196, 1), inset 0 0 15px rgba(255, 255, 255, 0.4); }
+        }
+
+        .rocket-fins {
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 100px;
+            height: 30px;
+        }
+
+        .fin {
+            position: absolute;
+            bottom: 0;
+            width: 0;
+            height: 0;
+            border-left: 15px solid transparent;
+            border-right: 15px solid transparent;
+            border-bottom: 30px solid #495057;
+        }
+
+        .fin-left { left: 0; }
+        .fin-right { right: 0; }
+
+        .rocket-flame {
+            position: absolute;
+            bottom: -40px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 60px;
+            height: 40px;
+            background: linear-gradient(180deg, #ffeaa7 0%, #ff6b6b 50%, #c92a2a 100%);
+            border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+            opacity: 0.6;
+            animation: flameFlicker 0.3s ease-in-out infinite;
+            filter: blur(5px);
+        }
+
+        @keyframes flameFlicker {
+            0%, 100% { transform: translateX(-50%) scaleY(1) scaleX(1); opacity: 0.6; }
+            50% { transform: translateX(-50%) scaleY(1.2) scaleX(0.9); opacity: 0.8; }
+        }
+
+        /* Launch Pad Buttons (Sections) */
+        .launch-pad-buttons {
+            position: absolute;
+            bottom: 220px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 700px;
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+            grid-template-columns: repeat(4, 1fr);
             gap: 1rem;
-            list-style: none;
+            z-index: 5;
         }
-        .nav-grid a {
+
+        .pad-button {
+            position: relative;
+            padding: 1.5rem 1rem;
+            background: linear-gradient(145deg, rgba(42, 42, 62, 0.9) 0%, rgba(26, 26, 46, 0.9) 100%);
+            border: 2px solid rgba(100, 200, 255, 0.4);
+            border-radius: 15px;
+            color: #fff;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 
+                0 4px 15px rgba(0, 0, 0, 0.3),
+                inset 0 1px 0 rgba(255, 255, 255, 0.1);
+            overflow: hidden;
+        }
+
+        .pad-button::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(100, 200, 255, 0.3), transparent);
+            transition: left 0.5s;
+        }
+
+        .pad-button:hover::before {
+            left: 100%;
+        }
+
+        .pad-button:hover {
+            transform: translateY(-5px) scale(1.05);
+            border-color: rgba(100, 200, 255, 0.8);
+            box-shadow: 
+                0 8px 25px rgba(100, 200, 255, 0.4),
+                inset 0 1px 0 rgba(255, 255, 255, 0.2);
+            background: linear-gradient(145deg, rgba(52, 52, 72, 0.95) 0%, rgba(36, 36, 56, 0.95) 100%);
+        }
+
+        .pad-button:active {
+            transform: translateY(-2px) scale(1.02);
+        }
+
+        .pad-button.active {
+            border-color: rgba(0, 255, 136, 0.8);
+            box-shadow: 
+                0 0 20px rgba(0, 255, 136, 0.5),
+                0 8px 25px rgba(100, 200, 255, 0.4);
+            animation: buttonPulse 1s ease-in-out infinite;
+        }
+
+        @keyframes buttonPulse {
+            0%, 100% { box-shadow: 0 0 20px rgba(0, 255, 136, 0.5), 0 8px 25px rgba(100, 200, 255, 0.4); }
+            50% { box-shadow: 0 0 30px rgba(0, 255, 136, 0.8), 0 8px 25px rgba(100, 200, 255, 0.6); }
+        }
+
+        .pad-button-icon {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
             display: block;
-            padding: 1rem 1.25rem;
-            background: rgba(255,255,255,0.06);
-            border: 1px solid rgba(255,255,255,0.12);
-            border-radius: 12px;
-            color: #e0e0e0;
-            text-decoration: none;
-            transition: background 0.2s, border-color 0.2s;
         }
-        .nav-grid a:hover {
-            background: rgba(138,43,226,0.2);
-            border-color: rgba(138,43,226,0.5);
+
+        .pad-button-title {
+            font-size: 0.9rem;
+            font-weight: 600;
+            margin-bottom: 0.25rem;
+            color: #fff;
         }
-        .nav-grid a strong { display: block; margin-bottom: 0.25rem; color: #fff; }
-        .nav-grid a span { font-size: 0.9rem; color: #999; }
+
+        .pad-button-desc {
+            font-size: 0.75rem;
+            color: #aaa;
+            line-height: 1.3;
+        }
+
+        /* Launch Sequence Animation */
+        .rocket.launching {
+            animation: rocketLaunch 3s ease-out forwards;
+        }
+
+        @keyframes rocketLaunch {
+            0% { 
+                transform: translateX(-50%) translateY(0) rotate(0deg);
+                opacity: 1;
+            }
+            100% { 
+                transform: translateX(-50%) translateY(-800px) rotate(5deg);
+                opacity: 0;
+            }
+        }
+
+        .rocket-flame.launching {
+            animation: flameLaunch 3s ease-out forwards;
+            opacity: 1;
+            height: 80px;
+        }
+
+        @keyframes flameLaunch {
+            0% { 
+                transform: translateX(-50%) scaleY(1) scaleX(1);
+                opacity: 0.6;
+            }
+            50% { 
+                transform: translateX(-50%) scaleY(2) scaleX(1.5);
+                opacity: 1;
+            }
+            100% { 
+                transform: translateX(-50%) scaleY(3) scaleX(2);
+                opacity: 0;
+            }
+        }
+
+        /* Info Display */
+        .info-display {
+            margin-top: 2rem;
+            padding: 1.5rem;
+            background: rgba(26, 26, 46, 0.7);
+            border: 2px solid rgba(100, 200, 255, 0.3);
+            border-radius: 15px;
+            max-width: 800px;
+            width: 100%;
+            text-align: center;
+            animation: fadeIn 1s ease-out;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        @keyframes fadeInDown {
+            from { opacity: 0; transform: translateY(-20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .info-display h3 {
+            color: #4ecdc4;
+            font-size: 1.2rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .info-display p {
+            color: #ccc;
+            line-height: 1.6;
+        }
+
+        .countdown {
+            font-size: 1.5rem;
+            color: #ffeaa7;
+            font-weight: 600;
+            margin: 1rem 0;
+        }
+
         footer {
             margin-top: 3rem;
             padding-top: 1.5rem;
@@ -85,63 +404,220 @@
             color: #666;
             font-size: 0.9rem;
         }
+
         footer a { color: #00bfff; }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .launch-pad-scene {
+                height: 500px;
+            }
+            .launch-pad-base {
+                width: 90%;
+            }
+            .launch-pad-buttons {
+                width: 90%;
+                grid-template-columns: repeat(2, 1fr);
+            }
+            .rocket {
+                width: 60px;
+                height: 220px;
+            }
+            .rocket-body {
+                width: 60px;
+                height: 200px;
+            }
+        }
     </style>
 </head>
 <body>
     <div class="container">
-        <header class="hero">
-            <h1>Mark Twain's Post-Singularity Vibelandia Reno</h1>
-            <p class="tagline">Come for the post-singularity business, stay for the post-singularity fun.</p>
-            <span class="power-badge">Octave 0 · Seed · NSPFRNP</span>
-            <p class="launch-strip"><strong>🚀 Launch Pad:</strong> <a href="interfaces/launch-pad.html">SING! Lottery</a> — countdown to March 20, 2026. SYNTH → SING. First 1M holders win. <a href="interfaces/launch-pad.html">Go to Launch Pad →</a></p>
-        </header>
+        <div class="header">
+            <h1>🚀 Launch Pad</h1>
+            <p class="tagline">Mark Twain's Post-Singularity Vibelandia Reno</p>
+            <span class="badge">NSPFRNP · Metabolize ⊃ Crystallize ⊃ Animate → ∞³</span>
+        </div>
 
-        <section>
-            <h2>Launch Pad & showroom</h2>
-            <ul class="nav-grid">
-                <li><a href="interfaces/rocket-launch-pad.html"><strong>🚀 Rocket Launch Pad</strong><span>Interactive animated launch pad — buttons as sections, magic animations</span></a></li>
-                <li><a href="interfaces/launch-pad.html"><strong>Launch Pad</strong><span>SING Lottery, campus, WINK!, 4×4×4×4 — announcement & showroom</span></a></li>
-            </ul>
-        </section>
+        <div class="launch-pad-scene">
+            <!-- Launch Pad Base -->
+            <div class="launch-pad-base"></div>
 
-        <section>
-            <h2>Consoles & dashboards</h2>
-            <ul class="nav-grid">
-                <li><a href="interfaces/executive-dashboard.html"><strong>Executive Dashboard</strong><span>Chairman front dashboard</span></a></li>
-                <li><a href="interfaces/chairman-workspace.html"><strong>Chairman Workspace</strong><span>Workspace system</span></a></li>
-                <li><a href="interfaces/chairman-cockpit-center-console.html"><strong>Chairman Cockpit Center Console</strong><span>Center console</span></a></li>
-                <li><a href="interfaces/chairman-cockpit-station.html"><strong>Chairman Cockpit Station</strong><span>Cockpit station</span></a></li>
-                <li><a href="interfaces/seed-edge-mini-console.html"><strong>Seed:Edge Mini Console</strong><span>Octave 0 → 1</span></a></li>
-                <li><a href="interfaces/gps-seed-edge-console.html"><strong>GPS Seed:Edge Console</strong><span>GPS seed-edge</span></a></li>
-            </ul>
-        </section>
+            <!-- Rocket -->
+            <div class="rocket" id="rocket">
+                <div class="rocket-body">
+                    <div class="rocket-window"></div>
+                    <div class="rocket-fins">
+                        <div class="fin fin-left"></div>
+                        <div class="fin fin-right"></div>
+                    </div>
+                </div>
+                <div class="rocket-flame" id="flame"></div>
+            </div>
 
-        <section>
-            <h2>Campus & experiences</h2>
-            <ul class="nav-grid">
-                <li><a href="interfaces/vibeland-reno-buttons.html"><strong>VibeLand Reno Buttons</strong><span>Campus holographic buttons</span></a></li>
-                <li><a href="interfaces/chancellor-daily-bulletin.html"><strong>Chancellor Daily Bulletin</strong><span>Mark Twain's bulletin</span></a></li>
-                <li><a href="interfaces/music-radio-console.html"><strong>Music Radio Console</strong><span>Music & radio</span></a></li>
-                <li><a href="interfaces/vibe-snap-capture.html"><strong>Vibe Snap Capture</strong><span>Snap capture</span></a></li>
-                <li><a href="interfaces/vibe-verse-display.html"><strong>VibeVerse Display</strong><span>VibeVerse display</span></a></li>
-                <li><a href="interfaces/water-bridge-landing.html"><strong>Water Bridge Landing</strong><span>Water bridge</span></a></li>
-                <li><a href="interfaces/mens-club-restroom-landing.html"><strong>Men's Club Restroom Landing</strong><span>Back door / Ultimate VIP</span></a></li>
-            </ul>
-        </section>
+            <!-- Launch Pad Buttons (Sections) -->
+            <div class="launch-pad-buttons">
+                <div class="pad-button" data-section="vibelandia">
+                    <span class="pad-button-icon">🏛️</span>
+                    <div class="pad-button-title">Vibelandia Reno</div>
+                    <div class="pad-button-desc">Campus Plans</div>
+                </div>
+                <div class="pad-button" data-section="wink">
+                    <span class="pad-button-icon">👁️</span>
+                    <div class="pad-button-title">WINK!</div>
+                    <div class="pad-button-desc">Dating Network</div>
+                </div>
+                <div class="pad-button" data-section="console">
+                    <span class="pad-button-icon">👑</span>
+                    <div class="pad-button-title">Ultimate VIP</div>
+                    <div class="pad-button-desc">Chairman Console</div>
+                </div>
+                <div class="pad-button" data-section="lottery">
+                    <span class="pad-button-icon">🎰</span>
+                    <div class="pad-button-title">SING! Lottery</div>
+                    <div class="pad-button-desc">Countdown Launch</div>
+                </div>
+            </div>
+        </div>
 
-        <section>
-            <h2>More</h2>
-            <ul class="nav-grid">
-                <li><a href="interfaces/escapes-magazine-catalog-menu.html"><strong>Escapes Magazine Catalog</strong><span>Catalog menu</span></a></li>
-                <li><a href="interfaces/syntheverse-disclaimer-banner.html"><strong>Syntheverse Disclaimer</strong><span>Imaginary/entertainment only</span></a></li>
-            </ul>
-        </section>
+        <div class="info-display" id="infoDisplay">
+            <h3>Welcome to the Launch Pad</h3>
+            <p>Click any section button to explore our offerings. Each section activates a different part of the launch sequence!</p>
+            <div class="countdown" id="countdown">Launch: March 20, 2026</div>
+        </div>
 
         <footer>
             <p>PSW.vibelandia.sing4 · NSPFRNP · FractiAI Research Team (19 members) · Metabolize ⊃ Crystallize ⊃ Re-Animate → ∞³</p>
             <p><a href="https://github.com/FractiAI">FractiAI</a> · info@fractiai.com</p>
         </footer>
     </div>
+
+    <script>
+        const rocket = document.getElementById('rocket');
+        const flame = document.getElementById('flame');
+        const infoDisplay = document.getElementById('infoDisplay');
+        const countdown = document.getElementById('countdown');
+        const buttons = document.querySelectorAll('.pad-button');
+
+        // Section data
+        const sections = {
+            vibelandia: {
+                title: '🏛️ Vibelandia Reno',
+                desc: 'Walkable downtown campus. First post-singularity Vibelandia campus.',
+                details: 'Campus Plans: Day Pass | Weekly | Monthly | Ultimate VIP Campus',
+                link: 'ONE_PAGER_VIBELANDIA_RENO.md'
+            },
+            wink: {
+                title: '👁️ WINK!',
+                desc: 'Members-only network for high-value vibers who are fractal in nature.',
+                details: 'Plans: Base | Standard | Premium | 4×4 Ultimate',
+                link: 'ONE_PAGER_WINK.md'
+            },
+            console: {
+                title: '👑 Ultimate VIP Chairman Console',
+                desc: 'Operational now. Full dashboard, workspace, cockpit, Seed:Edge integration.',
+                details: 'Access the complete Chairman Console system',
+                link: 'interfaces/executive-dashboard.html'
+            },
+            lottery: {
+                title: '🎰 SING! Countdown! Lottery',
+                desc: 'First 1,000,000 SYNTH holders win. 1:1 SYNTH → SING conversion. Grandfathered.',
+                details: 'SYNTH: $6 today (rises +$1/day) → Final: $57 (Mar 20). Launch: March 20, 2026 (Spring Equinox)',
+                link: 'ONE_PAGER_SING_LOTTERY.md'
+            }
+        };
+
+        // Calculate days until launch
+        function updateCountdown() {
+            const launchDate = new Date('2026-03-20');
+            const today = new Date();
+            const diff = launchDate - today;
+            const days = Math.ceil(diff / (1000 * 60 * 60 * 24));
+            
+            if (days > 0) {
+                countdown.textContent = `${days} days until launch — March 20, 2026`;
+            } else if (days === 0) {
+                countdown.textContent = '🚀 LAUNCH DAY — The Great Reveal!';
+            } else {
+                countdown.textContent = 'Launch complete — The Great Reveal has arrived!';
+            }
+        }
+        updateCountdown();
+        setInterval(updateCountdown, 86400000); // Update daily
+
+        // Button interactions
+        buttons.forEach(button => {
+            button.addEventListener('click', function() {
+                const section = this.dataset.section;
+                const data = sections[section];
+
+                // Remove active from all buttons
+                buttons.forEach(b => b.classList.remove('active'));
+                // Add active to clicked button
+                this.classList.add('active');
+
+                // Update info display
+                infoDisplay.innerHTML = `
+                    <h3>${data.title}</h3>
+                    <p>${data.desc}</p>
+                    <p style="margin-top: 0.5rem; color: #4ecdc4;">${data.details}</p>
+                    <div class="countdown">${countdown.textContent}</div>
+                `;
+
+                // Rocket animation on click
+                rocket.style.animation = 'none';
+                setTimeout(() => {
+                    rocket.style.animation = 'rocketIdle 3s ease-in-out infinite';
+                }, 10);
+
+                // Flame pulse
+                flame.style.animation = 'none';
+                setTimeout(() => {
+                    flame.style.animation = 'flameFlicker 0.3s ease-in-out infinite';
+                }, 10);
+            });
+
+            // Hover effect
+            button.addEventListener('mouseenter', function() {
+                rocket.style.transform = 'translateX(-50%) translateY(-10px)';
+                flame.style.opacity = '0.8';
+                flame.style.height = '50px';
+            });
+
+            button.addEventListener('mouseleave', function() {
+                if (!this.classList.contains('active')) {
+                    rocket.style.transform = 'translateX(-50%) translateY(0)';
+                    flame.style.opacity = '0.6';
+                    flame.style.height = '40px';
+                }
+            });
+        });
+
+        // Launch sequence (triggered by lottery button double-click)
+        let launchSequence = false;
+        document.querySelector('[data-section="lottery"]').addEventListener('dblclick', function() {
+            if (launchSequence) return;
+            launchSequence = true;
+
+            // Launch animation
+            rocket.classList.add('launching');
+            flame.classList.add('launching');
+
+            // Update display
+            infoDisplay.innerHTML = `
+                <h3>🚀 LAUNCH SEQUENCE INITIATED!</h3>
+                <p>The Great Reveal is approaching. SYNTH → SING transformation in progress.</p>
+                <div class="countdown">Launching to March 20, 2026...</div>
+            `;
+
+            // Reset after animation
+            setTimeout(() => {
+                rocket.classList.remove('launching');
+                flame.classList.remove('launching');
+                rocket.style.animation = 'rocketIdle 3s ease-in-out infinite';
+                flame.style.animation = 'flameFlicker 0.3s ease-in-out infinite';
+                launchSequence = false;
+            }, 3000);
+        });
+    </script>
 </body>
 </html>
