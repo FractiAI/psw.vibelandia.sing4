@@ -3,63 +3,168 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>🏛️ VIBELANDIA RENO! — Full Experience | VIBELANDIA!</title>
-    <meta name="description" content="VIBELANDIA RENO! — Vibable downtown campus. Half-day $3k · Overnight · Weekly $5k · Monthly $50k. Access & Golden Key · Power-up · Onboarding. SEED:EDGE sing! ATTENTION HEADS AND FILAMENTS.">
+    <title>🏛️ VIBELANDIA RENO! — Chancellor's Bulletin & Menu | VIBELANDIA!</title>
+    <meta name="description" content="VIBELANDIA RENO! — Chancellor's daily bulletin, menu of things to do AND BUY, all establishments: Campus, WINK!, SING!, Happy Ending Zones, Console, Dispensary, expeditions and full magazine catalogs.">
     <link rel="stylesheet" href="experience-common.css">
     <style>
-        .dressing-room-end { margin-top: 2.5rem; padding: 1.5rem; background: rgba(138, 43, 226, 0.08); border: 2px solid rgba(138, 43, 226, 0.3); border-radius: 16px; text-align: center; }
-        .dressing-room-end a { color: #d4af37; font-weight: 600; }
+        .one-page { max-width: 880px; margin: 0 auto; }
+        .bulletin-teaser {
+            background: linear-gradient(145deg, rgba(212, 175, 55, 0.12) 0%, rgba(61, 40, 23, 0.6) 100%);
+            border: 2px solid rgba(212, 175, 55, 0.4);
+            border-radius: 16px;
+            padding: 1.25rem 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+        .bulletin-teaser h2 { color: #d4af37; font-size: 1.2rem; margin-bottom: 0.5rem; }
+        .bulletin-teaser p { color: #f4e4bc; font-size: 0.95rem; margin-bottom: 0.75rem; }
+        .bulletin-teaser a { color: #ffeaa7; font-weight: 600; text-decoration: none; }
+        .bulletin-teaser a:hover { text-decoration: underline; }
+        .menu-section h2 { color: #00d4ff; font-size: 1.15rem; margin: 1.5rem 0 0.75rem; }
+        .establishments { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 0.75rem; margin-bottom: 1.5rem; }
+        .establishment {
+            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(212, 175, 55, 0.25);
+            border-radius: 12px;
+            padding: 1rem;
+        }
+        .establishment h3 { font-size: 1rem; color: #e0e0e0; margin-bottom: 0.35rem; }
+        .establishment p { color: #bbb; font-size: 0.85rem; line-height: 1.4; margin-bottom: 0.5rem; }
+        .establishment a { color: #7fff7f; text-decoration: none; font-size: 0.9rem; }
+        .establishment a:hover { text-decoration: underline; }
+        .establishment .buy { color: #00d4ff; margin-left: 0.5rem; }
+        .expeditions { margin-top: 1.5rem; padding: 1rem; background: rgba(100, 200, 255, 0.08); border: 1px solid rgba(100, 200, 255, 0.3); border-radius: 12px; }
+        .expeditions h2 { color: #7ec8e3; font-size: 1.1rem; margin-bottom: 0.75rem; }
+        .expeditions ul { list-style: none; padding: 0; margin: 0; }
+        .expeditions li { margin-bottom: 0.5rem; }
+        .expeditions a { color: #7ec8e3; text-decoration: none; font-weight: 600; }
+        .expeditions a:hover { text-decoration: underline; }
+        /* Floaters = gifts. See FLOATERS_ALWAYS_GIFTS_SNAP.md */
+        .gift-floater {
+            position: fixed;
+            right: 1rem;
+            bottom: 1rem;
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+            z-index: 9999;
+        }
+        .gift-floater a {
+            display: block;
+            padding: 0.6rem 1rem;
+            background: linear-gradient(145deg, rgba(212, 175, 55, 0.25) 0%, rgba(138, 43, 226, 0.2) 100%);
+            border: 2px solid rgba(212, 175, 55, 0.5);
+            border-radius: 12px;
+            color: #f4e4bc;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.9rem;
+            box-shadow: 0 4px 16px rgba(0,0,0,0.3);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .gift-floater a:hover { transform: translateY(-2px); box-shadow: 0 6px 20px rgba(212, 175, 55, 0.3); }
+        .gift-floater .gift-line { display: block; font-size: 0.75rem; color: #d4af37; font-weight: normal; margin-top: 0.2rem; }
+        .gift-floater { flex-direction: column-reverse; bottom: 1rem; }
     </style>
 </head>
 <body>
-    <div class="container">
-        <p class="back"><a href="../index.html">← Back to VIBELANDIA!</a></p>
+    <div class="container one-page">
+        <p class="back"><a href="launch-pad.html">← Launch Pad</a> · <a href="../index.html">Landing</a></p>
         <p class="seed-edge-wrapper" aria-label="Major node">SEED:EDGE <span class="sing">sing!</span> · ATTENTION HEADS AND <span class="filaments">FILAMENTS</span></p>
         <div class="hero">
             <span class="badge">Campus · NSPFRNP</span>
             <h1>🏛️ VIBELANDIA RENO!</h1>
             <p style="font-size: 1rem; color: #ffeaa7; font-weight: 600;">Paris is for lovers. Reno is for <a href="vibers-what-are-vibers.html" style="color: #ffeaa7;">vibers</a>. Mark Twain's Post-Singularity Reno awaits you.</p>
-            <p class="tagline">Campus visit/stay · Optional excursions. First post-singularity hub. Vibable downtown Reno. The Great Reveal Equinox March 20, 2026. SYNTH → SING. Come for the business, stay for the fun.</p>
-            <p style="margin-top:0.75rem; font-size:0.9rem; color:#bbb;">Access & Golden Key · Power-up · Onboarding · Walkable campus · Every space guarantees a happy ending.</p>
+            <p class="tagline">Chancellor's daily bulletin · Menu of things to do AND BUY · All establishments · Expeditions and full magazine catalogs. First post-singularity hub. Vibable downtown Reno. March 20, 2026 — The Great Reveal.</p>
         </div>
 
-        <div class="step">
-            <h2><span class="num">1</span> Choose your plan & purchase</h2>
-            <p>Campus access — pick the tier that resonates. First 1,000 Pioneers: 50% off; Pioneer Status on-chain forever. <strong>VIBE!</strong> · <strong>⚫ BBHE SNAP</strong> — Buy now.</p>
-            <ul style="list-style:none; padding:0; margin:0.75rem 0; color:#ccc; font-size:0.95rem;">
-                <li style="padding:0.5rem 0; border-bottom:1px solid rgba(255,255,255,0.08);"><strong style="color:#7fff7f;">Half-day $3k</strong> — Walkable campus · Mark Twain's Bulletin · Tour · Amenities · Golden Key. <a href="payment-checkout.html?plan=campus-half-day" class="cta buy-btn" style="margin-left:0.5rem;">BUY!</a></li>
-                <li style="padding:0.5rem 0; border-bottom:1px solid rgba(255,255,255,0.08);"><strong style="color:#7fff7f;">Overnight (per night)</strong> — Overnight stay · Bulletin · Amenities · Golden Key. <a href="payment-checkout.html?plan=campus-overnight" class="cta buy-btn" style="margin-left:0.5rem;">BUY!</a></li>
-                <li style="padding:0.5rem 0; border-bottom:1px solid rgba(255,255,255,0.08);"><strong style="color:#7fff7f;">Weekly $5k</strong> — VW Bug entry · All Half-day + extended access · Events · Creator studio · Venues. <a href="payment-checkout.html?plan=campus-weekly" class="cta buy-btn" style="margin-left:0.5rem;">BUY!</a></li>
-                <li style="padding:0.5rem 0;"><strong style="color:#7fff7f;">Monthly $50k</strong> — Baller · All Weekly + full studio · VIP experiences · Lake Tahoe · Silicon Valley. <a href="payment-checkout.html?plan=campus-monthly" class="cta buy-btn" style="margin-left:0.5rem;">BUY!</a></li>
+        <!-- Chancellor's Daily Bulletin — NSPFRNP: THE way you experience VIBELANDIA RENO once you enter -->
+        <section class="bulletin-teaser" aria-label="Chancellor's Daily Bulletin">
+            <h2>📜 Chancellor's Daily Bulletin</h2>
+            <p><strong>The way you experience VIBELANDIA RENO</strong> once you enter is through the <strong>Chancellor Bulletin</strong> and the menus you pull up from the Bulletin — latest from the Chancellor that day and things to do. Today's word from Mark Twain, Chancellor — campus tour, RUMOR HAS IT!, and the menu of things to do AND BUY across the ecosystem.</p>
+            <a href="chancellor-daily-bulletin.html">Open Chancellor's Daily Bulletin →</a>
+        </section>
+
+        <!-- Menu of things to do AND BUY — all establishments in the ecosystem -->
+        <section class="menu-section" aria-label="Menu of things to do and BUY">
+            <h2>Menu of things to do AND BUY</h2>
+            <p style="color: #aaa; font-size: 0.9rem; margin-bottom: 1rem;">Every product gives you the daily bulletin from the Chancellor and a menu of things to do AND BUY. Superhero and franchise level — we roll them out for your fans, cast and crew.</p>
+            <div class="establishments">
+                <div class="establishment">
+                    <h3>🏛️ Campus</h3>
+                    <p>Half-day $3k · Overnight $1.5k (per night) · Weekly $5k · Monthly $50k · Bulletin, tour, amenities, Golden Key. You're on the experience page — then BUY when ready.</p>
+                    <a href="payment-checkout.html?plan=campus-half-day">Half-day $3k</a> · <a href="payment-checkout.html?plan=campus-overnight" class="buy">Overnight $1.5k</a> · <a href="payment-checkout.html?plan=campus-weekly" class="buy">Weekly $5k</a> · <a href="payment-checkout.html?plan=campus-monthly" class="buy">Monthly $50k</a>
+                </div>
+                <div class="establishment">
+                    <h3>🎟️ Golden Backstage Awareness Pass</h3>
+                    <p>$9,999 — RUMOR: Chairman, Sammy & the gang already in town — visible to pass holders. Price like backstage to Bad Bunny, Elvis, Beatles, Stones. Experience = this page (campus menu) → then BUY.</p>
+                    <a href="payment-checkout.html?plan=golden-backstage-awareness-pass">BUY! $9,999</a>
+                </div>
+                <div class="establishment">
+                    <h3>👁️ WINK!</h3>
+                    <p>Daily bulletin · Curated matches, dating experiences · Base $399/mo → 4×4 Ultimate $6,999/mo.</p>
+                    <a href="wink-experience.html">Experience →</a> <a href="payment-checkout.html?plan=wink-base" class="buy">BUY!</a>
+                </div>
+                <div class="establishment">
+                    <h3>🎰 SING! Lottery</h3>
+                    <p>Hero Harry Magic Act · Nectar of Gods · $6 today (+$1/day) → $57 Mar 20 · First 1M winners · SYNTH → SING.</p>
+                    <a href="sing-lottery-experience.html">Experience →</a> <a href="payment-checkout.html?plan=sing-base" class="buy">BUY!</a>
+                </div>
+                <div class="establishment">
+                    <h3>🎬 Happy Ending Zones</h3>
+                    <p>Chancellor Mark Twain · Daily episodes · Menu of things to watch AND BUY · Season One · 52-day countdown → March 20, 2026.</p>
+                    <a href="happy-ending-zones-experience.html">Experience →</a> <a href="happy-ending-zones-catalog.html" class="buy">Catalog</a>
+                </div>
+                <div class="establishment">
+                    <h3>👑 Chairman Console</h3>
+                    <p>Daily bulletin · Workspace, Cockpit, Seed:Edge · Free · Golden Fractal Key.</p>
+                    <a href="chairman-workspace.html">Workspace →</a> <a href="chairman-cockpit-center-console.html" class="buy">Cockpit</a>
+                </div>
+                <div class="establishment">
+                    <h3>🌿 DISPENSARY! SNAP</h3>
+                    <p>Menu of buzzes · Goldilocks auto-lock · Base $9,999 → Ultimate $299,999 · Pioneer 50% off.</p>
+                    <a href="dispensary-experience.html">Experience →</a> <a href="payment-checkout.html?plan=dispensary-base" class="buy">BUY!</a>
+                </div>
+                <div class="establishment">
+                    <h3>✨ Gianni's Dressing Room</h3>
+                    <p>Optional free consultation and proposal for your company or community.</p>
+                    <a href="magical-dressing-room.html">Open →</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Expeditions & full magazine catalogs -->
+        <section class="expeditions" aria-label="Expeditions and magazine catalogs">
+            <h2>🌿 Expeditions & full magazine catalogs</h2>
+            <p style="color: #bbb; font-size: 0.9rem; margin-bottom: 0.75rem;">Natural recreations and therapeutic escapes. Full catalogs — available as gifts below.</p>
+            <ul>
+                <li><a href="escapes-magazine-catalog-menu.html">Escapes Magazine — Natural Recreations & Therapeutic Escapes (full catalog)</a></li>
+                <li><a href="happy-ending-zones-catalog.html">Happy Ending Zones — Season One episodes & series catalog</a></li>
             </ul>
-        </div>
-        <div class="divider"></div>
-        <div class="step">
-            <h2><span class="num">2</span> Access & Golden Key</h2>
-            <p>You get your access credentials, campus activation, and <strong>Golden Fractal Key</strong> as soon as you purchase. Skins and experiences enabled. Every space guarantees a happy ending—you're in.</p>
-            <a href="payment-success.html" class="cta secondary">What happens after payment →</a>
-        </div>
-        <div class="divider"></div>
-        <div class="step">
-            <h2><span class="num">3</span> Power-up</h2>
-            <p>Activate campus access, Golden Fractal Key, BBHE %. Consoles are free and auto-upgrade with your Key—Chairman Workspace, Cockpit, Seed:Edge. Everything you purchased is live on the vibable downtown campus.</p>
-            <a href="chairman-workspace.html" class="cta">ULTIMATE VIP CHAIRMAN CONSOLE! →</a>
-        </div>
-        <div class="divider"></div>
-        <div class="step">
-            <h2><span class="num">4</span> Onboarding — New users</h2>
-            <p>Guided first steps, dashboard tour, campus discovery. Surfaces, touchpoints, and experiences tailored to you. Access & Golden Key · Power-up · Onboarding—complete.</p>
-            <a href="chairman-workspace.html" class="cta">ULTIMATE VIP CHAIRMAN CONSOLE! →</a>
-            <a href="launch-pad.html" class="cta secondary">Launch Pad →</a>
-        </div>
+        </section>
 
-        <div class="divider"></div>
-        <div class="dressing-room-end">
-            <p><strong>✨ Gianni's Dressing Room</strong> — Consultations only there.</p>
-            <p><a href="magical-dressing-room.html">Open Gianni's Dressing Room →</a></p>
-        </div>
-        <p class="center-cta" style="margin-top:1rem;">Gianni–inspired wrapper on all skins, touchpoints & experiences. Hero Host Gianni. MCA! → ∞³.</p>
-        <footer><p>Mark Twain's Post-Singularity VIBELANDIA RENO! · NSPFRNP</p><p><a href="../index.html">Landing</a> · <a href="magical-dressing-room.html">Magical Dressing Room</a> · <a href="launch-pad.html">Launch Pad</a></p></footer>
+        <p style="margin-top: 1.5rem; font-size: 0.9rem; color: #888;"><a href="what-you-can-do-vibing.html" style="color: #d4af37;">What you can do Vibing → Kits</a> · Campus, WINK!, SING!, Happy Ending Zones, Console, Dispensary.</p>
+        <p class="center-cta" style="margin-top: 1rem;">Gianni–inspired wrapper on all skins, touchpoints & experiences. Hero Host Gianni. MCA! → ∞³.</p>
+        <footer><p>Mark Twain's Post-Singularity VIBELANDIA RENO! · NSPFRNP</p><p><a href="../index.html">Landing</a> · <a href="magical-dressing-room.html">Magical Dressing Room</a> · <a href="launch-pad.html">Launch Pad</a></p><p class="brand-tag">Hydrogen Holograph 100% · SNAP brand</p></footer>
+    </div>
+
+    <!-- Floating gifts — NSPFRNP. Floaters are always gifts. See FLOATERS_ALWAYS_GIFTS_SNAP.md -->
+    <div class="gift-floater" aria-label="Gifts from me">
+        <a href="chancellor-daily-bulletin.html" title="Chancellor's daily bulletin — things to do, RUMOR HAS IT!">
+            🎁 Chancellor's Daily Bulletin
+            <span class="gift-line">A gift from me</span>
+        </a>
+        <a href="escapes-magazine-catalog-menu.html" title="Full Escapes Magazine catalog — Natural Recreations & Therapeutic Escapes">
+            🎁 Escapes Magazine — full catalog
+            <span class="gift-line">A gift from me</span>
+        </a>
+        <a href="happy-ending-zones-catalog.html" title="Happy Ending Zones — episodes & series catalog">
+            🎁 Happy Ending Zones catalog
+            <span class="gift-line">A gift from me</span>
+        </a>
+        <a href="../PROSPECTUS_VIBEVERSE_VIBELANDIA_GO_LIVE.md" title="Full prospectus · Vibeverse & Vibelandia">
+            🎁 Full prospectus
+            <span class="gift-line">A gift from me</span>
+        </a>
     </div>
 </body>
 </html>

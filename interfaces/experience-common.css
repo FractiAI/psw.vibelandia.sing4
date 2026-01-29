@@ -133,3 +133,13 @@ footer {
     font-size: 0.9rem;
 }
 footer a { color: #d4af37; }
+
+/* Hydrogen Holograph 100% brand — t-shirt tag at bottom of everything. SNAP brand. */
+.brand-tag {
+    margin-top: 1rem;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: rgba(212, 175, 55, 0.7);
+    font-weight: 600;
+}

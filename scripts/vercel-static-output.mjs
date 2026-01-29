@@ -54,6 +54,27 @@ if (fs.existsSync(interfacesSrc)) {
   copyDir(interfacesSrc, interfacesDest);
 }
 
+// Copy episodes/ so "Watch Episode 3" and all episode links work (interfaces link to ../episodes/*.md)
+const episodesSrc = path.join(root, 'episodes');
+const episodesDest = path.join(staticDir, 'episodes');
+if (fs.existsSync(episodesSrc)) {
+  copyDir(episodesSrc, episodesDest);
+}
+
+// Copy root .md and protocols/ so roll call, prospectus, chairman specs, etc. don't 404
+const rootMdDir = root;
+const rootFiles = fs.readdirSync(rootMdDir, { withFileTypes: true });
+for (const e of rootFiles) {
+  if (e.isFile() && e.name.endsWith('.md')) {
+    copyFile(path.join(rootMdDir, e.name), path.join(staticDir, e.name));
+  }
+}
+const protocolsSrc = path.join(root, 'protocols');
+const protocolsDest = path.join(staticDir, 'protocols');
+if (fs.existsSync(protocolsSrc)) {
+  copyDir(protocolsSrc, protocolsDest);
+}
+
 // Inject Supabase anon key and optional PayPal client ID at build time
 const apiConfigPath = path.join(interfacesDest, 'api-config.js');
 if (fs.existsSync(apiConfigPath)) {
@@ -160,6 +181,8 @@ console.log('Vercel static output written to .vercel/output/');
 console.log('  static/index.html');
 console.log('  static/favicon.ico');
 console.log('  static/interfaces/*');
+console.log('  static/episodes/*');
+console.log('  static/*.md + static/protocols/*');
 if (fs.existsSync(apiPayPalDir)) {
   console.log('  functions/api/payment/paypal/*.func (PayPal pipe)');
 }
