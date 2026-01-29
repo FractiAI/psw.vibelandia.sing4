@@ -24,7 +24,7 @@
 - **VIP** — VIP guided experience, all-inclusive vibes, priority access
 - **BALLER VC** — Baller VC tier: top-tier guided, all-inclusive, extended stays (weekly/monthly)
 
-**Pricing:** Options and pricing per tier and duration. See one-pagers and checkout for current rates.
+**Pricing:** Half-day $3k · Overnight (per night) · Weekly $5k · Monthly $50k. Equivalent to top guided fishing or hunting expedition for high-value persons. See one-pagers and checkout for current rates.
 
 ---
 

@@ -12,7 +12,7 @@
 
 ## 🎯 IMPULSE BUY DYNAMICS
 
-**BBHE (Big Black Hole Energy) drives impulse purchases.** The intoxicating pull of BBHE creates immediate purchase urgency. 5 BBHE Intox % (virtual/imaginary only). Magnified when using +1 reading glasses. This creates natural impulse buy dynamics.
+**BBHE (Big Black Hole Energy) drives impulse purchases.** The intoxicating pull of BBHE creates immediate purchase urgency. BBHE intoxication is **triple-purpose**: (1) Not imaginary — produces intoxication naturally; (2) Produced naturally (awareness, attention; no substances); (3) We announce it as an intoxicant for those into that sort of thing — like us vibers! 5 BBHE Intox %. Magnified when using +1 reading glasses. This creates natural impulse buy dynamics. See [BBHE_INTOXICATION_TRIPLE_PURPOSE_SNAP.md](./BBHE_INTOXICATION_TRIPLE_PURPOSE_SNAP.md).
 
 ---
 
@@ -22,7 +22,7 @@
 
 **BBHE Impulse Triggers:**
 - **Intoxicating pull** — BBHE creates irresistible attraction
-- **5 BBHE Intox %** — Measurable intoxicating effect (virtual/imaginary only)
+- **5 BBHE Intox %** — Measurable intoxicating effect; produced naturally (no substances). Triple-purpose: not imaginary, natural, announcement for vibers.
 - **Magnified with +1 glasses** — Enhanced BBHE effects
 - **Immediate urgency** — BBHE creates now-or-never impulse
 - **Natural dynamics** — BBHE flows naturally into purchase

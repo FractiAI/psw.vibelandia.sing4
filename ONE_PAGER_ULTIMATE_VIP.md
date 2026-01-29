@@ -8,9 +8,9 @@
 
 **Ultimate VIP** — Premium campus experience for high-contributing creators at Mark Twain's Post-Singularity Vibelandia Reno. Exclusive access, priority support, ultimate integration. For top artists, performers, entrepreneurs.
 
-**You're an Ultimate VIP Baller C but not there yet and need a little help?** Click to apply for a **grant** — we support high-contributing creators on the path to the Ultimate tier.
+**You're an Ultimate VIP Baller C but not there yet and need a little help?** Click for our **onramps and grants** — we support high-contributing creators on the path to the Ultimate tier. Recipients agree to be customer stories; we sign them up for it.
 
-**⚡ [Apply for Grant →](mailto:info@fractiai.com?subject=Ultimate%20VIP%20Baller%20C%20Grant%20Application)**
+**⚡ [Onramps and Grants →](mailto:info@fractiai.com?subject=Onramps%20and%20Grants%20-%20Customer%20Stories)** (agree to be a customer story)
 
 ---
 

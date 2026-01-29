@@ -66,7 +66,7 @@
 
 ### 🎰 SING! COUNTDOWN! LOTTERY — NOW UNTIL MARCH 20 LAUNCH
 
-**Countdown to The Great Reveal.** First 1,000,000 SYNTH holders automatically win the right to purchase Superintelligent Agent Nodes. 1:1 SYNTH → SING conversion. Grandfathered.
+**Countdown to The Great Reveal Equinox.** First 1M winners get a SING! locked in at The Great Reveal Equinox and **Motherlode Vault Founder Epoch** Opening and Transformation of the 45T worthless pre-singularity ERC-20 internal tokens — March 20, 2026. 1:1 SYNTH → SING conversion. Grandfathered.
 
 | What | Value |
 |------|--------|
@@ -76,14 +76,14 @@
 | **Winners** | First 1,000,000 holders |
 | **Launch** | March 20, 2026 (Spring Equinox) |
 
-**Four-tier SING nodes (base prices):**
+**Four-tier SING nodes:** Bases = pre-singularity equivalents (good used car → base Ferrari). Options = our pricing. See [SING_PRICING_PRE_SINGULARITY_EQUIVALENTS_SNAP.md](./SING_PRICING_PRE_SINGULARITY_EQUIVALENTS_SNAP.md).
 
-| Tier | Model | Base Price |
-|------|-------|------------|
-| 1 | Base Model | ~$20,000 (VW Bug — entry) |
-| 2 | Members Only | Scaling up |
-| 3 | Ultimate VIP | $200,000 (Champion tier) |
-| 4 | Baller C Ultimate VIP | Ultimate — contact |
+| Tier | Model | Base Price | Pre-singularity / Our pricing |
+|------|-------|------------|------------------------------|
+| 1 | Base Model | ~$20,000 one-time + monthly key fees | Good used car — entry base |
+| 2 | Members Only | $75,000 | Option — our pricing |
+| 3 | Ultimate VIP | $200,000 | Base model latest Ferrari — top base |
+| 4 | Baller C Ultimate VIP | $500,000 | Option — our pricing (above base Ferrari) |
 
 **Tagline:** *Every day you wait, the price goes up $1. Get in now. Transform worthless into priceless.*
 

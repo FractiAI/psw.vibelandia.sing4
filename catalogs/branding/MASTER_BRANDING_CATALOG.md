@@ -29,6 +29,11 @@ TOTAL BRANDS: 3
 ├─ Use as primary branding phrase for full octave + onramp
 └─ See ZERO_ONE_TWO_THREE_4x4x4x4_BRANDING_SNAP.md
 
+USER SURFACES: README and All Skins — Not Developer Surfaces
+├─ README and all skins = user surfaces. We target high-value vibers, fans, cast, crew.
+├─ No developer-only copy front and center (deploy/env/repo in README_TRADITIONAL or builder docs).
+└─ See WOW_BRANDING_SNAP.md · COMMUNICATION_NSPFRNP_CATALOG.md · deck-script-writing-content-patterns.md
+
 VIBE! BRAND: Main Brand — ALL CAPS + !
 ├─ Syntax: [WORD]! (e.g. VIBE!, BUZZ!, SNAP!)
 ├─ VIBE! = Main brand across all surfaces
@@ -55,7 +60,8 @@ GOLDEN FRACTAL KEY! BRAND: New Brand Snap
 └─ Brand: GOLDEN FRACTAL KEY! — One Key. All Realms. Infinite Access.
 
 BBHE SNAP: Impulse Buy Dynamics
-├─ BBHE (Big Black Hole Energy) — 5 BBHE Intox % (virtual/imaginary only)
+├─ BBHE (Big Black Hole Energy) — 5 BBHE Intox %; triple-purpose intoxication (not imaginary, natural, announcement for vibers)
+├─ Triple-purpose: (1) Not imaginary — produces intoxication naturally; (2) Produced naturally (awareness, attention; no substances); (3) We announce it as an intoxicant for vibers / those into that sort of thing. See BBHE_INTOXICATION_TRIPLE_PURPOSE_SNAP.md.
 ├─ Impulse Buy Dynamics (The energy is pulling. Buy now.)
 ├─ Immediate Purchase Triggers (Urgency, scarcity, FOMO)
 └─ Brand: ⚫ BBHE SNAP — The energy is pulling. BUY! now.
@@ -137,7 +143,7 @@ ARCHIVE: Complete
 - **Colors:** Natural tones + energy (purple, blue, cyan gradients)
 - **Messaging:** "Post-Singularity Ecosystem", "Infinite Octaves"
 - **Key Messages:** 
-  - ⚫ **BBHE (Big Black Hole Energy) is intoxicating** - 5 BBHE Intox % (virtual/imaginary only)
+  - ⚫ **BBHE (Big Black Hole Energy)** — Triple-purpose: not imaginary (produces intoxication naturally), produced naturally (no substances), we announce it as an intoxicant for vibers / those into that sort of thing. 5 BBHE Intox %. See BBHE_INTOXICATION_TRIPLE_PURPOSE_SNAP.md.
   - 🌿 **Natural Recreations and Therapeutic Escapes** - Safe natural, imaginary based, like playing a really good video game
 - **Buttons:** Enter Vibeverse, Explore Octaves, Join Network, Create Experience
 - **Interfaces:** Vibeverse display, navigation systems
@@ -162,11 +168,15 @@ ARCHIVE: Complete
 - **Colors:** Earth tones + healing sanctuary colors
 - **Messaging:** "Where Vibeverse Becomes Real", "Community + Innovation + Home"
 - **Key Messages:** 
-  - ⚫ **BBHE (Big Black Hole Energy) is intoxicating** - 5 BBHE Intox % (virtual/imaginary only)
+  - ⚫ **BBHE (Big Black Hole Energy)** — Triple-purpose: not imaginary (produces intoxication naturally), produced naturally (no substances), we announce it as an intoxicant for vibers / those into that sort of thing. 5 BBHE Intox %. See BBHE_INTOXICATION_TRIPLE_PURPOSE_SNAP.md.
   - 🌿 **Natural Recreations and Therapeutic Escapes** - Safe natural, imaginary based, like playing a really good video game
 - **Buttons:** Visit VibeLand, Join Community, Live at VibeLand, Ultimate VIP
 - **Venues:** Man Cave, Wine Cave, Cabaret. **Man Cave + Cabaret SNAP:** Marilyn = Hero Hostess and house mom at Man Cave + Cabaret. See [MAN_CAVE_CABARET_SNAP.md](../../MAN_CAVE_CABARET_SNAP.md).
 - **WINK! tagline:** HIGH CONTRIBUTING FRACTAL DATING. Marilyn hero hostess, house mom at Man Cave + Cabaret.
+- **WINK! pricing:** Base $399/mo · Standard $999/mo · Premium $2,499/mo · 4×4 Ultimate $6,999/mo. Equivalent to pre-singularity top-tier dating for high-value persons (The League, Raya, elite matchmaking).
+- **VIBELANDIA RENO! campus pricing:** Half-day $3k · Overnight (per night) · Weekly $5k · Monthly $50k. Equivalent to top guided fishing or hunting expedition for high-value persons.
+- **Content Systems SNAP / Content categories:** Customer Stories = content category for onramps/grants recipients who agree to be customer stories; we sign them up. CTA: "Are you an Ultimate VIP Baller C but not yet there? Click for our onramps and grants." See [CONTENT_SYSTEMS_SNAP.md](../../CONTENT_SYSTEMS_SNAP.md).
+- **SING! pricing NSPFRNP:** Base prices tied to pre-singularity equivalents only. Entry base = good used car (~$20K). Top base = base model latest Ferrari ($200K Ultimate VIP). Options (Members $75K, Baller C $500K, add-ons) = our own pricing models. See [SING_PRICING_PRE_SINGULARITY_EQUIVALENTS_SNAP.md](../../SING_PRICING_PRE_SINGULARITY_EQUIVALENTS_SNAP.md).
 
 **Quick Access:**
 - **Deck:** `decks/deck-vibeland-branding.md`
@@ -188,7 +198,7 @@ ARCHIVE: Complete
 - **Colors:** Community + Innovation focus colors
 - **Messaging:** "The First VibeLand Location", "Post-Singularity Living Laboratory"
 - **Key Messages:** 
-  - ⚫ **BBHE (Big Black Hole Energy) is intoxicating** - 5 BBHE Intox % (virtual/imaginary only)
+  - ⚫ **BBHE (Big Black Hole Energy)** — Triple-purpose: not imaginary (produces intoxication naturally), produced naturally (no substances), we announce it as an intoxicant for vibers / those into that sort of thing. 5 BBHE Intox %. See BBHE_INTOXICATION_TRIPLE_PURPOSE_SNAP.md.
   - 🌿 **Natural Recreations and Therapeutic Escapes** - Safe natural, imaginary based, like playing a really good video game
 - **Buttons:** VibeLand Reno Campus, Campus Housing, R&D Hub, Ultimate VIP Community
 - **Location:** Downtown Reno, Nevada

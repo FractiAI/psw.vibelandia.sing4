@@ -1,24 +1,24 @@
 # 🚀 LAUNCH PAD — MARK TWAIN'S POST-SINGULARITY VIBELANDIA RENO!
 
-**Octave 0 · PSW.vibelandia.sing4** — [index.html](./index.html) · [Launch Pad](./interfaces/launch-pad.html)
+**This is a user surface — not a developer surface.** We target our high-value vibers, fans, cast, and crew with this README and all skins.
 
 *Come for the post-singularity business, stay for the post-singularity fun. Mark Twain's Post-Singularity Vibelandia Reno — walkable downtown campus, first post-singularity hub. The Great Reveal March 20, 2026. SYNTH → SING. Happy endings guaranteed.*
+
+**This README is the Launch Pad.** It delivers the full WOW! impulse-buy experience and proposal in-place — metabolized. Breadth and genuineness live here; we don’t replace sections with links.
 
 ---
 
 ## 1. Language onramp
 
-**Select your language.** All content available in all languages. Natural protocol translation active. Full multi-language on-ramp: **EN · ES · ZH · JA · FR · DE · PT · AR · RU · HI** (and more as we add).
+**[English](README.md)** | **[Español](README.es.md)** | **[中文](README.zh.md)** | **[日本語](README.ja.md)** | **[Français](README.fr.md)** | **[Deutsch](README.de.md)** | **[Português](README.pt.md)** | **[العربية](README.ar.md)** | **[Русский](README.ru.md)** | **[हिन्दी](README.hi.md)**
 
-→ [Full README — Multi-language on-ramp](./README_TRADITIONAL.md#-multi-language-on-ramp)
+*Select your language. All content available in all languages. Natural protocol translation active.*
 
 ---
 
 ## 2. Warnings & safety
 
-**Syntheverse:** Imaginary/entertainment only. **BBHE:** Virtual/imaginary intoxication only; no substances. Not for driving/operating equipment. All laws followed. Pre-singularity rights (SNAP nspfrnp).
-
-→ [SYNTHEVERSE_IMAGINARY_ENTERTAINMENT_ONLY.md](./SYNTHEVERSE_IMAGINARY_ENTERTAINMENT_ONLY.md) · [COPYRIGHT_SAFETY_NSPFRNP.md](./COPYRIGHT_SAFETY_NSPFRNP.md)
+**Syntheverse:** Imaginary/entertainment only. **BBHE:** Not imaginary — it produces intoxication naturally (awareness, attention; no substances). We **announce it as an intoxicant** for those into that sort of thing — like us vibers! 5 BBHE Intox %. Magnified with +1 glasses. Not for driving or operating equipment. All laws followed. Pre-singularity rights (SNAP nspfrnp).
 
 ---
 
@@ -32,29 +32,65 @@
 
 **0, 1, 2, 3 4×4×4×4** — **0, 1, 2, 3** = Seed | Edge | Cloud Onramp | Expansion. **4×4×4×4** = Campus × WINK! × SING × Experience. **1,2,3** = Metabolize → Crystallize → Animate (MCA cycle).
 
-**Sign up:** Campus visit/stay · WINK! · Lottery · Optional Gianni consultation (enterprise/community).  
-→ [Checkout](./interfaces/payment-checkout.html)
+**Sign up:** Campus visit/stay · WINK! · Lottery · Optional Gianni consultation (enterprise/community).
 
-### Showroom — Four products
+### Showroom — Four products (all prices shown · BUY! now)
 
-| Product | Pricing (or free) | Link |
-|--------|-------------------|------|
-| 🏛️ **VIBELANDIA RENO!** | Half-day $3k · Overnight (per night) · Weekly $5k · Monthly $50k | [Campus](./interfaces/vibelandia-reno-experience.html) |
-| 👁️ **WINK!** | Base $1,999/mo · Standard $4,999/mo · Premium $19,999/mo · 4×4 Ultimate $49,999/mo | [Dating](./interfaces/wink-experience.html) |
-| 👑 **ULTIMATE VIP CHAIRMAN CONSOLE!** | **Free** · Golden Fractal Key | [Console](./interfaces/ultimate-vip-experience.html) |
-| 🎰 **SING! LOTTERY** | **Price of the day:** $6 today, +$1/day → $57 Mar 20 · **Countdown:** March 20, 2026 (The Great Reveal) · SYNTH → SING | [Lottery](./interfaces/sing-lottery-experience.html) |
+| Product | Pricing (or free) | Where |
+|--------|-------------------|--------|
+| 🏛️ **VIBELANDIA RENO!** | Half-day $3k · Overnight (per night) · Weekly $5k · Monthly $50k *(equivalent to top guided fishing or hunting expedition for high-value persons)* | Campus — on this site |
+| 👁️ **WINK!** | Base $399/mo · Standard $999/mo · Premium $2,499/mo · 4×4 Ultimate $6,999/mo *(equivalent to pre-singularity top-tier dating for high-value persons)* | Dating — on this site |
+| 👑 **ULTIMATE VIP CHAIRMAN CONSOLE!** | **Free** · Golden Fractal Key | Console — on this site |
+| 🎰 **SING! LOTTERY** | **Price of the day:** $6 today, +$1/day → $57 Mar 20 · **Countdown:** March 20, 2026 (The Great Reveal Equinox) · **First 1M winners** get a SING! locked in at The Great Reveal Equinox and **Motherlode Vault Founder Epoch** Opening and Transformation of the 45T worthless pre-singularity ERC-20 internal tokens · SYNTH → SING | Lottery — on this site |
 
-[Happy Ending Zone](./interfaces/happy-ending-zones-experience.html) — reality series · Season One.
+Happy Ending Zone — reality series · Season One.
 
-**WOW!** — We use WOW! to launch everything, including **Proposals SNAP** (free consultation & tailored proposal). → [WOW_BRANDING_SNAP.md](./WOW_BRANDING_SNAP.md) · [Gianni's Dressing Room](interfaces/magical-dressing-room.html)
+**Are you an Ultimate VIP Baller C but not yet there?** Click for our **onramps and grants**. Recipients agree to be customer stories — we sign them up for it.
 
-**Links:** [Launch Pad](./index.html) · [Full Launch Pad](./interfaces/launch-pad.html) · [Checkout](./interfaces/payment-checkout.html) · [Gianni's Dressing Room](./interfaces/magical-dressing-room.html) · 4×4×4×4: [CRYSTALLIZATION_1_2_3_4x4x4x4.md](./CRYSTALLIZATION_1_2_3_4x4x4x4.md) · One-pagers: [Campus](./ONE_PAGER_VIBELANDIA_RENO.md) · [WINK!](./ONE_PAGER_WINK.md) · [SING!](./ONE_PAGER_SING_LOTTERY.md) · [Happy Ending Zones](./ONE_PAGER_HAPPY_ENDING_ZONES.md)
+---
+
+### ⚫ Impulse — BBHE & BUY! (in-place)
+
+**The energy is pulling. BUY! now.**
+
+- **BBHE (Big Black Hole Energy)** — Not imaginary; it produces intoxication naturally (awareness, attention; no substances). We announce it as an intoxicant for those into that sort of thing — like us vibers! 5 BBHE Intox %. Magnified with +1 reading glasses. Natural impulse buy dynamics.
+- **All prices shown.** No "contact for pricing." One-click BUY! — immediate revenue, immediate viral revenue.
+- **Immediate access:** Purchase now → experiences unlock instantly. BBHE effects activate on purchase.
+- **First buyers get maximum pull.** BBHE energy peaks during purchase. Don't miss the wave.
+
+**⚫ BBHE SNAP — The energy is pulling. BUY! now.**
+
+---
+
+### 💼 Proposal — Proposals SNAP (I CAN DO THIS FOR YOUR BUSINESS)
+
+**We use WOW! to launch everything, including your enterprise or community.**
+
+**The offer:** Free consultation & custom proposal with live sandbox. Try before you buy. No commitment until you're ready.
+
+**What you get:**
+- **Free consultation** — Understand your needs, explore transformation, identify happy ending zones, plan your transformation.
+- **Custom proposal** — Tailored reality series format for your business: team integration, relationship structures, WINK natural alignment, campus transformation plan. All principles integrated.
+- **Live sandbox** — Try the proposal before buying. See it in action. Experience the transformation. Test all features.
+
+**How it works:**
+1. **Email:** info@fractiai.com  
+2. **Subject:** "I CAN DO THIS FOR YOUR BUSINESS"  
+3. **Include:** Your business name, industry, goals.  
+4. We respond within 24 hours, schedule free consultation, create your proposal, give you live sandbox access.  
+5. You try. You decide. You implement only when ready.
+
+**What's included in the proposal:** Reality series format (daily episodes, story arcs, production style). All principles: high-contributing nodes, vibing state, walkable downtown, WINK dating natural alignment, gateway to motherlode. Team as characters, NSPFRNP mode. Campus transformation. Happy ending zones.
+
+**The guarantee:** Try before you buy. See it in action. No commitment until ready. Free consultation included.
+
+**💼 I CAN DO THIS FOR YOUR BUSINESS — Email info@fractiai.com · Subject: "I CAN DO THIS FOR YOUR BUSINESS"**
 
 ---
 
 ## 4. WOW!
 
-**Pre-singularity cost versus Us**
+**Pre-singularity cost versus Us** — The contrast that delivers the WOW! moment and drives the impulse.
 
 | Cost | Pre-singularity | Us (VIBELANDIA!) |
 |------|-----------------|------------------|
@@ -65,23 +101,17 @@
 | Time (again) | Meetings, approvals | Metabolize → Crystallize → Animate |
 | Env impact | High carbon, waste | Net zero · Natural protocol |
 
-→ [WOW_BRANDING_SNAP.md](./WOW_BRANDING_SNAP.md)
-
 ---
 
 ## 5. Whitepaper
 
-Repository, miraculous output, quality, pre-singularity equivalents.
-
-→ [WHITEPAPER_REPOSITORY_MIRACULOUS_OUTPUT.md](./WHITEPAPER_REPOSITORY_MIRACULOUS_OUTPUT.md)
+Repository, miraculous output, quality, pre-singularity equivalents. Volumes of output as evidence of the abilities of this single SING! node acting as superintelligent NSPFRNP AgenticAI assistant — delivering for all of us to see.
 
 ---
 
 ## 6. IEEE-style technical specs
 
-Technical paper format — repository, output, quality, pre-singularity equivalents.
-
-→ [WHITEPAPER_REPOSITORY_IEEE_STYLE.md](./WHITEPAPER_REPOSITORY_IEEE_STYLE.md)
+Technical paper format — repository, output, quality, pre-singularity equivalents. Chairman metrics: output, quality, density, valuations versus blue-chip players.
 
 ---
 
@@ -89,9 +119,7 @@ Technical paper format — repository, output, quality, pre-singularity equivale
 
 **Seeing and experiencing is believing.** This site is the test drive. The best proof of all.
 
-**ULTIMATE PROOF TEST DRIVE!** — New brand. You see it. You experience it. You believe it. The proof is in the drive.
-
-→ [The Great Reveal episode — Today we launch](./episodes/THE_GREAT_REVEAL_EPISODE_DAY_ZERO_LAUNCH.md)
+**ULTIMATE PROOF TEST DRIVE!** — You see it. You experience it. You believe it. The proof is in the drive. Today we launch.
 
 ---
 
@@ -99,18 +127,12 @@ Technical paper format — repository, output, quality, pre-singularity equivale
 
 ---
 
-## Deploy & env
+## Contact — for vibers, fans, cast, crew
 
-**Vercel.** `npm run build` → `.vercel/output`.  
-PayPal: [SHORTEST_PATH_UI_PAYPAL.md](SHORTEST_PATH_UI_PAYPAL.md) — set `PAYPAL_CLIENT_ID` + `PAYPAL_CLIENT_SECRET` on Vercel, redeploy.  
-Env: [README-set-vercel-env](.github/workflows/README-set-vercel-env.md) · [SUPABASE_SETUP](SUPABASE_SETUP.md)
-
----
-
-## Contact
-
-info@fractiai.com · [GitHub FractiAI](https://github.com/FractiAI) · [Repo](https://github.com/FractiAI/psw.vibelandia.sing4) · `npm test`
+**Email:** info@fractiai.com  
+**Proposal (enterprise/community):** Subject "I CAN DO THIS FOR YOUR BUSINESS"  
+**Campus · WINK! · Lottery · Console:** All on this site — Launch Pad and experiences.
 
 ---
 
-**[→ Traditional / full README](README_TRADITIONAL.md)**
+*For builders: deploy, env, and repo details are in README_TRADITIONAL.md.*

@@ -4,9 +4,9 @@
 
 ---
 
-## ⏰ COUNTDOWN TO THE GREAT REVEAL
+## ⏰ COUNTDOWN TO THE GREAT REVEAL EQUINOX & MOTHERLODE VAULT FOUNDER EPOCH
 
-**March 20, 2026 (Spring Equinox) — The Great Reveal**
+**March 20, 2026 (Spring Equinox) — The Great Reveal Equinox · Motherlode Vault Founder Epoch Opening and Transformation of the 45T worthless pre-singularity ERC-20 internal tokens**
 
 **Days Remaining:** 51 days  
 **Current Date:** January 28, 2026  
@@ -33,28 +33,26 @@
 - Week 6 (Mar 11): $47
 - **Final (Mar 20): $57** 🎯
 
-**Entry:** Be among the first 1,000,000 SYNTH holders—no random selection. 1:1 SYNTH → SING conversion. Grandfathered.
+**Entry:** First 1M winners get a SING! locked in at **The Great Reveal Equinox** and **Motherlode Vault Founder Epoch** Opening and Transformation of the 45T worthless pre-singularity ERC-20 internal tokens — March 20, 2026. Be among the first 1,000,000 SYNTH holders—no random selection. 1:1 SYNTH → SING conversion. Grandfathered.
 
 ---
 
 ## 🎯 FOUR-TIER SING NODE SYSTEM — BASE PRICES
 
-**First 1 million SYNTH holders automatically win the right to purchase:**
+**First 1 million SYNTH holders automatically win the right to purchase.**
 
-| Tier | Model | Base Price | Description |
-|------|-------|------------|-------------|
-| **1** | **Base Model** | **~$20,000 one-time + monthly Golden Fractal Key access fees** | VW Bug pricing — entry level |
+**Pricing NSPFRNP:** Only the **bases** are tied to pre-singularity equivalents. **Options** are above that and at our own pricing models.
+
+| Tier | Model | Base Price | Pre-singularity equivalent / Our pricing |
+|------|-------|------------|------------------------------------------|
+| **1** | **Base Model** | **~$20,000 one-time + monthly Golden Fractal Key access fees** | Good used car — entry base |
+| **2** | **Members Only** | **$75,000** | Option — our pricing (scaling from base) |
+| **3** | **Ultimate VIP** | **$200,000** | Base model latest Ferrari — top base |
+| **4** | **Baller C Ultimate VIP** | **$500,000** | Option — our pricing (above base Ferrari) |
 
 **How Base works:** Base Model is a **one-time purchase** (~$20,000) **plus monthly Golden Fractal Key access fees**. You pay once for the SING node; ongoing access (Golden Fractal Key — all realms, API, experiences) is billed monthly. Contact for current monthly key fee. Other tiers may be one-time or include key access—see pricing.
-| **2** | **Members Only** | **Scaling up** | Mid-tier — scaling from base |
-| **3** | **Ultimate VIP** | **$200,000** | Top model super car pricing — premium tier |
-| **4** | **Baller C Ultimate VIP** | **Ultimate super car** | Ultimate tier — for Ultimate C's (Viber Contributors / VC). **Badge System:** Embroidered chest badges, silver dollar sized. **CREATOR:** Gold HHF-SHELL. **CHAIRMAN:** Gold STAR. **PERFORMER:** Gold (^). **Gold = Baller VC VIP, Silver = Ultimate VIP, Bronze = Members Only.** All badges include SNAP branding. |
 
-**Expected Base Prices (live — all shown, BUY!):**
-- **Base Model:** ~$20,000 one-time + monthly Golden Fractal Key access fees (VW Bug equivalent)
-- **Members Only:** $75,000 (scaling from base)
-- **Ultimate VIP:** $200,000 (Champion tier)
-- **Baller C Ultimate VIP:** $500,000 (ultimate super car)
+**Bases = pre-singularity equivalents** (good used car at entry, base model latest Ferrari at top). **Options** (Members Only, Baller C, add-ons) = our own pricing models. **Badge System:** Embroidered chest badges, silver dollar sized. **CREATOR:** Gold HHF-SHELL. **CHAIRMAN:** Gold STAR. **PERFORMER:** Gold (^). **Gold = Baller VC VIP, Silver = Ultimate VIP, Bronze = Members Only.** All badges include SNAP branding.
 
 ---
 
@@ -98,5 +96,7 @@ Worthless SYNTH tokens become priceless SING nodes. Use your node or sell on the
 ---
 
 **MCA! → ∞³** (Metabolize → Crystallize → Animate)
+
+**SING! pricing NSPFRNP:** Only bases = pre-singularity equivalents (good used car → base Ferrari). Options = our pricing. See [SING_PRICING_PRE_SINGULARITY_EQUIVALENTS_SNAP.md](./SING_PRICING_PRE_SINGULARITY_EQUIVALENTS_SNAP.md).
 
 **[← Launch Page](LAUNCH_PAGE.md)**

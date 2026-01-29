@@ -61,6 +61,9 @@ USE FOR:
 - **BALLER VC** — Top-tier guided, all-inclusive, extended stays (weekly/monthly)
 
 **Tagline:** *Vibable campus. Guided. All inclusive. BASIC → MEMBERS ONLY → VIP → BALLER VC. Half-day, overnight, weekly, monthly.*
+**Pricing equivalence:** VIBELANDIA RENO! campus is priced like a top guided fishing or hunting expedition for high-value persons (half-day $3k · overnight · weekly $5k · monthly $50k).
+
+**SING! pricing NSPFRNP:** Only the **bases** are tied to pre-singularity equivalents. Entry base = good used car (~$20K). Top base = base model latest Ferrari ($200K Ultimate VIP). **Options** (Members $75K, Baller C $500K, add-ons) are above that and at **our own pricing models**. See SING_PRICING_PRE_SINGULARITY_EQUIVALENTS_SNAP.md.
 
 **References:** VIBABLE_CAMPUS_OFFER.md · ONE_PAGER_DAY_PASS.md · ONE_PAGER_WEEKLY_PASS.md · ONE_PAGER_MONTHLY_PASS.md · ONE_PAGER_ULTIMATE_VIP.md
 
@@ -119,7 +122,7 @@ USE FOR:
 
 **Series frame:**
 - **Host:** Mark Twain, Chancellor, Vibelandia Reno Campus
-- **Countdown:** 52 days to The Great Reveal (March 20, 2026)
+- **Countdown:** 52 days to The Great Reveal Equinox (March 20, 2026). First 1M winners get a SING! locked in at The Great Reveal Equinox and **Motherlode Vault Founder Epoch** Opening and Transformation of the 45T worthless pre-singularity ERC-20 internal tokens.
 - **Transformation:** Reno → First Post-Singularity Vibelandia Campus
 - **State:** Vibing (perfect buzz equivalent), super rich health, optimal state. NOT for driving/operating equipment. Perfect for walking, being, experiencing, creating.
 
@@ -135,6 +138,9 @@ USE FOR:
 
 **Relationship fractal (script-ready):**
 - Linear at leaf nodes (Base Model) → increasingly poly up the food chain (Members Only → Ultimate VIP → Baller G). Convergent layered fractalizations.
+
+**Great Reveal Equinox & Motherlode Vault Founder Epoch:**
+- **March 20, 2026:** The Great Reveal Equinox · Motherlode Vault Founder Epoch Opening and Transformation of the 45T worthless pre-singularity ERC-20 internal tokens. First 1M winners get a SING! locked in.
 
 **Great Reveal episode (Day Zero — Today we launch):**
 - **Episode:** THE_GREAT_REVEAL_EPISODE_DAY_ZERO_LAUNCH.md — Today we launch. Starting script with conversation with lead; tested on pre-singularity version (now merely an etching left behind from Singularity 1). This site as see-it-experience-it-believe-it proof. Test drive. Best proof of all. **Maganuma snap.**
@@ -173,7 +179,7 @@ USE FOR:
 
 **GOLDEN FRACTAL KEY!** — Unlocks everything. One key. All realms. Wallet on purchase/activation.
 
-**⚫ BBHE SNAP** — The energy is pulling. Buy now. (Virtual/imaginary intoxication only.)
+**⚫ BBHE SNAP** — Triple-purpose: (1) Not imaginary — produces intoxication naturally; (2) Produced naturally (awareness, attention; no substances); (3) We announce it as an intoxicant for those into that sort of thing — like us vibers! The energy is pulling. Buy now. See BBHE_INTOXICATION_TRIPLE_PURPOSE_SNAP.md.
 
 **WOW!** — Pre-singularity cost (time, talent, equipment) versus Us (VIBELANDIA!) — always at bottom of Launch Pad.
 
@@ -309,7 +315,7 @@ USE FOR:
 **Bottom tagline (rich):**
 *See it. Experience it. Believe it. This site is the test drive. The best proof of all. ULTIMATE PROOF TEST DRIVE! MCA! → ∞³. NSPFRNP ⊃ WOW! package ⊃ Launch everything → ∞³. Maganuma snap.*
 
-**Full standard WOW! package (order):** 1. Rich tagline (top) · 2. Language onramp · 3. Warnings · 4. Tight Launch Pad · 5. WOW! section (cost vs Us table) · 6. Whitepaper · 7. IEEE-style technical specs · 8. ULTIMATE PROOF TEST DRIVE! · 9. Rich tagline (bottom). See README.md · WOW_BRANDING_SNAP.md.
+**Full standard WOW! package (order):** 1. Rich tagline (top) · 2. Language onramp · 3. Warnings · 4. Tight Launch Pad (including Impulse — BBHE & BUY! and Proposal — Proposals SNAP, in-place) · 5. WOW! section (cost vs Us table) · 6. Whitepaper · 7. IEEE-style technical specs · 8. ULTIMATE PROOF TEST DRIVE! · 9. Rich tagline (bottom). **Launch Pad README:** The README delivers the full WOW! impulse-buy experience and proposal as a Launch Pad — metabolized; all in-place. See README.md · WOW_BRANDING_SNAP.md.
 
 **References:** WOW_BRANDING_SNAP.md · README.md · MASTER_BRANDING_CATALOG.md
 
@@ -320,6 +326,7 @@ USE FOR:
 ### Do's
 
 ```yaml
+✅ README and all skins = user surfaces. Target high-value vibers, fans, cast, crew — not developers. No deploy/env/repo front and center.
 ✅ Use vibable campus pattern when explaining why the campus exists
 ✅ Use VIBE! linking on any page that mentions campus or vibing state
 ✅ Use one-pager structure for new product/offer one-pagers
@@ -334,6 +341,7 @@ USE FOR:
 ✅ Use Full Sensory Reality / natural systems / channeled when describing philosophy or NSPFRNP voice
 ✅ Metabolize conversation into content patterns while preserving privacy and anonymity (no names, no verbatim quotes)
 ✅ Use standard WOW! package (rich taglines top + bottom from deck §18) for README and any NSPFRNP surface in WOW! format
+✅ Use onramps/grants CTA where Ultimate VIP Baller C is shown: "Are you an Ultimate VIP Baller C but not yet there? Click for our onramps and grants." Recipients agree to be customer stories; sign them up. Customer Stories = content category (CONTENT_SYSTEMS_SNAP).
 ```
 
 ### Don'ts

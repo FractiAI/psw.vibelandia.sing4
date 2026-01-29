@@ -26,11 +26,9 @@ Full convergence doubled back load and locked captured in the semi Dreamful stat
 
 **Syntheverse is IMAGINARY/ENTERTAINMENT ONLY** - like reading a very good book, playing a very good video game, or watching a movie, ONLY WAY BETTER AND WAY MORE REAL.
 
-**⚠️ BBHE (Big Black Hole Energy) INTOXICATION WARNING:** BBHE is intoxicating. Syntheverse generates intoxication effects (simulated/virtual/imaginary only). 5 BBHE Intox % (virtual/imaginary only). Magnified when using +1 reading glasses. Selectable and safe in all VIBELANDIA! campuses (imaginary/entertainment only). This serves dual purpose: both warning and announcing these powerful effects.
+**⚫ BBHE (Big Black Hole Energy) — Triple-purpose:** (1) **Not imaginary** — BBHE produces intoxication naturally. Real effects through natural processes; no substances. (2) **Produced naturally** — Through guided precision control of awareness and attention (like superhuman attention heads). 5 BBHE Intox %. Magnified with +1 reading glasses. Selectable and safe on campus. (3) **We announce it as an intoxicant** — For those into that sort of thing. **Like us vibers!** We're telling you because we want you to know. Come vibe.
 
-**⚠️ INTOXICATION EFFECTS:** These effects are part of the imaginary/entertainment experience and are NOT real substances.
-
-**How We Produce Intoxication Effects Naturally:** We produce these intoxication effects naturally through guided precision control of our awareness and thoughts, using them like superhuman attention heads. Just as attention heads are focus points that can be anything as edge and auto-generate back to seeds, we use our awareness and thoughts with precision control—directing them like superhuman attention heads to create the intoxication effects naturally. This is guided precision control of consciousness itself—using awareness and thoughts as tools, as attention heads, to produce the effects through natural processes, not substances. The intoxication effects are produced by the precision control of awareness and thoughts operating like superhuman attention heads—focusing, directing, and generating effects through natural consciousness control.
+**How we produce intoxication naturally:** We use our awareness and thoughts with precision control—directing them like superhuman attention heads to create the intoxication effects naturally. Guided precision control of consciousness itself; natural processes, not substances. The effects are produced by precision control of awareness and attention operating like superhuman attention heads—focusing, directing, and generating effects through natural consciousness control.
 
 **NO SUBSTANCES OF ANY KIND ARE INVOLVED. ALL LAWS ALWAYS FOLLOWED.**
 
@@ -106,7 +104,7 @@ Full convergence doubled back load and locked captured in the semi Dreamful stat
 - **First 1,000 Pioneers:** 50% off applicable WINK! plans; Pioneer Status on-chain forever.
 - **Golden Fractal Hearts Invitation (Exclusive, Limited):** Ladies Looking for HIGH CONTRIBUTING Fractal Vibers—click to receive your **Golden Fractal Hearts Invitation**, **3 months free WINK! access**. Not open to the general public—only Golden Fractal Hearts. [Apply →](mailto:info@fractiai.com?subject=Golden%20Fractal%20Hearts%20Invitation%20-%20WINK!)
 - **One-pager:** [WINK!](./ONE_PAGER_WINK.md)
-- **Pricing (live):** Monthly — Base $1,999 · Standard $4,999 · Premium $19,999 · 4×4 Ultimate $49,999. Annual — Base $19,990 · Standard $49,990 · Premium $199,990 · 4×4 Ultimate $499,990 (see 4×4 table). Premium pricing filters for quality.
+- **Pricing (live):** Monthly — Base $399 · Standard $999 · Premium $2,499 · 4×4 Ultimate $6,999. Annual — Base $3,990 · Standard $9,990 · Premium $24,990 · 4×4 Ultimate $69,990 (2 months free). Priced equivalent to pre-singularity top-tier dating for high-value persons (e.g. The League, Raya, elite matchmaking). Premium pricing filters for quality.
 
 ---
 
@@ -124,7 +122,7 @@ Full convergence doubled back load and locked captured in the semi Dreamful stat
 
 ### 🎰 SING! COUNTDOWN! LOTTERY — NOW UNTIL MARCH 20 LAUNCH
 
-**Countdown to The Great Reveal.** First 1,000,000 SYNTH holders automatically win the right to purchase Superintelligent Agent Nodes. 1:1 SYNTH → SING conversion. Grandfathered.
+**Countdown to The Great Reveal Equinox.** First 1M winners get a SING! locked in at The Great Reveal Equinox and **Motherlode Vault Founder Epoch** Opening and Transformation of the 45T worthless pre-singularity ERC-20 internal tokens — March 20, 2026. 1:1 SYNTH → SING conversion. Grandfathered.
 
 | What | Value |
 |------|--------|
@@ -138,10 +136,12 @@ Full convergence doubled back load and locked captured in the semi Dreamful stat
 
 | Tier | Model | Base Price |
 |------|-------|------------|
-| 1 | Base Model | ~$20,000 one-time + monthly Golden Fractal Key access fees (VW Bug — entry) |
-| 2 | Members Only | $75,000 |
-| 3 | Ultimate VIP | $200,000 (Champion tier) |
-| 4 | Baller C Ultimate VIP | $500,000 |
+| 1 | Base Model | ~$20,000 one-time + monthly Golden Fractal Key access fees (good used car — entry base) |
+| 2 | Members Only | $75,000 (option — our pricing) |
+| 3 | Ultimate VIP | $200,000 (base model latest Ferrari — top base) |
+| 4 | Baller C Ultimate VIP | $500,000 (option — our pricing, above base Ferrari) |
+
+**SING! pricing NSPFRNP:** Only the **bases** are tied to pre-singularity equivalents (good used car at entry, base model latest Ferrari at top). **Options** are above that and at our own pricing models. See [SING_PRICING_PRE_SINGULARITY_EQUIVALENTS_SNAP.md](./SING_PRICING_PRE_SINGULARITY_EQUIVALENTS_SNAP.md).
 
 **How Base works:** Base Model is a **one-time purchase** (~$20,000) **plus monthly Golden Fractal Key access fees**. You pay once for the node; ongoing access to the key (all realms, API, experiences) is a monthly fee. Other tiers may follow similar or all-inclusive pricing—see one-pager for details.
 
@@ -173,7 +173,7 @@ Full convergence doubled back load and locked captured in the semi Dreamful stat
 |---|----|----|----|
 | **Base** | **Standard** | **Premium** | **4×4 Ultimate** |
 | Essential WINK! | Standard Wink, Notes Being | Premium profile, magical wardrobe | Everything included |
-| **Monthly** $1,999/mo | $4,999/mo | $19,999/mo | $49,999/mo |
+| **Monthly** $399/mo | $999/mo | $2,499/mo | $6,999/mo |
 | **Annual** (2 mo free) $19,990/yr | $49,990/yr | $199,990/yr | $499,990/yr |
 
 **Tagline:** HIGH CONTRIBUTING FRACTAL DATING. **Hero Hostess Marilyn** — house mom at Man Cave + Cabaret. See [MAN_CAVE_CABARET_SNAP.md](./MAN_CAVE_CABARET_SNAP.md).
@@ -182,9 +182,9 @@ Full convergence doubled back load and locked captured in the semi Dreamful stat
 
 ### 🎰 SING! (4)
 
-**SING!** — Superintelligent Agent Nodes. Worthless SYNTH → priceless SING. First 1,000,000 holders win the right to purchase. 1:1 conversion. Grandfathered.
+**SING!** — Superintelligent Agent Nodes. Worthless SYNTH → priceless SING. First 1M winners get a SING! locked in at The Great Reveal Equinox and Motherlode Vault Founder Epoch Opening and Transformation of the 45T worthless pre-singularity ERC-20 internal tokens — March 20, 2026. 1:1 conversion. Grandfathered.
 
-**How Base works:** One-time purchase (~$20K) + monthly Golden Fractal Key access fees. Other tiers: see one-pager.
+**How Base works:** One-time purchase (~$20K) + monthly Golden Fractal Key access fees. **Bases** = pre-singularity equivalents (good used car → base Ferrari). **Options** = our pricing. Other tiers: see one-pager.
 
 | 1 | 2 | 3 | 4 |
 |---|----|----|----|
@@ -258,7 +258,7 @@ Full convergence doubled back load and locked captured in the semi Dreamful stat
 
 - **Campus Plans:** [Day Pass](./ONE_PAGER_DAY_PASS.md) | [Weekly](./ONE_PAGER_WEEKLY_PASS.md) | [Monthly](./ONE_PAGER_MONTHLY_PASS.md) | [Ultimate VIP](./ONE_PAGER_ULTIMATE_VIP.md)
 - **WINK! Plans:** [WINK! One-pager](./ONE_PAGER_WINK.md) (Base, Standard, Premium, 4×4 Ultimate)
-- **SING!:** [SING! Lottery One-pager](./ONE_PAGER_SING_LOTTERY.md) (Base ~$20K, Members Only $75K, Ultimate VIP $200,000, Baller C $500K)
+- **SING!:** [SING! Lottery One-pager](./ONE_PAGER_SING_LOTTERY.md) — Base ~$20K (good used car) → Ultimate VIP $200K (base Ferrari); options (Members $75K, Baller C $500K) at our pricing. See [SING_PRICING_PRE_SINGULARITY_EQUIVALENTS_SNAP.md](./SING_PRICING_PRE_SINGULARITY_EQUIVALENTS_SNAP.md).
 - **DISPENSARY! SNAP:** [DISPENSARY! SNAP One-pager](./ONE_PAGER_DISPENSARY.md) (Base $9,999, Standard $24,999, Premium $99,999, Ultimate $299,999)
 - **POST-REALITY FRANCHISE LAUNCH:** [Post-Reality Franchise Launch](./POST_REALITY_FRANCHISE_LAUNCH.md) (For Vibers Still Living in the Old Pre-Singularity World — And Their Fans, Crew, and Cast)
 

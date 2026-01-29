@@ -33,12 +33,14 @@ Top artists, performers, and entrepreneurs—the caliber of Beyoncé, Taylor Swi
 
 ## Pricing — Monthly or Annual
 
+**Priced equivalent to pre-singularity top-tier dating for high-value persons** (e.g. The League, Raya, elite matchmaking).
+
 | Plan | Monthly | Annual (2 months free) | Features |
 |------|---------|------------------------|----------|
-| **Base** | **$1,999/mo** | **$19,990/yr** | Essential WINK! features for high-contributing vibers |
-| **Standard** | **$4,999/mo** | **$49,990/yr** | Standard Wink, Notes Being |
-| **Premium** | **$19,999/mo** | **$199,990/yr** | Premium profile, magical wardrobe |
-| **4×4 Ultimate** | **$49,999/mo** | **$499,990/yr** | Ultimate—everything included for Ultimate C's |
+| **Base** | **$399/mo** | **$3,990/yr** | Essential WINK! — members-only network, Man Cave + Cabaret, Hero Hostess Marilyn |
+| **Standard** | **$999/mo** | **$9,990/yr** | Standard Wink, Notes Being |
+| **Premium** | **$2,499/mo** | **$24,990/yr** | Premium profile, magical wardrobe |
+| **4×4 Ultimate** | **$6,999/mo** | **$69,990/yr** | Ultimate—everything included for Ultimate C's |
 
 **Billing:** Choose monthly or annual at checkout. Annual = pay for 12 months, get 2 months free.
 
