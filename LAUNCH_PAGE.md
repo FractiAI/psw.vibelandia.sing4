@@ -28,7 +28,6 @@
 
 **You can sign up for:** VIBELANDIA! campus visit/stay · Optional excursions · WINK! · Lottery participation · Optional free consultation and proposal from Gianni if interested in having us do something similar for your company or community. Plans and pricing ready to click and purchase.
 
-**Purchases require registration / sign up / sign in / auth.** Checkout is gated on auth.
 
 ---
 

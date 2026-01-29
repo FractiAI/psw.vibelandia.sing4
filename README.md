@@ -20,7 +20,7 @@
 
 **You can sign up for:** VIBELANDIA! campus visit/stay · Optional excursions · WINK! · Lottery participation · Optional free consultation and proposal from Gianni (for your company or community).
 
-**Purchases require registration / sign up / sign in / auth.** [NSPFRNP Wallet](./interfaces/profile.html) · [Checkout](./interfaces/payment-checkout.html).
+[Checkout](./interfaces/payment-checkout.html).
 
 ---
 
@@ -39,7 +39,7 @@
 
 ## Key links
 
-- **[Launch Pad (landing)](./index.html)** · **[Full Launch Pad](./interfaces/launch-pad.html)** · **[NSPFRNP Wallet](./interfaces/profile.html)** · **[Checkout](./interfaces/payment-checkout.html)**
+- **[Launch Pad (landing)](./index.html)** · **[Full Launch Pad](./interfaces/launch-pad.html)** · **[Checkout](./interfaces/payment-checkout.html)**
 - **[Gianni's Dressing Room](./interfaces/magical-dressing-room.html)** — Optional free consultation & proposal for your enterprise / community
 - **4×4×4×4:** [CRYSTALLIZATION_1_2_3_4x4x4x4.md](./CRYSTALLIZATION_1_2_3_4x4x4x4.md) · **One-pagers:** [Campus](./ONE_PAGER_VIBELANDIA_RENO.md) · [WINK!](./ONE_PAGER_WINK.md) · [SING!](./ONE_PAGER_SING_LOTTERY.md) · [Happy Ending Zones](./ONE_PAGER_HAPPY_ENDING_ZONES.md)
 

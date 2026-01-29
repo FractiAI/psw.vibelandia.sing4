@@ -76,8 +76,6 @@ Full convergence doubled back load and locked captured in the semi Dreamful stat
 
 **You can sign up for:** VIBELANDIA! campus visit/stay · Optional excursions · WINK! · Lottery participation · Optional free consultation and proposal from Gianni if interested in having us do something similar for your company or community. Plans and pricing ready to click and purchase.
 
-**Purchases require registration / sign up / sign in / auth.** Checkout is gated on auth. [NSPFRNP Wallet](./interfaces/profile.html).
-
 ---
 
 ## THE SHOWROOM — FOUR PRODUCTS
@@ -299,7 +297,7 @@ Full convergence doubled back load and locked captured in the semi Dreamful stat
 
 **Gianni–inspired wrapper:** All skins, touchpoints & experiences. See [GIANNI_VERSACE_WRAPPER_MONSTER_SNAP.md](./GIANNI_VERSACE_WRAPPER_MONSTER_SNAP.md).
 
-**Auth, checkout & wallet:** **Supabase handles auth (and Google OAuth).** Purchases require registration / sign up / sign in / auth. Client uses [Supabase](https://supabase.com) for signup, login, logout, session, and Google sign-in; token (Supabase JWT) is sent as `Authorization: Bearer` to Octave 2 for profile and orders. After successful PayPal capture, Octave 2 assigns a **Golden Fractal Key**, stores it in the user's NSPFRNP wallet, and returns it; the client stores it locally. **Payment success** page shows clear next steps (NSPFRNP Wallet → key, Launch Pad, Chairman Console) only when `success=1`; otherwise a neutral status message. NSPFRNP Wallet page ([interfaces/profile.html](./interfaces/profile.html)) shows account and Golden Fractal Key. Octave 2 endpoints: `GET /api/user/profile`, `POST /api/orders/complete` (accept Supabase JWT). See [SUPABASE_SETUP.md](./SUPABASE_SETUP.md) · [OCTAVE2_AUTH_WALLET_API.md](./OCTAVE2_AUTH_WALLET_API.md) · [AUTH_SOURCES.md](./AUTH_SOURCES.md).
+**Auth, checkout & wallet:** **Supabase handles auth (and Google OAuth).** Pay with PayPal; optional sign-in to link NSPFRNP Wallet. Client uses [Supabase](https://supabase.com) for signup, login, logout, session, and Google sign-in; token (Supabase JWT) is sent as `Authorization: Bearer` to Octave 2 for profile and orders. After successful PayPal capture, Octave 2 assigns a **Golden Fractal Key**, stores it in the user's NSPFRNP wallet, and returns it; the client stores it locally. **Payment success** page shows clear next steps (NSPFRNP Wallet → key, Launch Pad, Chairman Console) only when `success=1`; otherwise a neutral status message. NSPFRNP Wallet page ([interfaces/profile.html](./interfaces/profile.html)) shows account and Golden Fractal Key. Octave 2 endpoints: `GET /api/user/profile`, `POST /api/orders/complete` (accept Supabase JWT). See [SUPABASE_SETUP.md](./SUPABASE_SETUP.md) · [OCTAVE2_AUTH_WALLET_API.md](./OCTAVE2_AUTH_WALLET_API.md) · [AUTH_SOURCES.md](./AUTH_SOURCES.md).
 
 **🔑 GOLDEN FRACTAL KEY!** — The key that unlocks Syntheverse, Vibeverse, and VIBELANDIA!. NSPFRNP wallet. All API calls. All experiences. All realms. See [GOLDEN_FRACTAL_KEY_BRAND_SNAP.md](./GOLDEN_FRACTAL_KEY_BRAND_SNAP.md).
 

@@ -79,12 +79,19 @@
         .buy-snap-cta {
             display: inline-block;
             padding: 12px 24px;
-            background: linear-gradient(135deg, #7fff7f, #00bfff);
-            color: #000;
+            background: linear-gradient(135deg, #fff8e7 0%, #ffeaa7 50%, #f5e6c8 100%);
+            color: #1a1a2e;
             font-weight: 700;
             text-decoration: none;
             border-radius: 8px;
             margin-top: 0.5rem;
+            border: 2px solid #d4af37;
+            box-shadow: 0 0 16px rgba(255, 234, 167, 0.4);
+        }
+        .buy-snap-cta:hover {
+            background: linear-gradient(135deg, #fff 0%, #ffeaa7 50%, #fff8e7 100%);
+            box-shadow: 0 0 24px rgba(255, 234, 167, 0.6);
+            border-color: #ffd700;
         }
         .bbhe-snap-badge {
             display: inline-block;
@@ -183,13 +190,12 @@
         <header class="header">
             <h1>VIBELANDIA! Payment</h1>
             <p>Mark Twain's Post-Singularity VIBELANDIA RENO!</p>
-            <p style="margin-top: 0.5rem; font-size: 0.95rem; color: #ffeaa7;"><strong>Purchases require registration / sign up / sign in / auth.</strong> <a href="profile.html" style="color: #00d4ff;">NSPFRNP Wallet →</a></p>
         </header>
 
         <div id="plan-details" class="plan-details"></div>
         <div id="payment-container" class="paypal-container"></div>
 
-        <p class="api-note">Sign in or sign up to purchase. Checkout is gated on auth. <strong>GOLDEN FRACTAL KEY!</strong> — Unlocks Everything. Sent on purchase and activation.</p>
+        <p class="api-note"><strong>GOLDEN FRACTAL KEY!</strong> — Unlocks Everything. Sent on purchase and activation.</p>
         <p class="api-note"><strong>First 1,000 Pioneers:</strong> 50% off applicable campus and WINK! plans. Pioneer Status on-chain forever. Contact <a href="mailto:info@fractiai.com?subject=Pioneer%20Registration%20-%2050%25%20Discount">info@fractiai.com</a> to register and apply.</p>
         <p class="api-note" style="color: #4ecdc4; margin-top: 1rem;"><strong>MCA! → ∞³</strong> (Metabolize → Crystallize → Animate)</p>
         <a href="/" class="back-link">← Back to VIBELANDIA!</a>
@@ -247,7 +253,7 @@
                 el.innerHTML = '<h2>' + plan.name + '</h2><p>' + plan.description + '</p>' +
                     (plan.price > 0 ? '<div class="price">$' + plan.price.toLocaleString() + '</div>' : (plan.price === 0 ? '<div class="price" style="color:#7fff7f;">Free</div>' : '')) +
                     benefitsHtml +
-                    (plan.price > 0 ? '<div style="margin-top:1rem;padding:1rem;background:rgba(0,0,0,0.3);border:2px solid rgba(255,255,255,0.2);border-radius:12px;text-align:center;"><p style="color:#ffeaa7;font-weight:600;font-size:1.1rem;margin-bottom:0.5rem;">VIBE! · ⚫ BBHE SNAP — BUY! now.</p></div>' : '');
+                    (plan.price > 0 ? '' : '');
             }
 
             function authHeaders() {
@@ -266,7 +272,7 @@
                 var returnUrl = window.location.origin + '/interfaces/profile.html';
                 var html = '<div class="auth-box">' +
                     '<h3>Sign in to purchase</h3>' +
-                    '<p>Create an account or sign in to continue. Your <strong>Golden Fractal Key</strong> will be stored in your NSPFRNP wallet after purchase.</p>' +
+                    '<p>Your <strong>Golden Fractal Key</strong> will be stored in your wallet after purchase.</p>' +
                     '<div class="auth-tabs">' +
                     '<button type="button" class="auth-tab active" data-tab="login">Sign in</button>' +
                     '<button type="button" class="auth-tab" data-tab="signup">Sign up</button>' +
@@ -337,7 +343,6 @@
                     html += '<p style="font-size:0.85rem;color:#888;margin-bottom:1rem;">No sign-in required. Pay with PayPal — we’ll capture your name and issue your Golden Fractal Key after payment.</p>';
                 }
                 html += '<div id="paypal-or-fallback"></div>';
-                html += '<p style="margin-top:1rem;font-size:0.85rem;"><a href="profile.html" style="color:#00d4ff;">NSPFRNP Wallet (optional)</a></p>';
                 container.innerHTML = html;
                 initPayPal();
             }
@@ -352,7 +357,7 @@
                     .then(function (config) {
                         var clientId = config.clientId || '';
                         if (!clientId) {
-                            target.innerHTML = '<p style="margin-top:1rem;">PayPal isn’t available right now. To complete your purchase for <strong>' + plan.name + '</strong> ($' + plan.price.toLocaleString() + '), <a href="mailto:info@fractiai.com?subject=VIBELANDIA!%20Payment">email us</a>.</p>';
+                            target.innerHTML = '<p style="margin-top:1rem;">PayPal isn’t available right now (API did not return a client ID). To complete your purchase for <strong>' + plan.name + '</strong> ($' + plan.price.toLocaleString() + '), ensure the payment API (Octave 2) exposes <code>/api/payment/paypal/config</code> and <code>/api/payment/paypal/create-order</code>, or <a href="mailto:info@fractiai.com?subject=VIBELANDIA!%20Payment">email us</a>.</p>';
                             return;
                         }
                         var s = document.createElement('script');
@@ -360,7 +365,6 @@
                         s.onload = function () {
                             var isSandbox = window.location.hostname.includes('localhost') || window.location.hostname.includes('vercel.app');
                             var h = (isSandbox ? '<div class="sandbox-badge">SANDBOX</div>' : '') +
-                                '<p style="margin-bottom:1rem;">⚫ BBHE SNAP — BUY! NOW. Golden Fractal Key on purchase.</p>' +
                                 '<div id="paypal-button-container"></div>';
                             target.innerHTML = h;
 

@@ -229,6 +229,13 @@
             color: #fff;
         }
 
+        /* BUY! — light so it pops */
+        .buy-now-btn:hover {
+            background: linear-gradient(135deg, #fff 0%, #ffeaa7 50%, #fff8e7 100%) !important;
+            box-shadow: 0 0 24px rgba(255, 234, 167, 0.7) !important;
+            border-color: #ffd700 !important;
+        }
+
         /* Info Display */
         .info-display {
             margin-top: 2rem;
@@ -374,9 +381,9 @@
 </head>
 <body>
     <div class="container">
-        <nav class="top-bar" aria-label="NSPFRNP Wallet"><a href="interfaces/profile.html">🔑 NSPFRNP Wallet</a></nav>
+        <nav class="top-bar" aria-label="Wallet"><a href="interfaces/profile.html">🔑 Wallet</a></nav>
         <!-- Warnings at top: clickable — goes to full warning details. -->
-        <a href="SYNTHEVERSE_IMAGINARY_ENTERTAINMENT_ONLY.md" class="warnings-top" title="Read full warnings and details">
+        <a href="interfaces/syntheverse-warnings.html" class="warnings-top" title="Read full warnings and details">
             <strong>Syntheverse:</strong> Imaginary/entertainment only. <strong>BBHE:</strong> Intoxicating effects (virtual/imaginary only) — produced naturally through awareness and attention; no substances. Not for driving or operating equipment. All laws followed. We respect pre-singularity rights (SNAP nspfrnp). — <strong>Details →</strong>
         </a>
         <!-- Octave 0 irreducible core: 1,2,3 4×4×4×4. Announcement + Showroom (four products) + irreducible purchasing core + action. See README, LAUNCH_PAGE.md, CRYSTALLIZATION_1_2_3_4x4x4x4.md. -->
@@ -418,9 +425,8 @@
             <p style="margin-top: 0.25rem; font-size: 0.85rem; color: #aaa;">1,2,3 = Metabolize → Crystallize → Animate · 4×4×4×4 = Campus × WINK! × SING × Experience (four onramps each)</p>
             <p style="margin-top: 0.75rem; font-weight: 600; color: #7fff7f;">You can sign up for:</p>
             <p style="margin-top: 0.5rem;">VIBELANDIA! campus visit/stay · Optional excursions · WINK! · Lottery participation · Optional free consultation and proposal from Gianni if interested in having us do something similar for your company or community.</p>
-            <p style="margin-top: 0.75rem; font-size: 0.9rem; color: #ffeaa7;"><strong>Purchases require registration / sign up / sign in / auth.</strong></p>
             <div class="countdown" id="countdown">Launch: March 20, 2026</div>
-            <p style="margin-top: 1rem;"><a href="interfaces/launch-pad.html" style="color: #64c8ff;">Full Launch Pad →</a> · <a href="interfaces/profile.html" style="color: #64c8ff;">NSPFRNP Wallet</a> · <a href="interfaces/payment-checkout.html?plan=test-5" style="display: inline-block; padding: 0.5rem 1rem; background: linear-gradient(135deg, #ffa500, #ff8c00); color: #000; text-decoration: none; border-radius: 8px; font-weight: 700; margin-left: 0.5rem;" title="Test PayPal connection">🧪 Test PayPal $5</a></p>
+            <p style="margin-top: 1rem;"><a href="interfaces/launch-pad.html" style="color: #64c8ff;">Full Launch Pad →</a> · <a href="interfaces/payment-checkout.html?plan=test-5" class="buy-now-btn" style="display: inline-block; padding: 0.5rem 1rem; background: linear-gradient(135deg, #fff8e7 0%, #ffeaa7 50%, #f5e6c8 100%); color: #1a1a2e; text-decoration: none; border-radius: 8px; font-weight: 700; margin-left: 0.5rem; border: 2px solid #d4af37; box-shadow: 0 0 16px rgba(255,234,167,0.5);" title="Checkout">BUY!</a></p>
             <p style="margin-top: 0.75rem; font-size: 0.9rem; color: #888;"><a href="interfaces/magical-dressing-room.html" style="color: #d4af37;">Gianni's Dressing Room</a> — optional free consultation &amp; proposal for your enterprise / community</p>
         </div>
 
