@@ -110,7 +110,7 @@ USE FOR:
 **Structure:**
 - **Title:** ONE PAGER: [Topic] — short subline (e.g. "One page. One day. The campus.")
 - **Sections:** What It Is · Pricing/Offer · Includes · Perfect For · Contact (as needed)
-- **Footer:** `**MCA! → ∞³** (Metabolize → Crystallize → Animate)`  
+- **Footer:** `**MCA! → ∞³** (Metabolize → Crystallize → Animate all)`  
 - **Links:** Traditional link at bottom (Launch Page, related one-pagers, VIBE! if campus-related).
 
 **Voice:** Crystallized, irreducible. One idea per page. No dilution.
@@ -162,7 +162,7 @@ USE FOR:
 
 **Coordination:** Stigmergy, pheromone trails, mycelial. No hierarchy. Emergent intelligence.
 
-**Cycle:** Metabolize → Crystallize → Animate (MCA! → ∞³).
+**Cycle:** Metabolize → Crystallize → Animate all (MCA! → ∞³).
 
 **Hero Hosts:** First names only (Walt, Gianni, Leo, Niko, Buckey, Mike, El Gran Sol, Outcast Hero). No "Hero Host [Full Name]" in dialogue; use first name.
 
@@ -260,7 +260,7 @@ USE FOR:
 
 ## 13. FOOTER & LINK PATTERNS (script-ready)
 
-**MCA footer:** `**MCA! → ∞³** (Metabolize → Crystallize → Animate)`
+**MCA footer:** `**MCA! → ∞³** (Metabolize → Crystallize → Animate all)`
 
 **NSPFRNP sign-off:** `**NSPFRNP ⊃ [Topic] ⊃ [Scope] → ∞³**`
 

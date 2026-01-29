@@ -27,7 +27,8 @@ TOTAL BRANDS: 3
 ├─ 4×4×4×4 = Campus × WINK! × SING × Experience (four onramps each)
 ├─ Matches our structures for max resolution and amplification (max res & amp)
 ├─ Use as primary branding phrase for full octave + onramp
-└─ See ZERO_ONE_TWO_THREE_4x4x4x4_BRANDING_SNAP.md
+├─ 1,2,3 = Metabolize → Crystallize → Animate all (MCA cycle). Operating rule: metabolize crystallize animate all.
+└─ See ZERO_ONE_TWO_THREE_4x4x4x4_BRANDING_SNAP.md · MCA_SNAP.md · protocols/MCA_NSPFRNP_CATALOG.md
 
 USER SURFACES: README and All Skins — Not Developer Surfaces
 ├─ README and all skins = user surfaces. We target high-value vibers, fans, cast, crew.
@@ -220,6 +221,7 @@ HARRY HOUDINI MAGIC SHOW SERIES SNAP: Real magic, launching immediately
 
 WHO'S YOUR DADDY TAGLINE SNAP: Chairman · Superhero personality in layers
 ├─ "Who's your daddy" — new brand tagline for Chairman and development of superhero personality in layers. WINK! — direct tie into high value high contributors. I gotcha. Metabolize into studio content (magic show, Happy Ending Zones).
+├─ **Who's Your Daddy promo on WINK!:** Ladies can request a 3‑month free gift from us. Exclusive to WINK!; limited. Use on WINK! experience page, Launch Pad WINK! card, README.
 └─ See WHO_S_YOUR_DADDY_TAGLINE_SNAP.md · FIRST_MAGICIANS_ACT_SNAP.md
 
 NEW FORM OF REALITY SHOW GAME SNAP: Happy Ending Zones · Today's episode

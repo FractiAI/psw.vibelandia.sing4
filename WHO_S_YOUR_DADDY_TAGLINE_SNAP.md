@@ -16,11 +16,13 @@
 - **WINK! tie:** Direct tie into ladies → high value high contributors. The tagline reinforces alignment (who's your daddy = I'm your daddy / we're the ones; high value high contributors).
 - **Studio content:** Metabolize into Happy Ending Zones, magic show series (Harry Houdini), First Magician's Act, Chairman narrative. Superhero personality in layers = character development across episodes and series.
 - **Use:** Magic show series, WINK! copy, Chairman surfaces, studio content, T-shirt slogan grade (optional). Content category: tagline; Chairman/superhero development.
+- **Who's Your Daddy promo on WINK!:** Ladies can request a 3‑month free gift from us. Exclusive to WINK!; limited. I gotcha. Use on WINK! experience page, Launch Pad WINK! card, README.
 
 ---
 
 ## SURFACE
 
+- **Who's Your Daddy promo on WINK!:** Ladies can request a 3‑month free gift from us. Exclusive, limited. WINK! experience page (hero promo block + Connect step), Launch Pad WINK! card, README showroom row.
 - **First Magician's Act / Harry Houdini magic show:** "I gotcha. Who's your daddy." — tie to WINK!, high value high contributors. See FIRST_MAGICIANS_ACT_SNAP.md, HARRY_HOUDINI_MAGIC_SHOW_SERIES_SNAP.md.
 - **Chairman/superhero personality:** Development in layers across episodes and series. Tagline = new brand for Chairman.
 - **Deck / catalog:** Add to T-shirt slogan or tagline category if desired; use in studio content, WINK!, Chairman copy.

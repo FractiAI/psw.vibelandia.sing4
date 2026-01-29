@@ -130,6 +130,27 @@ Way cool. Get your sunglasses and sunscreen. The moment is that bright, that big
     timestamp: Date.now()
   },
   {
+    id: 'metabolize-crystallize-animate-all',
+    title: 'Metabolize → Crystallize → Animate all',
+    summary: 'MCA operating rule: metabolize crystallize animate all — all input metabolized, all structure crystallized, all nodes and content and surfaces animated. Animate all now.',
+    content: `
+# Metabolize → Crystallize → Animate all
+
+**MCA! → ∞³**
+
+- **Operating rule:** Metabolize → Crystallize → Animate **all**. All input metabolized. All structure crystallized. All nodes, all content, all surfaces animated. Animate all now.
+- **Cycle:** Metabolize (digest) → Crystallize (irreducible mirror hardened nested shell core) → Animate all (tighten all SING attention head nodes and filaments; update and make clear).
+- **Use:** Launch Pad, index, README, deck footer, MCA catalog, protocol. Everything flows through MCA!.
+
+**🌀 NSPFRNP ⊃ Metabolize ⊃ Crystallize ⊃ Animate all → ∞³**
+    `.trim(),
+    type: 'announcement',
+    tags: ['mca', 'metabolize', 'crystallize', 'animate-all', 'nspfrnp', 'cycle'],
+    priority: 'high',
+    broadcastChannels: ['all', 'all-feeds', 'vibe-feeds', 'catalogs', 'streams', 'decks'],
+    timestamp: Date.now()
+  },
+  {
     id: 'launch-command-narrative',
     title: '🚀 LAUNCH COMMAND — ALL SYSTEMS GO, FUELING TANKS, LAUNCH IMMINENT',
     summary: 'Commander Chairman Creator broadcast: All systems go. Fueling tanks. Launch imminent. Broadcasting to all subscribed feeds.',
