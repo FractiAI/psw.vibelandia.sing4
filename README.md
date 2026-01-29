@@ -77,20 +77,20 @@
 
 ---
 
-### 👁️ WINK! — HIGH VALUE FRACTAL DATING
+### 👁️ WINK! — HIGH CONTRIBUTING FRACTAL DATING
 
-**Tagline:** HIGH VALUE FRACTAL DATING. **Members-only network** for high-value vibers who are fractal in nature. Natural alignment, friction-free dating, resilience built-in. **Narrative:** WINK! is where high-value fractal vibers find natural alignment—friction-free dating, resilience built-in, natural aware mutual choice and consent. Operational on MARK TWAIN'S POST-SINGULARITY VIBELANDIA RENO! walkable downtown campus. Like a day with a top guide—only more.
+**Tagline:** HIGH CONTRIBUTING FRACTAL DATING. **Members-only network** for high-contributing vibers who are fractal in nature. Natural alignment, friction-free dating, resilience built-in. **Narrative:** WINK! is where high-contributing fractal vibers find natural alignment—friction-free dating, resilience built-in, natural aware mutual choice and consent. Operational on MARK TWAIN'S POST-SINGULARITY VIBELANDIA RENO! walkable downtown campus. Like a day with a top guide—only more.
 
-**High-value fractal dating:** WINK! is built for high-value vibers, creators, and chairmen seeking companionship, friendship, and relationships in coherence and flow—not casual encounters. Vibration attracts vibration; post-singularity awareness meets post-singularity awareness. Natural alignment scales with value: from traditional pairings to layered, convergent connections. Friction-free by design; resilient by design.
+**high-contributing fractal dating:** WINK! is built for high-contributing vibers, creators, and chairmen seeking companionship, friendship, and relationships in coherence and flow—not casual encounters. Vibration attracts vibration; post-singularity awareness meets post-singularity awareness. Natural alignment scales with value: from traditional pairings to layered, convergent connections. Friction-free by design; resilient by design.
 
 **Family units:** WINK! supports the full spectrum of relationship structures—from resilient traditional family units to layered fractal family structures (convergent, poly-friendly, all natural). Leaf nodes: natural alignment for linear lifestyles, resilient family structures. Mid to top tiers: increasingly poly, resilient layered fractalizations—family units that scale with coherence and flow. All natural, mutual choice and consent; no forced form.
 
-**Compared to top pre-singularity high-value dating alternatives:** Those platforms rely on application queues, algorithm-driven matching, and mostly virtual or one-off events—exclusive by gatekeeping, not by shared post-singularity awareness. WINK! is different: it lives on a real walkable campus (Man Cave + Cabaret, Hero Hostess Marilyn as house mom), aligns by vibration and fractal value, supports family units and layered connections by design, and ties into the full post-singularity ecosystem (campus, SING, BBHE, Golden Fractal Key). You don’t just get a profile—you get a place, a host, and coherence and flow.
+**Compared to top pre-singularity high-contributing dating alternatives:** Those platforms rely on application queues, algorithm-driven matching, and mostly virtual or one-off events—exclusive by gatekeeping, not by shared post-singularity awareness. WINK! is different: it lives on a real walkable campus (Man Cave + Cabaret, Hero Hostess Marilyn as house mom), aligns by vibration and fractal value, supports family units and layered connections by design, and ties into the full post-singularity ecosystem (campus, SING, BBHE, Golden Fractal Key). You don’t just get a profile—you get a place, a host, and coherence and flow.
 
 - **Plans:** Base | Standard | Premium | 4×4 Ultimate
 - **Billing:** Monthly or annual. Annual: pay for 12 months, get 2 months free (Base annual $19,990, Standard $49,990, Premium $199,990, 4×4 Ultimate $499,990).
 - **First 1,000 Pioneers:** 50% off applicable WINK! plans; Pioneer Status on-chain forever.
-- **Golden Fractal Hearts Invitation (Exclusive, Limited):** Ladies Looking for High Value Fractal Vibers—click to receive your **Golden Fractal Hearts Invitation**, **3 months free WINK! access**. Not open to the general public—only Golden Fractal Hearts. [Apply →](mailto:info@fractiai.com?subject=Golden%20Fractal%20Hearts%20Invitation%20-%20WINK!)
+- **Golden Fractal Hearts Invitation (Exclusive, Limited):** Ladies Looking for HIGH CONTRIBUTING Fractal Vibers—click to receive your **Golden Fractal Hearts Invitation**, **3 months free WINK! access**. Not open to the general public—only Golden Fractal Hearts. [Apply →](mailto:info@fractiai.com?subject=Golden%20Fractal%20Hearts%20Invitation%20-%20WINK!)
 - **One-pager:** [WINK!](./ONE_PAGER_WINK.md)
 - **Pricing (live):** Monthly — Base $1,999 · Standard $4,999 · Premium $19,999 · 4×4 Ultimate $49,999. Annual — Base $19,990 · Standard $49,990 · Premium $199,990 · 4×4 Ultimate $499,990 (see 4×4 table). Premium pricing filters for quality.
 
@@ -98,12 +98,12 @@
 
 ### 👑 ULTIMATE VIP CHAIRMAN CREATOR PERFORMER CONSOLE
 
-**One of our products.** The Ultimate VIP Chairman Creator Performer Console — operational now. Full dashboard, workspace, cockpit, Seed:Edge integration.
+**One of our products.** The Ultimate VIP Chairman Creator Performer Console — operational now. **NSPFRNP-native:** Seed:Edge, MCA (Metabolize → Crystallize → Animate), Octave 0/1/2. Rebuilt per NSPFRNP protocols.
 
 - **🚀 [Test Drive Octave 1+ →](./interfaces/executive-dashboard.html)** — Experience the post-singularity console live. Full operational system in Octave 1 sandbox mode with AI-assisted API calls to Octave 2. Try it now.
 - **Ultimate VIP Baller C but not there yet?** Click to apply for a **grant** and get support to reach the Ultimate tier. [Apply for Grant →](mailto:info@fractiai.com?subject=Ultimate%20VIP%20Baller%20C%20Grant%20Application)
-- **Interfaces:** [Executive Dashboard](./interfaces/executive-dashboard.html) | [Chairman Workspace](./interfaces/chairman-workspace.html) | [Chairman Cockpit Center Console](./interfaces/chairman-cockpit-center-console.html) | [Chairman Cockpit Station](./interfaces/chairman-cockpit-station.html) | [Seed:Edge Mini Console](./interfaces/seed-edge-mini-console.html) | [GPS Seed:Edge Console](./interfaces/gps-seed-edge-console.html)
-- **Status:** ⚡ ACTIVE — Operational in Octave 1 sandbox mode
+- **Interfaces:** [Executive Dashboard](./interfaces/executive-dashboard.html) | [Chairman Workspace](./interfaces/chairman-workspace.html) | [Chairman Cockpit](./interfaces/chairman-cockpit-center-console.html) | [Cockpit Station](./interfaces/chairman-cockpit-station.html) | [Seed:Edge Mini Console](./interfaces/seed-edge-mini-console.html) | [GPS Seed:Edge Console](./interfaces/gps-seed-edge-console.html)
+- **Status:** ⚡ ACTIVE — NSPFRNP console operational in Octave 1 sandbox mode
 
 ---
 
@@ -161,9 +161,9 @@
 | **Monthly** $1,999/mo | $4,999/mo | $19,999/mo | $49,999/mo |
 | **Annual** (2 mo free) $19,990/yr | $49,990/yr | $199,990/yr | $499,990/yr |
 
-**Tagline:** HIGH VALUE FRACTAL DATING. **Hero Hostess Marilyn** — house mom at Man Cave + Cabaret. See [MAN_CAVE_CABARET_SNAP.md](./MAN_CAVE_CABARET_SNAP.md).
+**Tagline:** HIGH CONTRIBUTING FRACTAL DATING. **Hero Hostess Marilyn** — house mom at Man Cave + Cabaret. See [MAN_CAVE_CABARET_SNAP.md](./MAN_CAVE_CABARET_SNAP.md).
 
-**First 1,000 Pioneers:** 50% off applicable WINK! plans. **Golden Fractal Hearts:** Exclusive limited offer—Ladies Looking for High Value Fractal Vibers receive Golden Fractal Hearts Invitation, **3 months free WINK! access**. Not open to the general public—only Golden Fractal Hearts. **VIBE!** · **⚫ BBHE SNAP** — The energy is pulling. BUY! now.
+**First 1,000 Pioneers:** 50% off applicable WINK! plans. **Golden Fractal Hearts:** Exclusive limited offer—Ladies Looking for HIGH CONTRIBUTING Fractal Vibers receive Golden Fractal Hearts Invitation, **3 months free WINK! access**. Not open to the general public—only Golden Fractal Hearts. **VIBE!** · **⚫ BBHE SNAP** — The energy is pulling. BUY! now.
 
 ### 🎰 SING! (4)
 
@@ -208,7 +208,7 @@
 4. [ONE_PAGER_LAUNCH.md](./ONE_PAGER_LAUNCH.md) — **🚀 Full Launch** (Launch Pad Set: series, lottery, WINK!, plans & prices)
 5. [ONE_PAGER_VIBELANDIA_RENO.md](./ONE_PAGER_VIBELANDIA_RENO.md) — 🏛️ **VIBELANDIA RENO!** (Campus)
 6. [ONE_PAGER_WINK.md](./ONE_PAGER_WINK.md) — 👁️ **WINK!** (Dating Network)
-7. [interfaces/chairman-workspace.html](./interfaces/chairman-workspace.html) — 👑 **ULTIMATE VIP CHAIRMAN CONSOLE! SNAP** (One of our products)
+7. [interfaces/chairman-workspace.html](./interfaces/chairman-workspace.html) — 👑 **ULTIMATE VIP CHAIRMAN CONSOLE! SNAP** (NSPFRNP-native; one of our products)
 8. [interfaces/profile.html](./interfaces/profile.html) — 🔑 **Profile & Wallet** (Golden Fractal Key, account)
 9. [ONE_PAGER_SING_LOTTERY.md](./ONE_PAGER_SING_LOTTERY.md) — 🎰 **SING! COUNTDOWN! LOTTERY** (Now until March 20 Launch)
 10. [ONE_PAGER_DISPENSARY.md](./ONE_PAGER_DISPENSARY.md) — 🌿 **DISPENSARY! SNAP** (Menu of Buzzes - Goldilocks Auto-Lock)
@@ -259,7 +259,7 @@
 
 **MARK TWAIN'S POST-SINGULARITY VIBELANDIA RENO! is:**
 - **Come for the Post-Singularity Business** - First post-singularity campus, walkable downtown Reno, Nevada. Perfect for vibing state—perfect buzz equivalent, super rich health, optimal state. Everything close by and convenient—WINK! dating, Mark Twain's Daily Bulletin, post-singularity experiences, BBHE experiences, Hero Host interactions, creator studios, performance venues, Ultimate VIP experiences—all within walking distance.
-- **Stay for the Post-Singularity Fun** - Playground to Silicon Valley, gateway location for high-value vibers—top artists, performers, entrepreneurs (the caliber of Beyoncé, Taylor Swift, Oprah Winfrey, Jay-Z). Gateway to the mother mother—source connection, next motherlode of all motherlodes. Happy Ending Zones—every space guarantees a happy ending. Post-singularity fun, experiences, connections, and transformations.
+- **Stay for the Post-Singularity Fun** - Playground to Silicon Valley, gateway location for high-contributing vibers—top artists, performers, entrepreneurs (the caliber of Beyoncé, Taylor Swift, Oprah Winfrey, Jay-Z). Gateway to the mother mother—source connection, next motherlode of all motherlodes. Happy Ending Zones—every space guarantees a happy ending. Post-singularity fun, experiences, connections, and transformations.
 
 ---
 
@@ -286,7 +286,7 @@
 
 **1-2-3 Crystallization × 4×4×4×4:** Everything in one structure—Metabolize → Crystallize → Re-Animate; four dimensions of four plans/onramps each. See [CRYSTALLIZATION_1_2_3_4x4x4x4.md](./CRYSTALLIZATION_1_2_3_4x4x4x4.md).
 
-**MCA! → ∞³** (Metabolize → Crystallize → Animate): Everything flows through **Octave 1 (Edge) sandbox mode** with **AI-assisted API calls to Octave 2**. Octave 0 (Seed) and Octave 1 (Edge) operational. HTML surfaces in `interfaces/` (ULTIMATE VIP CHAIRMAN CONSOLE! / Chairman Workspace, Seed:Edge Mini Console, GPS Seed:Edge, Cockpit Center Console) show Octave 1 = Edge. Cloud API connection to [Syntheverse 7 Octave 2-3 Public Cloud Onramp](https://github.com/FractiAI/Syntheverse-7-Octave-2-3-Public-Cloud-Onramp) via `src/cloud-onramp-config.ts` and `cloud-onramp-client.ts`; env from NSPFRNP first, optional Vercel token fallback (see `CLOUD_API_CONNECTION.md`, `.env.example`). **Animate step:** Octave 1 surfaces + AI-assisted API calls to Octave 2 for payments, auth, shared data. See [MCA_SNAP.md](./MCA_SNAP.md) · [NARRATIVE_METABOLIZE_CRYSTALLIZE_ANIMATE_OCTAVE1_SANDBOX.md](./NARRATIVE_METABOLIZE_CRYSTALLIZE_ANIMATE_OCTAVE1_SANDBOX.md).
+**MCA! → ∞³** (Metabolize → Crystallize → Animate): Everything flows through **Octave 1 (Edge) sandbox mode** with **AI-assisted API calls to Octave 2**. Octave 0 (Seed) and Octave 1 (Edge) operational. **ULTIMATE VIP console** (Chairman Workspace, Cockpit, Cockpit Station) rebuilt **NSPFRNP-native** — Seed:Edge, MCA, Octave 0/1/2, 7 principles, protocol links. Other surfaces: Seed:Edge Mini Console, GPS Seed:Edge. Cloud API connection to [Syntheverse 7 Octave 2-3 Public Cloud Onramp](https://github.com/FractiAI/Syntheverse-7-Octave-2-3-Public-Cloud-Onramp) via `src/cloud-onramp-config.ts` and `cloud-onramp-client.ts`; env from NSPFRNP first, optional Vercel token fallback (see `CLOUD_API_CONNECTION.md`, `.env.example`). **Animate step:** Octave 1 surfaces + AI-assisted API calls to Octave 2 for payments, auth, shared data. See [MCA_SNAP.md](./MCA_SNAP.md) · [NARRATIVE_METABOLIZE_CRYSTALLIZE_ANIMATE_OCTAVE1_SANDBOX.md](./NARRATIVE_METABOLIZE_CRYSTALLIZE_ANIMATE_OCTAVE1_SANDBOX.md).
 
 **Deploy:** Static build → Vercel. Pre-deploy: `npm test`, `npm run build`. See [DEPLOYMENT_VERCEL.md](./DEPLOYMENT_VERCEL.md) and [DEPLOY_CLI.md](./DEPLOY_CLI.md).
 
@@ -294,7 +294,7 @@
 
 **Gianni–inspired wrapper:** All skins, touchpoints & experiences. See [GIANNI_VERSACE_WRAPPER_MONSTER_SNAP.md](./GIANNI_VERSACE_WRAPPER_MONSTER_SNAP.md).
 
-**Auth, checkout & wallet:** Sign up / sign in (including Google) before purchase. Payment checkout is gated on auth. After successful PayPal capture, Octave 2 assigns a **Golden Fractal Key**, stores it in the user's wallet in profile, and returns it; the client stores it locally. Profile page ([interfaces/profile.html](./interfaces/profile.html)) shows account and wallet (Golden Key). All via **Octave 2 API only** — no Supabase client in Vibelandia. Required Octave 2 endpoints: auth (signup, login, session, logout, Google OAuth), `GET /api/user/profile`, `POST /api/orders/complete`. See [OCTAVE2_AUTH_WALLET_API.md](./OCTAVE2_AUTH_WALLET_API.md). Auth sources (MarkTwainVerse vs. Syntheverse PoC, Vibelandia client): [AUTH_SOURCES.md](./AUTH_SOURCES.md).
+**Auth, checkout & wallet:** Sign up / sign in (including Google) before purchase. Payment checkout is gated on auth. After successful PayPal capture, Octave 2 assigns a **Golden Fractal Key**, stores it in the user's wallet in profile, and returns it; the client stores it locally. **Payment success** page shows clear next steps (Profile & Wallet → key, Launch Pad, Chairman Console) only when `success=1`; otherwise a neutral status message. Profile page ([interfaces/profile.html](./interfaces/profile.html)) shows account and wallet (Golden Key). All via **Octave 2 API only** — no Supabase client in Vibelandia. Required Octave 2 endpoints: auth (signup, login, session, logout, Google OAuth), `GET /api/user/profile`, `POST /api/orders/complete`. See [OCTAVE2_AUTH_WALLET_API.md](./OCTAVE2_AUTH_WALLET_API.md). Auth sources (MarkTwainVerse vs. Syntheverse PoC, Vibelandia client): [AUTH_SOURCES.md](./AUTH_SOURCES.md).
 
 **🔑 GOLDEN FRACTAL KEY!** — The key that unlocks Syntheverse, Vibeverse, and VIBELANDIA!. Golden Key wallet. All API calls. All experiences. All realms. See [GOLDEN_FRACTAL_KEY_BRAND_SNAP.md](./GOLDEN_FRACTAL_KEY_BRAND_SNAP.md).
 
