@@ -88,6 +88,24 @@ The Syntheverse Cloud Onramp database includes:
 
 ---
 
+## Google OAuth — Fix “Selecting Google to sign in hangs”
+
+Google sign-in redirects back to your app. Supabase must allow that URL:
+
+1. **Supabase Dashboard** → **Authentication** → **URL Configuration**
+2. **Site URL:** set to your production URL, e.g. `https://psw-vibelandia-sing4.vercel.app`
+3. **Redirect URLs:** add every URL where users land after Google sign-in:
+   - Production: `https://psw-vibelandia-sing4.vercel.app/interfaces/profile.html`
+   - Preview deployments: add each preview URL, e.g. `https://psw-vibelandia-sing4-XXXX.vercel.app/interfaces/profile.html`  
+   - Or add a wildcard if your Supabase plan allows: `https://*.vercel.app/interfaces/profile.html`
+4. **Authentication** → **Providers** → **Google:** enable and set Client ID / Secret from Google Cloud Console.
+
+If the redirect URL is not in the list, Supabase blocks the redirect and sign-in appears to hang. The app uses a single callback: `/interfaces/profile.html`.
+
+**401 on GET /:** If Vercel logs show 401 on the root URL, that is usually **Vercel Deployment Protection** (password for preview deployments). To allow public previews, go to Vercel → Project → Settings → Deployment Protection and adjust or disable for previews.
+
+---
+
 ## Vercel Deployment
 
 When deploying to Vercel:
@@ -95,6 +113,7 @@ When deploying to Vercel:
 1. **Add Environment Variables:**
    - Vercel Dashboard → Project → Settings → Environment Variables
    - Add all variables from `.env.nspfrnp` (except `VERCEL_TOKEN` - not needed in Vercel)
+   - **Required for Google OAuth:** `VIBELANDIA_SUPABASE_URL` and `VIBELANDIA_SUPABASE_ANON_KEY` (or set in api-config.js / build so the client has the anon key). If the anon key is empty in the deployed app, Supabase auth is disabled and “Continue with Google” will not work.
 
 2. **For Each Environment:**
    - Production

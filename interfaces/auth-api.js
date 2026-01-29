@@ -164,10 +164,13 @@
 
   /**
    * Returns Promise<string> — URL to redirect to for Google sign-in (or Octave 2 URL).
-   * Caller should do: Auth.getGoogleAuthUrl(returnUrl).then(function(url) { if (url) location.href = url; });
+   * Uses a single callback URL (profile.html) so Supabase Redirect URLs need only one entry per deployment.
+   * Caller should do: Auth.getGoogleAuthUrl().then(function(url) { if (url) location.href = url; });
    */
   function getGoogleAuthUrl(returnUrl) {
-    var url = returnUrl || (typeof window !== 'undefined' && window.location ? window.location.href : '');
+    var origin = typeof window !== 'undefined' && window.location ? window.location.origin : '';
+    var callbackUrl = origin ? (origin + '/interfaces/profile.html') : (returnUrl || '');
+    var url = callbackUrl || returnUrl || '';
     if (useSupabase()) {
       var supabase = getSupabase();
       if (!supabase) return Promise.resolve('');

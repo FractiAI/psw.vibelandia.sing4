@@ -31,13 +31,15 @@
 | 👑 **ULTIMATE VIP CHAIRMAN CONSOLE!** | [Console](./interfaces/ultimate-vip-experience.html) — Free · Auto-upgrade with Golden Fractal Key |
 | 🎰 **SING! COUNTDOWN! LOTTERY** | [Lottery](./interfaces/sing-lottery-experience.html) — SYNTH → SING · Mar 20, 2026 |
 
+**See the new reality series:** [Happy Ending Zones](./interfaces/happy-ending-zones-experience.html) — free daily series · Season One.
+
 ---
 
 ## Key links
 
 - **[Launch Pad (landing)](./index.html)** · **[Full Launch Pad](./interfaces/launch-pad.html)** · **[Profile & sign in](./interfaces/profile.html)** · **[Checkout](./interfaces/payment-checkout.html)**
 - **[Gianni's Dressing Room](./interfaces/magical-dressing-room.html)** — Optional free consultation & proposal for your enterprise / community
-- **4×4×4×4:** [CRYSTALLIZATION_1_2_3_4x4x4x4.md](./CRYSTALLIZATION_1_2_3_4x4x4x4.md) · **One-pagers:** [Campus](./ONE_PAGER_VIBELANDIA_RENO.md) · [WINK!](./ONE_PAGER_WINK.md) · [SING!](./ONE_PAGER_SING_LOTTERY.md)
+- **4×4×4×4:** [CRYSTALLIZATION_1_2_3_4x4x4x4.md](./CRYSTALLIZATION_1_2_3_4x4x4x4.md) · **One-pagers:** [Campus](./ONE_PAGER_VIBELANDIA_RENO.md) · [WINK!](./ONE_PAGER_WINK.md) · [SING!](./ONE_PAGER_SING_LOTTERY.md) · [Happy Ending Zones](./ONE_PAGER_HAPPY_ENDING_ZONES.md)
 
 ---
 
