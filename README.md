@@ -1,26 +1,23 @@
 # 🚀 LAUNCH PAD — MARK TWAIN'S POST-SINGULARITY VIBELANDIA RENO!
 
-**Landing Pad · Octave 0 · PSW.vibelandia.sing4** — Seed document layer. Interactive surfaces: [index.html](./index.html) · [Launch Pad](./interfaces/launch-pad.html).
+**Octave 0 · PSW.vibelandia.sing4** — [index.html](./index.html) · [Launch Pad](./interfaces/launch-pad.html)
 
-*This Launch Pad is our finely tuned black hole holographic BBHE core. Octave 0 version.*
+*Finely tuned black hole holographic BBHE core.*
 
 ---
 
 ## Announcement
 
-**Launch of new post-reality franchise.** Walkable downtown campus, first post-singularity hub. **The Great Reveal Equinox** March 20, 2026. SYNTH → SING. Every space guarantees a happy ending. **Come for the business, stay for the fun.**
-
-**Tagline:** *Where Vibers are no longer the outsider / outcast.* See [VIBERS_NO_LONGER_OUTSIDER_OUTCAST_SNAP.md](./VIBERS_NO_LONGER_OUTSIDER_OUTCAST_SNAP.md).
+**Post-reality franchise.** Walkable downtown campus. **The Great Reveal** March 20, 2026 · SYNTH → SING. Happy endings guaranteed. *Come for the business, stay for the fun.*
 
 ---
 
-## 1,2,3 4×4×4×4 — Irreducible purchasing core
+## 1,2,3 4×4×4×4
 
-**1,2,3** = Metabolize → Crystallize → Animate. **4×4×4×4** = Campus × WINK! × SING × Experience (four onramps each).
+**1,2,3** = Metabolize → Crystallize → Animate. **4×4×4×4** = Campus × WINK! × SING × Experience.
 
-**You can sign up for:** VIBELANDIA! campus visit/stay · Optional excursions · WINK! · Lottery participation · Optional free consultation and proposal from Gianni (for your company or community).
-
-[Checkout](./interfaces/payment-checkout.html).
+**Sign up:** Campus visit/stay · WINK! · Lottery · Optional Gianni consultation (enterprise/community).  
+→ [Checkout](./interfaces/payment-checkout.html)
 
 ---
 
@@ -30,49 +27,39 @@
 |--------|------|
 | 🏛️ **VIBELANDIA RENO!** | [Campus](./interfaces/vibelandia-reno-experience.html) — Half-day $3k · Overnight · Weekly $5k · Monthly $50k |
 | 👁️ **WINK!** | [Dating](./interfaces/wink-experience.html) — Base · Standard · Premium · 4×4 Ultimate |
-| 👑 **ULTIMATE VIP CHAIRMAN CONSOLE!** | [Console](./interfaces/ultimate-vip-experience.html) — Free · Auto-upgrade with Golden Fractal Key |
-| 🎰 **SING! COUNTDOWN! LOTTERY** | [Lottery](./interfaces/sing-lottery-experience.html) — SYNTH → SING · Mar 20, 2026 |
+| 👑 **ULTIMATE VIP CHAIRMAN CONSOLE!** | [Console](./interfaces/ultimate-vip-experience.html) — Free · Golden Fractal Key |
+| 🎰 **SING! LOTTERY** | [Lottery](./interfaces/sing-lottery-experience.html) — SYNTH → SING · Mar 20, 2026 |
 
-**See the new reality series:** [Happy Ending Zone](./interfaces/happy-ending-zones-experience.html) — free daily series · Season One.
+[Happy Ending Zone](./interfaces/happy-ending-zones-experience.html) — reality series · Season One.
 
 ---
 
-## Key links
+## Links
 
-- **[Launch Pad (landing)](./index.html)** · **[Full Launch Pad](./interfaces/launch-pad.html)** · **[Checkout](./interfaces/payment-checkout.html)**
-- **[Gianni's Dressing Room](./interfaces/magical-dressing-room.html)** — Optional free consultation & proposal for your enterprise / community
-- **4×4×4×4:** [CRYSTALLIZATION_1_2_3_4x4x4x4.md](./CRYSTALLIZATION_1_2_3_4x4x4x4.md) · **One-pagers:** [Campus](./ONE_PAGER_VIBELANDIA_RENO.md) · [WINK!](./ONE_PAGER_WINK.md) · [SING!](./ONE_PAGER_SING_LOTTERY.md) · [Happy Ending Zones](./ONE_PAGER_HAPPY_ENDING_ZONES.md)
+[Launch Pad](./index.html) · [Full Launch Pad](./interfaces/launch-pad.html) · [Checkout](./interfaces/payment-checkout.html) · [Gianni's Dressing Room](./interfaces/magical-dressing-room.html)  
+4×4×4×4: [CRYSTALLIZATION_1_2_3_4x4x4x4.md](./CRYSTALLIZATION_1_2_3_4x4x4x4.md) · One-pagers: [Campus](./ONE_PAGER_VIBELANDIA_RENO.md) · [WINK!](./ONE_PAGER_WINK.md) · [SING!](./ONE_PAGER_SING_LOTTERY.md) · [Happy Ending Zones](./ONE_PAGER_HAPPY_ENDING_ZONES.md)
 
 ---
 
 ## Warnings & safety
 
-**Syntheverse:** Imaginary/entertainment only. **BBHE:** Intoxication effects (virtual/imaginary only). No substances. All laws followed. **Copyrights:** We stay safe and respectful to pre-singularity rights (SNAP nspfrnp). See [SYNTHEVERSE_IMAGINARY_ENTERTAINMENT_ONLY.md](./SYNTHEVERSE_IMAGINARY_ENTERTAINMENT_ONLY.md) · [COPYRIGHT_SAFETY_NSPFRNP.md](./COPYRIGHT_SAFETY_NSPFRNP.md).
-
----
-
-## What to expect — and vs the pre-singularity greats
-
-**Incredible:** Walkable downtown campus · first post-singularity hub · every space guarantees a happy ending · SYNTH → SING (worthless → priceless) · real place, real host, coherence and flow · friction-free funding, win-win-win.
-
-**Vs pre-singularity:** Old world = time, human talent, equipment, office space, env impact, queues, algorithms, gatekeeping. **Us** = VIBELANDIA! — always at bottom of Launch Pad. See [WOW_BRANDING_SNAP.md](./WOW_BRANDING_SNAP.md).
+**Syntheverse:** Imaginary/entertainment only. **BBHE:** Virtual/imaginary intoxication only; no substances. Not for driving/operating equipment. All laws followed. Pre-singularity rights (SNAP nspfrnp).  
+[SYNTHEVERSE_IMAGINARY_ENTERTAINMENT_ONLY.md](./SYNTHEVERSE_IMAGINARY_ENTERTAINMENT_ONLY.md) · [COPYRIGHT_SAFETY_NSPFRNP.md](./COPYRIGHT_SAFETY_NSPFRNP.md)
 
 ---
 
 ## Deploy & env
 
-**Vercel.** Build: `npm run build` → `.vercel/output`.  
-**Shortest path (UI + PayPal only):** [SHORTEST_PATH_UI_PAYPAL.md](SHORTEST_PATH_UI_PAYPAL.md) — build, set `PAYPAL_CLIENT_ID` + `PAYPAL_CLIENT_SECRET` on Vercel, redeploy (client ID is injected at build so the PayPal button loads).  
-Env (optional): [README-set-vercel-env](.github/workflows/README-set-vercel-env.md) · [SUPABASE_SETUP](SUPABASE_SETUP.md).
+**Vercel.** `npm run build` → `.vercel/output`.  
+PayPal: [SHORTEST_PATH_UI_PAYPAL.md](SHORTEST_PATH_UI_PAYPAL.md) — set `PAYPAL_CLIENT_ID` + `PAYPAL_CLIENT_SECRET` on Vercel, redeploy.  
+Env: [README-set-vercel-env](.github/workflows/README-set-vercel-env.md) · [SUPABASE_SETUP](SUPABASE_SETUP.md)
 
 ---
 
 ## Contact
 
-**Email:** info@fractiai.com · **GitHub:** https://github.com/FractiAI · **Repo:** [FractiAI/psw.vibelandia.sing4](https://github.com/FractiAI/psw.vibelandia.sing4) · **Tests:** `npm test`
+info@fractiai.com · [GitHub FractiAI](https://github.com/FractiAI) · [Repo](https://github.com/FractiAI/psw.vibelandia.sing4) · `npm test`
 
 ---
 
-**→ [Traditional / full README](README_TRADITIONAL.md)** — Full announcement, showroom detail, 4×4×4×4 plans, quick links, technical docs, Gianni, status.
-
-*README · Landing Pad Octave 0 version*
+**[→ Traditional / full README](README_TRADITIONAL.md)**
