@@ -183,36 +183,6 @@
             color: #7fff7f;
             margin-bottom: 1rem;
         }
-        .paypal-id-box {
-            text-align: left;
-            margin-bottom: 1.5rem;
-            padding: 1rem 1.25rem;
-            background: rgba(0,0,0,0.25);
-            border: 1px solid rgba(255,255,255,0.15);
-            border-radius: 10px;
-        }
-        .paypal-id-box label {
-            display: block;
-            color: #00d4ff;
-            font-weight: 600;
-            margin-bottom: 0.5rem;
-            font-size: 0.95rem;
-        }
-        .paypal-id-box input {
-            width: 100%;
-            padding: 10px 12px;
-            background: rgba(0,0,0,0.4);
-            border: 1px solid rgba(255,255,255,0.2);
-            border-radius: 8px;
-            color: #fff;
-            font-size: 1rem;
-        }
-        .paypal-id-box input::placeholder { color: #888; }
-        .paypal-id-hint {
-            font-size: 0.85rem;
-            color: #888;
-            margin-top: 0.5rem;
-        }
     </style>
 </head>
 <body>
@@ -363,41 +333,18 @@
                 document.getElementById('payment-container').innerHTML = html;
             }
 
-            function getPayPalId() {
-                var el = document.getElementById('paypal-id-input');
-                return el ? (el.value || '').trim() : '';
-            }
-
             function renderPayPalOrSandbox() {
                 var user = Auth.getStoredUser();
                 var container = document.getElementById('payment-container');
                 var html = '';
                 html += '<p style="font-size:1.1rem;font-weight:700;color:#7fff7f;margin-bottom:0.5rem;">Total: $' + plan.price.toLocaleString() + ' USD</p>';
-                html += '<p style="font-size:0.9rem;color:#7fff7f;margin-bottom:0.5rem;"><strong>No registration required</strong> — pay with PayPal only.</p>';
-                html += '<p style="font-size:0.9rem;color:#aaa;margin-bottom:1rem;">Enter your PayPal email (optional). Then click <strong>Pay with PayPal</strong> below.</p>';
-                html += '<div class="paypal-id-box">' +
-                    '<label for="paypal-id-input">Your PayPal ID</label>' +
-                    '<input type="text" id="paypal-id-input" name="paypalId" placeholder="e.g. you@example.com or your PayPal account email" autocomplete="email" />' +
-                    '<p class="paypal-id-hint">Email or account ID you use to sign in to PayPal. We use this to match your payment and deliver your Golden Fractal Key. <strong>Then click the PayPal button below to pay.</strong></p>' +
-                    '<p id="paypal-id-feedback" class="paypal-id-hint" style="margin-top:0.5rem;color:#7fff7f;display:none;">✓ Got it — we\'ll use this to match your payment. Click the button below to pay.</p>' +
-                    '</div>';
+                html += '<p style="font-size:0.9rem;color:#7fff7f;margin-bottom:1rem;"><strong>No registration required</strong> — click Pay with PayPal below.</p>';
                 if (user && user.email) {
                     html += '<div class="user-badge">Signed in as ' + user.email + ' — purchase will be linked to your account.</div>';
-                } else {
-                    html += '<p style="font-size:0.85rem;color:#888;margin-bottom:0.75rem;">Optional: <a href="profile.html" style="color:#00d4ff;">Sign in</a> to link this purchase to your account and get your Golden Fractal Key in your wallet.</p>';
                 }
+                html += '<p style="font-size:0.9rem;color:#00d4ff;margin-bottom:0.75rem;">Pay with PayPal below.</p>';
                 html += '<div id="paypal-or-fallback"></div>';
                 container.innerHTML = html;
-                var inputEl = document.getElementById('paypal-id-input');
-                var feedbackEl = document.getElementById('paypal-id-feedback');
-                if (inputEl && feedbackEl) {
-                    inputEl.addEventListener('input', function () {
-                        feedbackEl.style.display = (this.value.trim() ? 'block' : 'none');
-                    });
-                    inputEl.addEventListener('blur', function () {
-                        feedbackEl.style.display = (this.value.trim() ? 'block' : 'none');
-                    });
-                }
                 initPayPal();
             }
 
@@ -411,10 +358,9 @@
                     .then(function (config) {
                         var clientId = (config && config.clientId) || (typeof window !== 'undefined' && window.VIBELANDIA_PAYPAL_CLIENT_ID) || '';
                         if (!clientId) {
-                            var configUrl = PAYMENT_API_BASE + '/api/payment/paypal/config';
-                            target.innerHTML = '<p style="margin-top:1rem;">PayPal button could not load: no client ID. The payment API at <code style="word-break:break-all;">' + configUrl + '</code> did not return a <code>clientId</code>.</p>' +
-                                '<p style="margin-top:0.75rem;font-size:0.9rem;">To fix: (1) Configure Octave 2 to expose <code>GET /api/payment/paypal/config</code> returning <code>{"clientId": "your-paypal-client-id"}</code>, or (2) Set <code>VIBELANDIA_PAYPAL_CLIENT_ID</code> in your deployment environment (e.g. Vercel) with your PayPal sandbox/live client ID and redeploy.</p>' +
-                                '<p style="margin-top:0.5rem;">Purchase: <strong>' + plan.name + '</strong> — $' + plan.price.toLocaleString() + '. <a href="mailto:info@fractiai.com?subject=VIBELANDIA!%20Payment">Email us</a>.</p>';
+                            target.innerHTML = '<p style="margin-top:1rem;">Pay with PayPal to complete your purchase.</p>' +
+                                '<p style="margin-top:1rem;"><a href="https://www.paypal.com" target="_blank" rel="noopener" style="display:inline-block;padding:12px 24px;background:#0070ba;color:#fff;text-decoration:none;border-radius:8px;font-weight:600;">Go to PayPal</a></p>' +
+                                '<p style="margin-top:0.75rem;font-size:0.85rem;color:#888;">Purchase: <strong>' + plan.name + '</strong> — $' + plan.price.toLocaleString() + ' USD</p>';
                             return;
                         }
                         var s = document.createElement('script');
@@ -428,33 +374,28 @@
 
                             paypal.Buttons({
                                 createOrder: function () {
-                                    var paypalId = getPayPalId();
                                     return fetch(PAYMENT_API_BASE + '/api/payment/paypal/create-order', {
                                         method: 'POST',
                                         headers: authHeaders(),
-                                        body: JSON.stringify({ planId: planId, amount: plan.price, currency: 'USD', description: plan.name, paypalId: paypalId || undefined })
+                                        body: JSON.stringify({ planId: planId, amount: plan.price, currency: 'USD', description: plan.name })
                                     }).then(function (res) { return res.json(); }).then(function (data) {
                                         return data.orderId || data.id || '';
                                     });
                                 },
                                 onApprove: function (data, actions) {
-                                    var paypalId = getPayPalId();
                                     return fetch(PAYMENT_API_BASE + '/api/payment/paypal/capture-order', {
                                         method: 'POST',
                                         headers: authHeaders(),
-                                        body: JSON.stringify({ orderId: data.orderID, payerId: data.payerID, paypalId: paypalId || undefined })
+                                        body: JSON.stringify({ orderId: data.orderID, payerId: data.payerID })
                                     }).then(function (res) { return res.json(); }).then(function (result) {
                                         var detail = result && result.details && result.details[0];
                                         if (detail && detail.issue === 'INSTRUMENT_DECLINED') {
                                             return actions.restart();
                                         }
                                         if (result && (result.status === 'COMPLETED' || result.success === true) && (result.id || result.orderId || data.orderID)) {
-                                            var paypalId = getPayPalId();
                                             if (result.payer && result.payer.name) {
                                                 try {
-                                                    var stored = { name: result.payer.name, orderId: data.orderID };
-                                                    if (paypalId) stored.paypalId = paypalId;
-                                                    localStorage.setItem('vibelandia_payer_from_paypal', JSON.stringify(stored));
+                                                    localStorage.setItem('vibelandia_payer_from_paypal', JSON.stringify({ name: result.payer.name, orderId: data.orderID }));
                                                 } catch (_) {}
                                             }
                                             Auth.completeOrder(data.orderID, planId).then(function (complete) {

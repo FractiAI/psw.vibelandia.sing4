@@ -45,6 +45,7 @@ npm test
 
 ## Troubleshooting
 
+- **404 on a URL**: Ensure `npm run build` ran and you redeployed. `/api/payment/paypal/*` and `/api/auth/google` exist only after deploy. Google sign-in uses Octave 2 if same-origin API is missing.
 - **PayPal button doesn’t load**: Check `/api/payment/paypal/config` returns a non-empty `clientId`; set env and redeploy.
 - **Create/capture fail**: Ensure `PAYPAL_CLIENT_ID` and `PAYPAL_CLIENT_SECRET` are set in Vercel (and match sandbox/live).
 - **Tests fail**: Run `npm test` and fix reported surfaces/links/API; see [TESTING.md](TESTING.md).

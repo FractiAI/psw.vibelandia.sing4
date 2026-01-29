@@ -99,7 +99,8 @@ Google sign-in redirects back to your app. Supabase must allow that URL:
    - Production: `https://psw-vibelandia-sing4.vercel.app/interfaces/profile.html`
    - Preview deployments: add each preview URL, e.g. `https://psw-vibelandia-sing4-XXXX.vercel.app/interfaces/profile.html`  
    - Or add a wildcard if your Supabase plan allows: `https://*.vercel.app/interfaces/profile.html`
-4. **Authentication** → **Providers** → **Google:** enable and set Client ID / Secret from Google Cloud Console.
+4. **Authentication** → **Providers** → **Google:** enable and set Client ID / Secret from Google Cloud Console. In **Google Cloud Console** → Credentials → your OAuth 2.0 Client ID (Web), set **Authorized redirect URIs** to:
+   - `https://jfbgdxeumzqzigptbmvp.supabase.co/auth/v1/callback`
 
 If the redirect URL is not in the list, Supabase blocks the redirect and sign-in appears to hang. The app uses a single callback: `/interfaces/profile.html`.
 

@@ -183,7 +183,9 @@
         .then(function (r) { return (r.data && r.data.url) || ''; })
         .catch(function () { return ''; });
     }
-    return Promise.resolve(BASE + '/api/auth/google?redirect_uri=' + encodeURIComponent(url));
+    // Use Octave 2 directly so sign-in works even when same-origin /api/auth/google is not deployed (e.g. static host).
+    var octave2 = 'https://syntheverse-poc.vercel.app';
+    return Promise.resolve(octave2 + '/api/auth/google?redirect_uri=' + encodeURIComponent(url));
   }
 
   /**

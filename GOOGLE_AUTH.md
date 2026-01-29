@@ -11,9 +11,11 @@ Google sign-in follows **Supabase "Login with Google"** and **Google Identity Se
 
 ## Setup (Supabase)
 
-1. **Google Cloud**: Create OAuth 2.0 Client ID (Web). Add authorized JavaScript origins and redirect URIs (use Supabase callback URL from Dashboard → Auth → Providers → Google).
+1. **Google Cloud**: Create OAuth 2.0 Client ID (Web). Add authorized JavaScript origins (your app origin, e.g. `https://psw-vibelandia-sing4.vercel.app`) and **Authorized redirect URIs**. Use this Supabase callback URL for Google:
+   - **Callback URL for Google (copy into Google Cloud Console):**  
+     `https://jfbgdxeumzqzigptbmvp.supabase.co/auth/v1/callback`
 2. **Supabase**: Auth → Providers → Google → enable, paste Client ID and Client Secret.
-3. **Redirect URLs**: In Supabase add your app callback (e.g. `https://your-domain.com/interfaces/profile.html`).
+3. **Redirect URLs**: In Supabase add your app callback (e.g. `https://your-domain.com/interfaces/profile.html`) so after OAuth users are sent back to your app.
 
 ## Frontend
 

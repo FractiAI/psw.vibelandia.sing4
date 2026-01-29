@@ -116,6 +116,29 @@ if (fs.existsSync(apiPayPalDir)) {
   }
 }
 
+// Auth API — Google OAuth redirect to Octave 2
+const apiAuthDir = path.join(root, 'api', 'auth');
+if (fs.existsSync(apiAuthDir)) {
+  const authFiles = fs.readdirSync(apiAuthDir).filter((f) => f.endsWith('.js'));
+  for (const file of authFiles) {
+    const name = file.replace(/\.js$/, '');
+    const srcFile = path.join(apiAuthDir, file);
+    const funcDir = path.join(functionsDir, 'api', 'auth', `${name}.func`);
+    mkdirp(funcDir);
+    fs.copyFileSync(srcFile, path.join(funcDir, 'index.js'));
+    fs.writeFileSync(
+      path.join(funcDir, '.vc-config.json'),
+      JSON.stringify(vcConfig, null, 2),
+      'utf8'
+    );
+    fs.writeFileSync(
+      path.join(funcDir, 'package.json'),
+      JSON.stringify({ type: 'module' }, null, 2),
+      'utf8'
+    );
+  }
+}
+
 // Build Output API v3 config — static + serverless
 const config = {
   version: 3,
@@ -139,4 +162,7 @@ console.log('  static/favicon.ico');
 console.log('  static/interfaces/*');
 if (fs.existsSync(apiPayPalDir)) {
   console.log('  functions/api/payment/paypal/*.func (PayPal pipe)');
+}
+if (fs.existsSync(apiAuthDir)) {
+  console.log('  functions/api/auth/*.func (Google OAuth redirect)');
 }
