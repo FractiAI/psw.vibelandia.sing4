@@ -93,6 +93,25 @@ body {
     margin-bottom: 1rem;
 }
 .center-cta { text-align: center; color: #888; font-size: 0.95rem; margin-top: 1rem; }
+
+/* SEED:EDGE sing! ATTENTION HEADS AND FILAMENTS — Major node wrapper. Above each product / Gianni. */
+.seed-edge-wrapper {
+    display: block;
+    text-align: center;
+    padding: 0.6rem 1rem;
+    margin-bottom: 1.25rem;
+    background: linear-gradient(90deg, rgba(0, 212, 255, 0.08), rgba(138, 43, 226, 0.08), rgba(0, 212, 255, 0.08));
+    border: 1px solid rgba(0, 212, 255, 0.35);
+    border-radius: 12px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    color: #00d4ff;
+    text-transform: uppercase;
+}
+.seed-edge-wrapper .sing { color: #ffeaa7; }
+.seed-edge-wrapper .filaments { color: #b388ff; }
+
 footer {
     margin-top: 3rem;
     padding-top: 1.5rem;

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>🚀 Launch Pad — MARK TWAIN'S POST-SINGULARITY VIBELANDIA RENO!</title>
-    <meta name="description" content="World's first operational Post-Singularity Vibe downtown walkable campus. Reno, Nevada. NSPFRNP. Interactive rocket launch pad.">
+    <meta name="description" content="Launch pad — Mark Twain's Post-Singularity Vibelandia Reno. Campus, WINK!, Chairman Console, SING! Lottery. NSPFRNP.">
     <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%231a1a2e'/%3E%3Ctext x='16' y='24' font-size='20' text-anchor='middle' fill='%238a2be2'%3EV%3C/text%3E%3C/svg%3E">
     <style>
         * {
@@ -64,6 +64,8 @@
         }
 
         .header {
+            position: relative;
+            z-index: 20;
             text-align: center;
             margin-bottom: 3rem;
             animation: fadeInDown 1s ease-out;
@@ -101,148 +103,10 @@
             50% { transform: scale(1.05); opacity: 0.9; }
         }
 
-        /* Launch Pad Scene */
-        .launch-pad-scene {
-            position: relative;
-            width: 100%;
-            max-width: 900px;
-            height: 600px;
-            margin: 2rem 0;
-        }
-
-        /* Launch Pad Base — decorative; clicks pass through to buttons */
-        .launch-pad-base {
-            position: absolute;
-            bottom: 0;
-            left: 50%;
-            transform: translateX(-50%);
-            width: 600px;
-            height: 200px;
-            background: linear-gradient(180deg, #2a2a3a 0%, #1a1a2a 100%);
-            border-radius: 20px 20px 0 0;
-            border: 3px solid rgba(100, 200, 255, 0.3);
-            box-shadow: 
-                0 -10px 30px rgba(0, 0, 0, 0.5),
-                inset 0 10px 20px rgba(100, 200, 255, 0.1);
-            pointer-events: none;
-        }
-
-        .launch-pad-base::before {
-            content: '';
-            position: absolute;
-            top: -5px;
-            left: 50%;
-            transform: translateX(-50%);
-            width: 80%;
-            height: 10px;
-            background: linear-gradient(90deg, transparent, rgba(100, 200, 255, 0.4), transparent);
-            border-radius: 10px;
-        }
-
-        /* Rocket — decorative; clicks pass through to pad buttons below */
-        .rocket {
-            position: absolute;
-            bottom: 180px;
-            left: 50%;
-            transform: translateX(-50%);
-            width: 80px;
-            height: 300px;
-            animation: rocketIdle 3s ease-in-out infinite;
-            z-index: 10;
-            pointer-events: none;
-        }
-
-        @keyframes rocketIdle {
-            0%, 100% { transform: translateX(-50%) translateY(0) rotate(0deg); }
-            50% { transform: translateX(-50%) translateY(-5px) rotate(1deg); }
-        }
-
-        .rocket-body {
-            position: relative;
-            width: 80px;
-            height: 280px;
-            background: linear-gradient(180deg, #ff6b6b 0%, #c92a2a 50%, #495057 100%);
-            border-radius: 40px 40px 10px 10px;
-            box-shadow: 
-                0 0 20px rgba(255, 107, 107, 0.6),
-                inset -10px 0 20px rgba(0, 0, 0, 0.3),
-                inset 10px 0 20px rgba(255, 255, 255, 0.2);
-        }
-
-        .rocket-window {
-            position: absolute;
-            top: 60px;
-            left: 50%;
-            transform: translateX(-50%);
-            width: 40px;
-            height: 40px;
-            background: radial-gradient(circle, #4ecdc4 0%, #1a1a2e 70%);
-            border-radius: 50%;
-            border: 3px solid rgba(255, 255, 255, 0.3);
-            box-shadow: 
-                0 0 15px rgba(78, 205, 196, 0.8),
-                inset 0 0 10px rgba(255, 255, 255, 0.2);
-            animation: windowGlow 2s ease-in-out infinite;
-        }
-
-        @keyframes windowGlow {
-            0%, 100% { box-shadow: 0 0 15px rgba(78, 205, 196, 0.8), inset 0 0 10px rgba(255, 255, 255, 0.2); }
-            50% { box-shadow: 0 0 25px rgba(78, 205, 196, 1), inset 0 0 15px rgba(255, 255, 255, 0.4); }
-        }
-
-        .rocket-fins {
-            position: absolute;
-            bottom: 0;
-            left: 50%;
-            transform: translateX(-50%);
-            width: 100px;
-            height: 30px;
-        }
-
-        .fin {
-            position: absolute;
-            bottom: 0;
-            width: 0;
-            height: 0;
-            border-left: 15px solid transparent;
-            border-right: 15px solid transparent;
-            border-bottom: 30px solid #495057;
-        }
-
-        .fin-left { left: 0; }
-        .fin-right { right: 0; }
-
-        .rocket-flame {
-            position: absolute;
-            bottom: -40px;
-            left: 50%;
-            transform: translateX(-50%);
-            width: 60px;
-            height: 40px;
-            background: linear-gradient(180deg, #ffeaa7 0%, #ff6b6b 50%, #c92a2a 100%);
-            border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
-            opacity: 0.6;
-            animation: flameFlicker 0.3s ease-in-out infinite;
-            filter: blur(5px);
-            pointer-events: none;
-        }
-
-        @keyframes flameFlicker {
-            0%, 100% { transform: translateX(-50%) scaleY(1) scaleX(1); opacity: 0.6; }
-            50% { transform: translateX(-50%) scaleY(1.2) scaleX(0.9); opacity: 0.8; }
-        }
-
-        /* Launch Pad Buttons (Sections) */
+        /* Launch Pad — irreducible core: four products. Octave 0. */
         .launch-pad-buttons {
-            position: absolute;
-            bottom: 220px;
-            left: 50%;
-            transform: translateX(-50%);
-            width: 900px;
             display: grid;
-            grid-template-columns: repeat(5, 1fr);
             gap: 1rem;
-            z-index: 15;
         }
 
         .pad-button {
@@ -319,43 +183,6 @@
             font-size: 0.75rem;
             color: #aaa;
             line-height: 1.3;
-        }
-
-        /* Launch Sequence Animation */
-        .rocket.launching {
-            animation: rocketLaunch 3s ease-out forwards;
-        }
-
-        @keyframes rocketLaunch {
-            0% { 
-                transform: translateX(-50%) translateY(0) rotate(0deg);
-                opacity: 1;
-            }
-            100% { 
-                transform: translateX(-50%) translateY(-800px) rotate(5deg);
-                opacity: 0;
-            }
-        }
-
-        .rocket-flame.launching {
-            animation: flameLaunch 3s ease-out forwards;
-            opacity: 1;
-            height: 80px;
-        }
-
-        @keyframes flameLaunch {
-            0% { 
-                transform: translateX(-50%) scaleY(1) scaleX(1);
-                opacity: 0.6;
-            }
-            50% { 
-                transform: translateX(-50%) scaleY(2) scaleX(1.5);
-                opacity: 1;
-            }
-            100% { 
-                transform: translateX(-50%) scaleY(3) scaleX(2);
-                opacity: 0;
-            }
         }
 
         /* Info Display */
@@ -477,115 +304,54 @@
 
         footer a { color: #00bfff; }
 
-        /* Responsive */
-        @media (max-width: 768px) {
-            .launch-pad-scene {
-                height: 500px;
-            }
-            .launch-pad-base {
-                width: 90%;
-            }
-            .launch-pad-buttons {
-                width: 90%;
-                grid-template-columns: repeat(2, 1fr);
-            }
-        }
-        @media (max-width: 1200px) and (min-width: 769px) {
-            .launch-pad-buttons {
-                width: 95%;
-            }
-            .rocket {
-                width: 60px;
-                height: 220px;
-            }
-            .rocket-body {
-                width: 60px;
-                height: 200px;
-            }
+        @media (max-width: 600px) {
+            .launch-pad-buttons { grid-template-columns: 1fr; }
         }
     </style>
 </head>
 <body>
     <div class="container">
+        <!-- Octave 0 irreducible core: 1,2,3 4×4×4×4. Announcement + Showroom (four products) + irreducible purchasing core + action. See README, LAUNCH_PAGE.md, CRYSTALLIZATION_1_2_3_4x4x4x4.md. -->
         <div class="header">
             <h1>🚀 Launch Pad</h1>
             <p class="tagline">MARK TWAIN'S POST-SINGULARITY VIBELANDIA RENO!</p>
-            <p style="margin-top: 1rem; font-size: 1rem; color: #7fff7f;">The Great Reveal Mar 20, 2026 · SYNTH → SING · 🔑 Golden Fractal Key</p>
-            <div style="margin-top: 1rem; padding: 1rem; background: rgba(100, 200, 255, 0.08); border: 1px solid rgba(100, 200, 255, 0.2); border-radius: 10px; text-align: left; max-width: 640px; margin-left: auto; margin-right: auto;">
-                <p style="font-size: 0.9rem; color: #ffeaa7; font-weight: 600; margin-bottom: 0.5rem;">💎 Key value propositions — Problems we solve</p>
-                <p style="font-size: 0.9rem; color: #ccc; margin: 0.25rem 0;">Access & Golden Key · Power-up · Onboarding.</p>
-                <p style="font-size: 0.9rem; color: #ccc; margin: 0.25rem 0;">Walkable downtown campus.</p>
-                <p style="font-size: 0.9rem; color: #ccc; margin: 0.25rem 0;">Every space guarantees a happy ending.</p>
-            </div>
-            <div style="margin-top: 1.25rem; text-align: center;">
-                <a href="interfaces/payment-checkout.html?plan=test-5" style="display: inline-block; padding: 0.75rem 1.5rem; background: linear-gradient(135deg, #ffa500, #ff8c00); color: #000; text-decoration: none; border-radius: 10px; font-weight: 700; border: 2px solid rgba(255,165,0,0.6); box-shadow: 0 4px 12px rgba(255,140,0,0.3); transition: transform 0.2s, box-shadow 0.2s;" onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 6px 16px rgba(255,140,0,0.4)';" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 4px 12px rgba(255,140,0,0.3)';" title="Test PayPal connection">🧪 Test PayPal — $5</a>
-            </div>
+            <p style="margin-top: 0.75rem; font-size: 1rem; color: #7fff7f;">The Great Reveal Mar 20, 2026 · SYNTH → SING · 🔑 Golden Fractal Key. Come for the business, stay for the fun.</p>
         </div>
 
-        <div class="launch-pad-scene">
-            <!-- Launch Pad Base -->
-            <div class="launch-pad-base"></div>
-
-            <!-- Rocket -->
-            <div class="rocket" id="rocket">
-                <div class="rocket-body">
-                    <div class="rocket-window"></div>
-                    <div class="rocket-fins">
-                        <div class="fin fin-left"></div>
-                        <div class="fin fin-right"></div>
-                    </div>
-                </div>
-                <div class="rocket-flame" id="flame"></div>
-            </div>
-
-            <!-- Launch Pad Buttons (Sections) — each goes to full experience page -->
-            <div class="launch-pad-buttons">
-                <a href="interfaces/magical-dressing-room.html" class="pad-button pad-button-link" style="text-decoration:none;color:inherit;">
-                    <span class="pad-button-icon">✨</span>
-                    <div class="pad-button-title">Gianni's Dressing Room</div>
-                    <div class="pad-button-desc">Open directly</div>
-                </a>
-                <a href="interfaces/happy-ending-zones-experience.html" class="pad-button pad-button-link" style="text-decoration:none;color:inherit;">
-                    <span class="pad-button-icon">🎬</span>
-                    <div class="pad-button-title">Happy Ending Zones</div>
-                    <div class="pad-button-desc">Free Series</div>
-                </a>
-                <a href="interfaces/vibelandia-reno-experience.html" class="pad-button pad-button-link" style="text-decoration:none;color:inherit;">
-                    <span class="pad-button-icon">🏛️</span>
-                    <div class="pad-button-title">VIBELANDIA RENO!</div>
-                    <div class="pad-button-desc">Campus Plans</div>
-                </a>
-                <a href="interfaces/wink-experience.html" class="pad-button pad-button-link" style="text-decoration:none;color:inherit;">
-                    <span class="pad-button-icon">👁️</span>
-                    <div class="pad-button-title">WINK!</div>
-                    <div class="pad-button-desc">Dating Network</div>
-                </a>
-                <a href="interfaces/ultimate-vip-experience.html" class="pad-button pad-button-link" style="text-decoration:none;color:inherit;">
-                    <span class="pad-button-icon">👑</span>
-                    <div class="pad-button-title">Ultimate VIP</div>
-                    <div class="pad-button-desc">Chairman Console</div>
-                </a>
-                <a href="interfaces/sing-lottery-experience.html" class="pad-button pad-button-link" data-section="lottery" style="text-decoration:none;color:inherit;">
-                    <span class="pad-button-icon">🎰</span>
-                    <div class="pad-button-title">SING! Lottery</div>
-                    <div class="pad-button-desc">Countdown Launch</div>
-                </a>
-                <a href="interfaces/dispensary-experience.html" class="pad-button pad-button-link" style="text-decoration:none;color:inherit;">
-                    <span class="pad-button-icon">🌿</span>
-                    <div class="pad-button-title">DISPENSARY! SNAP</div>
-                    <div class="pad-button-desc">Menu of Buzzes</div>
-                </a>
-            </div>
+        <!-- Showroom — Four products (Octave 0 definition). -->
+        <div class="launch-pad-buttons" style="position: relative; bottom: auto; left: auto; transform: none; width: 100%; max-width: 800px; margin: 2rem auto; grid-template-columns: repeat(2, 1fr);">
+            <a href="interfaces/vibelandia-reno-experience.html" class="pad-button pad-button-link" style="text-decoration:none;color:inherit;">
+                <span class="pad-button-icon">🏛️</span>
+                <div class="pad-button-title">VIBELANDIA RENO!</div>
+                <div class="pad-button-desc">Campus · Buy / Sign up</div>
+            </a>
+            <a href="interfaces/wink-experience.html" class="pad-button pad-button-link" style="text-decoration:none;color:inherit;">
+                <span class="pad-button-icon">👁️</span>
+                <div class="pad-button-title">WINK!</div>
+                <div class="pad-button-desc">Dating Network</div>
+            </a>
+            <a href="interfaces/ultimate-vip-experience.html" class="pad-button pad-button-link" style="text-decoration:none;color:inherit;">
+                <span class="pad-button-icon">👑</span>
+                <div class="pad-button-title">ULTIMATE VIP CHAIRMAN CONSOLE!</div>
+                <div class="pad-button-desc">Free · Auto-upgrade with Golden Fractal Key</div>
+            </a>
+            <a href="interfaces/sing-lottery-experience.html" class="pad-button pad-button-link" style="text-decoration:none;color:inherit;">
+                <span class="pad-button-icon">🎰</span>
+                <div class="pad-button-title">SING! COUNTDOWN! LOTTERY</div>
+                <div class="pad-button-desc">SYNTH → SING · Mar 20, 2026</div>
+            </a>
         </div>
 
+        <!-- 1,2,3 4×4×4×4 — Irreducible purchasing core. -->
         <div class="info-display" id="infoDisplay">
-            <p style="margin-top: 0.5rem;">Click any button to explore.</p>
+            <p style="margin-top: 0.5rem; font-weight: 600; color: #00d4ff;">1,2,3 4×4×4×4</p>
+            <p style="margin-top: 0.25rem; font-size: 0.85rem; color: #aaa;">1,2,3 = Metabolize → Crystallize → Animate · 4×4×4×4 = Campus × WINK! × SING × Experience (four onramps each)</p>
+            <p style="margin-top: 0.75rem; font-weight: 600; color: #7fff7f;">You can sign up for:</p>
+            <p style="margin-top: 0.5rem;">VIBELANDIA! campus visit/stay · Optional excursions · WINK! · Lottery participation · Optional free consultation and proposal from Gianni if interested in having us do something similar for your company or community.</p>
+            <p style="margin-top: 0.75rem; font-size: 0.9rem; color: #ffeaa7;"><strong>Purchases require registration / sign up / sign in / auth.</strong></p>
             <div class="countdown" id="countdown">Launch: March 20, 2026</div>
-            <p style="margin-top: 1rem;"><a href="interfaces/chairman-workspace.html" style="color: #64c8ff;">Chairman Console →</a> · <a href="interfaces/profile.html" style="color: #64c8ff;">Profile & Wallet</a></p>
-        </div>
-
-        <div class="company-section">
-            <p><a href="interfaces/magical-dressing-room.html" style="color: #4ecdc4;">Gianni's Dressing Room</a> — Consultations only there. <a href="interfaces/launch-pad.html" style="color: #64c8ff;">Launch Pad</a> — View plans & purchase.</p>
+            <p style="margin-top: 1rem;"><a href="interfaces/launch-pad.html" style="color: #64c8ff;">Full Launch Pad →</a> · <a href="interfaces/profile.html" style="color: #64c8ff;">Profile &amp; sign in</a> · <a href="interfaces/payment-checkout.html?plan=test-5" style="display: inline-block; padding: 0.5rem 1rem; background: linear-gradient(135deg, #ffa500, #ff8c00); color: #000; text-decoration: none; border-radius: 8px; font-weight: 700; margin-left: 0.5rem;" title="Test PayPal connection">🧪 Test PayPal $5</a></p>
+            <p style="margin-top: 0.75rem; font-size: 0.9rem; color: #888;"><a href="interfaces/magical-dressing-room.html" style="color: #d4af37;">Gianni's Dressing Room</a> — optional free consultation &amp; proposal for your enterprise / community</p>
         </div>
 
         <footer>
@@ -594,119 +360,20 @@
     </div>
 
     <script>
-        const rocket = document.getElementById('rocket');
-        const flame = document.getElementById('flame');
-        const infoDisplay = document.getElementById('infoDisplay');
-        const countdown = document.getElementById('countdown');
-        const buttons = document.querySelectorAll('.pad-button');
-
-        // Section data — each links to full experience page (same as Magical Dressing Room flow)
-        const sections = {
-            series: {
-                title: '🎬 HAPPY ENDING ZONES — SEASON ONE',
-                desc: 'Free daily reality series. Mark Twain guides 52-day countdown to The Great Reveal. New episodes published live daily. All episodes in full professional screenplay format.',
-                details: 'Format: Daily Reality Series — 52 Episodes + Finale. Start: Jan 27, 2026 → Finale: Mar 20, 2026. ✨ FREE PRODUCT LAUNCH.',
-                link: 'interfaces/happy-ending-zones-experience.html'
-            },
-            vibelandia: {
-                title: '🏛️ VIBELANDIA RENO!',
-                desc: 'Walkable downtown campus. First post-singularity VIBELANDIA! campus. Every space guarantees a happy ending; Mark Twain\'s Daily Bulletin, BBHE, Hero Hosts, creator studios—all within walking distance.',
-                details: 'Campus Plans: Day | Weekly | Monthly | Ultimate VIP. First 1,000 Pioneers: 50% off. Pioneer Status on-chain forever.',
-                link: 'interfaces/vibelandia-reno-experience.html'
-            },
-            wink: {
-                title: '👁️ WINK!',
-                desc: 'Members-only network for high-contributing fractal vibers. Natural alignment, friction-free dating. Golden Fractal Hearts: Ladies—receive your Invitation, 3 months free WINK! access (exclusive, limited).',
-                details: 'Plans: Base | Standard | Premium | 4×4 Ultimate. First 1,000 Pioneers: 50% off. Golden Fractal Hearts Invitation: not open to general public.',
-                link: 'interfaces/wink-experience.html'
-            },
-            console: {
-                title: '👑 ULTIMATE VIP CHAIRMAN CONSOLE! SNAP',
-                desc: 'Operational now. Chairman Workspace, cockpit, Seed:Edge integration. Ultimate VIP Baller C but not there yet? Click to apply for a grant!',
-                details: 'Access ULTIMATE VIP CHAIRMAN CONSOLE! (Chairman Workspace) | Apply for Grant: mailto:info@fractiai.com?subject=Ultimate%20VIP%20Baller%20C%20Grant%20Application',
-                link: 'interfaces/chairman-workspace.html'
-            },
-            lottery: {
-                title: '🎰 SING! Countdown! Lottery',
-                desc: 'First 1,000,000 SYNTH holders win. 1:1 SYNTH → SING conversion. Grandfathered.',
-                details: 'SYNTH: $6 today (rises +$1/day) → Final: $57 (Mar 20). Launch: March 20, 2026 (Spring Equinox)',
-                link: 'interfaces/sing-lottery-experience.html'
-            },
-            dispensary: {
-                title: '🌿 DISPENSARY! SNAP',
-                desc: 'Menu of buzzes across all important biological channels. Selectable Goldilocks auto-lock for ANY COMBINATION of Creator, Chairman Commander, Performer Superhero modes. Premium pricing. Pioneer discount. On-ramps available.',
-                details: 'Plans: Base | Standard | Premium | Ultimate. First 1,000 Pioneers: 50% off. Can\'t afford yet? On-ramps available.',
-                link: 'interfaces/dispensary-experience.html'
+        // Irreducible core — countdown only. Octave 0 Launch Pad.
+        var countdown = document.getElementById('countdown');
+        if (countdown) {
+            function updateCountdown() {
+                var launchDate = new Date('2026-03-20');
+                var today = new Date();
+                var diff = launchDate - today;
+                var days = Math.ceil(diff / (1000 * 60 * 60 * 24));
+                if (days > 0) countdown.textContent = days + ' days until launch — March 20, 2026';
+                else if (days === 0) countdown.textContent = '🚀 LAUNCH DAY — The Great Reveal!';
+                else countdown.textContent = 'Launch complete — The Great Reveal has arrived!';
             }
-        };
-
-        // Calculate days until launch
-        function updateCountdown() {
-            const launchDate = new Date('2026-03-20');
-            const today = new Date();
-            const diff = launchDate - today;
-            const days = Math.ceil(diff / (1000 * 60 * 60 * 24));
-            
-            if (days > 0) {
-                countdown.textContent = `${days} days until launch — March 20, 2026`;
-            } else if (days === 0) {
-                countdown.textContent = '🚀 LAUNCH DAY — The Great Reveal!';
-            } else {
-                countdown.textContent = 'Launch complete — The Great Reveal has arrived!';
-            }
-        }
-        updateCountdown();
-        setInterval(updateCountdown, 86400000); // Update daily
-
-        // Button interactions — all pad buttons are <a> links; let them navigate
-        buttons.forEach(button => {
-            button.addEventListener('click', function(e) {
-                if (this.classList.contains('pad-button-link')) return; // let <a> navigate
-                e.preventDefault();
-                const section = this.dataset.section;
-                const data = sections[section];
-                if (!data) return;
-                buttons.forEach(b => b.classList.remove('active'));
-                this.classList.add('active');
-                const ctaHtml = '<p style="margin-top:1rem;"><a href="' + data.link + '" style="display:inline-block; padding:0.75rem 1.5rem; background:linear-gradient(135deg, #d4af37, #b8860b); color:#000; text-decoration:none; border-radius:8px; font-weight:700;">Go to full experience →</a></p>';
-                infoDisplay.innerHTML = '<h3>' + data.title + '</h3><p>' + data.desc + '</p><p style="margin-top: 0.5rem; color: #4ecdc4;">' + data.details + '</p>' + ctaHtml + '<div class="countdown">' + countdown.textContent + '</div>';
-                rocket.style.animation = 'none';
-                flame.style.animation = 'none';
-                setTimeout(function() { rocket.style.animation = 'rocketIdle 3s ease-in-out infinite'; flame.style.animation = 'flameFlicker 0.3s ease-in-out infinite'; }, 10);
-            });
-            button.addEventListener('mouseenter', function() {
-                rocket.style.transform = 'translateX(-50%) translateY(-10px)';
-                flame.style.opacity = '0.8';
-                flame.style.height = '50px';
-            });
-            button.addEventListener('mouseleave', function() {
-                if (!this.classList.contains('active')) {
-                    rocket.style.transform = 'translateX(-50%) translateY(0)';
-                    flame.style.opacity = '0.6';
-                    flame.style.height = '40px';
-                }
-            });
-        });
-
-        // Launch sequence — double-click SING! Lottery button (no navigation)
-        var lotteryBtn = document.querySelector('[data-section="lottery"]');
-        if (lotteryBtn) {
-            var launchSequence = false;
-            lotteryBtn.addEventListener('dblclick', function(e) {
-                e.preventDefault();
-                if (launchSequence) return;
-                launchSequence = true;
-                rocket.classList.add('launching');
-                flame.classList.add('launching');
-                infoDisplay.innerHTML = '<h3>🚀 LAUNCH SEQUENCE INITIATED!</h3><p>The Great Reveal is approaching. SYNTH → SING transformation in progress.</p><div class="countdown">Launching to March 20, 2026...</div>';
-                setTimeout(function() {
-                    rocket.classList.remove('launching');
-                    flame.classList.remove('launching');
-                    rocket.style.animation = 'rocketIdle 3s ease-in-out infinite';
-                    flame.style.animation = 'flameFlicker 0.3s ease-in-out infinite';
-                    launchSequence = false;
-                }, 3000);
-            });
+            updateCountdown();
+            setInterval(updateCountdown, 86400000);
         }
     </script>
 </body>

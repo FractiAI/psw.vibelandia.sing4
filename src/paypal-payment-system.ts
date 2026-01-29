@@ -29,10 +29,12 @@ export interface PaymentPlan {
  * Campus × WINK! × SING × Experience
  */
 export const PAYMENT_PLANS: Record<string, PaymentPlan> = {
-  'campus-day': { id: 'campus-day', name: 'Day Pass', description: 'Experience the campus for a day - Premium pricing for high-contributing vibers worldwide', price: 4999, category: 'campus', tier: 1 },
-  'campus-weekly': { id: 'campus-weekly', name: 'Weekly Pass', description: 'Full week campus experience - For top artists, performers, entrepreneurs', price: 29999, category: 'campus', tier: 2 },
-  'campus-monthly': { id: 'campus-monthly', name: 'Monthly Pass', description: 'Complete campus integration - For high-contributing creators', price: 99999, category: 'campus', tier: 3 },
-  'campus-ultimate-vip': { id: 'campus-ultimate-vip', name: 'Ultimate VIP Campus', description: 'Ultimate premium campus experience - For Ultimate C\'s', price: 499999, category: 'campus', tier: 4 },
+  'campus-half-day': { id: 'campus-half-day', name: 'Half-Day', description: 'Half-day campus experience — VW Bug entry point', price: 3000, category: 'campus', tier: 1 },
+  'campus-overnight': { id: 'campus-overnight', name: 'Overnight Stay (per night)', description: 'Overnight stay visit — per night', price: 1500, category: 'campus', tier: 2 },
+  'campus-weekly': { id: 'campus-weekly', name: 'Weekly Pass', description: 'Full week campus — $5k/week (VW Bug entry)', price: 5000, category: 'campus', tier: 3 },
+  'campus-monthly': { id: 'campus-monthly', name: 'Monthly Pass (Baller)', description: 'Top tier campus — $50k/month (Baller)', price: 50000, category: 'campus', tier: 4 },
+  'campus-day': { id: 'campus-day', name: 'Half-Day', description: 'Half-day campus experience (alias)', price: 3000, category: 'campus', tier: 1 },
+  'campus-ultimate-vip': { id: 'campus-ultimate-vip', name: 'Monthly Pass (Baller)', description: 'Top tier campus (alias)', price: 50000, category: 'campus', tier: 4 },
   'wink-base': { id: 'wink-base', name: 'WINK! Base', description: 'Essential WINK! features for high-contributing vibers', price: 1999, category: 'wink', tier: 1 },
   'wink-standard': { id: 'wink-standard', name: 'WINK! Standard', description: 'Standard Wink experience, Notes Being', price: 4999, category: 'wink', tier: 2 },
   'wink-premium': { id: 'wink-premium', name: 'WINK! Premium', description: 'Premium profile, magical wardrobe, network', price: 19999, category: 'wink', tier: 3 },

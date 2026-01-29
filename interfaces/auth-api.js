@@ -1,7 +1,7 @@
 /**
- * Auth API — Octave 2 only (fetch). No Supabase client.
- * Session, login, signup, logout, Google OAuth redirect.
- * Token stored in localStorage; send Authorization: Bearer on requests.
+ * Auth API — Supabase handles auth (and Google OAuth).
+ * Token (Supabase access_token) stored in localStorage; sent as Authorization: Bearer to Octave 2 for profile/orders.
+ * Fallback: if Supabase not configured, uses Octave 2 auth endpoints.
  */
 (function () {
   var BASE = typeof window !== 'undefined' && window.VIBELANDIA_API_BASE
@@ -9,6 +9,20 @@
     : 'https://syntheverse-poc.vercel.app';
   var TOKEN_KEY = 'vibelandia_auth_token';
   var USER_KEY = 'vibelandia_auth_user';
+  var SUPABASE_URL = typeof window !== 'undefined' && window.VIBELANDIA_SUPABASE_URL;
+  var SUPABASE_ANON_KEY = typeof window !== 'undefined' && window.VIBELANDIA_SUPABASE_ANON_KEY;
+  var supabaseClient = null;
+
+  function getSupabase() {
+    if (!supabaseClient && SUPABASE_URL && SUPABASE_ANON_KEY && typeof window !== 'undefined' && window.supabase && window.supabase.createClient) {
+      supabaseClient = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+    }
+    return supabaseClient;
+  }
+
+  function useSupabase() {
+    return !!(SUPABASE_URL && SUPABASE_ANON_KEY && typeof window !== 'undefined' && window.supabase && window.supabase.createClient);
+  }
 
   function getToken() {
     try {
@@ -29,6 +43,13 @@
     var t = getToken();
     var h = { 'Content-Type': 'application/json' };
     if (t) h['Authorization'] = 'Bearer ' + t;
+    if (typeof window !== 'undefined' && window.VibelandiaGoldenKey && typeof window.VibelandiaGoldenKey.get === 'function') {
+      var gk = window.VibelandiaGoldenKey.get();
+      if (gk) {
+        h['X-Golden-Key'] = gk;
+        h['X-Golden-Key-Wallet'] = 'Syntheverse,Vibeverse,Vibelandia';
+      }
+    }
     return h;
   }
 
@@ -44,11 +65,24 @@
     });
   }
 
-  /**
-   * GET /api/auth/session — current user or null.
-   * @returns {Promise<{user: object}|null>}
-   */
   function getSession() {
+    if (useSupabase()) {
+      var supabase = getSupabase();
+      if (!supabase) return Promise.resolve(null);
+      return supabase.auth.getSession()
+        .then(function (r) {
+          var session = r.data && r.data.session;
+          if (session) {
+            var user = session.user;
+            var u = { id: user.id, email: user.email || '', displayName: user.user_metadata?.full_name || user.user_metadata?.name || null, avatarUrl: user.user_metadata?.avatar_url || null };
+            setToken(session.access_token, u);
+            return { user: u };
+          }
+          setToken(null, null);
+          return null;
+        })
+        .catch(function () { return null; });
+    }
     return api('/api/auth/session', { method: 'GET' })
       .then(function (r) {
         if (r.status === 401) { setToken(null, null); return null; }
@@ -62,80 +96,118 @@
       .catch(function () { return null; });
   }
 
-  /**
-   * POST /api/auth/login — returns { token, user }. Stores token.
-   * @param {string} email
-   * @param {string} password
-   * @returns {Promise<{token: string, user: object}|null>}
-   */
   function login(email, password) {
-    return api('/api/auth/login', {
-      method: 'POST',
-      body: { email: email, password: password }
-    }).then(function (r) { return r.json(); }).then(function (data) {
-      if (data && data.token && data.user) {
-        setToken(data.token, data.user);
-        return data;
-      }
-      return null;
-    }).catch(function () { return null; });
+    if (useSupabase()) {
+      var supabase = getSupabase();
+      if (!supabase) return Promise.resolve(null);
+      return supabase.auth.signInWithPassword({ email: email, password: password })
+        .then(function (r) {
+          if (r.data && r.data.session) {
+            var session = r.data.session;
+            var user = session.user;
+            var u = { id: user.id, email: user.email || '', displayName: user.user_metadata?.full_name || user.user_metadata?.name || null };
+            setToken(session.access_token, u);
+            return { token: session.access_token, user: u };
+          }
+          return null;
+        })
+        .catch(function () { return null; });
+    }
+    return api('/api/auth/login', { method: 'POST', body: { email: email, password: password } })
+      .then(function (r) { return r.json(); })
+      .then(function (data) {
+        if (data && data.token && data.user) { setToken(data.token, data.user); return data; }
+        return null;
+      })
+      .catch(function () { return null; });
   }
 
-  /**
-   * POST /api/auth/signup — same shape as login.
-   */
   function signup(email, password) {
-    return api('/api/auth/signup', {
-      method: 'POST',
-      body: { email: email, password: password }
-    }).then(function (r) { return r.json(); }).then(function (data) {
-      if (data && data.token && data.user) {
-        setToken(data.token, data.user);
-        return data;
-      }
-      return null;
-    }).catch(function () { return null; });
+    if (useSupabase()) {
+      var supabase = getSupabase();
+      if (!supabase) return Promise.resolve(null);
+      return supabase.auth.signUp({ email: email, password: password })
+        .then(function (r) {
+          if (r.data && r.data.session) {
+            var session = r.data.session;
+            var user = session.user;
+            var u = { id: user.id, email: user.email || '', displayName: user.user_metadata?.full_name || user.user_metadata?.name || null };
+            setToken(session.access_token, u);
+            return { token: session.access_token, user: u };
+          }
+          if (r.data && r.data.user && !r.data.session) {
+            var u2 = { id: r.data.user.id, email: r.data.user.email || '', displayName: null };
+            return { token: null, user: u2 };
+          }
+          return null;
+        })
+        .catch(function () { return null; });
+    }
+    return api('/api/auth/signup', { method: 'POST', body: { email: email, password: password } })
+      .then(function (r) { return r.json(); })
+      .then(function (data) {
+        if (data && data.token && data.user) { setToken(data.token, data.user); return data; }
+        return null;
+      })
+      .catch(function () { return null; });
   }
 
-  /**
-   * POST /api/auth/logout — clear token server-side, then localStorage.
-   */
   function logout() {
-    return api('/api/auth/logout', { method: 'POST' })
-      .catch(function () {})
-      .then(function () { setToken(null, null); });
+    if (useSupabase()) {
+      var supabase = getSupabase();
+      if (supabase) supabase.auth.signOut().catch(function () {});
+      setToken(null, null);
+      return Promise.resolve();
+    }
+    return api('/api/auth/logout', { method: 'POST' }).catch(function () {}).then(function () { setToken(null, null); });
   }
 
   /**
-   * Google OAuth: redirect to Octave 2. Return URL should include current page (e.g. checkout?plan=...).
-   * @param {string} returnUrl — full URL to return to after OAuth (hash #token=... will be appended).
+   * Returns Promise<string> — URL to redirect to for Google sign-in (or Octave 2 URL).
+   * Caller should do: Auth.getGoogleAuthUrl(returnUrl).then(function(url) { if (url) location.href = url; });
    */
   function getGoogleAuthUrl(returnUrl) {
-    return BASE + '/api/auth/google?redirect_uri=' + encodeURIComponent(returnUrl || (typeof window !== 'undefined' && window.location ? window.location.href : ''));
+    var url = returnUrl || (typeof window !== 'undefined' && window.location ? window.location.href : '');
+    if (useSupabase()) {
+      var supabase = getSupabase();
+      if (!supabase) return Promise.resolve('');
+      return supabase.auth.signInWithOAuth({ provider: 'google', options: { redirectTo: url } })
+        .then(function (r) { return (r.data && r.data.url) || ''; })
+        .catch(function () { return ''; });
+    }
+    return Promise.resolve(BASE + '/api/auth/google?redirect_uri=' + encodeURIComponent(url));
   }
 
   /**
-   * Check URL for #token=... or ?token=... (OAuth callback). If present, store and return token.
-   * @returns {string|undefined}
+   * Consume OAuth callback (token in URL or Supabase session from hash). Returns Promise so callers can await.
    */
   function consumeOAuthToken() {
-    if (typeof window === 'undefined' || !window.location) return undefined;
+    if (typeof window === 'undefined' || !window.location) return Promise.resolve(undefined);
+    if (useSupabase()) {
+      var supabase = getSupabase();
+      if (supabase) {
+        return supabase.auth.getSession().then(function (r) {
+          var session = r.data && r.data.session;
+          if (session) {
+            var user = session.user;
+            var u = { id: user.id, email: user.email || '', displayName: user.user_metadata?.full_name || user.user_metadata?.name || null };
+            setToken(session.access_token, u);
+            return session.access_token;
+          }
+          return undefined;
+        }).catch(function () { return undefined; });
+      }
+    }
     var h = window.location.hash || '';
     var q = window.location.search || '';
     var match = (h + '&' + q).match(/[#&]token=([^&]+)/);
-    if (!match) return undefined;
+    if (!match) return Promise.resolve(undefined);
     var token = decodeURIComponent(match[1]);
-    var user = { id: '', email: '', displayName: null };
-    setToken(token, user);
-    try {
-      history.replaceState(null, '', window.location.pathname + window.location.search);
-    } catch (_) {}
-    return token;
+    setToken(token, { id: '', email: '', displayName: null });
+    try { history.replaceState(null, '', window.location.pathname + window.location.search); } catch (_) {}
+    return Promise.resolve(token);
   }
 
-  /**
-   * Stored user (from localStorage). Use after getSession or login/signup.
-   */
   function getStoredUser() {
     try {
       var s = localStorage.getItem(USER_KEY);
@@ -143,9 +215,6 @@
     } catch (_) { return null; }
   }
 
-  /**
-   * GET /api/user/profile — { user, wallet }. Auth required.
-   */
   function getProfile() {
     return api('/api/user/profile', { method: 'GET' })
       .then(function (r) {
@@ -156,17 +225,10 @@
       .catch(function () { return null; });
   }
 
-  /**
-   * POST /api/orders/complete — after PayPal capture. Returns { goldenKey, orderId, planId }.
-   */
   function completeOrder(orderId, planId) {
-    return api('/api/orders/complete', {
-      method: 'POST',
-      body: { orderId: orderId, planId: planId }
-    }).then(function (r) {
-      if (!r.ok) return null;
-      return r.json();
-    }).catch(function () { return null; });
+    return api('/api/orders/complete', { method: 'POST', body: { orderId: orderId, planId: planId } })
+      .then(function (r) { if (!r.ok) return null; return r.json(); })
+      .catch(function () { return null; });
   }
 
   window.VibelandiaAuth = {
@@ -182,6 +244,7 @@
     getStoredUser: getStoredUser,
     getProfile: getProfile,
     completeOrder: completeOrder,
-    api: api
+    api: api,
+    useSupabase: useSupabase
   };
 })();

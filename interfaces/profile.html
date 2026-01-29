@@ -78,6 +78,7 @@
         <a href="/" class="back-link">← Back to VIBELANDIA!</a>
     </div>
 
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
     <script src="api-config.js"></script>
     <script src="auth-api.js"></script>
     <script src="golden-key-browser.js"></script>
@@ -148,13 +149,13 @@
             }
 
             function bootstrap() {
-                Auth.consumeOAuthToken();
-                if (!Auth.getToken()) {
-                    renderAuthRequired();
-                    return;
-                }
-                renderLoading();
-                Auth.getProfile().then(function (profile) {
+                Auth.consumeOAuthToken().then(function () {
+                    if (!Auth.getToken()) {
+                        renderAuthRequired();
+                        return;
+                    }
+                    renderLoading();
+                    Auth.getProfile().then(function (profile) {
                     if (profile && profile.user) {
                         renderProfile(profile);
                         return;
@@ -164,12 +165,13 @@
                         return;
                     }
                     renderAuthRequired();
-                }).catch(function () {
-                    if (Auth.getStoredUser()) {
-                        renderProfile({ user: Auth.getStoredUser(), wallet: null });
-                    } else {
-                        renderAuthRequired();
-                    }
+                    }).catch(function () {
+                        if (Auth.getStoredUser()) {
+                            renderProfile({ user: Auth.getStoredUser(), wallet: null });
+                        } else {
+                            renderAuthRequired();
+                        }
+                    });
                 });
             }
 

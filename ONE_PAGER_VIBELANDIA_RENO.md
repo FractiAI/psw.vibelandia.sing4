@@ -41,7 +41,7 @@
 
 ## 🛒 BUY CAMPUS ACCESS
 
-**⚡ [Day Pass $4,999 →](./interfaces/payment-checkout.html?plan=campus-day)** | **[Weekly $29,999 →](./interfaces/payment-checkout.html?plan=campus-weekly)** | **[Monthly $99,999 →](./interfaces/payment-checkout.html?plan=campus-monthly)** | **[Ultimate VIP $499,999 →](./interfaces/payment-checkout.html?plan=campus-ultimate-vip)**
+**⚡ [Half-Day $3,000 →](./interfaces/payment-checkout.html?plan=campus-half-day)** | **[Overnight (per night) →](./interfaces/payment-checkout.html?plan=campus-overnight)** | **[Weekly $5,000 (VW Bug entry) →](./interfaces/payment-checkout.html?plan=campus-weekly)** | **[Monthly $50,000 (Baller) →](./interfaces/payment-checkout.html?plan=campus-monthly)**
 
 ---
 
@@ -60,11 +60,9 @@
 
 ---
 
-## ✨ FROM SHOWROOM TO DRESSING ROOM — FOR YOUR COMPANY & COMMUNITY
+## ✨ GIANNI'S DRESSING ROOM — FOR YOUR ENTERPRISE / COMMUNITY (FINAL OPTION)
 
-**Gianni's Dressing Room** — **Consultations only there.** [Open →](./interfaces/magical-dressing-room.html)
-
-**Gianni–inspired wrapper** on all skins, touchpoints & experiences. **We can do this for your company and community.** Free consultation, measurements, and fine tailored designer fashion fit—skins and experiences at the press of a button. Like a fine Italian fashion designer (**Hero Host Gianni**)—**the magical dressing room**.
+**Gianni's Dressing Room** is the **final option** for those who want to do something similar for their **own enterprise or community.** [Open →](./interfaces/magical-dressing-room.html) Free consultation, tailored proposal—skins and experiences at the press of a button (Hero Host Gianni). **Our launch plans are ready to click and purchase above.**
 
 **For way less than you're already spending—and getting WAY LESS!**
 

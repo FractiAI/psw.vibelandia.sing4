@@ -1,8 +1,10 @@
-# Supabase Setup - Shared Database from Syntheverse Cloud Onramp
+# Supabase Setup - Shared Database & Auth from Syntheverse Cloud Onramp
 
 **Source:** [Syntheverse-7-Octave-2-3-Public-Cloud-Onramp](https://github.com/FractiAI/Syntheverse-7-Octave-2-3-Public-Cloud-Onramp)  
-**Purpose:** Use shared Supabase database instead of separate database for all nodes  
+**Purpose:** Use shared Supabase for **auth (and Google OAuth)** and database for all nodes  
 **Status:** ⚡ ACTIVE - Configuration ready
+
+**Supabase handles auth (and Google).** The Vibelandia client uses Supabase for signup, login, logout, session, and Google sign-in. Set `VIBELANDIA_SUPABASE_ANON_KEY` (or `window.VIBELANDIA_SUPABASE_ANON_KEY` before loading auth-api.js) so auth works. Octave 2 receives the Supabase JWT for profile and orders.
 
 ---
 
@@ -124,6 +126,14 @@ When deploying to Vercel:
 - **Syntheverse Repo:** https://github.com/FractiAI/Syntheverse-7-Octave-2-3-Public-Cloud-Onramp
 - **Supabase Config Doc:** https://github.com/FractiAI/Syntheverse-7-Octave-2-3-Public-Cloud-Onramp/blob/main/docs/SUPABASE_COPY_PASTE_CONFIG.md
 - **Supabase Dashboard:** https://supabase.com/dashboard/project/jfbgdxeumzqzigptbmvp
+
+---
+
+**Check access (list schema and sample contents):** From repo root, with `NEXT_PUBLIC_SUPABASE_URL` and `NEXT_PUBLIC_SUPABASE_ANON_KEY` (or `SUPABASE_SERVICE_ROLE_KEY`) set in `.env.nspfrnp` or env, run:
+```bash
+npm run check-supabase
+```
+Or: `node scripts/check-supabase-access.mjs`. The script fetches the OpenAPI schema from `/rest/v1/` (lists tables/paths) and tries a few table selects.
 
 ---
 

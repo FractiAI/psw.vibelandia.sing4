@@ -37,19 +37,20 @@
 
 ---
 
-## 3. Vibelandia Auth Client (Temporary)
+## 3. Vibelandia Auth Client — Supabase
 
 - **Location:** `interfaces/auth-api.js`, `interfaces/api-config.js`, `interfaces/golden-key-browser.js`
-- **Spec:** [OCTAVE2_AUTH_WALLET_API.md](./OCTAVE2_AUTH_WALLET_API.md) — signup, login, session, logout, Google OAuth, profile, `POST /api/orders/complete`.
-- **Status:** Implements the Octave 2 API contract. **Temporary** until we reuse or match Syntheverse PoC auth. Once PoC auth is confirmed, we can replace or adapt this client to match.
+- **Auth:** **Supabase handles auth (and Google OAuth).** Client uses [@supabase/supabase-js](https://github.com/supabase/supabase-js) for signup, login, logout, session, and Google sign-in. Token (Supabase JWT) is sent as `Authorization: Bearer` to Octave 2 for profile and orders.
+- **Spec:** [SUPABASE_SETUP.md](./SUPABASE_SETUP.md) for Supabase URL/anon key; [OCTAVE2_AUTH_WALLET_API.md](./OCTAVE2_AUTH_WALLET_API.md) for Octave 2 profile and `POST /api/orders/complete` (accept Supabase JWT).
+- **Status:** Supabase is the auth provider. Octave 2 is used for profile and order completion only.
 
 ---
 
 ## Next Steps
 
-1. **Inspect Syntheverse PoC** — auth endpoints, token shape, OAuth redirect flow.
-2. **Align Vibelandia client** — use PoC auth if compatible, or adapt `auth-api.js` to match.
-3. **Keep MarkTwainVerse** as post-auth UX reference (landing, catalog) for profile and post-checkout flows.
+1. **Supabase** — Set `window.VIBELANDIA_SUPABASE_ANON_KEY` (from Supabase Dashboard → Settings → API → anon public) in production so auth and Google OAuth work. See [SUPABASE_SETUP.md](./SUPABASE_SETUP.md).
+2. **Octave 2** — Verify Supabase JWT for `GET /api/user/profile` and `POST /api/orders/complete`.
+3. **MarkTwainVerse** — Post-auth UX reference (landing, catalog) for profile and post-checkout flows.
 
 ---
 

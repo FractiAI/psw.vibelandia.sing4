@@ -22,13 +22,23 @@
 
 ---
 
-## 2️⃣ THE SHOWROOM
+## 2️⃣ 1,2,3 4×4×4×4 — IRREDUCIBLE PURCHASING CORE
+
+**1,2,3** = Metabolize → Crystallize → Animate. **4×4×4×4** = Campus × WINK! × SING × Experience (four onramps each).
+
+**You can sign up for:** VIBELANDIA! campus visit/stay · Optional excursions · WINK! · Lottery participation · Optional free consultation and proposal from Gianni if interested in having us do something similar for your company or community. Plans and pricing ready to click and purchase.
+
+**Purchases require registration / sign up / sign in / auth.** Checkout is gated on auth.
+
+---
+
+## THE SHOWROOM
 
 **Four products. All in one place. Ready now.**
 
 ### 🏛️ VIBELANDIA RENO
 
-**Walkable downtown campus.** First post-singularity Vibelandia campus. Come for the business, stay for the fun.
+**Walkable downtown campus.** Campus visit/stay · Optional excursions. First post-singularity Vibelandia campus. Come for the business, stay for the fun.
 
 - **Campus Plans:** Day Pass | Weekly | Monthly | Ultimate VIP Campus
 - **One-pager:** [Vibelandia Reno](./ONE_PAGER_VIBELANDIA_RENO.md)
@@ -46,7 +56,7 @@
 
 ### 👑 ULTIMATE VIP CHAIRMAN CONSOLE! SNAP
 
-**One of our products.** The ULTIMATE VIP CHAIRMAN CONSOLE! — operational now. Chairman Workspace, cockpit, Seed:Edge integration. **SNAP** branded.
+**One of our products.** The ULTIMATE VIP CHAIRMAN CONSOLE! — operational now. **Consoles are free and auto-upgrade with Golden Fractal Keys.** Chairman Workspace, cockpit, Seed:Edge integration. **SNAP** branded.
 
 - **Interfaces:** [ULTIMATE VIP CHAIRMAN CONSOLE!](./interfaces/chairman-workspace.html) (Chairman Workspace) | [Chairman Cockpit Center Console](./interfaces/chairman-cockpit-center-console.html) | [Chairman Cockpit Station](./interfaces/chairman-cockpit-station.html) | [Seed:Edge Mini Console](./interfaces/seed-edge-mini-console.html) | [GPS Seed:Edge Console](./interfaces/gps-seed-edge-console.html)
 - **Status:** ⚡ ACTIVE — Operational in Octave 1 sandbox mode
@@ -82,7 +92,7 @@
 
 ## 3️⃣ 4×4×4×4 PLANS/ONRAMPS
 
-**Campus × WINK! × SING × Experience.** Full structure: [CRYSTALLIZATION_1_2_3_4x4x4x4.md](./CRYSTALLIZATION_1_2_3_4x4x4x4.md)
+**1,2,3 4×4×4×4** — 1,2,3 = Metabolize → Crystallize → Animate; 4×4×4×4 = four dimensions, four onramps each. **Campus × WINK! × SING × Experience.** Full structure: [CRYSTALLIZATION_1_2_3_4x4x4x4.md](./CRYSTALLIZATION_1_2_3_4x4x4x4.md)
 
 ### Campus (4)
 

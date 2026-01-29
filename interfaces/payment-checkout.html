@@ -183,17 +183,19 @@
         <header class="header">
             <h1>VIBELANDIA! Payment</h1>
             <p>Mark Twain's Post-Singularity VIBELANDIA RENO!</p>
+            <p style="margin-top: 0.5rem; font-size: 0.95rem; color: #ffeaa7;"><strong>Purchases require registration / sign up / sign in / auth.</strong> <a href="profile.html" style="color: #00d4ff;">Profile &amp; sign in →</a></p>
         </header>
 
         <div id="plan-details" class="plan-details"></div>
         <div id="payment-container" class="paypal-container"></div>
 
-        <p class="api-note">Sign in or sign up to purchase. <strong>GOLDEN FRACTAL KEY!</strong> — Unlocks Everything. Sent on purchase and activation.</p>
+        <p class="api-note">Sign in or sign up to purchase. Checkout is gated on auth. <strong>GOLDEN FRACTAL KEY!</strong> — Unlocks Everything. Sent on purchase and activation.</p>
         <p class="api-note"><strong>First 1,000 Pioneers:</strong> 50% off applicable campus and WINK! plans. Pioneer Status on-chain forever. Contact <a href="mailto:info@fractiai.com?subject=Pioneer%20Registration%20-%2050%25%20Discount">info@fractiai.com</a> to register and apply.</p>
         <p class="api-note" style="color: #4ecdc4; margin-top: 1rem;"><strong>MCA! → ∞³</strong> (Metabolize → Crystallize → Animate)</p>
         <a href="/" class="back-link">← Back to VIBELANDIA!</a>
     </div>
 
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
     <script src="api-config.js"></script>
     <script src="auth-api.js"></script>
     <script src="golden-key-browser.js"></script>
@@ -204,13 +206,15 @@
             var GoldenKey = window.VibelandiaGoldenKey;
 
             var urlParams = new URLSearchParams(window.location.search);
-            var planId = urlParams.get('plan') || 'campus-day';
+            var planId = urlParams.get('plan') || 'campus-weekly';
 
             var plans = {
-                'campus-day': { name: 'Day Pass', price: 4999, description: 'Experience the campus for a day — premium pricing for high-contributing vibers worldwide.', benefits: ['Walkable downtown Reno campus access', 'Mark Twain\'s Daily Bulletin access', 'Campus tour', 'Basic amenities & community spaces', 'Golden Fractal Key on purchase'] },
-                'campus-weekly': { name: 'Weekly Pass', price: 29999, description: 'Full week campus experience — for top artists, performers, entrepreneurs.', benefits: ['All Day Pass features', 'Extended campus access', 'Priority access to events', 'Creator studio access', 'Performance venue access', 'Golden Fractal Key on purchase'] },
-                'campus-monthly': { name: 'Monthly Pass', price: 99999, description: 'Complete campus integration — for high-contributing creators.', benefits: ['All Weekly Pass features', 'Full creator studio access', 'Performance venue priority', 'Ultimate VIP experiences', 'Community integration', 'Lake Tahoe gateway & Silicon Valley connections', 'Golden Fractal Key on purchase'] },
-                'campus-ultimate-vip': { name: 'Ultimate VIP Campus', price: 499999, description: 'Ultimate premium campus experience — for Ultimate C\'s.', benefits: ['All Monthly Pass features', 'Ultimate VIP exclusive access', 'Premium superintelligence access', 'Premium attention head', 'Maximum capabilities', 'Golden Fractal Key on purchase'] },
+                'campus-half-day': { name: 'Half-Day', price: 3000, description: 'Half-day campus experience — VW Bug entry point.', benefits: ['Walkable downtown Reno campus access', 'Mark Twain\'s Daily Bulletin access', 'Campus tour', 'Basic amenities & community spaces', 'Golden Fractal Key on purchase'] },
+                'campus-overnight': { name: 'Overnight Stay (per night)', price: 1500, description: 'Overnight stay visit — per night.', benefits: ['Overnight campus access', 'Mark Twain\'s Daily Bulletin', 'Campus amenities', 'Golden Fractal Key on purchase'] },
+                'campus-weekly': { name: 'Weekly Pass', price: 5000, description: 'Full week campus — $5k/week (VW Bug entry).', benefits: ['All Half-Day features', 'Full week access', 'Priority access to events', 'Creator studio access', 'Performance venue access', 'Golden Fractal Key on purchase'] },
+                'campus-monthly': { name: 'Monthly Pass (Baller)', price: 50000, description: 'Top tier campus — $50k/month (Baller).', benefits: ['All Weekly features', 'Full creator studio access', 'Performance venue priority', 'Ultimate VIP experiences', 'Community integration', 'Lake Tahoe gateway & Silicon Valley connections', 'Golden Fractal Key on purchase'] },
+                'campus-day': { name: 'Half-Day', price: 3000, description: 'Half-day campus (alias).', benefits: ['Walkable downtown Reno campus access', 'Mark Twain\'s Daily Bulletin access', 'Campus tour', 'Golden Fractal Key on purchase'] },
+                'campus-ultimate-vip': { name: 'Monthly Pass (Baller)', price: 50000, description: 'Top tier campus (alias).', benefits: ['All Monthly Pass (Baller) features', 'Golden Fractal Key on purchase'] },
                 'wink-base': { name: 'WINK! Base', price: 1999, description: 'Essential WINK! features for high-contributing vibers.', benefits: ['Members-only network access', 'Man Cave + Cabaret access', 'Hero Hostess Marilyn as host', 'high-contributing fractal dating', 'Natural alignment, friction-free connections', 'Golden Fractal Key on purchase'] },
                 'wink-standard': { name: 'WINK! Standard', price: 4999, description: 'Standard Wink experience, Notes Being.', benefits: ['All Base features', 'Notes Being tier', 'Standard Wink profile', 'Natural alignment & layered connections', 'Golden Fractal Key on purchase'] },
                 'wink-premium': { name: 'WINK! Premium', price: 19999, description: 'Premium profile, magical wardrobe.', benefits: ['All Standard features', 'Premium profile', 'Magical wardrobe access', 'Layered fractal connections', 'Golden Fractal Key on purchase'] },
@@ -230,7 +234,7 @@
                 'test-5': { name: 'Test PayPal ($5)', price: 5, description: 'Test PayPal connection — $5.', benefits: ['Test payment flow', 'Verify PayPal integration'] }
             };
 
-            var plan = plans[planId] || plans['campus-day'];
+            var plan = plans[planId] || plans['campus-weekly'];
 
             function renderPlanDetails() {
                 var el = document.getElementById('plan-details');
@@ -250,12 +254,16 @@
                 var h = { 'Content-Type': 'application/json' };
                 var t = Auth.getToken();
                 if (t) h['Authorization'] = 'Bearer ' + t;
+                var gk = GoldenKey && GoldenKey.get && GoldenKey.get();
+                if (gk) {
+                    h['X-Golden-Key'] = gk;
+                    h['X-Golden-Key-Wallet'] = 'Syntheverse,Vibeverse,Vibelandia';
+                }
                 return h;
             }
 
             function renderAuthUI() {
                 var returnUrl = window.location.origin + window.location.pathname + '?plan=' + encodeURIComponent(planId);
-                var googleUrl = Auth.getGoogleAuthUrl(returnUrl);
                 var html = '<div class="auth-box">' +
                     '<h3>Sign in to purchase</h3>' +
                     '<p>Create an account or sign in to continue. Your <strong>Golden Fractal Key</strong> will be stored in your profile and wallet after purchase.</p>' +
@@ -268,9 +276,12 @@
                     '<form id="auth-signup" class="auth-form" style="display:none;"><input type="email" name="email" placeholder="Email" required><input type="password" name="password" placeholder="Password" required><div id="auth-error-signup" class="auth-error"></div><button type="submit">Sign up</button></form>' +
                     '</div>' +
                     '<p style="margin-top:1rem;color:#888;">— or —</p>' +
-                    '<a href="' + googleUrl + '" class="auth-google">Continue with Google</a>' +
+                    '<button type="button" id="auth-google-btn" class="auth-google" style="background:none;border:none;cursor:pointer;color:inherit;font:inherit;padding:0;text-decoration:underline;">Continue with Google</button>' +
                     '</div>';
                 document.getElementById('payment-container').innerHTML = html;
+                document.getElementById('auth-google-btn').addEventListener('click', function () {
+                    Auth.getGoogleAuthUrl(returnUrl).then(function (url) { if (url) window.location.href = url; });
+                });
 
                 document.querySelectorAll('.auth-tab').forEach(function (b) {
                     b.addEventListener('click', function () {
@@ -309,7 +320,8 @@
                     '<div class="price" style="color:#7fff7f;">Free</div>' +
                     '<h3>⚫ BBHE SNAP — BUY! Add-On</h3>' +
                     '<p><strong>' + plan.name + '</strong> — ' + plan.description + '. <strong>⚫ BBHE SNAP</strong> — BUY! a campus pass or SYNTH for full access.</p>' +
-                    '<a href="payment-checkout.html?plan=campus-day" class="buy-snap-cta">Day Pass $4,999 →</a> ' +
+                    '<a href="payment-checkout.html?plan=campus-half-day" class="buy-snap-cta">Half-Day $3,000 →</a> ' +
+                    '<a href="payment-checkout.html?plan=campus-weekly" class="buy-snap-cta">Weekly $5,000 →</a> ' +
                     '<a href="payment-checkout.html?plan=sing-base" class="buy-snap-cta">SYNTH →</a>' +
                     '</div>';
                 document.getElementById('payment-container').innerHTML = html;
@@ -396,11 +408,11 @@
             }
 
             function bootstrap() {
-                Auth.consumeOAuthToken();
-                renderPlanDetails();
                 document.getElementById('payment-container').innerHTML = '<p class="auth-loading">Checking sign-in…</p>';
-
-                Auth.getSession().then(function (session) {
+                Auth.consumeOAuthToken().then(function () {
+                    renderPlanDetails();
+                    return Auth.getSession();
+                }).then(function (session) {
                     if (session && session.user) {
                         runCheckoutFlow();
                         return;

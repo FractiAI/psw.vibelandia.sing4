@@ -1,23 +1,27 @@
 # Octave 2 Auth, Profile & Wallet API — Required Endpoints
 
-**Purpose:** Vibelandia (Octave 1) connects to Octave 2 API only. No Supabase client in Vibelandia. Auth, profile, wallet, and purchase completion live in [Syntheverse 7 Octave 2-3 Public Cloud Onramp](https://github.com/FractiAI/Syntheverse-7-Octave-2-3-Public-Cloud-Onramp).  
+**Purpose:** Vibelandia (Octave 1) uses **Supabase for auth (and Google OAuth)**. Octave 2 is used for profile, wallet, and purchase completion.  
 **Protocol:** NSPFRNP · **Status:** Spec for Octave 2 implementation
 
 ---
 
 ## Overview
 
-| Area | Endpoints | Used by |
-|------|-----------|---------|
-| Auth | signup, login, logout, session, Google OAuth | Checkout gate, profile |
-| Profile + Wallet | GET /api/user/profile | Profile page, post-purchase |
-| Orders | POST /api/orders/complete | After PayPal capture |
+| Area | Handled by | Endpoints | Used by |
+|------|------------|-----------|---------|
+| **Auth** (signup, login, logout, session, Google OAuth) | **Supabase** | — | Checkout gate, profile |
+| Profile + Wallet | Octave 2 | GET /api/user/profile | Profile page, post-purchase |
+| Orders | Octave 2 | POST /api/orders/complete | After PayPal capture |
 
-All use **Bearer token** auth. Login/signup/Google return `{ token, user }`; client stores token (e.g. `localStorage`), sends `Authorization: Bearer <token>` on subsequent requests.
+**Supabase** handles auth; client sends Supabase JWT as `Authorization: Bearer <token>` to Octave 2. Octave 2 must **accept Supabase JWT** for profile and orders.
 
 ---
 
-## Auth
+## Auth (Supabase)
+
+Auth (signup, login, logout, session, Google OAuth) is handled by **Supabase**. The Vibelandia client uses [@supabase/supabase-js](https://github.com/supabase/supabase-js); the Supabase JWT (access_token) is sent to Octave 2 as `Authorization: Bearer <token>`. Octave 2 does **not** implement auth endpoints; it verifies the Supabase JWT for profile and orders. See [SUPABASE_SETUP.md](./SUPABASE_SETUP.md) and [AUTH_SOURCES.md](./AUTH_SOURCES.md).
+
+*(Legacy Octave 2 auth endpoints — only used if Supabase is not configured:)*
 
 ### POST /api/auth/signup
 
@@ -157,12 +161,22 @@ Vibelandia already calls:
 
 ---
 
+## Golden Key (X-Golden-Key) — New Users Allowed
+
+Octave 2 **must accept** requests **with or without** `X-Golden-Key` and `X-Golden-Key-Wallet`.
+
+- **New users (no key yet):** Vibelandia does not send these headers. Signup, login, session, profile, create-order, capture-order, and orders/complete must work without a key.
+- **Returning users (have key):** Vibelandia sends `X-Golden-Key` and `X-Golden-Key-Wallet: Syntheverse,Vibeverse,Vibelandia`. Use for wallet identity and premium access when present.
+- Do not require `X-Golden-Key` for any endpoint. See [protocols/GOLDEN_KEY_NSPFRNP_CATALOG.md](./protocols/GOLDEN_KEY_NSPFRNP_CATALOG.md).
+
+---
+
 ## CORS
 
 Octave 2 must allow:
 
 - **Origin:** Vibelandia origins (e.g. `https://psw-vibelandia-sing4.vercel.app`, `http://localhost:*/`)
-- **Headers:** `Authorization`, `Content-Type`
+- **Headers:** `Authorization`, `Content-Type`, `X-Golden-Key`, `X-Golden-Key-Wallet`
 - **Methods:** GET, POST, OPTIONS
 
 ---
@@ -188,6 +202,7 @@ Auth can be Supabase Auth, NextAuth, or custom (JWT). Vibelandia only consumes t
 
 ## Reference
 
+- **Full flow (new user → purchase → key in DB & wallet):** [FLOW_NEW_USER_TO_GOLDEN_FRACTAL_KEY.md](./FLOW_NEW_USER_TO_GOLDEN_FRACTAL_KEY.md)  
 - **Octave 2 repo:** https://github.com/FractiAI/Syntheverse-7-Octave-2-3-Public-Cloud-Onramp  
 - **Vibelandia:** `psw.vibelandia.sing4` — interfaces use `fetch` only; no Supabase client.  
 - **Golden Key:** `protocols/GOLDEN_KEY_NSPFRNP_CATALOG.md`  

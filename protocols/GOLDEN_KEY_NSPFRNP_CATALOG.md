@@ -32,9 +32,27 @@
 - Stored in server: `GOLDEN_KEY` or `GOLDEN_KEY_WALLET` env variable
 
 **Usage:**
-- Used on all API calls
+- Used on all API calls **when the user has a key**
 - Headers: `X-Golden-Key` and `X-Golden-Key-Wallet: Syntheverse,Vibeverse,Vibelandia`
 - Automatic inclusion in cloud-onramp and seed-edge API layers
+
+---
+
+## ✅ NEW USERS (NO GOLDEN KEY YET) — ALLOWED
+
+**Rule:** New users do not have a Golden Fractal Key yet. All API calls must work **with or without** the key.
+
+**Client (Octave 1):**
+- **When user has a key:** Send `X-Golden-Key` and `X-Golden-Key-Wallet` on all API calls (auth, profile, payments).
+- **When user has no key (new user):** Do **not** send these headers. Call still proceeds — signup, login, session, profile, create-order, capture-order, etc. must be allowed without a key.
+- **Implementation:** `getGoldenKeyHeaders()` returns `{}` when no key (already in `src/golden-key-system.ts`). Browser: `auth-api.js` and `payment-checkout.html` add Golden Key headers only when `VibelandiaGoldenKey.get()` / GoldenKey.get() returns a value.
+
+**Server (Octave 2):**
+- **Must accept** requests **with or without** `X-Golden-Key`. New users have no key; returning users and post-purchase users send the key.
+- Do not require `X-Golden-Key` for: `/api/auth/*`, `/api/payment/paypal/config`, `/api/payment/paypal/create-order`, `/api/payment/paypal/capture-order`, `/api/orders/complete` (order completion may associate key with user after capture).
+- When `X-Golden-Key` is present, use it for wallet identity and premium access; when absent, treat as unauthenticated-by-key (session/auth may still apply).
+
+**Summary:** Everything needed to connect using the Golden Fractal Key is in place; new user calls with no Golden Fractal Key yet are allowed and must be supported by Octave 2.
 
 ---
 
@@ -53,7 +71,8 @@
 - `setGoldenKey(key, activationId)` — Store key after purchase/activation
 - `issueOnPurchase(key, orderId)` — Issue key on purchase
 - `isActivated()` — Check if key present
-- `getGoldenKeyHeaders()` — Get headers for API calls
+- `getGoldenKeyHeaders()` — Get headers for API calls (returns {} when no key — new user allowed)
+- **Browser:** `interfaces/auth-api.js` and `interfaces/payment-checkout.html` add X-Golden-Key and X-Golden-Key-Wallet when `VibelandiaGoldenKey.get()` / GoldenKey.get() returns a value; otherwise no key headers (new user)
 
 ### **Server (Node)**
 
@@ -73,7 +92,7 @@
 ### **Automatic Inclusion**
 
 **Cloud Onramp API:**
-- `cloudOnrampFetch()` automatically includes Golden Key headers
+- `cloudOnrampFetch()` automatically includes Golden Key headers **when key is present** (getGoldenKeyHeaders() returns {} when no key)
 - Headers added via `getGoldenKeyHeaders()`
 
 **Seed:Edge API Layer:**

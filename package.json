@@ -9,7 +9,8 @@
     "test:ci": "node scripts/test-all-surfaces-touchpoints-api.mjs",
     "build": "node scripts/vercel-static-output.mjs",
     "deploy": "node scripts/deploy-vercel.mjs",
-    "deploy:vercel": "vercel --yes"
+    "deploy:vercel": "vercel --yes",
+    "check-supabase": "node scripts/check-supabase-access.mjs"
   },
   "engines": {
     "node": ">=18.0.0"
