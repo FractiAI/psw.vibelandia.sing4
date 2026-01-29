@@ -57,7 +57,7 @@
 
 ## Contact
 
-**Email:** info@fractiai.com · **GitHub:** https://github.com/FractiAI
+**Email:** info@fractiai.com · **GitHub:** https://github.com/FractiAI · **Repo:** [FractiAI/psw.vibelandia.sing4](https://github.com/FractiAI/psw.vibelandia.sing4) · **Tests:** `npm test`
 
 ---
 
