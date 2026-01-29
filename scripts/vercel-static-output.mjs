@@ -64,10 +64,12 @@ if (fs.existsSync(apiConfigPath)) {
     /window\.VIBELANDIA_SUPABASE_ANON_KEY = '';/,
     `window.VIBELANDIA_SUPABASE_ANON_KEY = ${JSON.stringify(anonKey)};`
   );
-  apiConfig = apiConfig.replace(
-    /window\.VIBELANDIA_PAYPAL_CLIENT_ID = '';/,
-    `window.VIBELANDIA_PAYPAL_CLIENT_ID = ${JSON.stringify(paypalClientId)};`
-  );
+  if (paypalClientId) {
+    apiConfig = apiConfig.replace(
+      /window\.VIBELANDIA_PAYPAL_CLIENT_ID = '[^']*';/,
+      `window.VIBELANDIA_PAYPAL_CLIENT_ID = ${JSON.stringify(paypalClientId)};`
+    );
+  }
   fs.writeFileSync(apiConfigPath, apiConfig, 'utf8');
 }
 

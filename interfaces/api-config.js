@@ -26,12 +26,14 @@
 })();
 
 /**
- * PayPal client ID (optional). If Octave 2 GET /api/payment/paypal/config does not return a clientId,
- * set VIBELANDIA_PAYPAL_CLIENT_ID in env at build so the PayPal button can load. create-order/capture still use Octave 2.
+ * PayPal client ID — OUR app's Client ID so funds go to our account.
+ * Must be the same PayPal app as Octave 2 uses (Octave 2 needs same app's Client ID + Secret for create-order/capture-order).
+ * Get from https://developer.paypal.com/dashboard/applications/sandbox (Sandbox) or Live.
  */
 (function () {
   if (typeof window === 'undefined') return;
   if (!window.VIBELANDIA_PAYPAL_CLIENT_ID) {
-    window.VIBELANDIA_PAYPAL_CLIENT_ID = '';
+    // Replace with your PayPal Client ID (Sandbox or Live)
+    window.VIBELANDIA_PAYPAL_CLIENT_ID = 'REPLACE_WITH_YOUR_PAYPAL_CLIENT_ID';
   }
 })();

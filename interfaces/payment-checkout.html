@@ -183,6 +183,36 @@
             color: #7fff7f;
             margin-bottom: 1rem;
         }
+        .paypal-id-box {
+            text-align: left;
+            margin-bottom: 1.5rem;
+            padding: 1rem 1.25rem;
+            background: rgba(0,0,0,0.25);
+            border: 1px solid rgba(255,255,255,0.15);
+            border-radius: 10px;
+        }
+        .paypal-id-box label {
+            display: block;
+            color: #00d4ff;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+            font-size: 0.95rem;
+        }
+        .paypal-id-box input {
+            width: 100%;
+            padding: 10px 12px;
+            background: rgba(0,0,0,0.4);
+            border: 1px solid rgba(255,255,255,0.2);
+            border-radius: 8px;
+            color: #fff;
+            font-size: 1rem;
+        }
+        .paypal-id-box input::placeholder { color: #888; }
+        .paypal-id-hint {
+            font-size: 0.85rem;
+            color: #888;
+            margin-top: 0.5rem;
+        }
     </style>
 </head>
 <body>
@@ -333,12 +363,22 @@
                 document.getElementById('payment-container').innerHTML = html;
             }
 
+            function getPayPalId() {
+                var el = document.getElementById('paypal-id-input');
+                return el ? (el.value || '').trim() : '';
+            }
+
             function renderPayPalOrSandbox() {
                 var user = Auth.getStoredUser();
                 var container = document.getElementById('payment-container');
                 var html = '';
                 html += '<p style="font-size:1.1rem;font-weight:700;color:#7fff7f;margin-bottom:0.5rem;">Total: $' + plan.price.toLocaleString() + ' USD</p>';
-                html += '<p style="font-size:0.9rem;color:#aaa;margin-bottom:1rem;">Click the button below to complete your purchase with PayPal. Transaction is preloaded with this amount.</p>';
+                html += '<p style="font-size:0.9rem;color:#aaa;margin-bottom:1rem;">Enter your PayPal ID and click the button below to complete your purchase. Transaction is preloaded with this amount.</p>';
+                html += '<div class="paypal-id-box">' +
+                    '<label for="paypal-id-input">Your PayPal ID</label>' +
+                    '<input type="text" id="paypal-id-input" name="paypalId" placeholder="e.g. you@example.com or your PayPal account email" autocomplete="email" />' +
+                    '<p class="paypal-id-hint">Email or account ID you use to sign in to PayPal. We use this to match your payment and deliver your Golden Fractal Key.</p>' +
+                    '</div>';
                 if (user && user.email) {
                     html += '<div class="user-badge">Signed in as ' + user.email + '</div>';
                 }
@@ -389,8 +429,13 @@
                                         body: JSON.stringify({ orderId: data.orderID, payerId: data.payerID })
                                     }).then(function (res) { return res.json(); }).then(function (result) {
                                         if (result && result.success !== false) {
+                                            var paypalId = getPayPalId();
                                             if (result.payer && result.payer.name) {
-                                                try { localStorage.setItem('vibelandia_payer_from_paypal', JSON.stringify({ name: result.payer.name, orderId: data.orderID })); } catch (_) {}
+                                                try {
+                                                    var stored = { name: result.payer.name, orderId: data.orderID };
+                                                    if (paypalId) stored.paypalId = paypalId;
+                                                    localStorage.setItem('vibelandia_payer_from_paypal', JSON.stringify(stored));
+                                                } catch (_) {}
                                             }
                                             return Auth.completeOrder(data.orderID, planId).then(function (complete) {
                                                 if (complete && complete.goldenKey) {
