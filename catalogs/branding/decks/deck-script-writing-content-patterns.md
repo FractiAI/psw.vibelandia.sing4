@@ -88,13 +88,16 @@ USE FOR:
 
 ### Cross-Link Campus/Vibing Pages to Vibable Campus (script-ready)
 
-**Rule:** Any page that mentions **campus**, **vibing state**, **walkable downtown Reno**, or **first post-singularity Vibelandia campus** should include a **VIBE!** line linking to:
+**Rule:** Any page that mentions **campus**, **vibing state**, **walkable downtown Reno**, or **first post-singularity Vibelandia campus** should include a **VIBE!** line linking to What are vibers? and/or vibable campus. Link **vibe**, **vibing**, **vibers** to [What are vibers?](interfaces/vibers-what-are-vibers.html) — high-density fractal vibers, high-value high contributors, lifestyle alignment, freeing from encampments into downtown campuses built for them (ground up + top down, meeting in the middle). Our natural protocol. See VIBERS_HIGH_DENSITY_FRACTAL_LIFESTYLE_ALIGNMENT_SNAP.md.
 
+**VIBE!** line linking to:
+
+- [What are vibers?](interfaces/vibers-what-are-vibers.html) — high-density fractal, high-value high contributors, lifestyle alignment, encampments → downtown campuses (ground up + top down, meeting in the middle). See VIBERS_HIGH_DENSITY_FRACTAL_LIFESTYLE_ALIGNMENT_SNAP.md.
 - [What makes a campus a vibable campus](ONE_PAGER_WHAT_MAKES_A_VIBABLE_CAMPUS.md)
 - [Vibable Campus Offer](VIBABLE_CAMPUS_OFFER.md)
 
 **Format:**  
-`**VIBE!** [What makes a campus a vibable campus](ONE_PAGER_WHAT_MAKES_A_VIBABLE_CAMPUS.md) · [Vibable Campus Offer](VIBABLE_CAMPUS_OFFER.md)`
+`**VIBE!** [What are vibers?](interfaces/vibers-what-are-vibers.html) · [What makes a campus a vibable campus](ONE_PAGER_WHAT_MAKES_A_VIBABLE_CAMPUS.md) · [Vibable Campus Offer](VIBABLE_CAMPUS_OFFER.md)`
 
 **Where used:** One-pagers (Vibelandia Reno, Day/Weekly/Monthly/Ultimate VIP), Happy Ending Zones (one-liner, one-page, ten-page, trailer, one-paragraph), Principles Showcase Reno Campus, Launch Pad showroom, README_TRADITIONAL.
 
@@ -328,7 +331,9 @@ USE FOR:
 **Rule:** If it would work on a T-shirt, it's T-shirt slogan grade. Add to this list and use across merch, Launch Pad, checkout, RUMOR HAS IT!, social.
 
 **Examples (script-ready):**
+- *Paris is for lovers. Reno is for vibers. Mark Twain's Post-Singularity Reno awaits you.* (Campaign tip of the tip — see RENO_FOR_VIBERS_CAMPAIGN_TIP_SNAP.md)
 - *Trust the protocol!* (PayPal / natural protocol — see PAYPAL_NATURAL_PROTOCOL_BEST_PIPE_SNAP.md)
+- *NOT ALL WORDS ARE CREATED EQUAL.* (BBHE programming — see BBHE_NOT_ALL_WORDS_CREATED_EQUAL_SNAP.md)
 - *See it. Experience it. Believe it.*
 - *The energy is pulling. BUY! now.*
 - *Come for the business, stay for the fun.*
@@ -338,7 +343,7 @@ USE FOR:
 
 **Use:** Merch (T-shirts, caps), social bios, one-line CTAs, Launch Pad accents, payment copy. Content category: CONTENT_SYSTEMS_SNAP (T-shirt slogan). See MASTER_BRANDING_CATALOG.
 
-**References:** CONTENT_SYSTEMS_SNAP.md · PAYPAL_NATURAL_PROTOCOL_BEST_PIPE_SNAP.md · MASTER_BRANDING_CATALOG.md
+**References:** CONTENT_SYSTEMS_SNAP.md · PAYPAL_NATURAL_PROTOCOL_BEST_PIPE_SNAP.md · BBHE_NOT_ALL_WORDS_CREATED_EQUAL_SNAP.md · MASTER_BRANDING_CATALOG.md
 
 ---
 
@@ -350,7 +355,7 @@ USE FOR:
 ✅ README and all skins = user surfaces. Target high-value vibers, fans, cast, crew — not developers. No deploy/env/repo front and center.
 ✅ No code on user surfaces: no filenames (.html, .md), repo paths, or code in displayed or link text. Use human labels; link to operational live site. Sandbox experience CTA → ULTIMATE VIP! console.
 ✅ Use vibable campus pattern when explaining why the campus exists
-✅ Use VIBE! linking on any page that mentions campus or vibing state
+✅ Use VIBE! linking on any page that mentions campus or vibing state. Link vibe, vibing, vibers to What are vibers? (interfaces/vibers-what-are-vibers.html). See VIBERS_HIGH_DENSITY_FRACTAL_LIFESTYLE_ALIGNMENT_SNAP.md.
 ✅ Use one-pager structure for new product/offer one-pagers
 ✅ Use 8 principles + relationship fractal in Happy Ending Zones script material
 ✅ Use digital-platform storytelling (up to 50%) — messages, emails, chats, social media — layering over natural theaters, as tech, just like in real life

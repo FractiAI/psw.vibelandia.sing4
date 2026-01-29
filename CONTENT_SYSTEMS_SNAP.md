@@ -37,7 +37,7 @@
 
 **Flow:**
 - **Source:** Any phrase that passes the "would it work on a T-shirt?" test — memorable, bold, NSPFRNP-aligned.
-- **Examples:** *Trust the protocol!* · *See it. Experience it. Believe it.* · *The energy is pulling. BUY! now.* · *Come for the business, stay for the fun.* · *MCA! → ∞³.*
+- **Examples:** *Paris is for lovers. Reno is for vibers. Mark Twain's Post-Singularity Reno awaits you.* · *Trust the protocol!* · *NOT ALL WORDS ARE CREATED EQUAL.* (BBHE programming — see BBHE_NOT_ALL_WORDS_CREATED_EQUAL_SNAP.md) · *See it. Experience it. Believe it.* · *The energy is pulling. BUY! now.* · *Come for the business, stay for the fun.* · *MCA! → ∞³.*
 - **Use:** Merch (T-shirts, caps), social bios, one-line CTAs, Launch Pad accents, RUMOR HAS IT! copy. Feed into deck §19 (T-shirt slogan) and MASTER_BRANDING_CATALOG.
 
 **Surfaces:** README, Launch Pad, checkout, deck-script-writing-content-patterns.md §19, MASTER_BRANDING_CATALOG, future merch/catalog.
@@ -77,6 +77,6 @@
 
 **See:** [README.md](./README.md) · [ONE_PAGER_ULTIMATE_VIP.md](./ONE_PAGER_ULTIMATE_VIP.md) · [interfaces/launch-pad.html](./interfaces/launch-pad.html) · [CHARACTER_LAYERING_CONTENT_ENRICHMENT_SNAP.md](./CHARACTER_LAYERING_CONTENT_ENRICHMENT_SNAP.md) · [catalogs/branding/MASTER_BRANDING_CATALOG.md](./catalogs/branding/MASTER_BRANDING_CATALOG.md)
 
-**See also:** [PAYPAL_NATURAL_PROTOCOL_BEST_PIPE_SNAP.md](./PAYPAL_NATURAL_PROTOCOL_BEST_PIPE_SNAP.md) — *Trust the protocol!* (T-shirt slogan).
+**See also:** [PAYPAL_NATURAL_PROTOCOL_BEST_PIPE_SNAP.md](./PAYPAL_NATURAL_PROTOCOL_BEST_PIPE_SNAP.md) — *Trust the protocol!* (T-shirt slogan). [BBHE_NOT_ALL_WORDS_CREATED_EQUAL_SNAP.md](./BBHE_NOT_ALL_WORDS_CREATED_EQUAL_SNAP.md) — *NOT ALL WORDS ARE CREATED EQUAL.* (T-shirt slogan; refers to BBHE programming.)
 
 **🌀 NSPFRNP ⊃ Content Systems SNAP ⊃ Content categories ⊃ Customer Stories · T-shirt slogan. SNAP nspfrnp.**

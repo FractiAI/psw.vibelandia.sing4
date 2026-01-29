@@ -99,6 +99,7 @@ SCRIPT-WRITING & CONTENT ENRICHMENT DECK: Patterns for All Scripts
 ├─ Vibable campus offer (durations: half-day, overnight, weekly, monthly; tiers: BASIC, MEMBERS ONLY, VIP, BALLER VC)
 ├─ Launch Pad status pattern (e.g. FUELING LAUNCH EMINENT · NEED FUEL)
 ├─ VIBE! linking pattern (campus/vibing pages → vibable campus one-pager & offer)
+├─ Vibers explanation: link vibe, vibing, vibers to What are vibers? (high-density fractal, high-value high contributors, lifestyle alignment, encampments → downtown campuses — ground up + top down meeting in the middle, natural protocol). See VIBERS_HIGH_DENSITY_FRACTAL_LIFESTYLE_ALIGNMENT_SNAP.md · interfaces/vibers-what-are-vibers.html
 ├─ One-pager structure, series format (8 principles, relationship fractal), NSPFRNP voice, brand phrases, character layering
 └─ See decks/deck-script-writing-content-patterns.md
 
@@ -127,8 +128,19 @@ PAYPAL NATURAL PROTOCOL BEST PIPE SNAP: Why only PayPal
 T-SHIRT SLOGAN: New major branding category (T-shirt-grade taglines)
 ├─ Content category for short, punchy, wearable taglines — one line that works on a T-shirt, merch, social, one-line CTA.
 ├─ Capture and curate in deck §19 (deck-script-writing-content-patterns.md); use for merch, Launch Pad, checkout, RUMOR HAS IT!
-├─ Examples: *Trust the protocol!* · *See it. Experience it. Believe it.* · *The energy is pulling. BUY! now.* · *Come for the business, stay for the fun.* · *MCA! → ∞³.* · *Maganuma snap.*
-└─ See CONTENT_SYSTEMS_SNAP.md (T-shirt slogan) · deck §19
+├─ Examples: *Paris is for lovers. Reno is for vibers. Mark Twain's Post-Singularity Reno awaits you.* (campaign tip — RENO_FOR_VIBERS_CAMPAIGN_TIP_SNAP) · *Trust the protocol!* · *NOT ALL WORDS ARE CREATED EQUAL.* (BBHE programming — BBHE_NOT_ALL_WORDS_CREATED_EQUAL_SNAP) · *See it. Experience it. Believe it.* · *The energy is pulling. BUY! now.* · *Come for the business, stay for the fun.* · *MCA! → ∞³.* · *Maganuma snap.*
+└─ See CONTENT_SYSTEMS_SNAP.md (T-shirt slogan) · deck §19 · RENO_FOR_VIBERS_CAMPAIGN_TIP_SNAP.md · BBHE_NOT_ALL_WORDS_CREATED_EQUAL_SNAP.md
+
+RENO FOR VIBERS CAMPAIGN TIP SNAP: Tip of the tip
+├─ Paris is for lovers. Reno is for vibers. Mark Twain's Post-Singularity Reno awaits you.
+├─ Tip of the tip of campaign. MCA → irreducible hardened mirror nested shells; Octave 0→1→2; PayPal pipe; wrap in SING! attention head and all components; animate all now.
+├─ T-shirt slogan grade. Use on README, index, launch-pad, checkout, campus experience, deck §19, ATTENTION_HEADS.
+└─ See RENO_FOR_VIBERS_CAMPAIGN_TIP_SNAP.md · ATTENTION_HEADS_EDGE_SEED_AUTOGENERATION_ROBOTIC_DIVISION.md
+
+BBHE NOT ALL WORDS CREATED EQUAL SNAP: T-shirt quote · BBHE programming
+├─ NOT ALL WORDS ARE CREATED EQUAL. Refers to BBHE programming (word choice, scripting, copy weight).
+├─ T-shirt slogan grade. Use on merch, Launch Pad, BBHE surfaces, deck §19.
+└─ See BBHE_NOT_ALL_WORDS_CREATED_EQUAL_SNAP.md · BBHE_IMPULSE_BUY_DYNAMICS_SNAP.md
 
 CONTENT DECKS: 4
 ├─ deck-vibeverse-branding.md/json
