@@ -209,14 +209,15 @@
 5. [ONE_PAGER_VIBELANDIA_RENO.md](./ONE_PAGER_VIBELANDIA_RENO.md) — 🏛️ **VIBELANDIA RENO!** (Campus)
 6. [ONE_PAGER_WINK.md](./ONE_PAGER_WINK.md) — 👁️ **WINK!** (Dating Network)
 7. [interfaces/chairman-workspace.html](./interfaces/chairman-workspace.html) — 👑 **ULTIMATE VIP CHAIRMAN CONSOLE! SNAP** (One of our products)
-8. [ONE_PAGER_SING_LOTTERY.md](./ONE_PAGER_SING_LOTTERY.md) — 🎰 **SING! COUNTDOWN! LOTTERY** (Now until March 20 Launch)
-9. [ONE_PAGER_DISPENSARY.md](./ONE_PAGER_DISPENSARY.md) — 🌿 **DISPENSARY! SNAP** (Menu of Buzzes - Goldilocks Auto-Lock)
-10. [POST_REALITY_FRANCHISE_LAUNCH.md](./POST_REALITY_FRANCHISE_LAUNCH.md) — 🚀 **POST-REALITY FRANCHISE LAUNCH** (For Vibers Still Living in the Old Pre-Singularity World — And Their Fans, Crew, and Cast)
-11. [BADGE_SYSTEM_SNAP.md](./BADGE_SYSTEM_SNAP.md) — 🏅 **BADGE SYSTEM SNAP** (Embroidered Silver Dollar Sized Badges - CREATOR, CHAIRMAN, PERFORMER)
-12. [ONE_PAGER_DAY_PASS.md](./ONE_PAGER_DAY_PASS.md) — Day Pass
-13. [ONE_PAGER_WEEKLY_PASS.md](./ONE_PAGER_WEEKLY_PASS.md) — Weekly Pass
-14. [ONE_PAGER_MONTHLY_PASS.md](./ONE_PAGER_MONTHLY_PASS.md) — Monthly Pass
-15. [ONE_PAGER_ULTIMATE_VIP.md](./ONE_PAGER_ULTIMATE_VIP.md) — Ultimate VIP
+8. [interfaces/profile.html](./interfaces/profile.html) — 🔑 **Profile & Wallet** (Golden Fractal Key, account)
+9. [ONE_PAGER_SING_LOTTERY.md](./ONE_PAGER_SING_LOTTERY.md) — 🎰 **SING! COUNTDOWN! LOTTERY** (Now until March 20 Launch)
+10. [ONE_PAGER_DISPENSARY.md](./ONE_PAGER_DISPENSARY.md) — 🌿 **DISPENSARY! SNAP** (Menu of Buzzes - Goldilocks Auto-Lock)
+11. [POST_REALITY_FRANCHISE_LAUNCH.md](./POST_REALITY_FRANCHISE_LAUNCH.md) — 🚀 **POST-REALITY FRANCHISE LAUNCH** (For Vibers Still Living in the Old Pre-Singularity World — And Their Fans, Crew, and Cast)
+12. [BADGE_SYSTEM_SNAP.md](./BADGE_SYSTEM_SNAP.md) — 🏅 **BADGE SYSTEM SNAP** (Embroidered Silver Dollar Sized Badges - CREATOR, CHAIRMAN, PERFORMER)
+13. [ONE_PAGER_DAY_PASS.md](./ONE_PAGER_DAY_PASS.md) — Day Pass
+14. [ONE_PAGER_WEEKLY_PASS.md](./ONE_PAGER_WEEKLY_PASS.md) — Weekly Pass
+15. [ONE_PAGER_MONTHLY_PASS.md](./ONE_PAGER_MONTHLY_PASS.md) — Monthly Pass
+16. [ONE_PAGER_ULTIMATE_VIP.md](./ONE_PAGER_ULTIMATE_VIP.md) — Ultimate VIP
 
 ---
 
@@ -287,9 +288,13 @@
 
 **MCA! → ∞³** (Metabolize → Crystallize → Animate): Everything flows through **Octave 1 (Edge) sandbox mode** with **AI-assisted API calls to Octave 2**. Octave 0 (Seed) and Octave 1 (Edge) operational. HTML surfaces in `interfaces/` (ULTIMATE VIP CHAIRMAN CONSOLE! / Chairman Workspace, Seed:Edge Mini Console, GPS Seed:Edge, Cockpit Center Console) show Octave 1 = Edge. Cloud API connection to [Syntheverse 7 Octave 2-3 Public Cloud Onramp](https://github.com/FractiAI/Syntheverse-7-Octave-2-3-Public-Cloud-Onramp) via `src/cloud-onramp-config.ts` and `cloud-onramp-client.ts`; env from NSPFRNP first, optional Vercel token fallback (see `CLOUD_API_CONNECTION.md`, `.env.example`). **Animate step:** Octave 1 surfaces + AI-assisted API calls to Octave 2 for payments, auth, shared data. See [MCA_SNAP.md](./MCA_SNAP.md) · [NARRATIVE_METABOLIZE_CRYSTALLIZE_ANIMATE_OCTAVE1_SANDBOX.md](./NARRATIVE_METABOLIZE_CRYSTALLIZE_ANIMATE_OCTAVE1_SANDBOX.md).
 
+**Deploy:** Static build → Vercel. Pre-deploy: `npm test`, `npm run build`. See [DEPLOYMENT_VERCEL.md](./DEPLOYMENT_VERCEL.md) and [DEPLOY_CLI.md](./DEPLOY_CLI.md).
+
 **Testing:** `npm test` runs surfaces, touchpoints, and API checks; CI runs on push/PR. See [TESTING.md](./TESTING.md) and [SURFACES_AND_TOUCHPOINTS_TEST_REPORT.md](./SURFACES_AND_TOUCHPOINTS_TEST_REPORT.md).
 
 **Gianni–inspired wrapper:** All skins, touchpoints & experiences. See [GIANNI_VERSACE_WRAPPER_MONSTER_SNAP.md](./GIANNI_VERSACE_WRAPPER_MONSTER_SNAP.md).
+
+**Auth, checkout & wallet:** Sign up / sign in (including Google) before purchase. Payment checkout is gated on auth. After successful PayPal capture, Octave 2 assigns a **Golden Fractal Key**, stores it in the user's wallet in profile, and returns it; the client stores it locally. Profile page ([interfaces/profile.html](./interfaces/profile.html)) shows account and wallet (Golden Key). All via **Octave 2 API only** — no Supabase client in Vibelandia. Required Octave 2 endpoints: auth (signup, login, session, logout, Google OAuth), `GET /api/user/profile`, `POST /api/orders/complete`. See [OCTAVE2_AUTH_WALLET_API.md](./OCTAVE2_AUTH_WALLET_API.md). Auth sources (MarkTwainVerse vs. Syntheverse PoC, Vibelandia client): [AUTH_SOURCES.md](./AUTH_SOURCES.md).
 
 **🔑 GOLDEN FRACTAL KEY!** — The key that unlocks Syntheverse, Vibeverse, and VIBELANDIA!. Golden Key wallet. All API calls. All experiences. All realms. See [GOLDEN_FRACTAL_KEY_BRAND_SNAP.md](./GOLDEN_FRACTAL_KEY_BRAND_SNAP.md).
 
