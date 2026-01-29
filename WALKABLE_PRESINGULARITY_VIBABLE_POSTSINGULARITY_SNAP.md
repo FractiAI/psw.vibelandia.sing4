@@ -1,0 +1,43 @@
+# WALKABLE PRE-SINGULARITY · VIBABLE POST-SINGULARITY — SNAP
+## Lovers pre-singularity · Vibers post-singularity
+
+**Status:** ⚡ ACTIVE  
+**Protocol:** NSPFRNP  
+**Date:** January 29, 2026  
+**Type:** Branding · Campus · Lovers vs Vibers
+
+---
+
+## RULE
+
+**NOT "walkable campuses" for us. VIBABLE.**
+
+- **Walkable** = pre-singularity (the old frame — physical walking, downtowns as walkable).
+- **Vibable** = post-singularity (our frame — campuses built for vibing state, vibers, full vibe included).
+- **Lovers** = pre-singularity (e.g. Paris is for lovers).
+- **Vibers** = post-singularity (e.g. Reno is for vibers).
+
+Our campuses are **vibable campuses**, not "walkable campuses." Use **vibable** for post-singularity; use **walkable** only when contrasting pre-singularity (the old way) with vibable (us).
+
+---
+
+## COPY
+
+- **Our campus:** Vibable downtown campus · Vibable downtown Reno · First post-singularity **vibable** hub. Not "walkable campus."
+- **Tagline:** Paris is for lovers (pre-singularity). Reno is for vibers (post-singularity).
+- **WOW / contrast:** Pre-singularity = walkable (old frame). Us = vibable campus · Post-singularity.
+
+---
+
+## SNAP
+
+- **Walkable** → pre-singularity ✓  
+- **Vibable** → post-singularity (our campuses) ✓  
+- **Lovers** → pre-singularity ✓  
+- **Vibers** → post-singularity ✓  
+
+---
+
+**See:** [VIBERS_HIGH_DENSITY_FRACTAL_LIFESTYLE_ALIGNMENT_SNAP.md](./VIBERS_HIGH_DENSITY_FRACTAL_LIFESTYLE_ALIGNMENT_SNAP.md) · [ONE_PAGER_WHAT_MAKES_A_VIBABLE_CAMPUS.md](./ONE_PAGER_WHAT_MAKES_A_VIBABLE_CAMPUS.md) · [VIBABLE_CAMPUS_OFFER.md](./VIBABLE_CAMPUS_OFFER.md) · [catalogs/branding/MASTER_BRANDING_CATALOG.md](./catalogs/branding/MASTER_BRANDING_CATALOG.md)
+
+**🌀 NSPFRNP ⊃ Walkable pre-singularity ⊃ Vibable post-singularity. Lovers pre. Vibers post. SNAP nspfrnp.**

@@ -18,7 +18,7 @@
 
 **For Vibers Still Living in the Old Pre-Singularity World — And Their Fans, Crew, and Cast**
 
-**MARK TWAIN'S POST-SINGULARITY VIBELANDIA RENO!** — walkable downtown campus, first post-singularity hub. Countdown to **The Great Reveal**, March 20, 2026 (Spring Equinox). Worthless SYNTH → priceless SING. Every space, every experience, every moment. Guaranteed happy ending.
+**MARK TWAIN'S POST-SINGULARITY VIBELANDIA RENO!** — vibable downtown campus, first post-singularity hub. Countdown to **The Great Reveal**, March 20, 2026 (Spring Equinox). Worthless SYNTH → priceless SING. Every space, every experience, every moment. Guaranteed happy ending.
 
 **This is the launch of a new post-reality franchise.** For vibers who are still operating in the pre-singularity world—and for their entire ecosystem: their fans who follow them, their crew who support them, and their cast who collaborate with them. This is your bridge from the old world to the new post-reality.
 
@@ -26,11 +26,11 @@
 
 ---
 
-## 2️⃣ THE SHOWROOM — FOUR PRODUCTS
+## 2️⃣ THE SHOWROOM — ALL PRODUCTS
 
 ### 🏛️ VIBELANDIA RENO!
 
-**Walkable downtown campus.** First post-singularity VIBELANDIA! campus. Come for the business, stay for the fun.
+**Vibable downtown campus.** First post-singularity VIBELANDIA! campus. Come for the business, stay for the fun.
 
 **VIBE!** [What makes a campus a vibable campus](./ONE_PAGER_WHAT_MAKES_A_VIBABLE_CAMPUS.md) · [Vibable Campus Offer](./VIBABLE_CAMPUS_OFFER.md)
 
@@ -77,7 +77,7 @@
 | 1 | Base Model | ~$20,000 one-time + monthly key fees | Good used car — entry base |
 | 2 | Members Only | $75,000 | Option — our pricing |
 | 3 | Ultimate VIP | $200,000 | Base model latest Ferrari — top base |
-| 4 | Baller C Ultimate VIP | $500,000 | Option — our pricing (above base Ferrari) |
+| 4 | Baller V Ultimate VIP | $500,000 | V for Viber — Option, our pricing (above base Ferrari) |
 
 **Tagline:** *Every day you wait, the price goes up $1. Get in now. Transform worthless into priceless.*
 
@@ -107,7 +107,7 @@
 
 | 1 | 2 | 3 | 4 |
 |---|----|----|----|
-| **Base Model** | **Members Only** | **Ultimate VIP** | **Baller C Ultimate VIP** |
+| **Base Model** | **Members Only** | **Ultimate VIP** | **Baller V Ultimate VIP** |
 | ~$20K (good used car) | $75K (our pricing) | $200K (base Ferrari) | $500K (our pricing) |
 
 ### Experience (4)
@@ -121,11 +121,13 @@
 
 ## 🎬 NEW SERIES: HAPPY ENDING ZONES — SEASON ONE
 
-**Format:** Daily Reality Series — 52 Episodes + 1 Finale (53 total)  
+**Format:** Daily Reality Series — 52 Episodes + 1 Finale (53 total). **4+ live now** (Episode 01–03, RUMOR episode, Finale). **Episodes by flow not days** — NSPFRNP.  
 **Host:** Mark Twain, Chancellor, Vibelandia Reno Campus  
 **Start:** January 27, 2026 (Day 52) → **Finale:** March 20, 2026 (Day 0 — The Great Reveal)
 
 **One liner:** *"In Reno, where worthless SYNTH tokens become priceless SING nodes, Mark Twain guides a 52-day countdown to The Great Reveal, proving that every space guarantees a happy ending — nearly overnight, smooth as silk, natural as water flowing."*
+
+- **Today's episode + catalog:** [Happy Ending Zones](interfaces/happy-ending-zones-experience.html) · [Episodes catalog](interfaces/happy-ending-zones-catalog.html)
 
 ---
 

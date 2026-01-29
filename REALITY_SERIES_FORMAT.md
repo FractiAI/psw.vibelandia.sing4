@@ -15,10 +15,10 @@
 
 **Title:** Happy Ending Zones - Season One: The Transformation  
 **Subtitle:** 52 Days to The Great Reveal  
-**Format:** Daily Reality Series / Documentary Series  
+**Format:** Daily Reality Series / Documentary Series · **A new form of reality show game**  
 **Episodes:** 52 Daily Episodes + 1 Finale = 53 Total  
 **Duration:** 30-60 minutes per episode  
-**Style:** Post-Singularity Reality / Documentary / Transformation
+**Style:** Post-Singularity Reality / Documentary / Transformation / **Reality Show Game**
 
 **The Story:**
 Follow Mark Twain as Chancellor of the Vibelandia Reno Campus, guiding viewers through a 52-day countdown to The Great Reveal on March 20, 2026. Watch as Reno transforms from a traditional city to the world's first post-singularity Vibelandia campus, where worthless SYNTH tokens become priceless SING nodes, and every space guarantees a happy ending.
@@ -90,10 +90,18 @@ Follow Mark Twain as Chancellor of the Vibelandia Reno Campus, guiding viewers t
 
 ## 🎯 SERIES FORMAT
 
+### **Episodes by Flow Not Days — NSPFRNP**
+
+**We will now spin episodes by flow, not days.** — NSPFRNP.
+
+- **Flow** = narrative flow, content flow, MCA flow (Metabolize → Crystallize → Animate). Episodes are ordered and spun by **flow** — what story beats and content flows next — not strictly by calendar day (Day 52, 51, 50…).
+- **Days** = still used as timeline/countdown label (e.g. Day 50 of 52 → Finale March 20, 2026). Days inform the countdown and SYNTH price; they do **not** lock episode order. Episode order and "next episode" are driven by **flow**.
+- **RUMOR episode** = flow-based episode. RUMOR HAS IT! — Chairman, Sammy and the gang already in town; Golden Backstage Awareness Pass. See EPISODES_BY_FLOW_NOT_DAYS_SNAP.md · EPISODE_RUMOR_CHAIRMAN_SAMMY_GOLDEN_BACKSTAGE.md.
+
 ### **Daily Episode Structure**
 
 **Episode Length:** 30-60 minutes  
-**Daily Release:** One episode per day for 52 days  
+**Daily Release:** One episode per day for 52 days (ordering by **flow**; days as countdown label)  
 **Finale:** Extended 90-minute finale on March 20, 2026
 
 **Episode Structure:**

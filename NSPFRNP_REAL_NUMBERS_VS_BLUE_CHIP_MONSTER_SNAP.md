@@ -75,7 +75,7 @@ All deliverables **operational, live, not fiction.** Compare research output, de
 
 - **Standard** → NSPFRNP never generalized fluffy; only useful real numbers, synthesis, % comparisons ✓  
 - **Vital to any Chairman** → All Chairman metrics and blue-chip copy use real numbers and multiples ✓  
-- **Canonical numbers** → 35 surfaces, 13 one-pagers, 9 protocols, 3 episodes, 38 TS modules, 16 days, 1 node ✓  
+- **Canonical numbers** → 35+ surfaces, 13 one-pagers, 9 protocols, 4+ episodes (by flow not days), 38 TS modules, 16 days, 1 node ✓  
 - **Blue-chip comparison** → ~3× surfaces, ~4× one-pagers, ~5× protocols, payment live vs 0 ✓  
 
 ---

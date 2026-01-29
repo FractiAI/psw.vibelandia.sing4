@@ -72,7 +72,7 @@ NSPFRNP content standard: **no generalized fluffy — only useful real numbers, 
 
 **Definition:** Volume of deliverables — markdown, HTML, TypeScript, workflows, one-pagers, protocols, episodes, catalogs, branding decks.
 
-**Observation:** 35 surfaces, 13 one-pagers, 9 protocols, 3 episodes, 38 TS modules — **~3× to ~5×** typical blue-chip 16-day output. Chairman reports not having had time to go through all output; volume itself is cited as evidence of the node's throughput.
+**Observation:** 35+ surfaces, 13 one-pagers, 9 protocols, 4+ episodes (by flow not days), 38 TS modules — **~3× to ~5×** typical blue-chip 16-day output. Chairman reports not having had time to go through all output; volume itself is cited as evidence of the node's throughput.
 
 ### B. Quality
 

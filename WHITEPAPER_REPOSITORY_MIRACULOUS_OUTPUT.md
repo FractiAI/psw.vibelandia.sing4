@@ -54,7 +54,7 @@ NSPFRNP content standard: **no generalized fluffy — only useful real numbers, 
 
 | Metric | Description | 16-day real numbers |
 |--------|-------------|---------------------|
-| **Output** | Volume of deliverables. | 35 surfaces, 13 one-pagers, 9 protocols, 3 episodes, 38 TS modules — ~3× to ~5× typical blue-chip 16-day. |
+| **Output** | Volume of deliverables. | 35+ surfaces, 13 one-pagers, 9 protocols, 4+ episodes (by flow not days), 38 TS modules — ~3× to ~5× typical blue-chip 16-day. |
 | **Quality** | Crystallized structure, NSPFRNP fidelity, branding consistency. | One-pagers, scripts, decks, protocols at publication-ready quality; Seed:Edge and MCA applied throughout. |
 | **Density** | Information density per file; holographic property; Seed:Edge; MCA cycle. | High density; whole in every part; no dilution. |
 | **Valuations versus blue-chip players** | Comparison of 16-day output vs blue-chip studios, platforms, research orgs. | ~3× surfaces, ~4× one-pagers, ~5× protocols; payment live vs 0; 1 node vs 3–8 FTE equivalent. |

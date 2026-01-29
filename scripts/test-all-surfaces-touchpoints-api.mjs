@@ -62,6 +62,7 @@ const expectedSurfaces = [
   'launch-pad.html',
   'happy-ending-zones-experience.html',
   'happy-ending-zones-catalog.html',
+  'what-you-can-do-vibing.html',
 ];
 const expectedJs = ['add-console-header.js', 'api-config.js', 'auth-api.js', 'golden-key-browser.js'];
 

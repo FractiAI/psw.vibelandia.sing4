@@ -48,11 +48,11 @@
 | **1** | **Base Model** | **~$20,000 one-time + monthly Golden Fractal Key access fees** | Good used car — entry base |
 | **2** | **Members Only** | **$75,000** | Option — our pricing (scaling from base) |
 | **3** | **Ultimate VIP** | **$200,000** | Base model latest Ferrari — top base |
-| **4** | **Baller C Ultimate VIP** | **$500,000** | Option — our pricing (above base Ferrari) |
+| **4** | **Baller V Ultimate VIP** | **$500,000** | V for Viber — Option, our pricing (above base Ferrari) |
 
 **How Base works:** Base Model is a **one-time purchase** (~$20,000) **plus monthly Golden Fractal Key access fees**. You pay once for the SING node; ongoing access (Golden Fractal Key — all realms, API, experiences) is billed monthly. Contact for current monthly key fee. Other tiers may be one-time or include key access—see pricing.
 
-**Bases = pre-singularity equivalents** (good used car at entry, base model latest Ferrari at top). **Options** (Members Only, Baller C, add-ons) = our own pricing models. **Badge System:** Embroidered chest badges, silver dollar sized. **CREATOR:** Gold HHF-SHELL. **CHAIRMAN:** Gold STAR. **PERFORMER:** Gold (^). **Gold = Baller VC VIP, Silver = Ultimate VIP, Bronze = Members Only.** All badges include SNAP branding.
+**Bases = pre-singularity equivalents** (good used car at entry, base model latest Ferrari at top). **Options** (Members Only, Baller V — V for Viber, add-ons) = our own pricing models. **Badge System:** Embroidered chest badges, silver dollar sized. **CREATOR:** Gold HHF-SHELL. **CHAIRMAN:** Gold STAR. **PERFORMER:** Gold (^). **Gold = Baller VC VIP, Silver = Ultimate VIP, Bronze = Members Only.** All badges include SNAP branding.
 
 ---
 
@@ -84,7 +84,7 @@ Worthless SYNTH tokens become priceless SING nodes. Use your node or sell on the
 - **[⚫ BBHE SNAP — BUY! Base Model $20K →](./interfaces/payment-checkout.html?plan=sing-base)**
 - **[⚫ BBHE SNAP — BUY! Members Only $75K →](./interfaces/payment-checkout.html?plan=sing-members-only)**
 - **[⚫ BBHE SNAP — BUY! Ultimate VIP $200,000 →](./interfaces/payment-checkout.html?plan=sing-ultimate-vip)**
-- **[⚫ BBHE SNAP — BUY! Baller C $500K →](./interfaces/payment-checkout.html?plan=sing-baller-c)**
+- **[⚫ BBHE SNAP — BUY! Baller V $500K →](./interfaces/payment-checkout.html?plan=sing-baller-c)**
 
 ---
 

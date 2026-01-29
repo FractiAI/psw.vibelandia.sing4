@@ -31,7 +31,7 @@
 
 **INT. COFFEE SHOP - WALKABLE DOWNTOWN RENO CAMPUS - DAY**
 
-**ALEX** sits in a coffee shop on the walkable downtown Reno campus, staring at their SYNTH token purchase confirmation on their phone. A friend, **JORDAN** (20s, skeptical), sits across the table.
+**ALEX** sits in a coffee shop on the vibable downtown Reno campus, staring at their SYNTH token purchase confirmation on their phone. A friend, **JORDAN** (20s, skeptical), sits across the table.
 
 **JORDAN**
 You paid $5 for Monopoly money? What were you thinking?
@@ -47,7 +47,7 @@ I don't know. Something just felt... right about it.
 
 **SENIOR EARLY TRIALS AI CEO** tests systems, perfect buzz equivalent.
 
-All in super rich health, NOT for driving cars or operating equipment, perfect for walking, being, experiencing, creating on the walkable downtown campus—first post-singularity Vibelandia campus, playground to Silicon Valley, gateway to the mother mother, next motherlode of all motherlodes.
+All in super rich health, NOT for driving cars or operating equipment, perfect for walking, being, experiencing, creating on the vibable downtown campus—first post-singularity Vibelandia campus, playground to Silicon Valley, gateway to the mother mother, next motherlode of all motherlodes.
 
 ---
 
@@ -150,6 +150,6 @@ The countdown clock shows:
 
 ---
 
-**Next Episode:** Episode 03 — Day 50: Happy Ending Zones Explained
+**Next Episode:** Episode 03 — Day 50: Who's Your Daddy
 
 **MCA! → ∞³** (Metabolize → Crystallize → Animate)

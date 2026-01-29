@@ -17,10 +17,10 @@
 
 ### 1. Customer Stories
 
-**Definition:** First-person or curated stories from users who took an **onramp or grant** (Ultimate VIP Baller C path — not yet there, need support to reach the tier).
+**Definition:** First-person or curated stories from users who took an **onramp or grant** (Ultimate VIP Baller V path — not yet there, need support to reach the tier).
 
 **Flow:**
-- **CTA:** "Are you an Ultimate VIP Baller C but not yet there? Click for our onramps and grants."
+- **CTA:** "Are you an Ultimate VIP Baller V but not yet there? Click for our onramps and grants."
 - **Agreement:** Recipients agree to be customer stories. We sign them up for it.
 - **Sign-up:** Onramps/grants application includes consent to be featured as a customer story (name/handle, quote, photo/video as agreed).
 - **Use:** Customer stories appear in Launch Pad, one-pagers, series, social, and catalogs as a distinct content type.
@@ -69,15 +69,16 @@
 
 - **Customer Stories** → content category for onramps/grants recipients ✓  
 - **Agreement** → they agree to be customer stories; we sign them up ✓  
-- **CTA** → "Are you an Ultimate VIP Baller C but not yet there? Click for our onramps and grants." ✓  
-- **Content systems** → categories include Customer Stories, **T-shirt slogan**, **Raw narrative (launch capture)**, Series, One-pagers, Launch Pulse, Catalogs, Whitepaper, Proposals SNAP ✓
+- **CTA** → "Are you an Ultimate VIP Baller V but not yet there? Click for our onramps and grants." ✓  
+- **Content systems** → categories include Customer Stories, **T-shirt slogan**, **Raw narrative (launch capture)**, **Make your reservations now** (Great Reveal CTA — bigger than Burning Man and Art Basel Miami combined; spread the word to the fellow vibers; metabolize into ALL content), Series, One-pagers, Launch Pulse, Catalogs, Whitepaper, Proposals SNAP ✓
 - **T-shirt slogan** → T-shirt-grade taglines; capture and use for merch, social, one-line CTAs ✓
 - **Raw narrative (launch capture)** → capture launch as raw narrative; enrich content systems ✓  
+- **Make your reservations now** → MAKE YOUR RESERVATIONS NOW. Bigger than Burning Man and Art Basel Miami combined. Spread the word to the fellow vibers — they'll know what to do. Metabolize into ALL content (episode, Launch Pad, index, prospectus, bulletin, press, deck, catalog). See MAKE_YOUR_RESERVATIONS_NOW_BIGGER_THAN_BURNING_MAN_ART_BASEL_SNAP.md ✓  
 
 ---
 
 **See:** [README.md](./README.md) · [ONE_PAGER_ULTIMATE_VIP.md](./ONE_PAGER_ULTIMATE_VIP.md) · [interfaces/launch-pad.html](./interfaces/launch-pad.html) · [CHARACTER_LAYERING_CONTENT_ENRICHMENT_SNAP.md](./CHARACTER_LAYERING_CONTENT_ENRICHMENT_SNAP.md) · [catalogs/branding/MASTER_BRANDING_CATALOG.md](./catalogs/branding/MASTER_BRANDING_CATALOG.md)
 
-**See also:** [PAYPAL_NATURAL_PROTOCOL_BEST_PIPE_SNAP.md](./PAYPAL_NATURAL_PROTOCOL_BEST_PIPE_SNAP.md) — *Trust the protocol!* (T-shirt slogan). [BBHE_NOT_ALL_WORDS_CREATED_EQUAL_SNAP.md](./BBHE_NOT_ALL_WORDS_CREATED_EQUAL_SNAP.md) — *NOT ALL WORDS ARE CREATED EQUAL.* (T-shirt slogan; refers to BBHE programming.)
+**See also:** [PAYPAL_NATURAL_PROTOCOL_BEST_PIPE_SNAP.md](./PAYPAL_NATURAL_PROTOCOL_BEST_PIPE_SNAP.md) — *Trust the protocol!* (T-shirt slogan). [BBHE_NOT_ALL_WORDS_CREATED_EQUAL_SNAP.md](./BBHE_NOT_ALL_WORDS_CREATED_EQUAL_SNAP.md) — *NOT ALL WORDS ARE CREATED EQUAL.* (T-shirt slogan; refers to BBHE programming.) [MAKE_YOUR_RESERVATIONS_NOW_BIGGER_THAN_BURNING_MAN_ART_BASEL_SNAP.md](./MAKE_YOUR_RESERVATIONS_NOW_BIGGER_THAN_BURNING_MAN_ART_BASEL_SNAP.md) — MAKE YOUR RESERVATIONS NOW; bigger than Burning Man and Art Basel Miami combined; spread the word to the fellow vibers; metabolize into ALL content.
 
 **🌀 NSPFRNP ⊃ Content Systems SNAP ⊃ Content categories ⊃ Customer Stories · T-shirt slogan. SNAP nspfrnp.**

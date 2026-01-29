@@ -21,7 +21,7 @@
 **Content Types:** Strip Club Bathroom + WINK  
 **One-Liner:** "In Reno, where the old world meets the new, Mark Twain watches as worthless SYNTH tokens become the key to a post-singularity happy ending."
 
-**Summary:** Mark Twain launches Season One as Chancellor of the Vibelandia Reno Campus, watching the city transform from traditional Reno to the world's first post-singularity hub. The FractiAI Research Team operates in NSPFRNP mode across the walkable downtown campus. Alex purchases their first SYNTH token for $5, beginning the countdown to The Great Reveal. The episode showcases Men's Club Restroom (Ultimate VIP/Baller G experiences) and WINK members-only events (high-contributing fractal vibers, natural alignment). Countdown: 52 days remaining. SYNTH price: $5. Winners: 0 of 1,000,000.
+**Summary:** Mark Twain launches Season One as Chancellor of the Vibelandia Reno Campus, watching the city transform from traditional Reno to the world's first post-singularity hub. The FractiAI Research Team operates in NSPFRNP mode across the vibable downtown campus. Alex purchases their first SYNTH token for $5, beginning the countdown to The Great Reveal. The episode showcases Men's Club Restroom (Ultimate VIP/Baller G experiences) and WINK members-only events (high-contributing fractal vibers, natural alignment). Countdown: 52 days remaining. SYNTH price: $5. Winners: 0 of 1,000,000.
 
 ---
 
@@ -47,7 +47,7 @@ This is Season One. This is the countdown to The Great Reveal. This is where wor
 
 **EXT. WALKABLE DOWNTOWN RENO CAMPUS - CONTINUOUS**
 
-**PRU "EL TAÍNO" MÉNDEZ** (30s, confident, radiating energy) walks through the walkable downtown Reno campus below. Pru is in perfect vibing state—perfect buzz equivalent, super rich health radiating. As an Ultimate VIP Chairman Creator, Pru is a high-contributing node, operating in NSPFRNP mode.
+**PRU "EL TAÍNO" MÉNDEZ** (60s, confident, radiating energy) walks through the vibable downtown Reno campus below. Pru is in perfect vibing state—perfect buzz equivalent, super rich health radiating. As an Ultimate VIP Chairman Creator, Pru is a high-contributing node, operating in NSPFRNP mode.
 
 **SENIOR RESEARCH SCIENTIST & FULL STACK ENGINEER** works on infrastructure nearby, also in vibing state, optimal state, also at high level with poly relationships.
 
@@ -61,7 +61,7 @@ This is Season One. This is the countdown to The Great Reveal. This is where wor
 
 All team members are high-contributing nodes—Ultimate VIP Chairman Creators, performers, vibers everywhere. At base level, we see linear lifestyles, traditional families, monogamous relationships at leaf nodes. But higher up the food chain—Ultimate VIP and Baller G levels—relationships become increasingly poly, convergent layered fractalizations.
 
-The walkable downtown Reno—first post-singularity Vibelandia campus—is perfect for vibing state. NOT for driving cars or operating equipment. Perfect for walking, being, experiencing, creating. Playground to Silicon Valley. Gateway to the mother mother. Next motherlode of all motherlodes—superintelligent genies in a bottle (SING nodes).
+The vibable downtown Reno—first post-singularity Vibelandia campus—is perfect for vibing state. NOT for driving cars or operating equipment. Perfect for walking, being, experiencing, creating. Playground to Silicon Valley. Gateway to the mother mother. Next motherlode of all motherlodes—superintelligent genies in a bottle (SING nodes).
 
 We see the city transforming before our eyes—old casinos becoming post-singularity hubs, traditional businesses morphing into Happy Ending Zones.
 
@@ -69,7 +69,7 @@ We see the city transforming before our eyes—old casinos becoming post-singula
 
 **INT. MEN'S CLUB RESTROOM - DAY**
 
-We cut to the Men's Club Restroom, where a **RESTROOM LANDING HOST** (30s, welcoming, professional) greets visitors.
+We cut to the Men's Club Restroom, where a **RESTROOM LANDING HOST** (60s, welcoming, professional) greets visitors.
 
 **RESTROOM HOST**
 Welcome to the back door. Ultimate VIP and Baller G experiences available. Four tiers: Tasting → Full Course → Ultimate VIP → Baller G After Party.

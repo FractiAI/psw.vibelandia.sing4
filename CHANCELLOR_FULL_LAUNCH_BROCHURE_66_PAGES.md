@@ -42,7 +42,7 @@ The reports of Reno's death have been greatly exaggerated.
 
 In fact, Reno isn't dying—it's being reborn.
 
-**MARK TWAIN'S POST-SINGULARITY VIBELANDIA RENO!** is the world's first operational Post-Singularity Vibe downtown walkable campus. Not a plan. Not a proposal. Operational now. Active today. Transforming reality as we speak.
+**MARK TWAIN'S POST-SINGULARITY VIBELANDIA RENO!** is the world's first operational Post-Singularity Vibe downtown vibable campus. Not a plan. Not a proposal. Operational now. Active today. Transforming reality as we speak.
 
 This brochure contains everything. Every offering. Every plan. Every experience. All wrapped in **Gianni–inspired fit**—fine Italian fashion designer precision, the magical dressing room, skins and experiences at the press of a button.
 
@@ -82,10 +82,10 @@ Every space. Every experience. Every moment. Guaranteed happy ending.
 
 **What is VIBELANDIA!?**
 
-VIBELANDIA! is the world's first operational Post-Singularity Vibe downtown walkable campus. This isn't a plan or a proposal—it's operational now, active today, transforming reality as we speak.
+VIBELANDIA! is the world's first operational Post-Singularity Vibe downtown vibable campus. This isn't a plan or a proposal—it's operational now, active today, transforming reality as we speak.
 
 **Come for the Post-Singularity Business:**
-- First post-singularity campus, walkable downtown Reno, Nevada
+- First post-singularity campus, vibable downtown Reno, Nevada
 - Perfect for vibing state—perfect buzz equivalent, super rich health, optimal state
 - Everything close by and convenient—WINK! dating, Mark Twain's Daily Bulletin, post-singularity experiences, BBHE experiences, Hero Host interactions, creator studios, performance venues, Ultimate VIP experiences—all within walking distance
 
@@ -110,7 +110,7 @@ VIBELANDIA! is the world's first operational Post-Singularity Vibe downtown walk
 
 ## NARRATIVE
 
-VIBELANDIA! is the world's first operational Post-Singularity Vibe downtown walkable campus—not a plan, operational now. Every space guarantees a happy ending; every moment crystallizes into the transformation.
+VIBELANDIA! is the world's first operational Post-Singularity Vibe downtown vibable campus—not a plan, operational now. Every space guarantees a happy ending; every moment crystallizes into the transformation.
 
 Walkable downtown Reno: WINK! dating, Mark Twain's Daily Bulletin, BBHE experiences, Hero Hosts, creator studios, performance venues—all within walking distance. Gateway to the mother mother; playground to Silicon Valley.
 
@@ -165,7 +165,7 @@ high-contributing vibers (top artists, performers, entrepreneurs) come to play.
 
 ## NARRATIVE
 
-WINK! is where high-contributing fractal vibers find natural alignment—friction-free dating, resilience built-in, natural aware mutual choice and consent. Operational on **MARK TWAIN'S POST-SINGULARITY VIBELANDIA RENO!** walkable downtown campus.
+WINK! is where high-contributing fractal vibers find natural alignment—friction-free dating, resilience built-in, natural aware mutual choice and consent. Operational on **MARK TWAIN'S POST-SINGULARITY VIBELANDIA RENO!** vibable downtown campus.
 
 Like a day with a top guide—only more.
 
@@ -948,7 +948,7 @@ Reno isn't dying—it's being reborn.
 
 ### WINK! NARRATIVE EXPANDED
 
-WINK! is where high-contributing fractal vibers find natural alignment—friction-free dating, resilience built-in, natural aware mutual choice and consent. Operational on **MARK TWAIN'S POST-SINGULARITY VIBELANDIA RENO!** walkable downtown campus.
+WINK! is where high-contributing fractal vibers find natural alignment—friction-free dating, resilience built-in, natural aware mutual choice and consent. Operational on **MARK TWAIN'S POST-SINGULARITY VIBELANDIA RENO!** vibable downtown campus.
 
 Like a day with a top guide—only more.
 

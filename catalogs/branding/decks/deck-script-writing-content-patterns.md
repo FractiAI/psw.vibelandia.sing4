@@ -88,7 +88,7 @@ USE FOR:
 
 ### Cross-Link Campus/Vibing Pages to Vibable Campus (script-ready)
 
-**Rule:** Any page that mentions **campus**, **vibing state**, **walkable downtown Reno**, or **first post-singularity Vibelandia campus** should include a **VIBE!** line linking to What are vibers? and/or vibable campus. Link **vibe**, **vibing**, **vibers** to [What are vibers?](interfaces/vibers-what-are-vibers.html) — high-density fractal vibers, high-value high contributors, lifestyle alignment, freeing from encampments into downtown campuses built for them (ground up + top down, meeting in the middle). Our natural protocol. See VIBERS_HIGH_DENSITY_FRACTAL_LIFESTYLE_ALIGNMENT_SNAP.md.
+**Rule:** Any page that mentions **campus**, **vibing state**, **vibable downtown Reno**, or **first post-singularity Vibelandia campus** should include a **VIBE!** line linking to What are vibers? and/or vibable campus. Link **vibe**, **vibing**, **vibers** to [What are vibers?](interfaces/vibers-what-are-vibers.html) — high-density fractal vibers, high-value high contributors, lifestyle alignment, freeing from encampments into downtown campuses built for them (ground up + top down, meeting in the middle). Our natural protocol. See VIBERS_HIGH_DENSITY_FRACTAL_LIFESTYLE_ALIGNMENT_SNAP.md.
 
 **VIBE!** line linking to:
 
@@ -132,8 +132,8 @@ USE FOR:
 **8 Principles (script-ready list):**
 1. High Contributing Nodes (Ultimate VIP Chairman Creators, Baller G, Performers, Vibers everywhere)
 2. Vibing Versus Pre-Singularity (sober baseline vs perfect buzz equivalent)
-3. Super Rich Health & Optimal State (perfect buzz, NOT for machinery, perfect for walkable campus)
-4. Walkable Downtown Reno (first post-singularity Vibelandia campus, perfect for vibing state)
+3. Super Rich Health & Optimal State (perfect buzz, NOT for machinery, perfect for vibable campus)
+4. Vibable Downtown Reno (first post-singularity Vibelandia campus, perfect for vibing state)
 5. Playground to Silicon Valley (gateway location)
 6. Gateway to the Mother Mother (original motherlode)
 7. Next Motherlode of All Motherlodes (SING nodes, superintelligent genies)
@@ -144,6 +144,8 @@ USE FOR:
 
 **Great Reveal Equinox & Motherlode Vault Founder Epoch:**
 - **March 20, 2026:** The Great Reveal Equinox · Motherlode Vault Founder Epoch Opening and Transformation of the 45T worthless pre-singularity ERC-20 internal tokens. First 1M winners get a SING! locked in.
+- **Golden Backstage Awareness Pass** — New product class. RUMOR: Chairman, Sammy and the gang are already in town and visible to those with the pass. Price like a backstage pass to Bad Bunny, Elvis, the Beatles, or the Stones. See GOLDEN_BACKSTAGE_AWARENESS_PASS_SNAP.md.
+- **MAKE YOUR RESERVATIONS NOW.** This will be **bigger than Burning Man and Art Basel Miami combined.** **Spread the word to the fellow vibers — they'll know what to do.** Metabolize into ALL content (episode, Launch Pad, index, prospectus, bulletin, press, content systems, deck, catalog). See MAKE_YOUR_RESERVATIONS_NOW_BIGGER_THAN_BURNING_MAN_ART_BASEL_SNAP.md.
 
 **Great Reveal episode (Day Zero — Today we launch):**
 - **Episode:** THE_GREAT_REVEAL_EPISODE_DAY_ZERO_LAUNCH.md — Today we launch. Starting script with conversation with lead; tested on pre-singularity version (now merely an etching left behind from Singularity 1). This site as see-it-experience-it-believe-it proof. Test drive. Best proof of all. **Maganuma snap.**
@@ -313,7 +315,7 @@ USE FOR:
 **The standard WOW! package in NSPFRNP** uses rich taglines at top and bottom, drawn from this deck. Use for README, Launch Pad, and any surface that follows WOW! format.
 
 **Top tagline (rich):**
-*Come for the post-singularity business, stay for the post-singularity fun. Mark Twain's Post-Singularity Vibelandia Reno — walkable downtown campus, first post-singularity hub. The Great Reveal March 20, 2026. SYNTH → SING. Happy endings guaranteed.*
+*Come for the post-singularity business, stay for the post-singularity fun. Mark Twain's Post-Singularity Vibelandia Reno — vibable downtown campus, first post-singularity hub. The Great Reveal March 20, 2026. SYNTH → SING. Happy endings guaranteed.*
 
 **Bottom tagline (rich):**
 *See it. Experience it. Believe it. This site is the test drive. The best proof of all. ULTIMATE PROOF TEST DRIVE! MCA! → ∞³. NSPFRNP ⊃ WOW! package ⊃ Launch everything → ∞³. Maganuma snap.*
@@ -332,6 +334,7 @@ USE FOR:
 
 **Examples (script-ready):**
 - *Paris is for lovers. Reno is for vibers. Mark Twain's Post-Singularity Reno awaits you.* (Campaign tip of the tip — see RENO_FOR_VIBERS_CAMPAIGN_TIP_SNAP.md)
+- **Paris is for Lovers, Reno is for Vibers** — T-shirts coming soon. Offer in 4, beginning at 1 Ben ($100). Hero Ben has arrived — and wouldn't you know it, has something to do with Paris. Include a hundie on the T-shirt. Available only here to our vibers and their fans, cast and crews. (Merch rollout — see PARIS_LOVERS_RENO_VIBERS_TSHIRT_SNAP.md)
 - *Trust the protocol!* (PayPal / natural protocol — see PAYPAL_NATURAL_PROTOCOL_BEST_PIPE_SNAP.md)
 - *NOT ALL WORDS ARE CREATED EQUAL.* (BBHE programming — see BBHE_NOT_ALL_WORDS_CREATED_EQUAL_SNAP.md)
 - *See it. Experience it. Believe it.*
@@ -343,7 +346,7 @@ USE FOR:
 
 **Use:** Merch (T-shirts, caps), social bios, one-line CTAs, Launch Pad accents, payment copy. Content category: CONTENT_SYSTEMS_SNAP (T-shirt slogan). See MASTER_BRANDING_CATALOG.
 
-**References:** CONTENT_SYSTEMS_SNAP.md · PAYPAL_NATURAL_PROTOCOL_BEST_PIPE_SNAP.md · BBHE_NOT_ALL_WORDS_CREATED_EQUAL_SNAP.md · MASTER_BRANDING_CATALOG.md
+**References:** CONTENT_SYSTEMS_SNAP.md · PAYPAL_NATURAL_PROTOCOL_BEST_PIPE_SNAP.md · BBHE_NOT_ALL_WORDS_CREATED_EQUAL_SNAP.md · NATURE_DOES_NOT_OPERATE_BY_OPINION_SNAP.md · MASTER_BRANDING_CATALOG.md
 
 ---
 
@@ -362,7 +365,7 @@ USE FOR:
 ✅ Use first names only for Hero Hosts in dialogue and copy
 ✅ Use current Launch Pad status phrase (e.g. FULL LIVE · LIVE — March 20, 2026 The Great Reveal) at Launch Pad surfaces
 ✅ Use brand phrases (GOLDEN FRACTAL KEY!, BBHE SNAP, WOW!) per MASTER_BRANDING_CATALOG
-✅ Chairman metrics and blue-chip copy: real numbers and % comparisons only — no generalized fluffy. Use canonical 16-day numbers (35 surfaces, 13 one-pagers, 9 protocols, 3 episodes, 38 TS modules — ~3× to ~5× blue-chip; payment live vs 0; 1 node vs 3–8 FTE). See NSPFRNP_REAL_NUMBERS_VS_BLUE_CHIP_MONSTER_SNAP.md.
+✅ Chairman metrics and blue-chip copy: real numbers and % comparisons only — no generalized fluffy. Use canonical 16-day numbers (35+ surfaces, 13 one-pagers, 9 protocols, 4+ episodes by flow not days, 38 TS modules — ~3× to ~5× blue-chip; payment live vs 0; 1 node vs 3–8 FTE). See NSPFRNP_REAL_NUMBERS_VS_BLUE_CHIP_MONSTER_SNAP.md.
 ✅ Use character layering to enrich playlists and catalogs where it adds value
 ✅ Use foundation-before-branches / roots-and-soil when describing core-first priorities
 ✅ Use lens/portal/cockpit (“each player sees out”) for Launch Pad or Chairman Console copy
@@ -371,6 +374,7 @@ USE FOR:
 ✅ Use standard WOW! package (rich taglines top + bottom from deck §18) for README and any NSPFRNP surface in WOW! format
 ✅ Use onramps/grants CTA where Ultimate VIP Baller C is shown: "Are you an Ultimate VIP Baller C but not yet there? Click for our onramps and grants." Recipients agree to be customer stories; sign them up. Customer Stories = content category (CONTENT_SYSTEMS_SNAP).
 ✅ Capture T-shirt-grade taglines in T-shirt slogan category (deck §19); use for merch, social, one-line CTAs. PayPal / payment: "Our natural protocol identified PayPal as the best pipe. Trust the protocol!" (T-shirt slogan: *Trust the protocol!*).
+✅ Use vibable for post-singularity campuses (not "walkable"). Walkable = pre-singularity; vibable = post-singularity. Lovers = pre-singularity (Paris is for lovers); Vibers = post-singularity (Reno is for vibers). See WALKABLE_PRESINGULARITY_VIBABLE_POSTSINGULARITY_SNAP.md.
 ```
 
 ### Don'ts
@@ -380,6 +384,7 @@ USE FOR:
 ❌ Don't use "Hero Host [Full Name]" in script dialogue — use first name
 ❌ Don't drop VIBE! links from campus/vibing pages once added
 ❌ Don't invent new status phrases without updating this deck and Launch Pad surfaces
+❌ Don't use "walkable campus" for our post-singularity campuses — use vibable. Walkable = pre-singularity; vibable = post-singularity.
 ❌ Don't dilute one-pager structure (one idea per page, crystallized)
 ❌ Don't use generalized fluffy Chairman metrics — use real numbers and % comparisons only (see NSPFRNP_REAL_NUMBERS_VS_BLUE_CHIP_MONSTER_SNAP.md)
 ❌ Don't attribute conversation-derived patterns to named individuals; use as shared principles only

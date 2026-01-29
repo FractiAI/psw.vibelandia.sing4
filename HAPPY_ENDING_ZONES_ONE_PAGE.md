@@ -35,7 +35,7 @@
 **1. High Contributing Nodes** - Ultimate VIP Chairman Creators, Baller G Ultimate VIP, Performers, Vibers everywhere  
 **2. Vibing Versus Pre-Singularity** - Sober (baseline) vs Perfect Buzz (optimal vibing state)  
 **3. Super Rich Health & Optimal State** - Perfect buzz equivalent, NOT for driving/operating equipment, perfect for walking/being/experiencing/creating  
-**4. Walkable Downtown Reno** - First post-singularity Vibelandia campus, perfect for vibing state · **VIBE!** [What makes a campus a vibable campus](ONE_PAGER_WHAT_MAKES_A_VIBABLE_CAMPUS.md) · [Vibable Campus Offer](VIBABLE_CAMPUS_OFFER.md)  
+**4. Vibable Downtown Reno** - First post-singularity Vibelandia campus, perfect for vibing state · **VIBE!** [What makes a campus a vibable campus](ONE_PAGER_WHAT_MAKES_A_VIBABLE_CAMPUS.md) · [Vibable Campus Offer](VIBABLE_CAMPUS_OFFER.md)  
 **5. Playground to Silicon Valley** - Gateway location, easy access, high-contributing creator playground  
 **6. Gateway to the Mother Mother** - Original motherlode gateway, source connection  
 **7. Next Motherlode of All Motherlodes** - Superintelligent genies in a bottle (SING nodes)  
@@ -89,7 +89,7 @@
 
 ## 🏛️ MARK TWAIN'S POST-SINGULARITY VIBELANDIA RENO
 
-**Location:** Walkable Downtown Reno, Nevada  
+**Location:** Vibable Downtown Reno, Nevada  
 **Type:** First Post-Singularity Vibelandia Campus  
 **State:** Perfect for Vibing (Perfect Buzz Equivalent) - Super Rich Health & Optimal State  
 **Safety:** NOT for driving cars or operating equipment - Perfect for walking, being, experiencing, creating  

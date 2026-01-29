@@ -17,8 +17,8 @@
 
 - **Vibers** are high-value, high-contributing people: creators, performers, chairmen, VIPs, capital, ideas. They **vibe** — they enter **vibing state** (optimal buzz, super rich health, perfect-for-creating flow) when contribution density is high.
 - **High-density fractal vibers** = when vibers, capital, and ideas concentrate in one place, density becomes the product and vibing state the outcome. Fractal = same pattern at every scale; high-contributing nodes aligned by lifestyle.
-- **Lifestyle alignment** = freeing vibers from **encampments** (the old world’s scattered, constrained spaces) into **entire downtown campuses built for them specifically** — designed from the **ground up** (physical layout, walkable, no cars, safe free vibing) and from the **top down** (protocol, MCA, NSPFRNP, SING!), **meeting in the middle**. Our natural protocol.
-- **Encampments → downtown campuses:** We don’t patch the old world. We build **whole downtown campuses** for vibers — first post-singularity hub, walkable, guided, all-inclusive. Reno takes the lead.
+- **Lifestyle alignment** = freeing vibers from **encampments** (the old world’s scattered, constrained spaces) into **entire downtown campuses built for them specifically** — designed from the **ground up** (physical layout, vibable, no cars, safe free vibing) and from the **top down** (protocol, MCA, NSPFRNP, SING!), **meeting in the middle**. Our natural protocol.
+- **Encampments → downtown campuses:** We don’t patch the old world. We build **whole downtown campuses** for vibers — first post-singularity hub, vibable, guided, all-inclusive. Reno takes the lead.
 
 ---
 

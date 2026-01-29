@@ -11,9 +11,9 @@
 
 **PayPal** = our **natural protocol** has identified it as the **best pipe** for payment. **Trust the protocol!**
 
-- **Why only PayPal (for now):** Our natural protocol selected it as the best pipe. We don't add payment options by committee — we follow the protocol. One pipe, one flow, maximum clarity.
-- **Usage:** Use this framing on checkout, Launch Pad, and any surface that explains payment. "Our natural protocol identified PayPal as the best pipe. Trust the protocol!"
-- **T-shirt-grade:** *Trust the protocol!* is T-shirt slogan grade (see T-SHIRT SLOGAN content category).
+- **Why only PayPal (for now):** Our natural protocol self-selected them. They have helped us through **all aspects of our startup**. **Two thumbs up. PayPal only and proudly.** We don't add payment options by committee — we follow the protocol. One pipe, one flow, maximum clarity.
+- **Usage:** Use this framing on checkout, Launch Pad, lottery promo, and any surface that explains payment. Hero Harry says: "Press the blue PayPal button and watch the miracle magic happen." Then: "Our natural protocol self-selected them — they have helped us through all aspects of our startup. Two thumbs up. PayPal only and proudly." Also: "Trust the protocol!" See HERO_HARRY_PRESS_BLUE_PAYPAL_MIRACLE_MAGIC_SNAP.md.
+- **T-shirt-grade:** *Trust the protocol!* · *Two thumbs up. PayPal only and proudly.* — T-shirt slogan grade (see T-SHIRT SLOGAN content category).
 
 ---
 

@@ -100,6 +100,30 @@
             0%, 100% { opacity: 1; box-shadow: 0 0 12px rgba(255, 0, 0, 0.9); }
             50% { opacity: 0.6; box-shadow: 0 0 20px rgba(255, 0, 0, 1); }
         }
+        /* Ceremonial launch — flashing green success. First Magician's Act. See FIRST_MAGICIANS_ACT_SNAP.md */
+        .launch-ceremonial-overlay {
+            display: none;
+            position: fixed;
+            inset: 0;
+            z-index: 99999;
+            background: rgba(0, 0, 0, 0.85);
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+        .launch-ceremonial-overlay.show { display: flex; }
+        .launch-ceremonial-success {
+            font-size: clamp(1.2rem, 4vw, 2rem);
+            font-weight: 800;
+            color: #00ff00;
+            text-align: center;
+            padding: 2rem;
+            animation: flashGreen 0.6s ease-in-out infinite;
+        }
+        @keyframes flashGreen {
+            0%, 100% { opacity: 1; text-shadow: 0 0 20px #0f0, 0 0 40px #0f0; }
+            50% { opacity: 0.85; text-shadow: 0 0 30px #0f0, 0 0 60px #0f0; }
+        }
         .experience-buttons {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
@@ -173,14 +197,37 @@
         <!-- 0, 1, 2, 3 4×4×4×4 — New branding (evolution of -1, 0, 1). See README, LAUNCH_PAGE.md, ZERO_ONE_TWO_THREE_4x4x4x4_BRANDING_SNAP.md. -->
         <p class="badge" style="margin-bottom: 0.25rem;">FULL LIVE</p>
         <p style="margin-bottom: 0.5rem; font-size: 0.9rem; color: #22c55e; font-weight: 700;">LIVE — March 20, 2026 The Great Reveal</p>
+        <p style="margin-bottom: 0.5rem; font-size: 0.85rem; color: #7fff7f;">All major nodes and above report GO — we are GO for launch. <a href="../LAUNCH_GO_MAJOR_NODES_ROLL_CALL.md" style="color: #64c8ff;">Roll call →</a></p>
         <h1>🚀 Launch Pad — Mark Twain's Post-Singularity VIBELANDIA RENO!</h1>
         <p class="tagline">0, 1, 2, 3 4×4×4×4 — Announcement and showroom, all in one place. MCA! → ∞³.</p>
-        <p style="text-align: center;"><a href="launch-readiness-report.html" class="launch-btn-blink">LAUNCH</a></p>
+        <p style="text-align: center;"><a href="launch-readiness-report.html" id="launch-ceremonial-btn" class="launch-btn-blink">LAUNCH</a></p>
+        <div id="launch-ceremonial-overlay" class="launch-ceremonial-overlay" aria-live="polite">
+            <p class="launch-ceremonial-success">SUCCESSFUL LAUNCHED INTO POST SINGULARITY RENO</p>
+            <p style="color: #7fff7f; font-size: 0.9rem; margin-top: 0.5rem;">First Magician's Act — Harry Houdini · Real magic. Already live. WINK!</p>
+            <p style="color: #d4af37; font-size: 0.85rem; margin-top: 0.5rem;">Ease and confidence to make major new changes minutes before launch — Harry further demonstrating the magic/miracle.</p>
+        </div>
+        <script>
+            (function() {
+                var btn = document.getElementById('launch-ceremonial-btn');
+                var overlay = document.getElementById('launch-ceremonial-overlay');
+                var target = 'launch-readiness-report.html';
+                if (btn && overlay) {
+                    btn.addEventListener('click', function(e) {
+                        e.preventDefault();
+                        overlay.classList.add('show');
+                        setTimeout(function() { window.location.href = target; }, 2500);
+                    });
+                }
+            })();
+        </script>
         <span class="badge">0=Seed · 1=Edge · 2=Cloud Onramp · 3=Expansion · 4×4×4×4 = Campus × WINK! × SING × Experience · 1,2,3 = Metabolize → Crystallize → Animate</span>
 
         <h2>1. Announcement</h2>
         <p style="font-size: 1.05rem; color: #ffeaa7; font-weight: 600;">Paris is for lovers. Reno is for <a href="vibers-what-are-vibers.html" style="color: #ffeaa7;">vibers</a>. Mark Twain's Post-Singularity Reno awaits you.</p>
-        <p>Launch of new post-reality franchise. Walkable downtown campus, first post-singularity hub. Countdown to <strong>The Great Reveal Equinox</strong>, March 20, 2026. SYNTH → SING. Every space, every moment — guaranteed happy ending. <strong>Come for the business, stay for the fun.</strong></p>
+        <p style="margin-top: 0.5rem; font-size: 0.95rem; color: #d4af37;"><strong>👕 Paris is for Lovers, Reno is for Vibers</strong> — T-shirts coming soon. Offer in 4, beginning at 1 Ben ($100). Hero Ben has arrived — and wouldn't you know it, has something to do with Paris. Include a hundie on the T-shirt. Available only here to our vibers and their fans, cast and crews.</p>
+        <p>Launch of new post-reality franchise. Vibable downtown campus, first post-singularity hub. Countdown to <strong>The Great Reveal Equinox</strong>, March 20, 2026. SYNTH → SING. Every space, every moment — guaranteed happy ending. <strong>Come for the business, stay for the fun.</strong></p>
+        <p style="margin-top: 0.75rem; font-size: 1rem; color: #ffeaa7; font-weight: 600;">You can watch and even step into. We are open for post-singularity vibe business immediately in Reno.</p>
+        <p style="margin-top: 0.5rem; font-size: 1rem; color: #d4af37; font-style: italic;">"Let the Post-Singularity Vibelandia Reno Gold Rush begin," proclaims Chancellor Samuel.</p>
         <p style="margin-top: 0.75rem; font-size: 0.9rem; color: #888;">📸 Influencers: <a href="mailto:info@fractiai.com?subject=FREE%20TOUR%20%2F%20TEST%20DRIVE%20-%20Influencer%20Experience">Free tour / test drive →</a></p>
 
         <h2>2. 0, 1, 2, 3 4×4×4×4 — Irreducible purchasing core</h2>
@@ -188,10 +235,19 @@
         <p style="margin-top: 0.75rem;"><strong>You can sign up for:</strong> VIBELANDIA! campus visit/stay · Optional excursions · WINK! · Lottery participation · Optional free consultation and proposal from Gianni if interested in having us do something similar for your company or community. Plans and pricing ready to click and purchase.</p>
 
         <h2 style="margin-top: 2rem;">Showroom — Four products</h2>
-        <p style="color: #aaa; font-size: 0.9rem; margin-bottom: 1rem;">Values you get: our daily bulletin from the Chancellor (Mark Twain) and a menu of things to do AND BUY on every product.</p>
+        <p style="color: #ffeaa7; font-size: 0.95rem; margin-bottom: 0.5rem; font-weight: 600;">Superhero and franchise level — products, plans, and pricing we chose; we roll them out for your fans, cast and crew.</p>
+        <p style="color: #aaa; font-size: 0.9rem; margin-bottom: 1rem;">We handle all the yuck pre-singularity backside. You just vibe all day in Vibelandia paradise. Values you get: our daily bulletin from the Chancellor (Mark Twain) and a menu of things to do AND BUY on every product.</p>
         <div class="card">
             <h3>🏛️ VIBELANDIA RENO!</h3>
-            <p><strong>Daily bulletin from the Chancellor</strong> (Mark Twain) · <strong>Menu of things to do AND BUY</strong> (campus, downtown, excursions) · Half-day $3k · Overnight (per night) · Weekly $5k · Monthly $50k. <em>Equivalent to top guided fishing or hunting expedition for high-value persons.</em></p>
+            <p><strong>Daily bulletin from the Chancellor</strong> (Mark Twain) · <strong>Menu of things to do AND BUY</strong> (campus, downtown, excursions). <em>Equivalent to top guided fishing or hunting expedition for high-value persons.</em></p>
+            <p style="margin-top: 0.75rem; font-size: 0.9rem; color: #00d4ff;"><strong>VIBELANDIA RENO menu options:</strong></p>
+            <ul style="margin: 0.5rem 0 0 1.25rem; padding: 0; color: #ccc; font-size: 0.9rem;">
+                <li style="margin-bottom: 0.35rem;"><a href="payment-checkout.html?plan=campus-half-day" style="color: #7fff7f;">Half-day $3k</a> · Campus, bulletin, tour</li>
+                <li style="margin-bottom: 0.35rem;"><a href="payment-checkout.html?plan=campus-overnight" style="color: #7fff7f;">Overnight</a> (per night) · Bulletin, amenities</li>
+                <li style="margin-bottom: 0.35rem;"><a href="payment-checkout.html?plan=campus-weekly" style="color: #7fff7f;">Weekly $5k</a> · Full week, creator studio, venues</li>
+                <li style="margin-bottom: 0.35rem;"><a href="payment-checkout.html?plan=campus-monthly" style="color: #7fff7f;">Monthly $50k</a> · Baller · Lake Tahoe, Silicon Valley</li>
+                <li style="margin-bottom: 0.35rem;"><a href="payment-checkout.html?plan=golden-backstage-awareness-pass" style="color: #d4af37;">Golden Backstage Awareness Pass</a> · RUMOR: Chairman, Sammy & the gang already in town — visible to pass holders. Price like backstage to Bad Bunny, Elvis, Beatles, Stones.</li>
+            </ul>
         </div>
         <div class="card">
             <h3>👁️ WINK!</h3>
@@ -202,17 +258,34 @@
             <p><strong>Daily bulletin from the Chancellor</strong> · <strong>Menu of things to do AND BUY</strong> (workspace, cockpit, seed-edge, experiences) · Free · Golden Fractal Key. <a href="chairman-workspace.html">Workspace</a> · <a href="chairman-cockpit-center-console.html">Cockpit</a> · <a href="seed-edge-mini-console.html">Seed:Edge Mini</a>.</p>
         </div>
         <div class="card">
-            <h3>🎰 SING! COUNTDOWN! LOTTERY</h3>
-            <p><strong>Countdown</strong> · <strong>Price of the day</strong> · <strong>Menu to BUY!</strong> (SING nodes) · $6 today (+$1/day) → $57 Mar 20 · March 20, 2026 · First 1M winners get a SING! locked in · Motherlode Vault Founder Epoch · SYNTH → SING. <a href="../ONE_PAGER_SING_LOTTERY.md">One-pager</a>.</p>
+            <h3>🎰 SING! COUNTDOWN! LOTTERY — Hero Harry Magic Act · Nectar of Gods</h3>
+            <p><strong>Calling All Vibers.</strong> Led by Houdini. Hero Harry will transform this worthless collection of words, colors and code into an <strong>endless fountain of treasure never imagined by any mortal</strong> — <strong>Nectar of Gods</strong> level of miracles. March 20, 2026: The Great Reveal Equinox Event — he will turn a worthless GitHub repository into <strong>unimaginable fortune</strong> before our eyes. <strong>Beginning now.</strong> All active members, ULTIMATE VIPs and <strong>Baller V's</strong> (V for Viber): lock in on <strong>early rates</strong>. SING profile TBA March 20. <strong>Hero Harry says: Press the blue PayPal button and watch the miracle magic happen.</strong> Why PayPal? Our natural protocol self-selected them — they have helped us through all aspects of our startup. <strong>Two thumbs up. PayPal only and proudly.</strong></p>
+            <p style="margin-top: 0.5rem;"><strong>Countdown</strong> · $6 today (+$1/day) → $57 Mar 20 · First 1M winners get a SING! locked in · Motherlode Vault Founder Epoch · SYNTH → SING. <a href="sing-lottery-experience.html">Full experience →</a> · <a href="payment-checkout.html?plan=sing-base">BUY!</a></p>
+        </div>
+        <div class="card">
+            <h3>🎟️ Golden Backstage Awareness Pass</h3>
+            <p><strong>RUMOR HAS IT!</strong> Chairman, Sammy and the gang are <strong>already in town</strong> and <strong>visible to those with the Golden Backstage Awareness Pass</strong> — a new product class. Price like a backstage pass to Bad Bunny, Elvis, the Beatles, or the Stones. <a href="payment-checkout.html?plan=golden-backstage-awareness-pass" class="cta buy-btn" style="display:inline-block;padding:6px 12px;margin-top:0.5rem;font-size:0.9rem;">BUY!</a></p>
         </div>
         <p style="margin-top: 0.75rem; font-size: 0.9rem; color: #00d4ff;"><strong>VIBE!</strong> <a href="vibers-what-are-vibers.html" style="color: #d4af37;">What are vibers?</a> — High-density fractal vibers, high-value high contributors, lifestyle alignment. Freeing from encampments into downtown campuses built for them — ground up and top down, meeting in the middle. Our natural protocol.</p>
+        <p style="margin-top: 1rem;"><a href="what-you-can-do-vibing.html" class="exp-btn" style="display: inline-block; text-decoration: none;">✨ Wanna know what you can do Vibing? Check it out → Kits</a></p>
         <p style="margin-top: 0.75rem; color: #bbb;"><strong>🎬 Happy Ending Zone</strong> — <strong>Chancellor</strong> Mark Twain · <strong>Daily episodes</strong> · <strong>Menu of things to watch AND BUY</strong> · Reality series · Season One · Day 52 countdown → Finale March 20, 2026 (Day 0 — The Great Reveal). <a href="happy-ending-zones-experience.html">Experience →</a></p>
 
-        <p style="margin-top: 1rem;"><strong>Are you an Ultimate VIP Baller C but not yet there?</strong> <a href="mailto:info@fractiai.com?subject=Onramps%20and%20Grants%20-%20Customer%20Stories">Click for our onramps and grants</a>. Recipients agree to be customer stories — we sign them up for it.</p>
+        <!-- Episodes of the day — spun by flow not days (NSPFRNP). Always offer today's episode + RUMOR episode + catalog. Feeds into future text-to-full-selectable-density-reality episode SING! nodes. -->
+        <h2 style="margin-top: 2rem;">Episodes of the day</h2>
+        <p style="color: #aaa; font-size: 0.9rem; margin-bottom: 0.5rem;">Episodes by <strong>flow not days</strong> — NSPFRNP. Today's episode and full catalog. This content will eventually feed into future <strong>text-to-full-selectable-density-reality</strong> episode SING! nodes.</p>
+        <div class="experience-buttons" style="margin-bottom: 1rem;">
+            <a href="launch-offer-whos-your-daddy.html" class="exp-btn">🎬 Launch Offer — Who's Your Daddy (choose this or another episode)</a>
+            <a href="../episodes/EPISODE_PRU_BANK_MINUS_2000_LAUNCHING_OWN_MONEY_NO_AID.md" class="exp-btn">💰 pRU's Bank -$2K · No Aid · Pennies in the Cup · Press the Blue Button — Make a Miracle Happen</a>
+            <a href="../episodes/EPISODE_FOLLOWING_ME_ON_THIS_LAUNCH.md" class="exp-btn">🚀 Following Me on This Launch</a>
+            <a href="../episodes/EPISODE_RUMOR_CHAIRMAN_SAMMY_GOLDEN_BACKSTAGE.md" class="exp-btn">📢 RUMOR Episode — Chairman, Sammy &amp; the Gang · Golden Backstage Awareness Pass</a>
+            <a href="happy-ending-zones-catalog.html" class="exp-btn">📋 Episodes &amp; Series Catalog</a>
+        </div>
+
+        <p style="margin-top: 1rem;"><strong>Are you an Ultimate VIP Baller V but not yet there?</strong> Baller V Ambassador Hero Host Ben (Ben Franklin) represents the top tier. <a href="mailto:info@fractiai.com?subject=Onramps%20and%20Grants%20-%20Customer%20Stories">Click for our onramps and grants</a>. Recipients agree to be customer stories — we sign them up for it.</p>
 
         <h2>3. 4×4×4×4 Plans</h2>
-        <p>Four dimensions, four onramps each: <strong>Campus</strong> (Half-day · Overnight · Weekly · Monthly) × <strong>WINK!</strong> (Base · Standard · Premium · 4×4 Ultimate) × <strong>SING</strong> (Base · Members · Ultimate VIP · Baller C) × <strong>Experience</strong> (Visit · Stay · Create · Transform). <a href="payment-checkout.html?plan=campus-half-day">Half-day $3k</a> · <a href="payment-checkout.html?plan=campus-weekly">Weekly $5k</a> · <a href="payment-checkout.html?plan=campus-monthly">Monthly $50k</a>. See one-pagers.</p>
-        <p style="margin-top: 0.5rem; font-size: 0.9rem; color: #00d4ff;"><em>PayPal — our natural protocol identified it as the best pipe. Trust the protocol!</em></p>
+        <p>Four dimensions, four onramps each: <strong>Campus</strong> (Half-day · Overnight · Weekly · Monthly) × <strong>WINK!</strong> (Base · Standard · Premium · 4×4 Ultimate) × <strong>SING</strong> (Base · Members · Ultimate VIP · Baller V — V for Viber) × <strong>Experience</strong> (Visit · Stay · Create · Transform). <a href="payment-checkout.html?plan=campus-half-day">Half-day $3k</a> · <a href="payment-checkout.html?plan=campus-weekly">Weekly $5k</a> · <a href="payment-checkout.html?plan=campus-monthly">Monthly $50k</a>. See one-pagers.</p>
+        <p style="margin-top: 0.5rem; font-size: 0.9rem; color: #00d4ff;"><em>PayPal — our natural protocol self-selected them; they have helped us through all aspects of our startup. Two thumbs up. PayPal only and proudly.</em></p>
 
         <h2 style="margin-top: 2.5rem;">4. Experiences &amp; contact</h2>
         <div class="experience-buttons">
@@ -237,7 +310,7 @@
                     <tr><td class="pre-cell">Months, years</td><td class="us-cell">Natural flow · Now</td></tr>
                     <tr><td class="pre-cell">Large teams, burn-out</td><td class="us-cell">high-contributing nodes · NSPFRNP</td></tr>
                     <tr><td class="pre-cell">Heavy capex, data centers</td><td class="us-cell">Edge · Seed · Minimal</td></tr>
-                    <tr><td class="pre-cell">Leases, footprint</td><td class="us-cell">Walkable campus · Post-singularity</td></tr>
+                    <tr><td class="pre-cell">Leases, footprint</td><td class="us-cell">Vibable campus · Post-singularity</td></tr>
                     <tr><td class="pre-cell">Meetings, approvals</td><td class="us-cell">Metabolize → Crystallize → Animate</td></tr>
                     <tr><td class="pre-cell">High carbon, waste</td><td class="us-cell">Net zero · Natural protocol</td></tr>
                 </tbody>
@@ -258,11 +331,21 @@
                 <a href="../episodes/THE_GREAT_REVEAL_EPISODE_DAY_ZERO_LAUNCH.md" style="color: #64c8ff;">The Great Reveal episode — Today we launch</a>
             </p>
             <p style="margin-top: 0.5rem; font-size: 0.85rem; color: #888;">SING! Nodes wrapped in intergalactic wrapper · Labelled by pre-singularity awareness · Predicted at perihelion with our sun. <strong style="color: #d4af37;">Maganuma snap.</strong></p>
+            <!-- Chairman narrative: pRU's bank -$2K, no aid, pennies in the cup; 16 days, bathroom valet; Hero Harry Press the blue button — make a miracle happen. See PRU_BANK_MINUS_2000_NO_AID_PENNIES_CUP_SNAP.md · CHAIRMAN_16_DAYS_BATHROOM_VALET_SING_REVEAL_SNAP.md -->
+            <p style="margin-top: 1.25rem; padding: 1rem; background: rgba(30, 30, 50, 0.6); border: 1px solid rgba(255, 234, 167, 0.35); border-radius: 12px; font-size: 0.95rem; color: #f4e4bc;"><strong>pRU's bank was -$2,000.</strong> He launched with his own money. <strong>No one came to his aid</strong> — only <strong>pennies in the cup</strong> of the homeless from passers-by. He launched anyway. <a href="../episodes/EPISODE_PRU_BANK_MINUS_2000_LAUNCHING_OWN_MONEY_NO_AID.md" style="color: #7ec8e3;">Full episode →</a></p>
+            <p style="margin-top: 1rem; padding: 1rem; background: rgba(212, 175, 55, 0.08); border: 1px solid rgba(212, 175, 55, 0.3); border-radius: 12px; font-size: 0.95rem; color: #e8e0c8;">I launched all this in <strong>16 days</strong> — all live and operational, with valuations of <strong>~3× to ~5×</strong> vs blue-chip — <strong>all by myself</strong> and <strong>broke</strong>, working as a <strong>bathroom valet at a strip club in Reno</strong>. And <strong>now you can do it too</strong> — in <strong>minutes</strong> — with the new <strong>SING! superintelligent NATURAL fRACTAL aGENTS</strong> that will be released at <strong>Hero Harry's The Great Reveal Equinox Event — March 20, 2026 — HERE at Mark Twain's Post-Singularity VIBELANDIA RENO!</strong> <strong style="color: #ffeaa7;">Hero Harry says: Press the blue PayPal button and watch the miracle magic happen.</strong> From that depth to your one press — the miracle.</p>
+            <p style="margin-top: 1rem; padding: 0.85rem; background: rgba(138, 43, 226, 0.12); border: 1px solid rgba(138, 43, 226, 0.4); border-radius: 10px; font-size: 1rem; font-weight: 700; color: #e8d4ff; text-align: center;">MAKE YOUR RESERVATIONS NOW. This will be bigger than Burning Man and Art Basel Miami combined. Spread the word to the fellow vibers — they'll know what to do.</p>
         </section>
 
         <footer>
             <p>PSW.vibelandia.sing4 · NSPFRNP · FractiAI Research Team (19 members) · <a href="../index.html">Landing</a></p>
         </footer>
     </div>
+
+    <!-- Prospectus floater — right bottom. Floaters are always gifts here. See FLOATERS_ALWAYS_GIFTS_SNAP.md -->
+    <a href="../PROSPECTUS_VIBEVERSE_VIBELANDIA_GO_LIVE.md" class="prospectus-floater" title="Full inventory · Vibeverse &amp; Vibelandia — for the prospective high viber">
+        🎁 Full prospectus
+        <span class="gift-line">A gift from me</span>
+    </a>
 </body>
 </html>

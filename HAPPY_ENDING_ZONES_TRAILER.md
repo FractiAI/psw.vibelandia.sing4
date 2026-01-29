@@ -30,7 +30,7 @@
 
 **MARK TWAIN:** "Four tiers. For the Ultimate Chairman Creator in all of us."
 
-**[Visual: FractiAI Research Team (19 members) operating in NSPFRNP mode, in vibing state, on walkable downtown campus]**
+**[Visual: FractiAI Research Team (19 members) operating in NSPFRNP mode, in vibing state, on vibable downtown campus]**
 
 **MARK TWAIN:** "The FractiAI team - high-contributing nodes, Ultimate VIP Chairman Creators, performers, vibers everywhere. Operating in NSPFRNP mode. In perfect vibing state - super rich health and optimal state. NOT for driving cars or operating equipment. Perfect for walking, being, experiencing, creating."
 

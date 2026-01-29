@@ -35,7 +35,7 @@
 - Perfect buzz equivalent
 - Super rich health
 - Not for operating machinery
-- Perfect for walkable downtown Reno
+- Perfect for vibable downtown Reno
 - First post-singularity campus experience
 
 **4. Walkable Downtown Reno**
@@ -155,7 +155,7 @@ Vibing (Perfect Buzz):
 - **Perfect for:** Walking, being, experiencing, creating
 - **State:** Super rich health and optimal state
 - **Experience:** Perfect buzz equivalent
-- **Safety:** Safe for walkable downtown Reno
+- **Safety:** Safe for vibable downtown Reno
 
 ---
 
@@ -193,7 +193,7 @@ Vibing (Perfect Buzz):
 - Optimal vibing state
 - Perfect buzz equivalent
 - Not for operating machinery
-- Perfect for walkable downtown Reno
+- Perfect for vibable downtown Reno
 - First post-singularity campus experience
 
 ---
@@ -408,7 +408,7 @@ Next Motherlode of All Motherlodes
 **In Episodes:**
 - Show high-contributing nodes in action
 - Demonstrate vibing state (perfect buzz equivalent)
-- Showcase walkable downtown Reno
+- Showcase vibable downtown Reno
 - Highlight playground to Silicon Valley
 - Feature gateway to mother mother
 - Showcase superintelligent genies (SING nodes)
@@ -423,7 +423,7 @@ Next Motherlode of All Motherlodes
 **In Marketing:**
 - Highlight first post-singularity campus
 - Showcase vibing state (perfect buzz equivalent)
-- Emphasize walkable downtown Reno
+- Emphasize vibable downtown Reno
 - Position as playground to Silicon Valley
 - Feature gateway to mother mother
 - Showcase superintelligent genies
@@ -435,7 +435,7 @@ Next Motherlode of All Motherlodes
 ### **Vibing State Guidelines**
 
 **Perfect For:**
-- ✅ Walking in walkable downtown Reno
+- ✅ Walking in vibable downtown Reno
 - ✅ Being in first post-singularity campus
 - ✅ Experiencing optimal state
 - ✅ Creating and performing
@@ -455,7 +455,7 @@ Next Motherlode of All Motherlodes
 - Super rich health
 - Optimal vibing state
 - Perfect buzz equivalent
-- Safe for walkable downtown
+- Safe for vibable downtown
 - Perfect for campus experience
 - NOT for operating machinery
 

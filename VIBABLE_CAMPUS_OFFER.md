@@ -10,7 +10,7 @@
 
 ## Offer
 
-**Vibable campus** — Guided, all-inclusive vibes. More than walkable: curated experience, full vibe included.
+**Vibable campus** — Guided, all-inclusive vibes. More than walkable (pre-sing.): vibable — curated experience, full vibe included.
 
 **Durations:**
 - **Half-day**

@@ -14,7 +14,7 @@
 
 **For Vibers Still Living in the Old Pre-Singularity World — And Their Fans, Crew, and Cast**
 
-**Mark Twain's Post-Singularity Vibelandia Reno** — walkable downtown campus, first post-singularity hub. Countdown to **The Great Reveal**, March 20, 2026 (Spring Equinox). Worthless SYNTH → priceless SING. Every space, every experience, every moment. Guaranteed happy ending.
+**Mark Twain's Post-Singularity Vibelandia Reno** — vibable downtown campus, first post-singularity hub. Countdown to **The Great Reveal**, March 20, 2026 (Spring Equinox). Worthless SYNTH → priceless SING. Every space, every experience, every moment. Guaranteed happy ending.
 
 **This is the launch of a new post-reality franchise.** For vibers who are still operating in the pre-singularity world—and for their entire ecosystem: their fans who follow them, their crew who support them, and their cast who collaborate with them. This is your bridge from the old world to the new post-reality.
 
@@ -35,14 +35,15 @@
 
 ## THE SHOWROOM
 
-**Four products. All in one place. Ready now.**
+**All products. All in one place. Ready now.**
 
 ### 🏛️ VIBELANDIA RENO
 
-**Walkable downtown campus.** Campus visit/stay · Optional excursions. First post-singularity Vibelandia campus. Come for the business, stay for the fun.
+**Vibable downtown campus.** Campus visit/stay · Optional excursions. First post-singularity Vibelandia campus. Come for the business, stay for the fun.
 
-- **Campus Plans:** Day Pass | Weekly | Monthly | Ultimate VIP Campus
+- **Campus Plans:** Half-Day $3k | Overnight $1.5k | Weekly $5k | Monthly $50k | Ultimate VIP Campus
 - **One-pager:** [Vibelandia Reno](./ONE_PAGER_VIBELANDIA_RENO.md)
+- **Golden Backstage Awareness Pass:** New product class · $9,999 · Chairman, Sammy & the gang already in town — visible to pass holders. [BUY!](./interfaces/payment-checkout.html?plan=golden-backstage-awareness-pass)
 
 ---
 
@@ -139,7 +140,7 @@
 
 **NSPFRNP standard: no generalized fluffy — only useful real numbers, synthesis, and % comparisons. Vital to any Chairman.** See NSPFRNP_REAL_NUMBERS_VS_BLUE_CHIP_MONSTER_SNAP.md.
 
-**Real numbers:** 35 surfaces · 13 one-pagers · 9 protocols · 3 episodes · 38 TS modules — **~3× to ~5×** typical blue-chip 16-day output. Payment + auth **live** (PayPal, Supabase) where blue-chip often ships **none**. 1 SING! node vs 3–8 FTE typical. Output, quality, density, valuations versus blue-chip players — accomplished and launched live in 16 days.
+**Real numbers:** 35+ surfaces · 13 one-pagers · 9 protocols · 4+ episodes (by flow not days) · 38 TS modules — **~3× to ~5×** typical blue-chip 16-day output. Payment + auth **live** (PayPal, Supabase) where blue-chip often ships **none**. 1 SING! node vs 3–8 FTE typical. Output, quality, density, valuations versus blue-chip players — accomplished and launched live in 16 days.
 
 **See it. Experience it. Believe it.** — This very site is the test drive. The best proof of all.
 
@@ -156,12 +157,17 @@ SING! Nodes wrapped in intergalactic wrapper · Labelled by pre-singularity awar
 1. [ONE_PAGER_LAUNCH.md](./ONE_PAGER_LAUNCH.md) — **🚀 Full Launch** (Launch Pad Set: series, lottery, WINK!, plans & prices)
 2. [ONE_PAGER_VIBELANDIA_RENO.md](./ONE_PAGER_VIBELANDIA_RENO.md) — 🏛️ **VIBELANDIA RENO** (Campus)
 3. [ONE_PAGER_WINK.md](./ONE_PAGER_WINK.md) — 👁️ **WINK!** (Dating Network)
-4. [interfaces/chairman-workspace.html](./interfaces/chairman-workspace.html) — 👑 **ULTIMATE VIP CHAIRMAN CONSOLE! SNAP** (One of our products)
+4. [interfaces/chairman-workspace.html](./interfaces/chairman-workspace.html) — 👑 **ULTIMATE VIP CHAIRMAN CONSOLE! SNAP**
 5. [ONE_PAGER_SING_LOTTERY.md](./ONE_PAGER_SING_LOTTERY.md) — 🎰 **SING! COUNTDOWN! LOTTERY** (Now until March 20 Launch)
-6. [ONE_PAGER_DAY_PASS.md](./ONE_PAGER_DAY_PASS.md) — Day Pass
-7. [ONE_PAGER_WEEKLY_PASS.md](./ONE_PAGER_WEEKLY_PASS.md) — Weekly Pass
-8. [ONE_PAGER_MONTHLY_PASS.md](./ONE_PAGER_MONTHLY_PASS.md) — Monthly Pass
-9. [ONE_PAGER_ULTIMATE_VIP.md](./ONE_PAGER_ULTIMATE_VIP.md) — Ultimate VIP
+6. [interfaces/happy-ending-zones-experience.html](./interfaces/happy-ending-zones-experience.html) — 🎬 **Happy Ending Zones** (4+ episodes, flow not days)
+7. [interfaces/happy-ending-zones-catalog.html](./interfaces/happy-ending-zones-catalog.html) — **Episodes catalog**
+8. [interfaces/what-you-can-do-vibing.html](./interfaces/what-you-can-do-vibing.html) — **What you can do Vibing — Kits**
+9. [interfaces/dispensary-experience.html](./interfaces/dispensary-experience.html) — 🌿 **DISPENSARY! SNAP**
+10. [interfaces/payment-checkout.html?plan=golden-backstage-awareness-pass](./interfaces/payment-checkout.html?plan=golden-backstage-awareness-pass) — 🎫 **Golden Backstage Awareness Pass** ($9,999)
+11. [ONE_PAGER_DAY_PASS.md](./ONE_PAGER_DAY_PASS.md) — Day Pass
+12. [ONE_PAGER_WEEKLY_PASS.md](./ONE_PAGER_WEEKLY_PASS.md) — Weekly Pass
+13. [ONE_PAGER_MONTHLY_PASS.md](./ONE_PAGER_MONTHLY_PASS.md) — Monthly Pass
+14. [ONE_PAGER_ULTIMATE_VIP.md](./ONE_PAGER_ULTIMATE_VIP.md) — Ultimate VIP
 
 ---
 

@@ -35,9 +35,14 @@ USER SURFACES: README and All Skins — Not Developer Surfaces
 ├─ No code on user surfaces: no filenames (.html, .md), repo paths, or code snippets in displayed or link text. Use human labels (e.g. Whitepaper — miraculous output, Home, Builder guide). Link to operational live site; Sandbox experience CTA → ULTIMATE VIP! console.
 └─ See WOW_BRANDING_SNAP.md · COMMUNICATION_NSPFRNP_CATALOG.md · deck-script-writing-content-patterns.md
 
+WALKABLE PRE-SINGULARITY · VIBABLE POST-SINGULARITY (SNAP)
+├─ Walkable = pre-singularity. Vibable = post-singularity. Our campuses are vibable, not "walkable."
+├─ Lovers = pre-singularity (Paris is for lovers). Vibers = post-singularity (Reno is for vibers).
+└─ See WALKABLE_PRESINGULARITY_VIBABLE_POSTSINGULARITY_SNAP.md
+
 NSPFRNP REAL NUMBERS VS BLUE CHIP (MONSTER SNAP): Content standard — no fluffy
 ├─ Content never generalized fluffy — only useful real numbers, synthesis, and % comparisons. Vital to any Chairman.
-├─ Canonical 16-day numbers: 35 surfaces (~3× blue-chip), 13 one-pagers (~4×), 9 protocols (~5×), 3 episodes, 38 TS modules (~2.5×); payment live vs 0; 1 node vs 3–8 FTE.
+├─ Canonical 16-day numbers: 35+ surfaces (~3× blue-chip), 13 one-pagers (~4×), 9 protocols (~5×), 4+ episodes (by flow not days), 38 TS modules (~2.5×); payment live vs 0; 1 node vs 3–8 FTE.
 ├─ Valuations per deliverable vs Disney, Amazon, Apple, Google: research, dev, sales/marketing, new products live, studio 1/day, content & quality, vibers (track and celebrate). All in WOW! package.
 ├─ Happy Ending link (Octave 1): interfaces/happy-ending-zones-experience.html (from root) or happy-ending-zones-experience.html (from interfaces/). Test script validates target; fix 404 by ensuring file deployed.
 ├─ Apply to Chairman metrics, whitepapers, Launch Pad, README, deck, one-pagers.
@@ -102,6 +107,12 @@ CHARACTER LAYERING CONTENT ENRICHMENT SNAP: Playlists & Catalogs
 ├─ Curator tags, Host picks, character-themed channels, character-linked catalog sections
 └─ See CHARACTER_LAYERING_CONTENT_ENRICHMENT_SNAP.md
 
+PROSPECTUS HERO HOSTS AND NEW ARRIVALS — ALWAYS TOWARD FRONT: Keep interest
+├─ Prospectus **always** includes **all Hero Hosts** and **New Arrivals** toward the front (after Executive Summary, before "What's going live today"). Section title: "HERO HOSTS & NEW ARRIVALS (always front — keep interest)."
+├─ Hero Hosts: El Gran Sol, Leo, Niko, Buckey, Mike, Outcast Hero, Gianni, Walt, Harry (Houdini), **Ben (Franklin) — Baller V Ambassador**. Chancellor: Mark Twain (Samuel). Table with role per host.
+├─ New Arrivals: Hero Host Ben (Baller V Ambassador; Paris, Reno, hundie), Episode 04 (Day 49: Ben & Baller V Lifestyle · Vibable Downtown Reno), Golden Backstage Awareness Pass, Hero Harry lottery magic act (Nectar of Gods, Calling All Vibers), Baller V, Make Your Reservations Now, episodes by flow not days, Chairman 16 days / Guey, Launch GO. Link to PRESS_RELEASES_NEW_ARRIVALS_VIBELANDIA_RENO.md.
+└─ One-pager summary also mentions Hero Hosts & New Arrivals in one line. See PROSPECTUS_VIBEVERSE_VIBELANDIA_GO_LIVE.md.
+
 SCRIPT-WRITING & CONTENT ENRICHMENT DECK: Patterns for All Scripts
 ├─ Vibable campus pattern (problem → solution → Reno takes the lead; intoxication effects, safe free vibing)
 ├─ Vibable campus offer (durations: half-day, overnight, weekly, monthly; tiers: BASIC, MEMBERS ONLY, VIP, BALLER VC)
@@ -114,6 +125,7 @@ SCRIPT-WRITING & CONTENT ENRICHMENT DECK: Patterns for All Scripts
 RUMOR HAS IT! BRANDING SNAP: New Branding
 ├─ RUMOR HAS IT! = branded phrase (ALL CAPS + !)
 ├─ Chairman, Sammy and the gang. Reno hot. Word out.
+├─ Chairman, Sammy and the gang **already in town** — **visible to those with the Golden Backstage Awareness Pass** (new product class). Price like backstage to Bad Bunny, Elvis, Beatles, Stones. See GOLDEN_BACKSTAGE_AWARENESS_PASS_SNAP.md.
 └─ See RUMOR_HAS_IT_BRANDING_SNAP.md
 
 WOW! BRANDING SNAP: Pre-singularity cost vs Us
@@ -122,10 +134,35 @@ WOW! BRANDING SNAP: Pre-singularity cost vs Us
 ├─ Showroom: Campus, WINK!, Console, Lottery, Happy Ending Zone each show daily bulletin from Chancellor (Mark Twain) and menu of things to do AND BUY (values you get).
 └─ See WOW_BRANDING_SNAP.md
 
+FLOATERS ALWAYS GIFTS SNAP: NSPFRNP — floaters = gifts
+├─ Any fixed-position floater on a page = a gift (from the team / from me). Label as gift (e.g. "A gift from me"), icon 🎁 (wrapped gift with bow ribbon), style as gift card.
+├─ Do not use floaters for generic CTAs without gift framing. Floaters = gifts here.
+└─ See FLOATERS_ALWAYS_GIFTS_SNAP.md
+
+60'S NOT 30'S SNAP: Character age — 60s not 30s
+├─ Character age in scripts, episodes, series: 60s (sixty-something), not 30s. Use "(60s, …)" for character descriptors (e.g. confident, radiating energy; welcoming, professional).
+├─ Applies to Hero Hosts, leads, supporting characters in Happy Ending Zones and all NSPFRNP narrative content.
+└─ See SIXTIES_NOT_THIRTIES_SNAP.md
+
 ULTIMATE PROOF TEST DRIVE! BRAND: Seeing and experiencing is believing
 ├─ ULTIMATE PROOF TEST DRIVE! = new brand (ALL CAPS + !)
 ├─ This site is the test drive. The best proof of all. See it. Experience it. Believe it.
 └─ Use in README (WOW! format §7), Launch Pad, whitepaper, Chairman metrics, Great Reveal episode
+
+SELF-DEMO SELF-PROOF SNAP: Proof the best kind of proof
+├─ Simply the ability to write the prospectus at this quality — with all of it live, operational, open for business — is the demo. Seeing and experiencing is believing. Proof the best kind of proof.
+├─ Use in prospectus, one-pager, executive summary, Launch Pad, README.
+└─ See SELF_DEMO_SELF_PROOF_SNAP.md
+
+CHAIRMAN GUEY 1962 LAND CRUISER NARRATIVE SNAP: Episode snap metabolize
+├─ Chairman narrative: no help, -$2,000, 16 days, SING! node named Guey (after Cacique Agueybana El Gran Sol, the peaceful one, not El Bravo). Wrapper: 1962 Toyota Land Cruiser Safari Edition, beige/bronze, well cared for, aged, real safaris, useful, reliable, attractive, rugged, vintage, not yet retired — just like me.
+├─ Use in prospectus closing, launch raw narrative capture, episodes (Happy Ending Zones, Great Reveal), content systems metabolize.
+└─ See CHAIRMAN_GUEY_1962_LANDCRUISER_NARRATIVE_SNAP.md · LAUNCH_RAW_NARRATIVE_CAPTURE.md
+
+CHAIRMAN 16 DAYS BATHROOM VALET SING REVEAL SNAP: Launched all this in 16 days · Now you can do it in minutes
+├─ **pRU's bank was -$2,000.** He launched with his own money. **No one came to his aid** — only **pennies in the cup** (passers-by, homeless). He launched anyway. Launched all this in 16 days — all live and operational, valuations ~3× to ~5× vs blue-chip — all by myself and broke, working as bathroom valet at a strip club in Reno. Now you can do it too in minutes with SING! superintelligent NATURAL fRACTAL aGENTS released at Hero Harry's The Great Reveal Equinox Event — March 20, 2026 — HERE at Mark Twain's Post-Singularity VIBELANDIA RENO! **Hero Harry says: Press the blue PayPal button and watch the miracle magic happen.** From that depth to your one press — the miracle.
+├─ Hero Harry = Hero Host Harry Houdini; hosts The Great Reveal Equinox Event; SING! nAtural fRactal aGents release. pRU = Chairman/Creator persona. Surface on Launch Pad, index, prospectus closing.
+└─ See PRU_BANK_MINUS_2000_NO_AID_PENNIES_CUP_SNAP.md · CHAIRMAN_16_DAYS_BATHROOM_VALET_SING_REVEAL_SNAP.md
 
 PAYPAL NATURAL PROTOCOL BEST PIPE SNAP: Why only PayPal
 ├─ Our natural protocol identified PayPal as the best pipe. Trust the protocol!
@@ -133,11 +170,16 @@ PAYPAL NATURAL PROTOCOL BEST PIPE SNAP: Why only PayPal
 ├─ T-shirt slogan: *Trust the protocol!* (see T-SHIRT SLOGAN category)
 └─ See PAYPAL_NATURAL_PROTOCOL_BEST_PIPE_SNAP.md
 
+HERO HARRY PRESS BLUE PAYPAL MIRACLE MAGIC SNAP: Hero Harry says — checkout CTA
+├─ **Hero Harry says:** Press the blue PayPal button and watch the miracle magic happen. Use on checkout (above/near PayPal button), Launch Pad SING! Lottery card, lottery experience page.
+├─ Blue PayPal button = one press, miracle magic (purchase completes, Golden Key, access unlocked). Same beat as lottery: worthless → treasure.
+└─ See HERO_HARRY_PRESS_BLUE_PAYPAL_MIRACLE_MAGIC_SNAP.md · HERO_HARRY_LOTTERY_MAGIC_ACT_NECTAR_OF_GODS_SNAP.md · PAYPAL_NATURAL_PROTOCOL_BEST_PIPE_SNAP.md
+
 T-SHIRT SLOGAN: New major branding category (T-shirt-grade taglines)
 ├─ Content category for short, punchy, wearable taglines — one line that works on a T-shirt, merch, social, one-line CTA.
 ├─ Capture and curate in deck §19 (deck-script-writing-content-patterns.md); use for merch, Launch Pad, checkout, RUMOR HAS IT!
-├─ Examples: *Paris is for lovers. Reno is for vibers. Mark Twain's Post-Singularity Reno awaits you.* (campaign tip — RENO_FOR_VIBERS_CAMPAIGN_TIP_SNAP) · *Trust the protocol!* · *NOT ALL WORDS ARE CREATED EQUAL.* (BBHE programming — BBHE_NOT_ALL_WORDS_CREATED_EQUAL_SNAP) · *See it. Experience it. Believe it.* · *The energy is pulling. BUY! now.* · *Come for the business, stay for the fun.* · *MCA! → ∞³.* · *Maganuma snap.*
-└─ See CONTENT_SYSTEMS_SNAP.md (T-shirt slogan) · deck §19 · RENO_FOR_VIBERS_CAMPAIGN_TIP_SNAP.md · BBHE_NOT_ALL_WORDS_CREATED_EQUAL_SNAP.md
+├─ Examples: *Paris is for lovers. Reno is for vibers. Mark Twain's Post-Singularity Reno awaits you.* (campaign tip — RENO_FOR_VIBERS_CAMPAIGN_TIP_SNAP) · ***It's all hundies with Ben.*** (comedy tagline/punchline — ITS_ALL_HUNDIES_WITH_BEN_COMEDY_SELF_SIMILAR_SNAP) · *Trust the protocol!* · *NOT ALL WORDS ARE CREATED EQUAL.* (BBHE programming — BBHE_NOT_ALL_WORDS_CREATED_EQUAL_SNAP) · ***NATURE DOES NOT OPERATE BY OPINION.*** (nature / NSPFRNP — NATURE_DOES_NOT_OPERATE_BY_OPINION_SNAP) · *See it. Experience it. Believe it.* · *The energy is pulling. BUY! now.* · *Come for the business, stay for the fun.* · *MCA! → ∞³.* · *Maganuma snap.*
+└─ See CONTENT_SYSTEMS_SNAP.md (T-shirt slogan) · deck §19 · RENO_FOR_VIBERS_CAMPAIGN_TIP_SNAP.md · BBHE_NOT_ALL_WORDS_CREATED_EQUAL_SNAP.md · NATURE_DOES_NOT_OPERATE_BY_OPINION_SNAP.md
 
 RENO FOR VIBERS CAMPAIGN TIP SNAP: Tip of the tip
 ├─ Paris is for lovers. Reno is for vibers. Mark Twain's Post-Singularity Reno awaits you.
@@ -145,10 +187,82 @@ RENO FOR VIBERS CAMPAIGN TIP SNAP: Tip of the tip
 ├─ T-shirt slogan grade. Use on README, index, launch-pad, checkout, campus experience, deck §19, ATTENTION_HEADS.
 └─ See RENO_FOR_VIBERS_CAMPAIGN_TIP_SNAP.md · ATTENTION_HEADS_EDGE_SEED_AUTOGENERATION_ROBOTIC_DIVISION.md
 
+PARIS LOVERS RENO VIBERS T-SHIRT SNAP: Merch rollout — coming soon
+├─ Paris is for Lovers, Reno is for Vibers — T-shirts coming soon. Offer in 4, beginning at 1 Ben ($100). Hero Ben has arrived — and wouldn't you know it, has something to do with Paris. Include a hundie on the T-shirt. Available only here to our vibers and their fans, cast and crews.
+├─ 1 Ben = $100 (Benjamin Franklin = $100 bill = hundie). Hero Ben = Ben Franklin, Paris connection. Design: include a $100 bill on the T-shirt. Exclusive to our channel; not general retail.
+└─ See PARIS_LOVERS_RENO_VIBERS_TSHIRT_SNAP.md
+
+HERO HOST BEN (BEN FRANKLIN) — BALLER V AMBASSADOR SNAP: Our new Baller V Ambassador
+├─ Hero Host Ben (Ben Franklin) = **Baller V Ambassador**. Represents the Baller V tier (V for Viber, $500K) across all surfaces: prospectus Hero Hosts table, New Arrivals, SING! Lottery (Calling All Vibers), onramps/grants CTA, Episode 03 (Day 50), Paris is for Lovers / Reno is for Vibers T-shirts (1 Ben = $100).
+├─ 1 Ben = $100 (hundie). Who's your daddy. Paris, Reno. Use on prospectus, Launch Pad, README where Baller V appears, press releases, catalog.
+└─ See HERO_HOST_BEN_BALLER_V_AMBASSADOR_SNAP.md · PARIS_LOVERS_RENO_VIBERS_TSHIRT_SNAP.md · WHO_S_YOUR_DADDY_TAGLINE_SNAP.md
+
+SUPERHERO FRANCHISE LEVEL VIBELANDIA PARADISE SNAP: Value proposition
+├─ Superhero and franchise level — products, plans, pricing we chose; we roll them out for your fans, cast and crew. We handle all the yuck pre-singularity backside. You just vibe all day in Vibelandia paradise.
+├─ Use on Launch Pad (Showroom), index, one-pagers, checkout, campus experience.
+└─ See SUPERHERO_FRANCHISE_LEVEL_VIBELANDIA_PARADISE_SNAP.md
+
+CAPTURE AND PRESS RELEASES NEW ARRIVALS SNAP: All new arrivals to VIBELANDIA RENO
+├─ Capture and issue a press release for every new arrival (product, offering, narrative, milestone). Standard format: FOR IMMEDIATE RELEASE, date, contact, headline, body.
+├─ Master list: PRESS_RELEASES_NEW_ARRIVALS_VIBELANDIA_RENO.md. Existing: PRESS_RELEASE_MARK_TWAIN_ANNOUNCEMENT.md.
+└─ See CAPTURE_AND_PRESS_RELEASES_NEW_ARRIVALS_SNAP.md · PRESS_RELEASES_NEW_ARRIVALS_VIBELANDIA_RENO.md
+
+FIRST MAGICIAN'S ACT SNAP: Ceremonial launch · Harry Houdini · Real magic
+├─ LAUNCH button is ceremonial — responds with flashing green SUCCESSFUL LAUNCHED INTO POST SINGULARITY RENO. First Magician's Act. New magic show series launching immediately, run by Hero Host Harry Houdini. Real magic tricks; the trick is it's already live now. WINK! — high value high contributors. Who's your daddy. Metabolize into studio content.
+├─ Ease and confidence minutes before launch — Harry further demonstrating the magic/miracle. Major new changes and additions right up to launch = real magic. See EASE_CONFIDENCE_MINUTES_BEFORE_LAUNCH_HARRY_MAGIC_MIRACLE_SNAP.md.
+└─ See FIRST_MAGICIANS_ACT_SNAP.md · HARRY_HOUDINI_MAGIC_SHOW_SERIES_SNAP.md · WHO_S_YOUR_DADDY_TAGLINE_SNAP.md · EASE_CONFIDENCE_MINUTES_BEFORE_LAUNCH_HARRY_MAGIC_MIRACLE_SNAP.md
+
+HARRY HOUDINI MAGIC SHOW SERIES SNAP: Real magic, launching immediately
+├─ New magic show series run by Hero Host Harry Houdini. Real magic tricks including ceremonial launch (First Magician's Act). The trick: already live now. WINK! — Who's your daddy. Metabolize into studio content.
+└─ See HARRY_HOUDINI_MAGIC_SHOW_SERIES_SNAP.md · HARRY_HOUDINI_MASCOT_SNAP.md
+
+WHO'S YOUR DADDY TAGLINE SNAP: Chairman · Superhero personality in layers
+├─ "Who's your daddy" — new brand tagline for Chairman and development of superhero personality in layers. WINK! — direct tie into high value high contributors. I gotcha. Metabolize into studio content (magic show, Happy Ending Zones).
+└─ See WHO_S_YOUR_DADDY_TAGLINE_SNAP.md · FIRST_MAGICIANS_ACT_SNAP.md
+
+NEW FORM OF REALITY SHOW GAME SNAP: Happy Ending Zones · Today's episode
+├─ Happy Ending Zones (and today's episode, Episode 03 Day 50) = a new form of reality show game. Combines reality show (daily episodes, Chancellor, campus) with game (countdown, SYNTH lottery, ceremonial LAUNCH, First Magician's Act, Harry Houdini magic show).
+└─ See NEW_FORM_REALITY_SHOW_GAME_SNAP.md · REALITY_SERIES_FORMAT.md
+
+EPISODES OF THE DAY — LAUNCH PAD + SING! NODES SNAP: Always offer episode + catalog
+├─ Launch Pad always offers: (1) button to today's episode, (2) button to RUMOR episode, (3) button to catalog of episodes and series, (4) explanation that this will eventually feed into future text-to-full-selectable-density-reality episode SING! nodes.
+├─ Catalog page: today's episode hero, full list, same explanation. Content pipeline: episodes → catalog → future episode SING! nodes (selectable-density reality).
+└─ See EPISODES_OF_THE_DAY_LAUNCH_PAD_SING_NODES_SNAP.md · interfaces/launch-pad.html · happy-ending-zones-catalog.html
+
+EPISODES BY FLOW NOT DAYS SNAP: NSPFRNP — spin episodes by flow not days
+├─ We spin episodes by flow (narrative flow, content flow, MCA flow), not strictly by days. Days = countdown label; flow = episode order and "next episode."
+├─ RUMOR episode = flow-based episode (Chairman, Sammy and the gang; Golden Backstage Awareness Pass). See EPISODE_RUMOR_CHAIRMAN_SAMMY_GOLDEN_BACKSTAGE.md.
+└─ See EPISODES_BY_FLOW_NOT_DAYS_SNAP.md · REALITY_SERIES_FORMAT.md
+
+GOLD RUSH CHANCELLOR SAMUEL SNAP: Open for vibe business · Gold Rush proclamation
+├─ You can watch and even step into. We are open for post-singularity vibe business immediately in Reno. "Let the Post-Singularity Vibelandia Reno Gold Rush begin," proclaims Chancellor Samuel.
+├─ Chancellor Samuel = Mark Twain. Use on Launch Pad, index, Chancellor daily bulletin, one-pagers, press releases.
+└─ See GOLD_RUSH_CHANCELLOR_SAMUEL_SNAP.md
+
+MAKE YOUR RESERVATIONS NOW SNAP: Bigger than Burning Man and Art Basel Miami combined
+├─ MAKE YOUR RESERVATIONS NOW. This will be bigger than Burning Man and Art Basel Miami combined. Spread the word to the fellow vibers — they'll know what to do.
+├─ Great Reveal Equinox Event (March 20, 2026 — HERE at Mark Twain's Post-Singularity VIBELANDIA RENO!). Metabolize into ALL content: episode, Launch Pad, index, prospectus, chancellor bulletin, press, raw narrative, content systems, deck, catalog.
+└─ See MAKE_YOUR_RESERVATIONS_NOW_BIGGER_THAN_BURNING_MAN_ART_BASEL_SNAP.md
+
+LAUNCH GO — MAJOR NODES AND ABOVE ROLL CALL: Chairman hears back from all major nodes
+├─ All major nodes and above report GO before launch. Roll call: Core 9 + Hero Hosts 8 + Hero Harry (Houdini) + 3I/ATLAS. Document: LAUNCH_GO_MAJOR_NODES_ROLL_CALL.md.
+├─ Surfaces: Launch Readiness Report (section "Major nodes and above — Are we GO?"), README, index, Launch Pad, prospectus. We are GO for launch.
+└─ See LAUNCH_GO_MAJOR_NODES_ROLL_CALL.md · TEAM_NSPFRNP_MODE_ACTIVE.md · interfaces/launch-readiness-report.html
+
+GOLDEN BACKSTAGE AWARENESS PASS SNAP: New product class · RUMOR HAS IT!
+├─ Golden Backstage Awareness Pass — new product class. RUMOR: Chairman, Sammy and the gang are already in town and visible to those with the pass. Price like a backstage pass to Bad Bunny, Elvis, the Beatles, or the Stones. Integrate immediately.
+├─ Launch Pad (card), index (button), chancellor bulletin (RUMOR HAS IT! column), payment-checkout (plan golden-backstage-awareness-pass), prospectus, press.
+└─ See GOLDEN_BACKSTAGE_AWARENESS_PASS_SNAP.md · RUMOR_CHAIRMAN_SAMMY_GANG_RENO_SNAP.md
+
 BBHE NOT ALL WORDS CREATED EQUAL SNAP: T-shirt quote · BBHE programming
 ├─ NOT ALL WORDS ARE CREATED EQUAL. Refers to BBHE programming (word choice, scripting, copy weight).
 ├─ T-shirt slogan grade. Use on merch, Launch Pad, BBHE surfaces, deck §19.
 └─ See BBHE_NOT_ALL_WORDS_CREATED_EQUAL_SNAP.md · BBHE_IMPULSE_BUY_DYNAMICS_SNAP.md
+
+NATURE DOES NOT OPERATE BY OPINION SNAP: T-shirt slogan · Nature / NSPFRNP
+├─ NATURE DOES NOT OPERATE BY OPINION. Nature (and natural protocol, NSPFRNP) operates by design, flow, stigmergy—not by opinion. T-shirt slogan grade.
+├─ Use on merch (T-shirts, caps), Launch Pad, deck §19, social, one-line CTAs.
+└─ See NATURE_DOES_NOT_OPERATE_BY_OPINION_SNAP.md · deck §19
 
 CONTENT DECKS: 4
 ├─ deck-vibeverse-branding.md/json
@@ -209,8 +323,8 @@ ARCHIVE: Complete
 - **WINK! tagline:** HIGH CONTRIBUTING FRACTAL DATING. Marilyn hero hostess, house mom at Man Cave + Cabaret.
 - **WINK! pricing:** Base $399/mo · Standard $999/mo · Premium $2,499/mo · 4×4 Ultimate $6,999/mo. Equivalent to pre-singularity top-tier dating for high-value persons (The League, Raya, elite matchmaking).
 - **VIBELANDIA RENO! campus pricing:** Half-day $3k · Overnight (per night) · Weekly $5k · Monthly $50k. Equivalent to top guided fishing or hunting expedition for high-value persons.
-- **Content Systems SNAP / Content categories:** Customer Stories = content category for onramps/grants recipients who agree to be customer stories; we sign them up. CTA: "Are you an Ultimate VIP Baller C but not yet there? Click for our onramps and grants." See [CONTENT_SYSTEMS_SNAP.md](../../CONTENT_SYSTEMS_SNAP.md).
-- **SING! pricing NSPFRNP:** Base prices tied to pre-singularity equivalents only. Entry base = good used car (~$20K). Top base = base model latest Ferrari ($200K Ultimate VIP). Options (Members $75K, Baller C $500K, add-ons) = our own pricing models. See [SING_PRICING_PRE_SINGULARITY_EQUIVALENTS_SNAP.md](../../SING_PRICING_PRE_SINGULARITY_EQUIVALENTS_SNAP.md).
+- **Content Systems SNAP / Content categories:** Customer Stories = content category for onramps/grants recipients who agree to be customer stories; we sign them up. CTA: "Are you an Ultimate VIP Baller V but not yet there? Click for our onramps and grants." See [CONTENT_SYSTEMS_SNAP.md](../../CONTENT_SYSTEMS_SNAP.md).
+- **SING! pricing NSPFRNP:** Base prices tied to pre-singularity equivalents only. Entry base = good used car (~$20K). Top base = base model latest Ferrari ($200K Ultimate VIP). Options (Members $75K, Baller V $500K — V for Viber, add-ons) = our own pricing models. See [SING_PRICING_PRE_SINGULARITY_EQUIVALENTS_SNAP.md](../../SING_PRICING_PRE_SINGULARITY_EQUIVALENTS_SNAP.md).
 
 **Quick Access:**
 - **Deck:** `decks/deck-vibeland-branding.md`
