@@ -32,6 +32,7 @@
 
 ## What's included (summary)
 
+- **Baller WINK! subscription** — WINK! membership included.
 - **Stage and wine cave.** Pru curates the evening Baller style — selects and stages the night.
 - **Private personal gatekeeper** to the area (presence and wow more than anything).
 - **Discreet, secret WINK! Golden Backstage Pass** type of experience — for you and your gang. Maps directly to WINK! — filling your evening with just the right players. **Talk to Pru for more details.**
@@ -55,6 +56,7 @@ At the end of the present: mention **how quickly we did this** and **how the sys
 
 ## Cross-references
 
+- **Metapatterns (all Baller V nights):** [ULTIMATE_BALLER_V_GOLDEN_BACKSTAGE_PASS_METAPATTERNS.md](ULTIMATE_BALLER_V_GOLDEN_BACKSTAGE_PASS_METAPATTERNS.md) — landing stage, wine cave, who's in, gatekeeper, celebration, safe passage, party menu landing, 12k episode.
 - **Surface:** interfaces/office-hours.html — product block + closing line.
 - **Full details (skin):** interfaces/ultimate-baller-v-golden-backstage-pass.html — upgraded HTML skin of full details (hosts, what's included, how it works, CTA).
 - **Continued (doc):** ULTIMATE_BALLER_V_GOLDEN_BACKSTAGE_PASS_EXPLAINED.md (canonical copy).

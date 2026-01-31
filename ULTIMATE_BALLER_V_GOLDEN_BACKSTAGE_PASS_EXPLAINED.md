@@ -2,7 +2,8 @@
 
 **Product:** Ultimate Baller V Golden Backstage Pass package  
 **Offered at:** Office Hours only. Subject to availability.  
-**Intro:** [ULTIMATE_BALLER_V_GOLDEN_BACKSTAGE_PASS_PACKAGE_SNAP.md](ULTIMATE_BALLER_V_GOLDEN_BACKSTAGE_PASS_PACKAGE_SNAP.md) · [Office Hours](interfaces/office-hours.html) · **Full details (skin):** [Ultimate Baller V Golden Backstage Pass](interfaces/ultimate-baller-v-golden-backstage-pass.html)
+**Intro:** [ULTIMATE_BALLER_V_GOLDEN_BACKSTAGE_PASS_PACKAGE_SNAP.md](ULTIMATE_BALLER_V_GOLDEN_BACKSTAGE_PASS_PACKAGE_SNAP.md) · [Office Hours](interfaces/office-hours.html) · **Full details (skin):** [Ultimate Baller V Golden Backstage Pass](interfaces/ultimate-baller-v-golden-backstage-pass.html)  
+**Metapatterns (all Baller V nights):** [ULTIMATE_BALLER_V_GOLDEN_BACKSTAGE_PASS_METAPATTERNS.md](ULTIMATE_BALLER_V_GOLDEN_BACKSTAGE_PASS_METAPATTERNS.md) — landing stage, wine cave, gatekeeper, party menu, delivered home safe, 12k episode.
 
 ---
 
@@ -24,6 +25,7 @@ This doc is where the explanation continues — beyond the intro on Office Hours
 
 ## What's included
 
+- **Baller WINK! subscription** — WINK! membership included.
 - **The stage and the wine cave.** I curate the evening for you Baller style — I select and stage the night.
 - **A private personal gatekeeper to the area** — for presence and wow more than anything.
 - All implemented in a **discreet, secret WINK! Golden Backstage Pass** type of experience — for you and your gang.
