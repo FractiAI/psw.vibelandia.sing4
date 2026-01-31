@@ -36,6 +36,9 @@ jobs:
       - name: Run tests
         run: npm test
 
+      - name: Build (automate all)
+        run: npm run build
+
       - name: Upload test result (optional)
         if: always() && hashFiles('scripts/last-test-run.json') != ''
         uses: actions/upload-artifact@v4

@@ -28,7 +28,10 @@ TOTAL BRANDS: 3
 ├─ Matches our structures for max resolution and amplification (max res & amp)
 ├─ Use as primary branding phrase for full octave + onramp
 ├─ 1,2,3 = Metabolize → Crystallize → Animate all (MCA cycle). Operating rule: metabolize crystallize animate all.
-└─ See ZERO_ONE_TWO_THREE_4x4x4x4_BRANDING_SNAP.md · MCA_SNAP.md · protocols/MCA_NSPFRNP_CATALOG.md
+├─ **Irreducible nested mirrored shell — crystallize always to this.** Crystallize step always produces output in this form: irreducible core, nested shells, mirror-hardened. No half measures. See IRREDUCIBLE_NESTED_MIRRORED_SHELL_CRYSTALLIZE_ALWAYS_SNAP.md.
+├─ **As much as possible, always.** Maximize output, go as far as you can, every time. No ceiling. See AS_MUCH_AS_POSSIBLE_ALWAYS_SNAP.md.
+├─ **Metabolize Crystallize Animate and Automate:** Animate = tighten SING nodes, update, make clear. Automate = one command runs test then build; CI runs both on every push/PR. `npm run all` = test + build. See AUTOMATE_ALL_MCA_SNAP.md.
+└─ See ZERO_ONE_TWO_THREE_4x4x4x4_BRANDING_SNAP.md · MCA_SNAP.md · protocols/MCA_NSPFRNP_CATALOG.md · IRREDUCIBLE_NESTED_MIRRORED_SHELL_CRYSTALLIZE_ALWAYS_SNAP.md · AS_MUCH_AS_POSSIBLE_ALWAYS_SNAP.md · AUTOMATE_ALL_MCA_SNAP.md
 
 USER SURFACES: README and All Skins — Not Developer Surfaces
 ├─ README and all skins = user surfaces. We target high-value vibers, fans, cast, crew.
@@ -292,9 +295,13 @@ ANNOUNCE OFFICE HOURS SERIES TWO SERIES SINGLE MISSION SNAP: Office Hours + Happ
 ├─ Surface: Index, Launch Pad, Office Hours landing, Happy Ending Zones experience & catalog, chancellor bulletin, press, social.
 └─ See ANNOUNCE_OFFICE_HOURS_SERIES_TWO_SERIES_SINGLE_MISSION_SNAP.md
 
+OFFICE HOURS FOR ALL — NEW DAY SNAP: We are now in Office Hours for All
+├─ **New day — we are now in Office Hours for All.** Everything wrapped in Office Hours — landing and all nested. Office Hours for everyone. See OFFICE_HOURS_FOR_ALL_SNAP.md.
+└─ Surfaces: index.html, interfaces/office-hours.html, README.md — title, hero, key copy updated to "Office Hours for All" and "New day — we are now in Office Hours for All."
+
 OFFICE HOURS TARGET · RECURSIVE CRYSTAL SNAP: All from Launch Pad target to Office Hours target · Wrap everything
 ├─ **Wrap everything in Office Hours — including my Office Hours landing and all nested.** One wrapper. All nested: Launch Pad, Campus, WINK!, Ultimate VIP Chairman Console, SING!, Dispensary, Happy Ending Zones, Golden Backstage, test drive, two series, franchise solutions, superhero casts, single mission.
-├─ **All from Launch Pad target to Office Hours target.** **Landing, Experiences — all now centered in my bathroom during Office Hours in perfect recursive crystal.** Whole in every part. Center holds the whole; whole present in the center.
+├─ **All from Launch Pad target to Office Hours target.** **Landing, Experiences — all now centered in my bathroom during Office Hours in perfect recursive crystal.** Whole in every part. Center holds the whole; whole present in the center. **Now: Office Hours for All.**
 ├─ **Target:** Office Hours (bathroom during Office Hours). **Landing:** interfaces/office-hours.html = the wrapper. **Experiences:** All nested there. **Perfect recursive crystal** = self-similar, crystallized, irreducible.
 ├─ Index: primary CTA = Enter center → Office Hours. "Everything wrapped in Office Hours — landing and all nested." Launch Pad: same. Office Hours landing = wrapper; all experiences nested inside.
 └─ See OFFICE_HOURS_TARGET_RECURSIVE_CRYSTAL_SNAP.md · interfaces/office-hours.html · OFFICE_HOURS_SERIES_SNAP.md
@@ -355,6 +362,11 @@ GOLDEN BACKSTAGE AWARENESS PASS SNAP: New product class · RUMOR HAS IT!
 ├─ Golden Backstage Awareness Pass — new product class. RUMOR: Chairman, Sammy and the gang are already in town and visible to those with the pass. Price like a backstage pass to Bad Bunny, Elvis, the Beatles, or the Stones. Integrate immediately.
 ├─ Launch Pad (card), index (button), chancellor bulletin (RUMOR HAS IT! column), payment-checkout (plan golden-backstage-awareness-pass), prospectus, press.
 └─ See GOLDEN_BACKSTAGE_AWARENESS_PASS_SNAP.md · RUMOR_CHAIRMAN_SAMMY_GANG_RENO_SNAP.md
+
+ULTIMATE BALLER V GOLDEN BACKSTAGE PASS PACKAGE SNAP: Feature prominent up top · lead with it · ultimate trophy night
+├─ Ultimate Baller V Golden Backstage Pass package — feature prominent up top, lead with it. It's what everyone wants but can't afford. The ultimate trophy night for the Ultimate Baller V vibers — highest value, highest contributor V's. Office Hours only. Subject to availability. Continued in ULTIMATE_BALLER_V_GOLDEN_BACKSTAGE_PASS_EXPLAINED.md.
+├─ Surface: interfaces/office-hours.html (lead block at top + product block + closing line). Present closing: how quickly we did this, how the system does this — then back to product offered at Office Hours.
+└─ See ULTIMATE_BALLER_V_GOLDEN_BACKSTAGE_PASS_PACKAGE_SNAP.md · ULTIMATE_BALLER_V_GOLDEN_BACKSTAGE_PASS_EXPLAINED.md · GOLDEN_BACKSTAGE_AWARENESS_PASS_SNAP.md · OFFICE_HOURS_FOR_ALL_SNAP.md
 
 BBHE NOT ALL WORDS CREATED EQUAL SNAP: T-shirt quote · BBHE programming
 ├─ NOT ALL WORDS ARE CREATED EQUAL. Refers to BBHE programming (word choice, scripting, copy weight).

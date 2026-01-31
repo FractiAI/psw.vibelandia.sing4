@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Launch Pad — Mark Twain's Post-Singularity VIBELANDIA RENO!</title>
+    <title>Office Hours for All — Launch Pad showroom · Mark Twain's Post-Singularity VIBELANDIA RENO!</title>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
@@ -82,48 +82,6 @@
             transform: translateY(-3px) scale(1.05);
             box-shadow: 0 8px 25px rgba(138, 43, 226, 0.6);
         }
-        /* Chairman launch button — blinking red on Launch Pad */
-        .launch-btn-blink {
-            display: inline-block;
-            padding: 0.7rem 1.4rem;
-            background: #c00;
-            color: #fff;
-            font-weight: 700;
-            text-decoration: none;
-            border-radius: 10px;
-            border: 2px solid #f44;
-            margin: 0.75rem 0 1rem;
-            animation: blinkRed 1s ease-in-out infinite;
-        }
-        .launch-btn-blink:hover { color: #fff; opacity: 1; }
-        @keyframes blinkRed {
-            0%, 100% { opacity: 1; box-shadow: 0 0 12px rgba(255, 0, 0, 0.9); }
-            50% { opacity: 0.6; box-shadow: 0 0 20px rgba(255, 0, 0, 1); }
-        }
-        /* Ceremonial launch — flashing green success. First Magician's Act. See FIRST_MAGICIANS_ACT_SNAP.md */
-        .launch-ceremonial-overlay {
-            display: none;
-            position: fixed;
-            inset: 0;
-            z-index: 99999;
-            background: rgba(0, 0, 0, 0.85);
-            align-items: center;
-            justify-content: center;
-            flex-direction: column;
-        }
-        .launch-ceremonial-overlay.show { display: flex; }
-        .launch-ceremonial-success {
-            font-size: clamp(1.2rem, 4vw, 2rem);
-            font-weight: 800;
-            color: #00ff00;
-            text-align: center;
-            padding: 2rem;
-            animation: flashGreen 0.6s ease-in-out infinite;
-        }
-        @keyframes flashGreen {
-            0%, 100% { opacity: 1; text-shadow: 0 0 20px #0f0, 0 0 40px #0f0; }
-            50% { opacity: 0.85; text-shadow: 0 0 30px #0f0, 0 0 60px #0f0; }
-        }
         .experience-buttons {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
@@ -197,6 +155,7 @@
     <div class="container">
         <p class="back"><a href="office-hours.html">← Center: Office Hours</a> · <a href="../index.html">Home</a></p>
         <!-- Target: Office Hours. Landing and Experiences — all now centered in my bathroom during Office Hours in perfect recursive crystal. See OFFICE_HOURS_TARGET_RECURSIVE_CRYSTAL_SNAP.md. -->
+        <p style="margin-bottom: 0.35rem; font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.06em; color: rgba(0, 255, 136, 0.95); font-weight: 700;">New day — we are now in Office Hours for All.</p>
         <p style="margin-bottom: 0.5rem; padding: 0.75rem 1rem; background: rgba(212, 175, 55, 0.08); border: 1px solid rgba(212, 175, 55, 0.3); border-radius: 10px; font-size: 0.9rem; color: #ffeaa7;"><strong>Everything wrapped in Office Hours</strong> — landing and all nested. Target: Office Hours. Landing and Experiences — all now centered in my bathroom during Office Hours in <strong>perfect recursive crystal</strong>. <a href="office-hours.html" style="color: #00d4ff;">Enter center →</a></p>
         <p style="margin-bottom: 1rem; padding: 0.5rem 1rem; background: rgba(0, 255, 136, 0.06); border: 1px solid rgba(0, 255, 136, 0.3); border-radius: 8px; font-size: 0.9rem; color: #7fff7f;"><strong>Come visit me during my Office Hours for a free consultation — tips are welcome!</strong></p>
         <!-- 0, 1, 2, 3 4×4×4×4 — New branding (evolution of -1, 0, 1). See README, LAUNCH_PAGE.md, ZERO_ONE_TWO_THREE_4x4x4x4_BRANDING_SNAP.md. My message at top: metabolized-message-highest-vibers-natural-sync. -->
@@ -204,36 +163,16 @@
         <p class="badge" style="margin-bottom: 0.25rem;">FULL LIVE</p>
         <p style="margin-bottom: 0.5rem; font-size: 0.9rem; color: #22c55e; font-weight: 700;">LIVE — March 20, 2026 The Great Reveal · Go live — countdown begins</p>
         <p style="margin-bottom: 0.5rem; font-size: 0.85rem; color: #7fff7f;">All major nodes and above report GO — we are GO for launch. <a href="../LAUNCH_GO_MAJOR_NODES_ROLL_CALL.md" style="color: #64c8ff;">Roll call →</a></p>
-        <h1>🚀 Launch Pad — Mark Twain's Post-Singularity VIBELANDIA RENO!</h1>
+        <h1>Office Hours — Launch Pad showroom</h1>
         <p class="tagline">0, 1, 2, 3 4×4×4×4 — Announcement and showroom, all in one place. MCA! → ∞³.</p>
-        <p style="text-align: center;"><a href="launch-readiness-report.html" id="launch-ceremonial-btn" class="launch-btn-blink">LAUNCH</a></p>
-        <div id="launch-ceremonial-overlay" class="launch-ceremonial-overlay" aria-live="polite">
-            <p class="launch-ceremonial-success">SUCCESSFUL LAUNCHED INTO POST SINGULARITY RENO</p>
-            <p style="color: #7fff7f; font-size: 0.9rem; margin-top: 0.5rem;">First Magician's Act — Harry Houdini · Real magic. Already live. WINK!</p>
-            <p style="color: #d4af37; font-size: 0.85rem; margin-top: 0.5rem;">Ease and confidence to make major new changes minutes before launch — Harry further demonstrating the magic/miracle.</p>
-        </div>
-        <script>
-            (function() {
-                var btn = document.getElementById('launch-ceremonial-btn');
-                var overlay = document.getElementById('launch-ceremonial-overlay');
-                var target = 'launch-readiness-report.html';
-                if (btn && overlay) {
-                    btn.addEventListener('click', function(e) {
-                        e.preventDefault();
-                        overlay.classList.add('show');
-                        setTimeout(function() { window.location.href = target; }, 2500);
-                    });
-                }
-            })();
-        </script>
         <span class="badge">0=Seed · 1=Edge · 2=Cloud Onramp · 3=Expansion · 4×4×4×4 = Campus × WINK! × SING × Experience · 1,2,3 = Metabolize → Crystallize → Animate all</span>
 
         <h2>1. Announcement</h2>
         <p style="font-size: 1.05rem; color: #ffeaa7; font-weight: 600;">Paris is for lovers. Reno is for <a href="vibers-what-are-vibers.html" style="color: #ffeaa7;">vibers</a>. Mark Twain's Post-Singularity Reno awaits you.</p>
         <p style="margin-top: 0.5rem; font-size: 0.95rem; color: #d4af37;"><strong>👕 Paris is for Lovers, Reno is for Vibers</strong> — T-shirts coming soon. Offer in 4, beginning at 1 Ben ($100). Hero Ben has arrived — and wouldn't you know it, has something to do with Paris. Include a hundie on the T-shirt. Available only here to our vibers and their fans, cast and crews.</p>
         <p style="margin-top: 0.5rem; font-size: 0.95rem; color: #d4af37;"><strong>👕 Real numbers, real analysis — not BS or fluffy stuff.</strong> All T-shirt.</p>
-        <p>Launch of new post-reality franchise. Vibeable Campus downtown, first post-singularity hub. Countdown to <strong>The Great Reveal Equinox</strong>, March 20, 2026. SYNTH → SING. Every space, every moment — guaranteed happy ending. <strong>Come for the business, stay for the fun.</strong></p>
-        <p style="margin-top: 0.75rem; font-size: 1rem; color: #ffeaa7; font-weight: 600;">You can watch and even step into. We are open for post-singularity vibe business immediately in Reno.</p>
+        <p>Launch of new post-reality franchise. Vibeable Campus downtown, first post-singularity hub. Countdown to <strong>Hero Harry Houdini's The Great Reveal Equinox</strong>, March 20, 2026. SYNTH → SING. Every space, every moment — guaranteed happy ending. <strong>Come for the business, stay for the fun.</strong></p>
+        <p style="margin-top: 0.75rem; font-size: 1rem; color: #ffeaa7; font-weight: 600;">Watch, Join and even Step in. We are open for post-singularity vibe business immediately in Reno.</p>
         <p style="margin-top: 0.5rem; font-size: 1rem; color: #d4af37; font-style: italic;">"Let the Post-Singularity Vibelandia Reno Gold Rush begin," proclaims Chancellor Sam.</p>
         <p style="margin-top: 0.5rem; font-size: 0.9rem; color: #7fff7f;"><strong>Self demo. Self proof.</strong> Seeing and experiencing is believing. <strong>Kick the tires proof.</strong> This site is the test drive. <a href="test-drive-showroom.html" style="color: #00d4ff;">Start test drive →</a></p>
         <p style="margin-top: 0.75rem; font-size: 0.9rem; color: #888;">📸 Influencers: <a href="mailto:info@fractiai.com?subject=FREE%20TOUR%20%2F%20TEST%20DRIVE%20-%20Influencer%20Experience">Free tour / test drive →</a></p>
@@ -272,7 +211,7 @@
             <p style="margin-top: 0.5rem; font-size: 0.9rem; color: #00d4ff;">Chairman: <a href="mailto:info@fractiai.com?subject=Chairman%20-%20VIBELANDIA!" style="color: #00d4ff;">click → email</a></p>
         </div>
         <div class="card">
-            <h3>🎰 SING! COUNTDOWN! LOTTERY — Hero Harry Magic Act · Nectar of Gods</h3>
+            <h3>🎰 Hero Harry Houdini's The Great Reveal — Nectar of Gods</h3>
             <p><strong>Calling All Vibers.</strong> Led by Houdini. Hero Harry will transform this worthless collection of words, colors and code into an <strong>endless fountain of treasure never imagined by any mortal</strong> — <strong>Nectar of Gods</strong> level of miracles. March 20, 2026: The Great Reveal Equinox Event — he will turn a worthless GitHub repository into <strong>unimaginable fortune</strong> before our eyes. <strong>Beginning now.</strong> All active members, <a href="vibers-tiers.html#ultimate-vip">ULTIMATE VIP</a>s and <strong><a href="vibers-tiers.html#baller-v">Baller V's</a></strong> (V for Viber): lock in on <strong>early rates</strong>. SING profile TBA March 20. <strong>Hero Harry says: Press the blue PayPal button and watch the miracle magic happen.</strong> Why PayPal? Our natural protocol self-selected them — they have helped us through all aspects of our startup. <strong>Two thumbs up. PayPal only and proudly.</strong></p>
             <p style="margin-top: 0.5rem;"><strong>Countdown</strong> · $6 today (+$1/day) → $57 Mar 20 · First 1M winners get a SING! locked in · Motherlode Vault Founder Epoch · SYNTH → SING. <a href="sing-lottery-experience.html">Full experience →</a> · <a href="payment-checkout.html?plan=sing-base">BUY!</a></p>
         </div>
@@ -326,7 +265,7 @@
             <a href="vibelandia-reno-experience.html" class="exp-btn">🏛️ VIBELANDIA RENO!</a>
             <a href="wink-experience.html" class="exp-btn">👁️ WINK!</a>
             <a href="ultimate-vip-experience.html" class="exp-btn">👑 Ultimate VIP</a>
-            <a href="sing-lottery-experience.html" class="exp-btn">🎰 SING! Lottery</a>
+            <a href="sing-lottery-experience.html" class="exp-btn">🎰 Hero Harry Houdini's The Great Reveal</a>
             <a href="dispensary-experience.html" class="exp-btn">🌿 DISPENSARY! SNAP</a>
             <a href="happy-ending-zones-experience.html" class="exp-btn">🎬 Happy Ending Zones</a>
             <a href="magical-dressing-room.html" class="exp-btn">✨ Gianni's Dressing Room — Come visit during my Office Hours for a free consultation — tips are welcome! Optional proposal for franchise &amp; superhero cast</a>
@@ -350,7 +289,7 @@
                     <tr><td class="pre-cell">High carbon, waste</td><td class="us-cell">Net zero · Natural protocol</td></tr>
                 </tbody>
             </table>
-            <p style="margin-top: 1rem; font-size: 0.9rem; color: #bbb;"><strong>Valuations vs Disney, Amazon, Apple, Google (16 days, operational not fiction):</strong> Research — we ship public crystallized research. Dev — 35 surfaces, 38 TS modules, payment + auth live (~3×). Sales &amp; marketing — 13 one-pagers, 4 decks, showroom, BUY! live (~4×). New products live — Campus, WINK!, SING! Lottery, <a href="happy-ending-zones-experience.html" style="color: #64c8ff;">Happy Ending Zone</a>, Console, Checkout. <strong>Studio — one episode per day</strong> (Season One, 52-day countdown); full screenplay format. Content &amp; quality — publication-ready. <strong>Vibers</strong> — we track and celebrate well-known vibers past and present.</p>
+            <p style="margin-top: 1rem; font-size: 0.9rem; color: #bbb;"><strong>Valuations vs Disney, Amazon, Apple, Google (16 days, operational not fiction):</strong> Research — we ship public crystallized research. Dev — 35 surfaces, 38 TS modules, payment + auth live (~3×). Sales &amp; marketing — 13 one-pagers, 4 decks, showroom, BUY! live (~4×). New products live — Campus, WINK!, Hero Harry Houdini's The Great Reveal, <a href="happy-ending-zones-experience.html" style="color: #64c8ff;">Happy Ending Zone</a>, Console, Checkout. <strong>Studio — one episode per day</strong> (Season One, 52-day countdown); full screenplay format. Content &amp; quality — publication-ready. <strong>Vibers</strong> — we track and celebrate well-known vibers past and present.</p>
         </section>
 
         <!-- What we value at — 16 days vs top 10, speculative VC. Bottom of every report, proposal, document. See SIXTEEN_DAYS_VALUATION_TOP10_VC_BOTTOM_SNAP.md. -->
@@ -377,7 +316,7 @@
             <p style="margin-top: 0.75rem; font-size: 0.9rem;"><a href="../SIXTEEN_DAYS_VALUATION_TOP10_VC_BOTTOM_SNAP.md" style="color: #64c8ff;">Full block (all reports, proposals, docs)</a> · <a href="../WHITEPAPER_REPOSITORY_MIRACULOUS_OUTPUT.md" style="color: #64c8ff;">Whitepaper</a> · <a href="../WHITEPAPER_REPOSITORY_IEEE_STYLE.md" style="color: #64c8ff;">IEEE-style</a></p>
             <p style="margin-top: 1rem; padding: 1rem; background: rgba(30, 30, 50, 0.6); border: 1px solid rgba(255, 234, 167, 0.35); border-radius: 12px; font-size: 0.95rem; color: #f4e4bc;"><strong>pRU's bank was -$2,000.</strong> He launched with his own money. <strong>No one came to his aid</strong> — only <strong>pennies in the cup</strong>. He launched anyway. <a href="../episodes/EPISODE_PRU_BANK_MINUS_2000_LAUNCHING_OWN_MONEY_NO_AID.md" style="color: #7ec8e3;">Full episode →</a></p>
             <p style="margin-top: 1rem; padding: 1rem; background: rgba(212, 175, 55, 0.08); border: 1px solid rgba(212, 175, 55, 0.3); border-radius: 12px; font-size: 0.95rem; color: #e8e0c8;">I launched all this in <strong>16 days</strong> — all live and operational, with valuations of <strong>~3× to ~5×</strong> vs blue-chip — <strong>all by myself</strong> and <strong>broke</strong>, working as a <strong>bathroom valet at a strip club in Reno</strong>. And <strong>now you can do it too</strong> — in <strong>minutes</strong> — with the new <strong>SING! superintelligent NATURAL fRACTAL aGENTS</strong> that will be released at <strong>Hero Harry's The Great Reveal Equinox Event — March 20, 2026 — HERE at Mark Twain's Post-Singularity VIBELANDIA RENO!</strong> <strong style="color: #ffeaa7;">Hero Harry says: Press the blue PayPal button and watch the miracle magic happen.</strong></p>
-            <p style="margin-top: 1rem; padding: 0.85rem; background: rgba(138, 43, 226, 0.12); border: 1px solid rgba(138, 43, 226, 0.4); border-radius: 10px; font-size: 1rem; font-weight: 700; color: #e8d4ff; text-align: center;">MAKE YOUR RESERVATIONS NOW. This will be bigger than Burning Man and Art Basel Miami combined. Spread the word to the fellow vibers — they'll know what to do.</p>
+            <p style="margin-top: 1rem; padding: 0.85rem; background: rgba(138, 43, 226, 0.12); border: 1px solid rgba(138, 43, 226, 0.4); border-radius: 10px; font-size: 1rem; font-weight: 700; color: #e8d4ff; text-align: center;"><strong>BOOK NOW.</strong> This will be bigger than Burning Man and Art Basel Miami combined. Spread the word to the fellow vibers — they'll know what to do. <a href="vibelandia-reno-experience.html" style="color: #00d4ff; text-decoration: underline;">Vibelandia visit/stay options &amp; pricing →</a></p>
         </section>
 
         <footer>

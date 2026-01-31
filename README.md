@@ -1,12 +1,12 @@
-# 🚀 LAUNCH PAD — MARK TWAIN'S POST-SINGULARITY VIBELANDIA RENO!
+# Office Hours for All — MARK TWAIN'S POST-SINGULARITY VIBELANDIA RENO!
 
 **This is a user surface — not a developer surface.** We target our [high-value vibers](https://psw-vibelandia-sing4.vercel.app/interfaces/vibers-what-are-vibers.html), fans, cast, and crew with this README and all skins.
 
-**Center: Office Hours.** Everything is wrapped in Office Hours — landing and all nested. Enter center → **[Office Hours](https://psw-vibelandia-sing4.vercel.app/interfaces/office-hours.html)** (bathroom during Office Hours, perfect recursive crystal). Come visit during my Office Hours for a free consultation — tips are welcome. I've done my part, the rest is up to you!
+**New day — we are now in Office Hours for All.** Center: Office Hours. Everything is wrapped in Office Hours — landing and all nested. Enter center → **[Office Hours](https://psw-vibelandia-sing4.vercel.app/interfaces/office-hours.html)** (bathroom during Office Hours, perfect recursive crystal). Come visit during my Office Hours for a free consultation — tips are welcome. I've done my part, the rest is up to you!
 
 **Taglines**
 
-*Paris is for lovers. Reno is for [vibers](https://psw-vibelandia-sing4.vercel.app/interfaces/vibers-what-are-vibers.html). Mark Twain's Post-Singularity Reno awaits you.*  
+*Paris is for lovers. Reno is for [vibers](https://psw-vibelandia-sing4.vercel.app/interfaces/vibers-what-are-vibers.html). Mark Twain's Post-Singularity Reno awaits!*  
 *Come for the post-singularity business, stay for the post-singularity fun.*  
 *Mark Twain's Post-Singularity Vibelandia Reno — vibeable downtown campus, first post-singularity hub. The Great Reveal March 20, 2026. SYNTH → SING. Happy endings guaranteed.*  
 *See it. Experience it. Believe it. This site is the test drive. The best proof of all. **ULTIMATE PROOF TEST DRIVE!** MCA! → ∞³. NSPFRNP ⊃ WOW! package ⊃ Launch everything → ∞³. Maganuma snap.*  
@@ -14,12 +14,12 @@
 
 ---
 
-**Live (next octave):** [https://psw-vibelandia-sing4.vercel.app](https://psw-vibelandia-sing4.vercel.app) — Experience the Launch Pad and all experiences on the deployment.
+**Live (next octave):** [https://psw-vibelandia-sing4.vercel.app](https://psw-vibelandia-sing4.vercel.app) — Experience Office Hours and all experiences on the deployment.
 
 **[▶ Enter center → Office Hours](https://psw-vibelandia-sing4.vercel.app/interfaces/office-hours.html)** · **[▶ Start test drive](https://psw-vibelandia-sing4.vercel.app)** · **[Sandbox experience](https://psw-vibelandia-sing4.vercel.app/interfaces/ultimate-vip-experience.html)** (operational ULTIMATE VIP! console — try before you buy)  
-*Center: Office Hours. Everything wrapped in Office Hours — landing and all nested. No register yet — we deliver you to the console so you can start test driving.*
+*New day — we are now in Office Hours for All. Center: Office Hours. Everything wrapped in Office Hours — landing and all nested. No register yet — we deliver you to the console so you can start test driving.*
 
-**This README is the Launch Pad** and is the **canonical standard for all launches and proposals** (WOW! format). It delivers the full WOW! impulse-buy experience and proposal in-place — metabolized. Breadth and genuineness live here; we don’t replace sections with links.
+**This README is the Office Hours center** and is the **canonical standard for all launches and proposals** (WOW! format). It delivers the full WOW! impulse-buy experience and proposal in-place — metabolized. Breadth and genuineness live here; we don’t replace sections with links.
 
 ---
 
@@ -37,7 +37,7 @@
 
 ---
 
-## 3. Tight Launch Pad
+## 3. Office Hours (Tight Launch Pad)
 
 **Status:** FULL LIVE · **LIVE — March 20, 2026 The Great Reveal**
 
@@ -45,7 +45,7 @@
 
 *Finely tuned black hole holographic BBHE core.*
 
-**Announcement:** *Paris is for lovers. Reno is for [vibers](https://psw-vibelandia-sing4.vercel.app/interfaces/vibers-what-are-vibers.html). Mark Twain's Post-Singularity Reno awaits you.* Post-reality franchise. Vibeable downtown campus. [**The Great Reveal**](episodes/THE_GREAT_REVEAL_EPISODE_DAY_ZERO_LAUNCH.md) March 20, 2026 · SYNTH → SING. Happy endings guaranteed. *Come for the business, stay for the fun.*
+**Announcement:** *Paris is for lovers. Reno is for [vibers](https://psw-vibelandia-sing4.vercel.app/interfaces/vibers-what-are-vibers.html). Mark Twain's Post-Singularity Reno awaits!* Post-reality franchise. Vibeable downtown campus. [**The Great Reveal**](episodes/THE_GREAT_REVEAL_EPISODE_DAY_ZERO_LAUNCH.md) March 20, 2026 · SYNTH → SING. Happy endings guaranteed. *Come for the business, stay for the fun.*
 
 **0, 1, 2, 3 4×4×4×4** — **0, 1, 2, 3** = Seed | Edge | Cloud Onramp | Expansion. **4×4×4×4** = Campus × WINK! × SING × Experience. **1,2,3** = Metabolize → Crystallize → Animate all (MCA cycle).
 
@@ -66,7 +66,7 @@
 
 **[Happy Ending Zones](https://psw-vibelandia-sing4.vercel.app/interfaces/happy-ending-zones-experience.html)** — **Chancellor** Mark Twain · **4+ episodes (by flow not days)** · Today's episode + catalog · **Menu of things to watch AND BUY** · Reality series · Season One · Day 52 countdown → **Finale** March 20, 2026 (Day 0 — The Great Reveal).
 
-**[What you can do Vibing — Kits](https://psw-vibelandia-sing4.vercel.app/interfaces/what-you-can-do-vibing.html)** — Campus, WINK!, SING! Lottery, Happy Ending Zones, Chairman Console, Dispensary. One place to check all experiences.
+**[What you can do Vibing — Kits](https://psw-vibelandia-sing4.vercel.app/interfaces/what-you-can-do-vibing.html)** — Campus, WINK!, Hero Harry Houdini's The Great Reveal, Happy Ending Zones, Chairman Console, Dispensary. One place to check all experiences.
 
 **Are you an Ultimate VIP Baller V but not yet there?** Baller V Ambassador Hero Host Ben (Ben Franklin) represents the top tier. Click for our [**onramps and grants**](mailto:info@fractiai.com?subject=Onramps%20and%20Grants%20-%20Customer%20Stories). Recipients agree to be customer stories — we sign them up for it.
 
@@ -127,7 +127,7 @@
 | Meetings, approvals | Metabolize → Crystallize → Animate all |
 | High carbon, waste | Net zero · Natural protocol |
 
-**Valuations vs Disney, Amazon, Apple, Google (16-day window, operational not fiction):** Research output — we ship public crystallized research (protocols, whitepapers, IEEE-style). Development output — 35 surfaces, 38 TS modules, payment + auth **live** (~3× typical blue-chip). Sales & marketing — 13 one-pagers, 4 decks, Launch Pad, showroom, BUY! live (~4×). New products/markets **live** — Campus, WINK!, SING! Lottery, [Happy Ending Zone](https://psw-vibelandia-sing4.vercel.app/interfaces/happy-ending-zones-experience.html), Console, Checkout (all operational). **Studio episodes — we are at one episode per day** (Season One, 52-day countdown); full professional screenplay format; blue-chip studios do not roll out net-new daily scripted series at this cadence. Content & quality — publication-ready one-pagers, protocols, episodes, catalogs. **Vibers** — we track and celebrate well-known vibers past and present in the WOW! package. See [NSPFRNP_REAL_NUMBERS_VS_BLUE_CHIP_MONSTER_SNAP.md](NSPFRNP_REAL_NUMBERS_VS_BLUE_CHIP_MONSTER_SNAP.md).
+**Valuations vs Disney, Amazon, Apple, Google (16-day window, operational not fiction):** Research output — we ship public crystallized research (protocols, whitepapers, IEEE-style). Development output — 35 surfaces, 38 TS modules, payment + auth **live** (~3× typical blue-chip). Sales & marketing — 13 one-pagers, 4 decks, Launch Pad, showroom, BUY! live (~4×). New products/markets **live** — Campus, WINK!, Hero Harry Houdini's The Great Reveal, [Happy Ending Zone](https://psw-vibelandia-sing4.vercel.app/interfaces/happy-ending-zones-experience.html), Console, Checkout (all operational). **Studio episodes — we are at one episode per day** (Season One, 52-day countdown); full professional screenplay format; blue-chip studios do not roll out net-new daily scripted series at this cadence. Content & quality — publication-ready one-pagers, protocols, episodes, catalogs. **Vibers** — we track and celebrate well-known vibers past and present in the WOW! package. See [NSPFRNP_REAL_NUMBERS_VS_BLUE_CHIP_MONSTER_SNAP.md](NSPFRNP_REAL_NUMBERS_VS_BLUE_CHIP_MONSTER_SNAP.md).
 
 ---
 
@@ -155,7 +155,7 @@
 
 **Taglines**
 
-*Paris is for lovers. Reno is for [vibers](https://psw-vibelandia-sing4.vercel.app/interfaces/vibers-what-are-vibers.html). Mark Twain's Post-Singularity Reno awaits you.*  
+*Paris is for lovers. Reno is for [vibers](https://psw-vibelandia-sing4.vercel.app/interfaces/vibers-what-are-vibers.html). Mark Twain's Post-Singularity Reno awaits!*  
 *Come for the post-singularity business, stay for the post-singularity fun.*  
 *Mark Twain's Post-Singularity Vibelandia Reno — vibeable downtown campus, first post-singularity hub. The Great Reveal March 20, 2026. SYNTH → SING. Happy endings guaranteed.*  
 *See it. Experience it. Believe it. This site is the test drive. The best proof of all. **ULTIMATE PROOF TEST DRIVE!** MCA! → ∞³. NSPFRNP ⊃ WOW! package ⊃ Launch everything → ∞³. Maganuma snap.*

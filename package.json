@@ -8,6 +8,7 @@
     "test": "node scripts/test-all-surfaces-touchpoints-api.mjs",
     "test:ci": "node scripts/test-all-surfaces-touchpoints-api.mjs",
     "build": "node scripts/vercel-static-output.mjs",
+    "all": "npm run test && npm run build",
     "deploy": "node scripts/deploy-vercel.mjs",
     "deploy:vercel": "vercel --yes",
     "check-supabase": "node scripts/check-supabase-access.mjs",
