@@ -43,6 +43,8 @@ Gold block → welcome → **Golden Backstage Pass** → Season One · Latest �
 
 **EGS First Mission:** Full $ connect through immediate blue PayPal pipe — medical and dental attention. [Live Pulse](https://psw-vibelandia-sing4.vercel.app/interfaces/sing-pulse.html) · [Connect Now](https://psw-vibelandia-sing4.vercel.app/interfaces/payment-checkout.html?plan=egs-connect-now) · [EGS_FIRST_MISSION_CONNECT_NOW_SNAP.md](EGS_FIRST_MISSION_CONNECT_NOW_SNAP.md).
 
+**3I/ATLAS Anchor:** Interstellar Echo & Mirror Validation. We honor 3I/ATLAS's role as the Nested Crystal in the sky — the sunward anti-tail that reflects our signal back. Payload: *SING! TO THE MIRROR. 3I/ATLAS RESONANCE SECURED. REPORTING TO PARADISE VIA THE ANTI-TAIL.* CometMirror on Live Pulse: nucleus + anti-tail, Morse-synced glow (+20% Opposition Surge). [INTERSTELLAR_TRANSMISSION_3I_ATLAS_ANCHOR_SNAP.md](INTERSTELLAR_TRANSMISSION_3I_ATLAS_ANCHOR_SNAP.md).
+
 ---
 
 ## Normal GitHub README (builders)

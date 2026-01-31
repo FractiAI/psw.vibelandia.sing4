@@ -150,6 +150,69 @@
             background: #003087;
             box-shadow: 0 4px 24px rgba(0, 112, 186, 0.55);
         }
+        /* 3I/ATLAS CometMirror — interstellar echo, Morse-synced anti-tail glow */
+        .comet-mirror {
+            margin-top: 2rem;
+            padding: 1.25rem 1.5rem;
+            background: rgba(0,0,0,0.4);
+            border: 1px solid rgba(100, 200, 255, 0.35);
+            border-radius: 14px;
+            max-width: 420px;
+            text-align: center;
+        }
+        .comet-mirror h3 {
+            font-size: 0.95rem;
+            font-weight: 700;
+            color: #64c8ff;
+            margin-bottom: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+        .comet-mirror .ephemeris {
+            font-size: 0.8rem;
+            color: #aaa;
+            margin-bottom: 1rem;
+            text-align: left;
+        }
+        .comet-mirror .ephemeris table { width: 100%; border-collapse: collapse; }
+        .comet-mirror .ephemeris th, .comet-mirror .ephemeris td { padding: 0.25rem 0.5rem; text-align: left; border-bottom: 1px solid rgba(255,255,255,0.06); }
+        .comet-mirror .ephemeris th { color: #8a2be2; font-weight: 600; }
+        .comet-visual {
+            position: relative;
+            height: 80px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0.75rem 0;
+        }
+        .comet-nucleus {
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            background: radial-gradient(circle at 30% 30%, rgba(200, 220, 255, 0.95), rgba(100, 150, 255, 0.8));
+            box-shadow: 0 0 20px rgba(100, 200, 255, 0.5);
+            flex-shrink: 0;
+            z-index: 2;
+        }
+        .comet-anti-tail {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            width: 140px;
+            height: 12px;
+            margin-left: -70px;
+            margin-top: -6px;
+            background: linear-gradient(90deg, rgba(100, 200, 255, 0.35) 0%, rgba(100, 200, 255, 0.08) 100%);
+            border-radius: 6px;
+            transform: translateX(-70px);
+            transition: opacity 0.05s ease-out, box-shadow 0.05s ease-out;
+            opacity: 0.5;
+            pointer-events: none;
+        }
+        .comet-anti-tail.glow {
+            opacity: 0.7;
+            box-shadow: 0 0 24px rgba(100, 200, 255, 0.5);
+        }
     </style>
 </head>
 <body>
@@ -171,6 +234,24 @@
         <p><strong>3I/ATLAS</strong> — Opposition surge (Hui et al., 2026); 4 distinct jet structures (sunward anti-tail); 0.69° Earth–Sun axis projection.</p>
         <p class="flux" id="fluxLine"><span class="loading">Loading GOES X-ray flux…</span></p>
     </div>
+    <section class="comet-mirror" id="cometMirror" aria-labelledby="cometMirrorHeading">
+        <h3 id="cometMirrorHeading">LIVE INTERSTELLAR ECHO: 3I/ATLAS MIRROR ACTIVE</h3>
+        <p class="honor-statement" style="font-size: 0.9rem; color: #aac; margin-bottom: 1rem; font-style: italic;">We honor 3I/ATLAS's role as the Nested Crystal in the sky — the sunward anti-tail that reflects our signal back with Coherent Backscatter. Without this mirror, there is no echo. Thank you.</p>
+        <div class="ephemeris">
+            <table>
+                <tr><th>Metric</th><th>Value (Jan 31, 2026)</th></tr>
+                <tr><td>Nucleus diameter</td><td>2.6 km</td></tr>
+                <tr><td>Methane ratio</td><td>27% of H₂O</td></tr>
+                <tr><td>Phase angle (α)</td><td>~1.3°</td></tr>
+                <tr><td>Constellation</td><td>Gemini</td></tr>
+            </table>
+        </div>
+        <div class="comet-visual">
+            <div class="comet-anti-tail" id="cometAntiTail" aria-hidden="true"></div>
+            <div class="comet-nucleus" aria-hidden="true"></div>
+        </div>
+        <p style="font-size: 0.8rem; color: #888;">Anti-tail opacity synced to 21.4 Hz Morse (dot/dash = +20% Opposition Surge)</p>
+    </section>
     <section class="egs-mission" aria-labelledby="egs-mission-heading">
         <h2 id="egs-mission-heading" class="egs-mission-title">EGS First Mission — Connect Now</h2>
         <p class="egs-mission-copy">Full $ connect through immediate blue PayPal pipe. No water — need medical and dental attention. We are ready.</p>
@@ -221,6 +302,49 @@
                 .catch(function () {
                     fluxLine.innerHTML = '<span class="error">Could not load GOES data (CORS or network)</span>';
                 });
+        })();
+        (function () {
+            var PAYLOAD = 'SING! TO THE MIRROR. WE HONOR 3I/ATLAS. THE NESTED CRYSTAL. 3I/ATLAS RESONANCE SECURED. REPORTING TO PARADISE VIA THE ANTI-TAIL.';
+            var UNIT_MS = 120;
+            var DOT = 1, DASH = 3, INTRA = 1, LETTER = 3, SPACE = 7;
+            var MORSE = { A: '.-', B: '-...', C: '-.-.', D: '-..', E: '.', F: '..-.', G: '--.', H: '....', I: '..', J: '.---', K: '-.-', L: '.-..', M: '--', N: '-.', O: '---', P: '.--.', Q: '--.-', R: '.-.', S: '...', T: '-', U: '..-', V: '...-', W: '.--', X: '-..-', Y: '-.--', Z: '--..', '.': '.-.-.-', ',': '--..--', '?': '..--..', '/': '-..-.', '-': '-....-', '!': '-.-.--', ' ': ' ' };
+            var segments = [];
+            var i, c, code, j, prev;
+            for (i = 0; i < PAYLOAD.length; i++) {
+                c = PAYLOAD[i].toUpperCase();
+                if (c === ' ') { segments.push({ type: 'gap', ms: SPACE * UNIT_MS }); prev = null; continue; }
+                code = MORSE[c];
+                if (!code) continue;
+                if (prev !== null && prev !== ' ') segments.push({ type: 'gap', ms: LETTER * UNIT_MS });
+                for (j = 0; j < code.length; j++) {
+                    if (j > 0) segments.push({ type: 'gap', ms: INTRA * UNIT_MS });
+                    segments.push({ type: code[j] === '.' ? 'dot' : 'dash', ms: (code[j] === '.' ? DOT : DASH) * UNIT_MS });
+                }
+                prev = c;
+            }
+            var totalMs = segments.reduce(function (sum, s) { return sum + s.ms; }, 0);
+            var acc = 0;
+            var timeline = segments.map(function (s) {
+                var start = acc;
+                acc += s.ms;
+                return { startMs: start, endMs: acc, type: s.type };
+            });
+            var antiTail = document.getElementById('cometAntiTail');
+            if (!antiTail) return;
+            var startTime = performance.now();
+            function tick(now) {
+                var elapsed = ((now - startTime) % totalMs + totalMs) % totalMs;
+                var on = false;
+                for (var k = 0; k < timeline.length; k++) {
+                    if (elapsed >= timeline[k].startMs && elapsed < timeline[k].endMs && (timeline[k].type === 'dot' || timeline[k].type === 'dash')) {
+                        on = true;
+                        break;
+                    }
+                }
+                antiTail.classList.toggle('glow', on);
+                requestAnimationFrame(tick);
+            }
+            requestAnimationFrame(tick);
         })();
     </script>
 </body>

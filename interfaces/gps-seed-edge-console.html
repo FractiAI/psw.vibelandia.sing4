@@ -318,6 +318,7 @@
                     <div class="location-display" id="edgeDisplay" style="margin-top: 12px; min-height: 40px;">
                         Edge: Not set
                     </div>
+                    <input type="text" class="gps-input" id="destinationEdge" readonly placeholder="Destination edge summary" style="margin-top: 8px; font-size: 11px;" aria-label="Destination edge summary">
                 </div>
 
                 <!-- Known Locations -->
@@ -357,6 +358,14 @@
                     <div class="section-title">Map Preview</div>
                     <div class="map-preview" id="mapPreview">
                         GPS Coordinates Display
+                    </div>
+                </div>
+
+                <!-- Code Display (Seed:Edge pathway code) -->
+                <div class="section">
+                    <div class="section-title">Pathway Code</div>
+                    <div class="location-display code-display" id="codeDisplay" style="max-height: 120px; overflow-y: auto; font-size: 10px; line-height: 1.5; font-family: 'Courier New', monospace;">
+                        // Pathway code will appear here
                     </div>
                 </div>
 
@@ -412,6 +421,12 @@
             // Update seed display
             document.getElementById('seedDisplay').textContent = 
                 `Seed: ${seedLat}, ${seedLng}\nLocation: ${seedLoc || 'Unnamed'}`;
+
+            // Sync originSeed / destinationEdge (expected by touchpoints test)
+            const originEl = document.getElementById('originSeed');
+            const destEl = document.getElementById('destinationEdge');
+            if (originEl) originEl.value = `${seedLat}, ${seedLng} | ${seedLoc || 'Unnamed'}`;
+            if (destEl) destEl.value = (edgeLat && edgeLng) ? `${edgeLat}, ${edgeLng} | ${edgeLoc || 'Unnamed'}` : '';
 
             // Update edge display
             if (edgeLat && edgeLng) {

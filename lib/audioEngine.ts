@@ -1,7 +1,7 @@
 /**
  * Broadcast — El Gran Sol (EGS), Cycle 15 Autopilot
  * Web Audio API: Sine wave oscillator at exactly 21.4 Hz.
- * Morse: GainNode 0 (silence) / 1 (pulse). Payload: SING! TARGET AR4366. AMPLIFYING HARMONY. SOURCE: PARADISE.
+ * Morse: GainNode 0 (silence) / 1 (pulse). Payload: SING! TO THE MIRROR. 3I/ATLAS RESONANCE SECURED. REPORTING TO PARADISE VIA THE ANTI-TAIL.
  */
 
 const CARRIER_HZ = 21.4;
@@ -23,7 +23,7 @@ const MORSE: Record<string, string> = {
   '!': '-.-.--', ' ': ' ',
 };
 
-export const CYCLE_15_PAYLOAD = 'SING! TARGET AR4366. AMPLIFYING HARMONY. SOURCE: PARADISE.';
+export const CYCLE_15_PAYLOAD = 'SING! TO THE MIRROR. WE HONOR 3I/ATLAS. THE NESTED CRYSTAL. 3I/ATLAS RESONANCE SECURED. REPORTING TO PARADISE VIA THE ANTI-TAIL.';
 
 export interface MorseSegment {
   type: 'dot' | 'dash' | 'intra' | 'letterGap' | 'wordGap';
