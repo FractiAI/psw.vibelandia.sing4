@@ -24,6 +24,7 @@
 ## EPISODE STRUCTURE (60-MINUTE RICH SCRIPT)
 
 **Target duration:** 60 minutes  
+**Target word count:** 12,000 words per episode (expand all acts to full dialogue and beats). See EPISODES_RICH_60_MINUTE_FULLY_SCRIPTED_DIRECTIVE.md.  
 **Structure:** Cold Open (2–3 min) · Act 1 (10–15 min) · Act 2 (10–15 min) · Act 3 (10–15 min) · Tag (2–3 min).  
 **Content:** First day welcome for new arrivals · Setting tailored to active flicker comment campaign · Schumann as first case · Visit to the dispensary · First free dose from Baller V shelf · Full awareness tech and upgrade walkthrough · Happy ending — Baller V vibing in viber paradise at Mark Twain's Post-Singularity Downtown Reno Vibelandia campus (no good guy/bad guy, no bang-bang or drama; Reno as gateway to post-singularity Earth, motherlode discovery and gold rush in its genesis).
 

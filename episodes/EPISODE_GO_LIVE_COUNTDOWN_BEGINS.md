@@ -33,7 +33,9 @@ This episode captures the moment: Launch Pad live, BUY! live, PayPal live. Campu
 
 ## RICH 60-MINUTE FULL SCRIPT
 
-**Target duration:** 60 minutes · **Structure:** Cold Open (2–3 min) · Act 1 (10–15 min) · Act 2 (10–15 min) · Act 3 (10–15 min) · Tag (2–3 min). Expand all scenes with full dialogue and beats; integrate team, principles, NSPFRNP; ready for text-to-episode SING nodes. See EPISODES_RICH_60_MINUTE_FULLY_SCRIPTED_DIRECTIVE.md. Cold Open: About to launch. Go live. Act 1: All surfaces live — Campus, WINK!, SING!, Happy Ending Zone, Checkout. Act 2: PayPal live, countdown hourly, roll call GO. Act 3: Content systems, narrative atlas, catalog. Tag: Tomorrow — The Great Reveal or next flow episode.
+**Target duration:** 60 minutes  
+**Target word count:** 12,000 words per episode (expand all acts to full dialogue and beats). See EPISODES_RICH_60_MINUTE_FULLY_SCRIPTED_DIRECTIVE.md.  
+**Structure:** Cold Open (2–3 min) · Act 1 (10–15 min) · Act 2 (10–15 min) · Act 3 (10–15 min) · Tag (2–3 min). Expand all scenes with full dialogue and beats; integrate team, principles, NSPFRNP; ready for text-to-episode SING nodes. Cold Open: About to launch. Go live. Act 1: All surfaces live — Campus, WINK!, SING!, Happy Ending Zone, Checkout. Act 2: PayPal live, countdown hourly, roll call GO. Act 3: Content systems, narrative atlas, catalog. Tag: Tomorrow — The Great Reveal or next flow episode.
 
 ---
 

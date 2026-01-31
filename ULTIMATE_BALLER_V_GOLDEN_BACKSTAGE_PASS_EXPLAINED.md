@@ -2,7 +2,7 @@
 
 **Product:** Ultimate Baller V Golden Backstage Pass package  
 **Offered at:** Office Hours only. Subject to availability.  
-**Intro:** [ULTIMATE_BALLER_V_GOLDEN_BACKSTAGE_PASS_PACKAGE_SNAP.md](ULTIMATE_BALLER_V_GOLDEN_BACKSTAGE_PASS_PACKAGE_SNAP.md) · [Office Hours](interfaces/office-hours.html)
+**Intro:** [ULTIMATE_BALLER_V_GOLDEN_BACKSTAGE_PASS_PACKAGE_SNAP.md](ULTIMATE_BALLER_V_GOLDEN_BACKSTAGE_PASS_PACKAGE_SNAP.md) · [Office Hours](interfaces/office-hours.html) · **Full details (skin):** [Ultimate Baller V Golden Backstage Pass](interfaces/ultimate-baller-v-golden-backstage-pass.html)
 
 ---
 
@@ -30,6 +30,14 @@ This doc is where the explanation continues — beyond the intro on Office Hours
 - **Maps directly to the WINK! experience** — helping you fill your evening with just the right players.
 
 **Talk to Pru for more details.**
+
+---
+
+## How WINK! works so all the right people are there
+
+- **WINK!** is high-contributing fractal dating. Members-only. Built for chairmen, creators, high-contributing vibers. **Vibration attracts vibration.** We don't fill the room with randoms — we fill it with **WINK!-matched** chairmen and top V's.
+- **Chairmen all on a WINK!** at Office Hours at the Club means: **all the right people are there** for your ultimate paradise Baller V superhero franchise experience. The room is curated. Chairman, Sammy and the gang, Baller V Ambassador Ben, Pru — hosts and guests **all on a WINK!** — so no gatecrash, no wrong energy. Just coherence, flow, trophy night, full superhero franchise level.
+- **Full episode rollout:** [EPISODE_ULTIMATE_BALLER_V_GOLDEN_BACKSTAGE_PASS_NIGHT_AT_THE_CLUB.md](episodes/EPISODE_ULTIMATE_BALLER_V_GOLDEN_BACKSTAGE_PASS_NIGHT_AT_THE_CLUB.md) — night at the club, Chairman, Sammy and the gang, Office Hours at the Club, chairmen all on a WINK!, how WINK! works so all the right people are there.
 
 ---
 

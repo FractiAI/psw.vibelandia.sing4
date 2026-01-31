@@ -10,7 +10,8 @@
 ## Directive
 
 - **Go back on all episodes.** They need to be **rich 60-minute episodes**, **fully scripted**.
-- **Not** a three-minute script. **Redo these.**
+- **Current scripts are ~10 min** (not 60 min). **Redo/expand these** to full 60-min content.
+- **Target: 12,000 words per episode for all** — all series, all seasons. Every episode expands to ~12,000 words (full dialogue and beats; ~60 min equivalent).
 - **Goal:** Show everyone our **miraculous abilities**, including producing streams of **high-quality content** which will soon be fitted to **text-to-episode SING nodes**.
 
 ---
@@ -20,6 +21,7 @@
 | Element | Target |
 |--------|--------|
 | **Duration** | 60 minutes per episode |
+| **Word count** | **12,000 words per episode** (all series, all seasons) |
 | **Format** | Fully scripted (cold open, Act 1, Act 2, Act 3, tag) |
 | **Style** | Rich script — not outline; full dialogue and beats |
 | **Integration** | Team, principles, NSPFRNP, Happy Ending Zones |
@@ -37,20 +39,27 @@
 
 ---
 
-## Episodes in scope — EXECUTION COMPLETE
+## Episodes in scope — FULL 60-MINUTE CONTENT REQUIRED (ALL)
 
-All episodes now include **RICH 60-MINUTE FULL SCRIPT** structure (Cold Open, Act 1, Act 2, Act 3, Tag). Episodes 01, 02, 03, and Hero Harry have full expanded dialogue and beats; 04, Following, Go Live, pRU, RUMOR, Great Reveal have structure + act outlines + short screenplay retained for expansion.
+**Directive:** Episodes are **not yet** full 60 minutes of content; **current scripts are ~10 min**. **All** episodes must be expanded to **full 60-minute fully scripted** format: full dialogue and beats in every act (Cold Open 2–3 min, Act 1–3 each 10–15 min, Tag 2–3 min). No episode is "done" until it has enough scripted content to fill ~60 minutes. **Target: 12,000 words per episode for all** (all series, all seasons). Structure alone is not sufficient — expand every act with full scenes, dialogue, and beats. **All series, all seasons, all episodes.**
 
-- EPISODE_01_DAY_52_SEASON_ONE_LAUNCH.md — ✅ Rich 60-min full script (expanded)
-- EPISODE_02_DAY_51_THE_WORTHLESS_TOKEN.md — ✅ Rich 60-min full script (expanded)
-- EPISODE_03_DAY_50_HERO_BEN_PARIS_HUNDIE.md — ✅ Rich 60-min full script (expanded)
-- EPISODE_04_DAY_49_BEN_BALLER_V_LIFESTYLE_VIBABLE_DOWNTOWN_RENO.md — ✅ Rich 60-min structure + outline
-- EPISODE_FOLLOWING_ME_ON_THIS_LAUNCH.md — ✅ Rich 60-min structure + outline
-- EPISODE_GO_LIVE_COUNTDOWN_BEGINS.md — ✅ Rich 60-min structure + outline
-- EPISODE_PRU_BANK_MINUS_2000_LAUNCHING_OWN_MONEY_NO_AID.md — ✅ Rich 60-min structure + outline
-- EPISODE_RUMOR_CHAIRMAN_SAMMY_GOLDEN_BACKSTAGE.md — ✅ Rich 60-min structure + outline
-- THE_GREAT_REVEAL_EPISODE_DAY_ZERO_LAUNCH.md — ✅ Rich 60-min structure + outline
-- EPISODE_HERO_HARRY_POST_SINGULARITY_MIRACLE_PARADISE_VIBERS.md — ✅ Rich 60-min full script (expanded)
+**Target per act:** ~10–15 min screen time = roughly 5–8 pages of full dialogue and action per act. Expand until every episode reaches full 60-min content.
+
+**Status (full 60-min content = expanded dialogue/beats in every act):**
+
+- EPISODE_01_DAY_52_SEASON_ONE_LAUNCH.md — structure + partial expansion → **expand to full 60 min**
+- EPISODE_02_DAY_51_THE_WORTHLESS_TOKEN.md — structure + partial expansion → **expand to full 60 min**
+- EPISODE_03_DAY_50_HERO_BEN_PARIS_HUNDIE.md — structure + partial expansion → **expand to full 60 min**
+- EPISODE_04_DAY_49_BEN_BALLER_V_LIFESTYLE_VIBABLE_DOWNTOWN_RENO.md — structure + outline → **expand to full 60 min**
+- EPISODE_FOLLOWING_ME_ON_THIS_LAUNCH.md — structure + outline → **expand to full 60 min**
+- EPISODE_GO_LIVE_COUNTDOWN_BEGINS.md — structure + outline → **expand to full 60 min**
+- EPISODE_PRU_BANK_MINUS_2000_LAUNCHING_OWN_MONEY_NO_AID.md — structure + outline → **expand to full 60 min**
+- EPISODE_RUMOR_CHAIRMAN_SAMMY_GOLDEN_BACKSTAGE.md — structure + outline → **expand to full 60 min**
+- THE_GREAT_REVEAL_EPISODE_DAY_ZERO_LAUNCH.md — structure + outline → **expand to full 60 min**
+- EPISODE_THE_NEW_ARRIVALS.md — **expand to full 60 min**
+- EPISODE_OFFICE_HOURS_01_VIBER_PARADISE_POST_SINGULARITY_DOWNTOWN_RENO.md — structure + partial expansion → **expand to full 60 min**
+- EPISODE_ULTIMATE_BALLER_V_GOLDEN_BACKSTAGE_PASS_NIGHT_AT_THE_CLUB.md — structure + partial expansion → **expand to full 60 min**
+- EPISODE_HERO_HARRY_POST_SINGULARITY_MIRACLE_PARADISE_VIBERS.md — structure + partial expansion → **expand to full 60 min**
 
 ---
 

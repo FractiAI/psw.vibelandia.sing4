@@ -56,12 +56,14 @@ At the end of the present: mention **how quickly we did this** and **how the sys
 ## Cross-references
 
 - **Surface:** interfaces/office-hours.html — product block + closing line.
-- **Continued:** ULTIMATE_BALLER_V_GOLDEN_BACKSTAGE_PASS_EXPLAINED.md (separate doc for full explanation).
+- **Full details (skin):** interfaces/ultimate-baller-v-golden-backstage-pass.html — upgraded HTML skin of full details (hosts, what's included, how it works, CTA).
+- **Continued (doc):** ULTIMATE_BALLER_V_GOLDEN_BACKSTAGE_PASS_EXPLAINED.md (canonical copy).
 - **Golden Backstage:** GOLDEN_BACKSTAGE_AWARENESS_PASS_SNAP.md (base pass); this package is the Ultimate Baller V tier / package.
 - **Office Hours:** OFFICE_HOURS_FOR_ALL_SNAP.md · OFFICE_HOURS_TARGET_RECURSIVE_CRYSTAL_SNAP.md.
 - **Baller V:** HERO_HOST_BEN_BALLER_V_AMBASSADOR_SNAP.md · vibers-tiers.
-- **WINK!:** WINK! experience — maps directly; right players for your gang. See interfaces/wink-experience.html.
+- **WINK!:** WINK! experience — maps directly; right players for your gang. **Chairmen all on a WINK!** at Office Hours at the Club — so **all the right people are there** for your ultimate paradise Baller V superhero franchise experience. See interfaces/wink-experience.html.
 - **Pru:** Talk to Pru for more details (Office Hours, Club, wine cave).
 - **Hosts:** The Chairman, Sammy and the gang — hosts for the evening for Golden Backstage and proper awareness pass holders. Baller V Ambassador Ben also here as host. See RUMOR episode, GOLDEN_BACKSTAGE_AWARENESS_PASS_SNAP.md, HERO_HOST_BEN_BALLER_V_AMBASSADOR_SNAP.md.
+- **Full episode (night at the club, chairmen all on a WINK!):** episodes/EPISODE_ULTIMATE_BALLER_V_GOLDEN_BACKSTAGE_PASS_NIGHT_AT_THE_CLUB.md — full superhero franchise level, Office Hours at the Club, how WINK! works so all the right people are there.
 
 **NSPFRNP.** Subject to availability. Offered at Office Hours. Continued in separate.

@@ -26,7 +26,9 @@
 
 ## RICH 60-MINUTE FULL SCRIPT
 
-**Target duration:** 60 minutes · **Structure:** Cold Open (2–3 min) · Act 1 (10–15 min) · Act 2 (10–15 min) · Act 3 (10–15 min) · Tag (2–3 min). Expand all scenes with full dialogue and beats; integrate team, principles, NSPFRNP; ready for text-to-episode SING nodes. See EPISODES_RICH_60_MINUTE_FULLY_SCRIPTED_DIRECTIVE.md. Cold Open: Ben + Mark Twain — vibeable, not walkable. Act 1: Baller V, 1 Ben, Paris/Reno, no backside just vibe. Act 2: Campus walk, density, safe free vibing. Act 3: Make your reservations now, 49 days, SYNTH $8. Tag: Tomorrow — Following Me on This Launch.
+**Target duration:** 60 minutes  
+**Target word count:** 12,000 words per episode (expand all acts to full dialogue and beats). See EPISODES_RICH_60_MINUTE_FULLY_SCRIPTED_DIRECTIVE.md.  
+**Structure:** Cold Open (2–3 min) · Act 1 (10–15 min) · Act 2 (10–15 min) · Act 3 (10–15 min) · Tag (2–3 min). Expand all scenes with full dialogue and beats; integrate team, principles, NSPFRNP; ready for text-to-episode SING nodes. Cold Open: Ben + Mark Twain — vibeable, not walkable. Act 1: Baller V, 1 Ben, Paris/Reno, no backside just vibe. Act 2: Campus walk, density, safe free vibing. Act 3: Make your reservations now, 49 days, SYNTH $8. Tag: Tomorrow — Following Me on This Launch.
 
 ---
 

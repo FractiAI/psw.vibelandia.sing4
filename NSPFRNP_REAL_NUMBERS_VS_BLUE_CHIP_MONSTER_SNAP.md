@@ -50,8 +50,8 @@ All deliverables **operational, live, not fiction.** Compare research output, de
 | **Development output** | 35 surfaces, 38 TS modules, payment + auth live | 8–12 surfaces typical 16-day sprint | Same | Same | Same | ~3× surfaces; payment live vs 0 |
 | **Sales & marketing output** | 13 one-pagers, 4 branding decks, Launch Pad, showroom, BUY! live | 2–4 net-new campaigns/products in 16 days | Same | Same | Same | ~4× one-pagers; new products/markets **live** |
 | **New products/markets rolled out, live** | Campus, WINK!, SING! Lottery, Happy Ending Zones, Console, Checkout — all **operational** | Rarely >1 net-new product live in 16 days | Same | Same | Same | Multiple products **live**, not roadmap |
-| **Studio episodes rolled out** | **1 episode per day** (Season One, 52-day countdown); full screenplay format | Not daily net-new scripted series episodes | Same | Same | Same | Content and quality: professional screenplay, 8 principles, relationship fractal |
-| **Content & quality** | Crystallized one-pagers, protocols, episodes, catalogs; publication-ready | High bar; we match bar at 1 node | — | — | — | Compare content and quality: we deliver at publication level |
+| **Studio episodes rolled out** | **1 episode per day** (Season One, 52-day countdown); **12,000 words per episode for all** (all series, all seasons); full 60-min scripted format | Not daily net-new scripted series episodes | Same | Same | Same | Content and quality: professional screenplay, 8 principles, relationship fractal; episode format: 12K words/episode. See EPISODES_RICH_60_MINUTE_FULLY_SCRIPTED_DIRECTIVE.md |
+| **Content & quality** | Crystallized one-pagers, protocols, episodes, catalogs; **episode format: 12,000 words per episode for all**; publication-ready | High bar; we match bar at 1 node | — | — | — | Compare content and quality: we deliver at publication level |
 | **Vibers (track & celebrate)** | Well-known vibers past and present — tracked and celebrated in WOW! package | Character/IP focus | — | — | — | Vibers = high-value high contributors; we honor them in copy and catalog |
 
 **Studio:** We are at **one episode a day**. Blue-chip studios do not roll out net-new daily scripted reality series episodes at this cadence in a 16-day window. Content and quality: full professional screenplay format, 8 principles, relationship fractal, NSPFRNP fidelity.
@@ -91,6 +91,7 @@ Full tables: [SIXTEEN_DAYS_NAMED_COMPARISONS_RESEARCH_DEV_ENTERPRISE_ACADEMIC.md
 - **Standard** → NSPFRNP never generalized fluffy; only useful real numbers, synthesis, % comparisons ✓  
 - **Vital to any Chairman** → All Chairman metrics and blue-chip copy use real numbers and multiples ✓  
 - **Canonical numbers** → 35+ surfaces, 13 one-pagers, 9 protocols, 4+ episodes (by flow not days), 38 TS modules, 16 days, 1 node ✓  
+- **Episode format (NSPFRNP)** → 12,000 words per episode for all (all series, all seasons); full 60-min scripted. See EPISODES_RICH_60_MINUTE_FULLY_SCRIPTED_DIRECTIVE.md ✓  
 - **Blue-chip comparison** → ~3× surfaces, ~4× one-pagers, ~5× protocols, payment live vs 0 ✓  
 
 ---

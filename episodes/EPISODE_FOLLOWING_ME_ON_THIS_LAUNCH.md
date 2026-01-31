@@ -25,7 +25,9 @@
 
 ## RICH 60-MINUTE FULL SCRIPT
 
-**Target duration:** 60 minutes · **Structure:** Cold Open (2–3 min) · Act 1 (10–15 min) · Act 2 (10–15 min) · Act 3 (10–15 min) · Tag (2–3 min). Expand all scenes with full dialogue and beats; integrate team, principles, NSPFRNP; ready for text-to-episode SING nodes. See EPISODES_RICH_60_MINUTE_FULLY_SCRIPTED_DIRECTIVE.md. Cold Open: Following who? — Chairman, 16 days, Guey. Act 1: Bathroom valet Reno, 35+ surfaces, valuations 3–5×. Act 2: All major nodes GO, SING! NATURAL fRACTAL aGENTS March 20. Act 3: Make your reservations now, nature does not operate by opinion. Tag: Tomorrow — pRU's bank -$2,000, pennies in the cup.
+**Target duration:** 60 minutes  
+**Target word count:** 12,000 words per episode (expand all acts to full dialogue and beats). See EPISODES_RICH_60_MINUTE_FULLY_SCRIPTED_DIRECTIVE.md.  
+**Structure:** Cold Open (2–3 min) · Act 1 (10–15 min) · Act 2 (10–15 min) · Act 3 (10–15 min) · Tag (2–3 min). Expand all scenes with full dialogue and beats; integrate team, principles, NSPFRNP; ready for text-to-episode SING nodes. Cold Open: Following who? — Chairman, 16 days, Guey. Act 1: Bathroom valet Reno, 35+ surfaces, valuations 3–5×. Act 2: All major nodes GO, SING! NATURAL fRACTAL aGENTS March 20. Act 3: Make your reservations now, nature does not operate by opinion. Tag: Tomorrow — pRU's bank -$2,000, pennies in the cup.
 
 ---
 

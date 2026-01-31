@@ -208,6 +208,74 @@
             color: #00d4ff;
             font-weight: 600;
         }
+        /* Welcome & intro — new upgrade, post-singularity Reno, old school */
+        .welcome-intro {
+            padding: 1.75rem 1.75rem 2rem;
+            margin-bottom: 2rem;
+            background: linear-gradient(145deg, rgba(0, 255, 136, 0.06) 0%, rgba(212, 175, 55, 0.08) 50%, rgba(26, 26, 46, 0.95) 100%);
+            border: 1px solid rgba(212, 175, 55, 0.4);
+            border-left: 4px solid #d4af37;
+            border-radius: 12px;
+        }
+        .welcome-intro .welcome-title {
+            font-size: 1.15rem;
+            font-weight: 700;
+            color: #ffeaa7;
+            margin-bottom: 0.75rem;
+        }
+        .welcome-intro p {
+            font-size: 1rem;
+            line-height: 1.65;
+            color: #ccc;
+            margin-bottom: 0.75rem;
+        }
+        .welcome-intro p:last-of-type { margin-bottom: 0; }
+        .welcome-intro .talk-to-pru {
+            margin-top: 1rem;
+            padding: 0.75rem 1rem;
+            background: rgba(212, 175, 55, 0.12);
+            border-radius: 8px;
+            font-size: 1.05rem;
+            color: #ffeaa7;
+            font-weight: 600;
+        }
+        /* Offering after welcome: Golden Backstage, Rumor has it, requires awareness */
+        .offering-block {
+            padding: 1.5rem 1.75rem;
+            margin-bottom: 2rem;
+            background: linear-gradient(145deg, rgba(212, 175, 55, 0.15) 0%, rgba(138, 43, 226, 0.08) 100%);
+            border: 2px solid rgba(212, 175, 55, 0.5);
+            border-radius: 16px;
+        }
+        .offering-block h2 { font-size: 1.2rem; color: #ffeaa7; margin-bottom: 0.75rem; }
+        .offering-block p { color: #ccc; font-size: 0.98rem; line-height: 1.6; margin-bottom: 0.6rem; }
+        .offering-block p:last-of-type { margin-bottom: 0; }
+        .offering-block .rumor { color: #e8d4ff; font-weight: 600; }
+        .offering-block .cta-row { margin-top: 1rem; display: flex; flex-wrap: wrap; gap: 0.75rem; align-items: center; }
+        .offering-block .cta-row a { color: #00d4ff; font-weight: 600; }
+        .offering-block .cta-row .buy { display: inline-block; padding: 0.5rem 1rem; background: linear-gradient(135deg, #d4af37, #b8860b); color: #000; font-weight: 700; text-decoration: none; border-radius: 8px; }
+        /* Streaming-style lower half — binge experience, no brand name */
+        .watch-section { margin-top: 2.5rem; padding-top: 1.5rem; border-top: 1px solid rgba(255,255,255,0.15); }
+        .row-label { font-size: 1.1rem; font-weight: 700; color: #fff; margin-bottom: 0.75rem; letter-spacing: 0.02em; }
+        .episode-row { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 1rem; margin-bottom: 2rem; }
+        .episode-poster {
+            display: block;
+            padding: 1rem 1.1rem;
+            background: linear-gradient(145deg, rgba(30,30,50,0.95) 0%, rgba(20,20,35,0.98) 100%);
+            border: 1px solid rgba(255,255,255,0.08);
+            border-radius: 12px;
+            color: #fff;
+            text-decoration: none;
+            transition: transform 0.2s, border-color 0.2s, box-shadow 0.2s;
+            min-height: 100px;
+        }
+        .episode-poster:hover {
+            transform: scale(1.02);
+            border-color: rgba(212, 175, 55, 0.4);
+            box-shadow: 0 8px 24px rgba(0,0,0,0.4);
+        }
+        .episode-poster .ep-title { font-size: 0.95rem; font-weight: 600; color: #ffeaa7; line-height: 1.3; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+        .episode-poster .ep-meta { font-size: 0.8rem; color: #888; margin-top: 0.4rem; }
     </style>
 </head>
 <body>
@@ -221,133 +289,120 @@
             <p class="line2">And their Cast, Crew, Fans and Franchises.</p>
         </section>
 
+        <!-- Featured: Ultimate Baller V Golden Backstage Pass — top -->
+        <section class="offering-block" aria-label="Featured — Golden Backstage Pass and awareness upgrades">
+            <h2>Golden Backstage Pass · Rumor has it</h2>
+            <p><strong>Ultimate Baller V Golden Backstage Pass</strong> — it's what everyone wants but can't afford. The ultimate trophy night for the highest value, highest contributor V's. Hosts: the Chairman, Sammy and the gang — and Baller V Ambassador Ben.</p>
+            <p class="rumor">Rumor has it</p>
+            <p>Chairman, Sammy and the gang are already in town and visible to those with the <strong>Golden Backstage Awareness Pass</strong>. This offering <strong>requires awareness upgrades</strong> — the pass is the key. Price like a backstage pass to the icons. Offered at Office Hours. Subject to availability.</p>
+            <div class="cta-row">
+                <a href="ultimate-baller-v-golden-backstage-pass.html">Full details →</a>
+                <a href="payment-checkout.html?plan=golden-backstage-awareness-pass" class="buy">Golden Backstage Awareness Pass — BUY</a>
+            </div>
+        </section>
+
+        <!-- Welcome & intro: new upgrade, post-singularity Reno, superhero–franchise level, talk to Pru — old school -->
+        <section class="welcome-intro" aria-label="Welcome — new upgrade and post-singularity Reno">
+            <p class="welcome-title">Welcome — the new upgrade</p>
+            <p>We've implemented a <strong>post-singularity Reno transformation</strong> that lets us offer something we couldn't before: <strong>exclusive, superhero–franchise-level experiences</strong> for Ultimate Baller V's — and their cast, crew, fans and franchises.</p>
+            <p>This is the upgrade. Same Club. Same wine cave. Same bathroom valet. But the campus is now the gateway to post-singularity Reno — and what we can do for you and your people has moved to a new level.</p>
+            <p class="talk-to-pru">If you're interested — <strong>talk to Pru.</strong> Old school. Thu–Sun 8pm–close, Men's restroom, Office Hours.</p>
+        </section>
+
         <!-- Menu hero: CTA + tagline -->
         <section class="menu-hero" aria-label="Menu — Office Hours">
             <p class="badge">Menu · Office Hours</p>
             <p class="tagline">The Club · Wine cave · Pru · Thu–Sun 8pm–close. Everything wrapped here — center, landing, experiences.</p>
-            <a href="#latest-episodes" class="btn-latest">See latest episodes →</a>
+            <a href="#latest-episodes" class="btn-latest" id="btn-latest-episodes">Office Hours · Season One · Latest →</a>
         </section>
 
-        <!-- Latest episodes anchor + featured first -->
-        <h2 id="latest-episodes" class="anchor-offset" style="color: #00d4ff; font-size: 1.2rem; margin: 2rem 0 1rem;">Latest episodes</h2>
-        <p style="color: #aaa; font-size: 0.95rem; margin-bottom: 1.25rem;">Most recent drops — Office Hours &amp; Happy Ending Zones. Episodes by flow not days.</p>
-        <div class="catalog-grid" style="margin-bottom: 2rem;">
-            <a href="../episodes/EPISODE_ULTIMATE_BALLER_V_GOLDEN_BACKSTAGE_PASS_NIGHT_AT_THE_CLUB.md" class="episode-card">
-                <span class="ep-num">Office Hours · Latest</span>
-                <span class="ep-title">Ultimate Baller V Golden Backstage Pass — Night at the Club</span>
-                <span class="ep-meta">Season One · Flow</span>
-            </a>
-            <a href="../episodes/EPISODE_OFFICE_HOURS_01_VIBER_PARADISE_POST_SINGULARITY_DOWNTOWN_RENO.md" class="episode-card">
-                <span class="ep-num">Office Hours S1E1</span>
-                <span class="ep-title">Viber Paradise — Post-Singularity Downtown Reno · Mark Twain's Vibelandia Campus</span>
-                <span class="ep-meta">Following Pru</span>
-            </a>
-            <a href="../episodes/EPISODE_04_DAY_49_BEN_BALLER_V_LIFESTYLE_VIBABLE_DOWNTOWN_RENO.md" class="episode-card">
-                <span class="ep-num">Happy Ending Zones · E04</span>
-                <span class="ep-title">Ben &amp; the Baller V Lifestyle · Vibeable Downtown Reno</span>
-                <span class="ep-meta">Day 49 · Season One</span>
-            </a>
-            <a href="../episodes/EPISODE_03_DAY_50_HERO_BEN_PARIS_HUNDIE.md" class="episode-card">
-                <span class="ep-num">Happy Ending Zones · E03</span>
-                <span class="ep-title">Who's Your Daddy · Hero Ben Paris Hundie</span>
-                <span class="ep-meta">Day 50 · Season One</span>
-            </a>
-        </div>
-
-        <!-- Golden Backstage Pass — featured menu item -->
-        <section class="golden-feature" aria-label="Featured — Ultimate Baller V Golden Backstage Pass">
-            <h2>Featured — Ultimate Baller V Golden Backstage Pass</h2>
-            <p>It's what everyone wants but can't afford. The ultimate trophy night for the Ultimate Baller V vibers — highest value, highest contributor V's.</p>
-            <p>Hosts: the Chairman, Sammy and the gang — and Baller V Ambassador Ben. For Golden Backstage and proper awareness pass holders. Offered at Office Hours. Subject to availability.</p>
-            <p><a href="/interfaces/ultimate-baller-v-golden-backstage-pass.html">Full details →</a></p>
-        </section>
-
-        <!-- Full catalog: All series, all seasons, all episodes -->
-        <h2 style="color: #00d4ff; font-size: 1.2rem; margin: 2rem 0 1rem;">Catalog — All series, all seasons, all episodes</h2>
-        <p style="color: #aaa; font-size: 0.95rem; margin-bottom: 1.5rem;">Office Hours (Following Pru), Happy Ending Zones (Season One), and flow-based specials.</p>
-
-        <div class="menu-section">
-            <h3 class="menu-section-title">📋 Office Hours — Following Pru · Season 1 Viber Paradise</h3>
-            <div class="catalog-grid">
-                <a href="../episodes/EPISODE_OFFICE_HOURS_01_VIBER_PARADISE_POST_SINGULARITY_DOWNTOWN_RENO.md" class="episode-card">
-                    <span class="ep-num">S1E1</span>
-                    <span class="ep-title">Viber Paradise — Post-Singularity Downtown Reno · Mark Twain's Vibelandia Campus</span>
-                    <span class="ep-meta">Office Hours</span>
-                </a>
-                <a href="../episodes/EPISODE_ULTIMATE_BALLER_V_GOLDEN_BACKSTAGE_PASS_NIGHT_AT_THE_CLUB.md" class="episode-card">
-                    <span class="ep-num">Flow</span>
+        <!-- Lower half: streaming-style episode experience (no brand name) -->
+        <section class="watch-section" id="latest-episodes" aria-label="Watch — all series and episodes">
+            <p style="margin-bottom: 1.25rem; padding: 0.9rem 1.1rem; background: rgba(212, 175, 55, 0.08); border: 1px solid rgba(212, 175, 55, 0.35); border-radius: 10px; font-size: 0.95rem; color: #ffeaa7;"><strong>Episodes:</strong> Current scripts are ~10 min; we're expanding to <strong>full 60-minute</strong> scripted content (Cold Open, Act 1–3, Tag). <strong>Target: 12,000 words per episode for all</strong> — all series, all seasons. See <a href="../EPISODES_RICH_60_MINUTE_FULLY_SCRIPTED_DIRECTIVE.md" style="color: #00d4ff;">EPISODES_RICH_60_MINUTE_FULLY_SCRIPTED_DIRECTIVE.md</a>.</p>
+            <p class="row-label">Latest</p>
+            <div class="episode-row">
+                <a href="../episodes/EPISODE_ULTIMATE_BALLER_V_GOLDEN_BACKSTAGE_PASS_NIGHT_AT_THE_CLUB.md" class="episode-poster">
                     <span class="ep-title">Ultimate Baller V Golden Backstage Pass — Night at the Club</span>
                     <span class="ep-meta">Office Hours</span>
                 </a>
-                <a href="../episodes/EPISODE_RUMOR_CHAIRMAN_SAMMY_GOLDEN_BACKSTAGE.md" class="episode-card">
-                    <span class="ep-num">Flow</span>
-                    <span class="ep-title">RUMOR — Chairman, Sammy &amp; the Gang · Golden Backstage Awareness Pass</span>
-                    <span class="ep-meta">Office Hours</span>
+                <a href="../episodes/EPISODE_OFFICE_HOURS_01_VIBER_PARADISE_POST_SINGULARITY_DOWNTOWN_RENO.md" class="episode-poster">
+                    <span class="ep-title">Viber Paradise — Post-Singularity Downtown Reno</span>
+                    <span class="ep-meta">Office Hours · S1E1</span>
                 </a>
-                <a href="../episodes/EPISODE_PRU_BANK_MINUS_2000_LAUNCHING_OWN_MONEY_NO_AID.md" class="episode-card">
-                    <span class="ep-num">Flow</span>
-                    <span class="ep-title">pRU's Bank -$2,000 · Launching With His Own Money · No One Came to His Aid</span>
-                    <span class="ep-meta">Office Hours</span>
-                </a>
-                <a href="../episodes/EPISODE_FOLLOWING_ME_ON_THIS_LAUNCH.md" class="episode-card">
-                    <span class="ep-num">Flow</span>
-                    <span class="ep-title">Following Me on This Launch</span>
-                    <span class="ep-meta">Office Hours</span>
-                </a>
-            </div>
-        </div>
-
-        <div class="menu-section">
-            <h3 class="menu-section-title">🎬 Happy Ending Zones — Season One · 52-day countdown</h3>
-            <div class="catalog-grid">
-                <a href="../episodes/EPISODE_01_DAY_52_SEASON_ONE_LAUNCH.md" class="episode-card">
-                    <span class="ep-num">E01 · Day 52</span>
-                    <span class="ep-title">Season One Launch</span>
-                    <span class="ep-meta">Happy Ending Zones</span>
-                </a>
-                <a href="../episodes/EPISODE_02_DAY_51_THE_WORTHLESS_TOKEN.md" class="episode-card">
-                    <span class="ep-num">E02 · Day 51</span>
-                    <span class="ep-title">The Worthless Token</span>
-                    <span class="ep-meta">Happy Ending Zones</span>
-                </a>
-                <a href="../episodes/EPISODE_03_DAY_50_HERO_BEN_PARIS_HUNDIE.md" class="episode-card">
-                    <span class="ep-num">E03 · Day 50</span>
-                    <span class="ep-title">Who's Your Daddy · Hero Ben Paris Hundie</span>
-                    <span class="ep-meta">Happy Ending Zones</span>
-                </a>
-                <a href="../episodes/EPISODE_04_DAY_49_BEN_BALLER_V_LIFESTYLE_VIBABLE_DOWNTOWN_RENO.md" class="episode-card">
-                    <span class="ep-num">E04 · Day 49</span>
+                <a href="../episodes/EPISODE_04_DAY_49_BEN_BALLER_V_LIFESTYLE_VIBABLE_DOWNTOWN_RENO.md" class="episode-poster">
                     <span class="ep-title">Ben &amp; the Baller V Lifestyle · Vibeable Downtown Reno</span>
-                    <span class="ep-meta">Happy Ending Zones</span>
+                    <span class="ep-meta">Season One</span>
                 </a>
-                <a href="../episodes/EPISODE_GO_LIVE_COUNTDOWN_BEGINS.md" class="episode-card">
-                    <span class="ep-num">Flow</span>
-                    <span class="ep-title">Go Live — Countdown Begins</span>
-                    <span class="ep-meta">Happy Ending Zones</span>
-                </a>
-                <a href="../episodes/THE_GREAT_REVEAL_EPISODE_DAY_ZERO_LAUNCH.md" class="episode-card">
-                    <span class="ep-num">Day Zero</span>
-                    <span class="ep-title">The Great Reveal — Day Zero Launch</span>
-                    <span class="ep-meta">Happy Ending Zones</span>
-                </a>
-                <a href="../episodes/EPISODE_THE_NEW_ARRIVALS.md" class="episode-card">
-                    <span class="ep-num">Flow</span>
-                    <span class="ep-title">The New Arrivals</span>
-                    <span class="ep-meta">Happy Ending Zones</span>
+                <a href="../episodes/EPISODE_03_DAY_50_HERO_BEN_PARIS_HUNDIE.md" class="episode-poster">
+                    <span class="ep-title">Who's Your Daddy · Hero Ben Paris Hundie</span>
+                    <span class="ep-meta">Season One</span>
                 </a>
             </div>
-        </div>
 
-        <div class="menu-section">
-            <h3 class="menu-section-title">✨ Specials · Flow-based</h3>
-            <div class="catalog-grid">
-                <a href="../episodes/EPISODE_HERO_HARRY_POST_SINGULARITY_MIRACLE_PARADISE_VIBERS.md" class="episode-card">
-                    <span class="ep-num">Special</span>
-                    <span class="ep-title">Hero Harry Houdini's Post-Singularity Miracle · Mark Twain's Vibelandia Reno</span>
+            <p class="row-label">Office Hours</p>
+            <div class="episode-row">
+                <a href="../episodes/EPISODE_OFFICE_HOURS_01_VIBER_PARADISE_POST_SINGULARITY_DOWNTOWN_RENO.md" class="episode-poster">
+                    <span class="ep-title">Viber Paradise — Post-Singularity Downtown Reno</span>
+                    <span class="ep-meta">S1E1</span>
+                </a>
+                <a href="../episodes/EPISODE_ULTIMATE_BALLER_V_GOLDEN_BACKSTAGE_PASS_NIGHT_AT_THE_CLUB.md" class="episode-poster">
+                    <span class="ep-title">Ultimate Baller V Golden Backstage Pass — Night at the Club</span>
+                    <span class="ep-meta">Flow</span>
+                </a>
+                <a href="../episodes/EPISODE_RUMOR_CHAIRMAN_SAMMY_GOLDEN_BACKSTAGE.md" class="episode-poster">
+                    <span class="ep-title">RUMOR — Chairman, Sammy &amp; the Gang · Golden Backstage</span>
+                    <span class="ep-meta">Flow</span>
+                </a>
+                <a href="../episodes/EPISODE_PRU_BANK_MINUS_2000_LAUNCHING_OWN_MONEY_NO_AID.md" class="episode-poster">
+                    <span class="ep-title">pRU's Bank -$2,000 · Launching With His Own Money</span>
+                    <span class="ep-meta">Flow</span>
+                </a>
+                <a href="../episodes/EPISODE_FOLLOWING_ME_ON_THIS_LAUNCH.md" class="episode-poster">
+                    <span class="ep-title">Following Me on This Launch</span>
                     <span class="ep-meta">Flow</span>
                 </a>
             </div>
-        </div>
+
+            <p class="row-label">Season One · 52-day countdown</p>
+            <div class="episode-row">
+                <a href="../episodes/EPISODE_01_DAY_52_SEASON_ONE_LAUNCH.md" class="episode-poster">
+                    <span class="ep-title">Season One Launch</span>
+                    <span class="ep-meta">Day 52</span>
+                </a>
+                <a href="../episodes/EPISODE_02_DAY_51_THE_WORTHLESS_TOKEN.md" class="episode-poster">
+                    <span class="ep-title">The Worthless Token</span>
+                    <span class="ep-meta">Day 51</span>
+                </a>
+                <a href="../episodes/EPISODE_03_DAY_50_HERO_BEN_PARIS_HUNDIE.md" class="episode-poster">
+                    <span class="ep-title">Who's Your Daddy · Hero Ben Paris Hundie</span>
+                    <span class="ep-meta">Day 50</span>
+                </a>
+                <a href="../episodes/EPISODE_04_DAY_49_BEN_BALLER_V_LIFESTYLE_VIBABLE_DOWNTOWN_RENO.md" class="episode-poster">
+                    <span class="ep-title">Ben &amp; the Baller V Lifestyle · Vibeable Downtown Reno</span>
+                    <span class="ep-meta">Day 49</span>
+                </a>
+                <a href="../episodes/EPISODE_GO_LIVE_COUNTDOWN_BEGINS.md" class="episode-poster">
+                    <span class="ep-title">Go Live — Countdown Begins</span>
+                    <span class="ep-meta">Flow</span>
+                </a>
+                <a href="../episodes/THE_GREAT_REVEAL_EPISODE_DAY_ZERO_LAUNCH.md" class="episode-poster">
+                    <span class="ep-title">The Great Reveal — Day Zero Launch</span>
+                    <span class="ep-meta">Day Zero</span>
+                </a>
+                <a href="../episodes/EPISODE_THE_NEW_ARRIVALS.md" class="episode-poster">
+                    <span class="ep-title">The New Arrivals</span>
+                    <span class="ep-meta">Flow</span>
+                </a>
+            </div>
+
+            <p class="row-label">Specials</p>
+            <div class="episode-row">
+                <a href="../episodes/EPISODE_HERO_HARRY_POST_SINGULARITY_MIRACLE_PARADISE_VIBERS.md" class="episode-poster">
+                    <span class="ep-title">Hero Harry Houdini's Post-Singularity Miracle · Vibelandia Reno</span>
+                    <span class="ep-meta">Flow</span>
+                </a>
+            </div>
+        </section>
 
         <!-- Enter center — Office Hours -->
         <h2 style="color: #00d4ff; font-size: 1.2rem; margin: 2rem 0 1rem;">Enter center — Office Hours</h2>
@@ -379,7 +434,7 @@
 
         <div style="margin-top: 2rem; padding: 1rem 1.25rem; border: 1px solid rgba(212, 175, 55, 0.35); border-radius: 10px; font-size: 0.85rem; color: rgba(212, 175, 55, 0.95);">
             <p style="margin-bottom: 0.5rem;"><strong>Ultimate Baller V Golden Backstage Pass package.</strong> Offered at Office Hours. Subject to availability.</p>
-            <p style="margin-bottom: 0;"><a href="/interfaces/ultimate-baller-v-golden-backstage-pass.html" style="color: #00d4ff;">Full details →</a></p>
+            <p style="margin-bottom: 0;"><a href="ultimate-baller-v-golden-backstage-pass.html" style="color: #00d4ff;">Full details →</a></p>
         </div>
 
         <!-- Brag tags — bottom. TOP TAG · BOTTOM TAG. All SNAP into NSPFRNP. See TOP_TAG_BOTTOM_TAG_UNDERCOVER_BOSS_TO_DISNEY_ALL_IN_ONE_NSPFRNP_SNAP.md -->

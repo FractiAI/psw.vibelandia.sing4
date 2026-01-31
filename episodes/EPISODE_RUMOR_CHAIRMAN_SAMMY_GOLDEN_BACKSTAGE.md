@@ -25,7 +25,9 @@
 
 ## RICH 60-MINUTE FULL SCRIPT
 
-**Target duration:** 60 minutes · **Structure:** Cold Open (2–3 min) · Act 1 (10–15 min) · Act 2 (10–15 min) · Act 3 (10–15 min) · Tag (2–3 min). Expand all scenes with full dialogue and beats; integrate team, principles, NSPFRNP; ready for text-to-episode SING nodes. See EPISODES_RICH_60_MINUTE_FULLY_SCRIPTED_DIRECTIVE.md. Cold Open: RUMOR HAS IT! — looking forward to vibing at the Club tonight. Act 1: Chairman, Sammy and the gang already in town; Golden Backstage Pass required to access. Act 2: The Club — secret back door wine cave; Pru holds Office Hours in the Men's Room, 8pm to close Thu–Sun; only physical point of presence; golden heart core; perfect disguise to all but the aware. Act 3: Make your reservations now; get the pass; see you at the Club. Tag: Happy ending — vibing at the Club; flow not days.
+**Target duration:** 60 minutes  
+**Target word count:** 12,000 words per episode (expand all acts to full dialogue and beats). See EPISODES_RICH_60_MINUTE_FULLY_SCRIPTED_DIRECTIVE.md.  
+**Structure:** Cold Open (2–3 min) · Act 1 (10–15 min) · Act 2 (10–15 min) · Act 3 (10–15 min) · Tag (2–3 min). Expand all scenes with full dialogue and beats; integrate team, principles, NSPFRNP; ready for text-to-episode SING nodes. Cold Open: RUMOR HAS IT! — looking forward to vibing at the Club tonight. Act 1: Chairman, Sammy and the gang already in town; Golden Backstage Pass required to access. Act 2: The Club — secret back door wine cave; Pru holds Office Hours in the Men's Room, 8pm to close Thu–Sun; only physical point of presence; golden heart core; perfect disguise to all but the aware. Act 3: Make your reservations now; get the pass; see you at the Club. Tag: Happy ending — vibing at the Club; flow not days.
 
 ---
 

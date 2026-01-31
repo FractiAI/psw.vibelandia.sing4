@@ -24,6 +24,7 @@
 ## EPISODE STRUCTURE (60-MINUTE RICH SCRIPT)
 
 **Target duration:** 60 minutes  
+**Target word count:** 12,000 words per episode (expand all acts to full dialogue and beats). See EPISODES_RICH_60_MINUTE_FULLY_SCRIPTED_DIRECTIVE.md.  
 **Structure:** Cold Open (2–3 min) · Act 1 (10–15 min) · Act 2 (10–15 min) · Act 3 (10–15 min) · Tag (2–3 min).  
 **Content:** Following Pru · Post-singularity black hole holographic hydrogen programmer · Open-sourcing to ALL · Ultimate VIP Chairman Consoles · The Club · Restroom valet · Tuxedo, bowtie, James Bond style · Office Hours in the Men's Restroom · Gateway to Post-Singularity Earth · Motherlode and Gold Rush Ground Zero · High-end strip club · Seedy side of downtown Reno · Perfect on-the-down-low placement for viber paradise. **Landing and Experiences — all centered in my bathroom during Office Hours in perfect recursive crystal.** Whole in every part.
 

@@ -279,6 +279,7 @@ EPISODES OF THE DAY — LAUNCH PAD + SING! NODES SNAP: Always offer episode + ca
 EPISODES BY FLOW NOT DAYS SNAP: NSPFRNP — spin episodes by flow not days
 ├─ We spin episodes by flow (narrative flow, content flow, MCA flow), not strictly by days. Days = countdown label; flow = episode order and "next episode."
 ├─ RUMOR episode = flow-based episode (Chairman, Sammy and the gang; Golden Backstage Awareness Pass). See EPISODE_RUMOR_CHAIRMAN_SAMMY_GOLDEN_BACKSTAGE.md.
+├─ Full episode: Ultimate Baller V Golden Backstage Pass night at the club — Chairman, Sammy and the gang; chairmen all on a WINK!; Office Hours at the Club; how WINK! works so all the right people are there for your ultimate paradise Baller V superhero franchise experience. See EPISODE_ULTIMATE_BALLER_V_GOLDEN_BACKSTAGE_PASS_NIGHT_AT_THE_CLUB.md.
 └─ See EPISODES_BY_FLOW_NOT_DAYS_SNAP.md · REALITY_SERIES_FORMAT.md
 
 CHAIRMAN CONSOLE LASER FOCUS SINGLE BUTTON HERO HOST AI 24×7 SNAP: No middle men · Turnkey to Baller V
@@ -366,8 +367,9 @@ GOLDEN BACKSTAGE AWARENESS PASS SNAP: New product class · RUMOR HAS IT!
 
 ULTIMATE BALLER V GOLDEN BACKSTAGE PASS PACKAGE SNAP: Feature prominent up top · lead with it · ultimate trophy night
 ├─ Ultimate Baller V Golden Backstage Pass package — feature prominent up top, lead with it. It's what everyone wants but can't afford. The ultimate trophy night for the Ultimate Baller V vibers — highest value, highest contributor V's. Office Hours only. Subject to availability. Continued in ULTIMATE_BALLER_V_GOLDEN_BACKSTAGE_PASS_EXPLAINED.md.
-├─ Surface: interfaces/office-hours.html (lead block at top + product block + closing line). Present closing: how quickly we did this, how the system does this — then back to product offered at Office Hours.
-└─ See ULTIMATE_BALLER_V_GOLDEN_BACKSTAGE_PASS_PACKAGE_SNAP.md · ULTIMATE_BALLER_V_GOLDEN_BACKSTAGE_PASS_EXPLAINED.md · GOLDEN_BACKSTAGE_AWARENESS_PASS_SNAP.md · OFFICE_HOURS_FOR_ALL_SNAP.md
+├─ Chairmen all on a WINK! at Office Hours at the Club — so all the right people are there for your ultimate paradise Baller V superhero franchise experience. Full episode rollout: EPISODE_ULTIMATE_BALLER_V_GOLDEN_BACKSTAGE_PASS_NIGHT_AT_THE_CLUB.md (night at the club, full superhero franchise level, how WINK! works).
+├─ Surface: interfaces/office-hours.html (lead block at top + product block + closing line). Full details skin: interfaces/ultimate-baller-v-golden-backstage-pass.html (hosts, what's included, how it works, CTA). Present closing: how quickly we did this, how the system does this — then back to product offered at Office Hours.
+└─ See ULTIMATE_BALLER_V_GOLDEN_BACKSTAGE_PASS_PACKAGE_SNAP.md · ULTIMATE_BALLER_V_GOLDEN_BACKSTAGE_PASS_EXPLAINED.md · GOLDEN_BACKSTAGE_AWARENESS_PASS_SNAP.md · OFFICE_HOURS_FOR_ALL_SNAP.md · episodes/EPISODE_ULTIMATE_BALLER_V_GOLDEN_BACKSTAGE_PASS_NIGHT_AT_THE_CLUB.md
 
 BBHE NOT ALL WORDS CREATED EQUAL SNAP: T-shirt quote · BBHE programming
 ├─ NOT ALL WORDS ARE CREATED EQUAL. Refers to BBHE programming (word choice, scripting, copy weight).
