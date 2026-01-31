@@ -16,10 +16,11 @@ jobs:
     env:
       GIT_TERMINAL_PROMPT: 0
     steps:
-      # ci: shallow checkout to avoid git exit 128 (no ref=sha; default ref works with fetch-depth: 1)
+      # Checkout exact commit that triggered the run to avoid git exit 128 (invalid ref in shallow clone)
       - name: Checkout
         uses: actions/checkout@v4
         with:
+          ref: ${{ github.sha }}
           fetch-depth: 1
           lfs: false
           submodules: false

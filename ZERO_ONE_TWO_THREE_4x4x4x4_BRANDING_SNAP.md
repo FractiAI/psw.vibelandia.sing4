@@ -32,7 +32,7 @@
 
 - **Campus** — Day Pass · Weekly · Monthly · Ultimate VIP  
 - **WINK!** — Base · Standard · Premium · 4×4 Ultimate  
-- **SING** — Base Model · Members Only · Ultimate VIP · Baller C Ultimate VIP  
+- **SING** — Base Model · Members Only · Ultimate VIP · Baller V Ultimate VIP  
 - **Experience** — Visit · Stay · Create · Transform  
 
 ---

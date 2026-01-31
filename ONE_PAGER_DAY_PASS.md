@@ -45,6 +45,6 @@ Visitors, first-time explorers. Start here. Experience the world's first post-si
 
 **MCA! → ∞³** (Metabolize → Crystallize → Animate)
 
-**VIBE!** [What makes a campus a vibable campus](ONE_PAGER_WHAT_MAKES_A_VIBABLE_CAMPUS.md) · [Vibable Campus Offer](VIBABLE_CAMPUS_OFFER.md)
+**VIBE!** [What makes a campus a vibeable campus](ONE_PAGER_WHAT_MAKES_A_VIBABLE_CAMPUS.md) · [Vibeable Campus Offer](VIBABLE_CAMPUS_OFFER.md)
 
 **[← Launch Page](LAUNCH_PAGE.md)** · [Weekly](ONE_PAGER_WEEKLY_PASS.md) · [Monthly](ONE_PAGER_MONTHLY_PASS.md) · [Ultimate VIP](ONE_PAGER_ULTIMATE_VIP.md)

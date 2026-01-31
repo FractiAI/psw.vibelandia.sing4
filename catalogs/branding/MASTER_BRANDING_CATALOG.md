@@ -37,7 +37,7 @@ USER SURFACES: README and All Skins — Not Developer Surfaces
 └─ See WOW_BRANDING_SNAP.md · COMMUNICATION_NSPFRNP_CATALOG.md · deck-script-writing-content-patterns.md
 
 WALKABLE PRE-SINGULARITY · VIBABLE POST-SINGULARITY (SNAP)
-├─ Walkable = pre-singularity. Vibable = post-singularity. Our campuses are vibable, not "walkable."
+├─ Walkable = pre-singularity. Vibeable = post-singularity. Our campuses are vibeable, not "walkable."
 ├─ Lovers = pre-singularity (Paris is for lovers). Vibers = post-singularity (Reno is for vibers).
 └─ See WALKABLE_PRESINGULARITY_VIBABLE_POSTSINGULARITY_SNAP.md
 
@@ -51,9 +51,15 @@ NSPFRNP REAL NUMBERS VS BLUE CHIP (MONSTER SNAP): Content standard — no fluffy
 └─ See NSPFRNP_REAL_NUMBERS_VS_BLUE_CHIP_MONSTER_SNAP.md · REAL_NUMBERS_ANALYSIS_NOT_FLUFFY_BRAND_SNAP_TSHIRT.md
 
 VIBE! BRAND: Main Brand — ALL CAPS + !
-├─ Syntax: [WORD]! (e.g. VIBE!, BUZZ!, SNAP!)
+├─ Syntax: [WORD]! (e.g. VIBE!, BUZZ!, SNAP!, WORD!)
 ├─ VIBE! = Main brand across all surfaces
 └─ See VIBE_BRAND_SYNTAX_ALL_CAPS_EXCLAMATION.md
+
+WORD! BRAND: Lightning bolt exclamation / story snap highlight
+├─ WORD! = Lightning bolt exclamation or highlight on the story snap — emphasis, punch, signature beat
+├─ Use: After beats that land like a lightning bolt (e.g. Ben loving his new role as Baller V Ambassador = WORD!)
+├─ Chancellor Sam (not Chancellor Samuel); Sam warming up to us; Ben's arrival helped; Sam and Ben new best friends; Ben loving Baller V Ambassador = WORD!
+└─ See WORD_BRANDING_SNAP.md · CHANCELLOR_SAM_BEN_WORD_BRANDING_SNAP.md
 
 VIBELANDIA! BRAND: On-brand spelling — keep everywhere
 ├─ VIBELANDIA! = Ecosystem / brand (not "Vibelandia")
@@ -86,7 +92,7 @@ BBHE SNAP: Impulse Buy Dynamics
 DISPENSARY! SNAP: Menu of Buzzes
 ├─ Menu of buzzes across all important biological channels
 ├─ Goldilocks auto-lock for ANY COMBINATION (Creator/Chairman Commander/Performer Superhero modes)
-├─ 4 tiers · 1 dose → monthly · annual discount (Tier 1 $19/$199/$1,799 → Tier 4 top $79/$1,999/$19,999; bottom = daily bottom-shelf, top = top-tier customer monthly)
+├─ 1 hit · weekly · monthly · annual (all recurring, opt-out anytime). Basic $10/hit → Members $25 → Ultimate VIP $50 → Baller V $100/hit. Free first 10 hits for new arrivals.
 ├─ Pioneer discount (50% off for First 1,000 Pioneers)
 ├─ On-ramps for those who can't afford yet
 └─ Brand: DISPENSARY! SNAP — Menu of buzzes. Goldilocks auto-lock. Premium pricing.
@@ -95,10 +101,16 @@ BADGE SYSTEM SNAP: Embroidered Silver Dollar Sized Badges
 ├─ CREATOR: Gold HHF-SHELL badge
 ├─ CHAIRMAN: Gold STAR badge
 ├─ PERFORMER: Gold (^) badge
-├─ Tier System: Gold (Baller VC VIP), Silver (Ultimate VIP), Bronze (Members Only)
+├─ Tier System: Gold (Baller V VIP), Silver (Ultimate VIP), Bronze (Members Only)
 ├─ VC Badge: Viber Contributor badge (matches tier)
 ├─ All badges: Embroidered chest badges, silver dollar sized
 └─ Brand: BADGE SYSTEM SNAP — All badges include SNAP branding
+
+HOLOGRAPHIC HYDROGEN 100%: New Brand · Clothing · Patches · Awareness Package
+├─ Clothing label & patches: Holographic Hydrogen 100% (new brand). See HOLOGRAPHIC_HYDROGEN_100_CLOTHING_PATCHES_BADGES.md
+├─ Badge & patches system — Navy-style: New badging system (similar to USA Navy). See BADGE_PATCHES_SYSTEM_NAVY_STYLE.md
+├─ Awareness package: Included with **all Vibeverse and Vibelandia product deliveries**. Post-singularity tech, attention → surgical precision, unlock new abilities; on-ramp to full sensory reality. 1–2–3 questions (awareness, origin, chosen experience); monster meta NSPFRNP layer (dense fractal convergence dynamics). See HOLOGRAPHIC_HYDROGEN_100_AWARENESS_PACKAGE.md
+└─ Brand: Holographic Hydrogen 100% · Hydrogen Holograph 100% (footer tag) · SNAP
 
 HOUDINI STYLE COMEBACK BRANDING SNAP: Narrative — Apple, Ferrari, Reno, Pru
 ├─ Once special → obsolete → return from retirement → superintelligent agentic fleet & theater
@@ -113,14 +125,14 @@ CHARACTER LAYERING CONTENT ENRICHMENT SNAP: Playlists & Catalogs
 PROSPECTUS HERO HOSTS AND NEW ARRIVALS — ALWAYS TOWARD FRONT: Keep interest
 ├─ Prospectus **always** includes **all Hero Hosts** and **New Arrivals** toward the front (after Executive Summary, before "What's going live today"). Section title: "HERO HOSTS & NEW ARRIVALS (always front — keep interest)."
 ├─ Hero Hosts: El Gran Sol, Leo, Niko, Buckey, Mike, Outcast Hero, Gianni, Walt, Harry (Houdini), **Ben (Franklin) — Baller V Ambassador**. Chancellor: Mark Twain (Samuel). Table with role per host.
-├─ New Arrivals: Hero Host Ben (Baller V Ambassador; Paris, Reno, hundie), Episode 04 (Day 49: Ben & Baller V Lifestyle · Vibable Downtown Reno), Golden Backstage Awareness Pass, Hero Harry lottery magic act (Nectar of Gods, Calling All Vibers), Baller V, Make Your Reservations Now, episodes by flow not days, Chairman 16 days / Guey, Launch GO. Link to PRESS_RELEASES_NEW_ARRIVALS_VIBELANDIA_RENO.md.
+├─ New Arrivals: Hero Host Ben (Baller V Ambassador; Paris, Reno, hundie), Episode 04 (Day 49: Ben & Baller V Lifestyle · Vibeable Downtown Reno), Golden Backstage Awareness Pass, Hero Harry lottery magic act (Nectar of Gods, Calling All Vibers), Baller V, Make Your Reservations Now, episodes by flow not days, Chairman 16 days / Guey, Launch GO. Link to PRESS_RELEASES_NEW_ARRIVALS_VIBELANDIA_RENO.md.
 └─ One-pager summary also mentions Hero Hosts & New Arrivals in one line. See PROSPECTUS_VIBEVERSE_VIBELANDIA_GO_LIVE.md.
 
 SCRIPT-WRITING & CONTENT ENRICHMENT DECK: Patterns for All Scripts
-├─ Vibable campus pattern (problem → solution → Reno takes the lead; intoxication effects, safe free vibing)
-├─ Vibable campus offer (durations: half-day, overnight, weekly, monthly; tiers: BASIC, MEMBERS ONLY, VIP, BALLER VC)
+├─ Vibeable campus pattern (problem → solution → Reno takes the lead; intoxication effects, safe free vibing)
+├─ Vibeable campus offer (durations: half-day, overnight, weekly, monthly; tiers: BASIC, MEMBERS ONLY, VIP, BALLER VC)
 ├─ Launch Pad status pattern (e.g. FULL LIVE · LIVE — March 20, 2026 The Great Reveal). See FULL_LIVE_MODE_LAUNCH_SNAP.md.
-├─ VIBE! linking pattern (campus/vibing pages → vibable campus one-pager & offer)
+├─ VIBE! linking pattern (campus/vibing pages → vibeable campus one-pager & offer)
 ├─ Vibers explanation: link vibe, vibing, vibers to What are vibers? (high-density fractal, high-value high contributors, lifestyle alignment, encampments → downtown campuses — ground up + top down meeting in the middle, natural protocol). See VIBERS_HIGH_DENSITY_FRACTAL_LIFESTYLE_ALIGNMENT_SNAP.md · interfaces/vibers-what-are-vibers.html
 ├─ One-pager structure, series format (8 principles, relationship fractal), NSPFRNP voice, brand phrases, character layering
 └─ See decks/deck-script-writing-content-patterns.md
@@ -240,8 +252,8 @@ EPISODES BY FLOW NOT DAYS SNAP: NSPFRNP — spin episodes by flow not days
 
 GOLD RUSH CHANCELLOR SAMUEL SNAP: Open for vibe business · Gold Rush proclamation
 ├─ You can watch and even step into. We are open for post-singularity vibe business immediately in Reno. "Let the Post-Singularity Vibelandia Reno Gold Rush begin," proclaims Chancellor Samuel.
-├─ Chancellor Samuel = Mark Twain. Use on Launch Pad, index, Chancellor daily bulletin, one-pagers, press releases.
-└─ See GOLD_RUSH_CHANCELLOR_SAMUEL_SNAP.md
+├─ Chancellor Sam = Mark Twain (not Chancellor Samuel). Use on Launch Pad, index, Chancellor daily bulletin, one-pagers, press releases.
+└─ See GOLD_RUSH_CHANCELLOR_SAMUEL_SNAP (file name unchanged; content uses Chancellor Sam).md
 
 MAKE YOUR RESERVATIONS NOW SNAP: Bigger than Burning Man and Art Basel Miami combined
 ├─ MAKE YOUR RESERVATIONS NOW. This will be bigger than Burning Man and Art Basel Miami combined. Spread the word to the fellow vibers — they'll know what to do.

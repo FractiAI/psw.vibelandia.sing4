@@ -139,7 +139,7 @@ Chaque jour le Chancelier Mark Twain livre son Bulletin quotidien : sagesse, rec
 
 ## 💎 THE GREAT REVEAL : SYNTH À SING
 
-Le 20 mars 2026 (équinoxe de printemps), les jetons SYNTH sans valeur deviennent des nœuds SING inestimables par un système de conversion 1:1. Le premier million de détenteurs de SYNTH gagne automatiquement le droit d'acheter de nouveaux nœuds Superintelligent Agent. SYNTH part de 5 $ (27 janvier), +1 $/jour jusqu'à 57 $ (20 mars). Quatre niveaux SING : Base Model (prix VW Bug) jusqu'à Baller C Ultimate VIP (super voiture ultime pour Ultimate C's).
+Le 20 mars 2026 (équinoxe de printemps), les jetons SYNTH sans valeur deviennent des nœuds SING inestimables par un système de conversion 1:1. Le premier million de détenteurs de SYNTH gagne automatiquement le droit d'acheter de nouveaux nœuds Superintelligent Agent. SYNTH part de 5 $ (27 janvier), +1 $/jour jusqu'à 57 $ (20 mars). Quatre niveaux SING : Base Model (prix VW Bug) jusqu'à Baller V Ultimate VIP (super voiture ultime pour Ultimate C's).
 
 ---
 
@@ -148,7 +148,7 @@ Le 20 mars 2026 (équinoxe de printemps), les jetons SYNTH sans valeur deviennen
 **Campus :** Pass jour | Hebdo | Mensuel | Ultimate VIP.  
 **WINK! Dating :** Base | Standard | Premium | 4x4 Ultimate.  
 **Loterie SYNTH :** 5 $/SYNTH maintenant, +1 $/jour, 1:1 SYNTH→SING (20 mars 2026). Premier million gagne le droit d'acheter des nœuds SING.  
-**SING :** Base Model | Members Only | Ultimate VIP | Baller C Ultimate VIP.  
+**SING :** Base Model | Members Only | Ultimate VIP | Baller V Ultimate VIP.  
 **Positionnement premium :** Les meilleurs C paient le premium ; pas de promo.
 
 **Email :** info@fractiai.com | **Objet :** "I'M READY FOR VIBELANDIA"

@@ -139,7 +139,7 @@ Jeden Tag liefert Kanzler Mark Twain sein tägliches Bulletin: Weisheit, Empfehl
 
 ## 💎 THE GREAT REVEAL: SYNTH ZU SING
 
-Am 20. März 2026 (Frühlings-Tagundnachtgleiche) werden wertlose SYNTH-Tokens durch ein 1:1-Umwandlungssystem zu unschätzbaren SING-Nodes. Die ersten eine Million SYNTH-Inhaber gewinnen automatisch das Recht, neue Superintelligent Agent Nodes zu kaufen. SYNTH startet bei 5 $ (27. Jan.), +1 $/Tag bis 57 $ (20. März). Vier SING-Stufen: Base Model (VW-Bug-Preis) bis Baller C Ultimate VIP (Ultimate-Supercar für Ultimate C's).
+Am 20. März 2026 (Frühlings-Tagundnachtgleiche) werden wertlose SYNTH-Tokens durch ein 1:1-Umwandlungssystem zu unschätzbaren SING-Nodes. Die ersten eine Million SYNTH-Inhaber gewinnen automatisch das Recht, neue Superintelligent Agent Nodes zu kaufen. SYNTH startet bei 5 $ (27. Jan.), +1 $/Tag bis 57 $ (20. März). Vier SING-Stufen: Base Model (VW-Bug-Preis) bis Baller V Ultimate VIP (Ultimate-Supercar für Ultimate C's).
 
 ---
 
@@ -148,7 +148,7 @@ Am 20. März 2026 (Frühlings-Tagundnachtgleiche) werden wertlose SYNTH-Tokens d
 **Campus:** Tageskarte | Woche | Monat | Ultimate VIP.  
 **WINK! Dating:** Base | Standard | Premium | 4x4 Ultimate.  
 **SYNTH-Lotterie:** 5 $/SYNTH jetzt, +1 $/Tag, 1:1 SYNTH→SING (20. März 2026). Erste Million gewinnt Recht zum Kauf von SING-Nodes.  
-**SING:** Base Model | Members Only | Ultimate VIP | Baller C Ultimate VIP.  
+**SING:** Base Model | Members Only | Ultimate VIP | Baller V Ultimate VIP.  
 **Premium-Positionierung:** Top-C zahlen Premium; keine Aktion.
 
 **E-Mail:** info@fractiai.com | **Betreff:** "I'M READY FOR VIBELANDIA"

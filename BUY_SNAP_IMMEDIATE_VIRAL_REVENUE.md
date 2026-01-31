@@ -39,7 +39,7 @@ All prices shown. No "contact for pricing." BUY! snap brand on every surface. On
 - Payment checkout (all plans have price; SING Members $75K, Baller C $500K; BUY! snap brand; Free plans → BUY! add-on CTAs)
 - Chancellor brochure (all SING prices shown, BUY! immediate revenue)
 - index.html, rocket-launch-pad.html (micro edge target line)
-- paypal-payment-system.ts (sing-members-only $75K, sing-baller-c $500K)
+- paypal-payment-system.ts (sing-members-only $75K, sing-baller-v $500K)
 - All CTAs: BUY! — no "contact for pricing"
 
 ---

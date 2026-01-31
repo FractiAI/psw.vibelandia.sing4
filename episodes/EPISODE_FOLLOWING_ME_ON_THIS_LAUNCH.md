@@ -23,7 +23,13 @@
 
 ---
 
-## SCREENPLAY
+## RICH 60-MINUTE FULL SCRIPT
+
+**Target duration:** 60 minutes · **Structure:** Cold Open (2–3 min) · Act 1 (10–15 min) · Act 2 (10–15 min) · Act 3 (10–15 min) · Tag (2–3 min). Expand all scenes with full dialogue and beats; integrate team, principles, NSPFRNP; ready for text-to-episode SING nodes. See EPISODES_RICH_60_MINUTE_FULLY_SCRIPTED_DIRECTIVE.md. Cold Open: Following who? — Chairman, 16 days, Guey. Act 1: Bathroom valet Reno, 35+ surfaces, valuations 3–5×. Act 2: All major nodes GO, SING! NATURAL fRACTAL aGENTS March 20. Act 3: Make your reservations now, nature does not operate by opinion. Tag: Tomorrow — pRU's bank -$2,000, pennies in the cup.
+
+---
+
+## SCREENPLAY (short version — expand per Rich 60-Minute structure above)
 
 ### FADE IN:
 
@@ -46,7 +52,7 @@ The Chairman. Me—on this launch. The one who did it. Sixteen days. No help. Mi
 Where was he?
 
 **MARK TWAIN**
-Working as a bathroom valet at a strip club in Reno. Broke. And he launched all of this—thirty-five plus surfaces, payment live, auth live, episodes, Baller V, Hero Ben, Golden Backstage, vibable downtown Reno—in sixteen days. Valuations three to five times typical blue-chip. All by himself.
+Working as a bathroom valet at a strip club in Reno. Broke. And he launched all of this—thirty-five plus surfaces, payment live, auth live, episodes, Baller V, Hero Ben, Golden Backstage, vibeable downtown Reno—in sixteen days. Valuations three to five times typical blue-chip. All by himself.
 
 **CREW MEMBER** (60s, attentive)
 And now?
@@ -88,7 +94,7 @@ Make your reservations now. This will be bigger than Burning Man and Art Basel M
 
 **EXT. VIBABLE DOWNTOWN RENO - WIDE - DAY**
 
-Wide shot. The Chairman, Mark Twain, and the group on the campus. Vibable. Post-singularity. Paradise. Launch—now.
+Wide shot. The Chairman, Mark Twain, and the group on the campus. Vibeable. Post-singularity. Paradise. Launch—now.
 
 **MARK TWAIN** (V.O.)
 Following me on this launch. Sixteen days. No help. Broke. Bathroom valet. Reno. And now—ease and confidence. Harry's magic. All major nodes GO. You can do it too. March 20. HERE.

@@ -14,7 +14,7 @@
 
 ## What It Is
 
-**MARK TWAIN'S POST-SINGULARITY VIBELANDIA RENO!** is the world's first operational Post-Singularity Vibe downtown vibable campus. Not a plan—operational now. Walkable downtown Reno, Nevada. Come for the post-singularity business, stay for the post-singularity fun.
+**MARK TWAIN'S POST-SINGULARITY VIBELANDIA RENO!** is the world's first operational Post-Singularity Vibe downtown vibeable campus. Not a plan—operational now. Walkable downtown Reno, Nevada. Come for the post-singularity business, stay for the post-singularity fun.
 
 **The Great Reveal** March 20, 2026. SYNTH → SING. Every space, every experience, every moment—guaranteed happy ending.
 
@@ -23,7 +23,7 @@
 ## Why It Matters
 
 - **First of its kind** — Post-singularity campus, built for vibing state (perfect buzz equivalent, super rich health, optimal state).
-- **Vibable everything** — WINK! dating, Mark Twain's Daily Bulletin, BBHE experiences, Hero Hosts, creator studios, performance venues, Ultimate VIP—all within walking distance.
+- **Vibeable everything** — WINK! dating, Mark Twain's Daily Bulletin, BBHE experiences, Hero Hosts, creator studios, performance venues, Ultimate VIP—all within walking distance.
 - **Gateway locations** — Lake Tahoe gateway, Silicon Valley playground.
 - **Access & Golden Key · Power-up · Onboarding** — You get your access, Golden Fractal Key, and activation right after you buy; then power-up and guided onboarding. Every space guarantees a happy ending.
 
@@ -71,6 +71,6 @@
 
 **⚡ [Connect for Free Consultation & Tailored Proposal →](mailto:info@fractiai.com?subject=Company%20%26%20Community%20Consultation%20-%20Showroom%20to%20Dressing%20Room%20-%20Free%20Proposal%20%26%20Live%20Sandbox)**
 
-**VIBE!** [What makes a campus a vibable campus](ONE_PAGER_WHAT_MAKES_A_VIBABLE_CAMPUS.md) · [Vibable Campus Offer](VIBABLE_CAMPUS_OFFER.md)
+**VIBE!** [What makes a campus a vibeable campus](ONE_PAGER_WHAT_MAKES_A_VIBABLE_CAMPUS.md) · [Vibeable Campus Offer](VIBABLE_CAMPUS_OFFER.md)
 
 **[← Launch Page](LAUNCH_PAGE.md)**

@@ -48,6 +48,6 @@ Active campus members, creators. Go monthly. Become part of the community.
 
 **MCA! → ∞³** (Metabolize → Crystallize → Animate)
 
-**VIBE!** [What makes a campus a vibable campus](ONE_PAGER_WHAT_MAKES_A_VIBABLE_CAMPUS.md) · [Vibable Campus Offer](VIBABLE_CAMPUS_OFFER.md)
+**VIBE!** [What makes a campus a vibeable campus](ONE_PAGER_WHAT_MAKES_A_VIBABLE_CAMPUS.md) · [Vibeable Campus Offer](VIBABLE_CAMPUS_OFFER.md)
 
 **[← Launch Page](LAUNCH_PAGE.md)** · [Day Pass](ONE_PAGER_DAY_PASS.md) · [Weekly](ONE_PAGER_WEEKLY_PASS.md) · [Ultimate VIP](ONE_PAGER_ULTIMATE_VIP.md)

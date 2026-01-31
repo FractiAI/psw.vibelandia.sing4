@@ -23,7 +23,7 @@
 - **What happens after payment:** Use that button/section to explain:
   - **Axis and Golden Key system** — how the key goes to their wallet, how they use it to upgrade their **SING!** superintelligent natural fractal agents (same system we're using for all of this).
   - **Availability:** We'll be making that available to everybody beginning **March 20th**; base price not yet announced.
-  - **Gold keys** = turn on the vehicle and transform it into anything you wish, in various states, all the way up to **Baller C** — access to everything.
+  - **Gold keys** = turn on the vehicle and transform it into anything you wish, in various states, all the way up to **Baller V** — access to everything.
 
 ---
 

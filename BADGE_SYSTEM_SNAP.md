@@ -78,7 +78,7 @@
 - **Branding:** Includes SNAP
 
 **Who Gets Gold:**
-- Baller C Ultimate VIP members
+- Baller V Ultimate VIP members
 - Ultimate VC (Viber Contributors)
 - Highest tier creators, chairmen, performers
 
@@ -171,7 +171,7 @@
 ### **Who Gets Badges**
 
 **Gold Badges (Baller VC VIP):**
-- Baller C Ultimate VIP members
+- Baller V Ultimate VIP members
 - Ultimate VC (Viber Contributors)
 - Highest tier creators, chairmen, performers
 

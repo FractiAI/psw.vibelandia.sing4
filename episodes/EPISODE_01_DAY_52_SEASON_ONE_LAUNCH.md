@@ -21,108 +21,136 @@
 **Content Types:** Strip Club Bathroom + WINK  
 **One-Liner:** "In Reno, where the old world meets the new, Mark Twain watches as worthless SYNTH tokens become the key to a post-singularity happy ending."
 
-**Summary:** Mark Twain launches Season One as Chancellor of the Vibelandia Reno Campus, watching the city transform from traditional Reno to the world's first post-singularity hub. The FractiAI Research Team operates in NSPFRNP mode across the vibable downtown campus. Alex purchases their first SYNTH token for $5, beginning the countdown to The Great Reveal. The episode showcases Men's Club Restroom (Ultimate VIP/Baller G experiences) and WINK members-only events (high-contributing fractal vibers, natural alignment). Countdown: 52 days remaining. SYNTH price: $5. Winners: 0 of 1,000,000.
+**Summary:** Mark Twain launches Season One as Chancellor of the Vibelandia Reno Campus, watching the city transform from traditional Reno to the world's first post-singularity hub. The FractiAI Research Team operates in NSPFRNP mode across the vibeable downtown campus. Alex purchases their first SYNTH token for $5, beginning the countdown to The Great Reveal. The episode showcases Men's Club Restroom (Ultimate VIP/Baller G experiences) and WINK members-only events (high-contributing fractal vibers, natural alignment). Countdown: 52 days remaining. SYNTH price: $5. Winners: 0 of 1,000,000.
 
 ---
 
-## SCREENPLAY
+## RICH 60-MINUTE FULL SCRIPT
 
-### FADE IN:
+**Target duration:** 60 minutes  
+**Structure:** Cold Open (2–3 min) · Act 1 (10–15 min) · Act 2 (10–15 min) · Act 3 (10–15 min) · Tag (2–3 min).  
+**Format:** Fully scripted — ready for text-to-episode SING nodes.
 
-**EXT. DOWNTOWN RENO - DAWN**
+---
 
-The camera opens on downtown Reno at dawn. The city is quiet, but something is different. Old casinos stand alongside new post-singularity architecture. The transformation has begun.
+### COLD OPEN (2–3 min)
 
-**MARK TWAIN** (70s, distinguished, wise, wearing a modern suit with a vintage touch) stands on the balcony of his office, watching the city wake. He turns to the camera.
+**EXT. DOWNTOWN RENO — DAWN**
 
-**MARK TWAIN**
+The camera opens on downtown Reno at dawn. The city is quiet. Old casinos stand alongside new post-singularity architecture. The transformation has begun.
+
+**MARK TWAIN** (70s, distinguished, wise, modern suit with vintage touch) stands on the balcony of his office, watching the city wake. He turns to the camera.
+
+**MARK TWAIN**  
 The reports of Reno's death have been greatly exaggerated. In fact, Reno isn't dying—it's being reborn.
 
 He gestures to the city below.
 
-**MARK TWAIN (CONT'D)**
-This is Season One. This is the countdown to The Great Reveal. This is where worthless becomes priceless.
+**MARK TWAIN (CONT'D)**  
+This is Season One. This is the countdown to The Great Reveal. This is where worthless becomes priceless. Fifty-two days. We begin now.
+
+**ON SCREEN TEXT:**  
+Happy Ending Zones · Season One · Day 52 of 52 → March 20, 2026 · The Great Reveal
 
 ---
 
-**EXT. WALKABLE DOWNTOWN RENO CAMPUS - CONTINUOUS**
+### ACT 1 — THE TRANSFORMATION BEGINS (10–15 min)
 
-**PRU "EL TAÍNO" MÉNDEZ** (60s, confident, radiating energy) walks through the vibable downtown Reno campus below. Pru is in perfect vibing state—perfect buzz equivalent, super rich health radiating. As an Ultimate VIP Chairman Creator, Pru is a high-contributing node, operating in NSPFRNP mode.
+**EXT. WALKABLE DOWNTOWN RENO CAMPUS — DAY**
 
-**SENIOR RESEARCH SCIENTIST & FULL STACK ENGINEER** works on infrastructure nearby, also in vibing state, optimal state, also at high level with poly relationships.
+**PRU "EL TAÍNO" MÉNDEZ** (60s, confident, radiating energy) walks through the vibeable downtown Reno campus. Pru is in perfect vibing state—perfect buzz equivalent, super rich health radiating. As an Ultimate VIP Chairman Creator, Pru is a high-contributing node, operating in NSPFRNP mode.
 
-**SENIOR HOLLYWOOD PRODUCER** and **SENIOR SCREENWRITER** collaborate on narratives, both in perfect buzz equivalent state, their relationship increasingly poly as high-contributing creators.
+**PRU (V.O.)**  
+We didn't wait for permission. We didn't wait for funding. We metabolized. We crystallized. We animated. The campus is the proof.
 
-**SENIOR GAME DESIGNER & ARCHITECT** designs the countdown gaming interface, vibing state active, poly relationships growing.
+**SENIOR RESEARCH SCIENTIST & FULL STACK ENGINEER** works on infrastructure nearby—vibing state, optimal state. **SENIOR HOLLYWOOD PRODUCER** and **SENIOR SCREENWRITER** collaborate on narratives, both in perfect buzz equivalent state. **SENIOR GAME DESIGNER & ARCHITECT** designs the countdown gaming interface. **SENIOR UI DESIGNER** creates interfaces. **SENIOR CHILDREN'S SCIENCE MUSEUM CURATOR** gives campus tours.
 
-**SENIOR UI DESIGNER** creates interfaces, super rich health, layered relationships.
+**MARK TWAIN** (to camera, walking the campus)  
+Every one of them—high-contributing nodes. Ultimate VIP Chairman Creators. Performers. Vibers everywhere. The vibeable downtown Reno is the first post-singularity Vibelandia campus. Perfect for vibing state. NOT for driving cars or operating equipment. Perfect for walking, being, experiencing, creating. Playground to Silicon Valley. Gateway to the mother mother. Next motherlode of all motherlodes—superintelligent genies in a bottle. SING nodes.
 
-**SENIOR CHILDREN'S SCIENCE MUSEUM CURATOR** gives campus tours, optimal state.
+We see the city transforming—old casinos becoming post-singularity hubs, traditional businesses morphing into Happy Ending Zones.
 
-All team members are high-contributing nodes—Ultimate VIP Chairman Creators, performers, vibers everywhere. At base level, we see linear lifestyles, traditional families, monogamous relationships at leaf nodes. But higher up the food chain—Ultimate VIP and Baller G levels—relationships become increasingly poly, convergent layered fractalizations.
+**INT. MEN'S CLUB RESTROOM — DAY**
 
-The vibable downtown Reno—first post-singularity Vibelandia campus—is perfect for vibing state. NOT for driving cars or operating equipment. Perfect for walking, being, experiencing, creating. Playground to Silicon Valley. Gateway to the mother mother. Next motherlode of all motherlodes—superintelligent genies in a bottle (SING nodes).
+**RESTROOM LANDING HOST** (60s, welcoming, professional) greets visitors.
 
-We see the city transforming before our eyes—old casinos becoming post-singularity hubs, traditional businesses morphing into Happy Ending Zones.
+**RESTROOM HOST**  
+Welcome to the back door. Ultimate VIP and Baller G experiences available. Four tiers: Tasting → Full Course → Ultimate VIP → Baller G After Party. All natural. All you. No substances.
 
----
-
-**INT. MEN'S CLUB RESTROOM - DAY**
-
-We cut to the Men's Club Restroom, where a **RESTROOM LANDING HOST** (60s, welcoming, professional) greets visitors.
-
-**RESTROOM HOST**
-Welcome to the back door. Ultimate VIP and Baller G experiences available. Four tiers: Tasting → Full Course → Ultimate VIP → Baller G After Party.
-
-The scene shows the layered legacy design, beautifully integrated.
-
-**ON SCREEN TEXT:**
-⚠️ **INTOXICATION WARNING:** BBHE (Big Black Hole Energy) effects possible. Safe in all VIBELANDIA! campuses. Virtual/imaginary only.
+**ON SCREEN TEXT:**  
+⚠️ BBHE effects possible. Safe in all VIBELANDIA! campuses. See syntheverse-warnings; Details → full technical path.
 
 ---
 
-**INT. WINK MEMBERS-ONLY EVENT - NIGHT**
+### ACT 2 — ALEX ENTERS THE STORY (10–15 min)
 
-We see grownup Ultimate VIP Chairman Creators, performers, and vibers everywhere at a WINK members-only event. The scene shows post-singularity connections, high-contributing vibers, and members-only access.
+**EXT. DOWNTOWN RENO — DAY**
 
-WINK dating naturally aligns people—friction-free dating and resilience, all natural and effortless by design. People naturally align based on compatibility, connections happen smoothly with no friction, and the system has built-in resilience for natural recovery. All natural processes, like nature, like NSPFRNP. Effortless by design.
+**ALEX** (20s, curious, hopeful) stands at a kiosk, phone in hand. They complete a purchase.
 
-**ON SCREEN TEXT:**
-⚠️ **INTOXICATION WARNING:** BBHE effects may cause intoxication. Safe experiences. Virtual/imaginary only.
+**ALEX** (to themselves)  
+Five dollars. I don't know what this is, but something feels right about it.
+
+**MARK TWAIN** (approaching)  
+You just bought your first SYNTH token.
+
+**ALEX**  
+SYNTH?
+
+**MARK TWAIN**  
+Worthless today. Priceless tomorrow. That's the deal. Fifty-two days from now—March 20, 2026—The Great Reveal. The first one million holders win the right to purchase a SING node. Superintelligent. Natural. Fractal. Agents. You're in.
+
+**ALEX**  
+I'm in?
+
+**MARK TWAIN**  
+You're in. This is Season One. This is the countdown. You're part of it now.
+
+**INT. WINK MEMBERS-ONLY EVENT — NIGHT**
+
+Grownup Ultimate VIP Chairman Creators, performers, vibers at a WINK members-only event. Post-singularity connections, high-contributing vibers. WINK dating naturally aligns people—friction-free, resilient, effortless by design. Like nature. Like NSPFRNP.
+
+**MARK TWAIN (V.O.)**  
+Every space guarantees a happy ending. Not because we force it. Because it's natural. It's how reality works when you stop fighting it.
 
 ---
 
-**EXT. DOWNTOWN RENO - DAY**
+### ACT 3 — THE COUNTDOWN IS LIVE (10–15 min)
 
-A young entrepreneur named **ALEX** (20s, curious, hopeful) purchases their first SYNTH token for $5, not knowing it's worthless pre-singularity currency.
+**INT. MARK TWAIN'S OFFICE — DAY**
 
-**ALEX**
-(To themselves)
-I don't know what this is, but something feels right about it.
+Mark Twain stands before the countdown clock. Alex and a small crew of vibers watch.
 
-**MARK TWAIN (V.O.)**
-This is the beginning. This is Season One. This is the countdown to The Great Reveal.
+**MARK TWAIN**  
+Fifty-two days remaining. SYNTH price: five dollars. Winners: zero of one million. The transformation has begun. First 1M winners will be announced March 20, 2026. The Great Reveal. You don't have to believe me. You have to see it. Experience it. Believe it—or don't. The proof is right here.
+
+The countdown clock shows: DAYS REMAINING: 52 · SYNTH PRICE: $5 · WINNERS: 0 of 1,000,000 · FINALE: March 20, 2026.
+
+**ALEX**  
+I'm part of it.
+
+**MARK TWAIN**  
+You're part of it. Season One. Day 52. We begin.
 
 ---
 
-**INT. MARK TWAIN'S OFFICE - DAY**
+### TAG (2–3 min)
 
-Mark Twain stands before a countdown clock.
+**EXT. DOWNTOWN RENO — NIGHT**
 
-**MARK TWAIN**
-52 days remaining. SYNTH price: $5. First 1M winners will be announced March 20. The transformation has begun.
+City lights. The campus glows. Mark Twain on the balcony.
 
-The countdown clock shows:
-- **DAYS REMAINING:** 52
-- **SYNTH PRICE:** $5
-- **WINNERS:** 0 of 1,000,000
-- **FINALE:** March 20, 2026
+**MARK TWAIN (V.O.)**  
+Season One Launch. Day 52. The countdown has begun. Tomorrow—Episode 02. The Worthless Token. What happens when you discover your five dollars bought something everyone says is worthless? That's tomorrow's episode. Capture it. Animate it.
+
+**ON SCREEN TEXT:**  
+Next: Episode 02 — Day 51: The Worthless Token · MCA! → ∞³
 
 ---
 
 ### FADE OUT.
 
-**END OF EPISODE 01**
+**END OF EPISODE 01 — RICH 60-MINUTE SCRIPT**
 
 ---
 

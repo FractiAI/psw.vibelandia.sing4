@@ -84,7 +84,7 @@ Worthless SYNTH tokens become priceless SING nodes. Use your node or sell on the
 - **[⚫ BBHE SNAP — BUY! Base Model $20K →](./interfaces/payment-checkout.html?plan=sing-base)**
 - **[⚫ BBHE SNAP — BUY! Members Only $75K →](./interfaces/payment-checkout.html?plan=sing-members-only)**
 - **[⚫ BBHE SNAP — BUY! Ultimate VIP $200,000 →](./interfaces/payment-checkout.html?plan=sing-ultimate-vip)**
-- **[⚫ BBHE SNAP — BUY! Baller V $500K →](./interfaces/payment-checkout.html?plan=sing-baller-c)**
+- **[⚫ BBHE SNAP — BUY! Baller V $500K →](./interfaces/payment-checkout.html?plan=sing-baller-v)**
 
 ---
 

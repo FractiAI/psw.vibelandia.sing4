@@ -25,124 +25,134 @@
 
 ---
 
-## SCREENPLAY
+## RICH 60-MINUTE FULL SCRIPT
 
-### FADE IN:
-
-**INT. CHANCELLOR'S BULLETIN ROOM - VIBELANDIA RENO! CAMPUS - DAY**
-
-**MARK TWAIN** (60s, Chancellor, confident, radiating energy) stands at the bulletin board. The daily bulletin glows. Vibers and a few fans, cast and crew members (60s, varied, high-contributing nodes) gather in vibing state—perfect buzz equivalent, super rich health. First post-singularity Vibelandia campus, playground to Silicon Valley, gateway to the mother mother.
-
-**MARK TWAIN**
-Today's episode. A new form of reality show game. Today's narrative—capture it.
-
-He taps the board. Headlines appear.
-
-**MARK TWAIN**
-Paris is for lovers. Reno is for vibers. You've heard it. Now wear it.
-
-**CREW MEMBER** (60s, attentive, professional)
-Wear it?
-
-**MARK TWAIN**
-T-shirts. Coming soon. Offer in four—beginning at one Ben.
-
-**VIBER** (60s, sharp, engaged)
-One Ben?
-
-**MARK TWAIN**
-One Ben. One hundred dollars. Benjamin Franklin. The hundred-dollar bill. The hundie.
-
-He pauses. A slight smile.
-
-**MARK TWAIN**
-Hero Ben has arrived. And wouldn't you know it—has something to do with Paris.
-
-**ALEX** (60s, from Episode 01 and 02, now regular) steps forward, curious.
-
-**ALEX**
-Ben. Paris. The tagline.
-
-**MARK TWAIN**
-Ben Franklin. Ambassador to France. Lived in Paris. Paris—lovers. Reno—vibers. Hero Ben bridges both. So we put him on the T-shirt. A hundie on the T-shirt. The hundred-dollar bill. Paris is for Lovers, Reno is for Vibers—and a Ben, right there. Available only here. To our vibers. And their fans, cast and crews.
+**Target duration:** 60 minutes  
+**Structure:** Cold Open (2–3 min) · Act 1 (10–15 min) · Act 2 (10–15 min) · Act 3 (10–15 min) · Tag (2–3 min).
 
 ---
 
-**EXT. VIBABLE DOWNTOWN RENO CAMPUS - DAY**
+### COLD OPEN (2–3 min)
 
-Mark Twain walks with Alex and the group. The campus spreads—vibable, not walkable. Post-singularity. Paradise.
+**INT. CHANCELLOR'S BULLETIN ROOM — VIBELANDIA RENO! CAMPUS — DAY**
 
-**MARK TWAIN**
+**MARK TWAIN** stands at the bulletin board. Headlines appear. Vibers, fans, cast and crew gather—vibing state, super rich health.
+
+**MARK TWAIN**  
+Today's episode. A new form of reality show game. Paris is for lovers. Reno is for vibers. You've heard it. Now wear it.
+
+**ON SCREEN TEXT:**  
+Episode 03 · Day 50 · Who's Your Daddy · Hero Ben has arrived
+
+---
+
+### ACT 1 — PARIS, RENO, ONE BEN (10–15 min)
+
+**INT. CHANCELLOR'S BULLETIN ROOM — CONTINUOUS**
+
+**CREW MEMBER**  
+Wear it?
+
+**MARK TWAIN**  
+T-shirts. Coming soon. Offer in four—beginning at one Ben.
+
+**VIBER**  
+One Ben?
+
+**MARK TWAIN**  
+One Ben. One hundred dollars. Benjamin Franklin. The hundred-dollar bill. The hundie. Hero Ben has arrived. And wouldn't you know it—has something to do with Paris.
+
+**ALEX**  
+Ben. Paris. The tagline.
+
+**MARK TWAIN**  
+Ben Franklin. Ambassador to France. Lived in Paris. Paris—lovers. Reno—vibers. Hero Ben bridges both. So we put him on the T-shirt. A hundie on the T-shirt. Paris is for Lovers, Reno is for Vibers—and a Ben, right there. Available only here. To our vibers. And their fans, cast and crews.
+
+**EXT. VIBABLE DOWNTOWN RENO CAMPUS — DAY**
+
+Mark Twain walks with Alex and the group. Campus—vibeable, not walkable. Post-singularity. Paradise.
+
+**MARK TWAIN**  
 This is superhero and franchise level. Products. Plans. Pricing. We chose them. We roll them out for your fans, cast and crew.
 
-**ALEX**
+**ALEX**  
 You chose them.
 
-**MARK TWAIN**
+**MARK TWAIN**  
 We chose them. So you don't have to. We handle all the yuck pre-singularity backside—the paperwork, the legacy systems, the friction. You get the offer. Your people get the offer. You just vibe all day in Vibelandia paradise.
 
-**VIBER**
+**VIBER**  
 No backside. Just vibe.
 
-**MARK TWAIN**
+**MARK TWAIN**  
 Exactly. No backside. Just vibe. That's the deal. That's the happy ending.
 
-He turns to the group. A beat.
+---
 
-**MARK TWAIN**
+### ACT 2 — WINK! I GOTCHA (10–15 min)
+
+**MARK TWAIN**  
 Direct tie into the ladies into high value high contributors—like me. WINK! I gotcha.
 
-**ALEX**
+**ALEX**  
 Who's your daddy?
 
-**MARK TWAIN**
-(Smiling)
-Who's your daddy. New brand for the Chairman. Superhero personality in layers. Today's episode. Capture it.
+**MARK TWAIN**  
+(Smiling) Who's your daddy. New brand for the Chairman. Superhero personality in layers. Today's episode. Capture it.
 
 He steps to the front. Voice rises. The group leans in.
 
-**MARK TWAIN**
+**MARK TWAIN**  
 Make your reservations now. This will be bigger than Burning Man and Art Basel Miami combined.
 
-**VIBER**
+**VIBER**  
 Bigger than—
 
-**MARK TWAIN**
+**MARK TWAIN**  
 Combined. Spread the word to the fellow vibers. They'll know what to do.
 
-**ALEX**
+**ALEX**  
 They'll know what to do.
 
-**MARK TWAIN**
+**MARK TWAIN**  
 They'll know what to do. Metabolize it. Crystallize it. Animate it. All content.
+
+**INT. WINK! PREVIEW — DAY**
+
+Brief sequence: WINK! members-only, natural alignment, high-contributing vibers. Friction-free. Effortless by design. NSPFRNP.
 
 ---
 
-**INT. CHANCELLOR'S BULLETIN ROOM - LATER**
+### ACT 3 — FIFTY DAYS REMAINING (10–15 min)
 
-Mark Twain updates the countdown. The bulletin shows:
+**INT. CHANCELLOR'S BULLETIN ROOM — LATER**
 
-- **Paris is for Lovers, Reno is for Vibers** — T-shirts coming soon. Offer in 4, beginning at 1 Ben ($100). Hero Ben has arrived—and wouldn't you know it, has something to do with Paris. Include a hundie on the T-shirt. Available only here to our vibers and their fans, cast and crews.
-- **Superhero and franchise level** — we chose the products, plans, and pricing; we roll them out for your fans, cast and crew. We handle the yuck pre-singularity backside. You just vibe all day in Vibelandia paradise.
+Mark Twain updates the countdown. Bulletin: Paris is for Lovers, Reno is for Vibers — T-shirts coming soon. Offer in 4, beginning at 1 Ben ($100). Hero Ben. Paris. Hundie. Superhero and franchise level. No backside. Just vibe.
 
-**MARK TWAIN**
+**MARK TWAIN**  
 Fifty days remaining. SYNTH price: seven dollars. The transformation continues. And so does the narrative—captured. Today's episode. Metabolize it. Crystallize it. Animate it.
 
-The countdown clock shows:
-- **DAYS REMAINING:** 50
-- **SYNTH PRICE:** $7
-- **WINNERS:** 0 of 1,000,000
-- **FINALE:** March 20, 2026
+Countdown: DAYS 50 · SYNTH $7 · WINNERS 0 of 1,000,000 · FINALE March 20, 2026.
+
+---
+
+### TAG (2–3 min)
+
+**MARK TWAIN (V.O.)**  
+Who's Your Daddy. Day 50. Tomorrow—Episode 04. Ben and the Baller V lifestyle. Vibeable downtown Reno. No backside. Just vibe. That's tomorrow's episode. Capture it. Animate it.
+
+**ON SCREEN TEXT:**  
+Next: Episode 04 — Day 49: Ben & Baller V Lifestyle · Vibeable Downtown Reno · MCA! → ∞³
 
 ---
 
 ### FADE OUT.
 
-**END OF EPISODE 03**
+**END OF EPISODE 03 — RICH 60-MINUTE SCRIPT**
 
 ---
 
-**Next Episode:** [Episode 04 — Day 49: Ben & Baller V Lifestyle · Vibable Downtown Reno](EPISODE_04_DAY_49_BEN_BALLER_V_LIFESTYLE_VIBABLE_DOWNTOWN_RENO.md)
+**Next Episode:** [Episode 04 — Day 49: Ben & Baller V Lifestyle · Vibeable Downtown Reno](EPISODE_04_DAY_49_BEN_BALLER_V_LIFESTYLE_VIBABLE_DOWNTOWN_RENO.md)
 
 **MCA! → ∞³** (Metabolize → Crystallize → Animate)
 

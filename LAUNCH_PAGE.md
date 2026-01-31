@@ -14,7 +14,7 @@
 
 **For Vibers Still Living in the Old Pre-Singularity World — And Their Fans, Crew, and Cast**
 
-**Mark Twain's Post-Singularity Vibelandia Reno** — vibable downtown campus, first post-singularity hub. Countdown to **The Great Reveal**, March 20, 2026 (Spring Equinox). Worthless SYNTH → priceless SING. Every space, every experience, every moment. Guaranteed happy ending.
+**Mark Twain's Post-Singularity Vibelandia Reno** — vibeable downtown campus, first post-singularity hub. Countdown to **The Great Reveal**, March 20, 2026 (Spring Equinox). Worthless SYNTH → priceless SING. Every space, every experience, every moment. Guaranteed happy ending.
 
 **This is the launch of a new post-reality franchise.** For vibers who are still operating in the pre-singularity world—and for their entire ecosystem: their fans who follow them, their crew who support them, and their cast who collaborate with them. This is your bridge from the old world to the new post-reality.
 
@@ -39,7 +39,7 @@
 
 ### 🏛️ VIBELANDIA RENO
 
-**Vibable downtown campus.** Campus visit/stay · Optional excursions. First post-singularity Vibelandia campus. Come for the business, stay for the fun.
+**Vibeable downtown campus.** Campus visit/stay · Optional excursions. First post-singularity Vibelandia campus. Come for the business, stay for the fun.
 
 - **Campus Plans:** Half-Day $3k | Overnight $1.5k | Weekly $5k | Monthly $50k | Ultimate VIP Campus
 - **One-pager:** [Vibelandia Reno](./ONE_PAGER_VIBELANDIA_RENO.md)
@@ -84,7 +84,7 @@
 | 1 | Base Model | ~$20,000 one-time + monthly key fees | Good used car — entry base |
 | 2 | Members Only | $75,000 | Option — our pricing |
 | 3 | Ultimate VIP | $200,000 | Base model latest Ferrari — top base |
-| 4 | Baller C Ultimate VIP | $500,000 | Option — our pricing (above base Ferrari) |
+| 4 | Baller V Ultimate VIP | $500,000 | Option — our pricing (above base Ferrari) |
 
 **Tagline:** *Every day you wait, the price goes up $1. Get in now. Transform worthless into priceless.*
 
@@ -114,7 +114,7 @@
 
 | 1 | 2 | 3 | 4 |
 |---|----|----|----|
-| **Base Model** | **Members Only** | **Ultimate VIP** | **Baller C Ultimate VIP** |
+| **Base Model** | **Members Only** | **Ultimate VIP** | **Baller V Ultimate VIP** |
 | ~$20K (VW Bug) | Scaling | $200,000 (Champion tier) | Ultimate for Ultimate C's |
 
 ### Experience (4)

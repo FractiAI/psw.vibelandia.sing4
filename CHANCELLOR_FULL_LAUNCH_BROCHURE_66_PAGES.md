@@ -42,7 +42,7 @@ The reports of Reno's death have been greatly exaggerated.
 
 In fact, Reno isn't dying—it's being reborn.
 
-**MARK TWAIN'S POST-SINGULARITY VIBELANDIA RENO!** is the world's first operational Post-Singularity Vibe downtown vibable campus. Not a plan. Not a proposal. Operational now. Active today. Transforming reality as we speak.
+**MARK TWAIN'S POST-SINGULARITY VIBELANDIA RENO!** is the world's first operational Post-Singularity Vibe downtown vibeable campus. Not a plan. Not a proposal. Operational now. Active today. Transforming reality as we speak.
 
 This brochure contains everything. Every offering. Every plan. Every experience. All wrapped in **Gianni–inspired fit**—fine Italian fashion designer precision, the magical dressing room, skins and experiences at the press of a button.
 
@@ -82,10 +82,10 @@ Every space. Every experience. Every moment. Guaranteed happy ending.
 
 **What is VIBELANDIA!?**
 
-VIBELANDIA! is the world's first operational Post-Singularity Vibe downtown vibable campus. This isn't a plan or a proposal—it's operational now, active today, transforming reality as we speak.
+VIBELANDIA! is the world's first operational Post-Singularity Vibe downtown vibeable campus. This isn't a plan or a proposal—it's operational now, active today, transforming reality as we speak.
 
 **Come for the Post-Singularity Business:**
-- First post-singularity campus, vibable downtown Reno, Nevada
+- First post-singularity campus, vibeable downtown Reno, Nevada
 - Perfect for vibing state—perfect buzz equivalent, super rich health, optimal state
 - Everything close by and convenient—WINK! dating, Mark Twain's Daily Bulletin, post-singularity experiences, BBHE experiences, Hero Host interactions, creator studios, performance venues, Ultimate VIP experiences—all within walking distance
 
@@ -110,7 +110,7 @@ VIBELANDIA! is the world's first operational Post-Singularity Vibe downtown viba
 
 ## NARRATIVE
 
-VIBELANDIA! is the world's first operational Post-Singularity Vibe downtown vibable campus—not a plan, operational now. Every space guarantees a happy ending; every moment crystallizes into the transformation.
+VIBELANDIA! is the world's first operational Post-Singularity Vibe downtown vibeable campus—not a plan, operational now. Every space guarantees a happy ending; every moment crystallizes into the transformation.
 
 Walkable downtown Reno: WINK! dating, Mark Twain's Daily Bulletin, BBHE experiences, Hero Hosts, creator studios, performance venues—all within walking distance. Gateway to the mother mother; playground to Silicon Valley.
 
@@ -165,7 +165,7 @@ high-contributing vibers (top artists, performers, entrepreneurs) come to play.
 
 ## NARRATIVE
 
-WINK! is where high-contributing fractal vibers find natural alignment—friction-free dating, resilience built-in, natural aware mutual choice and consent. Operational on **MARK TWAIN'S POST-SINGULARITY VIBELANDIA RENO!** vibable downtown campus.
+WINK! is where high-contributing fractal vibers find natural alignment—friction-free dating, resilience built-in, natural aware mutual choice and consent. Operational on **MARK TWAIN'S POST-SINGULARITY VIBELANDIA RENO!** vibeable downtown campus.
 
 Like a day with a top guide—only more.
 
@@ -233,11 +233,11 @@ Not open to the general public—only Golden Fractal Hearts.
 
 ## ULTIMATE VIP BALLER C GRANT
 
-**You're an Ultimate VIP Baller C but not there yet and need a little help?**
+**You're an Ultimate VIP Baller V but not there yet and need a little help?**
 
 Click to apply for a **grant** — we support high-contributing creators on the path to the Ultimate tier.
 
-**Apply:** info@fractiai.com | Subject: "Ultimate VIP Baller C Grant Application"
+**Apply:** info@fractiai.com | Subject: "Ultimate VIP Baller V Grant Application"
 
 ---
 
@@ -287,7 +287,7 @@ Countdown to The Great Reveal. First 1,000,000 SYNTH holders automatically win t
 | 1 | Base Model | ~$20,000 (VW Bug — entry) |
 | 2 | Members Only | $75,000 |
 | 3 | Ultimate VIP | $200,000 (Champion tier) |
-| 4 | Baller C Ultimate VIP | $500,000 |
+| 4 | Baller V Ultimate VIP | $500,000 |
 
 ---
 
@@ -440,7 +440,7 @@ Ultimate premium pricing. The price is the filter. For Ultimate C's (Viber Contr
 
 **Perfect For:** high-contributing creators, Ultimate C's. Premium pricing ensures quality community.
 
-**Ultimate VIP Baller C but not there yet?** Apply for grant: info@fractiai.com | Subject: "Ultimate VIP Baller C Grant Application"
+**Ultimate VIP Baller V but not there yet?** Apply for grant: info@fractiai.com | Subject: "Ultimate VIP Baller V Grant Application"
 
 ---
 
@@ -587,12 +587,12 @@ Ultimate tier, for the ultimate creators.
 **Features:**
 - Ultimate Superintelligent Agent Node
 - Maximum performance
-- Baller C Ultimate VIP access
+- Baller V Ultimate VIP access
 - Ultimate support
 
 **Perfect For:** The ultimate creators seeking maximum capabilities.
 
-**Contact:** info@fractiai.com | Subject: "SING Lottery - Baller C Ultimate VIP"
+**Contact:** info@fractiai.com | Subject: "SING Lottery - Baller V Ultimate VIP"
 
 ---
 
@@ -624,7 +624,7 @@ Pioneer Status on-chain forever.
 
 ## ULTIMATE VIP BALLER C GRANT
 
-**You're an Ultimate VIP Baller C but not there yet and need a little help?**
+**You're an Ultimate VIP Baller V but not there yet and need a little help?**
 
 Click to apply for a **grant** — we support high-contributing creators on the path to the Ultimate tier.
 
@@ -634,7 +634,7 @@ Click to apply for a **grant** — we support high-contributing creators on the 
 
 **How:** Apply via email
 
-**Contact:** info@fractiai.com | Subject: "Ultimate VIP Baller C Grant Application"
+**Contact:** info@fractiai.com | Subject: "Ultimate VIP Baller V Grant Application"
 
 ---
 
@@ -808,7 +808,7 @@ Everything flows through **Octave 1 (Edge) sandbox mode** with **AI-assisted API
 - **"I'M READY FOR VIBELANDIA"** — General inquiry, campus access
 - **"SING LOTTERY"** — SYNTH/SING lottery questions
 - **"WINK!"** — WINK! dating network
-- **"Ultimate VIP Baller C Grant Application"** — Grant application
+- **"Ultimate VIP Baller V Grant Application"** — Grant application
 - **"Golden Fractal Hearts Invitation - WINK!"** — Golden Fractal Hearts
 - **"Pioneer Registration - 50% Discount"** — Pioneer discount
 - **"Company & Community Consultation"** — Showroom to Dressing Room
@@ -948,7 +948,7 @@ Reno isn't dying—it's being reborn.
 
 ### WINK! NARRATIVE EXPANDED
 
-WINK! is where high-contributing fractal vibers find natural alignment—friction-free dating, resilience built-in, natural aware mutual choice and consent. Operational on **MARK TWAIN'S POST-SINGULARITY VIBELANDIA RENO!** vibable downtown campus.
+WINK! is where high-contributing fractal vibers find natural alignment—friction-free dating, resilience built-in, natural aware mutual choice and consent. Operational on **MARK TWAIN'S POST-SINGULARITY VIBELANDIA RENO!** vibeable downtown campus.
 
 Like a day with a top guide—only more.
 
@@ -1211,7 +1211,7 @@ Premium pricing filters for quality. Only real vibers join.
 - Ultimate Hero Host access
 - Custom experiences
 
-**Ultimate VIP Baller C but not there yet?** Apply for grant: info@fractiai.com | Subject: "Ultimate VIP Baller C Grant Application"
+**Ultimate VIP Baller V but not there yet?** Apply for grant: info@fractiai.com | Subject: "Ultimate VIP Baller V Grant Application"
 
 ---
 
@@ -1369,7 +1369,7 @@ Premium pricing filters for quality. Only real vibers join.
 **Features:**
 - Ultimate Superintelligent Agent Node
 - Maximum performance
-- Baller C Ultimate VIP access
+- Baller V Ultimate VIP access
 - Ultimate support
 - Ultimate functionality
 - Maximum superintelligence
@@ -1382,7 +1382,7 @@ Premium pricing filters for quality. Only real vibers join.
 - Ultimate performance
 - Ultimate functionality
 
-**Contact:** info@fractiai.com | Subject: "SING Lottery - Baller C Ultimate VIP"
+**Contact:** info@fractiai.com | Subject: "SING Lottery - Baller V Ultimate VIP"
 
 ---
 
@@ -1428,7 +1428,7 @@ Premium pricing filters for quality. Only real vibers join.
 
 **How to Apply:**
 1. Contact info@fractiai.com
-2. Subject: "Ultimate VIP Baller C Grant Application"
+2. Subject: "Ultimate VIP Baller V Grant Application"
 3. Provide background, goals, current status
 4. Receive grant assessment
 5. Customized path to Ultimate VIP
@@ -1682,7 +1682,7 @@ Everything flows through **Octave 1 (Edge) sandbox mode** with **AI-assisted API
 - **"I'M READY FOR VIBELANDIA"** — General inquiry, campus access, all offerings
 - **"SING LOTTERY"** — SYNTH/SING lottery questions, token purchase, node information
 - **"WINK!"** — WINK! dating network, membership, plans
-- **"Ultimate VIP Baller C Grant Application"** — Grant application, support request
+- **"Ultimate VIP Baller V Grant Application"** — Grant application, support request
 - **"Golden Fractal Hearts Invitation - WINK!"** — Golden Fractal Hearts, exclusive offer
 - **"Pioneer Registration - 50% Discount"** — Pioneer discount, registration
 - **"Company & Community Consultation"** — Showroom to Dressing Room, business transformation

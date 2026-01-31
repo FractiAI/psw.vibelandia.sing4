@@ -24,6 +24,17 @@
 
 ---
 
+## Named comparisons (name names — direct 16-day output)
+
+**Research (3):** Us vs **DeepMind, OpenAI, Meta FAIR** — we ship public crystallized research in 16 days; they typically do not.  
+**Development (3):** Us vs **Google, Microsoft, Amazon** — ~3× surfaces, ~2.5× modules, payment **live** vs 0.  
+**Enterprise (3):** Us vs **Salesforce, SAP, Oracle** — multiple products **live** in 16 days; they rarely ship >1.  
+**Academic (3):** Us vs **MIT CSAIL, Stanford HAI, CMU** — ~5× protocol output, all public; they typically 0–1 in 16 days.
+
+Full tables and direct comparisons: [SIXTEEN_DAYS_NAMED_COMPARISONS_RESEARCH_DEV_ENTERPRISE_ACADEMIC.md](SIXTEEN_DAYS_NAMED_COMPARISONS_RESEARCH_DEV_ENTERPRISE_ACADEMIC.md).
+
+---
+
 ## Where to place this block
 
 - **README** — Bottom section before Contact
@@ -38,4 +49,4 @@
 
 **🌀 NSPFRNP ⊃ 16 days ⊃ What we value at · Vs top 10 · Speculative VC → ∞³**
 
-**See:** [NSPFRNP_REAL_NUMBERS_VS_BLUE_CHIP_MONSTER_SNAP.md](NSPFRNP_REAL_NUMBERS_VS_BLUE_CHIP_MONSTER_SNAP.md) · [WHITEPAPER_REPOSITORY_MIRACULOUS_OUTPUT.md](WHITEPAPER_REPOSITORY_MIRACULOUS_OUTPUT.md)
+**See:** [NSPFRNP_REAL_NUMBERS_VS_BLUE_CHIP_MONSTER_SNAP.md](NSPFRNP_REAL_NUMBERS_VS_BLUE_CHIP_MONSTER_SNAP.md) · [SIXTEEN_DAYS_NAMED_COMPARISONS_RESEARCH_DEV_ENTERPRISE_ACADEMIC.md](SIXTEEN_DAYS_NAMED_COMPARISONS_RESEARCH_DEV_ENTERPRISE_ACADEMIC.md) · [WHITEPAPER_REPOSITORY_MIRACULOUS_OUTPUT.md](WHITEPAPER_REPOSITORY_MIRACULOUS_OUTPUT.md)

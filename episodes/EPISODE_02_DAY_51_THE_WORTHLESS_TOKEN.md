@@ -25,128 +25,146 @@
 
 ---
 
-## SCREENPLAY
+## RICH 60-MINUTE FULL SCRIPT
 
-### FADE IN:
-
-**INT. COFFEE SHOP - WALKABLE DOWNTOWN RENO CAMPUS - DAY**
-
-**ALEX** sits in a coffee shop on the vibable downtown Reno campus, staring at their SYNTH token purchase confirmation on their phone. A friend, **JORDAN** (20s, skeptical), sits across the table.
-
-**JORDAN**
-You paid $5 for Monopoly money? What were you thinking?
-
-Alex looks up, uncertain.
-
-**ALEX**
-I don't know. Something just felt... right about it.
-
-**LEO** (Hero Host, R&D Lab Host, 50s, polymathic, wise) sits nearby, in perfect vibing state—perfect buzz equivalent, super rich health. As a Hero Host representing the FractiAI Research Team, Leo is a high-contributing node, operating in NSPFRNP mode.
-
-**SENIOR RESEARCH SCIENTIST & FULL STACK ENGINEER** works at a nearby table, vibing state active, optimal state.
-
-**SENIOR EARLY TRIALS AI CEO** tests systems, perfect buzz equivalent.
-
-All in super rich health, NOT for driving cars or operating equipment, perfect for walking, being, experiencing, creating on the vibable downtown campus—first post-singularity Vibelandia campus, playground to Silicon Valley, gateway to the mother mother, next motherlode of all motherlodes.
+**Target duration:** 60 minutes  
+**Structure:** Cold Open (2–3 min) · Act 1 (10–15 min) · Act 2 (10–15 min) · Act 3 (10–15 min) · Tag (2–3 min).
 
 ---
 
-**MARK TWAIN** appears at the next table, sipping coffee. He turns to Alex.
+### COLD OPEN (2–3 min)
 
-**MARK TWAIN**
-Worthless today, priceless tomorrow. That's the beauty of the happy ending—it's not about what it is, it's about what it becomes.
+**INT. COFFEE SHOP — WALKABLE DOWNTOWN RENO CAMPUS — DAY**
 
-Alex looks at Mark Twain, recognition dawning.
+**ALEX** sits in a coffee shop on the vibeable downtown Reno campus, staring at their SYNTH token purchase confirmation. **JORDAN** (20s, skeptical) sits across the table.
 
-**ALEX**
-You're... Mark Twain?
+**JORDAN**  
+You paid five dollars for Monopoly money? What were you thinking?
 
-**MARK TWAIN**
-(Smiling)
+**ALEX**  
+I don't know. Something just felt right about it.
+
+**MARK TWAIN (V.O.)**  
+Worthless today. Priceless tomorrow. That's Episode 02. That's the happy ending.
+
+**ON SCREEN TEXT:**  
+Episode 02 · Day 51 · The Worthless Token
+
+---
+
+### ACT 1 — THE DOUBT (10–15 min)
+
+**INT. COFFEE SHOP — CONTINUOUS**
+
+**LEO** (Hero Host, R&D Lab Host, 50s, polymathic, wise) sits nearby—perfect vibing state, super rich health. **SENIOR RESEARCH SCIENTIST & FULL STACK ENGINEER** and **SENIOR EARLY TRIALS AI CEO** at nearby tables. All in vibing state; vibeable downtown campus; NOT for driving; perfect for walking, being, experiencing, creating. Playground to Silicon Valley. Gateway to the mother mother. Next motherlode—SING nodes.
+
+**JORDAN**  
+It's literally worthless. Everyone says so.
+
+**ALEX**  
+Mark Twain said—
+
+**JORDAN**  
+Mark Twain's dead. And even if he weren't, he's not running a token sale in Reno.
+
+**MARK TWAIN** (at the next table, sipping coffee)  
 The reports of my death have been greatly exaggerated. And so have the reports of your token's worthlessness.
 
+Alex and Jordan turn. Recognition. Shock.
+
+**MARK TWAIN (CONT'D)**  
+Worthless today. Priceless tomorrow. That's the beauty of the happy ending—it's not about what it is, it's about what it becomes.
+
+**ALEX**  
+You're Mark Twain.
+
+**MARK TWAIN**  
+I'm the Chancellor. This campus is the first post-singularity Vibelandia campus. Your five dollars bought you a seat at the table. Fifty-one days from now—March 20, 2026—The Great Reveal. The worthless becomes worth everything. Not because of hype. Because of transformation.
+
 ---
+
+### ACT 2 — VIBES & BLACK HOLES · THE TRANSFORMATION (10–15 min)
 
 **VISUAL SEQUENCE: VIBES & BLACK HOLES**
 
-The screen shows vibes and black holes—spinning holographic symbols, energy flows, black hole visuals. Holographic patterns spin and rotate, showing the transformation energy.
+Spinning holographic symbols, energy flows, black hole visuals. SYNTH to SING transformation visualized. Post-singularity aesthetics. Mesmerizing. Natural as water flowing.
 
-**VISUAL EFFECTS:**
-- Spinning holographic symbols represent the SYNTH to SING transformation
-- Energy flows cascade across the screen
-- Black hole effects create mesmerizing visuals
-- Post-singularity aesthetics with energy visualizations
-
-The vibe screen displays energy flows, and black hole effects create mesmerizing visuals. The scene showcases post-singularity aesthetics with energy visualizations.
-
----
+**MARK TWAIN (V.O.)**  
+We don't force it. We don't fake it. We metabolize. We crystallize. We animate. NSPFRNP. It's how reality works when you stop fighting it.
 
 **FLASH FORWARD: MARCH 20, 2026**
 
-We flash forward to March 20, showing Alex's SYNTH converting to a SING node. The transformation is smooth, natural, like water flowing.
+Alex's SYNTH converting to a SING node. Smooth. Natural. Like water flowing.
 
-**MARK TWAIN (V.O.)**
+**MARK TWAIN (V.O.)**  
 The worthless becomes worth everything. That's the transformation. That's the happy ending.
 
-Alex smiles, understanding begins to dawn.
+**INT. COFFEE SHOP — PRESENT DAY**
 
----
+**ALEX**  
+So you're saying this five-dollar token—
 
-**INT. COFFEE SHOP - PRESENT DAY**
+**MARK TWAIN**  
+Will become priceless. Not because of what it is. Because of what it becomes. That's the happy ending. That's the transformation.
 
-Alex looks at their phone again, then at Mark Twain.
+**JORDAN**  
+I still don't get it.
 
-**ALEX**
-So you're saying... this $5 token...
-
-**MARK TWAIN**
-Will become priceless. Not because of what it is, but because of what it becomes. That's the happy ending. That's the transformation.
-
-Jordan looks skeptical, but Alex's eyes light up with understanding.
-
-**ALEX**
+**ALEX**  
 I get it. It's not about the token. It's about the transformation.
 
-**MARK TWAIN**
+**MARK TWAIN**  
 Exactly. The worthless becomes worth everything. That's how happy endings work. Nearly overnight. Smooth as silk. Natural as water flowing.
 
 ---
 
-**EXT. WALKABLE DOWNTOWN RENO CAMPUS - DAY**
+### ACT 3 — EVERY SPACE GUARANTEES A HAPPY ENDING (10–15 min)
 
-Mark Twain walks with Alex through the campus.
+**EXT. WALKABLE DOWNTOWN RENO CAMPUS — DAY**
 
-**MARK TWAIN**
-Every space guarantees a happy ending. Not because we force it, but because it's natural. It's NSPFRNP. It's how reality works.
+Mark Twain walks with Alex (and Jordan, reluctantly) through the campus. Transformation visible everywhere—old becoming new, friction dropping, connections forming.
 
-Alex looks around, seeing the transformation happening in real-time.
+**MARK TWAIN**  
+Every space guarantees a happy ending. Not because we force it. Because it's natural. It's NSPFRNP. It's how reality works.
 
-**ALEX**
+**ALEX**  
 I can see it. The transformation. It's happening now.
 
-**MARK TWAIN**
-Yes. And you're part of it. Your $5 token is part of it. The worthless becomes priceless. That's the happy ending.
+**MARK TWAIN**  
+Yes. And you're part of it. Your five-dollar token is part of it. The worthless becomes priceless. That's the happy ending.
+
+**JORDAN**  
+What if I bought one too?
+
+**MARK TWAIN**  
+Then you're part of it too. SYNTH price is six dollars today. Fifty-one days remaining. First one million winners—March 20. The Great Reveal.
+
+**INT. MARK TWAIN'S OFFICE — DAY**
+
+Countdown clock. MARK TWAIN, ALEX, JORDAN.
+
+**MARK TWAIN**  
+SYNTH price: six dollars. Days remaining: fifty-one. The transformation continues.
+
+Countdown: DAYS 51 · SYNTH $6 · WINNERS 0 of 1,000,000 · FINALE March 20, 2026.
 
 ---
 
-**INT. MARK TWAIN'S OFFICE - DAY**
+### TAG (2–3 min)
 
-Mark Twain stands before the countdown clock.
+**EXT. CAMPUS — NIGHT**
 
-**MARK TWAIN**
-SYNTH price: $6. Days remaining: 51. The transformation continues.
+**MARK TWAIN (V.O.)**  
+The Worthless Token. Day 51. Tomorrow—Episode 03. Who's Your Daddy. Paris is for lovers. Reno is for vibers. Hero Ben has arrived. That's tomorrow's episode. Capture it. Animate it.
 
-The countdown clock shows:
-- **DAYS REMAINING:** 51
-- **SYNTH PRICE:** $6
-- **WINNERS:** 0 of 1,000,000
-- **FINALE:** March 20, 2026
+**ON SCREEN TEXT:**  
+Next: Episode 03 — Day 50: Who's Your Daddy · MCA! → ∞³
 
 ---
 
 ### FADE OUT.
 
-**END OF EPISODE 02**
+**END OF EPISODE 02 — RICH 60-MINUTE SCRIPT**
 
 ---
 

@@ -23,7 +23,13 @@
 
 ---
 
-## SCREENPLAY
+## RICH 60-MINUTE FULL SCRIPT
+
+**Target duration:** 60 minutes · **Structure:** Cold Open (2–3 min) · Act 1 (10–15 min) · Act 2 (10–15 min) · Act 3 (10–15 min) · Tag (2–3 min). Expand all scenes with full dialogue and beats; integrate team, principles, NSPFRNP; ready for text-to-episode SING nodes. See EPISODES_RICH_60_MINUTE_FULLY_SCRIPTED_DIRECTIVE.md. Cold Open: Today we tell the story. pRU. Act 1: Bank -$2,000, no one came to his aid, pennies in the cup. Act 2: Chairman on campus, press the blue button, make a miracle happen. Act 3: From that depth to your one press — the miracle. Tag: Tomorrow — RUMOR or next flow episode.
+
+---
+
+## SCREENPLAY (short version — expand per Rich 60-Minute structure above)
 
 ### FADE IN:
 
@@ -85,7 +91,7 @@ Two thumbs up. The natural protocol self-selected them. They helped us through a
 
 **EXT. VIBABLE DOWNTOWN RENO - WIDE - DAY**
 
-Wide shot. The Chairman, Mark Twain, and the group on the campus. Vibable. Post-singularity. Paradise. Launch—now.
+Wide shot. The Chairman, Mark Twain, and the group on the campus. Vibeable. Post-singularity. Paradise. Launch—now.
 
 **MARK TWAIN** (V.O.)
 pRU's bank account was minus two thousand. He launched this with his own money. No one came to his aid—only pennies in the cup of the homeless from passers-by. He launched anyway. And now—Hero Harry says: Press the blue PayPal button and watch the miracle magic happen. Make a miracle happen. That's the brand.

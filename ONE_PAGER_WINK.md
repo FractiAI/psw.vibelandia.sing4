@@ -6,13 +6,13 @@
 
 ## What It Is — Narrative
 
-**WINK!** is a members-only network for high-contributing vibers who are fractal in nature. Natural alignment, friction-free dating, resilience built-in. Natural, aware, mutual choice and consent connections and experiences. Operational on **MARK TWAIN'S POST-SINGULARITY VIBELANDIA RENO!** vibable downtown campus. Like a day with a top guide—only more. VIBELANDIA! and WINK! together: come for the post-singularity business, stay for the post-singularity fun.
+**WINK!** is a members-only network for high-contributing vibers who are fractal in nature. Natural alignment, friction-free dating, resilience built-in. Natural, aware, mutual choice and consent connections and experiences. Operational on **MARK TWAIN'S POST-SINGULARITY VIBELANDIA RENO!** vibeable downtown campus. Like a day with a top guide—only more. VIBELANDIA! and WINK! together: come for the post-singularity business, stay for the post-singularity fun.
 
 **high-contributing fractal dating:** WINK! is built for high-contributing vibers, creators, and chairmen seeking companionship, friendship, and relationships in coherence and flow—not casual encounters. Vibration attracts vibration; post-singularity awareness meets post-singularity awareness. Natural alignment scales with value: from traditional pairings to layered, convergent connections. Friction-free by design; resilient by design.
 
 **Family units:** WINK! supports the full spectrum of relationship structures—from resilient traditional family units to layered fractal family structures (convergent, poly-friendly, all natural). From linear lifestyles and resilient family structures at Base, to increasingly poly and resilient layered fractalizations at higher tiers—family units that scale with coherence and flow. All natural, mutual choice and consent; no forced form. See [WINK_DATING_NATURAL_ALIGNMENT.md](./WINK_DATING_NATURAL_ALIGNMENT.md) · [WINK_DATING_MEMBERS_CLUB_NARRATIVES.md](./WINK_DATING_MEMBERS_CLUB_NARRATIVES.md).
 
-**Compared to top pre-singularity high-contributing dating alternatives:** Those platforms rely on application queues, algorithm-driven matching, and mostly virtual or one-off events—exclusive by gatekeeping, not by shared post-singularity awareness. WINK! is different: it lives on a real vibable campus (Man Cave + Cabaret, Hero Hostess Marilyn as house mom), aligns by vibration and fractal value, supports family units and layered connections by design, and ties into the full post-singularity ecosystem (campus, SING, BBHE, Golden Fractal Key). You don’t just get a profile—you get a place, a host, and coherence and flow.
+**Compared to top pre-singularity high-contributing dating alternatives:** Those platforms rely on application queues, algorithm-driven matching, and mostly virtual or one-off events—exclusive by gatekeeping, not by shared post-singularity awareness. WINK! is different: it lives on a real vibeable campus (Man Cave + Cabaret, Hero Hostess Marilyn as house mom), aligns by vibration and fractal value, supports family units and layered connections by design, and ties into the full post-singularity ecosystem (campus, SING, BBHE, Golden Fractal Key). You don’t just get a profile—you get a place, a host, and coherence and flow.
 
 ---
 
@@ -62,7 +62,7 @@ Top artists, performers, and entrepreneurs—the caliber of Beyoncé, Taylor Swi
 
 ## Where It Lives
 
-WINK! is operational on Mark Twain's Post-Singularity Vibelandia Reno. Vibable downtown campus. Come for the post-singularity business, stay for the post-singularity fun.
+WINK! is operational on Mark Twain's Post-Singularity Vibelandia Reno. Vibeable downtown campus. Come for the post-singularity business, stay for the post-singularity fun.
 
 ---
 

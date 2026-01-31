@@ -69,13 +69,13 @@ These metrics are displayed at the bottom of the Launch Pad (index.html and inte
 
 - **Launch Pad:** index.html, interfaces/launch-pad.html — announcement, showroom, four products, Chairman metrics, links to whitepaper and IEEE-style version and Great Reveal episode.
 - **Interfaces:** Payment checkout, Vibelandia Reno experience, WINK!, Ultimate VIP, SING! Lottery, Happy Ending Zones, Gianni's Dressing Room, Chairman Workspace, Cockpit, Seed:Edge consoles, and others.
-- **One-pagers:** Campus, Day/Weekly/Monthly/Ultimate VIP, Vibable campus, What makes a campus a vibable campus, WINK!, SING! Lottery, Happy Ending Zones, Launch, and more.
+- **One-pagers:** Campus, Day/Weekly/Monthly/Ultimate VIP, Vibeable campus, What makes a campus a vibeable campus, WINK!, SING! Lottery, Happy Ending Zones, Launch, and more.
 - **Protocols and catalogs:** NSPFRNP catalog (MCA, Communication, Credentials, Golden Key, Boot, Octave 1↔2, Outbound pipe, Designer Division), branding decks (Vibeverse, VibeLand, VibeLand Reno, Script-writing content patterns).
 
 ### 3.2 Scripts, Episodes, and Content Decks
 
 - **Happy Ending Zones:** Episode 01 (Day 52), Episode 02 (Day 51), The Great Reveal episode (Day Zero — today we launch). Script format, 8 principles, relationship fractal, vibing state.
-- **Script-writing deck:** deck-script-writing-content-patterns.md — Vibable campus, offer, Launch Pad status, VIBE! linking, one-pager structure, series format, NSPFRNP voice, brand phrases, character layering.
+- **Script-writing deck:** deck-script-writing-content-patterns.md — Vibeable campus, offer, Launch Pad status, VIBE! linking, one-pager structure, series format, NSPFRNP voice, brand phrases, character layering.
 
 ### 3.3 Technical and Operational
 

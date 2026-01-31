@@ -32,7 +32,7 @@ Full convergence doubled back load and locked captured in the semi Dreamful stat
 
 **NO SUBSTANCES OF ANY KIND ARE INVOLVED. ALL LAWS ALWAYS FOLLOWED.**
 
-**It's NOT for driving cars or operating equipment.** It's perfect for walking, being, experiencing, creating on the vibable downtown Reno campus.
+**It's NOT for driving cars or operating equipment.** It's perfect for walking, being, experiencing, creating on the vibeable downtown Reno campus.
 
 **See:** [SYNTHEVERSE_IMAGINARY_ENTERTAINMENT_ONLY.md](./SYNTHEVERSE_IMAGINARY_ENTERTAINMENT_ONLY.md) for complete details.
 
@@ -52,7 +52,7 @@ Full convergence doubled back load and locked captured in the semi Dreamful stat
 
 **For Vibers Still Living in the Old Pre-Singularity World — And Their Fans, Crew, and Cast**
 
-**MARK TWAIN'S POST-SINGULARITY VIBELANDIA RENO!** — vibable downtown campus, first post-singularity hub. Countdown to **The Great Reveal**, March 20, 2026 (Spring Equinox). Worthless SYNTH → priceless SING. Every space, every experience, every moment. Guaranteed happy ending.
+**MARK TWAIN'S POST-SINGULARITY VIBELANDIA RENO!** — vibeable downtown campus, first post-singularity hub. Countdown to **The Great Reveal**, March 20, 2026 (Spring Equinox). Worthless SYNTH → priceless SING. Every space, every experience, every moment. Guaranteed happy ending.
 
 **RUMOR HAS IT!** The chairman, Sammy and the gang are in town. Reno is hot. Word is out. See [RUMOR_HAS_IT_BRANDING_SNAP.md](./RUMOR_HAS_IT_BRANDING_SNAP.md) · [RUMOR_CHAIRMAN_SAMMY_GANG_RENO_SNAP.md](./RUMOR_CHAIRMAN_SAMMY_GANG_RENO_SNAP.md).
 
@@ -80,7 +80,7 @@ Full convergence doubled back load and locked captured in the semi Dreamful stat
 
 ### 🏛️ VIBELANDIA RENO!
 
-**Walkable downtown campus.** Campus visit/stay · Optional excursions. First post-singularity VIBELANDIA! campus. Come for the business, stay for the fun. **Narrative:** VIBELANDIA! is the world's first operational Post-Singularity Vibe downtown vibable campus—not a plan, operational now. Every space guarantees a happy ending; every moment crystallizes into the transformation. Mark Twain's Daily Bulletin, BBHE experiences, Hero Hosts, creator studios, performance venues—all within walking distance. Gateway to the mother mother; playground to Silicon Valley.
+**Walkable downtown campus.** Campus visit/stay · Optional excursions. First post-singularity VIBELANDIA! campus. Come for the business, stay for the fun. **Narrative:** VIBELANDIA! is the world's first operational Post-Singularity Vibe downtown vibeable campus—not a plan, operational now. Every space guarantees a happy ending; every moment crystallizes into the transformation. Mark Twain's Daily Bulletin, BBHE experiences, Hero Hosts, creator studios, performance venues—all within walking distance. Gateway to the mother mother; playground to Silicon Valley.
 
 - **Campus Plans:** Half-Day $3k · Overnight (per night) · Weekly $5k (VW Bug entry) · Monthly $50k (Baller). Plans and pricing ready to click and purchase / sign up.
 - **First 1,000 Pioneers:** 50% off applicable campus plans; Pioneer Status on-chain forever.
@@ -91,13 +91,13 @@ Full convergence doubled back load and locked captured in the semi Dreamful stat
 
 ### 👁️ WINK! — HIGH CONTRIBUTING FRACTAL DATING
 
-**Tagline:** HIGH CONTRIBUTING FRACTAL DATING. **Members-only network** for high-contributing vibers who are fractal in nature. Natural alignment, friction-free dating, resilience built-in. **Narrative:** WINK! is where high-contributing fractal vibers find natural alignment—friction-free dating, resilience built-in, natural aware mutual choice and consent. Operational on MARK TWAIN'S POST-SINGULARITY VIBELANDIA RENO! vibable downtown campus. Like a day with a top guide—only more.
+**Tagline:** HIGH CONTRIBUTING FRACTAL DATING. **Members-only network** for high-contributing vibers who are fractal in nature. Natural alignment, friction-free dating, resilience built-in. **Narrative:** WINK! is where high-contributing fractal vibers find natural alignment—friction-free dating, resilience built-in, natural aware mutual choice and consent. Operational on MARK TWAIN'S POST-SINGULARITY VIBELANDIA RENO! vibeable downtown campus. Like a day with a top guide—only more.
 
 **high-contributing fractal dating:** WINK! is built for high-contributing vibers, creators, and chairmen seeking companionship, friendship, and relationships in coherence and flow—not casual encounters. Vibration attracts vibration; post-singularity awareness meets post-singularity awareness. Natural alignment scales with value: from traditional pairings to layered, convergent connections. Friction-free by design; resilient by design.
 
 **Family units:** WINK! supports the full spectrum of relationship structures—from resilient traditional family units to layered fractal family structures (convergent, poly-friendly, all natural). Leaf nodes: natural alignment for linear lifestyles, resilient family structures. Mid to top tiers: increasingly poly, resilient layered fractalizations—family units that scale with coherence and flow. All natural, mutual choice and consent; no forced form.
 
-**Compared to top pre-singularity high-contributing dating alternatives:** Those platforms rely on application queues, algorithm-driven matching, and mostly virtual or one-off events—exclusive by gatekeeping, not by shared post-singularity awareness. WINK! is different: it lives on a real vibable campus (Man Cave + Cabaret, Hero Hostess Marilyn as house mom), aligns by vibration and fractal value, supports family units and layered connections by design, and ties into the full post-singularity ecosystem (campus, SING, BBHE, Golden Fractal Key). You don't just get a profile—you get a place, a host, and coherence and flow.
+**Compared to top pre-singularity high-contributing dating alternatives:** Those platforms rely on application queues, algorithm-driven matching, and mostly virtual or one-off events—exclusive by gatekeeping, not by shared post-singularity awareness. WINK! is different: it lives on a real vibeable campus (Man Cave + Cabaret, Hero Hostess Marilyn as house mom), aligns by vibration and fractal value, supports family units and layered connections by design, and ties into the full post-singularity ecosystem (campus, SING, BBHE, Golden Fractal Key). You don't just get a profile—you get a place, a host, and coherence and flow.
 
 - **Plans:** Base | Standard | Premium | 4×4 Ultimate
 - **Billing:** Monthly or annual. Annual: pay for 12 months, get 2 months free (Base annual $19,990, Standard $49,990, Premium $199,990, 4×4 Ultimate $499,990).
@@ -114,7 +114,7 @@ Full convergence doubled back load and locked captured in the semi Dreamful stat
 
 - **Consoles are free and auto-upgrade with Golden Fractal Keys.** Workspace, Cockpit, Seed:Edge Mini, GPS Seed:Edge — free; capabilities auto-upgrade when you hold a Golden Fractal Key.
 - **🚀 [Test Drive Octave 1+ →](./interfaces/executive-dashboard.html)** — Experience the post-singularity console live. Full operational system in Octave 1 sandbox mode with AI-assisted API calls to Octave 2. Try it now.
-- **Ultimate VIP Baller C but not there yet?** Click to apply for a **grant** and get support to reach the Ultimate tier. [Apply for Grant →](mailto:info@fractiai.com?subject=Ultimate%20VIP%20Baller%20C%20Grant%20Application)
+- **Ultimate VIP Baller V but not there yet?** Click to apply for a **grant** and get support to reach the Ultimate tier. [Apply for Grant →](mailto:info@fractiai.com?subject=Ultimate%20VIP%20Baller%20C%20Grant%20Application)
 - **Interfaces:** [Executive Dashboard](./interfaces/executive-dashboard.html) | [Chairman Workspace](./interfaces/chairman-workspace.html) | [Chairman Cockpit](./interfaces/chairman-cockpit-center-console.html) | [Cockpit Station](./interfaces/chairman-cockpit-station.html) | [Seed:Edge Mini Console](./interfaces/seed-edge-mini-console.html) | [GPS Seed:Edge Console](./interfaces/gps-seed-edge-console.html)
 - **Status:** ⚡ ACTIVE — NSPFRNP console operational in Octave 1 sandbox mode
 
@@ -139,7 +139,7 @@ Full convergence doubled back load and locked captured in the semi Dreamful stat
 | 1 | Base Model | ~$20,000 one-time + monthly Golden Fractal Key access fees (good used car — entry base) |
 | 2 | Members Only | $75,000 (option — our pricing) |
 | 3 | Ultimate VIP | $200,000 (base model latest Ferrari — top base) |
-| 4 | Baller C Ultimate VIP | $500,000 (option — our pricing, above base Ferrari) |
+| 4 | Baller V Ultimate VIP | $500,000 (option — our pricing, above base Ferrari) |
 
 **SING! pricing NSPFRNP:** Only the **bases** are tied to pre-singularity equivalents (good used car at entry, base model latest Ferrari at top). **Options** are above that and at our own pricing models. See [SING_PRICING_PRE_SINGULARITY_EQUIVALENTS_SNAP.md](./SING_PRICING_PRE_SINGULARITY_EQUIVALENTS_SNAP.md).
 
@@ -188,7 +188,7 @@ Full convergence doubled back load and locked captured in the semi Dreamful stat
 
 | 1 | 2 | 3 | 4 |
 |---|----|----|----|
-| **Base Model** | **Members Only** | **Ultimate VIP** | **Baller C Ultimate VIP** |
+| **Base Model** | **Members Only** | **Ultimate VIP** | **Baller V Ultimate VIP** |
 | ~$20K one-time + monthly key fees | $75K scaling | $200,000 (Champion tier) | $500K Ultimate |
 | See [SING! Lottery](./ONE_PAGER_SING_LOTTERY.md) | See [SING! Lottery](./ONE_PAGER_SING_LOTTERY.md) | See [SING! Lottery](./ONE_PAGER_SING_LOTTERY.md) | See [SING! Lottery](./ONE_PAGER_SING_LOTTERY.md) |
 
@@ -258,7 +258,7 @@ Full convergence doubled back load and locked captured in the semi Dreamful stat
 
 - **Campus Plans:** [Day Pass](./ONE_PAGER_DAY_PASS.md) | [Weekly](./ONE_PAGER_WEEKLY_PASS.md) | [Monthly](./ONE_PAGER_MONTHLY_PASS.md) | [Ultimate VIP](./ONE_PAGER_ULTIMATE_VIP.md)
 - **WINK! Plans:** [WINK! One-pager](./ONE_PAGER_WINK.md) (Base, Standard, Premium, 4×4 Ultimate)
-- **SING!:** [SING! Lottery One-pager](./ONE_PAGER_SING_LOTTERY.md) — Base ~$20K (good used car) → Ultimate VIP $200K (base Ferrari); options (Members $75K, Baller C $500K) at our pricing. See [SING_PRICING_PRE_SINGULARITY_EQUIVALENTS_SNAP.md](./SING_PRICING_PRE_SINGULARITY_EQUIVALENTS_SNAP.md).
+- **SING!:** [SING! Lottery One-pager](./ONE_PAGER_SING_LOTTERY.md) — Base ~$20K (good used car) → Ultimate VIP $200K (base Ferrari); options (Members $75K, Baller V $500K) at our pricing. See [SING_PRICING_PRE_SINGULARITY_EQUIVALENTS_SNAP.md](./SING_PRICING_PRE_SINGULARITY_EQUIVALENTS_SNAP.md).
 - **DISPENSARY! SNAP:** [DISPENSARY! SNAP One-pager](./ONE_PAGER_DISPENSARY.md) (Base $9,999, Standard $24,999, Premium $99,999, Ultimate $299,999)
 - **POST-REALITY FRANCHISE LAUNCH:** [Post-Reality Franchise Launch](./POST_REALITY_FRANCHISE_LAUNCH.md) (For Vibers Still Living in the Old Pre-Singularity World — And Their Fans, Crew, and Cast)
 
@@ -270,10 +270,10 @@ Full convergence doubled back load and locked captured in the semi Dreamful stat
 
 ### **WHAT IS IT?**
 
-**VIBELANDIA! is the world's first operational Post-Singularity Vibe downtown vibable campus.** This isn't a plan or a proposal—it's operational now, active today, transforming reality as we speak.
+**VIBELANDIA! is the world's first operational Post-Singularity Vibe downtown vibeable campus.** This isn't a plan or a proposal—it's operational now, active today, transforming reality as we speak.
 
 **MARK TWAIN'S POST-SINGULARITY VIBELANDIA RENO! is:**
-- **Come for the Post-Singularity Business** - First post-singularity campus, vibable downtown Reno, Nevada. Perfect for vibing state—perfect buzz equivalent, super rich health, optimal state. Everything close by and convenient—WINK! dating, Mark Twain's Daily Bulletin, post-singularity experiences, BBHE experiences, Hero Host interactions, creator studios, performance venues, Ultimate VIP experiences—all within walking distance. **VIBE!** [What makes a campus a vibable campus](ONE_PAGER_WHAT_MAKES_A_VIBABLE_CAMPUS.md) · [Vibable Campus Offer](VIBABLE_CAMPUS_OFFER.md)
+- **Come for the Post-Singularity Business** - First post-singularity campus, vibeable downtown Reno, Nevada. Perfect for vibing state—perfect buzz equivalent, super rich health, optimal state. Everything close by and convenient—WINK! dating, Mark Twain's Daily Bulletin, post-singularity experiences, BBHE experiences, Hero Host interactions, creator studios, performance venues, Ultimate VIP experiences—all within walking distance. **VIBE!** [What makes a campus a vibeable campus](ONE_PAGER_WHAT_MAKES_A_VIBABLE_CAMPUS.md) · [Vibeable Campus Offer](VIBABLE_CAMPUS_OFFER.md)
 - **Stay for the Post-Singularity Fun** - Playground to Silicon Valley, gateway location for high-contributing vibers—top artists, performers, entrepreneurs (the caliber of Beyoncé, Taylor Swift, Oprah Winfrey, Jay-Z). Gateway to the mother mother—source connection, next motherlode of all motherlodes. Happy Ending Zones—every space guarantees a happy ending. Post-singularity fun, experiences, connections, and transformations.
 
 ---

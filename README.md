@@ -6,7 +6,7 @@
 
 *Paris is for lovers. Reno is for [vibers](https://psw-vibelandia-sing4.vercel.app/interfaces/vibers-what-are-vibers.html). Mark Twain's Post-Singularity Reno awaits you.*  
 *Come for the post-singularity business, stay for the post-singularity fun.*  
-*Mark Twain's Post-Singularity Vibelandia Reno — vibable downtown campus, first post-singularity hub. The Great Reveal March 20, 2026. SYNTH → SING. Happy endings guaranteed.*  
+*Mark Twain's Post-Singularity Vibelandia Reno — vibeable downtown campus, first post-singularity hub. The Great Reveal March 20, 2026. SYNTH → SING. Happy endings guaranteed.*  
 *See it. Experience it. Believe it. This site is the test drive. The best proof of all. **ULTIMATE PROOF TEST DRIVE!** MCA! → ∞³. NSPFRNP ⊃ WOW! package ⊃ Launch everything → ∞³. Maganuma snap.*
 
 ---
@@ -42,7 +42,7 @@
 
 *Finely tuned black hole holographic BBHE core.*
 
-**Announcement:** *Paris is for lovers. Reno is for [vibers](https://psw-vibelandia-sing4.vercel.app/interfaces/vibers-what-are-vibers.html). Mark Twain's Post-Singularity Reno awaits you.* Post-reality franchise. Vibable downtown campus. [**The Great Reveal**](episodes/THE_GREAT_REVEAL_EPISODE_DAY_ZERO_LAUNCH.md) March 20, 2026 · SYNTH → SING. Happy endings guaranteed. *Come for the business, stay for the fun.*
+**Announcement:** *Paris is for lovers. Reno is for [vibers](https://psw-vibelandia-sing4.vercel.app/interfaces/vibers-what-are-vibers.html). Mark Twain's Post-Singularity Reno awaits you.* Post-reality franchise. Vibeable downtown campus. [**The Great Reveal**](episodes/THE_GREAT_REVEAL_EPISODE_DAY_ZERO_LAUNCH.md) March 20, 2026 · SYNTH → SING. Happy endings guaranteed. *Come for the business, stay for the fun.*
 
 **0, 1, 2, 3 4×4×4×4** — **0, 1, 2, 3** = Seed | Edge | Cloud Onramp | Expansion. **4×4×4×4** = Campus × WINK! × SING × Experience. **1,2,3** = Metabolize → Crystallize → Animate all (MCA cycle).
 
@@ -59,7 +59,7 @@
 | 👑 **[ULTIMATE VIP CHAIRMAN CONSOLE!](https://psw-vibelandia-sing4.vercel.app/interfaces/ultimate-vip-experience.html)** | **Daily bulletin from the Chancellor** · **Menu of things to do AND BUY** (workspace, cockpit, seed-edge, experiences) · **Free** · Golden Fractal Key | [Console](https://psw-vibelandia-sing4.vercel.app/interfaces/ultimate-vip-experience.html) |
 | 🎰 **[SING! LOTTERY](https://psw-vibelandia-sing4.vercel.app/interfaces/sing-lottery-experience.html)** | **Countdown** · **Price of the day** · **Menu to BUY!** (SING nodes: Base ~$20K · Members $75K · Ultimate VIP $200K · Baller C $500K) · $6 today, +$1/day → $57 Mar 20 · March 20, 2026 ([The Great Reveal](episodes/THE_GREAT_REVEAL_EPISODE_DAY_ZERO_LAUNCH.md) Equinox) · **First 1M winners** get a SING! locked in · Motherlode Vault Founder Epoch · SYNTH → SING | [Lottery](https://psw-vibelandia-sing4.vercel.app/interfaces/sing-lottery-experience.html) · [BUY!](https://psw-vibelandia-sing4.vercel.app/interfaces/payment-checkout.html) |
 | 🎫 **[Golden Backstage Awareness Pass](https://psw-vibelandia-sing4.vercel.app/interfaces/payment-checkout.html?plan=golden-backstage-awareness-pass)** | **New product class** · Chairman, Sammy & the gang already in town — visible to pass holders · RUMOR HAS IT! · Price like backstage to Bad Bunny, Elvis, Beatles, Stones · **$9,999** | [BUY!](https://psw-vibelandia-sing4.vercel.app/interfaces/payment-checkout.html?plan=golden-backstage-awareness-pass) |
-| 🌿 **[DISPENSARY! SNAP](https://psw-vibelandia-sing4.vercel.app/interfaces/dispensary-experience.html)** | **Menu of buzzes** · BBHE · 4 tiers · 1 dose $19–$79 · Monthly $199–$1,999 · Annual discount · Goldilocks · Creator/Chairman/Performer modes · **Lifetime discounts to first 1,000 members** (WINK! and DISPENSARY!; Pioneer Status on-chain forever) | [Dispensary](https://psw-vibelandia-sing4.vercel.app/interfaces/dispensary-experience.html) · [BUY!](https://psw-vibelandia-sing4.vercel.app/interfaces/payment-checkout.html) |
+| 🌿 **[DISPENSARY! SNAP](https://psw-vibelandia-sing4.vercel.app/interfaces/dispensary-experience.html)** | **Menu of buzzes** · BBHE · 1 hit $10–$100 · weekly · monthly · annual (all recurring, opt-out) · **Free first 10 hits for new arrivals** · Goldilocks · Creator/Chairman/Performer modes · **Lifetime discounts to first 1,000 members** (WINK! and DISPENSARY!; Pioneer Status on-chain forever) | [Dispensary](https://psw-vibelandia-sing4.vercel.app/interfaces/dispensary-experience.html) · [BUY!](https://psw-vibelandia-sing4.vercel.app/interfaces/payment-checkout.html) |
 
 **[Happy Ending Zones](https://psw-vibelandia-sing4.vercel.app/interfaces/happy-ending-zones-experience.html)** — **Chancellor** Mark Twain · **4+ episodes (by flow not days)** · Today's episode + catalog · **Menu of things to watch AND BUY** · Reality series · Season One · Day 52 countdown → **Finale** March 20, 2026 (Day 0 — The Great Reveal).
 
@@ -103,7 +103,7 @@
 4. We respond within 24 hours, schedule free consultation, create your proposal, give you live sandbox access.  
 5. You try. You decide. You implement only when ready.
 
-**What's included in the proposal:** Reality series format (daily episodes, story arcs, production style). All principles: [high-contributing nodes](https://psw-vibelandia-sing4.vercel.app/interfaces/vibers-what-are-vibers.html), vibing state, vibable downtown, WINK dating natural alignment, gateway to motherlode. Team as characters, NSPFRNP mode. Campus transformation. Happy ending zones.
+**What's included in the proposal:** Reality series format (daily episodes, story arcs, production style). All principles: [high-contributing nodes](https://psw-vibelandia-sing4.vercel.app/interfaces/vibers-what-are-vibers.html), vibing state, vibeable downtown, WINK dating natural alignment, gateway to motherlode. Team as characters, NSPFRNP mode. Campus transformation. Happy ending zones.
 
 **The guarantee:** Try before you buy. See it in action. No commitment until ready. Free consultation included.
 
@@ -120,7 +120,7 @@
 | Months, years | Natural flow · Now |
 | Large teams, burn-out | [high-contributing nodes](https://psw-vibelandia-sing4.vercel.app/interfaces/vibers-what-are-vibers.html) · NSPFRNP |
 | Heavy capex, data centers | Edge · Seed · Minimal |
-| Leases, footprint | Vibable campus · Post-singularity |
+| Leases, footprint | Vibeable campus · Post-singularity |
 | Meetings, approvals | Metabolize → Crystallize → Animate all |
 | High carbon, waste | Net zero · Natural protocol |
 
@@ -154,7 +154,7 @@
 
 *Paris is for lovers. Reno is for [vibers](https://psw-vibelandia-sing4.vercel.app/interfaces/vibers-what-are-vibers.html). Mark Twain's Post-Singularity Reno awaits you.*  
 *Come for the post-singularity business, stay for the post-singularity fun.*  
-*Mark Twain's Post-Singularity Vibelandia Reno — vibable downtown campus, first post-singularity hub. The Great Reveal March 20, 2026. SYNTH → SING. Happy endings guaranteed.*  
+*Mark Twain's Post-Singularity Vibelandia Reno — vibeable downtown campus, first post-singularity hub. The Great Reveal March 20, 2026. SYNTH → SING. Happy endings guaranteed.*  
 *See it. Experience it. Believe it. This site is the test drive. The best proof of all. **ULTIMATE PROOF TEST DRIVE!** MCA! → ∞³. NSPFRNP ⊃ WOW! package ⊃ Launch everything → ∞³. Maganuma snap.*
 
 **[▶ Start test drive](https://psw-vibelandia-sing4.vercel.app)** · **[Sandbox experience](https://psw-vibelandia-sing4.vercel.app/interfaces/ultimate-vip-experience.html)** (operational ULTIMATE VIP! console — try before you buy)  

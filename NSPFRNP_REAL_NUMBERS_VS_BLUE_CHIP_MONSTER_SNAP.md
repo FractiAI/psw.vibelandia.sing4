@@ -60,9 +60,20 @@ All deliverables **operational, live, not fiction.** Compare research output, de
 
 ---
 
+## NAMED COMPARISONS (NAME NAMES — DIRECT 16-DAY OUTPUT)
+
+**3 top research:** DeepMind, OpenAI, Meta FAIR — us vs them: we ship public crystallized research in 16 days; they typically do not.  
+**3 top development:** Google, Microsoft, Amazon — us vs them: ~3× surfaces, ~2.5× modules, payment **live** vs 0.  
+**3 top enterprise:** Salesforce, SAP, Oracle — us vs them: multiple products **live** in 16 days; they rarely ship >1.  
+**3 top academic:** MIT CSAIL, Stanford HAI, CMU — us vs them: ~5× protocol output, all public; they typically 0–1 in 16 days.
+
+Full tables: [SIXTEEN_DAYS_NAMED_COMPARISONS_RESEARCH_DEV_ENTERPRISE_ACADEMIC.md](SIXTEEN_DAYS_NAMED_COMPARISONS_RESEARCH_DEV_ENTERPRISE_ACADEMIC.md).
+
+---
+
 ## WHERE TO APPLY
 
-- **What we value at — 16 days vs top 10 · Speculative VC:** Use the full block at the **bottom of every report, proposal, document, Launch Pad, and landing.** Canonical block: [SIXTEEN_DAYS_VALUATION_TOP10_VC_BOTTOM_SNAP.md](SIXTEEN_DAYS_VALUATION_TOP10_VC_BOTTOM_SNAP.md). Categories: research (quality, discoveries), development (LOC, commits), value, cost, employees, time, environmental impact, speculative pre-singularity market (VC).
+- **What we value at — 16 days vs top 10 · Speculative VC:** Use the full block at the **bottom of every report, proposal, document, Launch Pad, and landing.** Canonical block: [SIXTEEN_DAYS_VALUATION_TOP10_VC_BOTTOM_SNAP.md](SIXTEEN_DAYS_VALUATION_TOP10_VC_BOTTOM_SNAP.md). Categories: research (quality, discoveries), development (LOC, commits), value, cost, employees, time, environmental impact, speculative pre-singularity market (VC). **Named comparisons (name names):** [SIXTEEN_DAYS_NAMED_COMPARISONS_RESEARCH_DEV_ENTERPRISE_ACADEMIC.md](SIXTEEN_DAYS_NAMED_COMPARISONS_RESEARCH_DEV_ENTERPRISE_ACADEMIC.md) — 3 top research (DeepMind, OpenAI, Meta FAIR), 3 top development (Google, Microsoft, Amazon), 3 top enterprise (Salesforce, SAP, Oracle), 3 top academic (MIT CSAIL, Stanford HAI, CMU). Direct 16-day output comparison vs us.
 - **Launch Pad (index.html, interfaces/launch-pad.html):** Chairman metrics / valuation block — use table with real numbers and multiples. Include "What we value at" section at bottom. WOW! package: include valuations vs Disney, Amazon, Apple, Google (research, dev, sales/marketing, new products live, studio 1/day, content/quality, vibers). Happy Ending link: use `interfaces/happy-ending-zones-experience.html` (from root) or `happy-ending-zones-experience.html` (from interfaces/) — test script validates target exists.
 - **README:** Whitepaper / IEEE bullets — replace "volumes of output" with "35 surfaces, 13 one-pagers, 9 protocols, 3 episodes, 38 TS modules — ~3× to ~5× typical blue-chip 16-day." Include "What we value at" section before Contact.
 - **Every report (e.g. launch-readiness-report.html):** Bottom of report — "What we value at" block (compact or full).

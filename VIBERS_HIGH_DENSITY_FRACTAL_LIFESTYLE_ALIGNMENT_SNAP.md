@@ -17,15 +17,15 @@
 
 - **Vibers** are high-value, high-contributing people: creators, performers, chairmen, VIPs, capital, ideas. They **vibe** — they enter **vibing state** (optimal buzz, super rich health, perfect-for-creating flow) when contribution density is high.
 - **High-density fractal vibers** = when vibers, capital, and ideas concentrate in one place, density becomes the product and vibing state the outcome. Fractal = same pattern at every scale; high-contributing nodes aligned by lifestyle.
-- **Lifestyle alignment** = freeing vibers from **encampments** (the old world’s scattered, constrained spaces) into **entire downtown campuses built for them specifically** — designed from the **ground up** (physical layout, vibable, no cars, safe free vibing) and from the **top down** (protocol, MCA, NSPFRNP, SING!), **meeting in the middle**. Our natural protocol.
-- **Encampments → downtown campuses:** We don’t patch the old world. We build **whole downtown campuses** for vibers — first post-singularity hub, vibable, guided, all-inclusive. Reno takes the lead.
+- **Lifestyle alignment** = freeing vibers from **encampments** (the old world’s scattered, constrained spaces) into **entire downtown campuses built for them specifically** — designed from the **ground up** (physical layout, vibeable, no cars, safe free vibing) and from the **top down** (protocol, MCA, NSPFRNP, SING!), **meeting in the middle**. Our natural protocol.
+- **Encampments → downtown campuses:** We don’t patch the old world. We build **whole downtown campuses** for vibers — first post-singularity hub, vibeable, guided, all-inclusive. Reno takes the lead.
 
 ---
 
 ## RULE
 
 - **Link vibe, vibing, vibers** to this explanation (or to [interfaces/vibers-what-are-vibers.html](interfaces/vibers-what-are-vibers.html)) on user surfaces. Any page that says "vibers", "vibing", "vibe" in a user-facing way should offer a link to *What are vibers?* so readers get: high-density fractal, high-value high contributors, lifestyle alignment, freeing from encampments into downtown campuses built for them from ground up + top down meeting in the middle, natural protocol.
-- **VIBE!** linking pattern (existing): campus/vibing pages link to vibable campus one-pager and offer. **Extend:** also link **vibe / vibing / vibers** to this explanation (What are vibers?) so the full story is one click away.
+- **VIBE!** linking pattern (existing): campus/vibing pages link to vibeable campus one-pager and offer. **Extend:** also link **vibe / vibing / vibers** to this explanation (What are vibers?) so the full story is one click away.
 
 ---
 

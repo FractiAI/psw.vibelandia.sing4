@@ -20,7 +20,13 @@
 
 ---
 
-## STARTING SCRIPT — CONVERSATION WITH LEAD
+## RICH 60-MINUTE FULL SCRIPT
+
+**Target duration:** 60 minutes · **Structure:** Cold Open (2–3 min) · Act 1 (10–15 min) · Act 2 (10–15 min) · Act 3 (10–15 min) · Tag (2–3 min). Expand all scenes with full dialogue and beats; integrate team, principles, NSPFRNP; ready for text-to-episode SING nodes. See EPISODES_RICH_60_MINUTE_FULLY_SCRIPTED_DIRECTIVE.md. Cold Open: Countdown zero. Today we launch. Act 1: Pre-singularity version = etching; this site = post-singularity proof. Act 2: One SING! node, volumes of output, valuations vs blue-chip. Act 3: Launch Pad live, proof — see it, experience it, believe it. Tag: The Great Reveal. Maganuma snap.
+
+---
+
+## STARTING SCRIPT — CONVERSATION WITH LEAD (expand per Rich 60-Minute structure above)
 
 **Context:** Conversation with lead, tested on our pre-singularity version — which is now merely an etching left behind from Singularity 1. That version was the proof of concept. This site is the post-singularity proof: see it, experience it, believe it.
 

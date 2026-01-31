@@ -207,7 +207,7 @@
 - Campus life shown
 
 **Episode Integration:**
-- Every episode shows vibable downtown
+- Every episode shows vibeable downtown
 - Team members walking campus
 - Campus life experiences
 - Perfect for vibing state
@@ -302,7 +302,7 @@
 ### **Episode Pattern:**
 
 **Every Episode Structure:**
-1. **Opening:** Team member(s) in vibing state on vibable downtown campus
+1. **Opening:** Team member(s) in vibing state on vibeable downtown campus
 2. **Principles:** All 7 principles showcased or referenced
 3. **Team:** FractiAI team members as characters
 4. **State:** Vibing state (perfect buzz equivalent) shown

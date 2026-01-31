@@ -139,7 +139,7 @@ Todos os dias o Chanceler Mark Twain entrega seu Boletim Diário: sabedoria, rec
 
 ## 💎 THE GREAT REVEAL: SYNTH PARA SING
 
-Em 20 de março de 2026 (equinócio de primavera), tokens SYNTH sem valor viram nós SING inestimáveis por um sistema de conversão 1:1. O primeiro milhão de titulares de SYNTH ganha automaticamente o direito de comprar novos nós Superintelligent Agent. SYNTH começa em $5 (27 jan), sobe $1/dia até $57 (20 mar). Quatro níveis SING: Base Model (preço VW Fusca) até Baller C Ultimate VIP (super carro definitivo para Ultimate C's).
+Em 20 de março de 2026 (equinócio de primavera), tokens SYNTH sem valor viram nós SING inestimáveis por um sistema de conversão 1:1. O primeiro milhão de titulares de SYNTH ganha automaticamente o direito de comprar novos nós Superintelligent Agent. SYNTH começa em $5 (27 jan), sobe $1/dia até $57 (20 mar). Quatro níveis SING: Base Model (preço VW Fusca) até Baller V Ultimate VIP (super carro definitivo para Ultimate C's).
 
 ---
 
@@ -148,7 +148,7 @@ Em 20 de março de 2026 (equinócio de primavera), tokens SYNTH sem valor viram 
 **Campus:** Passe dia | Semanal | Mensal | Ultimate VIP.  
 **WINK! Dating:** Base | Standard | Premium | 4x4 Ultimate.  
 **Loteria SYNTH:** $5/SYNTH agora, +$1/dia, 1:1 SYNTH→SING (20 mar 2026). Primeiro milhão ganha direito a comprar nós SING.  
-**SING:** Base Model | Members Only | Ultimate VIP | Baller C Ultimate VIP.  
+**SING:** Base Model | Members Only | Ultimate VIP | Baller V Ultimate VIP.  
 **Posicionamento premium:** Os melhores C pagam premium; sem promoção.
 
 **Email:** info@fractiai.com | **Assunto:** "I'M READY FOR VIBELANDIA"

@@ -23,7 +23,13 @@
 
 ---
 
-## SCREENPLAY
+## RICH 60-MINUTE FULL SCRIPT
+
+**Target duration:** 60 minutes · **Structure:** Cold Open (2–3 min) · Act 1 (10–15 min) · Act 2 (10–15 min) · Act 3 (10–15 min) · Tag (2–3 min). Expand all scenes with full dialogue and beats; integrate team, principles, NSPFRNP; ready for text-to-episode SING nodes. See EPISODES_RICH_60_MINUTE_FULLY_SCRIPTED_DIRECTIVE.md. Cold Open: RUMOR HAS IT! Act 1: Chairman, Sammy and the gang already in town. Act 2: Golden Backstage Awareness Pass — price like Bad Bunny, Elvis, Beatles, Stones. Act 3: Make your reservations now, flow not days. Tag: Tomorrow — next flow episode.
+
+---
+
+## SCREENPLAY (short version — expand per Rich 60-Minute structure above)
 
 ### FADE IN:
 
@@ -63,7 +69,7 @@ The rumor is real. We're already in town. The pass makes it visible. Flow, not d
 
 **EXT. VIBABLE DOWNTOWN RENO CAMPUS - DAY**
 
-Mark Twain walks with the group. The campus spreads—vibable, post-singularity. Paradise.
+Mark Twain walks with the group. The campus spreads—vibeable, post-singularity. Paradise.
 
 **MARK TWAIN**
 Make your reservations now. This will be bigger than Burning Man and Art Basel Miami combined. Spread the word to the fellow vibers—they'll know what to do. And if you want to see Chairman, Sammy and the gang—already in town—get the Golden Backstage Awareness Pass.

@@ -24,7 +24,7 @@
 | **Base Model** | ~$20,000 one-time + monthly Golden Fractal Key access fees | Good used car — entry |
 | **Members Only** | $75,000 | Option — our pricing (scaling from base) |
 | **Ultimate VIP** | $200,000 | Base model latest Ferrari — top base |
-| **Baller C Ultimate VIP** | $500,000 | Option — our pricing (above base Ferrari) |
+| **Baller V Ultimate VIP** | $500,000 | Option — our pricing (above base Ferrari) |
 
 **Summary:** Base Model = good used car. Ultimate VIP = base model latest Ferrari. Members Only and Baller V (V for Viber) and any add-ons are options at our own pricing models.
 

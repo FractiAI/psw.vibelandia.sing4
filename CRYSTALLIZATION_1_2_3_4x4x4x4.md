@@ -54,7 +54,7 @@
 
 | 1 | 2 | 3 | 4 |
 |---|----|----|----|
-| **Base Model** | **Members Only** | **Ultimate VIP** | **Baller C Ultimate VIP** |
+| **Base Model** | **Members Only** | **Ultimate VIP** | **Baller V Ultimate VIP** |
 | ~$20K (VW Bug) — entry | Scaling from base — mid-range | $200,000 (Champion tier) — premium | Ultimate super car for Ultimate C's |
 
 *SYNTH → SING March 20, 2026. First 1M holders win right to purchase. Worthless → priceless.*
@@ -79,7 +79,7 @@
 - **4×4×4×4** = the plans/onramps (Campus, WINK!, SING, Experience).
 
 **Pick your onramps.**  
-Campus (Day/Weekly/Monthly/Ultimate VIP) × WINK! (Base/Standard/Premium/4×4) × SING (Base/Members/Ultimate VIP/Baller C) × Experience (Visit/Stay/Create/Transform).
+Campus (Day/Weekly/Monthly/Ultimate VIP) × WINK! (Base/Standard/Premium/4×4) × SING (Base/Members/Ultimate VIP/Baller V) × Experience (Visit/Stay/Create/Transform).
 
 **Everything crystallized. One structure. 1-2-3 × 4×4×4×4.**
 

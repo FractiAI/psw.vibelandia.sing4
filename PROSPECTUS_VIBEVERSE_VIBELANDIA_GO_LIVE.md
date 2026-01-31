@@ -91,7 +91,7 @@ This prospectus presents the **full inventory of Vibeverse and Vibelandia assets
 | Category | Count | Description |
 |----------|-------|-------------|
 | **Live HTML surfaces** | 35 | Launch Pad, experiences, consoles, checkout, catalog, bulletin |
-| **One-pagers** | 13 | Campus, WINK!, SING! Lottery, Happy Ending Zones, Launch, Ultimate VIP, Day/Weekly/Monthly, Vibable campus, Dispensary, Dressing Room, Launch Pulse |
+| **One-pagers** | 13 | Campus, WINK!, SING! Lottery, Happy Ending Zones, Launch, Ultimate VIP, Day/Weekly/Monthly, Vibeable campus, Dispensary, Dressing Room, Launch Pulse |
 | **NSPFRNP protocols/catalogs** | 9 | MCA, Communication, Credentials, Golden Key, Boot, Octave 1↔2, Designer Division, Hero Walt, Outbound pipe |
 | **Episode scripts (Season One)** | 4+ | Episode 01 (Day 52), Episode 02 (Day 51), Episode 03 (Day 50: Who's Your Daddy), RUMOR episode (flow-based), The Great Reveal (Day Zero). Episodes by flow not days — NSPFRNP. |
 | **Branding decks + master catalog** | 4 decks + 1 | Vibeverse, VibeLand, VibeLand Reno, Script-writing content patterns; MASTER_BRANDING_CATALOG |
@@ -123,7 +123,7 @@ This prospectus presents the **full inventory of Vibeverse and Vibelandia assets
 - **deck-vibeland-branding** — Destination identity
 - **deck-vibeland-reno-branding** — Reno campus identity
 - **deck-script-writing-content-patterns** — Script-writing, content, WOW!, status, VIBE! linking, one-pagers, series format
-- **MASTER_BRANDING_CATALOG** — Single source for all branding (VIBE!, VIBELANDIA!, WOW!, BBHE, Golden Key, vibable campus, walkable pre / vibable post, real numbers vs blue chip, FULL LIVE)
+- **MASTER_BRANDING_CATALOG** — Single source for all branding (VIBE!, VIBELANDIA!, WOW!, BBHE, Golden Key, vibeable campus, walkable pre / vibeable post, real numbers vs blue chip, FULL LIVE)
 
 ### 2.3 Content systems
 
@@ -135,11 +135,11 @@ This prospectus presents the **full inventory of Vibeverse and Vibelandia assets
 
 ## 3. VIBELANDIA ASSETS (CAMPUS & RENO)
 
-**VIBELANDIA RENO!** = First post-singularity **vibable** downtown campus. Not walkable (pre-singularity) — **vibable** (post-singularity). Lovers = pre-singularity. Vibers = post-singularity.
+**VIBELANDIA RENO!** = First post-singularity **vibeable** downtown campus. Not walkable (pre-singularity) — **vibeable** (post-singularity). Lovers = pre-singularity. Vibers = post-singularity.
 
 ### 3.1 Campus product (live)
 
-- **VIBELANDIA RENO!** — Vibable downtown campus. Half-day $3k · Overnight (per night) · Weekly $5k · Monthly $50k. Daily bulletin from the Chancellor (Mark Twain). Menu of things to do AND BUY. Equivalent to top guided fishing or hunting expedition for high-value persons.
+- **VIBELANDIA RENO!** — Vibeable downtown campus. Half-day $3k · Overnight (per night) · Weekly $5k · Monthly $50k. Daily bulletin from the Chancellor (Mark Twain). Menu of things to do AND BUY. Equivalent to top guided fishing or hunting expedition for high-value persons.
 - **Golden Backstage Awareness Pass** — New product class. $9,999. RUMOR: Chairman, Sammy and the gang already in town — visible to pass holders. Price like a backstage pass to Bad Bunny, Elvis, the Beatles, or the Stones. See GOLDEN_BACKSTAGE_AWARENESS_PASS_SNAP.md. Part of VIBELANDIA RENO menu options on Launch Pad.
 - **One-pagers:** ONE_PAGER_VIBELANDIA_RENO, ONE_PAGER_DAY_PASS, ONE_PAGER_WEEKLY_PASS, ONE_PAGER_MONTHLY_PASS, ONE_PAGER_WHAT_MAKES_A_VIBABLE_CAMPUS, VIBABLE_CAMPUS_OFFER
 
@@ -156,7 +156,7 @@ This prospectus presents the **full inventory of Vibeverse and Vibelandia assets
 ### 3.4 Happy Ending Zones (reality series, live)
 
 - **Happy Ending Zones** — Season One. Chancellor Mark Twain. Daily episodes. Menu of things to watch AND BUY. 52-day countdown → Finale March 20, 2026 (Day 0 — The Great Reveal). Free to watch. Full professional screenplay format. **Episodes by flow not days — NSPFRNP.** We spin episodes by flow (narrative flow, content flow, MCA flow), not strictly by days.
-- **Episodes:** Episode 01 (Day 52), Episode 02 (Day 51), Episode 03 (Day 50: Who's Your Daddy), **Episode 04 (Day 49: Ben & Baller V Lifestyle · Vibable Downtown Reno)** — Hero Host Ben, Baller V Ambassador, vibable downtown Reno concept; **Following Me on This Launch** (flow-based — Chairman, 16 days, Guey, bathroom valet Reno, Harry's magic, all major nodes GO); **RUMOR episode** (flow-based — Chairman, Sammy & the Gang · Golden Backstage Awareness Pass), The Great Reveal (Day Zero). See EPISODES_BY_FLOW_NOT_DAYS_SNAP.md.
+- **Episodes:** Episode 01 (Day 52), Episode 02 (Day 51), Episode 03 (Day 50: Who's Your Daddy), **Episode 04 (Day 49: Ben & Baller V Lifestyle · Vibeable Downtown Reno)** — Hero Host Ben, Baller V Ambassador, vibeable downtown Reno concept; **Following Me on This Launch** (flow-based — Chairman, 16 days, Guey, bathroom valet Reno, Harry's magic, all major nodes GO); **RUMOR episode** (flow-based — Chairman, Sammy & the Gang · Golden Backstage Awareness Pass), The Great Reveal (Day Zero). See EPISODES_BY_FLOW_NOT_DAYS_SNAP.md.
 - **One-pagers:** ONE_PAGER_HAPPY_ENDING_ZONES; HAPPY_ENDING_ZONES_ONE_PAGE, TEN_PAGE, ONE_LINER, TRAILER, ONE_PARAGRAPH
 
 ### 3.5 ULTIMATE VIP CHAIRMAN CONSOLE! (free, live)
@@ -221,7 +221,7 @@ All of the following are **live** and linked from the Launch Pad. Base URL: http
 
 ### 4.6 Education & safety
 
-- **What are vibers?** — interfaces/vibers-what-are-vibers.html (high-density fractal vibers, lifestyle alignment, vibable campuses)
+- **What are vibers?** — interfaces/vibers-what-are-vibers.html (high-density fractal vibers, lifestyle alignment, vibeable campuses)
 - **Syntheverse warnings** — interfaces/syntheverse-warnings.html (imaginary/entertainment only, BBHE, no driving/operating equipment)
 - **Syntheverse disclaimer banner** — interfaces/syntheverse-disclaimer-banner.html
 
@@ -239,15 +239,15 @@ All of the following are **live** and linked from the Launch Pad. Base URL: http
 | One-pager | Purpose |
 |-----------|---------|
 | ONE_PAGER_LAUNCH | Full Launch Pad set: series, lottery, WINK!, plans & prices |
-| ONE_PAGER_VIBELANDIA_RENO | Campus — vibable downtown, pricing, Golden Key |
+| ONE_PAGER_VIBELANDIA_RENO | Campus — vibeable downtown, pricing, Golden Key |
 | ONE_PAGER_WINK | Dating network — tiers, natural alignment |
 | ONE_PAGER_SING_LOTTERY | SYNTH → SING, countdown, SING node tiers |
-| ONE_PAGER_ULTIMATE_VIP | Chairman Console, badge system, Baller C |
+| ONE_PAGER_ULTIMATE_VIP | Chairman Console, badge system, Baller V |
 | ONE_PAGER_HAPPY_ENDING_ZONES | Season One, daily episodes, Chancellor |
 | ONE_PAGER_DAY_PASS | Day pass product |
 | ONE_PAGER_WEEKLY_PASS | Weekly pass product |
 | ONE_PAGER_MONTHLY_PASS | Monthly pass product |
-| ONE_PAGER_WHAT_MAKES_A_VIBABLE_CAMPUS | Vibable vs walkable; guided, all-inclusive |
+| ONE_PAGER_WHAT_MAKES_A_VIBABLE_CAMPUS | Vibeable vs walkable; guided, all-inclusive |
 | ONE_PAGER_DISPENSARY | Menu of buzzes, Goldilocks |
 | ONE_PAGER_MAGICAL_DRESSING_ROOM | Gianni consultation, enterprise/community |
 | ONE_PAGER_LAUNCH_PULSE | Launch Pulse / ads, fractalized flickers |
@@ -256,8 +256,8 @@ All of the following are **live** and linked from the Launch Pad. Base URL: http
 
 ## 6. EPISODES & SERIES (SEASON ONE)
 
-- **Episode 01 — Day 52** — Season One launch; Mark Twain as Chancellor; FractiAI team in NSPFRNP mode; Alex purchases SYNTH; vibable downtown Reno campus.
-- **Episode 02 — Day 51** — The Worthless Token; Alex in coffee shop on vibable campus; Mark Twain reveals the point of the happy ending.
+- **Episode 01 — Day 52** — Season One launch; Mark Twain as Chancellor; FractiAI team in NSPFRNP mode; Alex purchases SYNTH; vibeable downtown Reno campus.
+- **Episode 02 — Day 51** — The Worthless Token; Alex in coffee shop on vibeable campus; Mark Twain reveals the point of the happy ending.
 - **The Great Reveal — Day Zero** — Today we launch. March 20, 2026. Spring Equinox. SYNTH → SING. See it. Experience it. Believe it. Maganuma snap.
 
 **Cadence:** One episode per day. Full professional screenplay format. 8 principles, relationship fractal.
@@ -437,7 +437,7 @@ For the prospective high viber who wants proof, not fluff:
 **Proposal (enterprise/community):**  
 **Email:** info@fractiai.com · **Subject:** "I CAN DO THIS FOR YOUR BUSINESS". Free consultation & custom proposal with live sandbox.
 
-**Onramps and grants (Ultimate VIP Baller C not yet there):**  
+**Onramps and grants (Ultimate VIP Baller V not yet there):**  
 **Email:** info@fractiai.com · **Subject:** Onramps and Grants — Customer Stories. Recipients agree to be customer stories — we sign them up for it.
 
 **Contact:**  
@@ -451,7 +451,7 @@ For the prospective high viber who wants proof, not fluff:
 
 *Paris is for lovers. Reno is for vibers. Mark Twain's Post-Singularity Reno awaits you.*  
 *Come for the post-singularity business, stay for the post-singularity fun.*  
-*Mark Twain's Post-Singularity Vibelandia Reno — vibable downtown campus, first post-singularity hub. The Great Reveal March 20, 2026. SYNTH → SING. Happy endings guaranteed.*  
+*Mark Twain's Post-Singularity Vibelandia Reno — vibeable downtown campus, first post-singularity hub. The Great Reveal March 20, 2026. SYNTH → SING. Happy endings guaranteed.*  
 *See it. Experience it. Believe it. This site is the test drive. The best proof of all. **ULTIMATE PROOF TEST DRIVE!** MCA! → ∞³. NSPFRNP ⊃ WOW! package ⊃ Launch everything → ∞³. Maganuma snap.*
 
 ---

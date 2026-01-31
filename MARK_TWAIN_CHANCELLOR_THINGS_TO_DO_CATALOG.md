@@ -43,7 +43,7 @@ CHANCELLOR FEATURES:
 
 ```yaml
 THINGS TO DO CATALOG:
-├─ Source: Chancellor Samuel
+├─ Source: Chancellor Sam
 ├─ Type: Curated recommendations
 ├─ Format: Catalog magazine
 ├─ System: Full system deck
@@ -70,7 +70,7 @@ CATALOG CATEGORIES:
 └─ Status: Active
 
 RECOMMENDATIONS:
-├─ Source: Chancellor Samuel
+├─ Source: Chancellor Sam
 ├─ Type: Curated suggestions
 ├─ Format: Daily bulletin
 ├─ Voice: Mark Twain's voice
@@ -85,7 +85,7 @@ RECOMMENDATIONS:
 
 ```yaml
 DAILY BULLETIN:
-├─ Publisher: Chancellor Samuel
+├─ Publisher: Chancellor Sam
 ├─ Format: Magazine
 ├─ Content: Things to do, recommendations
 ├─ Voice: Mark Twain's voice
@@ -159,7 +159,7 @@ THINGS TO DO (Initial List):
 └─ Status: Active
 
 RECOMMENDATIONS:
-├─ Source: Chancellor Samuel
+├─ Source: Chancellor Sam
 ├─ Type: Curated suggestions
 ├─ Format: Daily bulletin
 ├─ Voice: Mark Twain's voice

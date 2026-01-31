@@ -155,10 +155,10 @@ Ultimate VIP Chairman Creators, Baller G Ultimate VIP, Performers, Vibers everyw
 Pre-Singularity (sober baseline) vs Vibing (perfect buzz equivalent optimal state) - the state shown throughout, demonstrating the transformation from baseline to optimal.
 
 **3. Super Rich Health & Optimal State:**
-Perfect buzz equivalent, super rich health, optimal state - NOT for driving cars or operating equipment, perfect for walking, being, experiencing, creating on vibable downtown Reno campus.
+Perfect buzz equivalent, super rich health, optimal state - NOT for driving cars or operating equipment, perfect for walking, being, experiencing, creating on vibeable downtown Reno campus.
 
 **4. Walkable Downtown Reno:**
-First post-singularity Vibelandia campus, vibable downtown design, perfect for vibing state, no cars needed, optimal campus experience - featured throughout the series. **VIBE!** [What makes a campus a vibable campus](ONE_PAGER_WHAT_MAKES_A_VIBABLE_CAMPUS.md) · [Vibable Campus Offer](VIBABLE_CAMPUS_OFFER.md)
+First post-singularity Vibelandia campus, vibeable downtown design, perfect for vibing state, no cars needed, optimal campus experience - featured throughout the series. **VIBE!** [What makes a campus a vibeable campus](ONE_PAGER_WHAT_MAKES_A_VIBABLE_CAMPUS.md) · [Vibeable Campus Offer](VIBABLE_CAMPUS_OFFER.md)
 
 **5. Playground to Silicon Valley:**
 Gateway location, playground for Silicon Valley, easy access, perfect positioning, high-contributing creator playground - positioning shown throughout.
@@ -260,7 +260,7 @@ Spinning holographic symbols, vibe screens showing energy flows, black hole visu
 Interactive countdown mechanics, gaming elements and interfaces, price tracking games, lottery gameplay, achievement systems, countdown timers.
 
 **25% Day in the Life on Campus (13 episodes):**
-Mark Twain's Post-Singularity Vibelandia Reno campus, vibable downtown Reno, campus life and daily activities, student/creator experiences, campus culture, Mark Twain's presence.
+Mark Twain's Post-Singularity Vibelandia Reno campus, vibeable downtown Reno, campus life and daily activities, student/creator experiences, campus culture, Mark Twain's presence.
 
 **25% WINK Episodes (13 episodes) [EXTRA]:**
 Grownup Ultimate VIP Chairman Creators, performers, vibers everywhere, natural alignment, friction-free dating, resilience, members-only access, ⚠️ Intoxication warnings.

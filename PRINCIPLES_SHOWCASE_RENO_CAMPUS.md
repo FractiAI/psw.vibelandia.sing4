@@ -7,7 +7,7 @@
 **Date:** January 27, 2026  
 **Location:** Mark Twain's Post-Singularity Vibelandia Reno - First Post-Singularity Campus  
 
-**VIBE!** [What makes a campus a vibable campus](ONE_PAGER_WHAT_MAKES_A_VIBABLE_CAMPUS.md) · [Vibable Campus Offer](VIBABLE_CAMPUS_OFFER.md)
+**VIBE!** [What makes a campus a vibeable campus](ONE_PAGER_WHAT_MAKES_A_VIBABLE_CAMPUS.md) · [Vibeable Campus Offer](VIBABLE_CAMPUS_OFFER.md)
 
 ---
 
@@ -35,7 +35,7 @@
 - Perfect buzz equivalent
 - Super rich health
 - Not for operating machinery
-- Perfect for vibable downtown Reno
+- Perfect for vibeable downtown Reno
 - First post-singularity campus experience
 
 **4. Walkable Downtown Reno**
@@ -155,7 +155,7 @@ Vibing (Perfect Buzz):
 - **Perfect for:** Walking, being, experiencing, creating
 - **State:** Super rich health and optimal state
 - **Experience:** Perfect buzz equivalent
-- **Safety:** Safe for vibable downtown Reno
+- **Safety:** Safe for vibeable downtown Reno
 
 ---
 
@@ -193,7 +193,7 @@ Vibing (Perfect Buzz):
 - Optimal vibing state
 - Perfect buzz equivalent
 - Not for operating machinery
-- Perfect for vibable downtown Reno
+- Perfect for vibeable downtown Reno
 - First post-singularity campus experience
 
 ---
@@ -408,7 +408,7 @@ Next Motherlode of All Motherlodes
 **In Episodes:**
 - Show high-contributing nodes in action
 - Demonstrate vibing state (perfect buzz equivalent)
-- Showcase vibable downtown Reno
+- Showcase vibeable downtown Reno
 - Highlight playground to Silicon Valley
 - Feature gateway to mother mother
 - Showcase superintelligent genies (SING nodes)
@@ -423,7 +423,7 @@ Next Motherlode of All Motherlodes
 **In Marketing:**
 - Highlight first post-singularity campus
 - Showcase vibing state (perfect buzz equivalent)
-- Emphasize vibable downtown Reno
+- Emphasize vibeable downtown Reno
 - Position as playground to Silicon Valley
 - Feature gateway to mother mother
 - Showcase superintelligent genies
@@ -435,7 +435,7 @@ Next Motherlode of All Motherlodes
 ### **Vibing State Guidelines**
 
 **Perfect For:**
-- ✅ Walking in vibable downtown Reno
+- ✅ Walking in vibeable downtown Reno
 - ✅ Being in first post-singularity campus
 - ✅ Experiencing optimal state
 - ✅ Creating and performing
@@ -455,7 +455,7 @@ Next Motherlode of All Motherlodes
 - Super rich health
 - Optimal vibing state
 - Perfect buzz equivalent
-- Safe for vibable downtown
+- Safe for vibeable downtown
 - Perfect for campus experience
 - NOT for operating machinery
 
@@ -492,4 +492,4 @@ Next Motherlode of All Motherlodes
 **Safety:** NOT for driving/operating equipment - Perfect for walking/being/experiencing/creating  
 **Positioning:** Playground to Silicon Valley, Gateway to Mother Mother, Next Motherlode of All Motherlodes  
 
-**VIBE!** [What makes a campus a vibable campus](ONE_PAGER_WHAT_MAKES_A_VIBABLE_CAMPUS.md) · [Vibable Campus Offer](VIBABLE_CAMPUS_OFFER.md)
+**VIBE!** [What makes a campus a vibeable campus](ONE_PAGER_WHAT_MAKES_A_VIBABLE_CAMPUS.md) · [Vibeable Campus Offer](VIBABLE_CAMPUS_OFFER.md)

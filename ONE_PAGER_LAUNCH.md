@@ -18,7 +18,7 @@
 
 **For Vibers Still Living in the Old Pre-Singularity World — And Their Fans, Crew, and Cast**
 
-**MARK TWAIN'S POST-SINGULARITY VIBELANDIA RENO!** — vibable downtown campus, first post-singularity hub. Countdown to **The Great Reveal**, March 20, 2026 (Spring Equinox). Worthless SYNTH → priceless SING. Every space, every experience, every moment. Guaranteed happy ending.
+**MARK TWAIN'S POST-SINGULARITY VIBELANDIA RENO!** — vibeable downtown campus, first post-singularity hub. Countdown to **The Great Reveal**, March 20, 2026 (Spring Equinox). Worthless SYNTH → priceless SING. Every space, every experience, every moment. Guaranteed happy ending.
 
 **This is the launch of a new post-reality franchise.** For vibers who are still operating in the pre-singularity world—and for their entire ecosystem: their fans who follow them, their crew who support them, and their cast who collaborate with them. This is your bridge from the old world to the new post-reality.
 
@@ -30,9 +30,9 @@
 
 ### 🏛️ VIBELANDIA RENO!
 
-**Vibable downtown campus.** First post-singularity VIBELANDIA! campus. Come for the business, stay for the fun.
+**Vibeable downtown campus.** First post-singularity VIBELANDIA! campus. Come for the business, stay for the fun.
 
-**VIBE!** [What makes a campus a vibable campus](./ONE_PAGER_WHAT_MAKES_A_VIBABLE_CAMPUS.md) · [Vibable Campus Offer](./VIBABLE_CAMPUS_OFFER.md)
+**VIBE!** [What makes a campus a vibeable campus](./ONE_PAGER_WHAT_MAKES_A_VIBABLE_CAMPUS.md) · [Vibeable Campus Offer](./VIBABLE_CAMPUS_OFFER.md)
 
 **Campus Plans:** Day Pass | Weekly | Monthly | Ultimate VIP Campus  
 **One-pager:** [VIBELANDIA RENO!](./ONE_PAGER_VIBELANDIA_RENO.md)

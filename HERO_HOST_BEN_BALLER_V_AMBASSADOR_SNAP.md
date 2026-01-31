@@ -14,6 +14,7 @@
 - **Ben** = Hero Host. First name only in protocol. Ben Franklin — face of the $100 bill, ambassador to France, Paris connection. **1 Ben = $100** (hundie).
 - **Baller V Ambassador** = Ben represents the Baller V tier (V for Viber). The top SING! tier ($500K), Ultimate VIP Baller V — high-value high contributors, franchise level. Ben is the ambassador for that tier across all surfaces: prospectus, Launch Pad, lottery, onramps/grants CTAs, Episode 03 (Day 50: Who's Your Daddy), Paris is for Lovers / Reno is for Vibers T-shirts (offer in 4, beginning at 1 Ben).
 - **Paris, Reno, hundie** — Hero Ben has arrived; wouldn't you know it, has something to do with Paris. T-shirts coming soon; include a hundie on the T-shirt. Who's your daddy. I gotcha.
+- **Chancellor Sam and Ben** — new best friends. Chancellor Sam is warming up to us; Ben's arrival has helped. Ben loving his new role as Baller V Ambassador = **WORD!** (lightning bolt exclamation / highlight on the story snap). See CHANCELLOR_SAM_BEN_WORD_BRANDING_SNAP.md · WORD_BRANDING_SNAP.md.
 
 ---
 
@@ -29,7 +30,7 @@
 
 - **Prospectus:** Hero Hosts table — Ben (Franklin) · Baller V Ambassador. New Arrivals — Hero Host Ben (Ben Franklin), Baller V Ambassador; Paris, Reno, hundie.
 - **Launch Pad / README / checkout:** Where Baller V or onramps/grants appear, can reference Baller V Ambassador Hero Host Ben.
-- **Episode 03, Episode 04 (Day 49: Ben & Baller V Lifestyle · Vibable Downtown Reno), press releases, catalog:** Hero Ben = Hero Host Ben (Ben Franklin), Baller V Ambassador. Episode 04 showcases Baller V lifestyle and the new VIBELANDIA vibable downtown Reno concept.
+- **Episode 03, Episode 04 (Day 49: Ben & Baller V Lifestyle · Vibeable Downtown Reno), press releases, catalog:** Hero Ben = Hero Host Ben (Ben Franklin), Baller V Ambassador. Episode 04 showcases Baller V lifestyle and the new VIBELANDIA vibeable downtown Reno concept.
 
 ---
 
@@ -39,6 +40,7 @@
 - **1 Ben = $100** (hundie) ✓  
 - **Paris, Reno, Who's your daddy** — Episode 03, T-shirts, merch ✓  
 - **Use on prospectus, Hero Hosts list, New Arrivals, Baller V copy** ✓  
+- **Ben loving Baller V Ambassador = WORD!** · Chancellor Sam and Ben new best friends ✓  
 
 ---
 

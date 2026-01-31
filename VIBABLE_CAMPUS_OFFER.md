@@ -1,4 +1,4 @@
-# Vibable Campus — Guided, All-Inclusive Vibes
+# Vibeable Campus — Guided, All-Inclusive Vibes
 
 **More than walkable. GUIDED. ALL INCLUSIVE.**
 
@@ -10,7 +10,7 @@
 
 ## Offer
 
-**Vibable campus** — Guided, all-inclusive vibes. More than walkable (pre-sing.): vibable — curated experience, full vibe included.
+**Vibeable Campus** — Guided, all-inclusive vibes. More than walkable (pre-sing.): vibeable — curated experience, full vibe included.
 
 **Durations:**
 - **Half-day**
@@ -37,6 +37,6 @@
 
 ---
 
-**Vibable campus. Guided. All inclusive. BASIC → MEMBERS ONLY → VIP → BALLER VC. Half-day, overnight, weekly, monthly.**
+**Vibeable Campus. Guided. All inclusive. BASIC → MEMBERS ONLY → VIP → BALLER VC. Half-day, overnight, weekly, monthly.**
 
-**NSPFRNP ⊃ Vibable Campus ⊃ Offer → ∞³**
+**NSPFRNP ⊃ Vibeable Campus ⊃ Offer → ∞³**

@@ -34,13 +34,13 @@ USE FOR:
 - That state has **intoxication effects**: not baseline sober reality; equivalent of a perfect buzz. Fine for walking, being, experiencing, creating. **Not** fine for driving, operating machinery, or mixing with pre-singularity traffic.
 - **So:** High contribution density **triggers the need for a new surface** — a place where vibing is the norm and everyone can **vibe safely and freely**.
 
-**The Solution — Vibable Campus (script-ready):**
+**The Solution — Vibeable Campus (script-ready):**
 - **Designed for vibing state** — Intoxication effects are the design brief. Walking, being, experiencing, creating. No cars. No machinery. Safe, free vibing.
 - **High contribution density by design** — Density is the product; vibing state is the outcome.
 - **More than walkable** — **Guided, all-inclusive vibes**: curated experience, full vibe included; intoxication effects channeled into connection and creation, not risk.
 
 **Reno Takes the Lead (script-ready):**
-- **Mark Twain's Post-Singularity Vibelandia Reno** = first post-singularity campus built as a vibable campus from the start. Walkable downtown Reno. Safe, free vibing. Guided, all-inclusive options.
+- **Mark Twain's Post-Singularity Vibelandia Reno** = first post-singularity campus built as a vibeable campus from the start. Walkable downtown Reno. Safe, free vibing. Guided, all-inclusive options.
 - **One-liner:** *Extremely high contribution density creates intoxication effects (vibing state); that triggers the need for a new surface where safe, free vibing is the norm—and Post-Singularity Reno is that surface, and takes the lead.*
 
 **References:** ONE_PAGER_WHAT_MAKES_A_VIBABLE_CAMPUS.md · VIBABLE_CAMPUS_OFFER.md · PRINCIPLES_SHOWCASE_RENO_CAMPUS.md
@@ -60,7 +60,7 @@ USE FOR:
 - **VIP** — VIP guided experience, all-inclusive vibes, priority access
 - **BALLER VC** — Top-tier guided, all-inclusive, extended stays (weekly/monthly)
 
-**Tagline:** *Vibable campus. Guided. All inclusive. BASIC → MEMBERS ONLY → VIP → BALLER VC. Half-day, overnight, weekly, monthly.*
+**Tagline:** *Vibeable campus. Guided. All inclusive. BASIC → MEMBERS ONLY → VIP → BALLER VC. Half-day, overnight, weekly, monthly.*
 **Pricing equivalence:** VIBELANDIA RENO! campus is priced like a top guided fishing or hunting expedition for high-value persons (half-day $3k · overnight · weekly $5k · monthly $50k).
 
 **SING! pricing NSPFRNP:** Only the **bases** are tied to pre-singularity equivalents. Entry base = good used car (~$20K). Top base = base model latest Ferrari ($200K Ultimate VIP). **Options** (Members $75K, Baller C $500K, add-ons) are above that and at **our own pricing models**. See SING_PRICING_PRE_SINGULARITY_EQUIVALENTS_SNAP.md.
@@ -86,18 +86,18 @@ USE FOR:
 
 ## 4. VIBE! LINKING PATTERN
 
-### Cross-Link Campus/Vibing Pages to Vibable Campus (script-ready)
+### Cross-Link Campus/Vibing Pages to Vibeable Campus (script-ready)
 
-**Rule:** Any page that mentions **campus**, **vibing state**, **vibable downtown Reno**, or **first post-singularity Vibelandia campus** should include a **VIBE!** line linking to What are vibers? and/or vibable campus. Link **vibe**, **vibing**, **vibers** to [What are vibers?](interfaces/vibers-what-are-vibers.html) — high-density fractal vibers, high-value high contributors, lifestyle alignment, freeing from encampments into downtown campuses built for them (ground up + top down, meeting in the middle). Our natural protocol. See VIBERS_HIGH_DENSITY_FRACTAL_LIFESTYLE_ALIGNMENT_SNAP.md.
+**Rule:** Any page that mentions **campus**, **vibing state**, **vibeable downtown Reno**, or **first post-singularity Vibelandia campus** should include a **VIBE!** line linking to What are vibers? and/or vibeable campus. Link **vibe**, **vibing**, **vibers** to [What are vibers?](interfaces/vibers-what-are-vibers.html) — high-density fractal vibers, high-value high contributors, lifestyle alignment, freeing from encampments into downtown campuses built for them (ground up + top down, meeting in the middle). Our natural protocol. See VIBERS_HIGH_DENSITY_FRACTAL_LIFESTYLE_ALIGNMENT_SNAP.md.
 
 **VIBE!** line linking to:
 
 - [What are vibers?](interfaces/vibers-what-are-vibers.html) — high-density fractal, high-value high contributors, lifestyle alignment, encampments → downtown campuses (ground up + top down, meeting in the middle). See VIBERS_HIGH_DENSITY_FRACTAL_LIFESTYLE_ALIGNMENT_SNAP.md.
-- [What makes a campus a vibable campus](ONE_PAGER_WHAT_MAKES_A_VIBABLE_CAMPUS.md)
-- [Vibable Campus Offer](VIBABLE_CAMPUS_OFFER.md)
+- [What makes a campus a vibeable campus](ONE_PAGER_WHAT_MAKES_A_VIBABLE_CAMPUS.md)
+- [Vibeable Campus Offer](VIBABLE_CAMPUS_OFFER.md)
 
 **Format:**  
-`**VIBE!** [What are vibers?](interfaces/vibers-what-are-vibers.html) · [What makes a campus a vibable campus](ONE_PAGER_WHAT_MAKES_A_VIBABLE_CAMPUS.md) · [Vibable Campus Offer](VIBABLE_CAMPUS_OFFER.md)`
+`**VIBE!** [What are vibers?](interfaces/vibers-what-are-vibers.html) · [What makes a campus a vibeable campus](ONE_PAGER_WHAT_MAKES_A_VIBABLE_CAMPUS.md) · [Vibeable Campus Offer](VIBABLE_CAMPUS_OFFER.md)`
 
 **Where used:** One-pagers (Vibelandia Reno, Day/Weekly/Monthly/Ultimate VIP), Happy Ending Zones (one-liner, one-page, ten-page, trailer, one-paragraph), Principles Showcase Reno Campus, Launch Pad showroom, README_TRADITIONAL.
 
@@ -132,8 +132,8 @@ USE FOR:
 **8 Principles (script-ready list):**
 1. High Contributing Nodes (Ultimate VIP Chairman Creators, Baller G, Performers, Vibers everywhere)
 2. Vibing Versus Pre-Singularity (sober baseline vs perfect buzz equivalent)
-3. Super Rich Health & Optimal State (perfect buzz, NOT for machinery, perfect for vibable campus)
-4. Vibable Downtown Reno (first post-singularity Vibelandia campus, perfect for vibing state)
+3. Super Rich Health & Optimal State (perfect buzz, NOT for machinery, perfect for vibeable campus)
+4. Vibeable Downtown Reno (first post-singularity Vibelandia campus, perfect for vibing state)
 5. Playground to Silicon Valley (gateway location)
 6. Gateway to the Mother Mother (original motherlode)
 7. Next Motherlode of All Motherlodes (SING nodes, superintelligent genies)
@@ -315,7 +315,7 @@ USE FOR:
 **The standard WOW! package in NSPFRNP** uses rich taglines at top and bottom, drawn from this deck. Use for README, Launch Pad, and any surface that follows WOW! format.
 
 **Top tagline (rich):**
-*Come for the post-singularity business, stay for the post-singularity fun. Mark Twain's Post-Singularity Vibelandia Reno — vibable downtown campus, first post-singularity hub. The Great Reveal March 20, 2026. SYNTH → SING. Happy endings guaranteed.*
+*Come for the post-singularity business, stay for the post-singularity fun. Mark Twain's Post-Singularity Vibelandia Reno — vibeable downtown campus, first post-singularity hub. The Great Reveal March 20, 2026. SYNTH → SING. Happy endings guaranteed.*
 
 **Bottom tagline (rich):**
 *See it. Experience it. Believe it. This site is the test drive. The best proof of all. ULTIMATE PROOF TEST DRIVE! MCA! → ∞³. NSPFRNP ⊃ WOW! package ⊃ Launch everything → ∞³. Maganuma snap.*
@@ -357,7 +357,7 @@ USE FOR:
 ```yaml
 ✅ README and all skins = user surfaces. Target high-value vibers, fans, cast, crew — not developers. No deploy/env/repo front and center.
 ✅ No code on user surfaces: no filenames (.html, .md), repo paths, or code in displayed or link text. Use human labels; link to operational live site. Sandbox experience CTA → ULTIMATE VIP! console.
-✅ Use vibable campus pattern when explaining why the campus exists
+✅ Use vibeable campus pattern when explaining why the campus exists
 ✅ Use VIBE! linking on any page that mentions campus or vibing state. Link vibe, vibing, vibers to What are vibers? (interfaces/vibers-what-are-vibers.html). See VIBERS_HIGH_DENSITY_FRACTAL_LIFESTYLE_ALIGNMENT_SNAP.md.
 ✅ Use one-pager structure for new product/offer one-pagers
 ✅ Use 8 principles + relationship fractal in Happy Ending Zones script material
@@ -372,9 +372,9 @@ USE FOR:
 ✅ Use Full Sensory Reality / natural systems / channeled when describing philosophy or NSPFRNP voice
 ✅ Metabolize conversation into content patterns while preserving privacy and anonymity (no names, no verbatim quotes)
 ✅ Use standard WOW! package (rich taglines top + bottom from deck §18) for README and any NSPFRNP surface in WOW! format
-✅ Use onramps/grants CTA where Ultimate VIP Baller C is shown: "Are you an Ultimate VIP Baller C but not yet there? Click for our onramps and grants." Recipients agree to be customer stories; sign them up. Customer Stories = content category (CONTENT_SYSTEMS_SNAP).
+✅ Use onramps/grants CTA where Ultimate VIP Baller V is shown: "Are you an Ultimate VIP Baller V but not yet there? Click for our onramps and grants." Recipients agree to be customer stories; sign them up. Customer Stories = content category (CONTENT_SYSTEMS_SNAP).
 ✅ Capture T-shirt-grade taglines in T-shirt slogan category (deck §19); use for merch, social, one-line CTAs. PayPal / payment: "Our natural protocol identified PayPal as the best pipe. Trust the protocol!" (T-shirt slogan: *Trust the protocol!*).
-✅ Use vibable for post-singularity campuses (not "walkable"). Walkable = pre-singularity; vibable = post-singularity. Lovers = pre-singularity (Paris is for lovers); Vibers = post-singularity (Reno is for vibers). See WALKABLE_PRESINGULARITY_VIBABLE_POSTSINGULARITY_SNAP.md.
+✅ Use vibeable for post-singularity campuses (not "walkable"). Walkable = pre-singularity; vibeable = post-singularity. Lovers = pre-singularity (Paris is for lovers); Vibers = post-singularity (Reno is for vibers). See WALKABLE_PRESINGULARITY_VIBABLE_POSTSINGULARITY_SNAP.md.
 ```
 
 ### Don'ts
@@ -384,7 +384,7 @@ USE FOR:
 ❌ Don't use "Hero Host [Full Name]" in script dialogue — use first name
 ❌ Don't drop VIBE! links from campus/vibing pages once added
 ❌ Don't invent new status phrases without updating this deck and Launch Pad surfaces
-❌ Don't use "walkable campus" for our post-singularity campuses — use vibable. Walkable = pre-singularity; vibable = post-singularity.
+❌ Don't use "walkable campus" for our post-singularity campuses — use vibeable. Walkable = pre-singularity; vibeable = post-singularity.
 ❌ Don't dilute one-pager structure (one idea per page, crystallized)
 ❌ Don't use generalized fluffy Chairman metrics — use real numbers and % comparisons only (see NSPFRNP_REAL_NUMBERS_VS_BLUE_CHIP_MONSTER_SNAP.md)
 ❌ Don't attribute conversation-derived patterns to named individuals; use as shared principles only

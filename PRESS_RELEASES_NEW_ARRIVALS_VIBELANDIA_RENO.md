@@ -222,7 +222,7 @@ Harry Houdini (Hero Host, first name only) runs the magic show series. Real magi
 | 9 | 60's not 30's (character age) | Press Release 9 |
 | 10 | Ceremonial LAUNCH button; First Magician's Act; Harry Houdini magic show series; Who's your daddy | Press Release 10 |
 | 11 | Today's episode — a new form of reality show game | Press Release 11 |
-| 12 | You can watch and step into; open for vibe business; Gold Rush proclamation (Chancellor Samuel) | Press Release 12 |
+| 12 | You can watch and step into; open for vibe business; Gold Rush proclamation (Chancellor Sam) | Press Release 12 |
 | 13 | 16 days, bathroom valet strip club Reno; now you can do it in minutes with SING! nAtural fRactal aGents at Hero Harry's Great Reveal March 20, 2026 | Press Release 13 |
 | 14 | MAKE YOUR RESERVATIONS NOW; bigger than Burning Man and Art Basel Miami combined; spread the word to the fellow vibers | Press Release 14 |
 | 15 | Golden Backstage Awareness Pass — new product class; RUMOR: Chairman, Sammy and the gang already in town, visible to pass holders | Press Release 15 |
@@ -299,9 +299,9 @@ Hero Harry (Hero Host Harry Houdini) hosts The Great Reveal Equinox Event. The r
 
 ### YOU CAN WATCH AND EVEN STEP INTO — WE ARE OPEN FOR POST-SINGULARITY VIBE BUSINESS IMMEDIATELY IN RENO; CHANCELLOR SAMUEL PROCLAIMS GOLD RUSH
 
-**RENO, NEVADA — January 29, 2026** — **You can watch and even step into.** We are **open for post-singularity vibe business immediately in Reno.** **"Let the Post-Singularity Vibelandia Reno Gold Rush begin,"** proclaims **Chancellor Samuel.**
+**RENO, NEVADA — January 29, 2026** — **You can watch and even step into.** We are **open for post-singularity vibe business immediately in Reno.** **"Let the Post-Singularity Vibelandia Reno Gold Rush begin,"** proclaims **Chancellor Sam.**
 
-Viewers can watch Happy Ending Zones (a new form of reality show game) and **step into** — participate, enter, join: campus, WINK!, SING! Lottery, Chairman Console, checkout. Post-singularity vibe business is open now in Reno. Chancellor Samuel (Mark Twain) proclaims the Post-Singularity Vibelandia Reno Gold Rush — the rush is on; Reno is the epicenter; first post-singularity hub. See GOLD_RUSH_CHANCELLOR_SAMUEL_SNAP.md. Launch Pad, index, and Chancellor daily bulletin updated.
+Viewers can watch Happy Ending Zones (a new form of reality show game) and **step into** — participate, enter, join: campus, WINK!, SING! Lottery, Chairman Console, checkout. Post-singularity vibe business is open now in Reno. Chancellor Sam (Mark Twain) proclaims the Post-Singularity Vibelandia Reno Gold Rush — the rush is on; Reno is the epicenter; first post-singularity hub. See GOLD_RUSH_CHANCELLOR_SAMUEL_SNAP.md.md. Launch Pad, index, and Chancellor daily bulletin updated.
 
 ---
 
@@ -317,7 +317,7 @@ Viewers can watch Happy Ending Zones (a new form of reality show game) and **ste
 
 ### HAPPY ENDING ZONES — TODAY'S EPISODE (DAY 50) IS A NEW FORM OF REALITY SHOW GAME
 
-**RENO, NEVADA — January 29, 2026** — **Today's episode** of Happy Ending Zones (Episode 03 — Day 50: Who's Your Daddy) is framed as **a new form of reality show game.** Happy Ending Zones — Season One, 52 daily episodes + 1 Finale — is not just a reality series or documentary series; it is **a new form of reality show game**, combining reality show (daily episodes, Chancellor Mark Twain, vibable campus, transformation) with **game** (countdown, SYNTH lottery, winners, ceremonial LAUNCH, First Magician's Act, Harry Houdini magic show, WINK! tie, Who's your daddy).
+**RENO, NEVADA — January 29, 2026** — **Today's episode** of Happy Ending Zones (Episode 03 — Day 50: Who's Your Daddy) is framed as **a new form of reality show game.** Happy Ending Zones — Season One, 52 daily episodes + 1 Finale — is not just a reality series or documentary series; it is **a new form of reality show game**, combining reality show (daily episodes, Chancellor Mark Twain, vibeable campus, transformation) with **game** (countdown, SYNTH lottery, winners, ceremonial LAUNCH, First Magician's Act, Harry Houdini magic show, WINK! tie, Who's your daddy).
 
 Viewers and players experience the transformation in real time. Today's episode: Hero Ben has arrived; Paris is for Lovers, Reno is for Vibers T-shirts; superhero and franchise level; you just vibe all day in Vibelandia paradise. Format: Daily Reality Series · **A new form of reality show game.** See NEW_FORM_REALITY_SHOW_GAME_SNAP.md · REALITY_SERIES_FORMAT.md · episodes/EPISODE_03_DAY_50_HERO_BEN_PARIS_HUNDIE.md.
 
@@ -355,7 +355,7 @@ Ben Franklin — face of the $100 bill, ambassador to France, Paris connection �
 
 ### HAPPY ENDING ZONES — EPISODE 04 (DAY 49) AIRS: BEN & THE BALLER V LIFESTYLE · NEW VIBELANDIA VIBABLE DOWNTOWN RENO CONCEPT
 
-**RENO, NEVADA — January 30, 2026** — **Episode 04 — Day 49: Ben & the Baller V Lifestyle · Vibable Downtown Reno** is today's episode of Happy Ending Zones, Season One. Chancellor Mark Twain introduces **Hero Host Ben (Ben Franklin)**, our **Baller V Ambassador**, and the **new VIBELANDIA vibable downtown Reno concept**: first post-singularity campus built for vibing state from the start—**vibable, not walkable**—high contribution density, safe free vibing, no backside. Just vibe.
+**RENO, NEVADA — January 30, 2026** — **Episode 04 — Day 49: Ben & the Baller V Lifestyle · Vibeable Downtown Reno** is today's episode of Happy Ending Zones, Season One. Chancellor Mark Twain introduces **Hero Host Ben (Ben Franklin)**, our **Baller V Ambassador**, and the **new VIBELANDIA vibeable downtown Reno concept**: first post-singularity campus built for vibing state from the start—**vibeable, not walkable**—high contribution density, safe free vibing, no backside. Just vibe.
 
 Ben walks the campus with Alex and vibers: Baller V lifestyle in post-singularity Reno. We handle all the yuck pre-singularity backside; you just vibe all day in Vibelandia paradise. Reno doesn't follow—**Reno takes the lead.** 1 Ben = $100. Paris is for lovers. Reno is for vibers. Who's your daddy. I gotcha.
 

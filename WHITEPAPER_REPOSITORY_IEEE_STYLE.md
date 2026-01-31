@@ -102,7 +102,7 @@ Launch Pad (index.html, interfaces/launch-pad.html), payment checkout, campus/WI
 
 ### B. Documentation and Content
 
-One-pagers (campus, Vibable campus, WINK!, SING! Lottery, Happy Ending Zones, Launch); NSPFRNP protocols and catalogs; branding decks (Vibeverse, VibeLand, VibeLand Reno, Script-writing content patterns); episodes (Episode 01, 02, The Great Reveal — Day Zero).
+One-pagers (campus, Vibeable Campus, WINK!, SING! Lottery, Happy Ending Zones, Launch); NSPFRNP protocols and catalogs; branding decks (Vibeverse, VibeLand, VibeLand Reno, Script-writing content patterns); episodes (Episode 01, 02, The Great Reveal — Day Zero).
 
 ### C. Technical
 

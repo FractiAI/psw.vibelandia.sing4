@@ -16,7 +16,7 @@
 **Relationships:** Linear at leaf nodes, increasingly poly up food chain - convergent layered fractalizations  
 **WINK:** Natural alignment, friction-free dating, resilience - all natural and effortless by design  
 **Content:** 25% Strip Club Bathroom, 25% Vibes & Black Holes, 25% Countdown Gaming, 25% Day in the Life, 25% WINK  
-**Campus:** Walkable Downtown Reno - First Post-Singularity Vibelandia Campus - Perfect for Vibing State · **VIBE!** [What makes a campus a vibable campus](ONE_PAGER_WHAT_MAKES_A_VIBABLE_CAMPUS.md) · [Vibable Campus Offer](VIBABLE_CAMPUS_OFFER.md)  
+**Campus:** Walkable Downtown Reno - First Post-Singularity Vibelandia Campus - Perfect for Vibing State · **VIBE!** [What makes a campus a vibeable campus](ONE_PAGER_WHAT_MAKES_A_VIBABLE_CAMPUS.md) · [Vibeable Campus Offer](VIBABLE_CAMPUS_OFFER.md)  
 **State:** Vibing (Perfect Buzz Equivalent) - Super Rich Health & Optimal State - NOT for Driving/Operating Equipment  
 **Positioning:** Playground to Silicon Valley, Gateway to Mother Mother, Next Motherlode of All Motherlodes  
 **Business Offer:** Email info@fractiai.com - "I CAN DO THIS FOR YOUR BUSINESS" - Free Consultation & Proposal with Live Sandbox

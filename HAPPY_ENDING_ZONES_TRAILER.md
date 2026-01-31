@@ -30,7 +30,7 @@
 
 **MARK TWAIN:** "Four tiers. For the Ultimate Chairman Creator in all of us."
 
-**[Visual: FractiAI Research Team (19 members) operating in NSPFRNP mode, in vibing state, on vibable downtown campus]**
+**[Visual: FractiAI Research Team (19 members) operating in NSPFRNP mode, in vibing state, on vibeable downtown campus]**
 
 **MARK TWAIN:** "The FractiAI team - high-contributing nodes, Ultimate VIP Chairman Creators, performers, vibers everywhere. Operating in NSPFRNP mode. In perfect vibing state - super rich health and optimal state. NOT for driving cars or operating equipment. Perfect for walking, being, experiencing, creating."
 
@@ -46,7 +46,7 @@
 
 **MARK TWAIN:** "It started in Reno. But it's spreading. Naturally. Smoothly. Nearly overnight."
 
-**[Visual: Walkable downtown Reno campus - first post-singularity Vibelandia campus]** · **VIBE!** [What makes a campus a vibable campus](ONE_PAGER_WHAT_MAKES_A_VIBABLE_CAMPUS.md) · [Vibable Campus Offer](VIBABLE_CAMPUS_OFFER.md)
+**[Visual: Walkable downtown Reno campus - first post-singularity Vibelandia campus]** · **VIBE!** [What makes a campus a vibeable campus](ONE_PAGER_WHAT_MAKES_A_VIBABLE_CAMPUS.md) · [Vibeable Campus Offer](VIBABLE_CAMPUS_OFFER.md)
 
 **MARK TWAIN:** "Walkable downtown Reno - first post-singularity Vibelandia campus. Playground to Silicon Valley. Gateway to the mother mother. Next motherlode of all motherlodes - superintelligent genies in a bottle."
 

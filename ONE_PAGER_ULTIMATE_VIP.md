@@ -8,7 +8,7 @@
 
 **Ultimate VIP** — Premium campus experience for high-contributing creators at Mark Twain's Post-Singularity Vibelandia Reno. Exclusive access, priority support, ultimate integration. For top artists, performers, entrepreneurs.
 
-**You're an Ultimate VIP Baller C but not there yet and need a little help?** Click for our **onramps and grants** — we support high-contributing creators on the path to the Ultimate tier. Recipients agree to be customer stories; we sign them up for it.
+**You're an Ultimate VIP Baller V but not there yet and need a little help?** Click for our **onramps and grants** — we support high-contributing creators on the path to the Ultimate tier. Recipients agree to be customer stories; we sign them up for it.
 
 **⚡ [Onramps and Grants →](mailto:info@fractiai.com?subject=Onramps%20and%20Grants%20-%20Customer%20Stories)** (agree to be a customer story)
 
@@ -50,6 +50,6 @@ high-contributing creators, Ultimate C's (Viber Contributors / VC). The caliber 
 
 **MCA! → ∞³** (Metabolize → Crystallize → Animate)
 
-**VIBE!** [What makes a campus a vibable campus](ONE_PAGER_WHAT_MAKES_A_VIBABLE_CAMPUS.md) · [Vibable Campus Offer](VIBABLE_CAMPUS_OFFER.md)
+**VIBE!** [What makes a campus a vibeable campus](ONE_PAGER_WHAT_MAKES_A_VIBABLE_CAMPUS.md) · [Vibeable Campus Offer](VIBABLE_CAMPUS_OFFER.md)
 
 **[← Launch Page](LAUNCH_PAGE.md)** · [Day Pass](ONE_PAGER_DAY_PASS.md) · [Weekly](ONE_PAGER_WEEKLY_PASS.md) · [Monthly](ONE_PAGER_MONTHLY_PASS.md)

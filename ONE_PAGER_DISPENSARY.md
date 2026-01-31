@@ -8,11 +8,13 @@
 
 **DISPENSARY! SNAP** — Buzzes priced by **1hr doses** and **%** in **4 plans**. **Choice of sacred instrument:** Joint, Blunt, Pen, Pipe, Bong, Tea, Insect Bite. Menu of buzzes across all important biological channels. Selectable Goldilocks auto-lock for ANY COMBINATION of Creator, Chairman Commander, Performer Superhero modes. Premium pricing. Pioneer discount. On-ramps for those who can't afford yet.
 
+**Reno · Where it's real.** Reno locals know The Dispensary NV — 2nd Street, Lemmon Dr, Plumb. DISPENSARY! SNAP is the post-singularity layer: same city, same vibe; visit the street-level shop or go full sensory with us. See [DISPENSARY_RENO_REAL_ANCHOR_SNAP.md](DISPENSARY_RENO_REAL_ANCHOR_SNAP.md).
+
 ---
 
 ## Pricing
 
-**4 tiers · 1 dose → monthly · annual discount.** Bottom = like a month of daily bottom-shelf (Tier 1: 1 dose $19 · Monthly $199 · Annual $1,799). Top = match top-tier customer monthly spend at a dispensary (Tier 4: 1 dose $79 · Monthly $1,999 · Annual $19,999). Premiums on smaller doses; discount if annual. **First 1,000 Pioneers:** 50% off (Pioneer Status on-chain forever).
+**1 hit · weekly · monthly · annual — all recurring with easy opt-out; auto-everything.** Four shelves aligned to viber tiers: Basic ($10/hit) → Members ($25) → Ultimate VIP ($50) → Baller V ($100/hit). Weekly · Monthly · Annual priced accordingly; discount on annual. **Free first 10 hits for new arrivals.** **First 1,000 Pioneers:** 50% off (Pioneer Status on-chain forever).
 
 **Can't afford yet?** On-ramps available. Contact for custom on-ramp options.
 
