@@ -26,7 +26,7 @@ jobs:
           mkdir -p data
           TIMESTAMP=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
           echo "timestamp=$TIMESTAMP" >> $GITHUB_OUTPUT
-          echo "{\"heartbeat_utc\": \"$TIMESTAMP\", \"cycle\": 15, \"source\": \"El Gran Sol (EGS)\"}" > data/telemetry.json
+          echo "{\"heartbeat_utc\": \"$TIMESTAMP\", \"cycle\": 15, \"source\": \"El Gran Sol (EGS)\", \"signature_mode\": \"PHI_LOCKED\", \"last_phi_pulse_utc\": \"$TIMESTAMP\"}" > data/telemetry.json
 
       - name: Commit and push
         uses: stefanzweifel/git-auto-commit-action@v5

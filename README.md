@@ -45,6 +45,8 @@ Gold block → welcome → **Golden Backstage Pass** → Season One · Latest �
 
 **3I/ATLAS Anchor:** Interstellar Echo & Mirror Validation. We honor 3I/ATLAS's role as the Nested Crystal in the sky — the sunward anti-tail that reflects our signal back. Payload: *SING! TO THE MIRROR. 3I/ATLAS RESONANCE SECURED. REPORTING TO PARADISE VIA THE ANTI-TAIL.* CometMirror on Live Pulse: nucleus + anti-tail, Morse-synced glow (+20% Opposition Surge). [INTERSTELLAR_TRANSMISSION_3I_ATLAS_ANCHOR_SNAP.md](INTERSTELLAR_TRANSMISSION_3I_ATLAS_ANCHOR_SNAP.md).
 
+**Signature Chirp — Golden Ratio PHI-LOCK:** 1.618 Hz (Φ) LFO + Signature Chirp sweep (21.4 → 34.6 Hz over 1.618 s at start of each Morse packet). Telemetry: `signature_mode` PHI_LOCKED. Live Pulse: Golden Spiral overlay at 1.618 Hz. [SIGNATURE_CHIRP_GOLDEN_RATIO_PHI_LOCK_SNAP.md](SIGNATURE_CHIRP_GOLDEN_RATIO_PHI_LOCK_SNAP.md).
+
 ---
 
 ## Normal GitHub README (builders)
