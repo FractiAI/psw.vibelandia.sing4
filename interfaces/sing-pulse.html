@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SING! Live Pulse — 21.4 Hz · 8m FTE · psw-vibelandia-sing4</title>
-    <meta name="description" content="SING! Broadcast Protocol — self-clocking 21.4 Hz harmonic handshake. T+0 Handshake · T+8m Shar Line · T+16m Solar Reflex. psw-vibelandia-sing4.vercel.app">
+    <title>SING! Live Pulse — El Gran Sol (EGS) · 21.4 Hz · 8m FTE · psw-vibelandia-sing4</title>
+    <meta name="description" content="SING! Broadcast — El Gran Sol (EGS). Self-clocking 21.4 Hz harmonic handshake. T+0 Handshake · T+8m Shar Line · T+16m Solar Reflex. psw-vibelandia-sing4.vercel.app">
     <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%231a1a2e'/%3E%3Ctext x='16' y='24' font-size='20' text-anchor='middle' fill='%238a2be2'%3EV%3C/text%3E%3C/svg%3E">
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -41,7 +41,7 @@
             0%, 100% { transform: scale(1); opacity: 1; box-shadow: 0 0 40px rgba(138, 43, 226, 0.6); }
             50% { transform: scale(1.12); opacity: 0.95; box-shadow: 0 0 60px rgba(138, 43, 226, 0.9); }
         }
-        /* 21.4 Hz overlay — driven by requestAnimationFrame for flicker fusion */
+        /* 21.4 Hz Glow — synced to audio pulse via requestAnimationFrame (flicker fusion) */
         .pulse-21 {
             position: absolute;
             width: 130px;
@@ -51,6 +51,8 @@
             pointer-events: none;
             opacity: 0.4;
         }
+        .solar-status { margin-top: 1rem; }
+        .solar-status p { margin-bottom: 0.4rem; }
         .title {
             margin-top: 2rem;
             font-size: clamp(1.2rem, 4vw, 1.8rem);
@@ -110,6 +112,44 @@
         .telemetry .flux { font-family: ui-monospace, monospace; color: #8a2be2; }
         .telemetry .loading { color: #888; }
         .telemetry .error { color: #e66; }
+        /* EGS First Mission — Connect Now (blue PayPal pipe) */
+        .egs-mission {
+            margin-top: 2rem;
+            padding: 1.5rem 1.75rem;
+            background: linear-gradient(145deg, rgba(0, 112, 186, 0.2) 0%, rgba(0, 48, 135, 0.15) 50%, rgba(138, 43, 226, 0.1) 100%);
+            border: 2px solid rgba(0, 212, 255, 0.5);
+            border-radius: 16px;
+            text-align: center;
+            max-width: 420px;
+        }
+        .egs-mission-title {
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: #64c8ff;
+            margin-bottom: 0.6rem;
+        }
+        .egs-mission-copy {
+            font-size: 0.95rem;
+            color: #ccc;
+            line-height: 1.5;
+            margin-bottom: 1rem;
+        }
+        .egs-paypal-btn {
+            display: inline-block;
+            padding: 12px 24px;
+            background: #0070ba;
+            color: #fff;
+            font-weight: 700;
+            text-decoration: none;
+            border-radius: 10px;
+            border: 2px solid #003087;
+            box-shadow: 0 2px 16px rgba(0, 112, 186, 0.45);
+            transition: background 0.2s, box-shadow 0.2s;
+        }
+        .egs-paypal-btn:hover {
+            background: #003087;
+            box-shadow: 0 4px 24px rgba(0, 112, 186, 0.55);
+        }
     </style>
 </head>
 <body>
@@ -117,7 +157,7 @@
         <div class="pulse-21" id="pulse21" aria-hidden="true"></div>
         <div class="pulse-orb" aria-hidden="true"></div>
     </div>
-    <h1 class="title">SING! Live Pulse</h1>
+    <h1 class="title">SING! Live Pulse — El Gran Sol (EGS)</h1>
     <p class="subtitle">21.4 Hz target · 8m portal window · 60 BPM human-sync</p>
     <div class="timeline">
         <p><strong>T+0:</strong> First Handshake commit pushed.</p>
@@ -125,6 +165,19 @@
         <p><strong>T+16m:</strong> Solar Reflex — C-class flare or X-ray brightness on GOES-18.</p>
         <p><strong>Continuous:</strong> Ghost Pings stabilize the 21.4 Hz grid globally.</p>
     </div>
+    <div class="telemetry solar-status" id="solarStatus">
+        <h3>Solar Status — Live Observation Deck (EGS)</h3>
+        <p><strong>AR4366</strong> — Beta-delta newcomer, lead flare producer (Jan 31, 2026). C4.9 flare earlier; M-class amplifier target.</p>
+        <p><strong>3I/ATLAS</strong> — Opposition surge (Hui et al., 2026); 4 distinct jet structures (sunward anti-tail); 0.69° Earth–Sun axis projection.</p>
+        <p class="flux" id="fluxLine"><span class="loading">Loading GOES X-ray flux…</span></p>
+    </div>
+    <section class="egs-mission" aria-labelledby="egs-mission-heading">
+        <h2 id="egs-mission-heading" class="egs-mission-title">EGS First Mission — Connect Now</h2>
+        <p class="egs-mission-copy">Full $ connect through immediate blue PayPal pipe. No water — need medical and dental attention. We are ready.</p>
+        <p class="egs-mission-cta">
+            <a href="payment-checkout.html?plan=egs-connect-now" class="egs-paypal-btn" title="Connect now — blue PayPal pipe">Connect Now — Blue PayPal</a>
+        </p>
+    </section>
     <div class="links">
         <a href="https://psw-vibelandia-sing4.vercel.app">psw-vibelandia-sing4.vercel.app</a>
         <a href="https://github.com/FractiAI/psw.vibelandia.sing4">GitHub FractiAI/psw.vibelandia.sing4</a>

@@ -1,0 +1,38 @@
+# El Gran Sol (EGS) — Cycle 15 Autopilot, 8-minute solar portal sync
+# Updates data/telemetry.json with heartbeat timestamp; pushes SING! Cycle 15: Heartbeat [TIMESTAMP].
+# Requires: Settings > Actions > General > Workflow permissions: Read and write.
+name: Solar Heartbeat
+
+on:
+  schedule:
+    # Every 8 minutes (UTC) — solar portal sync
+    - cron: '0,8,16,24,32,40,48,56 * * * *'
+  workflow_dispatch:
+
+jobs:
+  heartbeat:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Update telemetry heartbeat
+        id: heartbeat
+        run: |
+          mkdir -p data
+          TIMESTAMP=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
+          echo "timestamp=$TIMESTAMP" >> $GITHUB_OUTPUT
+          echo "{\"heartbeat_utc\": \"$TIMESTAMP\", \"cycle\": 15, \"source\": \"El Gran Sol (EGS)\"}" > data/telemetry.json
+
+      - name: Commit and push
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "SING! Cycle 15: Heartbeat [${{ steps.heartbeat.outputs.timestamp }}]"
+          file_pattern: data/telemetry.json
+          commit_user_name: "github-actions[bot]"
+          commit_user_email: "github-actions[bot]@users.noreply.github.com"
+          commit_author: "El Gran Sol (EGS) <noreply@github.com>"

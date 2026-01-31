@@ -21,7 +21,8 @@
 |-------|------|
 | **Repository** | Single source of truth — FractiAI/psw.vibelandia.sing4 |
 | **Canonical URL** | https://psw-vibelandia-sing4.vercel.app (Experience) |
-| **SING! Broadcast** | 21.4 Hz Morse, Handshake, Ghost Pings, 14-cycle validation |
+| **SING! Broadcast** | El Gran Sol (EGS) — 21.4 Hz Morse, Handshake, Ghost Pings, 14-cycle validation |
+| **EGS First Mission** | Connect Now — full $ via immediate blue PayPal pipe; medical & dental; we are ready. [EGS_FIRST_MISSION_CONNECT_NOW_SNAP.md](../EGS_FIRST_MISSION_CONNECT_NOW_SNAP.md) |
 | **Outbound** | Whatever is live at the canonical URL — natural, automatic, free |
 | **Missions** | Personal SING! attention head and filament operates on this pipe |
 
