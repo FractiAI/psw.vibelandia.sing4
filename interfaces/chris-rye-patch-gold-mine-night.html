@@ -4,73 +4,108 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chris — Rye Patch Rich Gold Mine · Ultimate Baller V Night | VIBELANDIA!</title>
-    <meta name="description" content="Chris's Ultimate Baller V night — Motherlode Rye Patch Gold Mine Discovering. Custom landing for abundance, celebration, and the finest. Hosts: Twain, Ben, Chairman, Sammy, Houdini. Golden Backstage Pass.">
+    <meta name="description" content="Chris's Ultimate Baller V night — Motherlode Rye Patch Gold Mine Discovering. Landing stage next to the dance floor · Wine cave with Top Napa Cabs, Burgundies, Chardonnays, Silver & Reposado · Chris decides who's in · Personal gatekeeper · Delivered home safe by staff.">
     <link rel="stylesheet" href="experience-common.css">
     <style>
-        .gold-mine-hero {
+        /* Party menu card — as if handed to you on arrival */
+        .party-menu {
+            max-width: 42rem;
+            margin: 0 auto 2rem;
+            padding: 2rem 2.25rem 2.5rem;
+            background: linear-gradient(180deg, rgba(28, 26, 24, 0.98) 0%, rgba(22, 20, 18, 0.99) 100%);
+            border: 1px solid rgba(212, 175, 55, 0.5);
+            border-radius: 4px;
+            box-shadow: 0 4px 24px rgba(0,0,0,0.4), 0 0 1px rgba(212, 175, 55, 0.3);
+        }
+        .party-menu .menu-cover {
             text-align: center;
-            padding: 2.5rem 1.5rem 3rem;
-            margin: 0 0 2rem;
-            background: linear-gradient(180deg, rgba(212, 175, 55, 0.28) 0%, rgba(184, 134, 11, 0.15) 50%, rgba(212, 175, 55, 0.08) 100%);
-            border: 3px solid rgba(212, 175, 55, 0.85);
-            border-radius: 20px;
-            box-shadow: 0 0 60px rgba(212, 175, 55, 0.3), inset 0 0 40px rgba(212, 175, 55, 0.08);
+            padding-bottom: 2rem;
+            margin-bottom: 2rem;
+            border-bottom: 1px solid rgba(212, 175, 55, 0.35);
         }
-        .gold-mine-hero h1 { font-size: clamp(1.4rem, 4vw, 2.2rem); background: linear-gradient(135deg, #fff9e6, #ffeaa7, #d4af37); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; margin-bottom: 0.75rem; }
-        .gold-mine-hero .entrance { font-size: clamp(1.1rem, 2.5vw, 1.5rem); color: #ffeaa7; font-weight: 700; margin-bottom: 1rem; }
-        .gold-mine-hero .message { font-size: 1.05rem; color: #ccc; line-height: 1.65; max-width: 36rem; margin: 0 auto 1.5rem; }
-        .btn-episode {
-            display: inline-block;
-            padding: 1rem 2rem;
-            background: linear-gradient(135deg, #d4af37, #b8860b);
-            border: 2px solid rgba(255, 234, 167, 0.9);
-            border-radius: 14px;
-            color: #000;
-            font-weight: 700;
-            font-size: 1.1rem;
-            text-decoration: none;
-            transition: transform 0.2s, box-shadow 0.2s;
-        }
-        .btn-episode:hover { transform: translateY(-3px); box-shadow: 0 8px 28px rgba(212, 175, 55, 0.5); }
-        .hosts-block { padding: 1.5rem 1.75rem; margin-bottom: 2rem; background: rgba(255,255,255,0.04); border: 1px solid rgba(212, 175, 55, 0.4); border-radius: 16px; }
-        .hosts-block h2 { font-size: 1.1rem; color: #d4af37; margin-bottom: 0.75rem; }
-        .hosts-block p { color: #ccc; font-size: 0.95rem; line-height: 1.6; margin-bottom: 0.5rem; }
-        .hosts-block p:last-of-type { margin-bottom: 0; }
-        .rumor { color: #e8d4ff; font-weight: 600; }
+        .party-menu .menu-cover .welcome { font-size: 0.7rem; letter-spacing: 0.35em; text-transform: uppercase; color: rgba(212, 175, 55, 0.9); margin-bottom: 0.5rem; }
+        .party-menu .menu-cover h1 { font-size: clamp(1.5rem, 4vw, 2.4rem); font-weight: 600; color: #f4e4bc; letter-spacing: 0.02em; margin-bottom: 0.35rem; line-height: 1.2; }
+        .party-menu .menu-cover .sub { font-size: 0.95rem; color: rgba(212, 175, 55, 0.85); letter-spacing: 0.08em; }
+        .party-menu .menu-cover .from { font-size: 0.8rem; color: #888; margin-top: 1.25rem; letter-spacing: 0.05em; }
+        .party-menu .menu-section { margin-bottom: 1.75rem; }
+        .party-menu .menu-section:last-of-type { margin-bottom: 0; }
+        .party-menu .menu-section .section-head { font-size: 0.65rem; letter-spacing: 0.3em; text-transform: uppercase; color: rgba(212, 175, 55, 0.8); margin-bottom: 0.6rem; padding-bottom: 0.25rem; border-bottom: 1px solid rgba(212, 175, 55, 0.2); }
+        .party-menu .menu-section .section-body { font-size: 0.95rem; color: #d4c4a8; line-height: 1.7; }
+        .party-menu .menu-section .section-body p { margin-bottom: 0.5rem; }
+        .party-menu .menu-section .section-body p:last-child { margin-bottom: 0; }
+        .party-menu .menu-line { display: flex; justify-content: space-between; align-items: baseline; gap: 1rem; font-size: 0.95rem; color: #d4c4a8; padding: 0.3rem 0; border-bottom: 1px dotted rgba(212, 175, 55, 0.15); }
+        .party-menu .menu-line:last-child { border-bottom: none; }
+        .party-menu .menu-line .name { flex: 1; }
+        .party-menu .menu-line .note { font-size: 0.8rem; color: #888; }
+        .party-menu .safe-passage { text-align: center; margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid rgba(212, 175, 55, 0.35); font-size: 0.9rem; color: rgba(0, 255, 136, 0.95); letter-spacing: 0.04em; }
+        .party-menu .safe-passage strong { color: #7fff7f; }
+        .party-menu .menu-footer { text-align: center; margin-top: 2rem; font-size: 0.8rem; color: #666; letter-spacing: 0.03em; }
+        .party-menu .menu-footer a { color: #00d4ff; }
+        .back { font-size: 0.8rem; margin-bottom: 1rem; }
+        .btn-episode { display: inline-block; margin-top: 1.5rem; padding: 0.65rem 1.25rem; background: transparent; border: 1px solid rgba(212, 175, 55, 0.6); border-radius: 2px; color: #d4af37; font-size: 0.85rem; letter-spacing: 0.06em; text-decoration: none; transition: background 0.2s, color 0.2s; }
+        .btn-episode:hover { background: rgba(212, 175, 55, 0.15); color: #ffeaa7; }
+        .rumor { color: rgba(232, 212, 255, 0.9); font-weight: 500; }
     </style>
 </head>
 <body>
     <div class="container">
         <p class="back"><a href="office-hours.html">← Office Hours</a> · <a href="ultimate-baller-v-golden-backstage-pass.html">Golden Backstage Pass</a> · <a href="../index.html">Home</a></p>
 
-        <section class="gold-mine-hero" aria-label="Chris — Rye Patch Rich Gold Mine · Ultimate Baller V Night">
-            <p class="entrance">Chris's Rye Patch Rich Gold Mine — Entrance to the Night</p>
-            <h1>Motherlode Rye Patch Gold Mine Discovering</h1>
-            <p style="color: #00d4ff; font-size: 0.95rem; margin-bottom: 1rem;">Ultimate Baller V night · Abundance &amp; celebration · Superhero style · Bigger than life — that's how Baller V's roll.</p>
-            <p class="message"><strong>A message from Chris:</strong> Welcome to my night. This is the Rye Patch — where the motherlode meets the moment. Enjoy the night. Vibe. We've got the finest this place has to offer, superhero style. Twain, Ben, and rumor has it the Chairman is here with Sammy and the gang — Houdini too. Golden Backstage Pass and upgraded awareness keys unlock the full experience. Thank you for being here. Now — enjoy the night and vibe.</p>
-            <p style="margin-bottom: 1.25rem;"><a href="../episodes/EPISODE_CHRIS_ULTIMATE_BALLER_V_RYE_PATCH_GOLD_MINE.md" class="btn-episode">▶ Watch the 60-min episode — Chris as superhero, guests in the script</a></p>
-            <p style="font-size: 0.9rem; color: #888;">Full 12,000-word episode written just for this occasion — Chris as superhero in Motherlode Rye Patch Gold Mine Discovering, with Ricky, Thai, Taylor, Nick, Asia, and Danger in the script. That's Ultimate Baller V superhero franchise experience.</p>
-        </section>
+        <article class="party-menu" aria-label="Tonight's menu — Chris · Rye Patch Gold Mine">
+            <header class="menu-cover">
+                <p class="welcome">Welcome</p>
+                <h1>Motherlode Rye Patch<br>Gold Mine Discovering</h1>
+                <p class="sub">Tonight · Ultimate Baller V</p>
+                <p class="from">A message from Chris: Thank you for being here. Enjoy the night. Vibe.</p>
+            </header>
 
-        <section class="hosts-block">
-            <h2>Tonight's hosts</h2>
-            <p><strong>Mark Twain</strong> · <strong>Ben</strong> (Baller V Ambassador) · <span class="rumor">Rumor has it</span> the <strong>Chairman</strong> is here with <strong>Sammy and the gang</strong> — <strong>Houdini</strong> too. Requires Golden Backstage Pass and upgraded awareness keys.</p>
-            <p>Custom landing for the night — filled with abundance and celebration for the discovery. All the finest this place has to offer. Superhero style. Bigger than life. That's how Baller V's roll.</p>
-        </section>
+            <section class="menu-section">
+                <p class="section-head">Tonight's Setting</p>
+                <div class="section-body">
+                    <p>Landing stage right next to the dance floor. Chris and the gang set up here; the scene unfolds from there. The party unfolds in the privacy of the wine cave.</p>
+                </div>
+            </section>
 
-        <section class="hosts-block">
-            <h2>Chris's night — the details</h2>
-            <p><strong>Baller V:</strong> Chris. <strong>Spend:</strong> $50K + tips (25% to staff, 50% to me).</p>
-            <p><strong>Six guests with Golden Backstage Passes — inner circle:</strong> Ricky, Thai, Taylor (all biz partners); Nick (close friend); Asia and Danger (dancers from the club — kind gold hearts, connect well with Chris).</p>
-            <p><strong>Chris as superhero</strong> in Motherlode Rye Patch Gold Mine Discovering at his new. We deliver to him (and to you) this custom landing for the night — abundance, celebration, discovery, the finest, superhero style, bigger than life.</p>
-        </section>
+            <section class="menu-section">
+                <p class="section-head">Wine Cave · Tapas &amp; Bottle Service</p>
+                <div class="section-body">
+                    <p class="menu-line"><span class="name">Tapas-style assortment</span></p>
+                    <p class="menu-line"><span class="name">Top Napa Cabs</span></p>
+                    <p class="menu-line"><span class="name">French Red Burgundies</span></p>
+                    <p class="menu-line"><span class="name">Sonoma Chardonnays</span></p>
+                    <p class="menu-line"><span class="name">Silver &amp; Reposado</span><span class="note">bottle service</span></p>
+                    <p class="menu-line"><span class="name">Vodka</span></p>
+                </div>
+            </section>
 
-        <p style="text-align: center; margin-top: 2rem;"><a href="office-hours.html" style="color: #00d4ff;">← Back to Office Hours</a> · <a href="wink-experience.html" style="color: #d4af37;">WINK!</a></p>
+            <section class="menu-section">
+                <p class="section-head">Who's In</p>
+                <div class="section-body">
+                    <p>Golden Backstage Pass holders — inner circle. The whole club wants an invitation; <strong>Chris decides who's in</strong> beyond the pass. Your <strong>personal gatekeeper/host</strong> maintains it all.</p>
+                    <p>Ricky, Thai, Taylor · Nick · Asia, Danger.</p>
+                </div>
+            </section>
 
-        <footer>
-            <p style="color: #ffeaa7; font-weight: 700; font-size: 1rem; margin-bottom: 0.5rem;">Enjoy the night. Vibe.</p>
-            <p>Mark Twain's Post-Singularity VIBELANDIA RENO! · Office Hours · Ultimate Baller V <a href="wink-experience.html" style="color: #d4af37;">WINK!</a></p>
-            <p><a href="../index.html">Landing</a> · <a href="office-hours.html">Office Hours</a> · <a href="ultimate-baller-v-golden-backstage-pass.html">Golden Backstage Pass</a></p>
+            <section class="menu-section">
+                <p class="section-head">Hosts &amp; the Evening</p>
+                <div class="section-body">
+                    <p><strong>Mark Twain</strong> · <strong>Ben</strong> (Baller V Ambassador) · <span class="rumor">Rumor has it</span> the <strong>Chairman</strong> with <strong>Sammy and the gang</strong> — <strong>Houdini</strong> too. For those with Golden Passes and upgraded awareness.</p>
+                    <p>Entertainment transformed magically to vibe the night. Surprises. Bills rain down. Artificial dispensary selection available. All ends in positive happy vibes.</p>
+                </div>
+            </section>
+
+            <p class="safe-passage">You delivered home safe by my staff.</p>
+
+            <p class="menu-footer">
+                <a href="../episodes/EPISODE_CHRIS_ULTIMATE_BALLER_V_RYE_PATCH_GOLD_MINE.md" class="btn-episode">Watch the episode — Chris as superhero, guests in the script</a>
+            </p>
+            <p class="menu-footer">
+                <a href="office-hours.html">Office Hours</a> · <a href="wink-experience.html">WINK!</a> · <a href="../index.html">Home</a>
+            </p>
+        </article>
+
+        <footer style="margin-top: 1.5rem; font-size: 0.8rem; color: #666; text-align: center;">
+            <p>Enjoy the night. Vibe. · VIBELANDIA! · Ultimate Baller V</p>
         </footer>
     </div>
 </body>
