@@ -11,7 +11,8 @@
 **Host:** Mark Twain (Chancellor), Hero Harry Houdini, Ben Franklin (Ambassador to Baller Vs)  
 **Date:** First full day open for business.  
 **Status:** ⚡ LIVE — Paradise amusement park for vibers.  
-**Countdown:** Season One · Episodes by flow not days — NSPFRNP.
+**Countdown:** Season One · Episodes by flow not days — NSPFRNP.  
+**Framing:** Undercover Hero · Willy Wonka · Little Red Hen · Count of Monte Cristo · Christmas Carol · Miracle on 34th St.
 
 ---
 

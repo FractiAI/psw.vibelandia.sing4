@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Watch — Happy Ending Zones · Episodes | VIBELANDIA!</title>
+    <meta name="description" content="Browse and watch Happy Ending Zones episodes. Netflix-style experience — Season One, Office Hours, Flow-based, Ultimate Baller V. Full descriptions and episode details.">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        :root {
+            --bg: #141414;
+            --bg-lighter: #1f1f1f;
+            --red: #e50914;
+            --gold: #d4af37;
+            --text: #ffffff;
+            --text-muted: #b3b3b3;
+            --card-radius: 6px;
+        }
+        body {
+            font-family: 'Netflix Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            overflow-x: hidden;
+        }
+
+        /* Top bar */
+        .topbar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 56px;
+            background: linear-gradient(180deg, rgba(20,20,20,0.95) 0%, transparent 100%);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 3%;
+            z-index: 100;
+            transition: background 0.3s;
+        }
+        .topbar.scrolled { background: rgba(20,20,20,0.98); }
+        .topbar-logo {
+            font-weight: 700;
+            font-size: 1.5rem;
+            background: linear-gradient(135deg, var(--gold), #f4e4bc);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-decoration: none;
+        }
+        .topbar-nav {
+            display: flex;
+            gap: 1.5rem;
+            align-items: center;
+        }
+        .topbar-nav a {
+            color: var(--text-muted);
+            text-decoration: none;
+            font-size: 0.9rem;
+            font-weight: 500;
+            transition: color 0.2s;
+        }
+        .topbar-nav a:hover { color: var(--text); }
+        .topbar-nav .active { color: var(--text); }
+        .back-link {
+            color: var(--gold);
+            font-size: 0.85rem;
+        }
+
+        /* Hero — featured episode */
+        .hero {
+            position: relative;
+            height: 56vh;
+            min-height: 320px;
+            max-height: 500px;
+            display: flex;
+            align-items: flex-end;
+            padding: 0 3% 8% 3%;
+            margin-bottom: -80px;
+            background-size: cover;
+            background-position: center;
+        }
+        .hero-gradient {
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(0deg, var(--bg) 0%, transparent 40%, transparent 60%, rgba(20,20,20,0.6) 100%);
+            pointer-events: none;
+        }
+        .hero-content {
+            position: relative;
+            z-index: 2;
+            max-width: 520px;
+        }
+        .hero-badge {
+            display: inline-block;
+            padding: 4px 12px;
+            background: rgba(212, 175, 55, 0.25);
+            border: 1px solid rgba(212, 175, 55, 0.5);
+            border-radius: 4px;
+            font-size: 0.75rem;
+            color: var(--gold);
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            margin-bottom: 0.75rem;
+        }
+        .hero-title {
+            font-size: clamp(1.75rem, 4vw, 3rem);
+            font-weight: 700;
+            line-height: 1.15;
+            margin-bottom: 0.5rem;
+            text-shadow: 0 2px 10px rgba(0,0,0,0.8);
+        }
+        .hero-description {
+            font-size: 1rem;
+            color: var(--text-muted);
+            line-height: 1.45;
+            margin-bottom: 1.25rem;
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            text-shadow: 0 1px 4px rgba(0,0,0,0.8);
+        }
+        .hero-actions {
+            display: flex;
+            gap: 0.75rem;
+            flex-wrap: wrap;
+        }
+        .btn-play, .btn-info {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.6rem 1.5rem;
+            border-radius: 4px;
+            font-size: 0.95rem;
+            font-weight: 600;
+            cursor: pointer;
+            text-decoration: none;
+            border: none;
+            transition: transform 0.2s, opacity 0.2s;
+        }
+        .btn-play {
+            background: var(--text);
+            color: var(--bg);
+        }
+        .btn-play:hover { opacity: 0.9; transform: scale(1.02); }
+        .btn-info {
+            background: rgba(255,255,255,0.2);
+            color: var(--text);
+            border: 1px solid rgba(255,255,255,0.4);
+        }
+        .btn-info:hover { background: rgba(255,255,255,0.3); }
+
+        /* Rows */
+        .rows { padding: 0 3% 4rem; }
+        .row-title {
+            font-size: 1.25rem;
+            font-weight: 600;
+            margin-bottom: 0.75rem;
+            padding-left: 2px;
+        }
+        .row-cards {
+            display: flex;
+            gap: 8px;
+            overflow-x: auto;
+            padding: 0.5rem 0 1.5rem;
+            scroll-snap-type: x mandatory;
+            -webkit-overflow-scrolling: touch;
+        }
+        .row-cards::-webkit-scrollbar { height: 6px; }
+        .row-cards::-webkit-scrollbar-track { background: var(--bg-lighter); border-radius: 3px; }
+        .row-cards::-webkit-scrollbar-thumb { background: #444; border-radius: 3px; }
+
+        .episode-card {
+            flex: 0 0 auto;
+            width: 220px;
+            scroll-snap-align: start;
+            cursor: pointer;
+            transition: transform 0.25s ease;
+        }
+        .episode-card:hover { transform: scale(1.05); z-index: 5; }
+        .episode-card .poster {
+            aspect-ratio: 2/3;
+            border-radius: var(--card-radius);
+            background: linear-gradient(145deg, #2a2a3e 0%, #1a1a2e 50%, #16213e 100%);
+            position: relative;
+            overflow: hidden;
+            border: 1px solid rgba(255,255,255,0.08);
+        }
+        .episode-card .poster-img {
+            position: absolute;
+            inset: 0;
+            background: var(--poster-gradient, linear-gradient(145deg, #3a2a4e 0%, #2a1a3e 100%));
+        }
+        .episode-card .poster-overlay {
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(0deg, rgba(0,0,0,0.85) 0%, transparent 50%);
+            opacity: 0;
+            transition: opacity 0.25s;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            padding: 1rem;
+        }
+        .episode-card:hover .poster-overlay { opacity: 1; }
+        .episode-card .poster-title {
+            font-size: 0.95rem;
+            font-weight: 600;
+            line-height: 1.2;
+            margin-bottom: 0.35rem;
+        }
+        .episode-card .poster-desc {
+            font-size: 0.75rem;
+            color: var(--text-muted);
+            line-height: 1.35;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+        .episode-card .card-title {
+            font-size: 0.9rem;
+            font-weight: 600;
+            margin-top: 0.5rem;
+            padding: 0 2px;
+            line-height: 1.3;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+        .episode-card .card-meta {
+            font-size: 0.75rem;
+            color: var(--text-muted);
+            margin-top: 0.25rem;
+            padding: 0 2px;
+        }
+        .live-dot {
+            display: inline-block;
+            width: 6px;
+            height: 6px;
+            background: #e50914;
+            border-radius: 50%;
+            margin-right: 4px;
+            animation: pulse 2s ease-in-out infinite;
+        }
+        @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.5; } }
+
+        /* Modal */
+        .modal-overlay {
+            position: fixed;
+            inset: 0;
+            background: rgba(0,0,0,0.85);
+            z-index: 200;
+            display: none;
+            align-items: center;
+            justify-content: center;
+            padding: 2rem;
+        }
+        .modal-overlay.open { display: flex; }
+        .modal {
+            background: var(--bg-lighter);
+            border-radius: 8px;
+            max-width: 560px;
+            width: 100%;
+            max-height: 85vh;
+            overflow: hidden;
+            border: 1px solid rgba(255,255,255,0.1);
+            box-shadow: 0 20px 60px rgba(0,0,0,0.6);
+        }
+        .modal-poster {
+            height: 200px;
+            background: var(--modal-poster-bg, linear-gradient(145deg, #2a2a4e 0%, #1a1a2e 100%));
+        }
+        .modal-body {
+            padding: 1.5rem;
+            overflow-y: auto;
+            max-height: calc(85vh - 200px - 4rem);
+        }
+        .modal-title { font-size: 1.5rem; font-weight: 700; margin-bottom: 0.5rem; }
+        .modal-meta { font-size: 0.85rem; color: var(--text-muted); margin-bottom: 1rem; }
+        .modal-one-liner {
+            font-style: italic;
+            color: var(--gold);
+            font-size: 0.95rem;
+            margin-bottom: 1rem;
+            padding-left: 0.5rem;
+            border-left: 3px solid var(--gold);
+        }
+        .modal-summary { font-size: 0.9rem; color: var(--text-muted); line-height: 1.6; margin-bottom: 1.25rem; }
+        .modal-actions {
+            display: flex;
+            gap: 0.75rem;
+            flex-wrap: wrap;
+        }
+        .modal-actions .btn-play, .modal-actions .btn-info { margin: 0; }
+        .modal-close {
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            background: rgba(255,255,255,0.2);
+            border: none;
+            color: var(--text);
+            font-size: 1.25rem;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 3;
+            transition: background 0.2s;
+        }
+        .modal-close:hover { background: rgba(255,255,255,0.3); }
+        .modal .modal-poster-wrap { position: relative; }
+
+        /* List view link */
+        .list-view-cta {
+            text-align: center;
+            padding: 2rem 3%;
+            border-top: 1px solid rgba(255,255,255,0.08);
+        }
+        .list-view-cta a {
+            color: var(--gold);
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.95rem;
+        }
+        .list-view-cta a:hover { text-decoration: underline; }
+
+        /* Footer */
+        .browse-footer {
+            text-align: center;
+            padding: 2rem 3%;
+            color: var(--text-muted);
+            font-size: 0.85rem;
+        }
+        .browse-footer a { color: var(--gold); text-decoration: none; }
+    </style>
+</head>
+<body>
+    <nav class="topbar" id="topbar">
+        <a href="launch-pad.html" class="topbar-logo">VIBELANDIA!</a>
+        <div class="topbar-nav">
+            <a href="episodes-browse.html" class="active">Episodes</a>
+            <a href="office-hours.html">Office Hours</a>
+            <a href="happy-ending-zones-catalog.html" class="back-link">List view</a>
+            <a href="launch-pad.html" class="back-link">← Launch Pad</a>
+        </div>
+    </nav>
+
+    <header class="hero" id="hero">
+        <div class="hero-gradient"></div>
+        <div class="hero-content">
+            <span class="hero-badge" id="heroBadge">Today's Episode</span>
+            <h1 class="hero-title" id="heroTitle">Episode 03 — Who's Your Daddy</h1>
+            <p class="hero-description" id="heroDescription">Today's episode — Who's your daddy. Paris is for Lovers, Reno is for Vibers — T-shirts in 4, beginning at 1 Ben. Hero Ben has arrived. I gotcha. It's all hundies with Ben.</p>
+            <div class="hero-actions">
+                <a href="#" class="btn-play" id="heroPlay">▶ Read episode</a>
+                <button type="button" class="btn-info" id="heroInfo">ℹ More info</button>
+            </div>
+        </div>
+    </header>
+
+    <main class="rows" id="rows"></main>
+
+    <div class="list-view-cta">
+        <a href="happy-ending-zones-catalog.html">View full episode list (list view) →</a>
+    </div>
+
+    <footer class="browse-footer">
+        <p>Happy Ending Zones · Studio Division · Hero Host Walt · NSPFRNP</p>
+        <p><a href="launch-pad.html">Launch Pad</a> · <a href="office-hours.html">Office Hours</a></p>
+        <p class="brand-tag" style="margin-top:0.5rem;font-size:0.75rem;color:rgba(212,175,55,0.7);">Hydrogen Holograph 100% · SNAP brand</p>
+    </footer>
+
+    <div class="modal-overlay" id="modalOverlay">
+        <div class="modal">
+            <div class="modal-poster-wrap">
+                <div class="modal-poster" id="modalPoster"></div>
+                <button type="button" class="modal-close" id="modalClose" aria-label="Close">×</button>
+            </div>
+            <div class="modal-body">
+                <h2 class="modal-title" id="modalTitle"></h2>
+                <p class="modal-meta" id="modalMeta"></p>
+                <p class="modal-one-liner" id="modalOneLiner"></p>
+                <p class="modal-summary" id="modalSummary"></p>
+                <div class="modal-actions">
+                    <a href="#" class="btn-play" id="modalPlay">▶ Read episode</a>
+                    <button type="button" class="btn-info" id="modalCloseBtn">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Episode data — full descriptions for Netflix-style experience. Episodes by flow not days — NSPFRNP.
+        const EPISODES = [
+            {
+                id: 'featured',
+                row: 'featured',
+                order: 0,
+                number: 3,
+                day: 50,
+                date: 'January 29, 2026',
+                title: "Who's Your Daddy",
+                displayTitle: "Episode 03 — Day 50: Who's Your Daddy",
+                oneLiner: "Today's episode — Who's your daddy. Paris is for Lovers, Reno is for Vibers — T-shirts in 4, beginning at 1 Ben. Hero Ben has arrived. I gotcha.",
+                summary: "Mark Twain announces the rollout: Paris is for Lovers, Reno is for Vibers T-shirts — offer in 4, beginning at 1 Ben ($100). Hero Ben has arrived; direct tie into the ladies into high value high contributors — WINK! Who's your daddy. Superhero and franchise level: we roll them out for your fans, cast and crew. You just vibe all day in Vibelandia paradise.",
+                file: '../episodes/EPISODE_03_DAY_50_HERO_BEN_PARIS_HUNDIE.md',
+                isLive: true,
+                posterGradient: 'linear-gradient(145deg, #3a2a5e 0%, #2a1a4e 50%, #1a1a2e 100%)'
+            },
+            {
+                row: 'season-one',
+                order: 1,
+                number: 1,
+                day: 52,
+                date: 'January 27, 2026',
+                title: 'Season One Launch',
+                displayTitle: 'Episode 01 — Day 52: Season One Launch',
+                oneLiner: 'In Reno, where the old world meets the new, Mark Twain watches as worthless SYNTH tokens become the key to a post-singularity happy ending.',
+                summary: 'Mark Twain launches Season One as Chancellor of the Vibelandia Reno Campus. The FractiAI Research Team operates in NSPFRNP mode. Alex purchases their first SYNTH token for $5, beginning the countdown to The Great Reveal.',
+                file: '../episodes/EPISODE_01_DAY_52_SEASON_ONE_LAUNCH.md',
+                isLive: false,
+                posterGradient: 'linear-gradient(145deg, #2a3a4e 0%, #1a2a3e 100%)'
+            },
+            {
+                row: 'season-one',
+                order: 2,
+                number: 2,
+                day: 51,
+                date: 'January 28, 2026',
+                title: 'The Worthless Token',
+                displayTitle: 'Episode 02 — Day 51: The Worthless Token',
+                oneLiner: "Alex discovers their $5 SYNTH token is worthless—but Mark Twain reveals that's exactly the point of the happy ending.",
+                summary: "Alex questions their $5 SYNTH token when a friend calls it Monopoly money. Mark Twain explains: Worthless today, priceless tomorrow. Visual sequence of vibes and black holes showing SYNTH to SING transformation.",
+                file: '../episodes/EPISODE_02_DAY_51_THE_WORTHLESS_TOKEN.md',
+                isLive: false,
+                posterGradient: 'linear-gradient(145deg, #2a4a4e 0%, #1a3a3e 100%)'
+            },
+            {
+                row: 'season-one',
+                order: 3,
+                number: 3,
+                day: 50,
+                date: 'January 29, 2026',
+                title: "Who's Your Daddy",
+                displayTitle: "Episode 03 — Day 50: Who's Your Daddy",
+                oneLiner: "Paris is for Lovers, Reno is for Vibers — T-shirts in 4, beginning at 1 Ben. Hero Ben has arrived. I gotcha.",
+                summary: "Who's your daddy. Mark Twain rolls out Paris is for Lovers, Reno is for Vibers T-shirts. Hero Ben has arrived; direct tie into high value high contributors. Superhero and franchise level.",
+                file: '../episodes/EPISODE_03_DAY_50_HERO_BEN_PARIS_HUNDIE.md',
+                isLive: true,
+                posterGradient: 'linear-gradient(145deg, #3a2a5e 0%, #2a1a4e 100%)'
+            },
+            {
+                row: 'season-one',
+                order: 4,
+                number: 4,
+                day: 49,
+                date: 'January 30, 2026',
+                title: 'Ben & the Baller V Lifestyle · Vibeable Downtown Reno',
+                displayTitle: 'Episode 04 — Day 49: Ben & the Baller V Lifestyle',
+                oneLiner: 'Hero Host Ben—our Baller V Ambassador—shows the Baller V lifestyle on vibeable downtown Reno: high contribution density, safe free vibing.',
+                summary: 'Chancellor Sam introduces Hero Host Ben, our Baller V Ambassador, and the vibeable downtown Reno concept. Ben walks the campus with Alex and vibers—vibeable, designed for vibing state. Reno takes the lead.',
+                file: '../episodes/EPISODE_04_DAY_49_BEN_BALLER_V_LIFESTYLE_VIBABLE_DOWNTOWN_RENO.md',
+                isLive: true,
+                posterGradient: 'linear-gradient(145deg, #4e3a2a 0%, #3e2a1a 100%)'
+            },
+            {
+                row: 'office-hours',
+                order: 5,
+                flowLabel: 'Office Hours · Viber Paradise',
+                date: 'January 30, 2026',
+                title: 'Viber Paradise — Post-Singularity Downtown Reno',
+                displayTitle: 'Office Hours S1E1 — Viber Paradise',
+                oneLiner: 'Following Pru — post-singularity black hole holographic hydrogen programmer. Restroom valet at The Club. Office Hours in the Men\'s Restroom. Gateway to Post-Singularity Earth.',
+                summary: 'Office Hours Episode 1. Following Pru — restroom valet at The Club in full tuxedo, James Bond style. Office Hours in the Men\'s Restroom. High-end strip club, seedy side of downtown Reno. Viber paradise. Motherlode. Gold Rush Ground Zero.',
+                file: '../episodes/EPISODE_OFFICE_HOURS_01_VIBER_PARADISE_POST_SINGULARITY_DOWNTOWN_RENO.md',
+                isLive: true,
+                posterGradient: 'linear-gradient(145deg, #2a4e4e 0%, #1a3e3e 100%)'
+            },
+            {
+                row: 'office-hours',
+                order: 6,
+                flowLabel: 'Hero Harry · Paradise for Vibers',
+                date: 'January 30, 2026',
+                title: "Hero Harry Houdini's Post-Singularity Miracle — Paradise for Vibers",
+                displayTitle: 'Hero Harry — Paradise for Vibers',
+                oneLiner: 'Paradise for vibers. First full day open. Amusement park for vibers. Click that blue PayPal button and click it often.',
+                summary: 'Hero Harry Houdini\'s Post-Singularity Miracle presents Mark Twain\'s Post-Singularity Vibelandia Reno. Paradise for vibers. Cast, crew, fans, franchises. First full day open for business.',
+                file: '../episodes/EPISODE_HERO_HARRY_POST_SINGULARITY_MIRACLE_PARADISE_VIBERS.md',
+                isLive: true,
+                posterGradient: 'linear-gradient(145deg, #4e2a3a 0%, #3e1a2a 100%)'
+            },
+            {
+                row: 'office-hours',
+                order: 7,
+                flowLabel: 'The New Arrivals',
+                date: 'January 30, 2026',
+                title: 'The New Arrivals — First Day Experience Welcome',
+                displayTitle: 'The New Arrivals',
+                oneLiner: 'Walks new arrivals through first day welcome. Setting tailored to the active flicker comment campaign — Schumann first case.',
+                summary: 'You found us. This episode walks you through your first day experience welcome: what you get, where to go, what to do. First free dose, awareness tech and upgrade. All episodes finish with happy endings.',
+                file: '../episodes/EPISODE_THE_NEW_ARRIVALS.md',
+                isLive: true,
+                posterGradient: 'linear-gradient(145deg, #3a4e2a 0%, #2a3e1a 100%)'
+            },
+            {
+                row: 'flow',
+                order: 8,
+                flowLabel: 'Following Me on This Launch',
+                date: 'January 30, 2026',
+                title: 'Following Me on This Launch',
+                displayTitle: 'Following Me on This Launch',
+                oneLiner: "We're following the Chairman on this launch. Sixteen days. No help. Broke. Bathroom valet Reno. Ease and confidence minutes before launch—Harry's magic. All major nodes GO.",
+                summary: 'Flow-based episode. We follow the Chairman: 16 days, all live, valuations ~3× to ~5× vs blue-chip—all by himself and broke, bathroom valet at a strip club in Reno. Guey (1962 Land Cruiser). All major nodes report GO. March 20, 2026—HERE.',
+                file: '../episodes/EPISODE_FOLLOWING_ME_ON_THIS_LAUNCH.md',
+                isLive: true,
+                posterGradient: 'linear-gradient(145deg, #2a2a4e 0%, #1a1a3e 100%)'
+            },
+            {
+                row: 'flow',
+                order: 9,
+                flowLabel: 'RUMOR',
+                date: 'January 29, 2026',
+                title: 'RUMOR — Chairman, Sammy & the Gang · Golden Backstage Awareness Pass',
+                displayTitle: 'RUMOR — Chairman, Sammy & Golden Backstage',
+                oneLiner: 'RUMOR HAS IT! Chairman, Sammy and the gang are already in town — visible to those with the Golden Backstage Awareness Pass.',
+                summary: 'Chairman, Sammy and the gang are already in town. Golden Backstage Awareness Pass — new product class. The Club: back door wine cave, Pru Office Hours Men\'s Room 8pm–close Thu–Sun. Only physical point of presence. Perfect disguise to all but the aware.',
+                file: '../episodes/EPISODE_RUMOR_CHAIRMAN_SAMMY_GOLDEN_BACKSTAGE.md',
+                isLive: true,
+                posterGradient: 'linear-gradient(145deg, #4e4e2a 0%, #3e3e1a 100%)'
+            },
+            {
+                row: 'flow',
+                order: 10,
+                flowLabel: 'pRU',
+                date: 'January 29, 2026',
+                title: "pRU's Bank -$2,000 · Launching With His Own Money",
+                displayTitle: "pRU's Bank -$2,000",
+                oneLiner: "pRU's bank was -$2,000. He launched with his own money. No one came to his aid. Hero Harry says: Press the blue button and watch the miracle happen.",
+                summary: "pRU (the Chairman) had minus two thousand in the bank. He launched with his own money. No one came to his aid. Sixteen days. Bathroom valet at a strip club in Reno. Hero Harry says: Press the blue PayPal button and watch the miracle magic happen.",
+                file: '../episodes/EPISODE_PRU_BANK_MINUS_2000_LAUNCHING_OWN_MONEY_NO_AID.md',
+                isLive: true,
+                posterGradient: 'linear-gradient(145deg, #4e2a2a 0%, #3e1a1a 100%)'
+            },
+            {
+                row: 'flow',
+                order: 11,
+                flowLabel: 'Go Live',
+                date: 'January 28, 2026',
+                title: 'Go Live — Countdown Begins',
+                displayTitle: 'Go Live — Countdown Begins',
+                oneLiner: 'About to launch. Go live. Countdown begins. All surfaces live. March 20, 2026. All major nodes GO.',
+                summary: 'The Chancellor and all nodes declare go-live. Countdown to The Great Reveal Equinox March 20, 2026. Roll call: all major nodes and above report GO.',
+                file: '../episodes/EPISODE_GO_LIVE_COUNTDOWN_BEGINS.md',
+                isLive: true,
+                posterGradient: 'linear-gradient(145deg, #2a4e4e 0%, #1a3e3e 100%)'
+            },
+            {
+                row: 'flow',
+                order: 12,
+                flowLabel: 'The Great Reveal',
+                date: 'Today we launch',
+                title: 'The Great Reveal — Day Zero',
+                displayTitle: 'The Great Reveal — Day Zero',
+                oneLiner: 'This episode is the Great Reveal. Today we launch. This very site is the test drive. The best proof of all.',
+                summary: 'The Great Reveal. Today we launch. This very site — as you see it, experience it — is the test drive. SING! Nodes wrapped in intergalactic wrapper. March 20, 2026.',
+                file: '../episodes/THE_GREAT_REVEAL_EPISODE_DAY_ZERO_LAUNCH.md',
+                isLive: true,
+                posterGradient: 'linear-gradient(145deg, #4e3a4e 0%, #3e2a3e 100%)'
+            },
+            {
+                row: 'baller-v',
+                order: 13,
+                flowLabel: 'Golden Backstage Pass',
+                date: 'By flow',
+                title: 'Ultimate Baller V Golden Backstage Pass Night at the Club',
+                displayTitle: 'Golden Backstage Pass — Night at the Club',
+                oneLiner: 'Full superhero franchise level. Chairman, Sammy and the gang. Chairmen all on a WINK! Office Hours at the Club.',
+                summary: 'Ultimate Baller V Golden Backstage Pass night at the club. The Chairman, Sammy and the gang are the hosts. Office Hours at the Club — back door wine cave, Pru in the Men\'s Room. WINK!-matched chairmen. No randoms. Just the right people. Baller V Ambassador Ben is here as host.',
+                file: '../episodes/EPISODE_ULTIMATE_BALLER_V_GOLDEN_BACKSTAGE_PASS_NIGHT_AT_THE_CLUB.md',
+                landingPage: 'ultimate-baller-v-golden-backstage-pass.html',
+                isLive: true,
+                posterGradient: 'linear-gradient(145deg, #5e3a2a 0%, #4e2a1a 100%)'
+            },
+            {
+                row: 'baller-v',
+                order: 14,
+                flowLabel: 'Chris · Rye Patch Gold Mine',
+                date: 'Custom night',
+                title: 'Chris — Ultimate Baller V · Motherlode Rye Patch Gold Mine',
+                displayTitle: 'Chris — Rye Patch Gold Mine Night',
+                oneLiner: 'Custom night — Chris as superhero. Abundance, celebration, discovery. Guests in the script. Ultimate Baller V superhero franchise experience.',
+                summary: "Chris's Ultimate Baller V night. Motherlode Rye Patch Gold Mine Discovering — Chris as superhero. Custom landing + 60-min 12,000-word episode with Chris and guests (Ricky, Thai, Taylor, Nick, Asia, Danger) in the script. Hosts: Twain, Ben; rumor has it Chairman, Sammy, Houdini.",
+                file: '../episodes/EPISODE_CHRIS_ULTIMATE_BALLER_V_RYE_PATCH_GOLD_MINE.md',
+                landingPage: 'chris-rye-patch-gold-mine-night.html',
+                isLive: true,
+                posterGradient: 'linear-gradient(145deg, #3a5e2a 0%, #2a4e1a 100%)'
+            }
+        ];
+
+        const ROW_CONFIG = {
+            featured: { title: 'Featured', limit: 1 },
+            'season-one': { title: 'Season One — Daily', limit: 20 },
+            'office-hours': { title: 'Office Hours & Specials', limit: 20 },
+            flow: { title: 'Flow-based & Launch', limit: 20 },
+            'baller-v': { title: 'Ultimate Baller V', limit: 20 }
+        };
+
+        // Featured episode (first in featured row or today's)
+        const featured = EPISODES.find(e => e.id === 'featured') || EPISODES.find(e => e.row === 'season-one' && e.number === 3) || EPISODES[0];
+        function setHero(ep) {
+            document.getElementById('heroBadge').textContent = ep.flowLabel || ('Episode ' + ep.number + ' — Day ' + ep.day);
+            document.getElementById('heroTitle').textContent = ep.displayTitle || ep.title;
+            document.getElementById('heroDescription').textContent = ep.summary || ep.oneLiner;
+            document.getElementById('heroPlay').href = ep.file;
+            if (ep.landingPage) document.getElementById('heroPlay').href = ep.landingPage;
+            document.getElementById('hero').style.backgroundImage = 'url("")';
+            document.getElementById('hero').style.backgroundColor = '#1a1a2e';
+            const heroInfoBtn = document.getElementById('heroInfo');
+            heroInfoBtn.onclick = () => openModal(ep);
+        }
+        setHero(featured);
+
+        // Build rows
+        const rowsEl = document.getElementById('rows');
+        ['season-one', 'office-hours', 'flow', 'baller-v'].forEach(rowKey => {
+            const config = ROW_CONFIG[rowKey];
+            const items = EPISODES.filter(e => e.row === rowKey).sort((a, b) => (a.order || 0) - (b.order || 0));
+            if (!items.length) return;
+            const rowTitle = config.title;
+            const div = document.createElement('div');
+            div.className = 'row';
+            div.innerHTML = '<h2 class="row-title">' + rowTitle + '</h2><div class="row-cards"></div>';
+            const cardsContainer = div.querySelector('.row-cards');
+            items.forEach(ep => {
+                const card = document.createElement('div');
+                card.className = 'episode-card';
+                card.innerHTML = `
+                    <div class="poster" style="--poster-gradient: ${ep.posterGradient || 'linear-gradient(145deg,#2a2a4e,#1a1a2e)'}">
+                        <div class="poster-img"></div>
+                        <div class="poster-overlay">
+                            <span class="poster-title">${(ep.displayTitle || ep.title).replace(/</g, '&lt;')}</span>
+                            <span class="poster-desc">${(ep.oneLiner || ep.summary || '').replace(/</g, '&lt;')}</span>
+                        </div>
+                    </div>
+                    <div class="card-title">${(ep.displayTitle || ep.title).replace(/</g, '&lt;')}</div>
+                    <div class="card-meta">${ep.date} ${ep.isLive ? '<span class="live-dot"></span>LIVE' : ''}</div>
+                `;
+                card.onclick = () => openModal(ep);
+                cardsContainer.appendChild(card);
+            });
+            rowsEl.appendChild(div);
+        });
+
+        // Modal
+        function openModal(ep) {
+            const modal = document.getElementById('modalOverlay');
+            document.getElementById('modalPoster').style.background = ep.posterGradient || 'linear-gradient(145deg,#2a2a4e,#1a1a2e)';
+            document.getElementById('modalTitle').textContent = ep.displayTitle || ep.title;
+            document.getElementById('modalMeta').textContent = (ep.flowLabel || ('Episode ' + ep.number + ' — Day ' + ep.day)) + ' · ' + ep.date;
+            document.getElementById('modalOneLiner').textContent = '"' + (ep.oneLiner || '') + '"';
+            document.getElementById('modalSummary').textContent = ep.summary || ep.oneLiner || '';
+            const playLink = document.getElementById('modalPlay');
+            playLink.href = ep.landingPage || ep.file;
+            playLink.textContent = ep.landingPage ? '▶ View experience' : '▶ Read episode';
+            modal.classList.add('open');
+            document.body.style.overflow = 'hidden';
+        }
+        function closeModal() {
+            document.getElementById('modalOverlay').classList.remove('open');
+            document.body.style.overflow = '';
+        }
+        document.getElementById('modalClose').onclick = closeModal;
+        document.getElementById('modalCloseBtn').onclick = closeModal;
+        document.getElementById('modalOverlay').onclick = (e) => { if (e.target === e.currentTarget) closeModal(); };
+
+        // Topbar scroll
+        window.addEventListener('scroll', () => {
+            document.getElementById('topbar').classList.toggle('scrolled', window.scrollY > 40);
+        });
+    </script>
+</body>
+</html>

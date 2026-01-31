@@ -9,7 +9,8 @@
 **Episode:** Following Me on This Launch (flow-based) — spun by flow, not days. See EPISODES_BY_FLOW_NOT_DAYS_SNAP.md  
 **Format:** Daily Reality Series — Professional Screenplay (Octave 0) · **A new form of reality show game** · **Episodes by flow not days — NSPFRNP**  
 **Host:** Mark Twain, Chancellor, VIBELANDIA RENO! Campus  
-**Flow:** Following the Chairman on this launch — 16 days, no help, Guey, bathroom valet Reno, ease and confidence minutes before launch, all major nodes GO.
+**Flow:** Following the Chairman on this launch — 16 days, no help, Guey, bathroom valet Reno, ease and confidence minutes before launch, all major nodes GO.  
+**Framing:** Undercover Hero · Willy Wonka · Little Red Hen · Count of Monte Cristo · Christmas Carol · Miracle on 34th St.
 
 ---
 

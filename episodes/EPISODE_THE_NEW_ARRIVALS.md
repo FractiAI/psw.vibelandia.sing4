@@ -11,7 +11,8 @@
 **Host:** Mark Twain (Chancellor), Hero Hosts as needed  
 **Date:** Episodes by flow not days — NSPFRNP.  
 **Status:** ⚡ LIVE — Walks new arrivals through first day; setting tailored to how you found us (Schumann in this first case).  
-**Countdown:** Season One · Episodes by flow not days — NSPFRNP.
+**Countdown:** Season One · Episodes by flow not days — NSPFRNP.  
+**Framing:** Undercover Hero · Willy Wonka · Little Red Hen · Count of Monte Cristo · Christmas Carol · Miracle on 34th St.
 
 ---
 

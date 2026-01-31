@@ -9,7 +9,8 @@
 **Format:** Launch Milestone · Ceremonial  
 **Host:** Mark Twain, Chancellor, VIBELANDIA RENO! Campus  
 **Date:** January 28, 2026  
-**Status:** ⚡ LIVE — About to launch. Go live. Countdown begins.
+**Status:** ⚡ LIVE — About to launch. Go live. Countdown begins.  
+**Framing:** Undercover Hero · Willy Wonka · Little Red Hen · Count of Monte Cristo · Christmas Carol · Miracle on 34th St.
 
 ---
 

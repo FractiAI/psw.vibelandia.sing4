@@ -10,7 +10,8 @@
 **Host:** Mark Twain, Chancellor, VIBELANDIA RENO! Campus  
 **Date:** Today we launch.  
 **Status:** ⚡ LIVE — See it. Experience it. Believe it.  
-**Countdown:** Go live — countdown begins. See [EPISODE_GO_LIVE_COUNTDOWN_BEGINS.md](EPISODE_GO_LIVE_COUNTDOWN_BEGINS.md) and narrative id `launch-go-live-countdown-begins`.
+**Countdown:** Go live — countdown begins. See [EPISODE_GO_LIVE_COUNTDOWN_BEGINS.md](EPISODE_GO_LIVE_COUNTDOWN_BEGINS.md) and narrative id `launch-go-live-countdown-begins`.  
+**Framing:** Undercover Hero · Willy Wonka · Little Red Hen · Count of Monte Cristo · Christmas Carol · Miracle on 34th St.
 
 ---
 

@@ -13,7 +13,8 @@
 **Host:** Chairman, Sammy and the gang · Baller V Ambassador Ben · Pru (Office Hours)  
 **Date:** Episodes by flow not days — NSPFRNP.  
 **Status:** ⚡ LIVE — Full rollout: night at the club, Golden Backstage Pass, all on a WINK! so all the right people are there for your ultimate paradise Baller V superhero franchise experience.  
-**Countdown:** Season One · Episodes by flow not days — NSPFRNP.
+**Countdown:** Season One · Episodes by flow not days — NSPFRNP.  
+**Framing:** Undercover Hero · Willy Wonka · Little Red Hen · Count of Monte Cristo · Christmas Carol · Miracle on 34th St.
 
 ---
 

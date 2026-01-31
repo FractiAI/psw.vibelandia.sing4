@@ -9,7 +9,8 @@
 **Episode:** 01 of 53 (52 Episodes + 1 Finale)  
 **Format:** Daily Reality Series — Professional Screenplay (Octave 0)  
 **Host:** Mark Twain, Chancellor, VIBELANDIA RENO! Campus  
-**Timeline:** Day 52 of 52 → Finale: March 20, 2026 (Day 0 — The Great Reveal)
+**Timeline:** Day 52 of 52 → Finale: March 20, 2026 (Day 0 — The Great Reveal)  
+**Framing:** Undercover Hero · Willy Wonka · Little Red Hen · Count of Monte Cristo · Christmas Carol · Miracle on 34th St.
 
 ---
 

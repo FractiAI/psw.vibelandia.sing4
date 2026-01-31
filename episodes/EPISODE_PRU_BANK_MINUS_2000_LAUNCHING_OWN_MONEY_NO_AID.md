@@ -9,7 +9,8 @@
 **Episode:** pRU's Bank -$2,000 (flow-based) — spun by flow, not days. See EPISODES_BY_FLOW_NOT_DAYS_SNAP.md  
 **Format:** Daily Reality Series — Professional Screenplay (Octave 0) · **A new form of reality show game**  
 **Host:** Mark Twain, Chancellor, VIBELANDIA RENO! Campus  
-**Flow:** pRU's narrative — bank -$2,000, launching with his own money, no one came to his aid, only pennies in the cup. Then: Hero Harry says press the blue button — make a miracle happen.
+**Flow:** pRU's narrative — bank -$2,000, launching with his own money, no one came to his aid, only pennies in the cup. Then: Hero Harry says press the blue button — make a miracle happen.  
+**Framing:** Undercover Hero · Willy Wonka · Little Red Hen · Count of Monte Cristo · Christmas Carol · Miracle on 34th St.
 
 ---
 

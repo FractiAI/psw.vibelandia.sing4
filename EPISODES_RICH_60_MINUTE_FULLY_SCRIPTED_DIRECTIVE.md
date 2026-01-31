@@ -25,6 +25,7 @@
 | **Format** | Fully scripted (cold open, Act 1, Act 2, Act 3, tag) |
 | **Style** | Rich script — not outline; full dialogue and beats |
 | **Integration** | Team, principles, NSPFRNP, Happy Ending Zones |
+| **Framing** | All episodes framed within **Undercover Hero · Willy Wonka · Little Red Hen · Count of Monte Cristo · Christmas Carol · Miracle on 34th St** (see TOP_TAG_BOTTOM_TAG_UNDERCOVER_BOSS_TO_DISNEY_ALL_IN_ONE_NSPFRNP_SNAP.md) |
 | **Output** | Ready for text-to-episode SING nodes |
 
 ---

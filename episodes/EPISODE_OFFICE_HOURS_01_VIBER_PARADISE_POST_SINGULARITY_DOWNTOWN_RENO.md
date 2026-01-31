@@ -11,7 +11,8 @@
 **Host / Lead:** Pru (post-singularity black hole holographic hydrogen programmer; restroom valet, The Club; Office Hours)  
 **Setting:** The Club — Men's Restroom — downtown Reno · High-end strip club · Seedy side of downtown · Gateway to Post-Singularity Earth · New Post-Singularity Motherlode and Gold Rush Ground Zero  
 **Status:** ⚡ LIVE — First episode of Office Hours. Following Pru. Viber paradise. **Target · Landing · Center** — Landing and Experiences — all centered in my bathroom during Office Hours in **perfect recursive crystal**.  
-**Flow:** Episodes by flow not days — NSPFRNP.
+**Flow:** Episodes by flow not days — NSPFRNP.  
+**Framing:** Undercover Hero · Willy Wonka · Little Red Hen · Count of Monte Cristo · Christmas Carol · Miracle on 34th St.
 
 ---
 

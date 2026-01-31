@@ -9,6 +9,8 @@
 
 ### **Required Elements for Every Episode:**
 
+0. **Narrative framing:** Every episode is framed within **Undercover Hero · Willy Wonka · Little Red Hen · Count of Monte Cristo · Christmas Carol · Miracle on 34th St.** Include this in the episode header. See TOP_TAG_BOTTOM_TAG_UNDERCOVER_BOSS_TO_DISNEY_ALL_IN_ONE_NSPFRNP_SNAP.md.
+
 1. **Team Member(s) Appearance:**
    - At least one FractiAI team member appears
    - Operating in NSPFRNP mode

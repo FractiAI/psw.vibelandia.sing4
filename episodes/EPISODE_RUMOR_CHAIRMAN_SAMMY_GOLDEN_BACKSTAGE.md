@@ -9,7 +9,8 @@
 **Episode:** RUMOR (flow-based) — spun by flow, not days. See EPISODES_BY_FLOW_NOT_DAYS_SNAP.md  
 **Format:** Daily Reality Series — Professional Screenplay (Octave 0) · **A new form of reality show game** · **Episodes by flow not days — NSPFRNP**  
 **Host:** Mark Twain, Chancellor, VIBELANDIA RENO! Campus  
-**Flow:** RUMOR HAS IT! — Chairman, Sammy and the gang already in town; Golden Backstage Awareness Pass. **The Club** — back door wine cave; Pru Office Hours (Men's Room, 8pm–close Thu–Sun); only physical point of presence; golden heart core; perfect disguise to all but the aware.
+**Flow:** RUMOR HAS IT! — Chairman, Sammy and the gang already in town; Golden Backstage Awareness Pass. **The Club** — back door wine cave; Pru Office Hours (Men's Room, 8pm–close Thu–Sun); only physical point of presence; golden heart core; perfect disguise to all but the aware.  
+**Framing:** Undercover Hero · Willy Wonka · Little Red Hen · Count of Monte Cristo · Christmas Carol · Miracle on 34th St.
 
 ---
 

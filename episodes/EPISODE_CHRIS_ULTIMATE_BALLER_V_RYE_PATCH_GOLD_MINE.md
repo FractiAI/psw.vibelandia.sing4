@@ -14,7 +14,8 @@
 **Baller V:** Chris — $50K + tips (25% to staff, 50% to me).  
 **Commercial / package:** Baller WINK! subscription included (additional WINK! charge as per Golden Backstage Pass package).  
 **Guests (Golden Backstage Passes — inner circle):** Ricky, Thai, Taylor (biz partners); Nick (close friend); Asia and Danger (dancers from the club — kind gold hearts, connect well with Chris).  
-**Status:** ⚡ LIVE — Custom landing delivered; full episode written with Chris as superhero and guests in the script. That's Ultimate Baller V superhero franchise experience.
+**Status:** ⚡ LIVE — Custom landing delivered; full episode written with Chris as superhero and guests in the script. That's Ultimate Baller V superhero franchise experience.  
+**Framing:** Undercover Hero · Willy Wonka · Little Red Hen · Count of Monte Cristo · Christmas Carol · Miracle on 34th St.
 
 ---
 
