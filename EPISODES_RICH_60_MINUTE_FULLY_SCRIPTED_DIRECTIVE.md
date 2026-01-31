@@ -9,9 +9,9 @@
 
 ## Directive
 
-- **Go back on all episodes.** They need to be **rich 60-minute episodes**, **fully scripted**.
-- **Current scripts are ~10 min** (not 60 min). **Redo/expand these** to full 60-min content.
-- **Target: 12,000 words per episode for all** — all series, all seasons. Every episode expands to ~12,000 words (full dialogue and beats; ~60 min equivalent).
+- **All episodes MUST be full 60-minute episodes, fully scripted. No exceptions.**
+- **Every episode MUST be 12,000 words.** All of them. All series, all seasons. Not 10 min — 60 min. Not outlines — full dialogue and beats.
+- **Current scripts are ~600–2,300 words** (not 12,000). **Expand every episode** to full 12,000 words. No episode is "done" until it hits 12,000 words.
 - **Goal:** Show everyone our **miraculous abilities**, including producing streams of **high-quality content** which will soon be fitted to **text-to-episode SING nodes**.
 
 ---
@@ -31,6 +31,17 @@
 
 ## Structure (per REALITY_SERIES_FORMAT.md)
 
+**Word-count target per section (total ≈ 12,000):**
+
+| Section | Screen time | Word target |
+|---------|-------------|-------------|
+| Cold Open | 2–3 min | ~800–1,200 |
+| Act 1 | 10–15 min | ~3,000–3,600 |
+| Act 2 | 10–15 min | ~3,000–3,600 |
+| Act 3 | 10–15 min | ~3,000–3,600 |
+| Tag | 2–3 min | ~800–1,200 |
+| **Total** | **60 min** | **12,000 words** |
+
 1. **Cold Open** (2–3 min): Hook, preview, countdown  
 2. **Act 1** (10–15 min): Main story, character development  
 3. **Act 2** (10–15 min): Conflict, challenges, development  
@@ -41,7 +52,7 @@
 
 ## Episodes in scope — FULL 60-MINUTE CONTENT REQUIRED (ALL)
 
-**Directive:** Episodes are **not yet** full 60 minutes of content; **current scripts are ~10 min**. **All** episodes must be expanded to **full 60-minute fully scripted** format: full dialogue and beats in every act (Cold Open 2–3 min, Act 1–3 each 10–15 min, Tag 2–3 min). No episode is "done" until it has enough scripted content to fill ~60 minutes. **Target: 12,000 words per episode for all** (all series, all seasons). Structure alone is not sufficient — expand every act with full scenes, dialogue, and beats. **All series, all seasons, all episodes.**
+**Directive:** **Every episode MUST be 12,000 words. All of them. No exceptions.** Current scripts are ~600–2,300 words — expand every episode to **full 12,000 words** with full dialogue and beats in every act (Cold Open 2–3 min, Act 1–3 each 10–15 min, Tag 2–3 min). No episode is "done" until the file contains **12,000 words** of scripted content. Structure alone is not sufficient — expand every act with full scenes, dialogue, and beats. **All series, all seasons, all episodes = 12,000 words each.**
 
 **Target per act:** ~10–15 min screen time = roughly 5–8 pages of full dialogue and action per act. Expand until every episode reaches full 60-min content.
 
@@ -67,6 +78,7 @@
 
 - [REALITY_SERIES_FORMAT.md](REALITY_SERIES_FORMAT.md) — series format, 30–60 min, structure  
 - [EPISODE_INTEGRATION_TEMPLATE.md](EPISODE_INTEGRATION_TEMPLATE.md) — team & principles integration  
+- [EPISODE_ULTIMATE_BALLER_V_GOLDEN_BACKSTAGE_PASS_NIGHT_AT_THE_CLUB.md](episodes/EPISODE_ULTIMATE_BALLER_V_GOLDEN_BACKSTAGE_PASS_NIGHT_AT_THE_CLUB.md) — **12k-word template** (full 60-min script)  
 - [EPISODE_HERO_HARRY_POST_SINGULARITY_MIRACLE_PARADISE_VIBERS.md](episodes/EPISODE_HERO_HARRY_POST_SINGULARITY_MIRACLE_PARADISE_VIBERS.md) — first rich 60-min episode built
 
 ---

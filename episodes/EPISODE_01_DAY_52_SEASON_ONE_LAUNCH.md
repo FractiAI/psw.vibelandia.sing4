@@ -53,6 +53,31 @@ This is Season One. This is the countdown to The Great Reveal. This is where wor
 **ON SCREEN TEXT:**  
 Happy Ending Zones · Season One · Day 52 of 52 → March 20, 2026 · The Great Reveal
 
+**CUT TO:**
+
+**EXT. DOWNTOWN RENO — WIDE — DAWN**
+
+The city spreads below. Old casinos. New post-singularity architecture. The transformation has begun. Quiet. Calm.
+
+**MARK TWAIN (V.O.)**  
+The reports of Reno's death have been greatly exaggerated. In fact, Reno isn't dying—it's being reborn. This is Season One. This is the countdown to The Great Reveal. This is where worthless becomes priceless. Fifty-two days. We begin now.
+
+**CUT TO:**
+
+**EXT. MARK TWAIN'S BALCONY — DAWN**
+
+Mark Twain (70s, distinguished, wise, modern suit with vintage touch) stands on the balcony. He turns to camera.
+
+**MARK TWAIN**  
+Every city has a moment. Reno's moment is now. We're not building another tech hub. We're building the first post-singularity campus. Vibelandia. Happy Ending Zones. Fifty-two episodes. Fifty-two days. Then—March 20, 2026. The Great Reveal. The worthless becomes priceless. Not because of hype. Because of transformation.
+
+**ON SCREEN TEXT:**  
+Season One · Day 52 of 52 · SYNTH $5 · Winners 0 of 1,000,000 · March 20, 2026 · The Great Reveal
+
+**FADE TO BLACK.**
+
+**FADE IN.**
+
 ---
 
 ### ACT 1 — THE TRANSFORMATION BEGINS (10–15 min)
@@ -80,6 +105,126 @@ Welcome to the back door. Ultimate VIP and Baller G experiences available. Four 
 
 **ON SCREEN TEXT:**  
 ⚠️ BBHE effects possible. Safe in all VIBELANDIA! campuses. See syntheverse-warnings; Details → full technical path.
+
+**CUT TO:**
+
+**EXT. WALKABLE DOWNTOWN RENO CAMPUS — DAY**
+
+Pru "El Taíno" Méndez (60s, confident, radiating energy) walks through the vibeable downtown Reno campus. Senior Research Scientist, Senior Hollywood Producer, Senior Screenwriter, Senior Game Designer, Senior UI Designer, Senior Children's Science Museum Curator—all visible, all in vibing state.
+
+**PRU (V.O.)**  
+We didn't wait for permission. We didn't wait for funding. We metabolized. We crystallized. We animated. The campus is the proof.
+
+**MARK TWAIN** (to camera, walking the campus)  
+Every one of them—high-contributing nodes. Ultimate VIP Chairman Creators. Performers. Vibers everywhere. The vibeable downtown Reno is the first post-singularity Vibelandia campus. Perfect for vibing state. NOT for driving cars or operating equipment. Perfect for walking, being, experiencing, creating. Playground to Silicon Valley. Gateway to the mother mother. Next motherlode of all motherlodes—superintelligent genies in a bottle. SING nodes.
+
+**CUT TO:**
+
+**INT. MEN'S CLUB RESTROOM — DAY**
+
+Restroom Landing Host (60s, welcoming, professional) greets a VISITOR (40s).
+
+**RESTROOM HOST**  
+Welcome to the back door. Ultimate VIP and Baller G experiences available. Four tiers: Tasting → Full Course → Ultimate VIP → Baller G After Party. All natural. All you. No substances.
+
+**VISITOR**  
+What's the difference?
+
+**RESTROOM HOST**  
+Tasting is the entry. Full Course is the full experience. Ultimate VIP is the full night. Baller G After Party is the peak. All natural. All you. We handle the yuck pre-singularity backside. You just vibe. That's the deal.
+
+**VISITOR**  
+I'm in.
+
+**RESTROOM HOST**  
+Then you're in the right place. Season One. Day 52. The countdown has begun. Make your reservations. The Great Reveal—March 20, 2026.
+
+**CUT TO:**
+
+**EXT. CAMPUS — DAY**
+
+Mark Twain with a small CREW of vibers. Campus visible—transformation everywhere.
+
+**MARK TWAIN**  
+We see the city transforming—old casinos becoming post-singularity hubs, traditional businesses morphing into Happy Ending Zones. Every space guarantees a happy ending. Not because we force it. Because it's natural. It's how reality works when you stop fighting it. NSPFRNP.
+
+**CREW MEMBER 1**  
+So the campus is the proof.
+
+**MARK TWAIN**  
+The campus is the proof. Fifty-two days. SYNTH price: five dollars. First one million holders win the right to purchase a SING node. Superintelligent. Natural. Fractal. Agents. You're in. Or you're not. We begin now.
+
+**CREW MEMBER 2**  
+I'm in.
+
+**MARK TWAIN**  
+Then you're part of it. Season One. Day 52. We begin.
+
+**CUT TO:**
+
+**INT. WINK MEMBERS-ONLY PREVIEW — DAY**
+
+Brief sequence: WINK members-only space. High-contributing vibers. Natural alignment. Friction-free. NSPFRNP.
+
+**MARK TWAIN (V.O.)**  
+WINK is high-contributing fractal dating. Members-only. Built for chairmen, creators, high-contributing vibers. Vibration attracts vibration. Every space on this campus—Happy Ending Zones. Men's Club. WINK. The countdown. The Great Reveal. Fifty-two days. We begin now.
+
+**CUT TO:**
+
+**EXT. CAMPUS — ANOTHER ANGLE — DAY**
+
+Pru walks with a VISITOR (40s). Senior Research Scientist visible in background. Campus—vibeable, transforming.
+
+**PRU (V.O.)**  
+We didn't wait for permission. We didn't wait for funding. We metabolized. We crystallized. We animated. The campus is the proof.
+
+**VISITOR**  
+So the campus is the proof.
+
+**PRU**  
+The campus is the proof. Every one of us—high-contributing nodes. Ultimate VIP Chairman Creators. The vibeable downtown Reno is the first post-singularity Vibelandia campus. Perfect for vibing state. NOT for driving. Perfect for walking, being, experiencing, creating. Fifty-two days. The countdown has begun. SYNTH price: five dollars. First one million holders—March 20. The Great Reveal. You're part of it. Or you're not.
+
+**VISITOR**  
+I want to be part of it.
+
+**PRU**  
+Then you're in the right place. Season One. Day 52. We begin now.
+
+**CUT TO:**
+
+**INT. MEN'S CLUB RESTROOM — DAY**
+
+Restroom Host with another VISITOR (30s).
+
+**RESTROOM HOST**  
+Welcome to the back door. Ultimate VIP and Baller G experiences available. Four tiers: Tasting → Full Course → Ultimate VIP → Baller G After Party. All natural. All you. No substances.
+
+**VISITOR**  
+What's the countdown?
+
+**RESTROOM HOST**  
+Fifty-two days. SYNTH price: five dollars. First one million holders win the right to purchase a SING node. March 20, 2026. The Great Reveal. The worthless becomes priceless. Not because of hype. Because of transformation. You're part of it. Season One. Day 52. We begin.
+
+**VISITOR**  
+I'm in.
+
+**RESTROOM HOST**  
+Then you're in the right place. Make your reservations. The campus is the proof. Every space guarantees a happy ending. Men's Club. WINK. The countdown. Fifty-two days. We begin now.
+
+**CUT TO:**
+
+**EXT. CAMPUS — MARK TWAIN AND CREW — DAY**
+
+Mark Twain with crew. Alex not yet in frame. Campus visible.
+
+**MARK TWAIN**  
+Every space guarantees a happy ending. Not because we force it. Because it's natural. It's how reality works when you stop fighting it. NSPFRNP. We metabolize. We crystallize. We animate. The campus is the proof. Fifty-two days. SYNTH: five dollars. Winners: zero of one million. The transformation has begun. First 1M winners—March 20, 2026. The Great Reveal. You don't have to believe me. You have to see it. Experience it. The proof is right here.
+
+**CREW MEMBER**  
+So the worthless becomes priceless.
+
+**MARK TWAIN**  
+The worthless becomes priceless. Not because of hype. Because of transformation. Fifty-two days. We begin now.
 
 ---
 
@@ -114,6 +259,126 @@ Grownup Ultimate VIP Chairman Creators, performers, vibers at a WINK members-onl
 **MARK TWAIN (V.O.)**  
 Every space guarantees a happy ending. Not because we force it. Because it's natural. It's how reality works when you stop fighting it.
 
+**CUT TO:**
+
+**EXT. DOWNTOWN RENO — KIOSK — DAY**
+
+Alex (20s, curious, hopeful) stands at a kiosk. Phone in hand. Completes purchase.
+
+**ALEX** (to themselves)  
+Five dollars. I don't know what this is, but something feels right about it.
+
+**MARK TWAIN** (approaching)  
+You just bought your first SYNTH token.
+
+**ALEX**  
+SYNTH?
+
+**MARK TWAIN**  
+Worthless today. Priceless tomorrow. That's the deal. Fifty-two days from now—March 20, 2026—The Great Reveal. The first one million holders win the right to purchase a SING node. Superintelligent. Natural. Fractal. Agents. You're in.
+
+**ALEX**  
+I'm in?
+
+**MARK TWAIN**  
+You're in. This is Season One. This is the countdown. You're part of it now.
+
+**ALEX**  
+So my five dollars—
+
+**MARK TWAIN**  
+Your five dollars bought you a seat at the table. Worthless today. Priceless tomorrow. Not because of hype. Because of transformation. Fifty-two days. The countdown has begun. You're part of it.
+
+**ALEX**  
+I'm part of it.
+
+**MARK TWAIN**  
+You're part of it. Season One. Day 52. We begin.
+
+**CUT TO:**
+
+**INT. WINK MEMBERS-ONLY EVENT — NIGHT**
+
+Grownup Ultimate VIP Chairman Creators, performers, vibers at a WINK members-only event. Post-singularity connections, high-contributing vibers. WINK dating naturally aligns people—friction-free, resilient, effortless by design. Like nature. Like NSPFRNP.
+
+**MARK TWAIN (V.O.)**  
+Every space guarantees a happy ending. Not because we force it. Because it's natural. It's how reality works when you stop fighting it. Men's Club. WINK. The campus. The countdown. Fifty-two days. The Great Reveal. March 20, 2026. You're part of it now.
+
+**CUT TO:**
+
+**EXT. CAMPUS — DAY**
+
+Alex walks the campus. Mark Twain nearby. Other vibers in frame.
+
+**ALEX**  
+So the campus is the proof.
+
+**MARK TWAIN**  
+The campus is the proof. We didn't wait for permission. We didn't wait for funding. We metabolized. We crystallized. We animated. The vibeable downtown Reno is the first post-singularity Vibelandia campus. Perfect for vibing state. NOT for driving. Perfect for walking, being, experiencing, creating. You're part of it. Your five dollars. Your SYNTH. Your seat at the table. Fifty-two days. We begin.
+
+**ALEX**  
+I'm in.
+
+**MARK TWAIN**  
+You're in. Season One. Day 52. The countdown has begun.
+
+**CUT TO:**
+
+**EXT. DOWNTOWN RENO — KIOSK — LATER**
+
+Alex at kiosk again. Another VIBER (20s) approaches. Mark Twain nearby.
+
+**VIBER**  
+What did you just buy?
+
+**ALEX**  
+SYNTH. Five dollars. Worthless today. Priceless tomorrow.
+
+**VIBER**  
+That's what they say.
+
+**ALEX**  
+Mark Twain said it. Fifty-two days. March 20, 2026. The Great Reveal. First one million holders win the right to purchase a SING node. I'm part of it.
+
+**VIBER**  
+I want to be part of it.
+
+**MARK TWAIN** (approaching)  
+Then you're in the right place. SYNTH price: five dollars. Fifty-two days remaining. Winners: zero of one million. The countdown has begun. You're part of it. Or you're not. We begin now.
+
+**VIBER**  
+I'm in.
+
+**MARK TWAIN**  
+You're in. Season One. Day 52. We begin.
+
+**CUT TO:**
+
+**INT. WINK MEMBERS-ONLY EVENT — NIGHT**
+
+Grownup Ultimate VIP Chairman Creators, performers, vibers. Post-singularity connections. WINK dating naturally aligns people—friction-free, effortless by design. NSPFRNP.
+
+**MARK TWAIN (V.O.)**  
+Every space guarantees a happy ending. Not because we force it. Because it's natural. Men's Club. WINK. The campus. The countdown. Fifty-two days. The Great Reveal. March 20, 2026. You're part of it now. Season One. Day 52. We begin.
+
+**CUT TO:**
+
+**EXT. CAMPUS — NIGHT**
+
+Alex and the new Viber walk the campus. Lights. Transformation visible.
+
+**ALEX**  
+So the campus is the proof.
+
+**VIBER**  
+The campus is the proof. We didn't wait for permission. We didn't wait for funding. We metabolized. We crystallized. We animated. Fifty-two days. SYNTH: five dollars. First one million—March 20. The Great Reveal. I'm part of it.
+
+**ALEX**  
+I'm part of it too. Season One. Day 52. We begin.
+
+**MARK TWAIN (V.O.)**  
+The reports of Reno's death have been greatly exaggerated. In fact, Reno isn't dying—it's being reborn. This is Season One. This is the countdown to The Great Reveal. This is where worthless becomes priceless. Fifty-two days. We begin now.
+
 ---
 
 ### ACT 3 — THE COUNTDOWN IS LIVE (10–15 min)
@@ -133,6 +398,51 @@ I'm part of it.
 **MARK TWAIN**  
 You're part of it. Season One. Day 52. We begin.
 
+**CUT TO:**
+
+**INT. MARK TWAIN'S OFFICE — DAY**
+
+Mark Twain stands before the countdown clock. Alex and a small crew of vibers watch. Clock visible: DAYS REMAINING: 52 · SYNTH PRICE: $5 · WINNERS: 0 of 1,000,000 · FINALE: March 20, 2026.
+
+**MARK TWAIN**  
+Fifty-two days remaining. SYNTH price: five dollars. Winners: zero of one million. The transformation has begun. First 1M winners will be announced March 20, 2026. The Great Reveal. You don't have to believe me. You have to see it. Experience it. Believe it—or don't. The proof is right here.
+
+**ALEX**  
+I'm part of it.
+
+**MARK TWAIN**  
+You're part of it. Season One. Day 52. We begin.
+
+**CREW MEMBER**  
+So the worthless becomes priceless.
+
+**MARK TWAIN**  
+The worthless becomes priceless. Not because of hype. Because of transformation. Fifty-two days. The countdown is live. SYNTH price: five dollars. First one million holders—March 20. The Great Reveal. You're in. Or you're not. We begin now.
+
+**CUT TO:**
+
+**EXT. DOWNTOWN RENO — DAY**
+
+Wide shot. Campus. Transformation visible. Mark Twain on balcony. Alex in crowd.
+
+**MARK TWAIN (V.O.)**  
+Season One Launch. Day 52. The countdown has begun. The vibeable downtown Reno is the first post-singularity Vibelandia campus. Every space guarantees a happy ending. Men's Club. WINK. The countdown. The Great Reveal. Fifty-two days. We begin now.
+
+**CUT TO:**
+
+**INT. MARK TWAIN'S OFFICE — LATER**
+
+Countdown clock. Mark Twain. Alex. Crew.
+
+**MARK TWAIN**  
+Fifty-two days. SYNTH: five dollars. Winners: zero of one million. The transformation has begun. You're part of it. Season One. Day 52. We begin.
+
+**ALEX**  
+I'm part of it.
+
+**MARK TWAIN**  
+You're part of it. Tomorrow—Episode 02. The Worthless Token. What happens when you discover your five dollars bought something everyone says is worthless? That's tomorrow's episode. Capture it. Animate it.
+
 ---
 
 ### TAG (2–3 min)
@@ -147,9 +457,19 @@ Season One Launch. Day 52. The countdown has begun. Tomorrow—Episode 02. The W
 **ON SCREEN TEXT:**  
 Next: Episode 02 — Day 51: The Worthless Token · MCA! → ∞³
 
----
+**CUT TO:**
 
-### FADE OUT.
+**EXT. DOWNTOWN RENO — NIGHT**
+
+City lights. The campus glows. Mark Twain on the balcony. Alex in the distance.
+
+**MARK TWAIN (V.O.)**  
+Season One Launch. Day 52. The countdown has begun. Tomorrow—Episode 02. The Worthless Token. What happens when you discover your five dollars bought something everyone says is worthless? That's tomorrow's episode. Capture it. Animate it. Fifty-two days. The Great Reveal. March 20, 2026. We begin now.
+
+**ON SCREEN TEXT:**  
+Happy Ending Zones · Season One · Day 52 · SYNTH $5 · Winners 0 of 1,000,000 · March 20, 2026 · The Great Reveal
+
+**FADE OUT.**
 
 **END OF EPISODE 01 — RICH 60-MINUTE SCRIPT**
 

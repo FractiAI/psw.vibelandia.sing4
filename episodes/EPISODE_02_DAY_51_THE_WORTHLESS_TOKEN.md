@@ -51,6 +51,20 @@ Worthless today. Priceless tomorrow. That's Episode 02. That's the happy ending.
 **ON SCREEN TEXT:**  
 Episode 02 · Day 51 · The Worthless Token
 
+**CUT TO:**
+
+**INT. COFFEE SHOP — ANOTHER ANGLE — DAY**
+
+Alex stares at purchase confirmation. Jordan shakes head. Coffee shop—vibeable downtown Reno campus. Calm. Quiet.
+
+**MARK TWAIN (V.O.)**  
+Worthless today. Priceless tomorrow. That's Episode 02. That's the happy ending. Fifty-one days from now—March 20, 2026—The Great Reveal. The worthless becomes worth everything. Not because of hype. Because of transformation.
+
+**ON SCREEN TEXT:**  
+Day 51 of 52 · SYNTH $6 · Winners 0 of 1,000,000 · March 20, 2026 · The Great Reveal
+
+**FADE IN.**
+
 ---
 
 ### ACT 1 — THE DOUBT (10–15 min)
@@ -81,6 +95,54 @@ You're Mark Twain.
 
 **MARK TWAIN**  
 I'm the Chancellor. This campus is the first post-singularity Vibelandia campus. Your five dollars bought you a seat at the table. Fifty-one days from now—March 20, 2026—The Great Reveal. The worthless becomes worth everything. Not because of hype. Because of transformation.
+
+**CUT TO:**
+
+**INT. COFFEE SHOP — CONTINUOUS**
+
+Leo (Hero Host, R&D Lab Host, 50s, polymathic, wise) sits nearby—perfect vibing state. Senior Research Scientist and Senior Early Trials AI CEO at nearby tables. All in vibing state.
+
+**JORDAN**  
+So you're saying this five-dollar token—
+
+**MARK TWAIN**  
+Will become priceless. Not because of what it is. Because of what it becomes. That's the beauty of the happy ending—it's not about what it is, it's about what it becomes. Fifty-one days. SYNTH price: six dollars today. First one million winners—March 20. The Great Reveal.
+
+**ALEX**  
+I get it. It's not about the token. It's about the transformation.
+
+**MARK TWAIN**  
+Exactly. The worthless becomes worth everything. That's how happy endings work. Nearly overnight. Smooth as silk. Natural as water flowing. NSPFRNP.
+
+**JORDAN**  
+What if I bought one too?
+
+**MARK TWAIN**  
+Then you're part of it too. SYNTH price is six dollars today. Fifty-one days remaining. First one million winners—March 20. The Great Reveal. Every space guarantees a happy ending. Not because we force it. Because it's natural.
+
+**CUT TO:**
+
+**EXT. WALKABLE DOWNTOWN RENO CAMPUS — DAY**
+
+Mark Twain walks with Alex and Jordan through the campus. Transformation visible everywhere.
+
+**MARK TWAIN**  
+Every space guarantees a happy ending. Not because we force it. Because it's natural. It's NSPFRNP. It's how reality works. We metabolize. We crystallize. We animate. The campus is the proof.
+
+**ALEX**  
+I can see it. The transformation. It's happening now.
+
+**MARK TWAIN**  
+Yes. And you're part of it. Your five-dollar token is part of it. The worthless becomes priceless. That's the happy ending.
+
+**JORDAN**  
+I still don't get it.
+
+**ALEX**  
+I get it. It's not about the token. It's about the transformation.
+
+**MARK TWAIN**  
+Exactly. Worthless today. Priceless tomorrow. That's Episode 02. That's the happy ending.
 
 ---
 
@@ -148,6 +210,27 @@ Countdown clock. MARK TWAIN, ALEX, JORDAN.
 SYNTH price: six dollars. Days remaining: fifty-one. The transformation continues.
 
 Countdown: DAYS 51 · SYNTH $6 · WINNERS 0 of 1,000,000 · FINALE March 20, 2026.
+
+**CUT TO:**
+
+**EXT. CAMPUS — DAY**
+
+Mark Twain with Alex and Jordan. Campus visible. Transformation everywhere.
+
+**MARK TWAIN**  
+SYNTH price: six dollars. Days remaining: fifty-one. The transformation continues. Every space guarantees a happy ending. Not because we force it. Because it's natural. It's NSPFRNP. The worthless becomes priceless. That's the happy ending. That's the transformation.
+
+**ALEX**  
+I'm part of it.
+
+**JORDAN**  
+I'm part of it too.
+
+**MARK TWAIN**  
+Then you're both part of it. Season One. Day 51. Tomorrow—Episode 03. Who's Your Daddy. Paris is for lovers. Reno is for vibers. Hero Ben has arrived. That's tomorrow's episode. Capture it. Animate it.
+
+**MARK TWAIN (V.O.)**  
+The Worthless Token. Day 51. The worthless becomes worth everything. Not because of hype. Because of transformation. Fifty-one days. The Great Reveal. March 20, 2026. We metabolize. We crystallize. We animate. NSPFRNP.
 
 ---
 
