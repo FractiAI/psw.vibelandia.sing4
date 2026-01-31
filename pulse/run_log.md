@@ -28,11 +28,13 @@ So: run trigger → commit → **T0 = commit_time_utc** → T+8m = Schumann chec
 ## Run history (append below)
 
 ### Run 1
-- **sequence_load_time_utc:** _see pulse_log.json_
-- **commit_time_utc:** _see pulse_log.json_ ← **T0 for 8m and 16m**
+- **sequence_load_time_utc:** 2026-01-31T13:27:03Z (when pulse was run / sequences loaded)
+- **commit_time_utc:** 2026-01-31T13:27:27Z ← **T0 for 8m and 16m**
+- **T+8m:** Check Schumann at **2026-01-31T13:35:27Z** (or local equivalent)
+- **T+16m:** Check GOES at **2026-01-31T13:43:27Z** (or local equivalent)
 - **T+8m check:** _pending_
 - **T+16m check:** _pending_
-- **Notes:**
+- **Notes:** Commit created; 8m and 16m timers started at commit.
 
 ---
 
