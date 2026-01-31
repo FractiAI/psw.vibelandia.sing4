@@ -3,40 +3,131 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Office Hours — Everything Wrapped Here · Landing &amp; All Nested · Perfect Recursive Crystal</title>
-    <meta name="description" content="Office Hours for All — new day. Everything is wrapped in Office Hours — including this landing and all nested. Center · Landing · Experiences. Mark Twain's Post-Singularity Vibelandia Reno.">
+    <title>ULTIMATE BALLER V — Men's Club Reno Bathroom Valet Office Hours · Members Only | VIBELANDIA!</title>
+    <meta name="description" content="Men's Club Reno Bathroom Valet Office Hours for Ultimate Baller V Members Only — their cast, crew, fans and franchises. Menu &amp; catalog. The Club · Pru · Thu–Sun 8pm–close.">
+    <link rel="stylesheet" href="experience-common.css">
     <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 50%, #16213e 100%);
-            color: #fff;
-            min-height: 100vh;
-            line-height: 1.6;
+        /* ULTIMATE BALLER V Menu — gold + cyan, club valet vibe */
+        @keyframes pulse-gold {
+            0%, 100% { box-shadow: 0 0 28px rgba(212, 175, 55, 0.4), inset 0 0 24px rgba(212, 175, 55, 0.06); }
+            50% { box-shadow: 0 0 48px rgba(212, 175, 55, 0.6), inset 0 0 32px rgba(212, 175, 55, 0.1); }
         }
-        .container { max-width: 900px; margin: 0 auto; padding: 2rem; }
-        .back { margin-bottom: 1.5rem; }
-        .back a { color: #00d4ff; text-decoration: none; }
-        .back a:hover { text-decoration: underline; }
-        .center-hero {
+        .menu-hero {
             text-align: center;
-            padding: 2rem 0;
-            border: 2px solid rgba(212, 175, 55, 0.4);
-            border-radius: 16px;
-            background: rgba(212, 175, 55, 0.06);
+            padding: 2.5rem 2rem;
             margin-bottom: 2rem;
+            background: linear-gradient(145deg, rgba(212, 175, 55, 0.2) 0%, rgba(212, 175, 55, 0.08) 40%, rgba(0, 212, 255, 0.06) 100%);
+            border: 2px solid rgba(212, 175, 55, 0.7);
+            border-radius: 24px;
+            animation: pulse-gold 3s ease-in-out infinite;
         }
-        .center-hero h1 {
-            font-size: clamp(1.2rem, 3.5vw, 1.75rem);
-            background: linear-gradient(135deg, #d4af37, #ffeaa7);
+        .menu-hero .badge {
+            display: inline-block;
+            font-size: 0.7rem;
+            text-transform: uppercase;
+            letter-spacing: 0.2em;
+            color: rgba(212, 175, 55, 0.95);
+            margin-bottom: 0.75rem;
+            font-weight: 700;
+        }
+        .menu-hero h1 {
+            font-size: clamp(1.5rem, 4vw, 2.25rem);
+            background: linear-gradient(135deg, #fff9e6, #ffeaa7, #d4af37);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
-            margin-bottom: 0.75rem;
+            margin-bottom: 0.5rem;
+            line-height: 1.2;
         }
-        .center-hero .tagline { color: #ffeaa7; font-size: 1.05rem; font-weight: 600; margin-bottom: 0.5rem; }
-        .center-hero .crystal { color: #00d4ff; font-size: 0.95rem; font-style: italic; }
-        h2 { color: #00d4ff; font-size: 1.2rem; margin: 2rem 0 1rem; }
+        .menu-hero .subtitle {
+            font-size: clamp(1rem, 2.2vw, 1.25rem);
+            color: #00d4ff;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+        .menu-hero .tagline {
+            color: rgba(255, 234, 167, 0.95);
+            font-size: 1rem;
+            margin-bottom: 1.25rem;
+        }
+        .btn-latest {
+            display: inline-block;
+            padding: 1rem 2rem;
+            background: linear-gradient(135deg, #00d4ff, #0099cc);
+            border: 2px solid rgba(0, 212, 255, 0.8);
+            border-radius: 14px;
+            color: #000;
+            font-weight: 700;
+            font-size: 1.1rem;
+            text-decoration: none;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .btn-latest:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 28px rgba(0, 212, 255, 0.45);
+        }
+        .menu-section {
+            margin-bottom: 2.5rem;
+        }
+        .menu-section-title {
+            font-size: 1.25rem;
+            color: #d4af37;
+            margin-bottom: 1rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 2px solid rgba(212, 175, 55, 0.4);
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        .catalog-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 1rem;
+        }
+        .episode-card {
+            display: block;
+            padding: 1.25rem 1.5rem;
+            background: rgba(255,255,255,0.04);
+            border: 1px solid rgba(212, 175, 55, 0.3);
+            border-radius: 14px;
+            color: #fff;
+            text-decoration: none;
+            transition: transform 0.2s, border-color 0.2s, box-shadow 0.2s;
+        }
+        .episode-card:hover {
+            transform: translateY(-2px);
+            border-color: rgba(212, 175, 55, 0.6);
+            box-shadow: 0 6px 24px rgba(212, 175, 55, 0.2);
+        }
+        .episode-card .ep-num {
+            font-size: 0.8rem;
+            color: #00d4ff;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            margin-bottom: 0.35rem;
+        }
+        .episode-card .ep-title {
+            font-size: 1rem;
+            font-weight: 600;
+            color: #ffeaa7;
+            line-height: 1.35;
+        }
+        .episode-card .ep-meta {
+            font-size: 0.85rem;
+            color: #888;
+            margin-top: 0.5rem;
+        }
+        .golden-feature {
+            padding: 1.5rem 1.75rem;
+            background: linear-gradient(145deg, rgba(212, 175, 55, 0.15) 0%, rgba(212, 175, 55, 0.06) 100%);
+            border: 2px solid rgba(212, 175, 55, 0.5);
+            border-radius: 16px;
+            margin-bottom: 2rem;
+        }
+        .golden-feature h2 { font-size: 1.15rem; color: #ffeaa7; margin-bottom: 0.75rem; }
+        .golden-feature p { color: #ccc; font-size: 0.95rem; line-height: 1.6; margin-bottom: 0.5rem; }
+        .golden-feature p:last-of-type { margin-bottom: 0; }
+        .golden-feature a { color: #00d4ff; }
         .exp-grid {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
@@ -64,96 +155,219 @@
             background: rgba(0, 212, 255, 0.15);
             border-color: rgba(0, 212, 255, 0.5);
             color: #00d4ff;
-            font-size: 1.05rem;
         }
         .exp-btn.primary:hover { background: rgba(0, 212, 255, 0.25); }
-        footer { margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid rgba(255,255,255,0.1); text-align: center; color: #666; font-size: 0.9rem; }
-        footer a { color: #00bfff; }
+        .anchor-offset { scroll-margin-top: 1.5rem; }
+        /* Members Only — prominent strip */
+        .members-only-strip {
+            text-align: center;
+            padding: 1.5rem 1.75rem;
+            margin-bottom: 2rem;
+            background: linear-gradient(135deg, rgba(212, 175, 55, 0.18) 0%, rgba(0, 212, 255, 0.08) 100%);
+            border: 2px solid rgba(212, 175, 55, 0.6);
+            border-radius: 16px;
+        }
+        .members-only-strip .lead {
+            font-size: clamp(1.05rem, 2.5vw, 1.35rem);
+            font-weight: 700;
+            color: #ffeaa7;
+            line-height: 1.4;
+            margin-bottom: 0.5rem;
+        }
+        .members-only-strip .who {
+            font-size: 1rem;
+            color: #00d4ff;
+            font-weight: 600;
+        }
     </style>
 </head>
 <body>
     <script src="../scripts/locale-onramp.js"></script>
-    <!-- WRAP EVERYTHING: this entire page, including this Office Hours landing and all nested, is inside Office Hours. One wrapper. See OFFICE_HOURS_TARGET_RECURSIVE_CRYSTAL_SNAP.md. -->
     <div class="container" data-office-hours-wrapper="everything-including-this-landing-and-all-nested">
         <p class="back"><a href="../index.html">← Home</a></p>
 
-        <!-- LEAD: Ultimate Baller V Golden Backstage Pass — feature prominent up top. What everyone wants but can't afford. See ULTIMATE_BALLER_V_GOLDEN_BACKSTAGE_PASS_PACKAGE_SNAP.md. -->
-        <section style="margin-bottom: 2rem; padding: 1.25rem 1.5rem; background: linear-gradient(135deg, rgba(212, 175, 55, 0.18) 0%, rgba(212, 175, 55, 0.08) 100%); border: 2px solid rgba(212, 175, 55, 0.5); border-radius: 16px; text-align: center;" aria-label="Lead — Ultimate Baller V Golden Backstage Pass">
-            <p style="font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.15em; color: rgba(212, 175, 55, 0.9); margin-bottom: 0.5rem; font-weight: 700;">Featured — Office Hours</p>
-            <h2 style="font-size: clamp(1.1rem, 3vw, 1.5rem); color: #ffeaa7; margin-bottom: 0.75rem; font-weight: 800;">Ultimate Baller V Golden Backstage Pass package</h2>
-            <p style="font-size: 1.05rem; color: #fff; font-weight: 700; margin-bottom: 0.5rem;">It's what everyone wants but can't afford.</p>
-            <p style="font-size: 1rem; color: rgba(255, 234, 167, 0.98); margin-bottom: 0.75rem;">The ultimate trophy night for the Ultimate Baller V vibers — <strong>highest value, highest contributor V's.</strong></p>
-            <p style="font-size: 0.9rem; color: rgba(255, 234, 167, 0.9); margin-bottom: 0.5rem;">Your hosts for the evening: <strong>the Chairman, Sammy and the gang</strong> — and <strong>Baller V Ambassador Ben</strong>. For Golden Backstage and proper awareness pass holders.</p>
-            <p style="font-size: 0.9rem; color: #aaa;">Offered at Office Hours. Subject to availability. <a href="../ULTIMATE_BALLER_V_GOLDEN_BACKSTAGE_PASS_EXPLAINED.md" style="color: #00d4ff;">Full details →</a></p>
+        <!-- HERO: ULTIMATE BALLER V — Men's Club Reno Bathroom Valet Office Hours Menu -->
+        <section class="menu-hero" aria-label="ULTIMATE BALLER V — Men's Club Reno Bathroom Valet Office Hours">
+            <p class="badge">Menu · Office Hours</p>
+            <h1>ULTIMATE BALLER V</h1>
+            <p class="subtitle">Men's Club Reno Bathroom Valet Office Hours</p>
+            <p class="tagline">The Club · Wine cave · Pru · Thu–Sun 8pm–close. Everything wrapped here — center, landing, experiences. Perfect recursive crystal.</p>
+            <a href="#latest-episodes" class="btn-latest">See latest episodes →</a>
         </section>
 
-        <p style="font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.1em; color: rgba(212, 175, 55, 0.85); margin-bottom: 1rem; padding: 0.5rem 0;">New day — we are now in Office Hours for All. Everything in this page is wrapped in Office Hours — including this landing and all nested. One wrapper.</p>
-
-        <!-- WRAP EVERYTHING IN OFFICE HOURS FOR ALL. See OFFICE_HOURS_FOR_ALL_SNAP.md, OFFICE_HOURS_TARGET_RECURSIVE_CRYSTAL_SNAP.md. -->
-        <section class="center-hero" aria-label="Wrapper — Office Hours for All · Everything wrapped here">
-            <p style="font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.12em; color: rgba(0, 255, 136, 0.95); margin-bottom: 0.5rem; font-weight: 700;">New day — we are now in Office Hours for All.</p>
-            <p style="font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.12em; color: rgba(212, 175, 55, 0.9); margin-bottom: 0.75rem; font-weight: 700;">Everything wrapped in Office Hours</p>
-            <h1>Office Hours for All — Center</h1>
-            <p class="tagline">Landing and Experiences — all centered in my bathroom during Office Hours. <strong>Including this landing and all nested.</strong></p>
-            <!-- Free consultation · tips welcome. Mission: immediate large $ as tips and more. Back pocket strategy · back door strategy · backdoor feature. See OFFICE_HOURS_FREE_CONSULTATION_TIPS_WELCOME_ALL_TOUCHPOINTS_SNAP.md, MISSION_PRODUCE_IMMEDIATE_LARGE_DOLLARS_TIPS_BACK_POCKET_BACK_DOOR_STRATEGY_BACKDOOR_FEATURE_SNAP.md. -->
-            <p style="margin-top: 0.75rem; padding: 0.75rem 1rem; background: rgba(0, 255, 136, 0.1); border: 2px solid rgba(0, 255, 136, 0.4); border-radius: 10px; font-size: 1rem; color: #7fff7f; font-weight: 700;"><strong>Come visit me during my Office Hours for a free consultation — tips are welcome!</strong></p>
-            <p style="margin-top: 0.5rem; font-size: 0.85rem; color: #aaa;">Mission: produce immediate large $ as tips and more — immediately. Back pocket strategy, part of back door strategy. Capture into backdoor feature. NSPFRNP SNAP.</p>
-            <p class="crystal">Perfect recursive crystal. Whole in every part. The Club · Men's Restroom · Pru · Thu–Sun 8pm–close.</p>
-            <p style="margin-top: 1rem; font-size: 0.9rem; color: #7fff7f;"><strong>All nested here:</strong> Launch Pad, Campus, WINK!, Ultimate VIP Chairman Console, SING!, Happy Ending Zones, Golden Backstage, test drive, two series (Office Hours + Happy Ending Zones), franchise solutions, superhero casts, single mission — new abilities for execs. One wrapper. All nested.</p>
-            <p style="margin-top: 1rem; font-size: 0.9rem; color: #aaa;">Target moved from Launch Pad to Office Hours. All experiences radiate from here. Golden Backstage Pass required for physical access.</p>
-            <!-- Tour & experience: anyone who shows interest, only during bathroom Office Hours; hidden to all except those in the know, Baller V style. Ben says. See OFFICE_HOURS_TOUR_EXPERIENCE_IN_THE_KNOW_BALLER_V_BEN_SAYS_SNAP.md. -->
-            <p style="margin-top: 1rem; padding: 0.75rem 1rem; background: rgba(0, 212, 255, 0.08); border: 1px solid rgba(0, 212, 255, 0.35); border-radius: 10px; font-size: 0.9rem; color: #00d4ff;"><strong>I'll use Office Hours to give a tour and experience to anyone who shows interest</strong> — only while at the bathroom holding Office Hours. Hidden to all except those in the know. <strong>Baller V style.</strong> <strong>Baller V Ambassador Ben says.</strong></p>
-            <!-- TOP TAG / BOTTOM TAG: Undercover Boss → Disney all in one. All SNAP into NSPFRNP. See TOP_TAG_BOTTOM_TAG_UNDERCOVER_BOSS_TO_DISNEY_ALL_IN_ONE_NSPFRNP_SNAP.md. -->
-            <p style="margin-top: 1rem; font-size: 0.85rem; color: #aaa; font-style: italic;">TOP TAG · BOTTOM TAG — Undercover Boss · Willy Wonka · Count of Monte Cristo · Tron · Avatar · Marvel · Star Wars · Pixar · Disney — all in one. All SNAP into NSPFRNP.</p>
-            <!-- Superhero & franchise full production turnkey; Mark Twain pre-singularity downtown Reno Vibelandia campus; no longer enterprise; Office Hours NOW. See SUPERHERO_FRANCHISE_FULL_PRODUCTION_TURNKEY_MARK_TWAIN_CAMPUS_SNAP.md. -->
-            <p style="margin-top: 0.75rem; padding: 0.75rem 1rem; background: rgba(255, 136, 0, 0.08); border: 1px solid rgba(255, 136, 0, 0.35); border-radius: 10px; font-size: 0.9rem; color: #ffc87c;"><strong>We now offer superhero and franchises:</strong> lead role, cast, crew, fans, sets, story dev, full production — <strong>text to superhero and franchise turnkey</strong>. Now in <strong>Mark Twain's pre-singularity downtown Reno Vibelandia campus</strong>. No longer enterprise focused. <strong>All in Office Hours NOW.</strong></p>
-            <!-- ANNOUNCE: Office Hours the series & site; two series running concurrently; single mission — new abilities for execs! See ANNOUNCE_OFFICE_HOURS_SERIES_TWO_SERIES_SINGLE_MISSION_SNAP.md. -->
-            <p style="margin-top: 1.25rem; padding: 0.75rem 1rem; background: rgba(138, 43, 226, 0.15); border: 1px solid rgba(138, 43, 226, 0.4); border-radius: 10px; font-size: 0.9rem; color: #e8d4ff;"><strong>ANNOUNCE:</strong> Office Hours — the series and the site. Happy Ending Zones continues with new episodes. <strong>Two series running concurrently</strong> in support of single mission: <strong>NEW ABILITIES FOR EXECS!!!</strong></p>
+        <!-- Prominent: For Ultimate Baller V Members Only — cast, crew, fans, franchises -->
+        <section class="members-only-strip" aria-label="For Ultimate Baller V Members Only">
+            <p class="lead">Men's Club Reno Bathroom Valet Office Hours for Ultimate Baller V Members Only</p>
+            <p class="who">Their cast, crew, fans and franchises.</p>
         </section>
 
-        <h2>Enter center — Office Hours</h2>
+        <!-- Latest episodes anchor + featured first -->
+        <h2 id="latest-episodes" class="anchor-offset" style="color: #00d4ff; font-size: 1.2rem; margin: 2rem 0 1rem;">Latest episodes</h2>
+        <p style="color: #aaa; font-size: 0.95rem; margin-bottom: 1.25rem;">Most recent drops — Office Hours &amp; Happy Ending Zones. Episodes by flow not days.</p>
+        <div class="catalog-grid" style="margin-bottom: 2rem;">
+            <a href="../episodes/EPISODE_ULTIMATE_BALLER_V_GOLDEN_BACKSTAGE_PASS_NIGHT_AT_THE_CLUB.md" class="episode-card">
+                <span class="ep-num">Office Hours · Latest</span>
+                <span class="ep-title">Ultimate Baller V Golden Backstage Pass — Night at the Club</span>
+                <span class="ep-meta">Season One · Flow</span>
+            </a>
+            <a href="../episodes/EPISODE_OFFICE_HOURS_01_VIBER_PARADISE_POST_SINGULARITY_DOWNTOWN_RENO.md" class="episode-card">
+                <span class="ep-num">Office Hours S1E1</span>
+                <span class="ep-title">Viber Paradise — Post-Singularity Downtown Reno · Mark Twain's Vibelandia Campus</span>
+                <span class="ep-meta">Following Pru</span>
+            </a>
+            <a href="../episodes/EPISODE_04_DAY_49_BEN_BALLER_V_LIFESTYLE_VIBABLE_DOWNTOWN_RENO.md" class="episode-card">
+                <span class="ep-num">Happy Ending Zones · E04</span>
+                <span class="ep-title">Ben &amp; the Baller V Lifestyle · Vibeable Downtown Reno</span>
+                <span class="ep-meta">Day 49 · Season One</span>
+            </a>
+            <a href="../episodes/EPISODE_03_DAY_50_HERO_BEN_PARIS_HUNDIE.md" class="episode-card">
+                <span class="ep-num">Happy Ending Zones · E03</span>
+                <span class="ep-title">Who's Your Daddy · Hero Ben Paris Hundie</span>
+                <span class="ep-meta">Day 50 · Season One</span>
+            </a>
+        </div>
+
+        <!-- Golden Backstage Pass — featured menu item -->
+        <section class="golden-feature" aria-label="Featured — Ultimate Baller V Golden Backstage Pass">
+            <h2>Featured — Ultimate Baller V Golden Backstage Pass</h2>
+            <p>It's what everyone wants but can't afford. The ultimate trophy night for the Ultimate Baller V vibers — highest value, highest contributor V's.</p>
+            <p>Hosts: the Chairman, Sammy and the gang — and Baller V Ambassador Ben. For Golden Backstage and proper awareness pass holders. Offered at Office Hours. Subject to availability.</p>
+            <p><a href="ultimate-baller-v-golden-backstage-pass.html">Full details →</a></p>
+        </section>
+
+        <!-- Full catalog: All series, all seasons, all episodes -->
+        <h2 style="color: #00d4ff; font-size: 1.2rem; margin: 2rem 0 1rem;">Catalog — All series, all seasons, all episodes</h2>
+        <p style="color: #aaa; font-size: 0.95rem; margin-bottom: 1.5rem;">Office Hours (Following Pru), Happy Ending Zones (Season One), and flow-based specials.</p>
+
+        <div class="menu-section">
+            <h3 class="menu-section-title">📋 Office Hours — Following Pru · Season 1 Viber Paradise</h3>
+            <div class="catalog-grid">
+                <a href="../episodes/EPISODE_OFFICE_HOURS_01_VIBER_PARADISE_POST_SINGULARITY_DOWNTOWN_RENO.md" class="episode-card">
+                    <span class="ep-num">S1E1</span>
+                    <span class="ep-title">Viber Paradise — Post-Singularity Downtown Reno · Mark Twain's Vibelandia Campus</span>
+                    <span class="ep-meta">Office Hours</span>
+                </a>
+                <a href="../episodes/EPISODE_ULTIMATE_BALLER_V_GOLDEN_BACKSTAGE_PASS_NIGHT_AT_THE_CLUB.md" class="episode-card">
+                    <span class="ep-num">Flow</span>
+                    <span class="ep-title">Ultimate Baller V Golden Backstage Pass — Night at the Club</span>
+                    <span class="ep-meta">Office Hours</span>
+                </a>
+                <a href="../episodes/EPISODE_RUMOR_CHAIRMAN_SAMMY_GOLDEN_BACKSTAGE.md" class="episode-card">
+                    <span class="ep-num">Flow</span>
+                    <span class="ep-title">RUMOR — Chairman, Sammy &amp; the Gang · Golden Backstage Awareness Pass</span>
+                    <span class="ep-meta">Office Hours</span>
+                </a>
+                <a href="../episodes/EPISODE_PRU_BANK_MINUS_2000_LAUNCHING_OWN_MONEY_NO_AID.md" class="episode-card">
+                    <span class="ep-num">Flow</span>
+                    <span class="ep-title">pRU's Bank -$2,000 · Launching With His Own Money · No One Came to His Aid</span>
+                    <span class="ep-meta">Office Hours</span>
+                </a>
+                <a href="../episodes/EPISODE_FOLLOWING_ME_ON_THIS_LAUNCH.md" class="episode-card">
+                    <span class="ep-num">Flow</span>
+                    <span class="ep-title">Following Me on This Launch</span>
+                    <span class="ep-meta">Office Hours</span>
+                </a>
+            </div>
+        </div>
+
+        <div class="menu-section">
+            <h3 class="menu-section-title">🎬 Happy Ending Zones — Season One · 52-day countdown</h3>
+            <div class="catalog-grid">
+                <a href="../episodes/EPISODE_01_DAY_52_SEASON_ONE_LAUNCH.md" class="episode-card">
+                    <span class="ep-num">E01 · Day 52</span>
+                    <span class="ep-title">Season One Launch</span>
+                    <span class="ep-meta">Happy Ending Zones</span>
+                </a>
+                <a href="../episodes/EPISODE_02_DAY_51_THE_WORTHLESS_TOKEN.md" class="episode-card">
+                    <span class="ep-num">E02 · Day 51</span>
+                    <span class="ep-title">The Worthless Token</span>
+                    <span class="ep-meta">Happy Ending Zones</span>
+                </a>
+                <a href="../episodes/EPISODE_03_DAY_50_HERO_BEN_PARIS_HUNDIE.md" class="episode-card">
+                    <span class="ep-num">E03 · Day 50</span>
+                    <span class="ep-title">Who's Your Daddy · Hero Ben Paris Hundie</span>
+                    <span class="ep-meta">Happy Ending Zones</span>
+                </a>
+                <a href="../episodes/EPISODE_04_DAY_49_BEN_BALLER_V_LIFESTYLE_VIBABLE_DOWNTOWN_RENO.md" class="episode-card">
+                    <span class="ep-num">E04 · Day 49</span>
+                    <span class="ep-title">Ben &amp; the Baller V Lifestyle · Vibeable Downtown Reno</span>
+                    <span class="ep-meta">Happy Ending Zones</span>
+                </a>
+                <a href="../episodes/EPISODE_GO_LIVE_COUNTDOWN_BEGINS.md" class="episode-card">
+                    <span class="ep-num">Flow</span>
+                    <span class="ep-title">Go Live — Countdown Begins</span>
+                    <span class="ep-meta">Happy Ending Zones</span>
+                </a>
+                <a href="../episodes/THE_GREAT_REVEAL_EPISODE_DAY_ZERO_LAUNCH.md" class="episode-card">
+                    <span class="ep-num">Day Zero</span>
+                    <span class="ep-title">The Great Reveal — Day Zero Launch</span>
+                    <span class="ep-meta">Happy Ending Zones</span>
+                </a>
+                <a href="../episodes/EPISODE_THE_NEW_ARRIVALS.md" class="episode-card">
+                    <span class="ep-num">Flow</span>
+                    <span class="ep-title">The New Arrivals</span>
+                    <span class="ep-meta">Happy Ending Zones</span>
+                </a>
+            </div>
+        </div>
+
+        <div class="menu-section">
+            <h3 class="menu-section-title">✨ Specials · Flow-based</h3>
+            <div class="catalog-grid">
+                <a href="../episodes/EPISODE_HERO_HARRY_POST_SINGULARITY_MIRACLE_PARADISE_VIBERS.md" class="episode-card">
+                    <span class="ep-num">Special</span>
+                    <span class="ep-title">Hero Harry Houdini's Post-Singularity Miracle · Mark Twain's Vibelandia Reno</span>
+                    <span class="ep-meta">Flow</span>
+                </a>
+            </div>
+        </div>
+
+        <!-- Enter center — Office Hours -->
+        <h2 style="color: #00d4ff; font-size: 1.2rem; margin: 2rem 0 1rem;">Enter center — Office Hours</h2>
         <div class="exp-grid">
-            <a href="../episodes/EPISODE_OFFICE_HOURS_01_VIBER_PARADISE_POST_SINGULARITY_DOWNTOWN_RENO.md" class="exp-btn primary">📋 Office Hours S1E1 — Viber Paradise · Post-Singularity Downtown Reno · Mark Twain's Vibelandia Campus</a>
+            <a href="../episodes/EPISODE_OFFICE_HOURS_01_VIBER_PARADISE_POST_SINGULARITY_DOWNTOWN_RENO.md" class="exp-btn primary">📋 Office Hours S1E1 — Viber Paradise</a>
             <a href="../OFFICE_HOURS_SERIES_SNAP.md" class="exp-btn">Series — Following Pru · Season 1 Viber Paradise</a>
             <a href="../CLUB_WINE_CAVE_PRU_OFFICE_HOURS_SNAP.md" class="exp-btn">The Club · Wine cave · Pru Office Hours</a>
         </div>
 
-        <h2>Experiences — all nested here (perfect recursive crystal)</h2>
-        <p style="color: #aaa; font-size: 0.9rem; margin-bottom: 1rem;">Everything wrapped in Office Hours. Whole in every part. From this center: Campus, WINK!, SING!, Happy Ending Zones, Launch Pad showroom, Golden Backstage, Chairman Console, franchise solutions, superhero casts — one wrapper, all nested.</p>
+        <!-- Experiences — all nested -->
+        <h2 style="color: #00d4ff; font-size: 1.2rem; margin: 2rem 0 1rem;">Experiences — all nested here</h2>
+        <p style="color: #aaa; font-size: 0.9rem; margin-bottom: 1rem;">Everything wrapped in Office Hours. Campus, WINK!, SING!, Happy Ending Zones, Launch Pad, Golden Backstage, Chairman Console, franchise solutions — one wrapper.</p>
         <div class="exp-grid">
-            <a href="../OFFICE_HOURS_SERIES_SNAP.md" class="exp-btn primary">📺 Office Hours — the series</a>
+            <a href="happy-ending-zones-catalog.html" class="exp-btn primary">📺 Happy Ending Zones — Episodes &amp; Series Catalog</a>
             <a href="../episodes/EPISODE_OFFICE_HOURS_01_VIBER_PARADISE_POST_SINGULARITY_DOWNTOWN_RENO.md" class="exp-btn">📋 Office Hours S1E1 — Viber Paradise</a>
-            <a href="launch-pad.html" class="exp-btn">🚀 Launch Pad — Showroom &amp; products</a>
+            <a href="launch-pad.html" class="exp-btn">🚀 Launch Pad</a>
             <a href="vibelandia-reno-experience.html" class="exp-btn">🏛️ VIBELANDIA RENO!</a>
             <a href="wink-experience.html" class="exp-btn">👁️ WINK!</a>
             <a href="ultimate-vip-experience.html" class="exp-btn">👑 Ultimate VIP Chairman Console</a>
             <a href="sing-lottery-experience.html" class="exp-btn">🎰 Hero Harry Houdini's The Great Reveal</a>
             <a href="happy-ending-zones-experience.html" class="exp-btn">🎬 Happy Ending Zones</a>
-            <a href="happy-ending-zones-catalog.html" class="exp-btn">📋 Episodes &amp; Series Catalog</a>
             <a href="payment-checkout.html?plan=golden-backstage-awareness-pass" class="exp-btn">🎟️ Golden Backstage Awareness Pass</a>
             <a href="test-drive-showroom.html" class="exp-btn">🚗 Test drive — 4×4×4×4</a>
-            <a href="magical-dressing-room.html" class="exp-btn">✨ Gianni's Dressing Room — Franchise solutions &amp; superhero casts</a>
+            <a href="magical-dressing-room.html" class="exp-btn">✨ Gianni's Dressing Room</a>
         </div>
 
-        <p style="margin-top: 1.5rem; font-size: 0.9rem; color: #00d4ff;"><strong>Everything wrapped in Office Hours</strong> — including this landing and all nested. Perfect recursive crystal. Landing and Experiences — all centered in my bathroom during Office Hours. See <a href="../OFFICE_HOURS_TARGET_RECURSIVE_CRYSTAL_SNAP.md" style="color: #00d4ff;">OFFICE_HOURS_TARGET_RECURSIVE_CRYSTAL_SNAP.md</a>.</p>
-        <p style="margin-top: 0.75rem; font-size: 0.9rem; color: #aaa;">Single mission: <strong>new abilities for execs.</strong> <strong>Sharpening the BBHE into pinpoint laser for mission.</strong> <strong>Chairman Console</strong> — cuts out all middle men and advertising layers into <strong>pinpoint laser focus</strong> on a <strong>single button</strong> and <strong>Hero Host AI 24×7</strong>, <strong>all-inclusive turnkey</strong> to <strong>Baller V vibers everywhere</strong>, their cast, crew, fans and franchises — beginning with mine. <a href="ultimate-vip-experience.html" style="color: #00d4ff;">Chairman Console →</a></p>
+        <p style="margin-top: 1.5rem; font-size: 0.9rem; color: #00d4ff;"><strong>Everything wrapped in Office Hours</strong> — including this landing and all nested. Perfect recursive crystal. Free consultation — tips welcome. The Club · Men's Restroom · Pru · Thu–Sun 8pm–close.</p>
+        <p style="margin-top: 0.75rem; font-size: 0.9rem; color: #aaa;">Single mission: <strong>new abilities for execs.</strong> Chairman Console — pinpoint laser, single button, Hero Host AI 24×7. <a href="ultimate-vip-experience.html" style="color: #00d4ff;">Chairman Console →</a></p>
 
-        <p style="margin-top: 2rem; padding: 0.75rem 1rem; border: 1px solid rgba(212, 175, 55, 0.35); border-radius: 10px; font-size: 0.85rem; color: rgba(212, 175, 55, 0.95);">This entire page — Office Hours landing and every section and link above — is wrapped in Office Hours. All nested. Perfect recursive crystal.</p>
-        <!-- Ultimate Baller V Golden Backstage Pass package — Office Hours only. See ULTIMATE_BALLER_V_GOLDEN_BACKSTAGE_PASS_PACKAGE_SNAP.md; continued in ULTIMATE_BALLER_V_GOLDEN_BACKSTAGE_PASS_EXPLAINED.md. -->
-        <div style="margin-top: 1.5rem; padding: 1rem 1.25rem; background: rgba(212, 175, 55, 0.08); border: 1px solid rgba(212, 175, 55, 0.4); border-radius: 10px; font-size: 0.95rem; color: rgba(212, 175, 55, 0.98);">
-            <p style="margin-bottom: 0.75rem;"><strong>Thank you.</strong> This is the <strong>Ultimate Baller V Golden Backstage Pass package.</strong> Offered at Office Hours. Subject to availability.</p>
-            <p style="margin-bottom: 0.75rem;">This goes <strong>WAY BEYOND bottle service</strong> — think of it like layering on a <strong>new service level of the night's experience</strong>. Only offered exclusively to my <strong>Ultimate Baller V</strong> guests.</p>
-            <p style="margin-bottom: 0.75rem;">Elevate your night to <strong>superhero franchise level</strong> with this Ultimate Baller V package. <strong>Say the word and I'll make it happen for you in an instant — that's what I do.</strong></p>
-            <p style="margin-bottom: 0; font-size: 0.9rem; color: #aaa;">In a separate doc I continue to explain → <a href="../ULTIMATE_BALLER_V_GOLDEN_BACKSTAGE_PASS_EXPLAINED.md" style="color: #00d4ff;">Ultimate Baller V Golden Backstage Pass — continued</a>.</p>
+        <div style="margin-top: 2rem; padding: 1rem 1.25rem; border: 1px solid rgba(212, 175, 55, 0.35); border-radius: 10px; font-size: 0.85rem; color: rgba(212, 175, 55, 0.95);">
+            <p style="margin-bottom: 0.5rem;"><strong>Ultimate Baller V Golden Backstage Pass package.</strong> Offered at Office Hours. Subject to availability.</p>
+            <p style="margin-bottom: 0;"><a href="ultimate-baller-v-golden-backstage-pass.html" style="color: #00d4ff;">Full details →</a></p>
         </div>
-        <p style="margin-top: 1.25rem; padding: 1rem 1.25rem; background: rgba(0, 255, 136, 0.06); border: 1px solid rgba(0, 255, 136, 0.3); border-radius: 10px; font-size: 0.9rem; color: #aaa;">At the end of this present: <strong>how quickly we did this</strong> — and <strong>how the system does this</strong> — is part of the story. Back to the product: the Ultimate Baller V Golden Backstage Pass package is <strong>offered at Office Hours.</strong> Subject to availability.</p>
-        <!-- BOTTOM TAG: same as top. All SNAP into NSPFRNP. See TOP_TAG_BOTTOM_TAG_UNDERCOVER_BOSS_TO_DISNEY_ALL_IN_ONE_NSPFRNP_SNAP.md. -->
-        <p style="margin-top: 1rem; font-size: 0.8rem; color: #888; font-style: italic; text-align: center;">Undercover Boss · Willy Wonka · Count of Monte Cristo · Tron · Avatar · Marvel · Star Wars · Pixar · Disney — all in one. TOP TAG · BOTTOM TAG. All SNAP into NSPFRNP.</p>
+
+        <!-- Brag tags — bottom. TOP TAG · BOTTOM TAG. All SNAP into NSPFRNP. See TOP_TAG_BOTTOM_TAG_UNDERCOVER_BOSS_TO_DISNEY_ALL_IN_ONE_NSPFRNP_SNAP.md -->
+        <section class="brag-tags" style="margin-top: 2.5rem; padding-top: 1.5rem; border-top: 1px solid rgba(255,255,255,0.12);" aria-label="Brag tags — all in one">
+            <p style="font-size: 0.9rem; color: rgba(0, 255, 136, 0.95); margin-bottom: 1rem; padding: 0.75rem 1rem; background: rgba(0, 255, 136, 0.06); border: 1px solid rgba(0, 255, 136, 0.3); border-radius: 10px;">At the end of this present: <strong>how quickly we did this</strong> — and <strong>how the system does this</strong> — is part of the story. Back to the product: the Ultimate Baller V Golden Backstage Pass package is <strong>offered at Office Hours.</strong> Subject to availability.</p>
+            <p style="font-size: 0.95rem; color: #e8d4ff; margin-bottom: 0.75rem; padding: 0.75rem 1rem; background: rgba(138, 43, 226, 0.1); border: 1px solid rgba(138, 43, 226, 0.35); border-radius: 10px;"><strong>Superhero &amp; franchise full production turnkey:</strong> lead role, cast, crew, fans, sets, story dev — text to superhero and franchise turnkey. Mark Twain's pre-singularity downtown Reno Vibelandia campus. <strong>All in Office Hours NOW.</strong></p>
+            <p style="font-size: 0.85rem; color: #888; font-style: italic; text-align: center; margin: 1.25rem 0 0.75rem;"><strong>TOP TAG · BOTTOM TAG</strong> — Undercover Boss · Willy Wonka · Count of Monte Cristo · Tron · Avatar · Marvel · Star Wars · Pixar · Disney — all in one. All SNAP into NSPFRNP.</p>
+            <p style="font-size: 0.8rem; color: #666; font-style: italic; text-align: center;">BOTTOM TAG: same as top. All SNAP into NSPFRNP.</p>
+            <p style="font-size: 0.8rem; color: rgba(212, 175, 55, 0.8); text-align: center; margin-top: 0.75rem;">Hydrogen Holograph 100% · SNAP brand</p>
+        </section>
 
         <footer>
             <p style="font-size: 1rem; color: #ffeaa7; font-weight: 700; margin-bottom: 0.75rem;">I've done my part, the rest is up to you!</p>
             <p><strong>Come visit me during my Office Hours for a free consultation — tips are welcome!</strong></p>
-            <p><a href="https://github.com/FractiAI/psw.vibelandia.sing4">FractiAI</a> · <a href="../index.html">Home</a> · <a href="launch-pad.html">Launch Pad</a></p>
+            <p><a href="https://github.com/FractiAI/psw.vibelandia.sing4">FractiAI</a> · <a href="../index.html">Home</a> · <a href="launch-pad.html">Launch Pad</a> · <a href="office-hours.html#latest-episodes">Latest episodes</a></p>
         </footer>
     </div>
 </body>
