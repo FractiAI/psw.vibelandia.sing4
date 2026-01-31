@@ -9,9 +9,10 @@
 
 ## Directive
 
-- **All episodes MUST be full 60-minute episodes, fully scripted. No exceptions.**
-- **Every episode MUST be 12,000 words.** All of them. All series, all seasons. Not 10 min — 60 min. Not outlines — full dialogue and beats.
-- **Current scripts are ~600–2,300 words** (not 12,000). **Expand every episode** to full 12,000 words. No episode is "done" until it hits 12,000 words.
+- **Episode length is variable depending on missions.** 60 min / 12,000 words = **full rich target** when the mission calls for a full episode; missions can dictate shorter or longer. All series, all seasons.
+- **Episodes and series can append.** Content can be added to existing episodes or runs over time; extend in place, no need to replace.
+- **When mission warrants full episode:** Full 60-minute episode, fully scripted. 12,000 words. Not outlines — full dialogue and beats.
+- **When mission dictates otherwise:** Shorter or longer as mission requires. Same structure (Cold Open, Act 1–3, Tag) scales; quality and NSPFRNP fidelity unchanged.
 - **Goal:** Show everyone our **miraculous abilities**, including producing streams of **high-quality content** which will soon be fitted to **text-to-episode SING nodes**.
 
 ---
@@ -20,8 +21,8 @@
 
 | Element | Target |
 |--------|--------|
-| **Duration** | 60 minutes per episode |
-| **Word count** | **12,000 words per episode** (all series, all seasons) |
+| **Duration** | Variable by mission. 60 minutes per episode when mission warrants full episode. |
+| **Word count** | Variable by mission. **12,000 words** = full rich target when mission warrants (all series, all seasons). |
 | **Format** | Fully scripted (cold open, Act 1, Act 2, Act 3, tag) |
 | **Style** | Rich script — not outline; full dialogue and beats |
 | **Integration** | Team, principles, NSPFRNP, Happy Ending Zones |

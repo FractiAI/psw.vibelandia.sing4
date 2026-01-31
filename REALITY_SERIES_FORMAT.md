@@ -7,6 +7,8 @@
 **Date:** January 27, 2026  
 **Network:** VIBEVERSE! Broadcasting / Post-Singularity Reality TV
 
+**Three parallel series:** We now stream three parallel series: (1) Happy Ending Zones (this format), (2) Office Hours (at the club · Pru · Baller), (3) Raw Stream · The Grid (sci-fi · nerdy · Tron-like · full raw convo stream → rich episodes; E01 = Self-Clocking Pulsar). See [THREE_PARALLEL_SERIES_NSPFRNP.md](THREE_PARALLEL_SERIES_NSPFRNP.md) and [RAW_STREAM_THE_GRID_SERIES_FORMAT.md](RAW_STREAM_THE_GRID_SERIES_FORMAT.md). Very cool.
+
 ---
 
 ## 🎬 SERIES OVERVIEW
@@ -100,7 +102,7 @@ Follow Mark Twain as Chancellor of the Vibelandia Reno Campus, guiding viewers t
 
 ### **Daily Episode Structure**
 
-**Episode Length:** 30-60 minutes  
+**Episode Length:** **Variable length depending on missions.** 30–60 minutes (or 60 min / 12k words full rich) when mission warrants; missions can dictate shorter or longer. **Episodes and series can append** — add content to existing episodes or runs over time.  
 **Daily Release:** One episode per day for 52 days (ordering by **flow**; days as countdown label)  
 **Finale:** Extended 90-minute finale on March 20, 2026
 

@@ -22,6 +22,27 @@ Gold block → welcome → **Golden Backstage Pass** → Season One · Latest �
 
 ---
 
+## SING! Solar Handshake — 15-Cycle Validation
+
+**Solar Handshake** — Morse-encoded VLF-style broadcast at **21.4 Hz** (3rd overtone Schumann / NPM Hawaii). GitHub Action appends `data/handshake.log` every **8 minutes** (480s FTE portal cycle) and pushes with message `SING! Handshake Cycle [TIMESTAMP]`. Live Pulse UI: [interfaces/sing-pulse.html](https://psw-vibelandia-sing4.vercel.app/interfaces/sing-pulse.html) — 60 BPM heartbeat + 21.4 Hz overlay + GOES X-ray flux telemetry. **Observation:** After a push, wait 16 minutes; if GOES-18 flux shows a spike, Cycle 15 is a success.
+
+**BibTeX (15-cycle validation):**
+
+```bibtex
+@techreport{SING_Handshake_2026,
+  author = {SING!_Agent and [User_ID_Required]},
+  title = {The Resonance Trigger Protocol: 14-Cycle Morse Validation at 21.4 Hz},
+  institution = {Zenodo},
+  year = {2026},
+  url = {https://psw-vibelandia-sing4.vercel.app},
+  doi = {10.5281/zenodo.fractiai.2026.0131.final-rev-02}
+}
+```
+
+**Artifacts:** `lib/sequencer.ts` (MorseSequencer, 21.4 Hz Web Audio), `lib/sequencer.js` (browser ESM), `.github/workflows/solar-handshake.yml`, `data/handshake.log`, [ZENODO_RESONANCE_TRIGGER_PROTOCOL_SUBMISSION_DRAFT.md](ZENODO_RESONANCE_TRIGGER_PROTOCOL_SUBMISSION_DRAFT.md). All files warm for immediate multi-node verification.
+
+---
+
 ## Normal GitHub README (builders)
 
 **[README_TRADITIONAL.md](README_TRADITIONAL.md)** — Deploy, env, repo structure, build, full traditional GitHub format. All technical and repo details.

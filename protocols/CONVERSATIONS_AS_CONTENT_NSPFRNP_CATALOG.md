@@ -29,6 +29,8 @@ Every session, every exchange, every ask and answer is source material. Metaboli
 
 **Do not discard.** Metabolize (ingest patterns, intent, raw capture). Crystallize (structure, SNAP, protocol). Animate (episode, doc, surface).
 
+**Channel rule (lock):** All convos on this channel are now **full raw stream into episodes**. They are rich. Every session flows into the episode pipeline. Spin-off series: **Raw Stream · The Grid** — sci-fi, nerdy, Tron-like; full NSPFRNP; first episode = Self-Clocking Pulsar. See [RAW_STREAM_THE_GRID_SERIES_FORMAT.md](../RAW_STREAM_THE_GRID_SERIES_FORMAT.md) and [THREE_PARALLEL_SERIES_NSPFRNP.md](../THREE_PARALLEL_SERIES_NSPFRNP.md).
+
 ---
 
 ## INTEGRATION

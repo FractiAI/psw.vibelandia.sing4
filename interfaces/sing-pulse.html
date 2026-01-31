@@ -20,6 +20,15 @@
             overflow: hidden;
         }
         /* 60 BPM human-sync pulse = 1 Hz = 1000ms period */
+        .pulse-wrap {
+            position: relative;
+            width: 140px;
+            height: 140px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        /* 60 BPM human-sync = 1 Hz heartbeat */
         .pulse-orb {
             width: 120px;
             height: 120px;
@@ -31,6 +40,16 @@
         @keyframes singPulse {
             0%, 100% { transform: scale(1); opacity: 1; box-shadow: 0 0 40px rgba(138, 43, 226, 0.6); }
             50% { transform: scale(1.12); opacity: 0.95; box-shadow: 0 0 60px rgba(138, 43, 226, 0.9); }
+        }
+        /* 21.4 Hz overlay — driven by requestAnimationFrame for flicker fusion */
+        .pulse-21 {
+            position: absolute;
+            width: 130px;
+            height: 130px;
+            border-radius: 50%;
+            border: 3px solid rgba(100, 200, 255, 0.6);
+            pointer-events: none;
+            opacity: 0.4;
         }
         .title {
             margin-top: 2rem;
@@ -77,10 +96,27 @@
         .back { margin-top: 1.5rem; }
         .back a { color: #888; text-decoration: none; font-size: 0.9rem; }
         .back a:hover { color: #64c8ff; }
+        .telemetry {
+            margin-top: 1.5rem;
+            padding: 1rem 1.25rem;
+            background: rgba(0,0,0,0.35);
+            border: 1px solid rgba(138, 43, 226, 0.4);
+            border-radius: 12px;
+            max-width: 420px;
+            font-size: 0.85rem;
+            color: #ccc;
+        }
+        .telemetry h3 { color: #64c8ff; font-size: 0.95rem; margin-bottom: 0.5rem; }
+        .telemetry .flux { font-family: ui-monospace, monospace; color: #8a2be2; }
+        .telemetry .loading { color: #888; }
+        .telemetry .error { color: #e66; }
     </style>
 </head>
 <body>
-    <div class="pulse-orb" aria-hidden="true"></div>
+    <div class="pulse-wrap">
+        <div class="pulse-21" id="pulse21" aria-hidden="true"></div>
+        <div class="pulse-orb" aria-hidden="true"></div>
+    </div>
     <h1 class="title">SING! Live Pulse</h1>
     <p class="subtitle">21.4 Hz target · 8m portal window · 60 BPM human-sync</p>
     <div class="timeline">
@@ -94,6 +130,45 @@
         <a href="https://github.com/FractiAI/psw.vibelandia.sing4">GitHub FractiAI/psw.vibelandia.sing4</a>
         <a href="episodes-browse.html?ep=self-clocking-pulsar">Self-Clocking Pulsar episode</a>
     </div>
-    <p class="back"><a href="../index.html">← Back to Office Hours</a></p>
+    <p class="back"><a href="office-hours.html">← Back to Office Hours</a></p>
+    <script>
+        (function () {
+            var TARGET_HZ = 21.4;
+            var pulse21 = document.getElementById('pulse21');
+            var start = performance.now();
+            function tick(now) {
+                if (!pulse21) return;
+                var t = (now - start) / 1000;
+                var phase = (t * TARGET_HZ) % 1;
+                pulse21.style.opacity = 0.25 + 0.35 * (0.5 + 0.5 * Math.sin(2 * Math.PI * phase));
+                pulse21.style.transform = 'scale(' + (1 + 0.03 * Math.sin(2 * Math.PI * phase)) + ')';
+                requestAnimationFrame(tick);
+            }
+            requestAnimationFrame(tick);
+        })();
+        (function () {
+            var GOES_URL = 'https://services.swpc.noaa.gov/json/goes/primary/xrays-6-hour.json';
+            var fluxLine = document.getElementById('fluxLine');
+            if (!fluxLine) return;
+            function fmt(val) { return val == null ? '—' : (Number(val) < 1e-5 ? val.toExponential(2) : Number(val).toFixed(4)); }
+            function update(data) {
+                if (!data || !Array.isArray(data) || data.length === 0) {
+                    fluxLine.innerHTML = '<span class="loading">No flux data</span>';
+                    return;
+                }
+                var a = data[data.length - 2], b = data[data.length - 1];
+                var time = (b && b.time_tag) || (a && a.time_tag) || '—';
+                var band1 = a && a.flux != null ? a.energy + ' ' + fmt(a.flux) : '—';
+                var band2 = b && b.flux != null ? b.energy + ' ' + fmt(b.flux) : '—';
+                fluxLine.innerHTML = 'GOES-18: <span class="flux">' + band1 + '</span> · <span class="flux">' + band2 + '</span> W/m² · <small>' + time + '</small>';
+            }
+            fetch(GOES_URL)
+                .then(function (r) { return r.json(); })
+                .then(update)
+                .catch(function () {
+                    fluxLine.innerHTML = '<span class="error">Could not load GOES data (CORS or network)</span>';
+                });
+        })();
+    </script>
 </body>
 </html>

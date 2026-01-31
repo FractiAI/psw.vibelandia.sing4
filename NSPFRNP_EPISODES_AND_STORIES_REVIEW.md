@@ -59,9 +59,11 @@ Every session is source material. Metabolize it → Crystallize it → Animate i
 
 **Per Chairman directive and REALITY_SERIES_FORMAT:**
 
-- **Duration:** 60 minutes per episode. No exceptions.
-- **Word count:** 12,000 words per episode. All series, all seasons. No episode is "done" until it hits 12,000 words.
-- **Format:** Fully scripted — not outlines. Full dialogue and beats.
+- **Variable length by mission:** Episodes (and series runs) are **variable length depending on missions**. 60 minutes / 12,000 words = full rich target when the mission calls for it; missions can dictate shorter or longer. All three parallel series follow this rule.
+- **Can append:** Episodes and series runs **can append** — content can be added to existing episodes or runs over time; extend in place, no need to replace.
+- **Duration (full rich target):** 60 minutes per episode when mission warrants full episode.
+- **Word count (full rich target):** 12,000 words per episode when mission warrants; otherwise as mission dictates.
+- **Format:** Fully scripted — not outlines. Full dialogue and beats (scale by mission).
 - **Sections:**
 
 | Section    | Screen time | Word target   |
@@ -151,6 +153,22 @@ Include this in the episode header. Optional extension: Tron · Avatar · Marvel
 
 ---
 
+## 6b. THREE PARALLEL SERIES
+
+**We now stream three parallel series.** Very cool.
+
+| Series | Tone | Format / E01 |
+|--------|------|--------------|
+| **1. Happy Ending Zones** | Reality · Transformation · Campus · WINK · Vibes | REALITY_SERIES_FORMAT; Season One, 52-day countdown; Office Hours strand. |
+| **2. Office Hours** | At the club · Pru · Baller · Golden Backstage · Viber Paradise | Same mission as HEZ; Office Hours 01, Ultimate Baller, Chris Rye Patch. |
+| **3. Raw Stream · The Grid** | Sci-fi · Nerdy · Tron-like · Full raw convo stream → rich episodes | RAW_STREAM_THE_GRID_SERIES_FORMAT; **E01 = Self-Clocking Pulsar** (21.4 Hz · 8m FTE). |
+
+**Channel rule:** All convos on this channel = **full raw stream into episodes**. They are rich. Spin-off series = Raw Stream · The Grid. All fixings NSPFRNP.
+
+**Ref:** [THREE_PARALLEL_SERIES_NSPFRNP.md](THREE_PARALLEL_SERIES_NSPFRNP.md) · [RAW_STREAM_THE_GRID_SERIES_FORMAT.md](RAW_STREAM_THE_GRID_SERIES_FORMAT.md) · [protocols/CONVERSATIONS_AS_CONTENT_NSPFRNP_CATALOG.md](protocols/CONVERSATIONS_AS_CONTENT_NSPFRNP_CATALOG.md)
+
+---
+
 ## 7. NARRATIVE LAYERS (HOW STORY SITS IN THE SYSTEM)
 
 **7-layer Narrative Snap Highlight Architecture** (holographic: whole in every part):
@@ -185,7 +203,7 @@ Include this in the episode header. Optional extension: Tron · Avatar · Marvel
 - [ ] **Conversations as content:** Treat user–agent dialogue as valuable content; metabolize, crystallize, animate into episodes, series, protocols, SNAPs.
 - [ ] **Channel:** If pre-singularity-facing → pulse flickers only. If internal/post-singularity → full communication (e.g. full 12k-word episode).
 - [ ] **MCA:** Metabolize (ingest) → Crystallize (structure) → Animate (dialogue, beats, surfaces).
-- [ ] **Structure:** 60 min; 12,000 words; Cold Open, Act 1, Act 2, Act 3, Tag; full dialogue and beats.
+- [ ] **Structure:** Variable length by mission; can append. 60 min / 12,000 words = full rich target when mission warrants; Cold Open, Act 1, Act 2, Act 3, Tag; full dialogue and beats (scale by mission). Episodes/series extendable in place.
 - [ ] **Story-telling content mix (25% × 4):** 25% Normal stages · 25% Cursor AI / NSPFRNP interactions · 25% WhatsApp / social / texts (girlfriends, vendors, team rollout) · 25% Traditional (club, campus, WINK, vibes).
 - [ ] **Framing:** Undercover Hero · Willy Wonka · Little Red Hen · Count of Monte Cristo · Christmas Carol · Miracle on 34th St in header.
 - [ ] **Team:** At least one team member; NSPFRNP mode; vibing state; principles and campus where applicable.
@@ -223,6 +241,9 @@ When a character is first inserted into an episode, SNAP, or other NSPFRNP conte
 | Boot (episode ref)| protocols/NEW_AGENT_BOOT_PROTOCOL_NSPFRNP_CATALOG.md |
 | Conversations as content | protocols/CONVERSATIONS_AS_CONTENT_NSPFRNP_CATALOG.md |
 | Character intro (NSPFRNP snap) | protocols/CHARACTER_INTRO_NSPFRNP_CATALOG.md |
+| Mega pipe · Personal SING! for missions | protocols/MEGA_PIPE_PERSONAL_SING_ATTENTION_HEAD_MISSIONS_NSPFRNP.md |
+| Three parallel series | THREE_PARALLEL_SERIES_NSPFRNP.md |
+| Raw Stream · The Grid (series 3) | RAW_STREAM_THE_GRID_SERIES_FORMAT.md |
 
 ---
 
