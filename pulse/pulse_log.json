@@ -1,7 +1,7 @@
 {
-  "timestamp_utc": "2026-01-30T18:00:00Z",
-  "sequence_load_time_utc": "2026-01-30T18:00:00Z",
-  "commit_time_utc": null,
+  "timestamp_utc": "2026-01-31T13:56:00Z",
+  "sequence_load_time_utc": "2026-01-31T13:56:00Z",
+  "commit_time_utc": "2026-01-31T13:56:32Z",
   "note": "Cursor-led run. 8m and 16m validation timers start at commit_time_utc.",
   "protocol": "Synchronous Trigger Protocol",
   "TARGET_RES_ALPHA_Hz": 21.4,
