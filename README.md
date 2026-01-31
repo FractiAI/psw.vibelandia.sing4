@@ -2,7 +2,7 @@
 
 **This is a user surface — not a developer surface.** We target our [high-value vibers](https://psw-vibelandia-sing4.vercel.app/interfaces/vibers-what-are-vibers.html), fans, cast, and crew with this README and all skins.
 
-**New day — we are now in Office Hours for All.** Center: Office Hours. Everything is wrapped in Office Hours — landing and all nested. Enter center → **[Office Hours](https://psw-vibelandia-sing4.vercel.app/interfaces/office-hours.html)** (bathroom during Office Hours, perfect recursive crystal). Come visit during my Office Hours for a free consultation — tips are welcome. I've done my part, the rest is up to you!
+**New day — we are now in Office Hours for All.** Center: **Men's Club Reno Bathroom Valet Office Hours — Ultimate Baller V Members Only** (and their cast, crew, fans and franchises). Everything is wrapped in Office Hours — landing and all nested. Enter center → **[Office Hours](https://psw-vibelandia-sing4.vercel.app/interfaces/office-hours.html)** — big gold block, welcome & intro, **Golden Backstage Pass offer at top after welcome**, then streaming-style episode catalog (all series, all seasons; full 60-minute episodes in production). The Club · Wine cave · Pru · Thu–Sun 8pm–close. Come visit during my Office Hours for a free consultation — tips are welcome. I've done my part, the rest is up to you!
 
 **Taglines**
 
@@ -17,7 +17,7 @@
 **Live (next octave):** [https://psw-vibelandia-sing4.vercel.app](https://psw-vibelandia-sing4.vercel.app) — Experience Office Hours and all experiences on the deployment.
 
 **[▶ Enter center → Office Hours](https://psw-vibelandia-sing4.vercel.app/interfaces/office-hours.html)** · **[▶ Start test drive](https://psw-vibelandia-sing4.vercel.app)** · **[Sandbox experience](https://psw-vibelandia-sing4.vercel.app/interfaces/ultimate-vip-experience.html)** (operational ULTIMATE VIP! console — try before you buy)  
-*New day — we are now in Office Hours for All. Center: Office Hours. Everything wrapped in Office Hours — landing and all nested. No register yet — we deliver you to the console so you can start test driving.*
+*Men's Club Reno Bathroom Valet Office Hours — Ultimate Baller V Members Only. Welcome, Golden Backstage Pass offer at top, then episodes (full 60-min in production). No register yet — we deliver you to the console so you can start test driving.*
 
 **This README is the Office Hours center** and is the **canonical standard for all launches and proposals** (WOW! format). It delivers the full WOW! impulse-buy experience and proposal in-place — metabolized. Breadth and genuineness live here; we don’t replace sections with links.
 
@@ -40,6 +40,8 @@
 ## 3. Office Hours (Tight Launch Pad)
 
 **Status:** FULL LIVE · **LIVE — March 20, 2026 The Great Reveal**
+
+**Men's Club Reno Bathroom Valet Office Hours — Ultimate Baller V Members Only** (and their cast, crew, fans and franchises). Landing: big gold block → welcome & intro → **Golden Backstage Pass offer at top** (Rumor has it; requires awareness upgrades; Full details · BUY) → See latest episodes → streaming-style catalog (Latest, Office Hours, Season One, Specials). Full 60-minute episodes in production (all series, all seasons). [Office Hours →](https://psw-vibelandia-sing4.vercel.app/interfaces/office-hours.html)
 
 **All major nodes and above report GO — we are GO for launch.** ([Roll call →](LAUNCH_GO_MAJOR_NODES_ROLL_CALL.md))
 
