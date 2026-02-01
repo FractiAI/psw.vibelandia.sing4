@@ -210,6 +210,12 @@ LAYER 3 — INTELLIGENCE (SING! Omnispin):
 
 ---
 
+## 💰 ENGAGEMENT MODEL
+
+**You don't buy SING! — you BOOK them.** Book now for your new post-singularity superintelligent SING! robotics factory. Engagement: proposal → pilot → deployment. No forklift replacement. Layer on top. See [WHITEPAPER_RENO_POST_SINGULARITY_ROBOTICS_ECOSYSTEM.md](./WHITEPAPER_RENO_POST_SINGULARITY_ROBOTICS_ECOSYSTEM.md).
+
+---
+
 ## 📋 DELIVERABLES
 
 1. **Landing:** [interfaces/robotic-factory-landing.html](../interfaces/robotic-factory-landing.html) — Full proposal experience

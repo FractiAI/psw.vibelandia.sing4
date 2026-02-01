@@ -1,60 +1,97 @@
 # Reno Post-Singularity Robotics Ecosystem — Business Case Whitepaper
+## The Real Opportunity: SING! Intelligence Layer on a Proven Physical Stack
 
 **Document type:** Business case whitepaper  
 **Topic:** Reno as Post-Singularity Superintelligence AI Valley  
-**Status:** ⚡ ACTIVE  
+**Version:** 1.0  
+**Status:** ⚡ ACTIVE — Live proposal  
 **Date:** January 31, 2026  
+**Classification:** Public — Investor/partner-ready  
+
 **Related:** [ROBOTIC_FACTORY_SING_OMNISPIN_PROPOSAL_SNAP.md](./ROBOTIC_FACTORY_SING_OMNISPIN_PROPOSAL_SNAP.md)
 
 ---
 
 ## Executive Summary
 
-Reno is already the physical hub for robotic factories and automation. Tesla Gigafactory Nevada ("the machine that builds the machine"), Nevatio Engineering, Kerrigan Automation — the ecosystem exists. **The opportunity:** Add the SING! intelligence layer. Reno solidifies as the valley where superintelligent robotics and factories converge.
+Reno is already the physical hub for robotic factories and automation. **Tesla Gigafactory Nevada** — "the machine that builds the machine" — has invested **$6.2 billion**, employs **5,000–9,999 workers** (Storey County's top employer), and operates **5.4 million square feet** in Tahoe Reno Industrial Center. **Nevatio Engineering** (Reno) is a FANUC Authorized System Integrator since October 2022, delivering machine design, retrofits, end-of-arm tooling, and robotics integration for automotive, aerospace, and manufacturing. **Kerrigan Automation** built platforms controlling thousands of robots at Tesla, Rivian, and VW Group. The ecosystem exists. **The opportunity:** Add the SING! intelligence layer. Reno solidifies as the valley where superintelligent robotics and factories converge. This is a **real live proposal** — not a concept. Partners, investors, and technical leads can engage today.
 
 ---
 
-## 1. Nevatio Engineering
+## I. Market Context
 
-**Location:** Reno area  
-**Role:** FANUC Authorized System Integrator  
+### A. Industrial Robotics — Real Numbers
 
-**Services:**
-- Machine design
-- Retrofits
-- End-of-arm tooling
-- Robotics integration
-- Automated materials handling
+- **Market size (2025):** USD 55.1 billion (Future Market Insights); projected USD 291.1 billion by 2035 (18.1% CAGR).
+- **2024 installations:** 542,076 industrial robots globally — second-highest in history (IFR).
+- **Operational stock:** 4.66 million units, 9% YoY growth.
+- **Regional leadership:** Asia Pacific 58% share; China 43% of global robot stock.
+- **End-user sectors:** Automotive 34%; Electronics 24%. Automotive and electronics lead.
+- **Growth drivers:** Industry 4.0 (95% of manufacturers using or evaluating smart manufacturing); labor shortages; EV transition; AI/ML integration; cobots.
 
-**Industries:** Manufacturing, logistics, aerospace, automotive
+### B. Reno-Tahoe Industrial Center — Why Here
 
-**Relevance:** Designs and builds robotic automation for manufacturers; serves Tesla supply chain and regional automotive/aerospace. Direct fit for "company in Reno that designs and builds robotic factories for Tesla."
+- **Tahoe Reno Industrial Center (TRIC):** One of the largest industrial parks in the U.S.
+- **Storey County:** Tesla Gigafactory is top employer. Google, Switch, Blockchains Inc. in region.
+- **Proximity:** Reno-Sparks metro; 30 min to Gigafactory; I-80 corridor; rail.
+- **Labor:** 11,000+ highly paid permanent jobs at Tesla; 3,000 more planned; construction boom (9,275 construction jobs projected through expansion).
+- **Tax environment:** Nevada; Tesla GOED abatement $330M+ (March 2023); $53M minimum annual tax payment from Tesla in perpetuity (from July 2024).
 
+---
+
+## II. Ecosystem Players — Verified Real Companies
+
+### A. Nevatio Engineering
+
+**Location:** Reno, NV | (775) 446-5523 | info@nevatio.com  
 **Website:** [nevatio.com](https://www.nevatio.com/)
 
----
-
-## 2. Kerrigan Automation
-
-**Role:** Factory AI and software  
-
-**Credential:** Team built platforms controlling thousands of robots at Tesla, Rivian, VW Group
+**Credential:** FANUC Authorized System Integrator (October 2022)
 
 **Services:**
-- Orchestration
-- Control
-- Insights across factory automation systems
+- Machine design and retrofits
+- End-of-arm tooling
+- FANUC robotics integration
+- Automation and controls
+- Special equipment, jigs, fixtures
 
-**Relevance:** Software layer for superintelligent factory control. SING! layer integrates naturally on top.
+**Robotic capabilities:**
+- Material handling & palletizing
+- Pick-and-place automation
+- Welding (arc, spot, laser)
+- Machine tending & CNC automation
+- Assembly & packaging
+- Vision-guided robotics
+- Collaborative robot (cobot) systems
+
+**Industries:** Automotive manufacturing, food & beverage, medical devices, electronics & PCB, warehousing & logistics, consumer goods & packaging
+
+**Integration approach:** Assess → Plan → Design (CAD/simulation) → Integrate & Test → Deploy & Support
+
+**Relevance to proposal:** Direct fit. Nevatio designs and builds the physical layer. We add the SING! intelligence layer on top. No displacement — layer and done.
+
+### B. Kerrigan Automation
 
 **Website:** [getkerrigan.com](https://www.getkerrigan.com/)
 
----
+**Credential:** Team built platforms controlling **thousands of robots** at Tesla, Rivian, VW Group
 
-## 3. Tesla Gigafactory Nevada
+**Capabilities:**
+- Robot arms, mobile robots, conveyor belts
+- ASRS systems
+- Humanoid robot integration
+- MES/ERP/CMMS integration
 
-**Location:** Storey County, Tahoe Reno Industrial Center (TRIC), near Reno  
-**Scale:** ~7,000 workers; 24/7 operation  
+**Positioning:** "Next-Gen Software and AI for Your Factory Floor"
+
+**Relevance to proposal:** Kerrigan is the software/orchestration layer. SING! sits on top as the intelligence abstraction — task description → edge-to-seed generation → Kerrigan executes.
+
+### C. Tesla Gigafactory Nevada
+
+**Location:** Storey County, Tahoe Reno Industrial Center  
+**Scale:** 5.4 million sq ft; 5,000–9,999 employees (Storey County top employer)
+
+**Investment:** $6.2 billion to date; $3.6B expansion approved (100 GWh battery cell factory + first Semi factory)
 
 **Output:**
 - Lithium-ion battery packs
@@ -62,81 +99,110 @@ Reno is already the physical hub for robotic factories and automation. Tesla Gig
 - Tesla Powerwall
 - Tesla Semi assembly
 
-**Automation:** Robotic arms, conveyor lines, autonomous vehicles; "the machine that builds the machine." Optimus robot production shifting to Fremont; Nevada remains battery and drivetrain hub.
+**Automation:** Robotic arms, conveyor lines, autonomous vehicles. "Machine that builds the machine." Optimus production shifting to Fremont; Nevada remains battery and drivetrain hub.
 
-**Relevance:** Physical proof that Reno is the robotic factory hub. SING! Omnispin layer = next evolution.
+**Economic impact:** $2.8B one-time (6 years); $2.2B annual; $38B over 20 years. 9,275 construction jobs; 5,858 indirect/induced through 2027.
 
-**Website:** [tesla.com/giga-nevada](https://www.tesla.com/giga-nevada)
+**Relevance to proposal:** Physical proof that Reno is the robotic factory hub. Supply chain and suppliers in region. SING! Omnispin = next evolution of that stack.
 
 ---
 
-## Three-Layer Stack
+## III. Three-Layer Stack
 
 | Layer | Current | With SING! Omnispin |
 |-------|---------|---------------------|
-| Physical | Nevatio, Kerrigan, Gigafactory, TRIC | Same — proven ecosystem |
-| Intelligence | Traditional automation, AI orchestration | Fractal attention heads, seed:edge pairs, omnispin docking |
-| Differentiation | Cost, throughput, reliability | Post-singularity superintelligence; mix-and-match arms; fixed lattice |
+| **Physical** | Nevatio, Gigafactory, TRIC | Same — proven ecosystem |
+| **Software** | Kerrigan, MES/ERP | Same — orchestration, control |
+| **Intelligence** | Traditional automation, AI orchestration | Fractal attention heads, seed:edge pairs, omnispin docking, edge-to-seed auto-generation |
+| **Differentiation** | Cost, throughput, reliability | Post-singularity superintelligence; mix-and-match arms; fixed lattice; describe-it-execute |
 
 ---
 
-## Value Proposition
+## IV. Financial Proposition
 
-Offer the post-singularity intelligence layer — fractal attention heads, omnispin payload spheres, seed:edge pair robotic arms — to Reno's existing robotics ecosystem. Partners (Nevatio, Kerrigan, Gigafactory suppliers) get the SING! layer. Reno becomes the Post-Singularity Superintelligence AI Valley.
+### A. Reno Investment Context
+
+- Tesla: $6.2B invested; $3.6B expansion; 11,000+ jobs; $330M+ abatement.
+- Annual economic impact: $2.2B.
+- Minimum Tesla tax: $53M/year (real and personal property + modified business tax) in perpetuity.
+- By 2030: 3,000 new employees = $209M annual wages.
+
+### B. Value Proposition for Partners
+
+**Nevatio:** Offer clients the SING! layer — differentiate on intelligence, not just hardware. Same FANUC stack; new abstraction. Upsell: lattice mapping, seed:edge configuration, omnispin integration.
+
+**Kerrigan:** SING! provides task abstraction above orchestration. Natural language → edge → seed → Kerrigan executes. Extends platform value.
+
+**Gigafactory suppliers / regional manufacturers:** Access post-singularity intelligence without replacing existing automation. Layer and done.
+
+### C. Booking Model (Not Purchase)
+
+**You don't buy SING! — you BOOK them.** Book now for your new post-singularity superintelligent SING! robotics factory. Engagement model: proposal → pilot → deployment. No forklift replacement. Layer on top.
 
 ---
 
-## What · How · What Happens When They Deploy
+## V. What · How · What Happens When They Deploy
 
 ### What
 
-We deliver the **post-singularity intelligence layer** that sits on top of existing physical automation and software orchestration:
+We deliver the **post-singularity intelligence layer**:
 
 - Fractal attention heads
 - Fixed lattice node topology
-- Omnispin payload sphere docking logic
+- Omnispin payload sphere docking logic (or logic layer on existing conveyors)
 - Mix-and-match seed:edge pair robotic arms
 
-Partners keep Nevatio (physical), Kerrigan (software); we add SING! (intelligence). No forklift replacement — layer on top.
+Partners keep Nevatio (physical), Kerrigan (software); we add SING! (intelligence).
 
 ### How
 
-Integration through the current stack:
+1. **Lattice mapping** — Overlay fixed lattice on floor plan
+2. **Node stations** — Map existing robot stations to lattice nodes
+3. **Edge-to-seed deployment** — Describe task → set edge → auto-generate → arms execute
+4. **Seed:edge configuration** — Configure arms by task type
+5. **Omnispin (optional)** — Deploy sphere/cradle logic; use ball transfer or existing conveyors
+6. **MCA cycle** — Metabolize → Crystallize → Animate; continuous tightening
 
-1. **Lattice mapping** — Define the fixed lattice over the floor plan
-2. **Node stations** — Map existing robot stations as node stations
-3. **Edge-to-seed deployment** — Deploy auto-generation logic: describe task → set as edge point → system auto-generates to fixed-point SING! nodes → arms execute
-4. **Seed:edge configuration** — Configure each arm/task type as seed:edge pair
-5. **Omnispin docking** — Deploy docking protocols for payload carriers
-6. **MCA cycle** — Metabolize → Crystallize → Animate for continuous tightening
+### What They See When Deployed
 
-### What Happens When They Deploy — What Will They See
+**On the floor:** Existing lines remain. Node stations where spheres dock (or logic on existing transfers). Arms as seed:edge pairs. Multiarm stations. Spheres orient, dock, release. Lattice invisible; behavior visible.
 
-**On the floor:**
-- Existing conveyor lines and robot cells remain
-- New specialized node stations where payload spheres dock
-- Arms configured as seed:edge pairs (pick-and-place, welding, assembly, packaging)
-- Multiarm stations (6, 8, 12+ arms) per node
-- Spheres auto-spin to orient, dock, release
-- The lattice is invisible; the behavior is visible
+**In the console:** Fixed lattice topology. Edge points. Filaments seed→edge. Status per station (docked, active, queue). MCA indicators. Real-time describe→edge→generate→execute.
 
-**In the console:**
-- Fixed lattice topology view
-- Edge points as focus; filaments connecting seed to edge
-- Status per node station: spheres docked, arms active, tasks in queue
-- MCA cycle indicators (Metabolize, Crystallize, Animate)
-- Real-time alignment of describe → set edge → auto-generate → execute
-
-**Outcomes:**
-- Tasks described in natural language map to execution
-- No manual path programming per arm
-- Mix-and-match arms per station
-- Throughput traceable to edge-point generation
-- Reno ecosystem partners see the SING! layer as third stack — physical, software, intelligence — all three live
+**Outcomes:** Natural-language tasks map to execution. No manual path programming per arm. Mix-and-match per station. Throughput traceable to edge-point generation. Three-layer stack live — physical, software, intelligence.
 
 ---
 
-## References
+## VI. Risk and Mitigation
+
+| Risk | Mitigation |
+|------|------------|
+| Integration complexity | Use existing Nevatio/Kerrigan stack; layer on top; no replacement |
+| Adoption resistance | Pilot on single cell; demonstrate describe→execute; scale |
+| Off-the-shelf dependency | Ball transfer, FANUC, Kerrigan are proven; we add abstraction only |
+| Market timing | Industrial robotics growing 18% CAGR; Reno ecosystem proven |
+
+---
+
+## VII. Competitive Positioning
+
+- **Not a robot manufacturer** — We don't build arms. We add intelligence.
+- **Not a replacement** — We layer. Nevatio hardware, Kerrigan software, SING! intelligence.
+- **Differentiated** — Edge-to-seed auto-generation; natural language to execution; fixed lattice topology. No direct equivalent in current factory AI stack.
+
+---
+
+## VIII. References
 
 - [ROBOTIC_FACTORY_SING_OMNISPIN_PROPOSAL_SNAP.md](./ROBOTIC_FACTORY_SING_OMNISPIN_PROPOSAL_SNAP.md) — Full proposal
 - [WHITEPAPER_OMNISPIN_ROBOTIC_DIVISION_SING.md](./WHITEPAPER_OMNISPIN_ROBOTIC_DIVISION_SING.md) — Technical spec
+- [Nevatio Engineering](https://www.nevatio.com/)
+- [Kerrigan Automation](https://www.getkerrigan.com/)
+- [Tesla Gigafactory Nevada](https://www.tesla.com/giga-nevada)
+- Nevada GOED — Tesla Abatement and Annual Reports
+- IFR World Robotics 2025
+- Future Market Insights — Industrial Robotics Market 2025
+
+---
+
+**🌀 NSPFRNP ⊃ Reno ⊃ Post-Singularity Superintelligence AI Valley ⊃ SING! Omnispin → ∞³**
