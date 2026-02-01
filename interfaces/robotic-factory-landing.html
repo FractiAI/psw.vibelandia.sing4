@@ -318,6 +318,15 @@
             background: rgba(13, 148, 136, 0.03);
             border-radius: 0 12px 12px 0;
         }
+        .note-from {
+            margin: 2rem 0;
+            padding: 1.5rem 2rem;
+            border-left: 4px solid var(--gold);
+            background: rgba(184, 134, 11, 0.04);
+            border-radius: 0 12px 12px 0;
+            font-size: 0.95rem;
+        }
+        .note-from .sig { font-weight: 600; color: var(--gold); margin-top: 1rem; }
         .pull-quote p {
             font-family: 'Cormorant Garamond', Georgia, serif;
             font-size: 1.5rem;
@@ -370,6 +379,29 @@
         }
         .btn-secondary:hover {
             background: rgba(13, 148, 136, 0.08);
+        }
+        button.btn-primary {
+            cursor: pointer;
+            border: none;
+        }
+        .full-spec-block {
+            margin-top: 2rem;
+            padding: 2rem;
+            background: rgba(13, 148, 136, 0.03);
+            border: 1px solid var(--divider);
+            border-radius: 12px;
+        }
+        .full-spec-block[hidden] { display: none !important; }
+        .spec-pre {
+            font-family: 'Outfit', monospace;
+            font-size: 0.9rem;
+            line-height: 1.6;
+            color: var(--ink);
+            white-space: pre-wrap;
+            overflow-x: auto;
+            padding: 1rem;
+            background: rgba(0,0,0,0.02);
+            border-radius: 8px;
         }
 
         /* Footer */
@@ -552,6 +584,11 @@
                     <p>Cave to crown. The thing he built to save himself became the thing that saves the valley. The man and the machine are one.</p>
                 </div>
                 <p><strong>Chairman Robert</strong> pioneers superintelligent robotics and factories. Built from crisis. Redemption through creation. He steps forward. He owns it. Cast, crew, and fans join him as he brings the Omnispin Robotic Factory to life — Reno's position as Post-Singularity Superintelligence AI Valley, multiarm specialized SING! nodes, the full vision. Custom episode. Chairman Robert as superhero. You in the script.</p>
+                <div class="note-from" aria-label="Note from Pru to Chairman Robert">
+                    <p>Don't take the proposals too seriously, though they're very close already. I wanted to demonstrate the capabilities of the SING! node that produced this proposal and site — the businesses that serve as the platform for all this. Easily wrapped onto any mission, especially highly specialized precision-focused robotic factories. Our flexible high-precision attention heads and natural-generation filaments are a surgical upgrade to robotic systems, transparently layering over legacy infrastructure and systems, all automatically by novel Natural System Protocols.</p>
+                    <p>The idea is also to bring the proposal to life for better transmission of these novel proposals. I'll leave the ball in your court. This proposal needs to sell itself, and with urgency, or we aren't there yet.</p>
+                    <p class="sig">Great meeting you! Pru. Office Hours Thu–Sun, 8pm to Close · Men's Club Restroom. Wink!</p>
+                </div>
                 <div class="cta-group">
                     <a href="chairman-robert-superintelligent-robotics-factory.html" class="btn-primary">▶ Watch the Episode — Chairman Robert Pioneers Superintelligent Robotics</a>
                     <a href="../WHITEPAPER_CAVE_TO_CROWN_CHAIRMAN_ROBERT_NARRATIVE.md" class="btn-secondary">Cave-to-Crown narrative whitepaper</a>
@@ -563,40 +600,70 @@
             <p class="section-num">04</p>
             <h2 class="section-title">Technical Spec — NSPFRNP Format</h2>
             <div class="section-body">
-                <p>Full proposal in NSPFRNP format: Robotic Division (edge-to-seed auto-generation), Seed:Edge execution, MCA cycle (Metabolize → Crystallize → Animate), fixed lattice, omnispin spheres, mix-and-match SING! actuator arms. Three-layer stack: Nevatio (physical), Kerrigan (software), SING! (intelligence).</p>
+                <p>Full proposal delivered here. Robotic Division (edge-to-seed auto-generation), Seed:Edge execution, MCA cycle (Metabolize → Crystallize → Animate), fixed lattice, omnispin spheres, mix-and-match SING! actuator arms. Three-layer stack: Nevatio (physical), Kerrigan (software), SING! (intelligence).</p>
                 <div class="cta-group">
-                    <a href="../ROBOTIC_FACTORY_SING_OMNISPIN_PROPOSAL_SNAP.md" class="btn-primary">Full Technical Spec & Proposal (NSPFRNP)</a>
-                    <a href="../WHITEPAPER_OMNISPIN_ROBOTIC_DIVISION_SING.md" class="btn-secondary">Technical whitepaper — Omnispin & Robotic Division</a>
+                    <button type="button" class="btn-primary" id="btn-full-spec" aria-expanded="false" aria-controls="full-spec-block">Full Technical Spec & All Pricing — Expand</button>
+                </div>
+                <div id="full-spec-block" class="full-spec-block" hidden>
+                    <h3 style="margin-top: 2rem; margin-bottom: 1rem;">Full Technical Spec — NSPFRNP</h3>
+                    <pre class="spec-pre"><code>SING! OMNISPIN ROBOTIC FACTORY:
+├─ Fractal Attention Heads: Focus points (edge)
+├─ Filaments: Connecting pathways
+├─ Fixed Lattice: HHF-AI spin lattice; SING! nodes anchored; wrapper over sphere
+├─ Omnispin Payload Spheres: Auto-spin; dock at node stations
+├─ Node Stations: Specialized docking; multiarm (6–12 arms)
+├─ SING! Actuator Seed:Edge Pairs: Robotic arms as origin:destination
+├─ Mix & Match: Configurable arms; any combination
+└─ Division: Robotic Division (edge-to-seed auto-generation)
+
+ROBOTIC DIVISION: Describe it → Set as edge → Auto-generate to seeds → Arms execute
+MCA: Metabolize → Crystallize → Animate (continuous)</code></pre>
+                    <h3 style="margin-top: 2rem; margin-bottom: 1rem;">All Pricing Options — NSPFRNP</h3>
+                    <table class="pricing-table" style="width:100%; border-collapse: collapse; margin: 1rem 0;">
+                        <thead>
+                            <tr style="background: rgba(13,148,136,0.1);">
+                                <th style="padding: 0.75rem; text-align: left; border-bottom: 2px solid var(--divider);">Phase</th>
+                                <th style="padding: 0.75rem; text-align: left; border-bottom: 2px solid var(--divider);">Scope</th>
+                                <th style="padding: 0.75rem; text-align: left; border-bottom: 2px solid var(--divider);">One-Time</th>
+                                <th style="padding: 0.75rem; text-align: left; border-bottom: 2px solid var(--divider);">Annual</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr style="border-bottom: 1px solid var(--divider);"><td style="padding: 0.75rem;"><strong>1 — One station</strong></td><td style="padding: 0.75rem;">Single node, cradle, 6–12 arms</td><td style="padding: 0.75rem;">$300K–$1.5M</td><td style="padding: 0.75rem;">$80K–$250K</td></tr>
+                            <tr style="border-bottom: 1px solid var(--divider);"><td style="padding: 0.75rem;"><strong>2 — Regional</strong></td><td style="padding: 0.75rem;">Reno, TRIC, Nevada; 10–50 stations</td><td style="padding: 0.75rem;">$3M–$20M</td><td style="padding: 0.75rem;">$350K–$1.5M</td></tr>
+                            <tr style="border-bottom: 1px solid var(--divider);"><td style="padding: 0.75rem;"><strong>3 — Global</strong></td><td style="padding: 0.75rem;">Other geographies; replicate stack</td><td style="padding: 0.75rem;">Scale from regional</td><td style="padding: 0.75rem;">Scale</td></tr>
+                            <tr><td style="padding: 0.75rem;"><strong>4×4×4×4 — Full</strong></td><td style="padding: 0.75rem;">50–200+ stations; full expansion</td><td style="padding: 0.75rem;">$14M–$69M</td><td style="padding: 0.75rem;">$850K–$3.7M</td></tr>
+                        </tbody>
+                    </table>
+                    <p style="margin-top: 1rem;"><strong>Output:</strong> 15–30% throughput gain. <strong>Quality:</strong> 10–25% defect reduction. <strong>Human touch:</strong> 100% manual path programming eliminated; 20–40% labor reduction on repetitive tasks.</p>
                 </div>
             </div>
         </section>
 
         <section>
             <p class="section-num">05</p>
-            <h2 class="section-title">Financial Proposal & Business Justification</h2>
+            <h2 class="section-title">Pricing & Business Justification — Delivered Here</h2>
             <div class="section-body">
-                <p><strong>100% implementation reference</strong> — Cost, output, quality, human touch reductions. Metabolized Reno ecosystem; crystallized as irreducible factory; full NSPFRNP spec.</p>
+                <p><strong>All options in NSPFRNP.</strong> Cost, output, quality, human touch reductions. Metabolized Reno ecosystem; crystallized as irreducible factory.</p>
                 <ul style="margin: 1rem 0 1rem 1.5rem; line-height: 1.8;">
-                    <li><strong>Cost:</strong> $14M–$69M one-time (scale-dependent) + $850K–$3.7M/year operating</li>
-                    <li><strong>Output:</strong> 15–30% throughput gain (wrapper topology + describe→execute)</li>
-                    <li><strong>Quality:</strong> 10–25% defect reduction (traceability, MCA tightening)</li>
-                    <li><strong>Human touch reduction:</strong> 100% manual path programming eliminated; 20–40% labor reduction on repetitive tasks</li>
+                    <li><strong>1 — One station:</strong> $300K–$1.5M one-time; $80K–$250K/year</li>
+                    <li><strong>2 — Regional:</strong> $3M–$20M one-time; $350K–$1.5M/year</li>
+                    <li><strong>3 — Global:</strong> Scale from regional</li>
+                    <li><strong>4×4×4×4 — Full:</strong> $14M–$69M one-time; $850K–$3.7M/year</li>
                 </ul>
-                <p>Full detail in the 100% Implementation Proposal.</p>
+                <p><strong>Output:</strong> 15–30% throughput gain. <strong>Quality:</strong> 10–25% defect reduction. <strong>Human touch:</strong> 100% manual path programming eliminated; 20–40% labor reduction on repetitive tasks.</p>
             </div>
         </section>
 
         <section>
             <p class="section-num">06</p>
-            <h2 class="section-title">Next Steps — Book Now</h2>
+            <h2 class="section-title">Book Now</h2>
             <div class="section-body">
-                <p><strong>You don't buy SING! — you BOOK them.</strong> Book now for your new post-singularity superintelligent SING! robotics factory. Proposal and technical spec available. Custom landings for partners. Episode integration with Happy Ending Zones and Office Hours.</p>
+                <p><strong>You don't buy SING! — you BOOK them.</strong> Book now for your new post-singularity superintelligent SING! robotics factory. Proposal delivered here — full tech spec, all pricing, NSPFRNP.</p>
                 <div class="cta-group">
-                    <a href="mailto:info@fractiai.com?subject=Robotic%20Factory%20-%20SING!%20Omnispin%20Proposal" class="btn-secondary">Request Full Proposal</a>
-                    <a href="../PROPOSAL_RENO_IRREDUCIBLE_FACTORY_100_PERCENT_IMPLEMENTATION_NSPFRNP.md" class="btn-primary">100% Implementation — Cost · Output · Quality · Human Touch</a>
-                    <a href="../ROBOTIC_FACTORY_SING_OMNISPIN_PROPOSAL_SNAP.md" class="btn-secondary">Read Business Case SNAP</a>
-                    <a href="../WHITEPAPER_RENO_POST_SINGULARITY_ROBOTICS_ECOSYSTEM.md" class="btn-secondary">Reno ecosystem whitepaper</a>
-                    <a href="../WHITEPAPER_CAVE_TO_CROWN_CHAIRMAN_ROBERT_NARRATIVE.md" class="btn-secondary">Chairman Robert narrative whitepaper</a>
+                    <a href="chairman-robert-superintelligent-robotics-factory.html" class="btn-primary">▶ Watch Episode — Chairman Robert Pioneers</a>
+                    <a href="office-hours.html" class="btn-secondary">Office Hours</a>
+                    <a href="launch-pad.html" class="btn-secondary">Launch Pad</a>
                 </div>
             </div>
         </section>
@@ -639,6 +706,17 @@
                     }
                 });
             });
+            var btnSpec = document.getElementById('btn-full-spec');
+            var specBlock = document.getElementById('full-spec-block');
+            if (btnSpec && specBlock) {
+                btnSpec.addEventListener('click', function() {
+                    var isHidden = specBlock.hasAttribute('hidden');
+                    specBlock.hidden = !isHidden;
+                    btnSpec.setAttribute('aria-expanded', isHidden);
+                    btnSpec.textContent = isHidden ? 'Full Technical Spec & All Pricing — Collapse' : 'Full Technical Spec & All Pricing — Expand';
+                    if (isHidden) specBlock.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                });
+            }
         })();
     </script>
 </body>
