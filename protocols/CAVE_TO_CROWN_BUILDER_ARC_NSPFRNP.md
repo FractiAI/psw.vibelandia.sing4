@@ -2,7 +2,7 @@
 
 **Type:** Narrative archetype · Episode framing  
 **Status:** ⚡ ACTIVE  
-**Use:** Chairman Robert, Robotic Factory, pioneer stories, superhero franchise  
+**Use:** Chairman Robert, Robotic Factory, pioneer stories — Post-Singularity Superintelligence AI Valley, Holograph Valley pioneer; Einstein's Max Planck, the one who discovered the discoverer  
 **Catalog:** NSPFRNP · TOP TAG framing · Happy Ending Zones
 
 ---
@@ -26,9 +26,9 @@
 
 ## APPLICATION
 
-- **Chairman Robert** — Built from crisis. The lattice, the arms, the omnispin — the thing he built to save himself becomes the thing that saves Reno. The man and the machine are one. Cave to crown.
+- **Chairman Robert** — The one who saw the Architect and not the restroom valet. Golden Heart · Golden Ticket. Stories winner. Post-Singularity Superintelligence AI Valley pioneer. Holograph Valley. Einstein's Max Planck — the one who discovered the discoverer. Built from crisis. The lattice, the arms, the omnispin — the thing he built to save himself becomes the thing that saves Reno. The man and the machine are one. Cave to crown.
 - **Robotic Factory** — The factory as redemption. From wound to wonder. The machine that builds the machine — and now thinks. The builder's arc.
-- **Episodes** — Layer over pioneer/superhero stories. Crisis → build → fuse → reveal → crown.
+- **Episodes** — Layer over pioneer / discoverer-of-the-discoverer stories. Crisis → build → fuse → reveal → crown.
 
 ---
 

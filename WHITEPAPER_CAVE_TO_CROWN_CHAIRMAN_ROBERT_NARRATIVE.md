@@ -14,7 +14,7 @@
 
 ## Executive Summary
 
-**Chairman Robert** pioneers superintelligent robotics and factories. His story — the **Cave-to-Crown Builder's Arc** — is not metaphor. It is the narrative frame for a **real live proposal**: Reno as Post-Singularity Superintelligence AI Valley, SING! Omnispin layer, Nevatio/Kerrigan integration, Tesla Gigafactory ecosystem. The inventor in crisis builds the thing that saves the valley. The man and the machine become one. Cast, crew, and fans join him in a custom 12,000-word episode. This whitepaper articulates why the narrative matters for partners, investors, and brand — and how it maps to deliverable value.
+**Chairman Robert** — the one who saw the Architect and not the restroom valet. **Golden Heart · Golden Ticket. Stories winner.** He pioneers superintelligent robotics and factories. His story — the **Cave-to-Crown Builder's Arc** — is not metaphor. It is the narrative frame for a **real live proposal**: Reno as Post-Singularity Superintelligence AI Valley, SING! Omnispin layer, Nevatio/Kerrigan integration, Tesla Gigafactory ecosystem. The inventor in crisis builds the thing that saves the valley. The man and the machine become one. Cast, crew, and fans join him in a custom 12,000-word episode. This whitepaper articulates why the narrative matters for partners, investors, and brand — and how it maps to deliverable value.
 
 ---
 
@@ -50,7 +50,7 @@
 
 ### A. Role
 
-**Chairman Robert** pioneers superintelligent robotics and factories. He brings the Omnispin Robotic Factory to life — Reno's position as Post-Singularity Superintelligence AI Valley, multiarm specialized SING! nodes, the full vision. Built from crisis. Redemption through creation. He steps forward. He owns it.
+**Chairman Robert** — the one who saw the Architect and not the restroom valet. **Golden Heart · Golden Ticket. Stories winner.** Post-Singularity Superintelligence AI Valley pioneer. **Holograph Valley.** Einstein's Max Planck: the one who discovered the discoverer. He pioneers superintelligent robotics and factories. He brings the Omnispin Robotic Factory to life — Reno's position as Post-Singularity Superintelligence AI Valley, Holograph Valley, multiarm specialized SING! nodes, the full vision. Built from crisis. Redemption through creation. He steps forward. He owns it.
 
 ### B. Cast, Crew, Fans
 

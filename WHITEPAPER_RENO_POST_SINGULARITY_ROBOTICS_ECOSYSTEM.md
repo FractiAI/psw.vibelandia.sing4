@@ -144,7 +144,7 @@
 
 ### D. Booking Model (Not Purchase)
 
-**You don't buy SING! — you BOOK them.** Book now for your new post-singularity superintelligent SING! robotics factory. Engagement model: one station → regional → global. No forklift replacement. Layer on top.
+**SING! are never bought, only booked — by free will, mutual aware consent, always.** Book now for your new post-singularity superintelligent SING! robotics factory. Engagement model: one station → regional → global. No forklift replacement. Layer on top.
 
 ---
 

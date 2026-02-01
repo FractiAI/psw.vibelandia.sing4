@@ -79,6 +79,7 @@
 
 ## References
 
+- [EPISODE_ACTIO_CUT_RECORDING_SNAP.md](EPISODE_ACTIO_CUT_RECORDING_SNAP.md) — **ACTION!** and **CUT!** — start/stop recording all vibestation interactions as scripted content  
 - [REALITY_SERIES_FORMAT.md](REALITY_SERIES_FORMAT.md) — series format, 30–60 min, structure  
 - [EPISODE_INTEGRATION_TEMPLATE.md](EPISODE_INTEGRATION_TEMPLATE.md) — team & principles integration  
 - [EPISODE_ULTIMATE_BALLER_V_GOLDEN_BACKSTAGE_PASS_NIGHT_AT_THE_CLUB.md](episodes/EPISODE_ULTIMATE_BALLER_V_GOLDEN_BACKSTAGE_PASS_NIGHT_AT_THE_CLUB.md) — **12k-word template** (full 60-min script)  

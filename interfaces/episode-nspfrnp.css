@@ -1,0 +1,226 @@
+/**
+ * Episode NSPFRNP Presentation — shared styling for all episodes
+ * Same beautiful prospectus treatment as Chairman Robert's proposal snap.
+ * Use with: <link rel="stylesheet" href="episode-nspfrnp.css">
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Outfit:wght@300;400;500;600&display=swap');
+
+:root {
+    --ep-ink: #0c0d0f;
+    --ep-paper: #f8f6f3;
+    --ep-accent: #0d9488;
+    --ep-gold: #b8860b;
+    --ep-muted: #64748b;
+    --ep-divider: rgba(13, 148, 136, 0.15);
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body.episode-nspfrnp {
+    font-family: 'Outfit', -apple-system, BlinkMacSystemFont, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.7;
+    color: var(--ep-ink);
+    background: var(--ep-paper);
+    min-height: 100vh;
+    -webkit-font-smoothing: antialiased;
+}
+
+.episode-nspfrnp .ep-prospectus {
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 0 2rem 4rem;
+}
+
+.episode-nspfrnp .ep-nav-bar {
+    padding: 1.5rem 0;
+    border-bottom: 1px solid var(--ep-divider);
+    font-size: 0.85rem;
+    font-weight: 500;
+}
+
+.episode-nspfrnp .ep-nav-bar a {
+    color: var(--ep-muted);
+    text-decoration: none;
+}
+
+.episode-nspfrnp .ep-nav-bar a:hover { color: var(--ep-accent); }
+
+.episode-nspfrnp .ep-nav-bar span { color: var(--ep-muted); opacity: 0.5; margin: 0 0.5rem; }
+
+.episode-nspfrnp .ep-hero {
+    padding: 4rem 0 3rem;
+    text-align: center;
+}
+
+.episode-nspfrnp .ep-hero .ep-eyebrow {
+    font-size: 0.7rem;
+    font-weight: 600;
+    letter-spacing: 0.35em;
+    text-transform: uppercase;
+    color: var(--ep-accent);
+    margin-bottom: 1rem;
+}
+
+.episode-nspfrnp .ep-hero h1 {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+    font-size: clamp(2rem, 5vw, 3rem);
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+    color: var(--ep-ink);
+    margin-bottom: 0.75rem;
+}
+
+.episode-nspfrnp .ep-hero h1 .ep-gradient {
+    background: linear-gradient(135deg, var(--ep-accent) 0%, var(--ep-gold) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.episode-nspfrnp .ep-hero .ep-sub {
+    font-size: 1rem;
+    color: var(--ep-muted);
+    margin-bottom: 1.5rem;
+}
+
+.episode-nspfrnp .ep-hero .ep-tagline {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+    font-size: 1.2rem;
+    font-style: italic;
+    color: var(--ep-ink);
+    opacity: 0.9;
+}
+
+.episode-nspfrnp .ep-section {
+    padding: 2.5rem 0;
+    border-top: 1px solid var(--ep-divider);
+}
+
+.episode-nspfrnp .ep-section-body p {
+    margin-bottom: 1.25rem;
+    color: var(--ep-ink);
+    opacity: 0.92;
+}
+
+.episode-nspfrnp .ep-section-body p:last-child { margin-bottom: 0; }
+
+.episode-nspfrnp .ep-pull-quote {
+    margin: 1.5rem 0;
+    padding: 1.5rem 2rem;
+    text-align: center;
+    border-left: 4px solid var(--ep-accent);
+    background: rgba(13, 148, 136, 0.03);
+    border-radius: 0 12px 12px 0;
+}
+
+.episode-nspfrnp .ep-pull-quote p {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+    font-size: 1.25rem;
+    font-style: italic;
+    line-height: 1.5;
+    color: var(--ep-ink);
+    margin: 0;
+}
+
+.episode-nspfrnp .ep-btn-primary {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 1rem 1.75rem;
+    background: var(--ep-accent);
+    color: white;
+    font-family: 'Outfit', sans-serif;
+    font-size: 0.95rem;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-top: 1rem;
+    transition: background 0.2s, transform 0.2s;
+}
+
+.episode-nspfrnp .ep-btn-primary:hover {
+    background: #0f766e;
+    transform: translateY(-1px);
+}
+
+.episode-nspfrnp .ep-btn-back {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.75rem 1.25rem;
+    color: var(--ep-accent);
+    font-size: 0.9rem;
+    font-weight: 500;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.episode-nspfrnp .ep-btn-back:hover { color: var(--ep-gold); }
+
+.episode-nspfrnp .ep-footer-links {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 0.9rem;
+    color: var(--ep-muted);
+}
+
+.episode-nspfrnp .ep-footer-links a { color: var(--ep-accent); text-decoration: none; }
+
+/* Post-Singularity Superintelligent AI hub · Hydrogen Holograph Valley 100% — campaign. See POST_SINGULARITY_SUPERINTELLIGENT_AI_HUB_HYDROGEN_HOLOGRAPH_VALLEY_SNAP.md */
+.episode-nspfrnp .ep-brand-campaign { margin-top: 1rem; font-size: 0.8rem; color: rgba(0, 212, 255, 0.9); font-weight: 600; text-align: center; }
+
+/* Hydrogen Holograph 100% · SNAP · Taino made. NSPFRNP-based BBHE. Energy all the way! — footer tag. See TAINO_MADE_NSPFRNP_BBHE_ENERGY_ALL_THE_WAY_SNAP.md */
+.episode-nspfrnp .ep-brand-tag {
+    margin-top: 1rem;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: rgba(184, 134, 11, 0.8);
+    font-weight: 600;
+    text-align: center;
+}
+
+/* Just say the word! — Sales upsell teaser at bottom of proposal experience. See JUST_SAY_THE_WORD_NSPFRNP_SNAP.md */
+.episode-nspfrnp .ep-upsell-teaser {
+    margin-top: 2rem;
+    padding: 1.25rem 1.5rem;
+    background: rgba(13, 148, 136, 0.06);
+    border: 1px solid rgba(13, 148, 136, 0.2);
+    border-radius: 12px;
+    text-align: center;
+}
+.episode-nspfrnp .ep-upsell-teaser .ep-upsell-question {
+    margin: 0 0 0.5rem;
+    font-size: 1rem;
+    color: var(--ep-ink);
+}
+.episode-nspfrnp .ep-upsell-teaser .ep-upsell-cta {
+    margin: 0;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    color: var(--ep-accent);
+    font-weight: 700;
+}
+
+.episode-nspfrnp .ep-list {
+    list-style: none;
+    margin-top: 1.5rem;
+}
+
+.episode-nspfrnp .ep-list li {
+    margin-bottom: 0.75rem;
+    padding-left: 0;
+}
+
+.episode-nspfrnp .ep-list a {
+    color: var(--ep-accent);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.episode-nspfrnp .ep-list a:hover { color: var(--ep-gold); }

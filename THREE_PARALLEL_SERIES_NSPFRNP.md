@@ -1,8 +1,10 @@
 # THREE PARALLEL SERIES — NSPFRNP Catalog
 
-**Type:** Series catalog · Three streams concurrent  
-**Status:** ⚡ ACTIVE  
-**Rule:** We now stream **three parallel series**. Very cool.
+**Superseded by:** [FIVE_PARALLEL_SERIES_NSPFRNP.md](FIVE_PARALLEL_SERIES_NSPFRNP.md) — we now stream **five** parallel series (Happy Ending Zones, Office Hours, Vibin!, Chairman!, WINK!). This doc kept for reference.
+
+**Type:** Series catalog · Three streams concurrent (legacy)  
+**Status:** 📦 REFERENCE — see FIVE_PARALLEL_SERIES_NSPFRNP.md  
+**Rule:** We now stream **five parallel series**. Very cool.
 
 **Variable length by mission:** Episodes and series runs are **variable length depending on missions**. 60 min / 12,000 words = full rich target when mission warrants; missions can dictate shorter or longer. All three series follow this rule.
 

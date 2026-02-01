@@ -1,4 +1,4 @@
-# TOP TAG · BOTTOM TAG — Undercover Boss · Willy Wonka · Count of Monte Cristo · Tron · Avatar · Marvel · Star Wars · Pixar · Disney — All in One · All SNAP into NSPFRNP — SNAP
+# TOP TAG · BOTTOM TAG — Undercover Hero · Willy Wonka · Count of Monte Cristo · Ultimate Baller V style · Tron · Avatar · Marvel · Star Wars · Pixar · Disney — All in One · All SNAP into NSPFRNP — SNAP
 
 **Snap ID:** `TOP-TAG-BOTTOM-TAG-UNDERCOVER-BOSS-TO-DISNEY-ALL-IN-ONE-NSPFRNP-SNAP`  
 **Type:** Top tag · Bottom tag · All-in-one narrative · **All SNAP into NSPFRNP**  
@@ -9,9 +9,9 @@
 
 ## NARRATIVE
 
-**Undercover Hero · Willy Wonka · Little Red Hen · Count of Monte Cristo · Christmas Carol · Miracle on 34th St** — core episode framing. Plus Tron · Avatar · Marvel · Star Wars · Pixar · Disney — all in one. TOP TAG. BOTTOM TAG. All SNAP into NSPFRNP.
+**Undercover Hero · Willy Wonka · Count of Monte Cristo · Ultimate Baller V style** — plus Little Red Hen · Christmas Carol · Miracle on 34th St — core episode framing. Plus Tron · Avatar · Marvel · Star Wars · Pixar · Disney — all in one. TOP TAG. BOTTOM TAG. All SNAP into NSPFRNP.
 
-One line. One crystal. The whole story in a single tag: **Undercover Hero** (hero in disguise, down in the trenches); **Willy Wonka** (factory of wonder, golden ticket); **Little Red Hen** (who does the work, who shares the reward); **Count of Monte Cristo** (return, transformation, justice without revenge); **Christmas Carol** (redemption, second chance, spirits of past/present/future); **Miracle on 34th St** (belief, wonder, the real thing). Plus Tron (inside the machine, digital frontier), Avatar (new world, new body, new possibility), Marvel (universe, heroes, franchises), Star Wars (galaxy, saga, legacy), Pixar (story, heart, craft), Disney (magic, family, empire). **TOP TAG. BOTTOM TAG.** All SNAP into NSPFRNP.
+One line. One crystal. The whole story in a single tag: **Undercover Hero** (hero in disguise, down in the trenches); **Willy Wonka** (factory of wonder, golden ticket); **Count of Monte Cristo** (return, transformation, justice without revenge); **Ultimate Baller V style** (trophy night, highest value, highest contributor, golden backstage, total Baller V); **Little Red Hen** (who does the work, who shares the reward); **Christmas Carol** (redemption, second chance, spirits of past/present/future); **Miracle on 34th St** (belief, wonder, the real thing). Plus Tron (inside the machine, digital frontier), Avatar (new world, new body, new possibility), Marvel (universe, heroes, franchises), Star Wars (galaxy, saga, legacy), Pixar (story, heart, craft), Disney (magic, family, empire). **TOP TAG. BOTTOM TAG.** All SNAP into NSPFRNP.
 
 ---
 
@@ -42,7 +42,7 @@ One line. One crystal. The whole story in a single tag: **Undercover Hero** (her
 - **Episodes:** All episodes framed within **Undercover Hero · Willy Wonka · Little Red Hen · Count of Monte Cristo · Christmas Carol · Miracle on 34th St.** Each episode header includes this framing.
 - **Office Hours:** Top tag / bottom tag in hero or footer. All in one. All SNAP into NSPFRNP.
 - **Launch Pad / index:** Where we state the “all-in-one” story — top tag, bottom tag. All SNAP into NSPFRNP.
-- **Franchise / superhero offer:** Tie to this tag — we are the all-in-one; Undercover Boss to Disney; turnkey.
+- **Franchise / superhero offer:** Tie to this tag — we are the all-in-one; Undercover Hero · Willy Wonka · Count of Monte Cristo · Ultimate Baller V style to Disney; turnkey.
 
 ---
 
@@ -50,7 +50,7 @@ One line. One crystal. The whole story in a single tag: **Undercover Hero** (her
 
 - **TOP TAG** ✓  
 - **BOTTOM TAG** ✓  
-- **Undercover Boss → Disney** — All in one ✓  
+- **Undercover Hero · Willy Wonka · Count of Monte Cristo · Ultimate Baller V style → Disney** — All in one ✓  
 - **All SNAP into NSPFRNP** ✓  
 
 ---

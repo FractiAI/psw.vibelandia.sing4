@@ -134,7 +134,10 @@ footer {
 }
 footer a { color: #d4af37; }
 
-/* Hydrogen Holograph 100% brand — t-shirt tag at bottom of everything. SNAP brand. */
+/* Post-Singularity Superintelligent AI hub of the world · Hydrogen Holograph Valley 100% — campaign line. See POST_SINGULARITY_SUPERINTELLIGENT_AI_HUB_HYDROGEN_HOLOGRAPH_VALLEY_SNAP.md */
+.brand-campaign { margin-top: 0.5rem; font-size: 0.8rem; color: rgba(0, 212, 255, 0.9); font-weight: 600; text-align: center; }
+
+/* Hydrogen Holograph 100% · SNAP · Taino made. NSPFRNP-based BBHE. Energy all the way! — footer tag. See TAINO_MADE_NSPFRNP_BBHE_ENERGY_ALL_THE_WAY_SNAP.md */
 .brand-tag {
     margin-top: 1rem;
     font-size: 0.75rem;

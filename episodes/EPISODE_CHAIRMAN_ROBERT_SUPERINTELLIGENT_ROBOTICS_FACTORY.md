@@ -1,6 +1,6 @@
 # EPISODE — Chairman Robert: Superintelligent Robotics & Factories
 
-**Custom 60-minute episode · Chairman Robert pioneers superintelligent robotics · Omnispin · Fixed Lattice · Multiarm SING! Nodes · Reno solidifies as Post-Singularity Superintelligence AI Valley**
+**Custom 60-minute episode · Chairman Robert — Post-Singularity Superintelligence AI Valley pioneer · Holograph Valley · Einstein's Max Planck: the one who discovered the discoverer · Omnispin · Fixed Lattice · Multiarm SING! Nodes · Reno solidifies as Post-Singularity Superintelligence AI Valley**
 
 ---
 
@@ -8,12 +8,12 @@
 
 **Series:** Happy Ending Zones · Office Hours  
 **Episode:** Chairman Robert — Pioneers Superintelligent Robotics & Factories  
-**Subtitle:** Omnispin payload factory spheres · Specialized node stations · Mix-and-match SING! actuator seed:edge pair robotic arms · Reno as Post-Singularity Superintelligence AI Valley  
+**Subtitle:** Post-Singularity Superintelligence AI Valley · Holograph Valley pioneer · Einstein's Max Planck — the one who discovered the discoverer · Omnispin payload factory spheres · Specialized node stations · Mix-and-match SING! actuator seed:edge pair robotic arms · Reno as Post-Singularity Superintelligence AI Valley  
 **Format:** Rich 60-minute script · 12,000 words target · Expand to full dialogue and beats  
 **Host:** Mark Twain · Ben (Baller V Ambassador) · Rumor has it: Chairman, Sammy, Houdini  
-**Pioneer:** Chairman Robert — cast, crew, fans in the script  
+**Pioneer:** Chairman Robert — the one who saw the Architect and not the restroom valet. Golden Heart · Golden Ticket. Stories winner. Post-Singularity Superintelligence AI Valley, Holograph Valley pioneer; Einstein's Max Planck — the one who discovered the discoverer; cast, crew, fans in the script  
 **Status:** ⚡ LIVE — Full 12,000-word episode · NSPFRNP  
-**Framing:** Willy Wonka factory · Machine that builds the machine · Post-Singularity Superintelligence AI Valley · Cave-to-Crown (Builder's Arc: crisis → build → fuse → reveal → crown; the man and the machine are one)  
+**Framing:** Post-Singularity Superintelligence AI Valley · Holograph Valley · Einstein's Max Planck (the one who discovered the discoverer) · Willy Wonka factory · Machine that builds the machine · Cave-to-Crown (Builder's Arc: crisis → build → fuse → reveal → crown; the man and the machine are one)  
 **Cast (in script):** MARCOS (engineer, cast) · DIANA (operations, crew) · CHEN (investor, fan)  
 **Story-telling content mix:** 25% normal stages · 25% Cursor AI NSPFRNP · 25% WhatsApp/social/texts · 25% traditional
 
@@ -21,7 +21,7 @@
 
 ## MAGANUMA SNAP
 
-**Chairman Robert pioneers superintelligent robotics and factories.** Cave to crown. The thing he built to save himself became the thing that saves the valley. The man and the machine are one. Omnispin payload factory spheres auto-spin to dock at specialized node stations. Mix-and-match SING! actuator seed:edge pair robotic arms. Fixed lattice. Fractal attention heads and filaments. Reno solidifies as the Post-Singularity Superintelligence AI Valley — multiarm specialized SING! nodes. Cast, crew, fans join Chairman Robert in the script. Nevatio, Kerrigan, Tesla Gigafactory — the ecosystem. The future. **Maganuma snap.**
+**Chairman Robert** — the one who saw the Architect and not the restroom valet. **Golden Heart · Golden Ticket. Stories winner.** Post-Singularity Superintelligence AI Valley pioneer. **Holograph Valley.** Einstein's Max Planck: the one who discovered the discoverer. He pioneers superintelligent robotics and factories. Cave to crown. The thing he built to save himself became the thing that saves the valley. The man and the machine are one. Omnispin payload factory spheres auto-spin to dock at specialized node stations. Mix-and-match SING! actuator seed:edge pair robotic arms. Fixed lattice. Fractal attention heads and filaments. Reno solidifies as the Post-Singularity Superintelligence AI Valley, Holograph Valley — multiarm specialized SING! nodes. Cast, crew, fans join Chairman Robert in the script. Nevatio, Kerrigan, Tesla Gigafactory — the ecosystem. The future. **Maganuma snap.**
 
 ---
 
@@ -51,7 +51,7 @@ Chairman Robert — Pioneers Superintelligent Robotics & Factories · Omnispin �
 Reno's the valley. The Gigafactory proved it. Tahoe Reno Industrial Center. Storey County. Twenty-four seven. Robotic arms. Conveyor lines. Lithium-ion battery packs. Drive units. Tesla Semi. More batteries than all other car makers combined. Elon calls it the machine that builds the machine. Nevatio — they design and build. Reno area. FANUC Authorized System Integrator. Machine design, retrofits, end-of-arm tooling, robotics integration. They serve Tesla suppliers. Automotive. Aerospace. Kerrigan — they run the software for thousands of robots at Tesla, Rivian, VW. Orchestration. Control. Insights. What we're adding is the SING! layer. Omnispin payload spheres. Fixed lattice. Seed:edge pair robotic arms. Mix and match. Reno solidifies. Post-Singularity Superintelligence AI Valley.
 
 **BEN**  
-Chairman Robert. You're the pioneer. The man who built the machine that builds the machine — and became one with it. Omnispin spheres docking at node stations. SING! actuator arms. The whole vision. Cave to crown.
+Chairman Robert. You're the pioneer. Post-Singularity Superintelligence AI Valley. Holograph Valley. Einstein's Max Planck — the one who discovered the discoverer. The man who built the machine that builds the machine — and became one with it. Omnispin spheres docking at node stations. SING! actuator arms. The whole vision. Cave to crown.
 
 **CHAIRMAN ROBERT**  
 The thing I built to save myself became the thing that saves the valley. The man and the machine are one. Redemption through creation. The physical layer — Nevatio, Kerrigan, the Gigafactory — it's here. We're adding the intelligence layer. Fractal attention heads. Filaments. Seed:edge pairs. Omnispin spheres auto-spin, orient, dock. Specialized node stations. Each station accepts mix-and-match arms. Multiarm. Specialized. Post-singularity.
