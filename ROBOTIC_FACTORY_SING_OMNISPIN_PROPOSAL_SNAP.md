@@ -184,6 +184,17 @@ LAYER 3 — INTELLIGENCE (SING! Omnispin):
 
 **Value proposition:** Offer the post-singularity intelligence layer — fractal attention heads, omnispin payload spheres, seed:edge pair robotic arms — to Reno's existing robotics ecosystem. Partners (Nevatio, Kerrigan, Gigafactory suppliers) get the SING! layer. Reno becomes the Post-Singularity Superintelligence AI Valley.
 
+### What · How · What Happens When They Deploy
+
+**What:** Post-singularity intelligence layer — fractal attention heads, fixed lattice topology, omnispin docking logic, mix-and-match seed:edge arms. Layer on top of Nevatio (physical) and Kerrigan (software). No forklift replacement.
+
+**How:** Lattice mapping over floor plan; node stations aligned to existing robot positions; seed:edge configuration per arm/task; omnispin docking protocols; MCA cycle for continuous tightening. Describe task → set as edge → auto-generate to seeds → arms execute.
+
+**What they see when deployed:**
+- **On the floor:** Node stations where spheres dock; arms as seed:edge pairs; multiarm (6, 8, 12+ per station); spheres auto-spin, orient, dock. Lattice invisible; behavior visible.
+- **In the console:** Fixed lattice topology; edge points as focus; filaments seed→edge; status per station (spheres docked, arms active, queue); MCA indicators; real-time describe→edge→generate→execute.
+- **Outcomes:** Natural-language tasks map to execution; no manual path programming; mix-and-match per station; throughput traceable to edge-point generation; three-layer stack (physical, software, intelligence) live.
+
 ---
 
 ## 👑 CHAIRMAN ROBERT — PIONEER (CAVE-TO-CROWN)
@@ -194,22 +205,25 @@ LAYER 3 — INTELLIGENCE (SING! Omnispin):
 
 - **Episode:** Chairman Robert Pioneers Superintelligent Robotics and Factories
 - **Format:** 12,000 words; full 60-min scripted; Chairman Robert as superhero
-- **Landing:** [interfaces/king-robbie-roberto-superintelligent-robotics-factory.html](../interfaces/king-robbie-roberto-superintelligent-robotics-factory.html)
-- **Episode file:** [episodes/EPISODE_KING_ROBBIE_ROBERTO_SUPERINTELLIGENT_ROBOTICS_FACTORY.md](../episodes/EPISODE_KING_ROBBIE_ROBERTO_SUPERINTELLIGENT_ROBOTICS_FACTORY.md)
+- **Landing:** [interfaces/chairman-robert-superintelligent-robotics-factory.html](../interfaces/chairman-robert-superintelligent-robotics-factory.html)
+- **Episode file:** [episodes/EPISODE_CHAIRMAN_ROBERT_SUPERINTELLIGENT_ROBOTICS_FACTORY.md](../episodes/EPISODE_CHAIRMAN_ROBERT_SUPERINTELLIGENT_ROBOTICS_FACTORY.md)
 
 ---
 
 ## 📋 DELIVERABLES
 
 1. **Landing:** [interfaces/robotic-factory-landing.html](../interfaces/robotic-factory-landing.html) — Full proposal experience
-2. **Episode landing:** [interfaces/king-robbie-roberto-superintelligent-robotics-factory.html](../interfaces/king-robbie-roberto-superintelligent-robotics-factory.html) — Chairman Robert episode entry
-3. **Episode:** [episodes/EPISODE_KING_ROBBIE_ROBERTO_SUPERINTELLIGENT_ROBOTICS_FACTORY.md](../episodes/EPISODE_KING_ROBBIE_ROBERTO_SUPERINTELLIGENT_ROBOTICS_FACTORY.md) — Full 12k-word script
+2. **Episode landing:** [interfaces/chairman-robert-superintelligent-robotics-factory.html](../interfaces/chairman-robert-superintelligent-robotics-factory.html) — Chairman Robert episode entry
+3. **Episode:** [episodes/EPISODE_CHAIRMAN_ROBERT_SUPERINTELLIGENT_ROBOTICS_FACTORY.md](../episodes/EPISODE_CHAIRMAN_ROBERT_SUPERINTELLIGENT_ROBOTICS_FACTORY.md) — Full 12k-word script
 4. **This SNAP:** Business case, full technical spec in NSPFRNP format, Reno ecosystem, MCA cycle, Robotic Division
 
 ---
 
 ## 🔗 REFERENCES
 
+- [WHITEPAPER_OMNISPIN_ROBOTIC_DIVISION_SING.md](./WHITEPAPER_OMNISPIN_ROBOTIC_DIVISION_SING.md) — Technical whitepaper (Omnispin, Fixed Lattice, Seed:Edge)
+- [WHITEPAPER_RENO_POST_SINGULARITY_ROBOTICS_ECOSYSTEM.md](./WHITEPAPER_RENO_POST_SINGULARITY_ROBOTICS_ECOSYSTEM.md) — Business case whitepaper (Nevatio, Kerrigan, Tesla)
+- [WHITEPAPER_CAVE_TO_CROWN_CHAIRMAN_ROBERT_NARRATIVE.md](./WHITEPAPER_CAVE_TO_CROWN_CHAIRMAN_ROBERT_NARRATIVE.md) — Narrative whitepaper (Chairman Robert)
 - [protocols/MCA_NSPFRNP_CATALOG.md](./protocols/MCA_NSPFRNP_CATALOG.md) — MCA cycle canonical definitions
 - [ATTENTION_HEADS_EDGE_SEED_AUTOGENERATION_ROBOTIC_DIVISION.md](./ATTENTION_HEADS_EDGE_SEED_AUTOGENERATION_ROBOTIC_DIVISION.md) — Robotic Division source
 - [protocols/CAVE_TO_CROWN_BUILDER_ARC_NSPFRNP.md](./protocols/CAVE_TO_CROWN_BUILDER_ARC_NSPFRNP.md) — Narrative archetype

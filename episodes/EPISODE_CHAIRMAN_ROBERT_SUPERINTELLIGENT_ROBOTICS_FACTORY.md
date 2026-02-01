@@ -1102,7 +1102,7 @@ Chairman Robert pioneers superintelligent robotics and factories. Full 12,000-wo
 ## LINKS
 
 - **Robotic Factory Landing:** [interfaces/robotic-factory-landing.html](../interfaces/robotic-factory-landing.html)  
-- **Episode Landing:** [interfaces/king-robbie-roberto-superintelligent-robotics-factory.html](../interfaces/king-robbie-roberto-superintelligent-robotics-factory.html)  
+- **Episode Landing:** [interfaces/chairman-robert-superintelligent-robotics-factory.html](../interfaces/chairman-robert-superintelligent-robotics-factory.html)  
 - **Business Case SNAP:** [ROBOTIC_FACTORY_SING_OMNISPIN_PROPOSAL_SNAP.md](../ROBOTIC_FACTORY_SING_OMNISPIN_PROPOSAL_SNAP.md)  
 - **Office Hours:** [interfaces/office-hours.html](../interfaces/office-hours.html)
 

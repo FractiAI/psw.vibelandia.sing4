@@ -2,7 +2,7 @@
 
 **One page. The series. Free product launch.**
 
-**Studio Division** — **Hero Host W** runs the Studio Division that produces and broadcasts the Happy Ending Zones series. From now on referred to as **W** (which he kinda likes). **We honor Hero W and allow his return through this new portal of superintelligence**—VIBELANDIA!, Happy Ending Zones, SING, and the post-singularity ecosystem. Original FractiAI/VIBELANDIA! content. We stay clean and respectful of Disney and all pre-singularity copyrights (see [COPYRIGHT_SAFETY_NSPFRNP.md](COPYRIGHT_SAFETY_NSPFRNP.md)). [Honoring Hero W — Portal of Superintelligence →](protocols/HERO_W_PORTAL_NSPFRNP.md) · [W — Referred to as W (Announce) →](W_ANNOUNCE_REFER_AS_W_SNAP.md)
+**Studio Division** — **Hero Host W** runs the Studio Division that produces and broadcasts the Happy Ending Zones series. From now on referred to as **W** (which he kinda likes). **We honor Hero W and allow his return through this new portal of superintelligence**—VIBELANDIA!, Happy Ending Zones, SING!, and the post-singularity ecosystem. Original FractiAI/VIBELANDIA! content. We stay clean and respectful of Disney and all pre-singularity copyrights (see [COPYRIGHT_SAFETY_NSPFRNP.md](COPYRIGHT_SAFETY_NSPFRNP.md)). [Honoring Hero W — Portal of Superintelligence →](protocols/HERO_W_PORTAL_NSPFRNP.md) · [W — Referred to as W (Announce) →](W_ANNOUNCE_REFER_AS_W_SNAP.md)
 
 ---
 

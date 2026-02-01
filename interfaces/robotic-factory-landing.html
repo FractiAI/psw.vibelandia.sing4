@@ -140,10 +140,17 @@
             border: 1px solid var(--divider);
             border-radius: 12px;
             transition: border-color 0.2s, box-shadow 0.2s;
+            cursor: pointer;
+            text-align: left;
+            position: relative;
         }
         .tech-card:hover {
             border-color: rgba(13, 148, 136, 0.3);
             box-shadow: 0 4px 24px rgba(13, 148, 136, 0.06);
+        }
+        .tech-card.expanded {
+            border-color: var(--accent);
+            box-shadow: 0 4px 24px rgba(13, 148, 136, 0.12);
         }
         .tech-card strong {
             font-size: 0.85rem;
@@ -158,6 +165,83 @@
             color: var(--muted);
             line-height: 1.5;
         }
+        .tech-card .expand-icon {
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
+            font-size: 0.8rem;
+            color: var(--accent);
+            transition: transform 0.2s;
+        }
+        .tech-card.expanded .expand-icon { transform: rotate(180deg); }
+        .tech-card-detail {
+            display: none;
+            margin-top: 1rem;
+            padding-top: 1rem;
+            border-top: 1px solid var(--divider);
+        }
+        .tech-card.expanded .tech-card-detail {
+            display: block;
+        }
+        .tech-card-detail p {
+            font-size: 0.9rem;
+            color: var(--ink);
+            opacity: 0.9;
+            margin-bottom: 0.75rem;
+        }
+        .tech-card-detail a {
+            font-size: 0.85rem;
+            font-weight: 600;
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .tech-card-detail a:hover { text-decoration: underline; }
+
+        /* Expandable business items */
+        .business-case .business-item {
+            list-style: none;
+            margin: 0 0 1rem -1.5rem;
+            padding: 1rem 1.5rem;
+            cursor: pointer;
+            border-radius: 8px;
+            transition: background 0.2s;
+        }
+        .business-case .business-item::before {
+            display: none;
+        }
+        .business-item:hover {
+            background: rgba(184, 134, 11, 0.05);
+        }
+        .business-item.expanded {
+            background: rgba(184, 134, 11, 0.08);
+        }
+        .business-item-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .business-item-header .expand-icon {
+            font-size: 0.75rem;
+            color: var(--gold);
+            transition: transform 0.2s;
+        }
+        .business-item.expanded .expand-icon { transform: rotate(180deg); }
+        .business-item-detail {
+            display: none;
+            margin-top: 1rem;
+            padding-top: 1rem;
+            border-top: 1px solid rgba(184, 134, 11, 0.2);
+        }
+        .business-item.expanded .business-item-detail {
+            display: block;
+        }
+        .business-item-detail a {
+            font-size: 0.9rem;
+            font-weight: 600;
+            color: var(--gold);
+            text-decoration: none;
+        }
+        .business-item-detail a:hover { text-decoration: underline; }
 
         /* Business case */
         .business-case {
@@ -202,6 +286,28 @@
             border-top: 1px solid rgba(184, 134, 11, 0.2);
         }
         .business-case .opportunity strong { color: var(--gold); }
+        .what-how-see { margin-top: 2.5rem; }
+        .what-how-see h4 {
+            font-family: 'Cormorant Garamond', Georgia, serif;
+            font-size: 1.15rem;
+            font-weight: 600;
+            color: var(--ink);
+            margin: 0 0 0.75rem 0;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        .what-how-see h4::before {
+            content: '';
+            width: 4px;
+            height: 1.2em;
+            background: var(--accent);
+            border-radius: 2px;
+        }
+        .what-how-see .block { margin-bottom: 2rem; }
+        .what-how-see .block:last-child { margin-bottom: 0; }
+        .what-how-see ul { margin: 0.5rem 0 0 1.25rem; }
+        .what-how-see li { margin-bottom: 0.5rem; }
 
         /* Pull quote */
         .pull-quote {
@@ -308,11 +414,51 @@
             <div class="section-body">
                 <p><strong>SING!-based fractal attention head and filaments</strong> on a new <strong>fixed lattice</strong>. <strong>Omnispin payload factory spheres</strong> auto-spin to dock at <strong>specialized node stations</strong>. <strong>Mix-and-match SING! actuator seed:edge pair</strong> attention head and filament robotic arms — each arm an irreducible origin:destination pathway. The Robotic Division operational. Edge-to-seed auto-generation. Fixed-point HHF-AI spin lattice nodes.</p>
                 <div class="tech-grid">
-                    <div class="tech-card"><strong>Omnispin Spheres</strong><span>Auto-spin payload carriers; dock at node stations</span></div>
-                    <div class="tech-card"><strong>Fixed Lattice</strong><span>HHF-AI spin lattice; SING! nodes anchored</span></div>
-                    <div class="tech-card"><strong>Node Stations</strong><span>Specialized docking; multiarm capability</span></div>
-                    <div class="tech-card"><strong>Seed:Edge Arms</strong><span>Actuator pairs; attention head + filament</span></div>
-                    <div class="tech-card"><strong>Mix & Match</strong><span>Configurable arms; any combination</span></div>
+                    <div class="tech-card" role="button" tabindex="0" aria-expanded="false" data-card="omnispin">
+                        <span class="expand-icon" aria-hidden="true">▼</span>
+                        <strong>Omnispin Spheres</strong>
+                        <span>Auto-spin payload carriers; dock at node stations</span>
+                        <div class="tech-card-detail">
+                            <p>Payload carriers that auto-spin to orient and dock at specialized node stations. Flow: sphere → orient → dock → station receives → arms execute.</p>
+                            <a href="../WHITEPAPER_OMNISPIN_ROBOTIC_DIVISION_SING.md">Read Omnispin technical whitepaper →</a>
+                        </div>
+                    </div>
+                    <div class="tech-card" role="button" tabindex="0" aria-expanded="false" data-card="lattice">
+                        <span class="expand-icon" aria-hidden="true">▼</span>
+                        <strong>Fixed Lattice</strong>
+                        <span>HHF-AI spin lattice; SING! nodes anchored</span>
+                        <div class="tech-card-detail">
+                            <p>HHF-AI spin lattice; SING! nodes fixed at anchor points. Irreducible structure. Attention heads and filaments connect.</p>
+                            <a href="../WHITEPAPER_OMNISPIN_ROBOTIC_DIVISION_SING.md">Read Fixed Lattice whitepaper →</a>
+                        </div>
+                    </div>
+                    <div class="tech-card" role="button" tabindex="0" aria-expanded="false" data-card="stations">
+                        <span class="expand-icon" aria-hidden="true">▼</span>
+                        <strong>Node Stations</strong>
+                        <span>Specialized docking; multiarm capability</span>
+                        <div class="tech-card-detail">
+                            <p>Specialized docking points; each station accepts mix-and-match SING! actuator arms. 6, 8, 12+ arms per station.</p>
+                            <a href="../WHITEPAPER_OMNISPIN_ROBOTIC_DIVISION_SING.md">Read Node Stations whitepaper →</a>
+                        </div>
+                    </div>
+                    <div class="tech-card" role="button" tabindex="0" aria-expanded="false" data-card="arms">
+                        <span class="expand-icon" aria-hidden="true">▼</span>
+                        <strong>Seed:Edge Arms</strong>
+                        <span>Actuator pairs; attention head + filament</span>
+                        <div class="tech-card-detail">
+                            <p>Each arm = seed:edge pair. Origin (seed) → destination (edge). Configurable: pick-and-place, welding, assembly, packaging.</p>
+                            <a href="../WHITEPAPER_OMNISPIN_ROBOTIC_DIVISION_SING.md">Read Seed:Edge Arms whitepaper →</a>
+                        </div>
+                    </div>
+                    <div class="tech-card" role="button" tabindex="0" aria-expanded="false" data-card="mix">
+                        <span class="expand-icon" aria-hidden="true">▼</span>
+                        <strong>Mix & Match</strong>
+                        <span>Configurable arms; any combination</span>
+                        <div class="tech-card-detail">
+                            <p>Pick the arm for the task. Any combination. Multiarm specialized nodes. Post-singularity configurable.</p>
+                            <a href="../WHITEPAPER_OMNISPIN_ROBOTIC_DIVISION_SING.md">Read technical whitepaper →</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -324,12 +470,64 @@
                 <p><strong>Reno is the Post-Singularity Superintelligence AI Valley.</strong> Tesla Gigafactory Nevada — "the machine that builds the machine" — sits in Storey County near Reno. 7,000 workers. Robotic arms, conveyor lines, autonomous vehicles. Tahoe Reno Industrial Center. Battery packs, drive units, Tesla Semi. The ecosystem is here.</p>
                 <div class="business-case">
                     <h3>Reno Robotics & Automation — Real Companies</h3>
+                    <p style="margin-bottom: 1rem; font-size: 0.9rem; color: var(--muted);">Select any item to expand detail and view whitepaper links.</p>
                     <ul>
-                        <li><strong>Nevatio Engineering</strong> — FANUC Authorized System Integrator. Machine design, retrofits, end-of-arm tooling, robotics integration. Automotive, manufacturing, aerospace. On-demand engineering. Serves the region including Tesla suppliers.</li>
-                        <li><strong>Kerrigan Automation</strong> — Factory AI and software. Team built platforms controlling thousands of robots at Tesla, Rivian, VW Group. Orchestration, control, insights across factory automation.</li>
-                        <li><strong>Tesla Gigafactory Nevada</strong> — 24/7 operation. More batteries than all other car makers combined. Robotic assembly. "Machine that builds the machine." Optimus robot production shifting to Fremont; Nevada remains battery and drivetrain hub.</li>
+                        <li class="business-item" role="button" tabindex="0" aria-expanded="false" data-item="nevatio">
+                            <div class="business-item-header">
+                                <strong>Nevatio Engineering</strong>
+                                <span class="expand-icon" aria-hidden="true">▼</span>
+                            </div>
+                            FANUC Authorized System Integrator. Machine design, retrofits, end-of-arm tooling, robotics integration. Automotive, manufacturing, aerospace. On-demand engineering. Serves the region including Tesla suppliers.
+                            <div class="business-item-detail">
+                                <a href="../WHITEPAPER_RENO_POST_SINGULARITY_ROBOTICS_ECOSYSTEM.md">Reno ecosystem whitepaper →</a> · <a href="https://www.nevatio.com/" target="_blank" rel="noopener">nevatio.com</a>
+                            </div>
+                        </li>
+                        <li class="business-item" role="button" tabindex="0" aria-expanded="false" data-item="kerrigan">
+                            <div class="business-item-header">
+                                <strong>Kerrigan Automation</strong>
+                                <span class="expand-icon" aria-hidden="true">▼</span>
+                            </div>
+                            Factory AI and software. Team built platforms controlling thousands of robots at Tesla, Rivian, VW Group. Orchestration, control, insights across factory automation.
+                            <div class="business-item-detail">
+                                <a href="../WHITEPAPER_RENO_POST_SINGULARITY_ROBOTICS_ECOSYSTEM.md">Reno ecosystem whitepaper →</a> · <a href="https://www.getkerrigan.com/" target="_blank" rel="noopener">getkerrigan.com</a>
+                            </div>
+                        </li>
+                        <li class="business-item" role="button" tabindex="0" aria-expanded="false" data-item="tesla">
+                            <div class="business-item-header">
+                                <strong>Tesla Gigafactory Nevada</strong>
+                                <span class="expand-icon" aria-hidden="true">▼</span>
+                            </div>
+                            24/7 operation. More batteries than all other car makers combined. Robotic assembly. "Machine that builds the machine." Optimus robot production shifting to Fremont; Nevada remains battery and drivetrain hub.
+                            <div class="business-item-detail">
+                                <a href="../WHITEPAPER_RENO_POST_SINGULARITY_ROBOTICS_ECOSYSTEM.md">Reno ecosystem whitepaper →</a> · <a href="https://www.tesla.com/giga-nevada" target="_blank" rel="noopener">tesla.com/giga-nevada</a>
+                            </div>
+                        </li>
                     </ul>
                     <p class="opportunity"><strong>The opportunity:</strong> Add the SING! layer — fractal attention heads, omnispin payload spheres, seed:edge pair robotic arms — to the existing Reno robotics ecosystem. Nevatio, Kerrigan, and the Gigafactory supply chain become the physical lattice. We provide the post-singularity intelligence layer. Reno solidifies as the valley where superintelligent robotics and factories converge.</p>
+
+                    <div class="what-how-see">
+                        <h4>What</h4>
+                        <div class="block">
+                            <p>We deliver the <strong>post-singularity intelligence layer</strong> that sits on top of your existing physical automation and software orchestration: fractal attention heads, fixed lattice node topology, omnispin payload sphere docking logic, and mix-and-match seed:edge pair robotic arms. You keep Nevatio (physical), Kerrigan (software); we add SING! (intelligence).</p>
+                        </div>
+                        <h4>How</h4>
+                        <div class="block">
+                            <p>Integration through your current stack. We define the fixed lattice over your floor plan, map existing robot stations as node stations, and deploy the edge-to-seed auto-generation logic. You describe a task; we set it as edge point; the system auto-generates back to fixed-point SING! nodes. Arms execute. Spheres dock. No forklift replacement — layer on top.</p>
+                            <ul>
+                                <li>Lattice mapping over your floor plan</li>
+                                <li>Node stations aligned to existing robot positions</li>
+                                <li>Seed:edge pair configuration per arm/task type</li>
+                                <li>Omnispin docking protocols for payload carriers</li>
+                                <li>MCA cycle (Metabolize → Crystallize → Animate) for continuous tightening</li>
+                            </ul>
+                        </div>
+                        <h4>What happens when they deploy — What will they see</h4>
+                        <div class="block">
+                            <p><strong>On the floor:</strong> Existing conveyor lines and robot cells remain. New specialized node stations appear where payload spheres dock. Arms configured as seed:edge pairs — pick-and-place, welding, assembly, packaging — execute tasks generated from edge points. Multiarm stations (6, 8, 12+ arms) per node. Spheres auto-spin to orient, dock, release. The lattice is invisible; the behavior is visible.</p>
+                            <p><strong>In the console:</strong> Fixed lattice topology view. Edge points as focus. Filaments connecting seed to edge. Status per node station: spheres docked, arms active, tasks in queue. MCA cycle indicators — Metabolize (input), Crystallize (structure), Animate (execute). Real-time alignment of "describe it" → "set as edge" → "auto-generate to seeds" → "arms execute."</p>
+                            <p><strong>Outcomes:</strong> Tasks described in natural language map to execution. No manual path programming per arm. Mix-and-match arms per station. Throughput traceable to edge-point generation. Reno ecosystem partners (Nevatio, Kerrigan, Gigafactory suppliers) see the SING! layer as a third stack — physical, software, intelligence — all three live.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -343,7 +541,8 @@
                 </div>
                 <p><strong>Chairman Robert</strong> pioneers superintelligent robotics and factories. Built from crisis. Redemption through creation. He steps forward. He owns it. Cast, crew, and fans join him as he brings the Omnispin Robotic Factory to life — Reno's position as Post-Singularity Superintelligence AI Valley, multiarm specialized SING! nodes, the full vision. Custom episode. Chairman Robert as superhero. You in the script.</p>
                 <div class="cta-group">
-                    <a href="king-robbie-roberto-superintelligent-robotics-factory.html" class="btn-primary">▶ Watch the Episode — Chairman Robert Pioneers Superintelligent Robotics</a>
+                    <a href="chairman-robert-superintelligent-robotics-factory.html" class="btn-primary">▶ Watch the Episode — Chairman Robert Pioneers Superintelligent Robotics</a>
+                    <a href="../WHITEPAPER_CAVE_TO_CROWN_CHAIRMAN_ROBERT_NARRATIVE.md" class="btn-secondary">Cave-to-Crown narrative whitepaper</a>
                 </div>
             </div>
         </section>
@@ -355,6 +554,7 @@
                 <p>Full proposal in NSPFRNP format: Robotic Division (edge-to-seed auto-generation), Seed:Edge execution, MCA cycle (Metabolize → Crystallize → Animate), fixed lattice, omnispin spheres, mix-and-match SING! actuator arms. Three-layer stack: Nevatio (physical), Kerrigan (software), SING! (intelligence).</p>
                 <div class="cta-group">
                     <a href="../ROBOTIC_FACTORY_SING_OMNISPIN_PROPOSAL_SNAP.md" class="btn-primary">Full Technical Spec & Proposal (NSPFRNP)</a>
+                    <a href="../WHITEPAPER_OMNISPIN_ROBOTIC_DIVISION_SING.md" class="btn-secondary">Technical whitepaper — Omnispin & Robotic Division</a>
                 </div>
             </div>
         </section>
@@ -367,6 +567,8 @@
                 <div class="cta-group">
                     <a href="mailto:info@fractiai.com?subject=Robotic%20Factory%20-%20SING!%20Omnispin%20Proposal" class="btn-secondary">Request Full Proposal</a>
                     <a href="../ROBOTIC_FACTORY_SING_OMNISPIN_PROPOSAL_SNAP.md" class="btn-secondary">Read Business Case SNAP</a>
+                    <a href="../WHITEPAPER_RENO_POST_SINGULARITY_ROBOTICS_ECOSYSTEM.md" class="btn-secondary">Reno ecosystem whitepaper</a>
+                    <a href="../WHITEPAPER_CAVE_TO_CROWN_CHAIRMAN_ROBERT_NARRATIVE.md" class="btn-secondary">Chairman Robert narrative whitepaper</a>
                 </div>
             </div>
         </section>
@@ -379,5 +581,37 @@
             <p class="brand-line" style="margin-top: 0.25rem;">Mark Twain's Post-Singularity VIBELANDIA RENO! · Post-Singularity Superintelligence AI Valley</p>
         </footer>
     </article>
+    <script>
+        (function() {
+            function toggleExpanded(el) {
+                el.classList.toggle('expanded');
+                el.setAttribute('aria-expanded', el.classList.contains('expanded'));
+            }
+            document.querySelectorAll('.tech-card').forEach(function(card) {
+                card.addEventListener('click', function(e) {
+                    if (e.target.tagName === 'A') return;
+                    toggleExpanded(card);
+                });
+                card.addEventListener('keydown', function(e) {
+                    if (e.key === 'Enter' || e.key === ' ') {
+                        e.preventDefault();
+                        toggleExpanded(card);
+                    }
+                });
+            });
+            document.querySelectorAll('.business-item').forEach(function(item) {
+                item.addEventListener('click', function(e) {
+                    if (e.target.tagName === 'A') return;
+                    toggleExpanded(item);
+                });
+                item.addEventListener('keydown', function(e) {
+                    if (e.key === 'Enter' || e.key === ' ') {
+                        e.preventDefault();
+                        toggleExpanded(item);
+                    }
+                });
+            });
+        })();
+    </script>
 </body>
 </html>
