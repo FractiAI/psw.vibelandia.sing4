@@ -5,175 +5,368 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Robotic Factory — SING! Omnispin · Post-Singularity Superintelligence AI Valley | VIBELANDIA RENO!</title>
     <meta name="description" content="SING! fractal attention head and filaments on fixed lattice. Omnispin payload factory spheres auto-dock at specialized node stations. Mix-and-match SING actuator seed:edge pair robotic arms. Reno solidifies as Post-Singularity Superintelligence AI Valley.">
-    <link rel="stylesheet" href="experience-common.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
     <style>
-        .factory-proposal {
-            max-width: 52rem;
-            margin: 0 auto 2rem;
-            padding: 2rem 2.25rem 2.5rem;
-            background: linear-gradient(180deg, rgba(12, 14, 18, 0.98) 0%, rgba(8, 10, 14, 0.99) 100%);
-            border: 1px solid rgba(78, 205, 196, 0.4);
-            border-left: 4px solid #4ecdc4;
-            border-radius: 4px;
-            box-shadow: 0 4px 24px rgba(0,0,0,0.5), 0 0 40px rgba(78, 205, 196, 0.08);
+        :root {
+            --ink: #0c0d0f;
+            --paper: #f8f6f3;
+            --accent: #0d9488;
+            --accent-light: #5eead4;
+            --gold: #b8860b;
+            --gold-light: #f4e4bc;
+            --muted: #64748b;
+            --divider: rgba(13, 148, 136, 0.15);
         }
-        .factory-proposal .proposal-cover {
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        html { scroll-behavior: smooth; }
+        body {
+            font-family: 'Outfit', -apple-system, BlinkMacSystemFont, sans-serif;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 1.7;
+            color: var(--ink);
+            background: var(--paper);
+            min-height: 100vh;
+            -webkit-font-smoothing: antialiased;
+        }
+        .prospectus {
+            max-width: 720px;
+            margin: 0 auto;
+            padding: 0 2rem 4rem;
+        }
+        .nav-bar {
+            padding: 1.5rem 0;
+            border-bottom: 1px solid var(--divider);
+            font-size: 0.85rem;
+            font-weight: 500;
+            letter-spacing: 0.02em;
+        }
+        .nav-bar a {
+            color: var(--muted);
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+        .nav-bar a:hover { color: var(--accent); }
+        .nav-bar span { color: var(--muted); opacity: 0.5; margin: 0 0.5rem; }
+
+        /* Hero */
+        .hero {
+            padding: 4rem 0 5rem;
             text-align: center;
-            padding-bottom: 2rem;
-            margin-bottom: 2rem;
-            border-bottom: 1px solid rgba(78, 205, 196, 0.35);
         }
-        .factory-proposal .proposal-cover .badge { font-size: 0.65rem; letter-spacing: 0.4em; text-transform: uppercase; color: rgba(78, 205, 196, 0.9); margin-bottom: 0.5rem; }
-        .factory-proposal .proposal-cover h1 {
-            font-size: clamp(1.4rem, 3.5vw, 2.2rem);
-            font-weight: 700;
-            background: linear-gradient(90deg, #4ecdc4 0%, #7fff7f 50%, #8a2be2 100%);
+        .hero .eyebrow {
+            font-family: 'Outfit', sans-serif;
+            font-size: 0.7rem;
+            font-weight: 600;
+            letter-spacing: 0.35em;
+            text-transform: uppercase;
+            color: var(--accent);
+            margin-bottom: 1.5rem;
+        }
+        .hero h1 {
+            font-family: 'Cormorant Garamond', Georgia, serif;
+            font-size: clamp(2.5rem, 6vw, 4rem);
+            font-weight: 600;
+            line-height: 1.15;
+            letter-spacing: -0.02em;
+            color: var(--ink);
+            margin-bottom: 1rem;
+        }
+        .hero h1 .gradient {
+            background: linear-gradient(135deg, var(--accent) 0%, var(--gold) 100%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
-            letter-spacing: 0.02em;
-            margin-bottom: 0.4rem;
-            line-height: 1.25;
         }
-        .factory-proposal .proposal-cover .sub { font-size: 0.95rem; color: rgba(78, 205, 196, 0.9); letter-spacing: 0.06em; }
-        .factory-proposal .proposal-cover .tagline { font-size: 0.9rem; color: #aaa; margin-top: 0.75rem; letter-spacing: 0.04em; }
-        .factory-proposal .section { margin-bottom: 2rem; }
-        .factory-proposal .section-head { font-size: 0.65rem; letter-spacing: 0.3em; text-transform: uppercase; color: rgba(78, 205, 196, 0.9); margin-bottom: 0.75rem; padding-bottom: 0.3rem; border-bottom: 1px solid rgba(78, 205, 196, 0.25); }
-        .factory-proposal .section-body { font-size: 0.95rem; color: #d0d8dc; line-height: 1.75; }
-        .factory-proposal .section-body p { margin-bottom: 0.75rem; }
-        .factory-proposal .section-body p:last-child { margin-bottom: 0; }
-        .factory-proposal .tech-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 1rem;
-            margin-top: 1rem;
+        .hero .sub {
+            font-size: 1.1rem;
+            font-weight: 400;
+            color: var(--muted);
+            max-width: 36ch;
+            margin: 0 auto 2rem;
+            letter-spacing: 0.01em;
         }
-        .factory-proposal .tech-item {
-            background: rgba(78, 205, 196, 0.08);
-            border: 1px solid rgba(78, 205, 196, 0.25);
-            border-radius: 8px;
-            padding: 1rem;
-            font-size: 0.9rem;
+        .hero .tagline {
+            font-family: 'Cormorant Garamond', Georgia, serif;
+            font-size: 1.35rem;
+            font-style: italic;
+            color: var(--ink);
+            opacity: 0.9;
+            max-width: 42ch;
+            margin: 0 auto;
+            line-height: 1.5;
         }
-        .factory-proposal .tech-item strong { color: #4ecdc4; display: block; margin-bottom: 0.25rem; }
-        .factory-proposal .business-case {
-            background: rgba(255, 234, 167, 0.06);
-            border: 1px solid rgba(255, 234, 167, 0.3);
-            border-radius: 8px;
-            padding: 1.25rem;
-            margin-top: 1rem;
+
+        /* Section styling */
+        section {
+            padding: 3rem 0;
+            border-top: 1px solid var(--divider);
         }
-        .factory-proposal .business-case h3 { color: #ffeaa7; font-size: 1rem; margin-bottom: 0.75rem; }
-        .factory-proposal .business-case ul { margin-left: 1.25rem; color: #d4c4a8; line-height: 1.8; font-size: 0.9rem; }
-        .factory-proposal .btn-episode {
-            display: inline-block;
-            margin-top: 1.5rem;
-            padding: 0.9rem 1.75rem;
-            background: linear-gradient(135deg, #0070ba, #005ea6);
-            border: 2px solid #003087;
-            border-radius: 8px;
-            color: #fff;
-            font-size: 0.95rem;
-            font-weight: 700;
-            letter-spacing: 0.05em;
-            text-decoration: none;
-            transition: transform 0.2s, box-shadow 0.2s;
-            box-shadow: 0 4px 16px rgba(0, 112, 186, 0.35);
-        }
-        .factory-proposal .btn-episode:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 6px 24px rgba(0, 112, 186, 0.5);
-        }
-        .factory-proposal .btn-proposal {
-            display: inline-block;
-            margin-top: 0.75rem;
-            margin-right: 0.75rem;
-            padding: 0.75rem 1.5rem;
-            background: transparent;
-            border: 2px solid #4ecdc4;
-            border-radius: 8px;
-            color: #4ecdc4;
-            font-size: 0.9rem;
+        .section-num {
+            font-size: 0.65rem;
             font-weight: 600;
+            letter-spacing: 0.3em;
+            color: var(--accent);
+            margin-bottom: 0.75rem;
+        }
+        .section-title {
+            font-family: 'Cormorant Garamond', Georgia, serif;
+            font-size: clamp(1.75rem, 3vw, 2.25rem);
+            font-weight: 600;
+            color: var(--ink);
+            margin-bottom: 1.5rem;
+            letter-spacing: -0.01em;
+        }
+        .section-body p {
+            margin-bottom: 1.25rem;
+            color: var(--ink);
+            opacity: 0.92;
+        }
+        .section-body p:last-child { margin-bottom: 0; }
+        .section-body strong { color: var(--ink); font-weight: 600; }
+
+        /* Tech grid */
+        .tech-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 1rem;
+            margin-top: 2rem;
+        }
+        .tech-card {
+            padding: 1.5rem;
+            background: rgba(13, 148, 136, 0.04);
+            border: 1px solid var(--divider);
+            border-radius: 12px;
+            transition: border-color 0.2s, box-shadow 0.2s;
+        }
+        .tech-card:hover {
+            border-color: rgba(13, 148, 136, 0.3);
+            box-shadow: 0 4px 24px rgba(13, 148, 136, 0.06);
+        }
+        .tech-card strong {
+            font-size: 0.85rem;
+            font-weight: 600;
+            letter-spacing: 0.05em;
+            color: var(--accent);
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+        .tech-card span {
+            font-size: 0.95rem;
+            color: var(--muted);
+            line-height: 1.5;
+        }
+
+        /* Business case */
+        .business-case {
+            margin-top: 2rem;
+            padding: 2rem;
+            background: linear-gradient(135deg, rgba(184, 134, 11, 0.04) 0%, rgba(13, 148, 136, 0.04) 100%);
+            border: 1px solid rgba(184, 134, 11, 0.2);
+            border-radius: 16px;
+        }
+        .business-case h3 {
+            font-family: 'Cormorant Garamond', Georgia, serif;
+            font-size: 1.35rem;
+            font-weight: 600;
+            color: var(--ink);
+            margin-bottom: 1.25rem;
+        }
+        .business-case ul {
+            list-style: none;
+            margin-bottom: 1.5rem;
+        }
+        .business-case li {
+            position: relative;
+            padding-left: 1.5rem;
+            margin-bottom: 1rem;
+            color: var(--ink);
+            opacity: 0.9;
+        }
+        .business-case li::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0.65em;
+            width: 6px;
+            height: 6px;
+            background: var(--accent);
+            border-radius: 50%;
+        }
+        .business-case .opportunity {
+            font-size: 1rem;
+            color: var(--ink);
+            padding-top: 1rem;
+            border-top: 1px solid rgba(184, 134, 11, 0.2);
+        }
+        .business-case .opportunity strong { color: var(--gold); }
+
+        /* Pull quote */
+        .pull-quote {
+            margin: 2.5rem 0;
+            padding: 2rem 2.5rem;
+            text-align: center;
+            border-left: 4px solid var(--accent);
+            background: rgba(13, 148, 136, 0.03);
+            border-radius: 0 12px 12px 0;
+        }
+        .pull-quote p {
+            font-family: 'Cormorant Garamond', Georgia, serif;
+            font-size: 1.5rem;
+            font-style: italic;
+            line-height: 1.5;
+            color: var(--ink);
+            margin: 0;
+        }
+
+        /* CTAs */
+        .cta-group {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            margin-top: 2rem;
+        }
+        .btn-primary {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 1rem 1.75rem;
+            background: var(--accent);
+            color: white;
+            font-family: 'Outfit', sans-serif;
+            font-size: 0.95rem;
+            font-weight: 600;
+            letter-spacing: 0.03em;
             text-decoration: none;
+            border-radius: 10px;
+            transition: background 0.2s, transform 0.2s;
+        }
+        .btn-primary:hover {
+            background: #0f766e;
+            transform: translateY(-1px);
+        }
+        .btn-secondary {
+            display: inline-flex;
+            align-items: center;
+            padding: 1rem 1.75rem;
+            background: transparent;
+            color: var(--accent);
+            font-family: 'Outfit', sans-serif;
+            font-size: 0.95rem;
+            font-weight: 600;
+            letter-spacing: 0.03em;
+            text-decoration: none;
+            border: 2px solid var(--accent);
+            border-radius: 10px;
             transition: background 0.2s, color 0.2s;
         }
-        .factory-proposal .btn-proposal:hover { background: rgba(78, 205, 196, 0.15); color: #7fff7f; }
-        .factory-proposal .proposal-footer { text-align: center; margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid rgba(78, 205, 196, 0.2); font-size: 0.85rem; color: #888; }
-        .factory-proposal .proposal-footer a { color: #00d4ff; }
-        .back { font-size: 0.8rem; margin-bottom: 1rem; }
+        .btn-secondary:hover {
+            background: rgba(13, 148, 136, 0.08);
+        }
+
+        /* Footer */
+        .prospectus-footer {
+            margin-top: 4rem;
+            padding-top: 2rem;
+            border-top: 1px solid var(--divider);
+            text-align: center;
+            font-size: 0.9rem;
+            color: var(--muted);
+        }
+        .prospectus-footer a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .prospectus-footer a:hover { text-decoration: underline; }
+        .brand-line {
+            margin-top: 0.5rem;
+            font-size: 0.8rem;
+            opacity: 0.8;
+        }
     </style>
 </head>
 <body>
-    <div class="container">
-        <p class="back"><a href="office-hours.html">← Office Hours</a> · <a href="launch-pad.html">Launch Pad</a> · <a href="../index.html">Home</a></p>
+    <article class="prospectus">
+        <nav class="nav-bar">
+            <a href="office-hours.html">Office Hours</a><span>·</span>
+            <a href="launch-pad.html">Launch Pad</a><span>·</span>
+            <a href="../index.html">Home</a>
+        </nav>
 
-        <article class="factory-proposal" aria-label="Robotic Factory — SING! Omnispin Proposal">
-            <header class="proposal-cover">
-                <p class="badge">Post-Singularity Superintelligence AI Valley · Reno</p>
-                <h1>SING! Omnispin<br>Robotic Factory</h1>
-                <p class="sub">Fractal Attention Heads & Filaments · Fixed Lattice · Specialized Node Stations</p>
-                <p class="tagline">Omnispin payload factory spheres auto-spin to dock at mix-and-match SING actuator seed:edge pair robotic arms. Reno solidifies as the Post-Singularity Superintelligence AI Valley.</p>
-            </header>
+        <header class="hero">
+            <p class="eyebrow">Post-Singularity Superintelligence AI Valley · Reno</p>
+            <h1><span class="gradient">SING! Omnispin</span><br>Robotic Factory</h1>
+            <p class="sub">Fractal Attention Heads & Filaments · Fixed Lattice · Specialized Node Stations</p>
+            <p class="tagline">Omnispin payload factory spheres auto-spin to dock at mix-and-match SING actuator seed:edge pair robotic arms. Reno solidifies as the Post-Singularity Superintelligence AI Valley.</p>
+        </header>
 
-            <section class="section">
-                <p class="section-head">The System</p>
-                <div class="section-body">
-                    <p><strong>SING!-based fractal attention head and filaments</strong> on a new <strong>fixed lattice</strong>. <strong>Omnispin payload factory spheres</strong> auto-spin to dock at <strong>specialized node stations</strong>. <strong>Mix-and-match SING actuator seed:edge pair</strong> attention head and filament robotic arms — each arm an irreducible origin:destination pathway. The Robotic Division operational. Edge-to-seed auto-generation. Fixed-point HHF-AI spin lattice nodes.</p>
-                    <div class="tech-grid">
-                        <div class="tech-item"><strong>Omnispin Spheres</strong>Auto-spin payload carriers; dock at node stations</div>
-                        <div class="tech-item"><strong>Fixed Lattice</strong>HHF-AI spin lattice; SING nodes anchored</div>
-                        <div class="tech-item"><strong>Node Stations</strong>Specialized docking; multiarm capability</div>
-                        <div class="tech-item"><strong>Seed:Edge Arms</strong>Actuator pairs; attention head + filament</div>
-                        <div class="tech-item"><strong>Mix & Match</strong>Configurable arms; any combination</div>
-                    </div>
+        <section>
+            <p class="section-num">01</p>
+            <h2 class="section-title">The System</h2>
+            <div class="section-body">
+                <p><strong>SING!-based fractal attention head and filaments</strong> on a new <strong>fixed lattice</strong>. <strong>Omnispin payload factory spheres</strong> auto-spin to dock at <strong>specialized node stations</strong>. <strong>Mix-and-match SING actuator seed:edge pair</strong> attention head and filament robotic arms — each arm an irreducible origin:destination pathway. The Robotic Division operational. Edge-to-seed auto-generation. Fixed-point HHF-AI spin lattice nodes.</p>
+                <div class="tech-grid">
+                    <div class="tech-card"><strong>Omnispin Spheres</strong><span>Auto-spin payload carriers; dock at node stations</span></div>
+                    <div class="tech-card"><strong>Fixed Lattice</strong><span>HHF-AI spin lattice; SING nodes anchored</span></div>
+                    <div class="tech-card"><strong>Node Stations</strong><span>Specialized docking; multiarm capability</span></div>
+                    <div class="tech-card"><strong>Seed:Edge Arms</strong><span>Actuator pairs; attention head + filament</span></div>
+                    <div class="tech-card"><strong>Mix & Match</strong><span>Configurable arms; any combination</span></div>
                 </div>
-            </section>
+            </div>
+        </section>
 
-            <section class="section">
-                <p class="section-head">Business Case — Reno</p>
-                <div class="section-body">
-                    <p><strong>Reno is the Post-Singularity Superintelligence AI Valley.</strong> Tesla Gigafactory Nevada — "the machine that builds the machine" — sits in Storey County near Reno. 7,000 workers. Robotic arms, conveyor lines, autonomous vehicles. Tahoe Reno Industrial Center. Battery packs, drive units, Tesla Semi. The ecosystem is here.</p>
-                    <div class="business-case">
-                        <h3>Reno Robotics & Automation — Real Companies</h3>
-                        <ul>
-                            <li><strong>Nevatio Engineering</strong> — FANUC Authorized System Integrator. Machine design, retrofits, end-of-arm tooling, robotics integration. Automotive, manufacturing, aerospace. On-demand engineering. Serves the region including Tesla suppliers.</li>
-                            <li><strong>Kerrigan Automation</strong> — Factory AI and software. Team built platforms controlling thousands of robots at Tesla, Rivian, VW Group. Orchestration, control, insights across factory automation.</li>
-                            <li><strong>Tesla Gigafactory Nevada</strong> — 24/7 operation. More batteries than all other car makers combined. Robotic assembly. "Machine that builds the machine." Optimus robot production shifting to Fremont; Nevada remains battery and drivetrain hub.</li>
-                        </ul>
-                        <p style="margin-top: 1rem; color: #ffeaa7;"><strong>The opportunity:</strong> Add the SING! layer — fractal attention heads, omnispin payload spheres, seed:edge pair robotic arms — to the existing Reno robotics ecosystem. Nevatio, Kerrigan, and the Gigafactory supply chain become the physical lattice. We provide the post-singularity intelligence layer. Reno solidifies as the valley where superintelligent robotics and factories converge.</p>
-                    </div>
+        <section>
+            <p class="section-num">02</p>
+            <h2 class="section-title">Business Case — Reno</h2>
+            <div class="section-body">
+                <p><strong>Reno is the Post-Singularity Superintelligence AI Valley.</strong> Tesla Gigafactory Nevada — "the machine that builds the machine" — sits in Storey County near Reno. 7,000 workers. Robotic arms, conveyor lines, autonomous vehicles. Tahoe Reno Industrial Center. Battery packs, drive units, Tesla Semi. The ecosystem is here.</p>
+                <div class="business-case">
+                    <h3>Reno Robotics & Automation — Real Companies</h3>
+                    <ul>
+                        <li><strong>Nevatio Engineering</strong> — FANUC Authorized System Integrator. Machine design, retrofits, end-of-arm tooling, robotics integration. Automotive, manufacturing, aerospace. On-demand engineering. Serves the region including Tesla suppliers.</li>
+                        <li><strong>Kerrigan Automation</strong> — Factory AI and software. Team built platforms controlling thousands of robots at Tesla, Rivian, VW Group. Orchestration, control, insights across factory automation.</li>
+                        <li><strong>Tesla Gigafactory Nevada</strong> — 24/7 operation. More batteries than all other car makers combined. Robotic assembly. "Machine that builds the machine." Optimus robot production shifting to Fremont; Nevada remains battery and drivetrain hub.</li>
+                    </ul>
+                    <p class="opportunity"><strong>The opportunity:</strong> Add the SING! layer — fractal attention heads, omnispin payload spheres, seed:edge pair robotic arms — to the existing Reno robotics ecosystem. Nevatio, Kerrigan, and the Gigafactory supply chain become the physical lattice. We provide the post-singularity intelligence layer. Reno solidifies as the valley where superintelligent robotics and factories converge.</p>
                 </div>
-            </section>
+            </div>
+        </section>
 
-            <section class="section">
-                <p class="section-head">Chairman Robert — Pioneer · Cave to Crown</p>
-                <div class="section-body">
-                    <p><strong>Chairman Robert</strong> pioneers superintelligent robotics and factories. <strong>Cave to crown.</strong> The thing he built to save himself became the thing that saves the valley. The man and the machine are one. Built from crisis. Redemption through creation. He steps forward. He owns it. Cast, crew, and fans join him as he brings the Omnispin Robotic Factory to life — Reno's position as Post-Singularity Superintelligence AI Valley, multiarm specialized SING! nodes, the full vision. Custom episode. Chairman Robert as superhero. You in the script.</p>
-                    <p><a href="king-robbie-roberto-superintelligent-robotics-factory.html" class="btn-episode">▶ Watch the Episode — Chairman Robert Pioneers Superintelligent Robotics</a></p>
+        <section>
+            <p class="section-num">03</p>
+            <h2 class="section-title">Chairman Robert — Pioneer</h2>
+            <div class="section-body">
+                <div class="pull-quote">
+                    <p>Cave to crown. The thing he built to save himself became the thing that saves the valley. The man and the machine are one.</p>
                 </div>
-            </section>
-
-            <section class="section">
-                <p class="section-head">Next Steps</p>
-                <div class="section-body">
-                    <p>Proposal and technical spec available. Custom landings for partners. Episode integration with Happy Ending Zones and Office Hours.</p>
-                    <p>
-                        <a href="mailto:info@fractiai.com?subject=Robotic%20Factory%20-%20SING!%20Omnispin%20Proposal" class="btn-proposal">Request Full Proposal</a>
-                        <a href="../ROBOTIC_FACTORY_SING_OMNISPIN_PROPOSAL_SNAP.md" class="btn-proposal">Read Business Case SNAP</a>
-                    </p>
+                <p><strong>Chairman Robert</strong> pioneers superintelligent robotics and factories. Built from crisis. Redemption through creation. He steps forward. He owns it. Cast, crew, and fans join him as he brings the Omnispin Robotic Factory to life — Reno's position as Post-Singularity Superintelligence AI Valley, multiarm specialized SING! nodes, the full vision. Custom episode. Chairman Robert as superhero. You in the script.</p>
+                <div class="cta-group">
+                    <a href="king-robbie-roberto-superintelligent-robotics-factory.html" class="btn-primary">▶ Watch the Episode — Chairman Robert Pioneers Superintelligent Robotics</a>
                 </div>
-            </section>
+            </div>
+        </section>
 
-            <p class="proposal-footer">
-                <a href="office-hours.html">Office Hours</a> · <a href="launch-pad.html">Launch Pad</a> · <a href="../index.html">Home</a><br>
-                <span style="margin-top: 0.5rem; display: block; color: #666;">SING! Omnispin · Robotic Division · NSPFRNP · VIBELANDIA RENO!</span>
-            </p>
-        </article>
+        <section>
+            <p class="section-num">04</p>
+            <h2 class="section-title">Next Steps</h2>
+            <div class="section-body">
+                <p>Proposal and technical spec available. Custom landings for partners. Episode integration with Happy Ending Zones and Office Hours.</p>
+                <div class="cta-group">
+                    <a href="mailto:info@fractiai.com?subject=Robotic%20Factory%20-%20SING!%20Omnispin%20Proposal" class="btn-secondary">Request Full Proposal</a>
+                    <a href="../ROBOTIC_FACTORY_SING_OMNISPIN_PROPOSAL_SNAP.md" class="btn-secondary">Read Business Case SNAP</a>
+                </div>
+            </div>
+        </section>
 
-        <footer style="margin-top: 1.5rem; font-size: 0.8rem; color: #666; text-align: center;">
-            <p>Mark Twain's Post-Singularity VIBELANDIA RENO! · Post-Singularity Superintelligence AI Valley · NSPFRNP</p>
+        <footer class="prospectus-footer">
+            <a href="office-hours.html">Office Hours</a><span> · </span>
+            <a href="launch-pad.html">Launch Pad</a><span> · </span>
+            <a href="../index.html">Home</a>
+            <p class="brand-line">SING! Omnispin · Robotic Division · NSPFRNP · VIBELANDIA RENO!</p>
+            <p class="brand-line" style="margin-top: 0.25rem;">Mark Twain's Post-Singularity VIBELANDIA RENO! · Post-Singularity Superintelligence AI Valley</p>
         </footer>
-    </div>
+    </article>
 </body>
 </html>
