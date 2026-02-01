@@ -8,7 +8,7 @@
 
 ## One-liner
 
-*Dispensary: no consultations needed — just choose and buy. 1, 2, 3 4×4×4×4 experiences zone. Tight shopping: Basic, Members, Ultimate VIP, Baller V · 1 hit, weekly, monthly, annual · Golden Fractal Key.*
+*Dispensary: no consultations needed — just choose and buy. 1 hit begins at $10 (Basic) and scales to $100 (Ultimate Baller V level). Weekly, monthly, and annual onramps. Four tiers: Basic, Members, Ultimate VIP, Baller V · Golden Fractal Key.*
 
 ---
 
@@ -16,7 +16,7 @@
 
 - **Office Hours at the dispensary: 24×7.**
 - **No consultations needed** — just choose and buy.
-- **1, 2, 3 4×4×4×4 experiences zone** — four tiers (Basic → Members → Ultimate VIP → Baller V), four options each (1 hit · weekly · monthly · annual).
+- **1 hit $10 (Basic) → $100 (Ultimate Baller V level)** — four tiers (Basic, Members, Ultimate VIP, Baller V), each with weekly, monthly, and annual onramps (plus 1 hit).
 - Surface: interfaces/dispensary-experience.html — hero, intro, tier grid, BUY → payment-checkout.
 
 ---

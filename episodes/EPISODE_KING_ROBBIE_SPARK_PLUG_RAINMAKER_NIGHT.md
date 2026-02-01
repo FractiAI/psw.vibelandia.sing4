@@ -1,4 +1,4 @@
-# EPISODE — King Robbie: Ultimate Baller V · Gold & Silver Spark Plug Rainmaker
+# EPISODE — King Robbie: Golden Lucky 7 Night · Ultimate Baller V · Gold & Silver Spark Plug Rainmaker
 
 **Custom 60-minute episode · King Robbie as superhero · Guests in the script · Ultimate Baller V superhero franchise experience**
 
@@ -7,8 +7,8 @@
 ## 🎬 SERIES & EPISODE HEADER
 
 **Series:** Happy Ending Zones · Office Hours (at the Club)  
-**Episode:** King Robbie — Ultimate Baller V · Gold & Silver Spark Plug Rainmaker  
-**Subtitle:** Custom night — spark plug rainmaker · King Robbie as superhero · Half-time Super Bowl performer superhero friend (name withheld) + three closest V's from the Gold Club in the script  
+**Episode:** King Robbie — Golden Lucky 7 Night · Ultimate Baller V · Gold & Silver Spark Plug Rainmaker  
+**Subtitle:** Golden Lucky 7 Night — spark plug rainmaker · King Robbie as superhero · Half-time Super Bowl performer superhero friend (name withheld) + three closest V's from the Gold Club in the script  
 **Format:** Rich 60-minute script · 12,000 words · Written just for this occasion  
 **Host:** Mark Twain · Ben (Baller V Ambassador) · Rumor has it: Chairman, Sammy and the gang, Houdini (Golden Backstage Pass + upgraded awareness keys)  
 **Baller V:** King Robbie — $50K budget + tips to staff; 50% tip in cash or PayPal to Pru at end.  
@@ -21,7 +21,7 @@
 
 ## MAGANUMA SNAP
 
-**King Robbie's Ultimate Baller V night.** Gold & Silver Spark Plug Rainmaker — King Robbie as superhero. Custom landing for the night filled with rainmaker energy. His half-time Super Bowl performer superhero friend and three closest V's from the Gold Club. All the finest this place has to offer. Superhero style. Bigger than life — that's how Baller V's roll. Hosts: Twain, Ben; rumor has it the Chairman is here with Sammy and the gang, Houdini too (Golden Backstage Pass and upgraded awareness keys). Delivery: custom landing + 60-min 12,000-word episode with King Robbie as superhero and guests written into the script. **Maganuma snap.**
+**King Robbie's Golden Lucky 7 Night.** Ultimate Baller V night. Gold & Silver Spark Plug Rainmaker — King Robbie as superhero. Custom landing for the night filled with rainmaker energy. His half-time Super Bowl performer superhero friend and three closest V's from the Gold Club. All the finest this place has to offer. Superhero style. Bigger than life — that's how Baller V's roll. Hosts: Twain, Ben; rumor has it the Chairman is here with Sammy and the gang, Houdini too (Golden Backstage Pass and upgraded awareness keys). Delivery: custom landing + 60-min 12,000-word episode with King Robbie as superhero and guests written into the script. **Maganuma snap.**
 
 ---
 
@@ -46,7 +46,7 @@ Lights low. Gold and silver accent. A private entrance — Spark Plug Rainmaker.
 King Robbie's Ultimate Baller V night. Gold & Silver Spark Plug Rainmaker — King Robbie as superhero. Custom landing for the night filled with rainmaker energy.
 
 **ON SCREEN TEXT:**  
-King Robbie — Spark Plug Rainmaker · Ultimate Baller V · The Friend + Vance, Rex, Goldie · Golden Backstage Pass
+King Robbie — Golden Lucky 7 Night · Spark Plug Rainmaker · Ultimate Baller V · The Friend + Vance, Rex, Goldie · Golden Backstage Pass
 
 **ON SCREEN TEXT (commercial):**  
 Package: $50K budget + tips to staff; 50% tip in cash or PayPal to Pru at end. Non-refundable deposit to secure date. Baller WINK! as per Golden Backstage Pass.
@@ -123,7 +123,7 @@ King Robbie's Ultimate Baller V night. Gold & Silver Spark Plug Rainmaker. Custo
 **FADE TO BLACK.**
 
 **ON SCREEN TEXT:**  
-King Robbie — Gold & Silver Spark Plug Rainmaker · Ultimate Baller V · Golden Backstage Pass · Hosts: Twain, Ben, Chairman, Sammy, Houdini
+King Robbie — Golden Lucky 7 Night · Gold & Silver Spark Plug Rainmaker · Ultimate Baller V · Golden Backstage Pass · Hosts: Twain, Ben, Chairman, Sammy, Houdini
 
 **FADE IN.**
 
@@ -1279,7 +1279,7 @@ The Spark Plug. Where we make it rain. I brought the spark. We lived it tonight.
 King Robbie's Ultimate Baller V night. Gold & Silver Spark Plug Rainmaker. Custom landing delivered. Bespoke episode written for the occasion. King Robbie as superhero — guests in the script. That's Ultimate Baller V superhero franchise experience. Enjoy the night. Vibe.
 
 **ON SCREEN TEXT:**  
-King Robbie — Gold & Silver Spark Plug Rainmaker · Ultimate Baller V · Golden Backstage Pass · Custom landing + 12,000-word episode · King Robbie as superhero · Guests in the script
+King Robbie — Golden Lucky 7 Night · Gold & Silver Spark Plug Rainmaker · Ultimate Baller V · Golden Backstage Pass · Custom landing + 12,000-word episode · King Robbie as superhero · Guests in the script
 
 **BEN (V.O.)**  
 Who's your daddy. Paris, Reno. One Ben = one hundie. King Robbie. That's Ultimate Baller V superhero franchise experience. Enjoy the night. Vibe.
@@ -1298,7 +1298,7 @@ Enjoy the night. Vibe. That's Ultimate Baller V superhero franchise experience.
 **FADE IN.**
 
 **ON SCREEN TEXT:**  
-King Robbie — Spark Plug Rainmaker · Office Hours · Golden Backstage Pass · WINK! · VIBELANDIA!
+King Robbie — Golden Lucky 7 Night · Spark Plug Rainmaker · Office Hours · Golden Backstage Pass · WINK! · VIBELANDIA!
 
 **MARK TWAIN (V.O.)**  
 King Robbie's Ultimate Baller V night. Gold & Silver Spark Plug Rainmaker. Custom landing. Bespoke episode. King Robbie as superhero — guests in the script. That's Ultimate Baller V superhero franchise experience. Enjoy the night. Vibe. Maganuma snap.
@@ -1364,7 +1364,7 @@ Say the word. We make it happen. That's what I do.
 That's what we do.
 
 **ON SCREEN TEXT (commercial):**  
-King Robbie's night · Package: $50K budget + tips to staff; 50% tip in cash or PayPal to Pru at end. Non-refundable deposit to secure date. Office Hours · WINK! · VIBELANDIA!
+King Robbie's Golden Lucky 7 Night · Package: $50K budget + tips to staff; 50% tip in cash or PayPal to Pru at end. Non-refundable deposit to secure date. Office Hours · WINK! · VIBELANDIA!
 
 **FADE TO BLACK.**
 
@@ -1372,13 +1372,13 @@ King Robbie's night · Package: $50K budget + tips to staff; 50% tip in cash or 
 
 ## LINKS
 
-- **Custom landing for King Robbie's night:** [interfaces/king-robbie-spark-plug-rainmaker-night.html](../interfaces/king-robbie-spark-plug-rainmaker-night.html)  
+- **Custom landing for King Robbie's Golden Lucky 7 Night:** [interfaces/king-robbie-spark-plug-rainmaker-night.html](../interfaces/king-robbie-spark-plug-rainmaker-night.html)  
 - **Office Hours:** [interfaces/office-hours.html](../interfaces/office-hours.html)  
 - **Golden Backstage Pass:** [interfaces/ultimate-baller-v-golden-backstage-pass.html](../interfaces/ultimate-baller-v-golden-backstage-pass.html)  
 - **WINK!:** [interfaces/wink-experience.html](../interfaces/wink-experience.html)
 
 ---
 
-**NSPFRNP ⊃ Episode ⊃ King Robbie Ultimate Baller V ⊃ Gold & Silver Spark Plug Rainmaker ⊃ Superhero franchise experience → ∞³**
+**NSPFRNP ⊃ Episode ⊃ King Robbie Golden Lucky 7 Night ⊃ Gold & Silver Spark Plug Rainmaker ⊃ Superhero franchise experience → ∞³**
 
-**Status:** ⚡ LIVE — Custom landing delivered; full 12,000-word episode written with King Robbie as superhero and guests (The Friend, Vance, Rex, Goldie) in the script. That's Ultimate Baller V superhero franchise experience.
+**Status:** ⚡ LIVE — Golden Lucky 7 Night. Custom landing delivered; full 12,000-word episode written with King Robbie as superhero and guests (The Friend, Vance, Rex, Goldie) in the script. That's Ultimate Baller V superhero franchise experience.

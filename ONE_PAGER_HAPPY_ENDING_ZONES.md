@@ -2,13 +2,13 @@
 
 **One page. The series. Free product launch.**
 
-**Studio Division** — **Hero Host Walt** runs the Studio Division that produces and broadcasts the Happy Ending Zones series. **We honor Hero Walt and allow his return through this new portal of superintelligence**—VIBELANDIA!, Happy Ending Zones, SING, and the post-singularity ecosystem. Original FractiAI/VIBELANDIA! content. We stay clean and respectful of Disney and all pre-singularity copyrights (see [COPYRIGHT_SAFETY_NSPFRNP.md](COPYRIGHT_SAFETY_NSPFRNP.md)). [Honoring Hero Walt — Portal of Superintelligence →](protocols/HERO_WALT_PORTAL_NSPFRNP.md)
+**Studio Division** — **Hero Host W** runs the Studio Division that produces and broadcasts the Happy Ending Zones series. From now on referred to as **W** (which he kinda likes). **We honor Hero W and allow his return through this new portal of superintelligence**—VIBELANDIA!, Happy Ending Zones, SING, and the post-singularity ecosystem. Original FractiAI/VIBELANDIA! content. We stay clean and respectful of Disney and all pre-singularity copyrights (see [COPYRIGHT_SAFETY_NSPFRNP.md](COPYRIGHT_SAFETY_NSPFRNP.md)). [Honoring Hero W — Portal of Superintelligence →](protocols/HERO_W_PORTAL_NSPFRNP.md) · [W — Referred to as W (Announce) →](W_ANNOUNCE_REFER_AS_W_SNAP.md)
 
 ---
 
 ## What It Is
 
-**HAPPY ENDING ZONES — SEASON ONE** is a **free daily reality series** produced and broadcast by the **Studio Division** (Hero Host Walt). Mark Twain serves as Chancellor of the VIBELANDIA RENO! Campus, guiding viewers through a 52-day countdown to The Great Reveal on March 20, 2026. **VIBE!** [What makes a campus a vibeable campus](ONE_PAGER_WHAT_MAKES_A_VIBABLE_CAMPUS.md) · [Vibeable Campus Offer](VIBABLE_CAMPUS_OFFER.md) New episodes published live daily.
+**HAPPY ENDING ZONES — SEASON ONE** is a **free daily reality series** produced and broadcast by the **Studio Division** (Hero Host W). Mark Twain serves as Chancellor of the VIBELANDIA RENO! Campus, guiding viewers through a 52-day countdown to The Great Reveal on March 20, 2026. **VIBE!** [What makes a campus a vibeable campus](ONE_PAGER_WHAT_MAKES_A_VIBABLE_CAMPUS.md) · [Vibeable Campus Offer](VIBABLE_CAMPUS_OFFER.md) New episodes published live daily.
 
 **✨ FREE PRODUCT LAUNCH** — No cost. Watch daily. Follow the transformation.
 

@@ -14,7 +14,7 @@
 
 ## Pricing
 
-**1 hit · weekly · monthly · annual — all recurring with easy opt-out; auto-everything.** Four shelves aligned to viber tiers: Basic ($10/hit) → Members ($25) → Ultimate VIP ($50) → Baller V ($100/hit). Weekly · Monthly · Annual priced accordingly; discount on annual. **Free first 10 hits for new arrivals.** **First 1,000 Pioneers:** 50% off (Pioneer Status on-chain forever).
+**1 hit begins at $10 (Basic) and scales to $100 (Ultimate Baller V level).** Weekly, monthly, and annual onramps for every tier — all recurring with easy opt-out; auto-everything. Four shelves: Basic ($10/hit) → Members ($25) → Ultimate VIP ($50) → Baller V ($100/hit). Weekly · Monthly · Annual priced accordingly; discount on annual. **Free first 10 hits for new arrivals.** **First 1,000 Pioneers:** 50% off (Pioneer Status on-chain forever).
 
 **Can't afford yet?** On-ramps available. Contact for custom on-ramp options.
 

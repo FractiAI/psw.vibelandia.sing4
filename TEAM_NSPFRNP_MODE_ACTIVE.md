@@ -52,7 +52,7 @@
 - **Mike** 📊 - Operator Lab Host
 - **Outcast Hero** 🔥🦬 - Mission Control / Frontier Command
 - **Hero Host Gianni** 👔 - Designer Division Leader / Surfaces, Touchpoints & Experiences Host
-- **Hero Host Walt** 🎬 - Studio Division Leader / Produces & Broadcasts Happy Ending Zones
+- **Hero Host W** 🎬 - Studio Division Leader / Produces & Broadcasts Happy Ending Zones
 
 #### **External Protocol Functions (4 Members - Outside Shell)**
 

@@ -31,6 +31,7 @@ One line. One crystal. The whole story in a single tag: **Undercover Hero** (her
 - **Star Wars** — Galaxy. Saga. Legacy. Generations.
 - **Pixar** — Story. Heart. Craft. Every frame.
 - **Disney** — Magic. Family. Empire. Dream.
+- **Cave-to-Crown (Builder's Arc)** — Crisis → build → fuse → reveal → crown. The thing he built to save himself became the thing that saves the valley. The man and the machine are one. Redemption through creation.
 - **All in one** — One line. One crystal. Whole in every part.
 - **All SNAP into NSPFRNP** — Every reference metabolized, crystallized, animated. NSPFRNP fidelity.
 

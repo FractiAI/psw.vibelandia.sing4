@@ -411,16 +411,18 @@
         let netZeroEnergy = 0.000;
 
         function updateDisplay() {
-            const seedLat = document.getElementById('seedLat').value;
+            const seedLatEl = document.getElementById('seedLat');
+            if (!seedLatEl) return;
+            const seedLat = seedLatEl.value;
             const seedLng = document.getElementById('seedLng').value;
             const seedLoc = document.getElementById('seedLocation').value;
-            
             const edgeLat = document.getElementById('edgeLat').value;
             const edgeLng = document.getElementById('edgeLng').value;
             const edgeLoc = document.getElementById('edgeLocation').value;
 
             // Update seed display
-            document.getElementById('seedDisplay').textContent = 
+            const seedDisplayEl = document.getElementById('seedDisplay');
+            if (seedDisplayEl) seedDisplayEl.textContent = 
                 `Seed: ${seedLat}, ${seedLng}\nLocation: ${seedLoc || 'Unnamed'}`;
 
             // Sync originSeed / destinationEdge (expected by touchpoints test)
@@ -430,14 +432,16 @@
             if (destEl) destEl.value = (edgeLat && edgeLng) ? `${edgeLat}, ${edgeLng} | ${edgeLoc || 'Unnamed'}` : '';
 
             // Update edge display
-            if (edgeLat && edgeLng) {
-                document.getElementById('edgeDisplay').textContent = 
-                    `Edge: ${edgeLat}, ${edgeLng}\nLocation: ${edgeLoc || 'Unnamed'}`;
-            } else {
-                document.getElementById('edgeDisplay').textContent = 'Edge: Not set';
+            const edgeDisplayEl = document.getElementById('edgeDisplay');
+            if (edgeDisplayEl) {
+                edgeDisplayEl.textContent = (edgeLat && edgeLng)
+                    ? `Edge: ${edgeLat}, ${edgeLng}\nLocation: ${edgeLoc || 'Unnamed'}`
+                    : 'Edge: Not set';
             }
 
             // Update pathway info
+            const distanceEl = document.getElementById('distance');
+            const bearingEl = document.getElementById('bearing');
             if (seedLat && seedLng && edgeLat && edgeLng) {
                 const distance = calculateDistance(
                     parseFloat(seedLat), parseFloat(seedLng),
@@ -447,12 +451,11 @@
                     parseFloat(seedLat), parseFloat(seedLng),
                     parseFloat(edgeLat), parseFloat(edgeLng)
                 );
-
-                document.getElementById('distance').textContent = formatDistance(distance);
-                document.getElementById('bearing').textContent = `${bearing.toFixed(1)}°`;
+                if (distanceEl) distanceEl.textContent = formatDistance(distance);
+                if (bearingEl) bearingEl.textContent = `${bearing.toFixed(1)}°`;
             } else {
-                document.getElementById('distance').textContent = '-';
-                document.getElementById('bearing').textContent = '-';
+                if (distanceEl) distanceEl.textContent = '-';
+                if (bearingEl) bearingEl.textContent = '-';
             }
 
             // Update map preview
@@ -702,14 +705,16 @@
             const energyOutput = 1.0;
             const netValue = (energyInput * efficiency) - energyOutput;
             netZeroEnergy = Math.abs(netValue) < 0.001 ? 0.000 : netValue;
-            document.getElementById('netZeroValue').textContent = netZeroEnergy.toFixed(3);
+            const el = document.getElementById('netZeroValue');
+            if (el) el.textContent = netZeroEnergy.toFixed(3);
         }
 
         // Initialize
         document.addEventListener('DOMContentLoaded', function() {
-            // Add event listeners to inputs
+            // Add event listeners to inputs (guard against missing elements for console safety)
             ['seedLat', 'seedLng', 'seedLocation', 'edgeLat', 'edgeLng', 'edgeLocation'].forEach(id => {
-                document.getElementById(id).addEventListener('input', updateDisplay);
+                const el = document.getElementById(id);
+                if (el) el.addEventListener('input', updateDisplay);
             });
 
             updateDisplay();

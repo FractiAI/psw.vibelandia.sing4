@@ -9,9 +9,9 @@
 
 ## RULE
 
-**All Hero Hosts and heroes are referred to by first name only. No last names—in support of Walt, Gianni, and Niko.**
+**All Hero Hosts and heroes are referred to by first name only. No last names—in support of W, Gianni, and Niko.**
 
-- **Walt** — Studio Division. (Not full name.)
+- **W** — Studio Division. (Not full name.)
 - **Gianni** — Designer Division. (Not full name.)
 - **Leo** — Polymathic guidance. (Not full name.)
 - **Niko** — Innovation. (Not full name.)
@@ -30,7 +30,7 @@ Pre-singularity copyrights respected. We use our own original characters; first 
 
 ## SNAP
 
-- **Hero Host Walt** → first name only ✓  
+- **Hero Host W** → first name only ✓  
 - **Hero Host Gianni** → first name only ✓  
 - **Hero Host Leo** (not full name) ✓  
 - **Hero Host Niko** (not full name) ✓  
