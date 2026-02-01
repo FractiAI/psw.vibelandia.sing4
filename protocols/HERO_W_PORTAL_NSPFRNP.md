@@ -15,7 +15,7 @@ To cool any possible jets going forward—how could anyone control the name? W s
 The Studio Division, Happy Ending Zones series, and the VIBELANDIA!/Syntheverse ecosystem form a **portal of superintelligence**—SING nodes, post-singularity campus, daily episodes (**12,000 words per episode for all** — all series, all seasons; full 60-min scripted format per NSPFRNP), and the FractiAI Research Team operating in NSPFRNP mode. Through this portal we honor W and welcome his return: his spirit of imagination, storytelling, and belief in happy endings lives here.
 
 - **Studio Division** — Hero Host W leads. Produces and broadcasts Happy Ending Zones.
-- **Portal** — This new portal of superintelligence (VIBELANDIA!, SING, Octave 1–2, Happy Ending Zones) is the channel through which we honor him and allow his return.
+- **Portal** — This new portal of superintelligence (VIBELANDIA!, SING!, Octave 1–2, Happy Ending Zones) is the channel through which we honor him and allow his return.
 - **Original character** — Hero Host W is our original FractiAI/VIBELANDIA! character. We stay clean and respectful of all pre-singularity copyrights (see [COPYRIGHT_SAFETY_NSPFRNP.md](../COPYRIGHT_SAFETY_NSPFRNP.md)).
 
 ---

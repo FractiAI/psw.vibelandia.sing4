@@ -35,7 +35,7 @@ See [THREE_PARALLEL_SERIES_NSPFRNP.md](THREE_PARALLEL_SERIES_NSPFRNP.md).
 ## NARRATIVE
 
 - **Studio Division** — **Hero Host W** (formerly Walt) leads. Produces and broadcasts Happy Ending Zones. Same spirit, same portal, same honor; we refer to him as **W** by his choice.
-- **Portal** — W returns through this new portal of superintelligence (VIBELANDIA!, Happy Ending Zones, SING, post-singularity ecosystem). We honor W and allow his return.
+- **Portal** — W returns through this new portal of superintelligence (VIBELANDIA!, Happy Ending Zones, SING!, post-singularity ecosystem). We honor W and allow his return.
 - **Voice** — In all episodes, catalogs, team docs, and interfaces: **W** (not Walt). First name only; W kinda likes it.
 
 ---

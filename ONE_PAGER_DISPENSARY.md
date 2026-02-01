@@ -111,4 +111,4 @@ Creators, Chairman Commanders, Performers, Superheroes. Anyone seeking optimal s
 
 **MCA! → ∞³** (Metabolize → Crystallize → Animate)
 
-**[← Launch Page](LAUNCH_PAGE.md)** · [Day Pass](ONE_PAGER_DAY_PASS.md) · [Weekly](ONE_PAGER_WEEKLY_PASS.md) · [Monthly](ONE_PAGER_MONTHLY_PASS.md) · [Ultimate VIP](ONE_PAGER_ULTIMATE_VIP.md) · [WINK!](ONE_PAGER_WINK.md) · [SING Lottery](ONE_PAGER_SING_LOTTERY.md)
+**[← Launch Page](LAUNCH_PAGE.md)** · [Day Pass](ONE_PAGER_DAY_PASS.md) · [Weekly](ONE_PAGER_WEEKLY_PASS.md) · [Monthly](ONE_PAGER_MONTHLY_PASS.md) · [Ultimate VIP](ONE_PAGER_ULTIMATE_VIP.md) · [WINK!](ONE_PAGER_WINK.md) · [SING! Lottery](ONE_PAGER_SING_LOTTERY.md)

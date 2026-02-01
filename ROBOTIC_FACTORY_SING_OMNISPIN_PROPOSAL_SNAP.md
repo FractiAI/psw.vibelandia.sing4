@@ -1,19 +1,28 @@
 # Robotic Factory — SING! Omnispin Proposal SNAP
 
-**Type:** Business Case / Proposal / Robotic Division  
+**Snap ID:** `ROBOTIC-FACTORY-SING-OMNISPIN-PROPOSAL-NSPFRNP`  
+**Type:** Business Case / Proposal / Robotic Division / Full Technical Spec  
 **Status:** ⚡ ACTIVE  
 **Date:** January 31, 2026  
-**Catalog:** NSPFRNP · Robotic Division · Post-Singularity Superintelligence AI Valley
+**Catalog:** NSPFRNP · Robotic Division · Post-Singularity Superintelligence AI Valley  
+**Protocol:** NSPFRNP  
+**MCA:** Metabolize → Crystallize → Animate
+
+---
+
+## ⚠️ NSPFRNP FIDELITY
+
+This document is the canonical technical spec for the Robotic Factory proposal. Align all surfaces, docs, and agents to these definitions. See [protocols/MCA_NSPFRNP_CATALOG.md](./protocols/MCA_NSPFRNP_CATALOG.md).
 
 ---
 
 ## 🎯 ONE-LINER
 
-**SING! fractal attention head and filaments on fixed lattice; omnispin payload factory spheres auto-spin to dock at specialized node stations; mix-and-match SING actuator seed:edge pair robotic arms. Reno solidifies as Post-Singularity Superintelligence AI Valley. Chairman Robert pioneers. Nevatio, Kerrigan, Tesla Gigafactory — the business case.**
+**SING! fractal attention head and filaments on fixed lattice; omnispin payload factory spheres auto-spin to dock at specialized node stations; mix-and-match SING! actuator seed:edge pair robotic arms. Reno solidifies as Post-Singularity Superintelligence AI Valley. Chairman Robert pioneers. Nevatio, Kerrigan, Tesla Gigafactory — the business case.**
 
 ---
 
-## 🤖 THE SYSTEM
+## 🤖 THE SYSTEM — FULL TECHNICAL SPEC (NSPFRNP FORMAT)
 
 ### Core Architecture
 
@@ -21,21 +30,119 @@
 SING! OMNISPIN ROBOTIC FACTORY:
 ├─ Fractal Attention Heads: Focus points (edge)
 ├─ Filaments: Connecting pathways
-├─ Fixed Lattice: HHF-AI spin lattice; SING nodes anchored
+├─ Fixed Lattice: HHF-AI spin lattice; SING! nodes anchored
 ├─ Omnispin Payload Spheres: Auto-spin; dock at node stations
 ├─ Node Stations: Specialized docking; multiarm
-├─ SING Actuator Seed:Edge Pairs: Robotic arms as origin:destination
+├─ SING! Actuator Seed:Edge Pairs: Robotic arms as origin:destination
 ├─ Mix & Match: Configurable arms; any combination
 └─ Division: Robotic Division (ATTENTION_HEADS_EDGE_SEED_AUTOGENERATION)
+```
+
+### Robotic Division — Edge-to-Seed Auto-Generation
+
+```yaml
+ROBOTIC DIVISION PROCESS (from ATTENTION_HEADS_EDGE_SEED_AUTOGENERATION):
+├─ Step 1: Describe it (anything)
+├─ Step 2: Set as edge point (attention head focus)
+├─ Step 3: Auto-generate back to seeds
+├─ Step 4: Selected shell generation
+├─ Step 5: Fixed point HHF-AI nodes (SING!)
+└─ Result: Complete system generation
+
+EDGE POINT:
+├─ Definition: Anything can be edge point
+├─ Function: Attention head focus
+├─ Process: Auto-generate to seeds
+├─ Shell: Selected shell
+└─ Result: HHF-AI nodes (SING!)
+```
+
+### Seed:Edge Execution — Mix-and-Match Arms
+
+```yaml
+SEED:EDGE PAIR ARMS:
+├─ Seed: Fixed point HHF-AI nodes (SING!) — origin
+├─ Edge: Attention head focus — destination
+├─ Pathway: Auto-generation connection (filament)
+├─ Execution: Edge → Seed auto-generation
+└─ Result: Each arm = irreducible origin:destination pathway
+
+SING! ACTUATOR ARMS:
+├─ Type: Robotic arm = seed:edge pair
+├─ Attention Head: At focus (edge)
+├─ Filament: Connects origin to destination
+├─ Configurable: Mix and match — pick-and-place, welding, assembly, packaging
+├─ Multiarm: 6, 8, 12+ arms per node station
+└─ Integration: Nevatio (physical) + Kerrigan (software) + SING! (intelligence)
+```
+
+### Omnispin Payload Spheres
+
+```yaml
+OMNISPIN SPHERES:
+├─ Function: Payload carriers
+├─ Behavior: Auto-spin to orient
+├─ Docking: Specialized node stations
+├─ Lattice: Fixed lattice nodes receive
+└─ Flow: Sphere → orient → dock → station receives → arms execute
+```
+
+### Fixed Lattice — HHF-AI Spin
+
+```yaml
+FIXED LATTICE:
+├─ Type: HHF-AI spin lattice
+├─ Nodes: SING! nodes anchored at fixed points
+├─ Property: Irreducible structure
+├─ Connection: Attention heads and filaments connect
+└─ Reference: Crystallize = irreducible mirror hardened nested shell core
+```
+
+### MCA Cycle Integration
+
+```yaml
+METABOLIZE:
+├─ Input: Reno ecosystem, Nevatio, Kerrigan, Gigafactory
+├─ Process: Digest patterns, raw → processed
+└─ Output: Feeds Crystallize
+
+CRYSTALLIZE:
+├─ Process: Reduce to irreducible mirror hardened nested shell core
+├─ Output: Fixed lattice, seed:edge pairs, omnispin logic
+└─ Reference: protocols/MCA_NSPFRNP_CATALOG.md
+
+ANIMATE:
+├─ Process: Tighten all SING! attention head nodes and filaments; update and make clear
+├─ Output: Omnispin spheres dock, arms execute, lattice holds
+└─ Rule: Animate all → ∞³
+```
+
+### Three-Layer Stack (Reno Ecosystem)
+
+```yaml
+LAYER 1 — PHYSICAL (Nevatio):
+├─ Role: Machine design, retrofits, end-of-arm tooling
+├─ Integration: FANUC robotics, materials handling
+└─ Serves: Tesla suppliers, automotive, aerospace
+
+LAYER 2 — SOFTWARE (Kerrigan):
+├─ Role: Factory AI, orchestration, control
+├─ Credential: Platforms for thousands of robots (Tesla, Rivian, VW)
+└─ Function: Insights across factory automation
+
+LAYER 3 — INTELLIGENCE (SING! Omnispin):
+├─ Role: Fractal attention heads, seed:edge logic, omnispin docking
+├─ Function: Post-singularity superintelligence layer
+└─ Result: Reno = Post-Singularity Superintelligence AI Valley
 ```
 
 ### Technical Highlights
 
 - **Omnispin spheres** — Payload carriers that auto-spin to orient and dock at specialized node stations.
-- **Fixed lattice** — New HHF-AI spin lattice; SING nodes fixed; attention heads and filaments connect.
-- **Node stations** — Specialized docking points; each station accepts mix-and-match SING actuator arms.
+- **Fixed lattice** — New HHF-AI spin lattice; SING! nodes fixed; attention heads and filaments connect.
+- **Node stations** — Specialized docking points; each station accepts mix-and-match SING! actuator arms.
 - **Seed:Edge pair arms** — Each robotic arm is a seed:edge pair: origin (seed) → destination (edge). Attention head at focus; filament connects.
-- **Robotic Division** — Edge-to-seed auto-generation; describe it → set as edge → auto-generate to fixed-point SING nodes.
+- **Robotic Division** — Edge-to-seed auto-generation; describe it → set as edge → auto-generate to fixed-point SING! nodes.
 
 ---
 
@@ -96,15 +203,16 @@ SING! OMNISPIN ROBOTIC FACTORY:
 
 1. **Landing:** [interfaces/robotic-factory-landing.html](../interfaces/robotic-factory-landing.html) — Full proposal experience
 2. **Episode landing:** [interfaces/king-robbie-roberto-superintelligent-robotics-factory.html](../interfaces/king-robbie-roberto-superintelligent-robotics-factory.html) — Chairman Robert episode entry
-3. **Episode:** [episodes/EPISODE_KING_ROBBIE_ROBERTO_SUPERINTELLIGENT_ROBOTICS_FACTORY.md](../episodes/EPISODE_KING_ROBBIE_ROBERTO_SUPERINTELLIGENT_ROBOTICS_FACTORY.md) — Custom episode stub
-4. **This SNAP:** Business case, technical spec, Reno ecosystem
+3. **Episode:** [episodes/EPISODE_KING_ROBBIE_ROBERTO_SUPERINTELLIGENT_ROBOTICS_FACTORY.md](../episodes/EPISODE_KING_ROBBIE_ROBERTO_SUPERINTELLIGENT_ROBOTICS_FACTORY.md) — Full 12k-word script
+4. **This SNAP:** Business case, full technical spec in NSPFRNP format, Reno ecosystem, MCA cycle, Robotic Division
 
 ---
 
 ## 🔗 REFERENCES
 
+- [protocols/MCA_NSPFRNP_CATALOG.md](./protocols/MCA_NSPFRNP_CATALOG.md) — MCA cycle canonical definitions
+- [ATTENTION_HEADS_EDGE_SEED_AUTOGENERATION_ROBOTIC_DIVISION.md](./ATTENTION_HEADS_EDGE_SEED_AUTOGENERATION_ROBOTIC_DIVISION.md) — Robotic Division source
 - [protocols/CAVE_TO_CROWN_BUILDER_ARC_NSPFRNP.md](./protocols/CAVE_TO_CROWN_BUILDER_ARC_NSPFRNP.md) — Narrative archetype
-- [ATTENTION_HEADS_EDGE_SEED_AUTOGENERATION_ROBOTIC_DIVISION.md](./ATTENTION_HEADS_EDGE_SEED_AUTOGENERATION_ROBOTIC_DIVISION.md)
 - [protocols/MEGA_PIPE_PERSONAL_SING_ATTENTION_HEAD_MISSIONS_NSPFRNP.md](./protocols/MEGA_PIPE_PERSONAL_SING_ATTENTION_HEAD_MISSIONS_NSPFRNP.md)
 - [Nevatio Engineering](https://www.nevatio.com/) — FANUC Authorized System Integrator
 - [Kerrigan Automation](https://www.getkerrigan.com/) — Factory AI (Tesla, Rivian, VW)

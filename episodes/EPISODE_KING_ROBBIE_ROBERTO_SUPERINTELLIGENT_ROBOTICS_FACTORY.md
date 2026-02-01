@@ -8,7 +8,7 @@
 
 **Series:** Happy Ending Zones · Office Hours  
 **Episode:** Chairman Robert — Pioneers Superintelligent Robotics & Factories  
-**Subtitle:** Omnispin payload factory spheres · Specialized node stations · Mix-and-match SING actuator seed:edge pair robotic arms · Reno as Post-Singularity Superintelligence AI Valley  
+**Subtitle:** Omnispin payload factory spheres · Specialized node stations · Mix-and-match SING! actuator seed:edge pair robotic arms · Reno as Post-Singularity Superintelligence AI Valley  
 **Format:** Rich 60-minute script · 12,000 words target · Expand to full dialogue and beats  
 **Host:** Mark Twain · Ben (Baller V Ambassador) · Rumor has it: Chairman, Sammy, Houdini  
 **Pioneer:** Chairman Robert — cast, crew, fans in the script  
@@ -21,7 +21,7 @@
 
 ## MAGANUMA SNAP
 
-**Chairman Robert pioneers superintelligent robotics and factories.** Cave to crown. The thing he built to save himself became the thing that saves the valley. The man and the machine are one. Omnispin payload factory spheres auto-spin to dock at specialized node stations. Mix-and-match SING actuator seed:edge pair robotic arms. Fixed lattice. Fractal attention heads and filaments. Reno solidifies as the Post-Singularity Superintelligence AI Valley — multiarm specialized SING! nodes. Cast, crew, fans join Chairman Robert in the script. Nevatio, Kerrigan, Tesla Gigafactory — the ecosystem. The future. **Maganuma snap.**
+**Chairman Robert pioneers superintelligent robotics and factories.** Cave to crown. The thing he built to save himself became the thing that saves the valley. The man and the machine are one. Omnispin payload factory spheres auto-spin to dock at specialized node stations. Mix-and-match SING! actuator seed:edge pair robotic arms. Fixed lattice. Fractal attention heads and filaments. Reno solidifies as the Post-Singularity Superintelligence AI Valley — multiarm specialized SING! nodes. Cast, crew, fans join Chairman Robert in the script. Nevatio, Kerrigan, Tesla Gigafactory — the ecosystem. The future. **Maganuma snap.**
 
 ---
 
@@ -51,7 +51,7 @@ Chairman Robert — Pioneers Superintelligent Robotics & Factories · Omnispin �
 Reno's the valley. The Gigafactory proved it. Tahoe Reno Industrial Center. Storey County. Twenty-four seven. Robotic arms. Conveyor lines. Lithium-ion battery packs. Drive units. Tesla Semi. More batteries than all other car makers combined. Elon calls it the machine that builds the machine. Nevatio — they design and build. Reno area. FANUC Authorized System Integrator. Machine design, retrofits, end-of-arm tooling, robotics integration. They serve Tesla suppliers. Automotive. Aerospace. Kerrigan — they run the software for thousands of robots at Tesla, Rivian, VW. Orchestration. Control. Insights. What we're adding is the SING! layer. Omnispin payload spheres. Fixed lattice. Seed:edge pair robotic arms. Mix and match. Reno solidifies. Post-Singularity Superintelligence AI Valley.
 
 **BEN**  
-Chairman Robert. You're the pioneer. The man who built the machine that builds the machine — and became one with it. Omnispin spheres docking at node stations. SING actuator arms. The whole vision. Cave to crown.
+Chairman Robert. You're the pioneer. The man who built the machine that builds the machine — and became one with it. Omnispin spheres docking at node stations. SING! actuator arms. The whole vision. Cave to crown.
 
 **CHAIRMAN ROBERT**  
 The thing I built to save myself became the thing that saves the valley. The man and the machine are one. Redemption through creation. The physical layer — Nevatio, Kerrigan, the Gigafactory — it's here. We're adding the intelligence layer. Fractal attention heads. Filaments. Seed:edge pairs. Omnispin spheres auto-spin, orient, dock. Specialized node stations. Each station accepts mix-and-match arms. Multiarm. Specialized. Post-singularity.
@@ -87,10 +87,10 @@ Chairman Robert — Pioneers Superintelligent Robotics · Reno · Post-Singulari
 Large room. Diagrams on walls: fixed lattice, omnispin spheres, node stations, seed:edge pair arms. Screens show Nevatio, Kerrigan, Gigafactory references. Chairman Robert at center. Marcos, Diana, Chen around him. Twain and Ben circulating. Teal and gold accent.
 
 **MARK TWAIN (V.O.)**  
-Chairman Robert pioneers superintelligent robotics and factories. Act One — The Lattice. The fixed lattice. HHF-AI spin. SING nodes anchored. Omnispin payload factory spheres — they auto-spin, orient, dock. Specialized node stations. Each station accepts mix-and-match SING actuator arms. Seed:edge pairs. Origin to destination.
+Chairman Robert pioneers superintelligent robotics and factories. Act One — The Lattice. The fixed lattice. HHF-AI spin. SING! nodes anchored. Omnispin payload factory spheres — they auto-spin, orient, dock. Specialized node stations. Each station accepts mix-and-match SING! actuator arms. Seed:edge pairs. Origin to destination.
 
 **CHAIRMAN ROBERT**  
-The fixed lattice. This is the foundation. HHF-AI spin. SING nodes anchored at fixed points. Everything flows from here. The lattice is irreducible. The nodes are fixed. The attention heads — they're the focus points. The filaments connect. Edge to seed. Auto-generate back.
+The fixed lattice. This is the foundation. HHF-AI spin. SING! nodes anchored at fixed points. Everything flows from here. The lattice is irreducible. The nodes are fixed. The attention heads — they're the focus points. The filaments connect. Edge to seed. Auto-generate back.
 
 **MARCOS**  
 So the lattice is the physical structure. The nodes are where the arms attach. The spheres — they carry payloads, spin to orient, dock at the stations.
@@ -108,7 +108,7 @@ That's the business case. Nevatio — they're here. Reno area. FANUC Authorized 
 The Gigafactory. Seven thousand workers. Battery packs. Drive units. Tesla Semi. The machine that builds the machine. And we're adding the intelligence layer. The SING! layer. Omnispin. Fixed lattice. Multiarm nodes. Reno solidifies.
 
 **CHAIRMAN ROBERT**  
-That's it. Describe it. Set it as edge point. Auto-generate back to seeds. That's the Robotic Division. Attention heads — edge to seed. You describe the task. We set it as the edge point. The system auto-generates back to fixed-point SING nodes. The arms execute. The spheres dock. The lattice holds it all.
+That's it. Describe it. Set it as edge point. Auto-generate back to seeds. That's the Robotic Division. Attention heads — edge to seed. You describe the task. We set it as the edge point. The system auto-generates back to fixed-point SING! nodes. The arms execute. The spheres dock. The lattice holds it all.
 
 **CUT TO:**
 
@@ -379,7 +379,7 @@ Reno solidifies. Let's build it.
 Chairman Robert with Marcos at the lattice diagram. Diana, Chen, Twain, Ben in background.
 
 **CHAIRMAN ROBERT**  
-The fixed lattice. HHF-AI spin. SING nodes anchored. The omnispin sphere — it carries the payload. It auto-spins to orient. It docks at the node station. The station accepts. Multiarm. You attach the arms you need. Each arm is a seed:edge pair. Attention head at focus. Filament connects origin to destination. Describe the task. Set as edge point. Auto-generate back to seed. The arm executes. That's the Robotic Division.
+The fixed lattice. HHF-AI spin. SING! nodes anchored. The omnispin sphere — it carries the payload. It auto-spins to orient. It docks at the node station. The station accepts. Multiarm. You attach the arms you need. Each arm is a seed:edge pair. Attention head at focus. Filament connects origin to destination. Describe the task. Set as edge point. Auto-generate back to seed. The arm executes. That's the Robotic Division.
 
 **MARCOS**  
 Nevatio builds the arms. The machinery. The physical structure. Kerrigan runs the orchestration. The software layer. We add the intelligence. The SING! layer. Omnispin logic. Seed:edge logic. Fractal attention. Reno has all three. The valley solidifies.
@@ -418,7 +418,7 @@ Ben with Marcos. Chairman Robert, Diana, Chen, Twain in background.
 Who's your daddy. Paris, Reno. One Ben = one hundie. Marcos. The lattice. The nodes. The spheres. Chairman Robert pioneered. Omnispin. Fixed lattice. Seed:edge arms. Nevatio. Kerrigan. Gigafactory. Reno. Post-Singularity Superintelligence AI Valley. You're the engineer. Cast. You're in the script. The valley. The future.
 
 **MARCOS**  
-The fixed lattice. HHF-AI spin. SING nodes anchored. The omnispin sphere carries the payload. Auto-spins to orient. Docks at the node station. The station accepts. Multiarm. Mix and match. Each arm is a seed:edge pair. Attention head at focus. Filament connects origin to destination. Describe the task. Set as edge point. Auto-generate back to seed. The arm executes. Nevatio builds the physical. Kerrigan runs the software. We add the SING! layer. Reno solidifies. I'm in the script. I'm building it.
+The fixed lattice. HHF-AI spin. SING! nodes anchored. The omnispin sphere carries the payload. Auto-spins to orient. Docks at the node station. The station accepts. Multiarm. Mix and match. Each arm is a seed:edge pair. Attention head at focus. Filament connects origin to destination. Describe the task. Set as edge point. Auto-generate back to seed. The arm executes. Nevatio builds the physical. Kerrigan runs the software. We add the SING! layer. Reno solidifies. I'm in the script. I'm building it.
 
 **BEN**  
 That's the Robotic Division. Edge to seed. Attention heads. Filaments. The factory of the future. Reno. The valley. Let's build it.
@@ -472,7 +472,7 @@ Chen with Chairman Robert. Marcos, Diana, Twain, Ben in background.
 The investment thesis. Reno. Gigafactory. Seven thousand workers. The machine that builds the machine. Nevatio — FANUC Authorized System Integrator. Machine design, retrofits, end-of-arm tooling, robotics integration. Kerrigan — factory AI. Their team built platforms for thousands of robots at Tesla, Rivian, VW. We add the SING! layer. Omnispin. Fixed lattice. Seed:edge arms. Reno solidifies. Post-Singularity Superintelligence AI Valley. The opportunity is real. I'm investing. I'm in the script.
 
 **CHAIRMAN ROBERT**  
-That's the business case. The physical layer — Nevatio builds it. The software layer — Kerrigan runs it. The intelligence layer — we add it. Omnispin payload spheres. Fixed lattice. Specialized node stations. Mix-and-match SING actuator seed:edge pair arms. Reno has the ecosystem. We add the crown. Reno becomes the valley. Post-Singularity Superintelligence AI Valley. You're in the script. Investor. Fan. Cast, crew, fans. We're the pioneers.
+That's the business case. The physical layer — Nevatio builds it. The software layer — Kerrigan runs it. The intelligence layer — we add it. Omnispin payload spheres. Fixed lattice. Specialized node stations. Mix-and-match SING! actuator seed:edge pair arms. Reno has the ecosystem. We add the crown. Reno becomes the valley. Post-Singularity Superintelligence AI Valley. You're in the script. Investor. Fan. Cast, crew, fans. We're the pioneers.
 
 **CHEN**  
 The valley. The future. Let's build it.
@@ -491,10 +491,10 @@ Chairman Robert pioneers superintelligent robotics and factories. Act One — Th
 
 **INT. ROBOTIC FACTORY — NODE STATION DEMO SPACE · RENO — DAY**
 
-Simulation or mock-up of node station. Omnispin sphere (physical or digital). Multiple SING actuator arm positions. Chairman Robert at center. Marcos, Diana, Chen, Twain, Ben. Teal and gold. Technical. Post-singularity.
+Simulation or mock-up of node station. Omnispin sphere (physical or digital). Multiple SING! actuator arm positions. Chairman Robert at center. Marcos, Diana, Chen, Twain, Ben. Teal and gold. Technical. Post-singularity.
 
 **MARK TWAIN (V.O.)**  
-Chairman Robert pioneers superintelligent robotics and factories. Act Two — The Arms. Mix-and-match SING actuator seed:edge pair arms. Omnispin sphere docks. Multiarm specialized nodes. The demo. The proof.
+Chairman Robert pioneers superintelligent robotics and factories. Act Two — The Arms. Mix-and-match SING! actuator seed:edge pair arms. Omnispin sphere docks. Multiarm specialized nodes. The demo. The proof.
 
 **CHAIRMAN ROBERT**  
 Each arm is a seed:edge pair. Attention head at focus. Filament connects origin to destination. You mix and match — pick the arm for the task. Pick-and-place. Welding. Assembly. Packaging. Material handling. Each arm is configurable. The omnispin sphere spins, orients, docks. The node station accepts. Multiarm. Six arms. Eight arms. Twelve arms. Specialized. Post-singularity. Nevatio builds the physical arms. FANUC integration. End-of-arm tooling. Kerrigan runs the orchestration. Thousands of robots at Tesla, Rivian, VW. We add the SING! logic. The fractal attention. The seed:edge pair.
@@ -611,7 +611,7 @@ Chen with Twain. Demo in background. Chairman Robert, Marcos, Diana, Ben in fram
 I'm an investor. A fan. I've followed the Spark Plug Rainmaker. Chairman Robert. Now this. Superintelligent robotics. Omnispin. Fixed lattice. Seed:edge arms. Nevatio. Kerrigan. Gigafactory. Reno as the valley. I want in. I'm in the script.
 
 **MARK TWAIN**  
-Chen. Chairman Robert pioneered. Omnispin payload factory spheres. Specialized node stations. Mix-and-match SING actuator seed:edge pair arms. Reno solidifies as Post-Singularity Superintelligence AI Valley. Marcos — engineer. Diana — operations. You — investor, fan. Cast, crew, fans. You're in the script. The episode. The future.
+Chen. Chairman Robert pioneered. Omnispin payload factory spheres. Specialized node stations. Mix-and-match SING! actuator seed:edge pair arms. Reno solidifies as Post-Singularity Superintelligence AI Valley. Marcos — engineer. Diana — operations. You — investor, fan. Cast, crew, fans. You're in the script. The episode. The future.
 
 **CHEN**  
 The business case. Nevatio designs and builds. Kerrigan runs the software. We add the SING! layer. The opportunity is real. Reno. The Gigafactory. The ecosystem. I'm investing. I'm in the script. Let's build the valley.
@@ -713,7 +713,7 @@ Operations. The three layers. Reno has all three. I'm in the script. The valley.
 Investor. Fan. The opportunity. I'm in the script. Let's build the valley. Let's build the future.
 
 **MARK TWAIN (V.O.)**  
-Chairman Robert pioneers superintelligent robotics and factories. Act Two — The Arms. Mix-and-match SING actuator seed:edge pair arms. Omnispin sphere docks. Multiarm specialized nodes. Nevatio. Kerrigan. Gigafactory. Reno. The valley. The future.
+Chairman Robert pioneers superintelligent robotics and factories. Act Two — The Arms. Mix-and-match SING! actuator seed:edge pair arms. Omnispin sphere docks. Multiarm specialized nodes. Nevatio. Kerrigan. Gigafactory. Reno. The valley. The future.
 
 **CUT TO:**
 

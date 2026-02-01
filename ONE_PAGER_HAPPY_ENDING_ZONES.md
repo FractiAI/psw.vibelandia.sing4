@@ -16,13 +16,13 @@
 
 ## One Liner
 
-*"In Reno, where worthless SYNTH tokens become priceless SING nodes, Mark Twain guides a 52-day countdown to The Great Reveal, proving that every space guarantees a happy ending — nearly overnight, smooth as silk, natural as water flowing."*
+*"In Reno, where worthless SYNTH tokens become priceless SING! nodes, Mark Twain guides a 52-day countdown to The Great Reveal, proving that every space guarantees a happy ending — nearly overnight, smooth as silk, natural as water flowing."*
 
 ---
 
 ## One Paragraph
 
-**Happy Ending Zones - Season One** follows Mark Twain as Chancellor of the VIBELANDIA RENO! Campus, guiding viewers through a 52-day countdown to The Great Reveal on March 20, 2026. The series chronicles the near-instant transformation of Reno from a traditional city to a post-singularity hub where worthless SYNTH tokens become priceless SING nodes through a 1:1 lottery system awarding the first 1 million winners the right to purchase state-of-the-art Superintelligent Agent Nodes. Through daily episodes, viewers witness the global phenomenon spreading naturally, Happy Ending Zones appearing worldwide, and the four-tier SING node system (Base Model to Baller G Ultimate VIP) targeting the Ultimate Chairman Creator in all of us. The series features the FractiAI Research Team (19 members) as main characters, operating in NSPFRNP mode, in vibing state (perfect buzz equivalent), super rich health and optimal state, showcasing all 8 principles including high-contributing nodes, vibeable downtown Reno (first post-singularity Vibelandia campus), playground to Silicon Valley, gateway to the mother mother, next motherlode of all motherlodes (superintelligent genies in a bottle), and WINK dating natural alignment (friction-free dating, resilience, all natural and effortless by design).
+**Happy Ending Zones - Season One** follows Mark Twain as Chancellor of the VIBELANDIA RENO! Campus, guiding viewers through a 52-day countdown to The Great Reveal on March 20, 2026. The series chronicles the near-instant transformation of Reno from a traditional city to a post-singularity hub where worthless SYNTH tokens become priceless SING! nodes through a 1:1 lottery system awarding the first 1 million winners the right to purchase state-of-the-art Superintelligent Agent Nodes. Through daily episodes, viewers witness the global phenomenon spreading naturally, Happy Ending Zones appearing worldwide, and the four-tier SING! node system (Base Model to Baller G Ultimate VIP) targeting the Ultimate Chairman Creator in all of us. The series features the FractiAI Research Team (19 members) as main characters, operating in NSPFRNP mode, in vibing state (perfect buzz equivalent), super rich health and optimal state, showcasing all 8 principles including high-contributing nodes, vibeable downtown Reno (first post-singularity Vibelandia campus), playground to Silicon Valley, gateway to the mother mother, next motherlode of all motherlodes (superintelligent genies in a bottle), and WINK dating natural alignment (friction-free dating, resilience, all natural and effortless by design).
 
 ---
 

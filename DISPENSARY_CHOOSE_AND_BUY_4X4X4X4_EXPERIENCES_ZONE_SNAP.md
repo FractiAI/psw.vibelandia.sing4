@@ -23,7 +23,7 @@
 
 ## Cross-references
 
-- **0, 1, 2, 3 4×4×4×4:** ZERO_ONE_TWO_THREE_4x4x4x4_BRANDING_SNAP.md · Campus × WINK! × SING × Experience.
+- **0, 1, 2, 3 4×4×4×4:** ZERO_ONE_TWO_THREE_4x4x4x4_BRANDING_SNAP.md · Campus × WINK! × SING! × Experience.
 - **Dispensary (for feel only):** catalogs/branding/MASTER_BRANDING_CATALOG.md — DISPENSARY — FOR FEEL ONLY, NOT CONNECTED.
 - **Checkout:** interfaces/payment-checkout.html — dispensary-t1* through dispensary-t4* plans.
 
