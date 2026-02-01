@@ -107,6 +107,13 @@ for (const { from: fromFile, href, src } of linkTargetsFromReport) {
   touchOk(`${fromFile} → ${target}`, resolved, exists);
 }
 
+// Resolve href/src from interfaces/ HTML: root-relative (/ or .md at root) vs interfaces-relative (including ../)
+function resolveTouchpoint(target) {
+  if (target.startsWith('/')) return path.join(ROOT, target.slice(1));
+  if (target.includes('.md') && !target.startsWith('..')) return path.join(ROOT, target);
+  return path.join(INTERFACES, target);
+}
+
 // Scan all HTML for href/src and check root-relative and interfaces-relative
 for (const name of expectedSurfaces.filter(n => n.endsWith('.html'))) {
   const p = path.join(INTERFACES, name);
@@ -115,14 +122,14 @@ for (const name of expectedSurfaces.filter(n => n.endsWith('.html'))) {
   const hrefs = [...html.matchAll(/href=["']([^"']+)["']/g)].map(m => m[1]).filter(h => !h.startsWith('http') && !h.startsWith('#') && !h.startsWith('mailto:'));
   const srcs = [...html.matchAll(/src=["']([^"']+)["']/g)].map(m => m[1]).filter(s => !s.startsWith('http'));
   for (const h of hrefs) {
-    const res = h.startsWith('/') ? path.join(ROOT, h.slice(1)) : path.join(INTERFACES, h);
+    const res = resolveTouchpoint(h);
     const exists = fs.existsSync(res);
     if (!results.touchpoints.some(t => t.label === `${name} → ${h}`)) {
       touchOk(`${name} → ${h}`, res, exists);
     }
   }
   for (const s of srcs) {
-    const res = s.startsWith('/') ? path.join(ROOT, s.slice(1)) : path.join(INTERFACES, s);
+    const res = resolveTouchpoint(s);
     const exists = fs.existsSync(res);
     if (!results.touchpoints.some(t => t.label === `${name} → ${s}`)) {
       touchOk(`${name} → ${s}`, res, exists);
@@ -213,6 +220,11 @@ console.log('Total passed:', passed, '| failed:', failed);
 if (results.errors.length) {
   console.log('\nErrors:');
   results.errors.forEach(e => console.log('  -', e.label, e.detail));
+}
+const failedTouchpoints = results.touchpoints.filter(t => !t.exists);
+if (failedTouchpoints.length) {
+  console.log('\nFailed touchpoints (broken links):');
+  failedTouchpoints.forEach(t => console.log('  -', t.label, '→', t.target));
 }
 console.log('\nAPI details:', JSON.stringify(results.api, null, 2));
 

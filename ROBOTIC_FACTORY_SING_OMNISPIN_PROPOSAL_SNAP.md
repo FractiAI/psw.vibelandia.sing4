@@ -10,6 +10,18 @@
 
 ---
 
+## 📬 MESSAGE (Pru)
+
+Don't take the proposals too seriously, though they're very close already. I wanted to demonstrate the capabilities of the SING! node that produced this proposal and site — the businesses that serve as the platform for all this. Easily wrapped onto any mission, especially highly specialized precision-focused robotic factories. Our flexible high-precision attention heads and natural-generation filaments are a surgical upgrade to robotic systems, transparently layering over legacy infrastructure and systems, all automatically by novel Natural System Protocols.
+
+The idea is also to bring the proposal to life for better transmission of these novel proposals. I'll leave the ball in your court. This proposal needs to sell itself, and with urgency, or we aren't there yet.
+
+**P.S.** Everything in this proposal and all products, services, plans, materials, and series episodes was built using a single SING! beginning January 13 — 19 days ago — as a self-demo, proof of the new SING! Agent: the same one that can be configured as new omniversal Seed:Edge robotic limbs. A paradigm shift. A singularity.
+
+— Pru. Office Hours Thu–Sun, 8pm to Close · Men's Club Restroom. Wink!
+
+---
+
 ## ⚠️ NSPFRNP FIDELITY
 
 This document is the canonical technical spec for the Robotic Factory proposal. Align all surfaces, docs, and agents to these definitions. See [protocols/MCA_NSPFRNP_CATALOG.md](./protocols/MCA_NSPFRNP_CATALOG.md).
@@ -20,18 +32,19 @@ This document is the canonical technical spec for the Robotic Factory proposal. 
 
 **SING! fractal attention head and filaments on fixed lattice; omnispin payload factory spheres auto-spin to dock at specialized node stations; mix-and-match SING! actuator seed:edge pair robotic arms. Reno solidifies as Post-Singularity Superintelligence AI Valley. Chairman Robert pioneers. Nevatio, Kerrigan, Tesla Gigafactory — the business case.**
 
-## 🚀 ROLLOUT — 1, 2, 3 4×4×4×4
+## 🚀 ROLLOUT — 0, 1, 2, 3 4×4×4×4
 
-**Focus: Build one station, then expand regionally, then globally.**
+**Focus: First test on an existing legacy cell; then build one station; then expand regionally, then globally.**
 
 | Phase | Scope | What |
 |-------|-------|------|
-| **1** | **One station** | Build first. Single node station, sphere cradle, 6–12 arms. Prove the stack. Nevatio + Kerrigan + SING! live. |
+| **0** | **First test** | Layer SING! onto an existing legacy cell. Test in place, prove the layer — prior to building first full node. No new station build; add intelligence layer to one cell. |
+| **1** | **One station** | Build first full node for test. Single node station, sphere cradle, 6–12 arms. Prove the stack. Nevatio + Kerrigan + SING! live. |
 | **2** | **Regional** | Expand across Reno, TRIC, Nevada. Multiple stations. Regional suppliers. Post-Singularity Superintelligence AI Valley. |
 | **3** | **Global** | Scale to other geographies. Replicate proven stack. Franchise model. |
 | **4×4×4×4** | **Full expansion** | Four dimensions: geographies × station configs × layers × phases. Campus × WINK! × SING! × Experience aligned. |
 
-**1 → 2 → 3 → 4×4×4×4.** One station first. Then regional. Then global.
+**0 → 1 → 2 → 3 → 4×4×4×4.** First test on legacy cell. Then one station. Then regional. Then global.
 
 ---
 
