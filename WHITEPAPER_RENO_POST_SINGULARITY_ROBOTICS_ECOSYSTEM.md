@@ -14,7 +14,7 @@
 
 ## Executive Summary
 
-Reno is already the physical hub for robotic factories and automation. **Tesla Gigafactory Nevada** — "the machine that builds the machine" — has invested **$6.2 billion**, employs **5,000–9,999 workers** (Storey County's top employer), and operates **5.4 million square feet** in Tahoe Reno Industrial Center. **Nevatio Engineering** (Reno) is a FANUC Authorized System Integrator since October 2022, delivering machine design, retrofits, end-of-arm tooling, and robotics integration for automotive, aerospace, and manufacturing. **Kerrigan Automation** built platforms controlling thousands of robots at Tesla, Rivian, and VW Group. The ecosystem exists. **The opportunity:** Add the SING! intelligence layer. Reno solidifies as the valley where superintelligent robotics and factories converge. This is a **real live proposal** — not a concept. Partners, investors, and technical leads can engage today.
+**Rollout focus: 1, 2, 3 4×4×4×4.** Build **one station** first. Then expand **regionally**. Then **globally**. Reno is already the physical hub for robotic factories and automation. **Tesla Gigafactory Nevada** — "the machine that builds the machine" — has invested **$6.2 billion**, employs **5,000–9,999 workers** (Storey County's top employer), and operates **5.4 million square feet** in Tahoe Reno Industrial Center. **Nevatio Engineering** (Reno) is a FANUC Authorized System Integrator since October 2022, delivering machine design, retrofits, end-of-arm tooling, and robotics integration for automotive, aerospace, and manufacturing. **Kerrigan Automation** built platforms controlling thousands of robots at Tesla, Rivian, and VW Group. The ecosystem exists. **The opportunity:** Add the SING! intelligence layer. Reno solidifies as the valley where superintelligent robotics and factories converge. This is a **real live proposal** — not a concept. Partners, investors, and technical leads can engage today.
 
 ---
 
@@ -135,9 +135,16 @@ Reno is already the physical hub for robotic factories and automation. **Tesla G
 
 **Gigafactory suppliers / regional manufacturers:** Access post-singularity intelligence without replacing existing automation. Layer and done.
 
-### C. Booking Model (Not Purchase)
+### C. Rollout — 1, 2, 3 4×4×4×4
 
-**You don't buy SING! — you BOOK them.** Book now for your new post-singularity superintelligent SING! robotics factory. Engagement model: proposal → pilot → deployment. No forklift replacement. Layer on top.
+**1** — One station. Build first. Prove the stack.  
+**2** — Regional. Reno, TRIC, Nevada.  
+**3** — Global. Replicate.  
+**4×4×4×4** — Full expansion matrix.
+
+### D. Booking Model (Not Purchase)
+
+**You don't buy SING! — you BOOK them.** Book now for your new post-singularity superintelligent SING! robotics factory. Engagement model: one station → regional → global. No forklift replacement. Layer on top.
 
 ---
 
@@ -165,7 +172,7 @@ Partners keep Nevatio (physical), Kerrigan (software); we add SING! (intelligenc
 
 ### What They See When Deployed
 
-**On the floor:** Existing lines remain. Node stations where spheres dock (or logic on existing transfers). Arms as seed:edge pairs. Multiarm stations. Spheres orient, dock, release. Lattice invisible; behavior visible.
+**On the floor:** Existing lines remain. The robotic theater of fixed nodes forms a wrapper over the sphere — nodes positioned around the sphere so arms reach in and sphere travel is minimized in full factory production. Node stations where spheres dock. Arms as seed:edge pairs. Multiarm stations. Spheres orient, dock, release. Lattice invisible; behavior visible.
 
 **In the console:** Fixed lattice topology. Edge points. Filaments seed→edge. Status per station (docked, active, queue). MCA indicators. Real-time describe→edge→generate→execute.
 

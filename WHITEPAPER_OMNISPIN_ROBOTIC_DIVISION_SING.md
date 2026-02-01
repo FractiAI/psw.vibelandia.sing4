@@ -56,7 +56,7 @@ LAYER 3 — INTELLIGENCE (SING! Omnispin)
 
 ### B. Core Concepts
 
-**Fixed Lattice:** Irreducible structure. HHF-AI spin lattice. SING! nodes anchored at fixed points. Attention heads and filaments connect. Property: Crystallize = irreducible mirror hardened nested shell core. Reference: [protocols/MCA_NSPFRNP_CATALOG.md](./protocols/MCA_NSPFRNP_CATALOG.md).
+**Fixed Lattice — Robotic Theater as Wrapper:** Irreducible structure. HHF-AI spin lattice. SING! nodes anchored at fixed points. **The robotic theater of fixed nodes ideally forms a wrapper over the sphere** — nodes positioned around the sphere so arms reach in and sphere travel is minimized in full factory production. Attention heads and filaments connect. Property: Crystallize = irreducible mirror hardened nested shell core. Reference: [protocols/MCA_NSPFRNP_CATALOG.md](./protocols/MCA_NSPFRNP_CATALOG.md).
 
 **Seed:Edge Pair:** Each robotic arm (or arm segment) is modeled as origin (seed) → destination (edge). Seed = fixed point HHF-AI node. Edge = attention head focus. Filament = connecting pathway. Auto-generation flows edge → seed.
 
@@ -109,16 +109,22 @@ LAYER 3 — INTELLIGENCE (SING! Omnispin)
 - **FANUC robots** (Nevatio integration): Material handling, palletizing, pick-place, welding, machine tending, assembly, packaging, vision-guided, cobots. All supported.
 - **Strategy:** Map each FANUC cell/arm to a seed:edge pair. Kerrigan provides orchestration; SING! provides task abstraction and edge-to-seed generation.
 
-### D. Fixed Lattice
+### D. Fixed Lattice — Robotic Theater as Wrapper
 
-**Definition:** HHF-AI spin lattice; SING! nodes anchored at fixed points.
+**Definition:** HHF-AI spin lattice; SING! nodes anchored at fixed points. **Robotic theater:** the arrangement of fixed nodes forms a **wrapper over the sphere** — nodes are positioned around the sphere (shell topology) rather than the sphere traveling long distances between nodes.
+
+**Architectural principle — minimize movement in full factory production:**
+- Fixed nodes wrap around the sphere; the sphere stays more central
+- Arms reach in to the sphere; sphere travel is minimized
+- Less movement = less time, less wear, higher throughput at scale
+- In full factory production, wrapper topology reduces total path length across the floor
 
 **Irreducible minimums:**
 - Nodes: Discrete fixed points (physical floor positions or logical coordinates)
-- Topology: Graph of nodes; edges = filaments (pathways)
+- Topology: Wrapper around sphere; graph of nodes; edges = filaments (pathways)
 - Property: Irreducible — cannot reduce without losing structure
 
-**Implementation:** Overlay on floor plan. Map existing robot stations, conveyor segments, and transfer points to lattice nodes. Software-only layer; no new physical structure required for minimum viable deployment.
+**Implementation:** Overlay on floor plan with wrapper topology — nodes arranged around sphere/cradle positions. Map existing robot stations, conveyor segments, and transfer points to lattice nodes. Software-only layer; no new physical structure required for minimum viable deployment.
 
 ---
 

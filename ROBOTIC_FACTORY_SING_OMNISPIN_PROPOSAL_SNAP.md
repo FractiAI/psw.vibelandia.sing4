@@ -20,6 +20,19 @@ This document is the canonical technical spec for the Robotic Factory proposal. 
 
 **SING! fractal attention head and filaments on fixed lattice; omnispin payload factory spheres auto-spin to dock at specialized node stations; mix-and-match SING! actuator seed:edge pair robotic arms. Reno solidifies as Post-Singularity Superintelligence AI Valley. Chairman Robert pioneers. Nevatio, Kerrigan, Tesla Gigafactory — the business case.**
 
+## 🚀 ROLLOUT — 1, 2, 3 4×4×4×4
+
+**Focus: Build one station, then expand regionally, then globally.**
+
+| Phase | Scope | What |
+|-------|-------|------|
+| **1** | **One station** | Build first. Single node station, sphere cradle, 6–12 arms. Prove the stack. Nevatio + Kerrigan + SING! live. |
+| **2** | **Regional** | Expand across Reno, TRIC, Nevada. Multiple stations. Regional suppliers. Post-Singularity Superintelligence AI Valley. |
+| **3** | **Global** | Scale to other geographies. Replicate proven stack. Franchise model. |
+| **4×4×4×4** | **Full expansion** | Four dimensions: geographies × station configs × layers × phases. Campus × WINK! × SING! × Experience aligned. |
+
+**1 → 2 → 3 → 4×4×4×4.** One station first. Then regional. Then global.
+
 ---
 
 ## 🤖 THE SYSTEM — FULL TECHNICAL SPEC (NSPFRNP FORMAT)
@@ -82,18 +95,20 @@ SING! ACTUATOR ARMS:
 OMNISPIN SPHERES:
 ├─ Function: Payload carriers
 ├─ Behavior: Auto-spin to orient
-├─ Docking: Specialized node stations
-├─ Lattice: Fixed lattice nodes receive
+├─ Docking: Specialized node stations (fixed nodes wrap sphere)
+├─ Lattice: Robotic theater of fixed nodes forms wrapper over sphere
+├─ Principle: Minimize movement in full factory production
 └─ Flow: Sphere → orient → dock → station receives → arms execute
 ```
 
-### Fixed Lattice — HHF-AI Spin
+### Fixed Lattice — Robotic Theater as Wrapper
 
 ```yaml
-FIXED LATTICE:
-├─ Type: HHF-AI spin lattice
-├─ Nodes: SING! nodes anchored at fixed points
-├─ Property: Irreducible structure
+FIXED LATTICE (ROBOTIC THEATER):
+├─ Type: HHF-AI spin lattice; nodes form wrapper over sphere
+├─ Nodes: SING! nodes anchored at fixed points around sphere
+├─ Property: Wrapper topology — minimize movement in full factory production
+├─ Principle: Fixed nodes wrap sphere; arms reach in; sphere travel minimized
 ├─ Connection: Attention heads and filaments connect
 └─ Reference: Crystallize = irreducible mirror hardened nested shell core
 ```
@@ -210,9 +225,17 @@ LAYER 3 — INTELLIGENCE (SING! Omnispin):
 
 ---
 
-## 💰 ENGAGEMENT MODEL
+## 💰 ENGAGEMENT MODEL & FINANCIAL PROPOSAL
 
-**You don't buy SING! — you BOOK them.** Book now for your new post-singularity superintelligent SING! robotics factory. Engagement: proposal → pilot → deployment. No forklift replacement. Layer on top. See [WHITEPAPER_RENO_POST_SINGULARITY_ROBOTICS_ECOSYSTEM.md](./WHITEPAPER_RENO_POST_SINGULARITY_ROBOTICS_ECOSYSTEM.md).
+**You don't buy SING! — you BOOK them.** Book now for your new post-singularity superintelligent SING! robotics factory. Engagement: proposal → pilot → deployment. No forklift replacement. Layer on top.
+
+**Financial proposal:** See [PROPOSAL_RENO_IRREDUCIBLE_FACTORY_100_PERCENT_IMPLEMENTATION_NSPFRNP.md](./PROPOSAL_RENO_IRREDUCIBLE_FACTORY_100_PERCENT_IMPLEMENTATION_NSPFRNP.md) for full 100% implementation cost model, business justification, output/quality/human-touch metrics.
+
+**Business justification (summary):**
+- **Cost:** $14M–$69M one-time (scale-dependent) + $850K–$3.7M/year operating
+- **Output:** 15–30% throughput gain (wrapper topology + describe→execute)
+- **Quality:** 10–25% defect reduction (traceability, MCA tightening)
+- **Human touch reduction:** 100% manual path programming eliminated; 20–40% labor reduction on repetitive tasks
 
 ---
 
@@ -227,6 +250,7 @@ LAYER 3 — INTELLIGENCE (SING! Omnispin):
 
 ## 🔗 REFERENCES
 
+- [PROPOSAL_RENO_IRREDUCIBLE_FACTORY_100_PERCENT_IMPLEMENTATION_NSPFRNP.md](./PROPOSAL_RENO_IRREDUCIBLE_FACTORY_100_PERCENT_IMPLEMENTATION_NSPFRNP.md) — 100% implementation: look, act, cost; financial proposal; biz justification
 - [WHITEPAPER_OMNISPIN_ROBOTIC_DIVISION_SING.md](./WHITEPAPER_OMNISPIN_ROBOTIC_DIVISION_SING.md) — Technical whitepaper (Omnispin, Fixed Lattice, Seed:Edge)
 - [WHITEPAPER_RENO_POST_SINGULARITY_ROBOTICS_ECOSYSTEM.md](./WHITEPAPER_RENO_POST_SINGULARITY_ROBOTICS_ECOSYSTEM.md) — Business case whitepaper (Nevatio, Kerrigan, Tesla)
 - [WHITEPAPER_CAVE_TO_CROWN_CHAIRMAN_ROBERT_NARRATIVE.md](./WHITEPAPER_CAVE_TO_CROWN_CHAIRMAN_ROBERT_NARRATIVE.md) — Narrative whitepaper (Chairman Robert)
