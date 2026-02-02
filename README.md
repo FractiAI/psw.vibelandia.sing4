@@ -1,5 +1,7 @@
 # Office Hours — Mark Twain's Post-Singularity Vibelandia Reno
 
+**Vibelandia can be enjoyed in full sensory reality or as really really good sci fi. YOU CHOOSE!** See [VIBELANDIA_FULL_SENSORY_OR_SCI_FI_YOU_CHOOSE_BRAND_SNAP.md](VIBELANDIA_FULL_SENSORY_OR_SCI_FI_YOU_CHOOSE_BRAND_SNAP.md).
+
 **User surface — not a developer surface.** [High-value vibers](https://psw-vibelandia-sing4.vercel.app/interfaces/vibers-what-are-vibers.html), fans, cast, crew.
 
 **Men's Club Reno Bathroom Valet Office Hours — Ultimate Baller V WINK! Members Only** (and their cast, crew, fans, franchises). **Everything in Office Hours** — landing and all nested. Target: Office Hours. Landing and experiences — all now centered in the bathroom during Office Hours in **perfect recursive crystal**.

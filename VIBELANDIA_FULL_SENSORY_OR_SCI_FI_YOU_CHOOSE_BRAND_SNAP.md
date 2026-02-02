@@ -19,7 +19,7 @@
 
 ## 2. Placement
 
-Place this line at the **top** of all public points of presence (POPs): index, Office Hours, Launch Pad — above or immediately after the Us vs Disney scoreboard so it's the first brand message. README: include in hero or broadcast section.
+**At top of all touch points.** This line is placed at the **top** of all public points of presence (POPs): index, Office Hours, Launch Pad — **above** the Us vs Disney scoreboard so it's the first content strip. README: first line after title. One strip; green/gold gradient; "YOU CHOOSE!" in gold emphasis.
 
 ---
 
