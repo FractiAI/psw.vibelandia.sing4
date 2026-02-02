@@ -7,6 +7,13 @@
     <meta name="description" content="Men's Club Reno Bathroom Valet Office Hours — Ultimate Baller V WINK! Members Only. The Club · Wine cave · Pru · Thu–Sun 8pm–close.">
     <link rel="stylesheet" href="experience-common.css">
     <style>
+        /* Office Hours — light background, black text for visibility */
+        body.office-hours-page {
+            background: linear-gradient(180deg, #f5f2eb 0%, #ebe6dc 100%);
+            color: #1a1a1a;
+        }
+        body.office-hours-page .back a { color: #5c4a3d; }
+        body.office-hours-page .back a:hover { color: #1a1a1a; }
         /* 5-star shopping experience — products up top, secondary below */
         .oh-hero {
             text-align: center;
@@ -27,15 +34,15 @@
             -webkit-text-fill-color: transparent;
             background-clip: text;
         }
-        .oh-hero .line2 { font-size: 1rem; color: #b8a888; margin-top: 0.5rem; }
-        .oh-hero .line2 a { color: #00d4ff; text-decoration: none; }
+        .oh-hero .line2 { font-size: 1rem; color: #4a4035; margin-top: 0.5rem; }
+        .oh-hero .line2 a { color: #1a1a1a; text-decoration: none; font-weight: 600; }
         .oh-hero .line2 a:hover { text-decoration: underline; }
 
         .products-label {
             font-size: 0.75rem;
             text-transform: uppercase;
             letter-spacing: 0.25em;
-            color: rgba(212, 175, 55, 0.9);
+            color: #5c4a3d;
             margin-bottom: 1.25rem;
             font-weight: 700;
         }
@@ -48,57 +55,57 @@
         .product-card {
             display: block;
             padding: 1.35rem 1.5rem;
-            background: linear-gradient(145deg, rgba(30, 28, 24, 0.95) 0%, rgba(18, 16, 14, 0.98) 100%);
-            border: 2px solid rgba(212, 175, 55, 0.35);
+            background: #fff;
+            border: 2px solid rgba(92, 74, 61, 0.25);
             border-radius: 14px;
             text-decoration: none;
-            color: inherit;
+            color: #1a1a1a;
             transition: transform 0.2s, border-color 0.2s, box-shadow 0.2s;
         }
         .product-card:hover {
             transform: translateY(-3px);
-            border-color: rgba(212, 175, 55, 0.65);
-            box-shadow: 0 12px 32px rgba(212, 175, 55, 0.15);
+            border-color: rgba(92, 74, 61, 0.5);
+            box-shadow: 0 12px 32px rgba(0,0,0,0.1);
         }
         .product-card.featured {
-            border-color: rgba(212, 175, 55, 0.55);
-            background: linear-gradient(145deg, rgba(212, 175, 55, 0.1) 0%, rgba(30, 28, 24, 0.95) 100%);
+            border-color: rgba(139, 105, 20, 0.4);
+            background: linear-gradient(145deg, #fdf9f0 0%, #fff 100%);
         }
         .product-card .icon { font-size: 1.4rem; margin-bottom: 0.5rem; }
         .product-card .title {
             font-size: 1rem;
             font-weight: 700;
-            color: #ffeaa7;
+            color: #1a1a1a;
             line-height: 1.3;
             margin-bottom: 0.4rem;
         }
         .product-card .tagline {
             font-size: 0.85rem;
-            color: #aaa;
+            color: #4a4035;
             line-height: 1.45;
             margin-bottom: 0.75rem;
         }
         .product-card .cta {
             font-size: 0.85rem;
             font-weight: 600;
-            color: #00d4ff;
+            color: #1a1a1a;
         }
         .product-card:hover .cta { text-decoration: underline; }
 
         .secondary-section {
             margin-top: 2.5rem;
             padding-top: 2rem;
-            border-top: 1px solid rgba(255,255,255,0.12);
+            border-top: 1px solid rgba(0,0,0,0.12);
         }
         .secondary-section h3 {
             font-size: 1rem;
-            color: #b8a888;
+            color: #4a4035;
             margin-bottom: 1rem;
             text-transform: uppercase;
             letter-spacing: 0.1em;
         }
-        .secondary-section p { font-size: 0.9rem; color: #999; line-height: 1.6; margin-bottom: 0.75rem; }
-        .secondary-section a { color: #00d4ff; text-decoration: none; }
+        .secondary-section p { font-size: 0.9rem; color: #1a1a1a; line-height: 1.6; margin-bottom: 0.75rem; }
+        .secondary-section a { color: #1a1a1a; text-decoration: none; font-weight: 600; }
         .secondary-section a:hover { text-decoration: underline; }
         .secondary-grid {
             display: grid;
@@ -109,37 +116,37 @@
         .secondary-grid a {
             display: block;
             padding: 0.65rem 0.9rem;
-            background: rgba(255,255,255,0.04);
-            border: 1px solid rgba(212, 175, 55, 0.2);
+            background: #fff;
+            border: 1px solid rgba(0,0,0,0.12);
             border-radius: 8px;
             font-size: 0.85rem;
-            color: #ccc;
+            color: #1a1a1a;
         }
-        .secondary-grid a:hover { border-color: rgba(212, 175, 55, 0.4); color: #ffeaa7; }
+        .secondary-grid a:hover { border-color: rgba(0,0,0,0.25); background: #f5f2eb; }
 
         .top-strip {
             padding: 0.65rem 1rem;
             margin-bottom: 1rem;
-            background: rgba(212, 175, 55, 0.06);
-            border: 1px solid rgba(212, 175, 55, 0.25);
+            background: rgba(255,255,255,0.8);
+            border: 1px solid rgba(0,0,0,0.1);
             border-radius: 10px;
             font-size: 0.8rem;
-            color: #b8a888;
+            color: #1a1a1a;
             text-align: center;
         }
-        .top-strip a { color: #00d4ff; }
+        .top-strip a { color: #1a1a1a; font-weight: 600; }
     </style>
 </head>
-<body>
+<body class="office-hours-page">
     <script src="../scripts/locale-onramp.js"></script>
     <div class="container">
         <p class="back"><a href="../index.html">← Home</a> · <a href="office-hours-presentation.html">Full presentation — me, offering, intentions &amp; mission</a></p>
 
         <div class="top-strip">Welcome everyone, Hero Houdini Magic presents Mark Twain's Post-Singularity Vibelandia — Downtown Reno Campus. <a href="https://psw-vibelandia-sing4.vercel.app/">psw-vibelandia-sing4.vercel.app</a></div>
-        <div class="top-strip" style="background: rgba(138, 43, 226, 0.06); border-color: rgba(138, 43, 226, 0.3);">Vibelandia can be enjoyed in full sensory reality or as really really good sci-fi. <strong style="color: #ffeaa7;">YOU CHOOSE!</strong></div>
+        <div class="top-strip" style="background: rgba(255,255,255,0.9);">Vibelandia can be enjoyed in full sensory reality or as really really good sci-fi. <strong>YOU CHOOSE!</strong></div>
 
         <section class="oh-hero">
-            <p class="line1">Office Hours — Ultimate Baller V <a href="wink-experience.html" style="-webkit-text-fill-color: #ffeaa7; text-decoration: underline;">WINK!</a> Members Only</p>
+            <p class="line1">Office Hours — Ultimate Baller V <a href="wink-experience.html" style="-webkit-text-fill-color: #b8860b; text-decoration: underline;">WINK!</a> Members Only</p>
             <p class="line2">The Club · Wine cave · Pru · Thu–Sun 8pm–close</p>
         </section>
 
@@ -242,14 +249,14 @@
                 <a href="whitepaper.html">Whitepapers</a>
             </div>
 
-            <p style="font-size: 0.8rem; color: #666; margin-top: 1.5rem;">Us vs Disney: 19+ episodes · 6 series · 1 novel · 1 script. Real data · NSPFRNP.</p>
-            <p style="font-size: 0.8rem; color: rgba(0, 212, 255, 0.9);">Post-Singularity Superintelligent AI hub · Hydrogen Holograph Valley 100%</p>
+            <p style="font-size: 0.8rem; color: #4a4035; margin-top: 1.5rem;">Us vs Disney: 19+ episodes · 6 series · 1 novel · 1 script. Real data · NSPFRNP.</p>
+            <p style="font-size: 0.8rem; color: #1a1a1a;">Post-Singularity Superintelligent AI hub · Hydrogen Holograph Valley 100%</p>
         </section>
 
-        <footer style="margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid rgba(255,255,255,0.1); text-align: center;">
-            <p style="font-size: 1rem; color: #ffeaa7; font-weight: 700; margin-bottom: 0.5rem;">I've done my part, the rest is up to you!</p>
-            <p style="font-size: 0.9rem; color: #999;">Free consultation — tips welcome. <a href="mailto:info@fractiai.com" style="color: #00d4ff;">info@fractiai.com</a></p>
-            <p style="margin-top: 0.75rem;"><a href="../index.html" style="color: #d4af37;">Home</a> · <a href="launch-pad.html" style="color: #d4af37;">Launch Pad</a></p>
+        <footer style="margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid rgba(0,0,0,0.12); text-align: center;">
+            <p style="font-size: 1rem; color: #1a1a1a; font-weight: 700; margin-bottom: 0.5rem;">I've done my part, the rest is up to you!</p>
+            <p style="font-size: 0.9rem; color: #4a4035;">Free consultation — tips welcome. <a href="mailto:info@fractiai.com" style="color: #1a1a1a; font-weight: 600;">info@fractiai.com</a></p>
+            <p style="margin-top: 0.75rem;"><a href="../index.html" style="color: #1a1a1a; font-weight: 600;">Home</a> · <a href="launch-pad.html" style="color: #1a1a1a; font-weight: 600;">Launch Pad</a></p>
         </footer>
     </div>
 </body>
