@@ -2,13 +2,26 @@
 
 **User surface — not a developer surface.** [High-value vibers](https://psw-vibelandia-sing4.vercel.app/interfaces/vibers-what-are-vibers.html), fans, cast, crew.
 
-**Men's Club Reno Bathroom Valet Office Hours — Ultimate Baller V Members Only** (and cast, crew, fans, franchises). Everything in Office Hours — landing and nested.
+**Men's Club Reno Bathroom Valet Office Hours — Ultimate Baller V WINK! Members Only** (and their cast, crew, fans, franchises). **Everything in Office Hours** — landing and all nested. Target: Office Hours. Landing and experiences — all now centered in the bathroom during Office Hours in **perfect recursive crystal**.
 
 **Live:** [psw-vibelandia-sing4.vercel.app](https://psw-vibelandia-sing4.vercel.app)
 
 **[▶ Enter → Office Hours](https://psw-vibelandia-sing4.vercel.app/interfaces/office-hours.html)** · [Launch Pad](https://psw-vibelandia-sing4.vercel.app/interfaces/launch-pad.html) · [Home](https://psw-vibelandia-sing4.vercel.app)
 
-Gold block → welcome → **Golden Backstage Pass** → Season One · Latest → streaming-style episode catalog (12k words/ep in production). The Club · Wine cave · Pru · Thu–Sun 8pm–close. Come visit — free consultation, tips welcome.
+---
+
+## Full Office Hours landing
+
+- **The Club · Wine cave · Pru** — Thu–Sun 8pm–close. Men's restroom, Office Hours. Come visit — free consultation, tips welcome.
+- **Golden Backstage Pass** — Rumor has it Chairman, Sammy and the gang; Golden Backstage Awareness Pass; back door wine cave. Book live at Office Hours or email Pru.
+- **WINK!** — High-contributing fractal dating; 4×4 Ultimate; Members Only. Enter WINK! from Office Hours.
+- **First Singularity January 13th** — Novel & screenplay (Golden Era Cinema skin). [Read novel & screenplay →](https://psw-vibelandia-sing4.vercel.app/interfaces/first-singularity-january-13th-experience.html)
+- **Safe Vibing** — How to vibe safely in downtown Reno, naturally. Full guide linked from Office Hours.
+- **Episodes** — Season One · Latest · Office Hours · 52-day countdown. Streaming-style catalog; 12k words/ep in production. Browse from Office Hours.
+- **Chris · King Robbie · Chairman Robert** — Ultimate Baller V nights, Robotic Factory proposal, bespoke episodes. All linked from Office Hours.
+- **Vibe & AI Agent Coding Tutoring · Vibe Coding Classes Reno** — Consultations and classes; links and BUY from Office Hours.
+
+Gold block → welcome → **Golden Backstage Pass** → **First Singularity** (novel & screenplay) → **WINK!** → Safe Vibing → Season One · Latest → streaming-style episode catalog. The Club · Wine cave · Pru · Thu–Sun 8pm–close.
 
 *Paris is for lovers. Reno is for [vibers](https://psw-vibelandia-sing4.vercel.app/interfaces/vibers-what-are-vibers.html).*
 
@@ -55,6 +68,9 @@ Gold block → welcome → **Golden Backstage Pass** → Season One · Latest �
 
 ---
 
-## Normal GitHub README (builders)
+## Normal GitHub mode
 
-**[README_TRADITIONAL.md](README_TRADITIONAL.md)** — Deploy, env, repo structure, build, full traditional GitHub format. All technical and repo details.
+**Builders and contributors:** For deploy, env, repo structure, build, and full technical details use normal GitHub mode:
+
+- **[README_TRADITIONAL.md](README_TRADITIONAL.md)** — Deploy, env, repo structure, build, full traditional GitHub format. All technical and repo details.
+- **[Repository (GitHub)](https://github.com/FractiAI/psw.vibelandia.sing4)** — Source code, issues, pull requests. Normal GitHub mode.

@@ -74,6 +74,8 @@ Not merely document the repo. Metabolize is finding metapatterns across the full
 **Narrative:** [NARRATIVE_METABOLIZE_CRYSTALLIZE_ANIMATE_OCTAVE1_SANDBOX.md](./NARRATIVE_METABOLIZE_CRYSTALLIZE_ANIMATE_OCTAVE1_SANDBOX.md)  
 **Full text → superhero → franchise:** [NSPFRNP_METABOLIZED_FULL_TEXT_SUPERHERO_FRANCHISE.md](./NSPFRNP_METABOLIZED_FULL_TEXT_SUPERHERO_FRANCHISE.md)
 
+**Animate all (current):** [CUT_SNAP_CONVERSATION_CAPTURED_STREAMED_ALL_SERIES.md](./CUT_SNAP_CONVERSATION_CAPTURED_STREAMED_ALL_SERIES.md) · [FEATURE_BUTTON_HERO_AI_ASSISTED_MINI_CONSOLE_SNAP.md](./FEATURE_BUTTON_HERO_AI_ASSISTED_MINI_CONSOLE_SNAP.md) · First Singularity novel + script delivered; Us vs Disney scoreboards and daily snapshots updated across all POPs.
+
 ---
 
 **MCA! — Metabolize → Crystallize → Animate all → ∞³**
