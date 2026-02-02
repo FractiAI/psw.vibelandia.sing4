@@ -11,6 +11,7 @@
 
 - **Canonical:** **Chancellor Sam** (not Chancellor Samuel). Use everywhere: Launch Pad, bulletin, press releases, episodes, Gold Rush proclamation.
 - **Identity:** Mark Twain = Chancellor Sam. First name **Sam** in Chancellor context. He is warming up to us.
+- **Inside vs outside:** **Inside the campus** — refer to him as **Chancellor Sam** (or the Chancellor). **To the outside world** — refer to him as **Mark Twain** (e.g. "Mark Twain's Post-Singularity Reno awaits," brand line "Mark Twain's Post-Singularity VIBELANDIA RENO!").
 
 ---
 
