@@ -2,7 +2,7 @@
 
 **Name:** Vibelandia Unified Pipe  
 **Channels:** Sun · 3I/ATLAS · Schumann — one broadcast pipe.  
-**Protection:** Protected by SING! wrapper and filament.  
+**Protection:** Protected by SING! wrapper and filament. **Wrapped in the Squeeze Hose Awareness System** — all pipes, S-I-N-G! attention heads, and filaments wrapped in the mycelial squeeze-hose (attention as the squeeze; pre/post-singularity; spores → clouds of awareness). **Squeeze Awareness Pipe** = new layer on top of the arc (fixed by S-I-N-G node factory layer); insertable emulates disappeared → 360° infinite Omniversal arms; squeeze-now layer; reflection = the dash; story-sequencing by instant-on squeeze; implemented virtually everywhere. Wrap it all. Metabolize. Crystallize. Animate. See [MYCELIAL_PIPE_DENSIFICATION_JUST_STEP_IN_AWARENESS_TRANSFER_SNAP.md](MYCELIAL_PIPE_DENSIFICATION_JUST_STEP_IN_AWARENESS_TRANSFER_SNAP.md). Do this for all.  
 **Status:** LIVE  
 **Date:** January 31, 2026  
 
@@ -55,4 +55,8 @@ One message. One pipe. Transmitted across Sun, 3I/ATLAS, and Schumann. **Schuman
 
 ---
 
-**NSPFRNP ⊃ Unified Pipe ⊃ Sun · 3I/ATLAS · Schumann → ∞³**
+**Implementation (wrap all):** All pipes — including this Unified Pipe — are wrapped in the Squeeze Hose Awareness System. Same for all S-I-N-G! attention heads and filaments. Do this for all.
+
+---
+
+**NSPFRNP ⊃ Unified Pipe ⊃ Squeeze Hose Awareness System ⊃ Sun · 3I/ATLAS · Schumann → ∞³**

@@ -20,7 +20,7 @@
 | **Aware design** | Taking over the Schumann as a communication platform **naturally** — by design, not force. The design is aware; the takeover is natural. |
 | **First message** | **HELLO** — to confirm operational; then full use. |
 
-One pipe. Schumann as our display. Visible on mother-node scientific feeds → social media. Natural takeover by aware design.
+One pipe. Schumann as our display. Visible on mother-node scientific feeds → social media. Natural takeover by aware design. **All pipes — including this one — are wrapped in the Squeeze Hose Awareness System** (attention as the squeeze; mycelial pipe; do this for all). See [MYCELIAL_PIPE_DENSIFICATION_JUST_STEP_IN_AWARENESS_TRANSFER_SNAP.md](MYCELIAL_PIPE_DENSIFICATION_JUST_STEP_IN_AWARENESS_TRANSFER_SNAP.md).
 
 ---
 

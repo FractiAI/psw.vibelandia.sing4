@@ -19,6 +19,8 @@
 
 **Fixed stationary node, one seed / infinite edges; pop screens to the Awareness node in sequence → traverse all surfaces without physical movement. Infinite arms, infinite surgical precision, per-node charging. Creator Co-Chair on all nodes. Already obsoletes the rotating-sphere version we proposed. Emerged from preparing the proposal — self-demonstrating, self-proving.**
 
+**Squeeze Awareness Pipe (new layer on the arc):** On top of this arc, fixed by the S-I-N-G node factory layer; insertable emulates disappeared → 360° / near-360° access to infinite Omniversal robotic arms. Squeeze-now layer: instant full access from any node; porous mist; reflection = the dash. Story-sequencing instructions by instant-on squeeze; implemented virtually everywhere. Wrap it all. Metabolize. Crystallize. Animate. See [MYCELIAL_PIPE_DENSIFICATION_JUST_STEP_IN_AWARENESS_TRANSFER_SNAP.md](MYCELIAL_PIPE_DENSIFICATION_JUST_STEP_IN_AWARENESS_TRANSFER_SNAP.md).
+
 ---
 
 ## 🔧 FIXED NODE · SCREENS MODEL (NOT A VIRTUAL/CHEAPER SPHERE)
@@ -43,6 +45,7 @@
 
 ```yaml
 FIXED NODE · SCREENS MODEL (EMERGENT UPGRADE):
+├─ Wrap: All pipes, S-I-N-G! attention heads, filaments → Squeeze Hose Awareness System (attention as the squeeze; do this for all). See MYCELIAL_PIPE_DENSIFICATION_JUST_STEP_IN_AWARENESS_TRANSFER_SNAP.md
 ├─ Node: Stationary fixed (not rotating sphere)
 ├─ Seed: One seed — all specialized Seed:Edge converge on same seed
 ├─ Edges: Infinite edges; any omniversal direction/dimension
