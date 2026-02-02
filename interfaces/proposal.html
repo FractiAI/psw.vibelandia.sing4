@@ -57,7 +57,7 @@
     var PROPOSALS = [
         { slug: 'ROBOTIC_FACTORY_SING_OMNISPIN_PROPOSAL_SNAP', path: '', title: 'Robotic Factory — SING! Omnispin Proposal', sub: 'Business case · Full technical spec · Robotic Division', tagline: 'One station first. Then regional. Then global. 0, 1, 2, 3 4×4×4×4.', pullQuote: 'SING! fractal attention head and filaments on fixed lattice; omnispin payload spheres auto-spin to dock at specialized node stations.', eyebrow: 'Robotic Factory · Proposal' },
         { slug: 'PROPOSAL_RENO_IRREDUCIBLE_FACTORY_100_PERCENT_IMPLEMENTATION_NSPFRNP', path: '', title: 'Reno Irreducible Factory — 100% Implementation', sub: 'Proposal · NSPFRNP', tagline: 'Irreducible factory. 100% implementation.', pullQuote: 'Reno. Irreducible. Factory. NSPFRNP.', eyebrow: 'Proposal · Reno' },
-        { slug: 'PROSPECTUS_VIBEVERSE_VIBELANDIA_GO_LIVE', path: '', title: 'Prospectus — Vibeverse & Vibelandia', sub: 'Full inventory · For the prospective high viber', tagline: 'Paris is for lovers. Reno is for vibers.', pullQuote: 'Full inventory of assets going live. Mark Twain\'s Post-Singularity Reno awaits you.', eyebrow: 'Prospectus · Go Live' },
+        { slug: 'PROSPECTUS_VIBEVERSE_VIBELANDIA_GO_LIVE', path: '', title: 'Prospectus — Vibeverse & Vibelandia', sub: 'Full inventory · For the prospective high viber', tagline: 'Paris is for lovers. Reno is for vibers.', pullQuote: 'Full inventory of assets going live. Mark Twain\'s Post-Singularity Reno awaits you.', eyebrow: 'Prospectus · Go Live', directHref: 'prospectus.html' },
         { slug: 'SIXTEEN_DAYS_VALUATION_TOP10_VC_BOTTOM_SNAP', path: '', title: 'Sixteen Days Valuation — Top 10 VC Bottom', sub: 'Reports · Proposals · Docs', tagline: 'What we value at — 16 days vs top 10, speculative VC.', pullQuote: 'Full block. All reports, proposals, docs. Bottom of every report.', eyebrow: 'Valuation · SNAP' },
         { slug: 'OFFICE_HOURS_SERIES_SNAP', path: '', title: 'Office Hours Series — Following Pru', sub: 'Season 1 Viber Paradise', tagline: 'Office Hours the series and the site. Following Pru.', pullQuote: 'Season 1 Viber Paradise. Episodes by flow not days.', eyebrow: 'Office Hours · Series' },
         { slug: 'CLUB_WINE_CAVE_PRU_OFFICE_HOURS_SNAP', path: '', title: 'The Club · Wine cave · Pru Office Hours', sub: 'Men\'s Restroom · Thu–Sun 8pm–close', tagline: 'The Club. Wine cave. Pru. Office Hours.', pullQuote: 'Men\'s Restroom. 8pm to close. Thu–Sun. Perfect recursive crystal.', eyebrow: 'Office Hours · Club' },
@@ -97,7 +97,7 @@
         PROPOSALS.forEach(function (pr) {
             var li = document.createElement('li');
             var a = document.createElement('a');
-            a.href = 'proposal.html?p=' + encodeURIComponent(pr.slug);
+            a.href = pr.directHref || ('proposal.html?p=' + encodeURIComponent(pr.slug));
             a.textContent = pr.title;
             li.appendChild(a);
             ul.appendChild(li);
@@ -107,6 +107,10 @@
     if (slug) {
         var pr = findProposal(slug);
         if (pr) {
+            if (pr.directHref) {
+                window.location.replace(pr.directHref);
+                return;
+            }
             renderProposal(pr);
         } else {
             renderList();

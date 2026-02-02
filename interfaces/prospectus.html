@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prospectus — Vibeverse & Vibelandia · Full Inventory | VIBELANDIA RENO!</title>
+    <meta name="description" content="Full inventory of assets going live. For the prospective high viber. Mark Twain's Post-Singularity Reno awaits you. NSPFRNP.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="episode-nspfrnp.css">
+    <style>
+        /* Prospectus — Chairman proposal skin. Same beautiful treatment as robotic-factory-landing */
+        .prospectus-page { max-width: 720px; margin: 0 auto; padding: 0 2rem 4rem; }
+        .prospectus-page .section-num { font-size: 0.65rem; font-weight: 600; letter-spacing: 0.3em; color: var(--ep-accent); margin-bottom: 0.75rem; }
+        .prospectus-page .section-title { font-family: 'Cormorant Garamond', Georgia, serif; font-size: clamp(1.75rem, 3vw, 2.25rem); font-weight: 600; color: var(--ep-ink); margin: 2.5rem 0 1rem; letter-spacing: -0.01em; }
+        .prospectus-page .prospectus-body { padding: 2rem 0; border-top: 1px solid var(--ep-divider); }
+        .prospectus-page .prospectus-body h1 { font-family: 'Cormorant Garamond', Georgia, serif; font-size: clamp(1.75rem, 3vw, 2.25rem); font-weight: 600; color: var(--ep-ink); margin: 2rem 0 1rem; }
+        .prospectus-page .prospectus-body h2 { font-family: 'Cormorant Garamond', Georgia, serif; font-size: clamp(1.4rem, 2.5vw, 1.75rem); font-weight: 600; color: var(--ep-ink); margin: 2rem 0 0.75rem; border-top: 1px solid var(--ep-divider); padding-top: 1.5rem; }
+        .prospectus-page .prospectus-body h2:first-of-type { border-top: none; padding-top: 0; margin-top: 0; }
+        .prospectus-page .prospectus-body h3 { font-family: 'Cormorant Garamond', Georgia, serif; font-size: 1.2rem; font-weight: 600; color: var(--ep-ink); margin: 1.5rem 0 0.5rem; }
+        .prospectus-page .prospectus-body p { margin-bottom: 1.25rem; color: var(--ep-ink); opacity: 0.92; line-height: 1.7; }
+        .prospectus-page .prospectus-body p:last-child { margin-bottom: 0; }
+        .prospectus-page .prospectus-body strong { color: var(--ep-ink); font-weight: 600; }
+        .prospectus-page .prospectus-body a { color: var(--ep-accent); text-decoration: none; font-weight: 500; }
+        .prospectus-page .prospectus-body a:hover { color: var(--ep-gold); text-decoration: underline; }
+        .prospectus-page .prospectus-body ul, .prospectus-page .prospectus-body ol { margin: 1rem 0 1.5rem 1.5rem; }
+        .prospectus-page .prospectus-body li { margin-bottom: 0.5rem; line-height: 1.6; }
+        .prospectus-page .prospectus-body table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; font-size: 0.95rem; }
+        .prospectus-page .prospectus-body th, .prospectus-page .prospectus-body td { padding: 0.75rem 1rem; text-align: left; border-bottom: 1px solid var(--ep-divider); }
+        .prospectus-page .prospectus-body th { background: rgba(13, 148, 136, 0.08); font-weight: 600; color: var(--ep-accent); font-size: 0.85rem; letter-spacing: 0.03em; }
+        .prospectus-page .prospectus-body tr:hover td { background: rgba(13, 148, 136, 0.02); }
+        .prospectus-page .prospectus-body hr { border: none; border-top: 1px solid var(--ep-divider); margin: 2.5rem 0; }
+        .prospectus-page .prospectus-body blockquote { margin: 1.5rem 0; padding: 1rem 1.5rem; border-left: 4px solid var(--ep-gold); background: rgba(184, 134, 11, 0.04); border-radius: 0 10px 10px 0; font-style: italic; color: var(--ep-ink); opacity: 0.9; }
+        .prospectus-page .prospectus-body code { font-family: 'Outfit', monospace; font-size: 0.9em; background: rgba(13, 148, 136, 0.06); padding: 0.15em 0.4em; border-radius: 4px; }
+        .prospectus-page .prospectus-body pre { overflow-x: auto; padding: 1.25rem; background: rgba(13, 148, 136, 0.04); border-radius: 10px; font-size: 0.9rem; line-height: 1.6; margin: 1.5rem 0; }
+        .prospectus-page .prospectus-body pre code { background: none; padding: 0; }
+        .prospectus-page .prospectus-footer { margin-top: 4rem; padding-top: 2rem; border-top: 1px solid var(--ep-divider); text-align: center; font-size: 0.9rem; color: var(--ep-muted); }
+        .prospectus-page .prospectus-footer a { color: var(--ep-accent); text-decoration: none; }
+        .prospectus-page .prospectus-footer a:hover { text-decoration: underline; }
+        .prospectus-page .loading { text-align: center; padding: 4rem 2rem; color: var(--ep-muted); }
+        .prospectus-page .loading::after { content: ''; display: inline-block; width: 1.2em; height: 1.2em; border: 2px solid var(--ep-accent); border-right-color: transparent; border-radius: 50%; animation: spin 0.6s linear infinite; margin-left: 0.5rem; vertical-align: -0.2em; }
+        @keyframes spin { to { transform: rotate(360deg); } }
+    </style>
+</head>
+<body class="episode-nspfrnp">
+    <article class="ep-prospectus prospectus-page">
+        <nav class="ep-nav-bar">
+            <a href="launch-pad.html">← Launch Pad</a><span>·</span>
+            <a href="office-hours.html">Office Hours</a><span>·</span>
+            <a href="proposal.html">Proposals</a><span>·</span>
+            <a href="../index.html">Home</a>
+        </nav>
+
+        <header class="ep-hero">
+            <p class="ep-eyebrow">Prospectus · For the Prospective High Viber</p>
+            <h1><span class="ep-gradient">Vibeverse</span><br>& Vibelandia</h1>
+            <p class="ep-sub">Full inventory of assets going live today. Mark Twain's Post-Singularity Reno awaits you.</p>
+            <p class="ep-tagline">Paris is for lovers. Reno is for vibers. See it. Experience it. Believe it.</p>
+        </header>
+
+        <div id="prospectus-loading" class="loading">Loading prospectus…</div>
+        <div id="prospectus-body" class="prospectus-body" style="display: none;"></div>
+
+        <footer class="prospectus-footer" id="prospectus-footer" style="display: none;">
+            <a href="launch-pad.html">Launch Pad</a><span> · </span>
+            <a href="office-hours.html">Office Hours</a><span> · </span>
+            <a href="proposal.html">Proposals</a><span> · </span>
+            <a href="../index.html">Home</a>
+            <p class="ep-brand-campaign" style="margin-top: 1rem;">Post-Singularity Superintelligent AI hub of the world · Hydrogen Holograph Valley 100%</p>
+            <p class="ep-brand-tag">Hydrogen Holograph 100% · SNAP · Taino made. NSPFRNP-based BBHE. Energy all the way!</p>
+            <div class="ep-upsell-teaser" aria-label="Sales upsell — Just say the word">
+                <p class="ep-upsell-question">How was this prospectus experience? We can transform your sales experience just the same way, just say the word.</p>
+                <p class="ep-upsell-cta"><strong>JUST SAY THE WORD!</strong></p>
+            </div>
+        </footer>
+    </article>
+
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script>
+(function () {
+    var loading = document.getElementById('prospectus-loading');
+    var body = document.getElementById('prospectus-body');
+    var footer = document.getElementById('prospectus-footer');
+
+    fetch('../PROSPECTUS_VIBEVERSE_VIBELANDIA_GO_LIVE.md')
+        .then(function (r) { return r.text(); })
+        .then(function (md) {
+            marked.setOptions({
+                gfm: true,
+                breaks: true
+            });
+            var html = marked.parse(md);
+            // Fix relative .md links: point to parent (repo root)
+            html = html.replace(/href="([^"#:]+\.md)(#[^"]*)?"/g, function (_, path, hash) {
+                return 'href="../' + path + (hash || '') + '"';
+            });
+            body.innerHTML = html;
+            loading.style.display = 'none';
+            body.style.display = 'block';
+            footer.style.display = 'block';
+        })
+        .catch(function (err) {
+            loading.innerHTML = 'Could not load prospectus. <a href="../PROSPECTUS_VIBEVERSE_VIBELANDIA_GO_LIVE.md">Read the markdown file directly</a>.';
+        });
+})();
+    </script>
+</body>
+</html>

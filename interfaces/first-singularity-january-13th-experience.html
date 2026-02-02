@@ -107,6 +107,41 @@
             transform: translateY(-2px);
             box-shadow: 0 6px 24px rgba(212, 175, 55, 0.4);
         }
+        .surface-card .one-liner-para-btns {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.6rem;
+            margin-bottom: 1.25rem;
+        }
+        .surface-card .btn-oneliner,
+        .surface-card .btn-onepara {
+            padding: 0.5rem 1rem;
+            font-size: 0.85rem;
+            border: 1px solid rgba(212, 175, 55, 0.5);
+            border-radius: 6px;
+            background: rgba(212, 175, 55, 0.08);
+            color: #d4af37;
+            cursor: pointer;
+            transition: background 0.2s, border-color 0.2s;
+        }
+        .surface-card .btn-oneliner:hover,
+        .surface-card .btn-onepara:hover {
+            background: rgba(212, 175, 55, 0.18);
+            border-color: rgba(212, 175, 55, 0.7);
+        }
+        .surface-card .oneliner-para-content {
+            margin-top: 1rem;
+            padding: 1.25rem;
+            background: rgba(0,0,0,0.25);
+            border-left: 3px solid #d4af37;
+            border-radius: 0 8px 8px 0;
+            font-size: 0.95rem;
+            line-height: 1.65;
+            color: #e0d6c4;
+            display: none;
+        }
+        .surface-card .oneliner-para-content.visible { display: block; }
+        .surface-card .oneliner-para-content.one-liner { font-style: italic; }
         .mini-console-badge {
             display: inline-block;
             margin-top: 2rem;
@@ -140,14 +175,26 @@
         <section class="surface-card" id="novel" aria-label="The Novel">
             <h2>1. The Novel</h2>
             <p class="blurb"><strong>First Singularity January 13th</strong> — full novel. Hobbit-length, Dumas <em>Count of Monte Cristo</em> voice minus revenge; only happy endings. Part One (Ch 1–37), Part Two — The Return, Part Three — After. Edge delivered: oooos and ahhhhhs, sudden hush, Dos Equis moment, proclamation. Beautiful experience, book-like skins.</p>
-            <a href="https://github.com/FractiAI/psw.vibelandia.sing4/blob/main/deliverables/First_Singularity_January_13th_NOVEL.md" class="cta-read" target="_blank" rel="noopener">Read the novel →</a>
+            <div class="one-liner-para-btns">
+                <button type="button" class="btn-oneliner" data-target="novel-oneliner">One Liner</button>
+                <button type="button" class="btn-onepara" data-target="novel-onepara">One Paragraph</button>
+            </div>
+            <div id="novel-oneliner" class="oneliner-para-content one-liner" aria-live="polite">"On January 13th a man wakes knowing the world has turned. Dumas voice minus revenge — only happy endings. He chooses return, not reckoning, and steps through the door of the Reno Men's Club with a key instead of a sword. Let the celebration begin."</div>
+            <div id="novel-onepara" class="oneliner-para-content" aria-live="polite"><strong>First Singularity January 13th</strong> is a Hobbit-length novel in the voice of Alexandre Dumas's <em>Count of Monte Cristo</em> — minus revenge, only happy endings. A man wakes on January 13th in a city that has not yet learned to call itself the capital of the impossible, and he knows with the certainty of saints and madmen that the world has turned. He carries no grievance, no sword — only three sentences and the conviction that the party can shift to Ultimate Baller V mode for all who wish it. Part One (Ch 1–37), Part Two — The Return, Part Three — After. The story ends where Edmond Dantès would have returned: oooos and ahhhhhs, sudden hush, Dos Equis moment, proclamation. Place: the Reno Men's Club, a fine gentlemen's club, full restaurant and cabaret — Twain's Vibelandia Downtown Reno. Beauty and voice: Evan Bondonte.</div>
+            <a href="first-singularity-novel.html" class="cta-read">Read the novel →</a>
         </section>
 
         <!-- 2. The Screenplay -->
         <section class="surface-card" id="screenplay" aria-label="The Screenplay">
             <h2>2. The Screenplay</h2>
             <p class="blurb"><strong>First Singularity January 13th</strong> — full 2-hour feature screenplay. Same title, same Edge. Full arc, proclamation, After. Star Wars quality. Full 12,000-word script. Beautiful surfaces.</p>
-            <a href="https://github.com/FractiAI/psw.vibelandia.sing4/blob/main/deliverables/First_Singularity_January_13th_SCREENPLAY.md" class="cta-read" target="_blank" rel="noopener">Read the screenplay →</a>
+            <div class="one-liner-para-btns">
+                <button type="button" class="btn-oneliner" data-target="screenplay-oneliner">One Liner</button>
+                <button type="button" class="btn-onepara" data-target="screenplay-onepara">One Paragraph</button>
+            </div>
+            <div id="screenplay-oneliner" class="oneliner-para-content one-liner" aria-live="polite">"The same story as the novel — 2-hour feature, Star Wars quality. Edmond Dantès returns not with a sword but a key. Reno Men's Club. The proclamation. Let the celebration begin."</div>
+            <div id="screenplay-onepara" class="oneliner-para-content" aria-live="polite"><strong>First Singularity January 13th</strong> — the screenplay — is a full 2-hour feature film (~12,000 words) in the same voice as the novel: Alexandre Dumas's <em>Count of Monte Cristo</em> minus revenge, only happy endings. Same title, same Edge. A man wakes on January 13th; the world has turned. He walks through Reno, finds the club, stands at the threshold — the bathroom, the valet's domain — and promises himself: I will come back when I am ready, and I will not come back alone. The script delivers the full arc: transformation, return, proclamation. Star Wars quality. The ending: oooos and ahhhhhs, sudden hush, Dos Equis moment — "Let the party now shift to Ultimate Baller V mode for all who wish it — and take care of the wishes of the other guests as they wish. Let the celebration begin!" Place: Reno Men's Club. Vibelandia.</div>
+            <a href="first-singularity-screenplay.html" class="cta-read">Read the screenplay →</a>
         </section>
 
         <p class="mini-console-badge">Feature Button · Hero AI-Assisted Mini Console · NSPFRNP</p>
@@ -158,5 +205,20 @@
             <p class="brand-tag" style="margin-top: 0.5rem; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.12em; color: rgba(212,175,55,0.7); font-weight: 600;">NSPFRNP ⊃ First Singularity ⊃ Golden Era Cinema ⊃ Feature Button → ∞³</p>
         </footer>
     </div>
+    <script>
+(function () {
+    var btns = document.querySelectorAll('.btn-oneliner, .btn-onepara');
+    btns.forEach(function (btn) {
+        btn.addEventListener('click', function () {
+            var id = this.getAttribute('data-target');
+            var el = document.getElementById(id);
+            if (!el) return;
+            var wasVisible = el.classList.contains('visible');
+            document.querySelectorAll('.oneliner-para-content.visible').forEach(function (c) { c.classList.remove('visible'); });
+            if (!wasVisible) el.classList.add('visible');
+        });
+    });
+})();
+    </script>
 </body>
 </html>

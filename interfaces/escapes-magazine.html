@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escapes Magazine — Natural Recreations & Therapeutic Escapes | VIBELANDIA RENO!</title>
+    <meta name="description" content="Escapes Magazine — premium editorial on natural recreations and therapeutic escapes. Forest walks, ocean breezes, meditation gardens, cosmic journeys. Mark Twain's Post-Singularity Vibelandia Reno.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --ink: #0c0d0f;
+            --paper: #faf9f6;
+            --forest: #228B22;
+            --forest-light: #2d9d2d;
+            --ocean: #1e5f7a;
+            --ocean-light: #2a7a9a;
+            --earth: #6b5344;
+            --gold: #b8860b;
+            --muted: #5a6c5a;
+            --divider: rgba(34, 139, 34, 0.15);
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        html { scroll-behavior: smooth; }
+        body {
+            font-family: 'Outfit', -apple-system, BlinkMacSystemFont, sans-serif;
+            font-weight: 400;
+            font-size: 17px;
+            line-height: 1.75;
+            color: var(--ink);
+            background: var(--paper);
+            min-height: 100vh;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .magazine { max-width: 780px; margin: 0 auto; padding: 0 2rem 4rem; }
+
+        .mag-nav {
+            padding: 1.25rem 0;
+            border-bottom: 1px solid var(--divider);
+            font-size: 0.85rem;
+            font-weight: 500;
+            letter-spacing: 0.03em;
+        }
+        .mag-nav a { color: var(--muted); text-decoration: none; transition: color 0.2s; }
+        .mag-nav a:hover { color: var(--forest); }
+        .mag-nav span { color: var(--muted); opacity: 0.5; margin: 0 0.5rem; }
+
+        /* Cover / Masthead */
+        .mag-cover {
+            padding: 4rem 0 5rem;
+            text-align: center;
+        }
+        .mag-cover .volume {
+            font-size: 0.65rem;
+            font-weight: 600;
+            letter-spacing: 0.4em;
+            text-transform: uppercase;
+            color: var(--forest);
+            margin-bottom: 1.5rem;
+        }
+        .mag-cover h1 {
+            font-family: 'Cormorant Garamond', Georgia, serif;
+            font-size: clamp(3.5rem, 10vw, 5.5rem);
+            font-weight: 600;
+            letter-spacing: 0.08em;
+            color: var(--ink);
+            margin-bottom: 0.5rem;
+            line-height: 0.95;
+        }
+        .mag-cover .tagline {
+            font-family: 'Cormorant Garamond', Georgia, serif;
+            font-size: 1.4rem;
+            font-style: italic;
+            color: var(--muted);
+            margin-bottom: 2rem;
+            letter-spacing: 0.02em;
+        }
+        .mag-cover .sub {
+            font-size: 0.9rem;
+            color: var(--muted);
+            max-width: 40ch;
+            margin: 0 auto;
+        }
+
+        /* Letter from the Editor */
+        .mag-letter {
+            padding: 3rem 0;
+            border-top: 1px solid var(--divider);
+        }
+        .mag-letter .label {
+            font-size: 0.65rem;
+            font-weight: 600;
+            letter-spacing: 0.35em;
+            text-transform: uppercase;
+            color: var(--forest);
+            margin-bottom: 1rem;
+        }
+        .mag-letter h2 {
+            font-family: 'Cormorant Garamond', Georgia, serif;
+            font-size: 1.8rem;
+            font-weight: 600;
+            color: var(--ink);
+            margin-bottom: 1.5rem;
+        }
+        .mag-letter p {
+            margin-bottom: 1.25rem;
+            color: var(--ink);
+            opacity: 0.92;
+        }
+        .mag-letter .sig {
+            font-family: 'Cormorant Garamond', Georgia, serif;
+            font-style: italic;
+            margin-top: 1.5rem;
+            color: var(--earth);
+        }
+
+        /* Table of Contents */
+        .mag-toc {
+            padding: 3rem 0;
+            border-top: 1px solid var(--divider);
+        }
+        .mag-toc .label {
+            font-size: 0.65rem;
+            font-weight: 600;
+            letter-spacing: 0.35em;
+            text-transform: uppercase;
+            color: var(--forest);
+            margin-bottom: 1.5rem;
+        }
+        .mag-toc-dept {
+            margin-bottom: 2.5rem;
+        }
+        .mag-toc-dept-title {
+            font-family: 'Cormorant Garamond', Georgia, serif;
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: var(--ink);
+            margin-bottom: 1rem;
+            padding-bottom: 0.5rem;
+        }
+        .mag-toc-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            padding: 0.6rem 0;
+            border-bottom: 1px solid rgba(34, 139, 34, 0.08);
+            cursor: pointer;
+            transition: background 0.2s;
+            text-decoration: none;
+            color: inherit;
+        }
+        .mag-toc-item:hover { background: rgba(34, 139, 34, 0.04); }
+        .mag-toc-item-title { font-weight: 500; color: var(--ink); }
+        .mag-toc-item-page { font-size: 0.8rem; color: var(--muted); }
+
+        /* Article Cards */
+        .mag-section {
+            padding: 3rem 0;
+            border-top: 1px solid var(--divider);
+        }
+        .mag-section .dept-label {
+            font-size: 0.65rem;
+            font-weight: 600;
+            letter-spacing: 0.35em;
+            text-transform: uppercase;
+            color: var(--forest);
+            margin-bottom: 0.75rem;
+        }
+        .mag-section h2 {
+            font-family: 'Cormorant Garamond', Georgia, serif;
+            font-size: 2rem;
+            font-weight: 600;
+            color: var(--ink);
+            margin-bottom: 2rem;
+        }
+
+        .article-card {
+            margin-bottom: 2.5rem;
+            border: 1px solid var(--divider);
+            border-radius: 12px;
+            overflow: hidden;
+            background: #fff;
+            transition: box-shadow 0.2s, border-color 0.2s;
+        }
+        .article-card:hover { box-shadow: 0 8px 32px rgba(34, 139, 34, 0.08); border-color: rgba(34, 139, 34, 0.25); }
+        .article-card.expanded { border-color: var(--forest); }
+        .article-card-header {
+            padding: 1.5rem 1.75rem;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            gap: 1rem;
+        }
+        .article-card-icon { font-size: 2rem; flex-shrink: 0; }
+        .article-card-headline {
+            font-family: 'Cormorant Garamond', Georgia, serif;
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: var(--ink);
+            margin-bottom: 0.35rem;
+        }
+        .article-card-deck {
+            font-size: 0.95rem;
+            color: var(--muted);
+            line-height: 1.5;
+        }
+        .article-card-expand {
+            font-size: 0.75rem;
+            color: var(--forest);
+            font-weight: 600;
+            letter-spacing: 0.05em;
+            transition: transform 0.2s;
+        }
+        .article-card.expanded .article-card-expand { transform: rotate(180deg); }
+        .article-card-body {
+            display: none;
+            padding: 0 1.75rem 1.75rem;
+        }
+        .article-card.expanded .article-card-body { display: block; }
+        .article-card-body p {
+            margin-bottom: 1.25rem;
+            color: var(--ink);
+            opacity: 0.92;
+        }
+        .article-card-body .article-byline {
+            font-size: 0.85rem;
+            color: var(--muted);
+            margin-top: 1.5rem;
+            padding-top: 1rem;
+            border-top: 1px solid var(--divider);
+        }
+        .article-tags {
+            display: flex;
+            gap: 0.5rem;
+            flex-wrap: wrap;
+            margin-top: 1rem;
+        }
+        .article-tag {
+            font-size: 0.7rem;
+            padding: 0.25rem 0.6rem;
+            background: rgba(34, 139, 34, 0.08);
+            border-radius: 4px;
+            color: var(--forest);
+            font-weight: 500;
+        }
+
+        /* Pull quote */
+        .article-pull {
+            margin: 1.5rem 0;
+            padding: 1.25rem 1.5rem;
+            border-left: 4px solid var(--forest);
+            background: rgba(34, 139, 34, 0.04);
+            border-radius: 0 8px 8px 0;
+            font-family: 'Cormorant Garamond', Georgia, serif;
+            font-size: 1.2rem;
+            font-style: italic;
+            color: var(--ink);
+        }
+
+        /* CTA / Book */
+        .mag-cta {
+            margin-top: 3rem;
+            padding: 2.5rem;
+            background: linear-gradient(135deg, rgba(34, 139, 34, 0.06) 0%, rgba(30, 95, 122, 0.06) 100%);
+            border: 1px solid var(--divider);
+            border-radius: 16px;
+            text-align: center;
+        }
+        .mag-cta h3 {
+            font-family: 'Cormorant Garamond', Georgia, serif;
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: var(--ink);
+            margin-bottom: 0.75rem;
+        }
+        .mag-cta p { margin-bottom: 1.25rem; color: var(--muted); font-size: 0.95rem; }
+        .mag-cta .btn {
+            display: inline-flex;
+            align-items: center;
+            padding: 1rem 1.75rem;
+            background: var(--forest);
+            color: white;
+            font-weight: 600;
+            font-size: 0.9rem;
+            letter-spacing: 0.03em;
+            text-decoration: none;
+            border-radius: 10px;
+            transition: background 0.2s, transform 0.2s;
+        }
+        .mag-cta .btn:hover { background: var(--forest-light); transform: translateY(-1px); }
+
+        /* Footer */
+        .mag-footer {
+            margin-top: 4rem;
+            padding-top: 2rem;
+            border-top: 1px solid var(--divider);
+            text-align: center;
+            font-size: 0.85rem;
+            color: var(--muted);
+        }
+        .mag-footer a { color: var(--forest); text-decoration: none; }
+        .mag-footer a:hover { text-decoration: underline; }
+        .mag-footer .brand { margin-top: 1rem; font-size: 0.75rem; letter-spacing: 0.1em; color: var(--gold); font-weight: 600; }
+    </style>
+</head>
+<body>
+    <article class="magazine">
+        <nav class="mag-nav">
+            <a href="vibelandia-reno-experience.html">← Vibelandia Reno</a><span>·</span>
+            <a href="guided-expeditions.html">Guided Expeditions</a><span>·</span>
+            <a href="launch-pad.html">Launch Pad</a><span>·</span>
+            <a href="office-hours.html">Office Hours</a><span>·</span>
+            <a href="../index.html">Home</a>
+        </nav>
+
+        <header class="mag-cover">
+            <p class="volume">Volume 1 · Spring 2026</p>
+            <h1>ESCAPES</h1>
+            <p class="tagline">Natural Recreations & Therapeutic Escapes</p>
+            <p class="sub">Safe natural, imaginary-based experiences — like playing a really good video game. Mark Twain's Post-Singularity Vibelandia Reno. All escapes operational on campus.</p>
+        </header>
+
+        <section class="mag-letter">
+            <p class="label">Letter from the Editor</p>
+            <h2>Where Nature Meets the Post-Singularity</h2>
+            <p>Welcome to the first volume of <em>Escapes</em> — the magazine of natural recreations and therapeutic experiences at Vibelandia Reno. We believe the best escapes are the ones that restore, refresh, and reconnect. Here you'll find curated journeys into forest walks, ocean breezes, meditation gardens, and cosmic meadows — all designed for the high-contributing viber seeking respite without leaving the campus.</p>
+            <p>Each escape is safe, natural, and imaginary-based — like the finest video game or the most immersive novel. No substances, no risk. Just you, the experience, and the therapeutic power of nature rendered in post-singularity form. Book any escape through the campus concierge or at Office Hours.</p>
+            <p class="sig">— The Chancellor's Office · Mark Twain's Post-Singularity Vibelandia Reno</p>
+        </section>
+
+        <section class="mag-toc">
+            <p class="label">In This Issue</p>
+            <div class="mag-toc-dept">
+                <div class="mag-toc-dept-title">Natural Recreations</div>
+                <a href="#forest-walk" class="mag-toc-item"><span class="mag-toc-item-title">🌲 Forest Walk</span><span class="mag-toc-item-page">p. 12</span></a>
+                <a href="#ocean-breeze" class="mag-toc-item"><span class="mag-toc-item-title">🌊 Ocean Breeze</span><span class="mag-toc-item-page">p. 14</span></a>
+                <a href="#mountain-peak" class="mag-toc-item"><span class="mag-toc-item-title">⛰️ Mountain Peak</span><span class="mag-toc-item-page">p. 16</span></a>
+            </div>
+            <div class="mag-toc-dept">
+                <div class="mag-toc-dept-title">Therapeutic Escapes</div>
+                <a href="#meditation-garden" class="mag-toc-item"><span class="mag-toc-item-title">🧘 Meditation Garden</span><span class="mag-toc-item-page">p. 20</span></a>
+                <a href="#crystal-cave" class="mag-toc-item"><span class="mag-toc-item-title">💎 Crystal Cave</span><span class="mag-toc-item-page">p. 22</span></a>
+                <a href="#starlight-meadow" class="mag-toc-item"><span class="mag-toc-item-title">✨ Starlight Meadow</span><span class="mag-toc-item-page">p. 24</span></a>
+            </div>
+            <div class="mag-toc-dept">
+                <div class="mag-toc-dept-title">Adventure Escapes</div>
+                <a href="#desert-oasis" class="mag-toc-item"><span class="mag-toc-item-title">🏜️ Desert Oasis</span><span class="mag-toc-item-page">p. 28</span></a>
+                <a href="#aurora-forest" class="mag-toc-item"><span class="mag-toc-item-title">🌌 Aurora Forest</span><span class="mag-toc-item-page">p. 30</span></a>
+            </div>
+        </section>
+
+        <!-- Natural Recreations -->
+        <section class="mag-section" id="natural">
+            <p class="dept-label">Natural Recreations</p>
+            <h2>Into the Wild</h2>
+
+            <article class="article-card" id="forest-walk" data-escape="forest-walk">
+                <div class="article-card-header">
+                    <div>
+                        <span class="article-card-icon">🌲</span>
+                        <h3 class="article-card-headline">Forest Walk</h3>
+                        <p class="article-card-deck">Immersive forest exploration through old-growth canopy. Safe natural, imaginary-based.</p>
+                    </div>
+                    <span class="article-card-expand">▼</span>
+                </div>
+                <div class="article-card-body">
+                    <p>There is no substitute for the cathedral quiet of a forest. In this escape, you enter a world of ancient trees, dappled light, and the soft crunch of needles underfoot. The path winds through groves of cedar and fir, past ferns and moss-covered logs. Birds call from the canopy. A stream murmurs somewhere to your left.</p>
+                    <p class="article-pull">The forest does not hurry. Neither should you.</p>
+                    <p>This is a full-sensory immersion — sight, sound, the suggestion of scent. Safe, natural, imaginary-based. Like the finest video game, but built for restoration. Perfect after a long day of high-contributing viber activity. Sessions run 30 or 60 minutes. Book through the campus concierge.</p>
+                    <div class="article-byline">Duration: 30–60 min · Level: Gentle · Best for: Restoration</div>
+                    <div class="article-tags"><span class="article-tag">Nature</span><span class="article-tag">Therapeutic</span><span class="article-tag">Forest</span></div>
+                </div>
+            </article>
+
+            <article class="article-card" id="ocean-breeze" data-escape="ocean-breeze">
+                <div class="article-card-header">
+                    <div>
+                        <span class="article-card-icon">🌊</span>
+                        <h3 class="article-card-headline">Ocean Breeze</h3>
+                        <p class="article-card-deck">Coastal relaxation. Waves, salt air, horizon. Like playing a really good video game.</p>
+                    </div>
+                    <span class="article-card-expand">▼</span>
+                </div>
+                <div class="article-card-body">
+                    <p>The ocean has a rhythm that resets the mind. In Ocean Breeze, you stand on a windswept shore — sand, dunes, the endless blue. Waves roll in. Gulls wheel. The horizon stretches to infinity. This is coastal meditation at its finest.</p>
+                    <p>We've distilled the essence of seaside escape: the sound of waves, the feel of salt air, the vastness of the view. No travel required. No weather to worry about. Just you and the eternal rhythm of the sea. Ideal for those who need to decompress after intense creative or strategic work.</p>
+                    <p class="article-pull">The ocean reminds us: we are small, and that is a relief.</p>
+                    <div class="article-byline">Duration: 30–45 min · Level: Gentle · Best for: Decompression</div>
+                    <div class="article-tags"><span class="article-tag">Ocean</span><span class="article-tag">Relaxation</span><span class="article-tag">Coastal</span></div>
+                </div>
+            </article>
+
+            <article class="article-card" id="mountain-peak" data-escape="mountain-peak">
+                <div class="article-card-header">
+                    <div>
+                        <span class="article-card-icon">⛰️</span>
+                        <h3 class="article-card-headline">Mountain Peak</h3>
+                        <p class="article-card-deck">Summit journey. Alpine air, panoramic views. Safe natural adventure.</p>
+                    </div>
+                    <span class="article-card-expand">▼</span>
+                </div>
+                <div class="article-card-body">
+                    <p>The climb is optional. The view is not. In Mountain Peak, you arrive at a high-altitude vista — jagged peaks, cloud layers, the world spread below. Alpine meadow at your feet. Crisp, thin air. The satisfaction of having reached the top.</p>
+                    <p>This escape captures the triumph of ascent without the physical exertion. Perfect for vibers who want the clarity of altitude without leaving the campus. The perspective alone is therapeutic: everything looks manageable from up here. Sessions include optional "ascent" narrative or direct summit arrival.</p>
+                    <div class="article-byline">Duration: 45–60 min · Level: Gentle to Moderate · Best for: Perspective</div>
+                    <div class="article-tags"><span class="article-tag">Mountain</span><span class="article-tag">Adventure</span><span class="article-tag">Vista</span></div>
+                </div>
+            </article>
+        </section>
+
+        <!-- Therapeutic Escapes -->
+        <section class="mag-section" id="therapeutic">
+            <p class="dept-label">Therapeutic Escapes</p>
+            <h2>Restore & Heal</h2>
+
+            <article class="article-card" id="meditation-garden" data-escape="meditation-garden">
+                <div class="article-card-header">
+                    <div>
+                        <span class="article-card-icon">🧘</span>
+                        <h3 class="article-card-headline">Meditation Garden</h3>
+                        <p class="article-card-deck">Peaceful garden meditation. Lotus pond, soft light. Imaginary-based therapeutic escape.</p>
+                    </div>
+                    <span class="article-card-expand">▼</span>
+                </div>
+                <div class="article-card-body">
+                    <p>A walled garden. A lotus pond. Stone paths. Soft light through bamboo. The Meditation Garden is designed for deep rest — no agenda, no goal. Just presence. You may sit by the water, walk the paths, or find a shaded bench. The garden holds space for whatever you need.</p>
+                    <p class="article-pull">In the garden, time becomes optional.</p>
+                    <p>This escape integrates guided or unguided meditation options. Safe, natural, imaginary-based. Used by high-value vibers for pre-meeting centering, post-workdown recovery, or simple reset. Sessions tailored to 20, 40, or 60 minutes. Book at Office Hours or through the concierge.</p>
+                    <div class="article-byline">Duration: 20–60 min · Level: Gentle · Best for: Centering</div>
+                    <div class="article-tags"><span class="article-tag">Meditation</span><span class="article-tag">Zen</span><span class="article-tag">Garden</span></div>
+                </div>
+            </article>
+
+            <article class="article-card" id="crystal-cave" data-escape="crystal-cave">
+                <div class="article-card-header">
+                    <div>
+                        <span class="article-card-icon">💎</span>
+                        <h3 class="article-card-headline">Crystal Cave</h3>
+                        <p class="article-card-deck">Crystal healing sanctuary. Geodes, soft glow. Safe natural recreation.</p>
+                    </div>
+                    <span class="article-card-expand">▼</span>
+                </div>
+                <div class="article-card-body">
+                    <p>Deep beneath the surface, a cave of crystalline formations. Amethyst, quartz, geodes catching light. The air is cool and still. The only sound is the faint drip of water. This is the Crystal Cave — a sanctuary for those drawn to the quiet power of the earth's hidden beauty.</p>
+                    <p>Crystals have long been symbols of clarity and restoration. Here, in this imaginary-based escape, you experience the aesthetic and atmospheric qualities of a geological wonder — without leaving campus. Ideal for creative recharge, contemplative work, or simply a different kind of quiet.</p>
+                    <div class="article-byline">Duration: 30–45 min · Level: Gentle · Best for: Clarity</div>
+                    <div class="article-tags"><span class="article-tag">Healing</span><span class="article-tag">Crystals</span><span class="article-tag">Sanctuary</span></div>
+                </div>
+            </article>
+
+            <article class="article-card" id="starlight-meadow" data-escape="starlight-meadow">
+                <div class="article-card-header">
+                    <div>
+                        <span class="article-card-icon">✨</span>
+                        <h3 class="article-card-headline">Starlight Meadow</h3>
+                        <p class="article-card-deck">Stargazing meadow. Night sky, cosmos. Like playing a really good video game.</p>
+                    </div>
+                    <span class="article-card-expand">▼</span>
+                </div>
+                <div class="article-card-body">
+                    <p>Lie back in a meadow of soft grass. Above you: the full dome of the night sky. Stars in impossible density. No light pollution. No schedule. Just you and the cosmos. Starlight Meadow is our most popular escape for late-night decompression.</p>
+                    <p class="article-pull">The stars don't care what you did today. They simply shine.</p>
+                    <p>Optional enhancements include constellation narration, meteor-shower events, or aurora-like displays. All imaginary-based, all safe. Perfect for the viber who needs to zoom out — from the day, from the quarter, from the noise. Sessions available 30 or 60 minutes. Often booked back-to-back with Meditation Garden for extended reset.</p>
+                    <div class="article-byline">Duration: 30–60 min · Level: Gentle · Best for: Perspective</div>
+                    <div class="article-tags"><span class="article-tag">Stargazing</span><span class="article-tag">Cosmic</span><span class="article-tag">Night</span></div>
+                </div>
+            </article>
+        </section>
+
+        <!-- Adventure Escapes -->
+        <section class="mag-section" id="adventure">
+            <p class="dept-label">Adventure Escapes</p>
+            <h2>Beyond the Ordinary</h2>
+
+            <article class="article-card" id="desert-oasis" data-escape="desert-oasis">
+                <div class="article-card-header">
+                    <div>
+                        <span class="article-card-icon">🏜️</span>
+                        <h3 class="article-card-headline">Desert Oasis</h3>
+                        <p class="article-card-deck">Oasis discovery. Palm shade, cool spring. Safe natural adventure.</p>
+                    </div>
+                    <span class="article-card-expand">▼</span>
+                </div>
+                <div class="article-card-body">
+                    <p>The desert teaches scarcity. The oasis teaches abundance. In this escape, you journey through sun-scorched dunes to discover a hidden grove — palms, a spring, shade at last. The contrast is the point. What we seek is often just beyond the next ridge.</p>
+                    <p>Desert Oasis is especially resonant for Reno-based vibers: our high desert landscape makes this escape feel like a deeper version of home. Safe, natural, imaginary-based. Ideal for those who want adventure without exertion — the thrill of discovery, the reward of rest.</p>
+                    <div class="article-byline">Duration: 45–60 min · Level: Moderate · Best for: Discovery</div>
+                    <div class="article-tags"><span class="article-tag">Desert</span><span class="article-tag">Oasis</span><span class="article-tag">Adventure</span></div>
+                </div>
+            </article>
+
+            <article class="article-card" id="aurora-forest" data-escape="aurora-forest">
+                <div class="article-card-header">
+                    <div>
+                        <span class="article-card-icon">🌌</span>
+                        <h3 class="article-card-headline">Aurora Forest</h3>
+                        <p class="article-card-deck">Northern lights in an ancient forest. Dancing skies. Imaginary-based therapeutic.</p>
+                    </div>
+                    <span class="article-card-expand">▼</span>
+                </div>
+                <div class="article-card-body">
+                    <p>Where do you go when you need magic? Aurora Forest. An old-growth forest at night, but the sky is alive — greens, purples, ribbons of light. The northern lights dance above the canopy. Snow underfoot (optional). Silence. Wonder.</p>
+                    <p>This escape combines the groundedness of forest with the transcendence of celestial display. Safe, natural, imaginary-based. Popular with creative vibers seeking inspiration, or anyone who needs a reminder that the world still holds marvels. Sessions include customizable aurora intensity and seasonal variants.</p>
+                    <div class="article-byline">Duration: 45–60 min · Level: Gentle · Best for: Wonder</div>
+                    <div class="article-tags"><span class="article-tag">Aurora</span><span class="article-tag">Forest</span><span class="article-tag">Cosmic</span></div>
+                </div>
+            </article>
+        </section>
+
+        <section class="mag-cta">
+            <h3>Book Your Escape</h3>
+            <p>All escapes are operational on the VIBELANDIA RENO! campus. <a href="guided-expeditions.html">Guided Expeditions</a> — real trips, hunting guide service for adventure. Visit Office Hours Thu–Sun 8pm–close, email <a href="mailto:info@fractiai.com">info@fractiai.com</a>, or inquire at the Launch Pad.</p>
+            <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; justify-content: center;">
+                <a href="guided-expeditions.html" class="btn">▶ Guided Expeditions — Real Trips</a>
+                <a href="office-hours.html" class="btn" style="background: transparent; border: 2px solid var(--forest); color: var(--forest);">Office Hours — Book</a>
+            </div>
+        </section>
+
+        <footer class="mag-footer">
+            <a href="vibelandia-reno-experience.html">Vibelandia Reno</a><span> · </span>
+            <a href="launch-pad.html">Launch Pad</a><span> · </span>
+            <a href="../index.html">Home</a>
+            <p class="brand">Hydrogen Holograph 100% · SNAP · Taino made. NSPFRNP-based BBHE. Energy all the way!</p>
+        </footer>
+    </article>
+
+    <script>
+(function () {
+    document.querySelectorAll('.article-card').forEach(function (card) {
+        var header = card.querySelector('.article-card-header');
+        header.addEventListener('click', function () {
+            card.classList.toggle('expanded');
+            if (card.classList.contains('expanded')) {
+                card.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+            }
+        });
+    });
+    document.querySelectorAll('.mag-toc-item').forEach(function (link) {
+        link.addEventListener('click', function (e) {
+            e.preventDefault();
+            var id = link.getAttribute('href').slice(1);
+            var el = document.getElementById(id);
+            if (el) {
+                el.classList.add('expanded');
+                el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }
+        });
+    });
+})();
+    </script>
+</body>
+</html>

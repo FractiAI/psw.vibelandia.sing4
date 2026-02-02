@@ -207,7 +207,7 @@ All of the following are **live** and linked from the Launch Pad. Base URL: http
 ### 4.4 Content & catalog
 
 - **Chancellor Daily Bulletin** — interfaces/chancellor-daily-bulletin.html (Mark Twain, things to do)
-- **Escapes / catalog** — interfaces/escapes-magazine-catalog-menu.html, interfaces/escapes-catalog-menu-component.html
+- **Escapes Magazine** — interfaces/escapes-magazine.html (full editorial); interfaces/escapes-magazine-catalog-menu.html (redirect), interfaces/escapes-catalog-menu-component.html (floating catalog)
 - **Vibe Verse Display** — interfaces/vibe-verse-display.html
 - **Vibe Snap Capture** — interfaces/vibe-snap-capture.html
 - **Vibeland Reno Buttons** — interfaces/vibeland-reno-buttons.html

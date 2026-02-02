@@ -61,6 +61,13 @@ if (fs.existsSync(episodesSrc)) {
   copyDir(episodesSrc, episodesDest);
 }
 
+// Copy deliverables/ so novel and screenplay reader pages can fetch them
+const deliverablesSrc = path.join(root, 'deliverables');
+const deliverablesDest = path.join(staticDir, 'deliverables');
+if (fs.existsSync(deliverablesSrc)) {
+  copyDir(deliverablesSrc, deliverablesDest);
+}
+
 // Copy root .md and protocols/ so roll call, prospectus, chairman specs, etc. don't 404
 const rootMdDir = root;
 const rootFiles = fs.readdirSync(rootMdDir, { withFileTypes: true });
@@ -182,6 +189,7 @@ console.log('  static/index.html');
 console.log('  static/favicon.ico');
 console.log('  static/interfaces/*');
 console.log('  static/episodes/*');
+console.log('  static/deliverables/* (novel, screenplay)');
 console.log('  static/*.md + static/protocols/*');
 if (fs.existsSync(apiPayPalDir)) {
   console.log('  functions/api/payment/paypal/*.func (PayPal pipe)');

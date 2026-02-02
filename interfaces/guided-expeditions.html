@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guided Expeditions — Real Trips · Hunting Guide Service for Adventure | VIBELANDIA RENO!</title>
+    <meta name="description" content="Guided expeditions for high-value adventurers. Forest, mountain, desert, ocean — expert-led trips. Equivalent to top guided hunting or fishing. Mark Twain's Post-Singularity Vibelandia Reno.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --ink: #1a1614;
+            --paper: #f5f2ee;
+            --field: #3d4a3d;
+            --earth: #6b5344;
+            --leather: #8b6914;
+            --copper: #b87333;
+            --muted: #5c5c52;
+            --divider: rgba(107, 83, 68, 0.2);
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        html { scroll-behavior: smooth; }
+        body {
+            font-family: 'Outfit', -apple-system, BlinkMacSystemFont, sans-serif;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 1.7;
+            color: var(--ink);
+            background: var(--paper);
+            min-height: 100vh;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .expeditions { max-width: 820px; margin: 0 auto; padding: 0 2rem 4rem; }
+
+        .exp-nav {
+            padding: 1.25rem 0;
+            border-bottom: 1px solid var(--divider);
+            font-size: 0.85rem;
+            font-weight: 500;
+            letter-spacing: 0.04em;
+        }
+        .exp-nav a { color: var(--muted); text-decoration: none; }
+        .exp-nav a:hover { color: var(--earth); }
+        .exp-nav span { color: var(--muted); opacity: 0.5; margin: 0 0.5rem; }
+
+        /* Hero — Outfitter style */
+        .exp-hero {
+            padding: 4rem 0 4rem;
+            text-align: center;
+        }
+        .exp-hero .badge {
+            font-size: 0.6rem;
+            font-weight: 600;
+            letter-spacing: 0.45em;
+            text-transform: uppercase;
+            color: var(--earth);
+            margin-bottom: 1.25rem;
+        }
+        .exp-hero h1 {
+            font-family: 'Cormorant Garamond', Georgia, serif;
+            font-size: clamp(2.5rem, 6vw, 3.5rem);
+            font-weight: 600;
+            color: var(--ink);
+            margin-bottom: 0.75rem;
+            letter-spacing: -0.01em;
+        }
+        .exp-hero .tagline {
+            font-family: 'Cormorant Garamond', Georgia, serif;
+            font-size: 1.35rem;
+            font-style: italic;
+            color: var(--earth);
+            margin-bottom: 1.5rem;
+        }
+        .exp-hero .sub {
+            font-size: 0.95rem;
+            color: var(--muted);
+            max-width: 42ch;
+            margin: 0 auto;
+        }
+
+        /* Intro block */
+        .exp-intro {
+            padding: 2.5rem 2rem;
+            background: linear-gradient(135deg, rgba(107, 83, 68, 0.06) 0%, rgba(61, 74, 61, 0.06) 100%);
+            border: 1px solid var(--divider);
+            border-radius: 12px;
+            margin-bottom: 3rem;
+        }
+        .exp-intro p { margin-bottom: 1rem; }
+        .exp-intro p:last-child { margin-bottom: 0; }
+
+        /* Expedition cards — Hunt/outfitter style */
+        .exp-section {
+            margin-bottom: 3rem;
+        }
+        .exp-section-title {
+            font-size: 0.65rem;
+            font-weight: 600;
+            letter-spacing: 0.4em;
+            text-transform: uppercase;
+            color: var(--earth);
+            margin-bottom: 0.5rem;
+        }
+        .exp-section h2 {
+            font-family: 'Cormorant Garamond', Georgia, serif;
+            font-size: 1.75rem;
+            font-weight: 600;
+            color: var(--ink);
+            margin-bottom: 1.5rem;
+        }
+
+        .exp-card {
+            background: #fff;
+            border: 1px solid var(--divider);
+            border-radius: 10px;
+            overflow: hidden;
+            margin-bottom: 1.5rem;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+        }
+        .exp-card:hover { border-color: var(--earth); box-shadow: 0 4px 20px rgba(107, 83, 68, 0.1); }
+        .exp-card-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            padding: 1.5rem 1.75rem;
+            gap: 1rem;
+        }
+        .exp-card-terrain { font-size: 2rem; }
+        .exp-card-title {
+            font-family: 'Cormorant Garamond', Georgia, serif;
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: var(--ink);
+            margin-bottom: 0.25rem;
+        }
+        .exp-card-specs {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0 1.5rem;
+            font-size: 0.8rem;
+            color: var(--muted);
+            margin-top: 0.75rem;
+        }
+        .exp-card-specs span { display: inline-flex; align-items: center; gap: 0.3rem; }
+        .exp-card-body {
+            padding: 0 1.75rem 1.5rem;
+        }
+        .exp-card-body p { margin-bottom: 1rem; font-size: 0.95rem; }
+        .exp-card-includes {
+            margin-top: 1rem;
+            padding-top: 1rem;
+            border-top: 1px solid var(--divider);
+            font-size: 0.85rem;
+            color: var(--muted);
+        }
+        .exp-card-includes strong { color: var(--earth); }
+        .exp-card-cta {
+            display: inline-block;
+            margin-top: 1rem;
+            padding: 0.6rem 1.25rem;
+            background: var(--field);
+            color: #fff;
+            font-size: 0.85rem;
+            font-weight: 600;
+            letter-spacing: 0.03em;
+            text-decoration: none;
+            border-radius: 6px;
+            transition: background 0.2s;
+        }
+        .exp-card-cta:hover { background: var(--earth); }
+
+        /* Pricing strip */
+        .exp-pricing {
+            margin: 3rem 0;
+            padding: 2rem 2.25rem;
+            background: var(--ink);
+            color: var(--paper);
+            border-radius: 12px;
+        }
+        .exp-pricing h3 {
+            font-family: 'Cormorant Garamond', Georgia, serif;
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 0.75rem;
+        }
+        .exp-pricing p { font-size: 0.95rem; opacity: 0.9; margin-bottom: 1rem; }
+        .exp-pricing ul {
+            list-style: none;
+            margin: 1rem 0 0;
+            font-size: 0.9rem;
+        }
+        .exp-pricing li { padding: 0.35rem 0; display: flex; justify-content: space-between; gap: 1rem; }
+        .exp-pricing li span:last-child { color: var(--leather); font-weight: 600; }
+        .exp-pricing .btn {
+            display: inline-block;
+            margin-top: 1.5rem;
+            padding: 1rem 1.75rem;
+            background: var(--leather);
+            color: #fff;
+            font-weight: 600;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: background 0.2s;
+        }
+        .exp-pricing .btn:hover { background: var(--copper); }
+
+        .exp-footer {
+            margin-top: 3rem;
+            padding-top: 2rem;
+            border-top: 1px solid var(--divider);
+            text-align: center;
+            font-size: 0.85rem;
+            color: var(--muted);
+        }
+        .exp-footer a { color: var(--earth); text-decoration: none; }
+        .exp-footer .brand { margin-top: 1rem; font-size: 0.75rem; letter-spacing: 0.1em; color: var(--leather); font-weight: 600; }
+    </style>
+</head>
+<body>
+    <article class="expeditions">
+        <nav class="exp-nav">
+            <a href="vibelandia-reno-experience.html">← Vibelandia Reno</a><span>·</span>
+            <a href="escapes-magazine.html">Escapes Magazine</a><span>·</span>
+            <a href="launch-pad.html">Launch Pad</a><span>·</span>
+            <a href="../index.html">Home</a>
+        </nav>
+
+        <header class="exp-hero">
+            <p class="badge">Guided Expeditions · Chancellor's Outfitters</p>
+            <h1>Real Trips</h1>
+            <p class="tagline">Expert-led adventures for high-value persons</p>
+            <p class="sub">Equivalent to top guided fishing or hunting expedition. Your guide awaits. Book through Office Hours or the campus concierge.</p>
+        </header>
+
+        <section class="exp-intro">
+            <p><strong>Chancellor's Outfitters</strong> — We run guided expeditions for adventurers who expect the best. Forest, mountain, desert, ocean, night sky. Each trip is expert-led, all-inclusive, and designed for high-contributing vibers seeking real adventure without compromise.</p>
+            <p>Safe, natural, imaginary-based — like the finest guided hunt or fishing expedition. No physical travel required; full sensory immersion on the vibeable campus. Half-day, full-day, and multi-day packages. Book now.</p>
+        </section>
+
+        <section class="exp-section">
+            <p class="exp-section-title">Terrain</p>
+            <h2>Forest & Mountain</h2>
+
+            <div class="exp-card">
+                <div class="exp-card-header">
+                    <div>
+                        <h3 class="exp-card-title">Forest Walk</h3>
+                        <p>Old-growth canopy. Cathedral quiet. Restoration-grade immersion.</p>
+                        <div class="exp-card-specs">
+                            <span>📍 Terrain: Forest</span>
+                            <span>📅 Season: All</span>
+                            <span>⏱ 30–60 min</span>
+                        </div>
+                    </div>
+                    <span class="exp-card-terrain">🌲</span>
+                </div>
+                <div class="exp-card-body">
+                    <p>Expert-led forest expedition through ancient groves. Dappled light, cedar and fir, stream murmur. The kind of trip that resets the mind. Guided by Chancellor's Outfitters.</p>
+                    <div class="exp-card-includes"><strong>Includes:</strong> Full sensory immersion, guide narrative, optional 30- or 60-min session.</div>
+                    <a href="office-hours.html" class="exp-card-cta">Book Forest Walk →</a>
+                </div>
+            </div>
+
+            <div class="exp-card">
+                <div class="exp-card-header">
+                    <div>
+                        <h3 class="exp-card-title">Mountain Peak</h3>
+                        <p>Alpine summit. Panoramic vista. Perspective-grade clarity.</p>
+                        <div class="exp-card-specs">
+                            <span>📍 Terrain: Alpine</span>
+                            <span>📅 Season: All</span>
+                            <span>⏱ 45–60 min</span>
+                        </div>
+                    </div>
+                    <span class="exp-card-terrain">⛰️</span>
+                </div>
+                <div class="exp-card-body">
+                    <p>Summit expedition. High-altitude meadow, jagged peaks, cloud layers. Arrive at the top — optional ascent narrative or direct summit. For vibers who need altitude without exertion.</p>
+                    <div class="exp-card-includes"><strong>Includes:</strong> Vista immersion, guide narrative, optional ascent or direct arrival.</div>
+                    <a href="office-hours.html" class="exp-card-cta">Book Mountain Peak →</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="exp-section">
+            <p class="exp-section-title">Terrain</p>
+            <h2>Coastal & Desert</h2>
+
+            <div class="exp-card">
+                <div class="exp-card-header">
+                    <div>
+                        <h3 class="exp-card-title">Ocean Breeze</h3>
+                        <p>Coastal expedition. Waves, salt air, horizon.</p>
+                        <div class="exp-card-specs">
+                            <span>📍 Terrain: Coastal</span>
+                            <span>📅 Season: All</span>
+                            <span>⏱ 30–45 min</span>
+                        </div>
+                    </div>
+                    <span class="exp-card-terrain">🌊</span>
+                </div>
+                <div class="exp-card-body">
+                    <p>Guided coastal trip. Windswept shore, endless blue, wave rhythm. Decompression-grade. Ideal after intense creative or strategic work.</p>
+                    <div class="exp-card-includes"><strong>Includes:</strong> Full coastal immersion, guide narrative.</div>
+                    <a href="office-hours.html" class="exp-card-cta">Book Ocean Breeze →</a>
+                </div>
+            </div>
+
+            <div class="exp-card">
+                <div class="exp-card-header">
+                    <div>
+                        <h3 class="exp-card-title">Desert Oasis</h3>
+                        <p>Oasis discovery. Palm shade, cool spring. High-desert resonance.</p>
+                        <div class="exp-card-specs">
+                            <span>📍 Terrain: Desert</span>
+                            <span>📅 Season: All</span>
+                            <span>⏱ 45–60 min</span>
+                        </div>
+                    </div>
+                    <span class="exp-card-terrain">🏜️</span>
+                </div>
+                <div class="exp-card-body">
+                    <p>Desert expedition to hidden oasis. Dunes, palms, spring. Especially resonant for Reno-based adventurers — deeper version of home terrain.</p>
+                    <div class="exp-card-includes"><strong>Includes:</strong> Full desert-to-oasis journey, guide narrative.</div>
+                    <a href="office-hours.html" class="exp-card-cta">Book Desert Oasis →</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="exp-section">
+            <p class="exp-section-title">Terrain</p>
+            <h2>Wellness & Night Sky</h2>
+
+            <div class="exp-card">
+                <div class="exp-card-header">
+                    <div>
+                        <h3 class="exp-card-title">Crystal Cave</h3>
+                        <p>Geological sanctuary. Geodes, amethyst, quartz. Clarity-grade immersion.</p>
+                        <div class="exp-card-specs">
+                            <span>📍 Terrain: Cave</span>
+                            <span>📅 Season: All</span>
+                            <span>⏱ 30–45 min</span>
+                        </div>
+                    </div>
+                    <span class="exp-card-terrain">💎</span>
+                </div>
+                <div class="exp-card-body">
+                    <p>Guided geological expedition. Crystal formations, cool stillness. Creative recharge, contemplative work.</p>
+                    <div class="exp-card-includes"><strong>Includes:</strong> Cave immersion, guide narrative.</div>
+                    <a href="office-hours.html" class="exp-card-cta">Book Crystal Cave →</a>
+                </div>
+            </div>
+
+            <div class="exp-card">
+                <div class="exp-card-header">
+                    <div>
+                        <h3 class="exp-card-title">Meditation Garden</h3>
+                        <p>Lotus pond, stone paths. Centering-grade retreat.</p>
+                        <div class="exp-card-specs">
+                            <span>📍 Terrain: Garden</span>
+                            <span>📅 Season: All</span>
+                            <span>⏱ 20–60 min</span>
+                        </div>
+                    </div>
+                    <span class="exp-card-terrain">🧘</span>
+                </div>
+                <div class="exp-card-body">
+                    <p>Guided wellness expedition. Walled garden, lotus pond, bamboo. Pre-meeting centering, post-workdown recovery. Guided or unguided options.</p>
+                    <div class="exp-card-includes"><strong>Includes:</strong> Garden immersion, optional guided meditation, flexible duration.</div>
+                    <a href="office-hours.html" class="exp-card-cta">Book Meditation Garden →</a>
+                </div>
+            </div>
+
+            <div class="exp-card">
+                <div class="exp-card-header">
+                    <div>
+                        <h3 class="exp-card-title">Starlight Meadow</h3>
+                        <p>Night sky expedition. Full dome, no light pollution.</p>
+                        <div class="exp-card-specs">
+                            <span>📍 Terrain: Meadow</span>
+                            <span>📅 Season: All (night)</span>
+                            <span>⏱ 30–60 min</span>
+                        </div>
+                    </div>
+                    <span class="exp-card-terrain">✨</span>
+                </div>
+                <div class="exp-card-body">
+                    <p>Stargazing expedition. Meadow, infinite stars, optional constellation narration or meteor events. Late-night decompression.</p>
+                    <div class="exp-card-includes"><strong>Includes:</strong> Night sky immersion, optional aurora-like display.</div>
+                    <a href="office-hours.html" class="exp-card-cta">Book Starlight Meadow →</a>
+                </div>
+            </div>
+
+            <div class="exp-card">
+                <div class="exp-card-header">
+                    <div>
+                        <h3 class="exp-card-title">Aurora Forest</h3>
+                        <p>Northern lights in ancient forest. Dancing skies.</p>
+                        <div class="exp-card-specs">
+                            <span>📍 Terrain: Forest / Night</span>
+                            <span>📅 Season: All</span>
+                            <span>⏱ 45–60 min</span>
+                        </div>
+                    </div>
+                    <span class="exp-card-terrain">🌌</span>
+                </div>
+                <div class="exp-card-body">
+                    <p>Magic-grade expedition. Old-growth forest at night, aurora overhead. Greens, purples, ribbons of light. For vibers seeking wonder.</p>
+                    <div class="exp-card-includes"><strong>Includes:</strong> Forest + celestial immersion, customizable aurora intensity.</div>
+                    <a href="office-hours.html" class="exp-card-cta">Book Aurora Forest →</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="exp-pricing">
+            <h3>Expedition Pricing</h3>
+            <p>Equivalent to top guided fishing or hunting expedition for high-value persons. All trips expert-led, all-inclusive. Campus access included.</p>
+            <ul>
+                <li><span>Half-day (single expedition)</span><span>From $3,000</span></li>
+                <li><span>Overnight (per night)</span><span>Inquire</span></li>
+                <li><span>Weekly package</span><span>From $5,000</span></li>
+                <li><span>Monthly package</span><span>From $50,000</span></li>
+            </ul>
+            <a href="office-hours.html" class="btn">▶ Book Your Expedition — Office Hours</a>
+        </section>
+
+        <footer class="exp-footer">
+            <a href="escapes-magazine.html">Escapes Magazine</a><span> · </span>
+            <a href="vibelandia-reno-experience.html">Vibelandia Reno</a><span> · </span>
+            <a href="office-hours.html">Office Hours</a><span> · </span>
+            <a href="../index.html">Home</a>
+            <p class="brand">Chancellor's Outfitters · Guided Expeditions · NSPFRNP · VIBELANDIA RENO!</p>
+        </footer>
+    </article>
+</body>
+</html>

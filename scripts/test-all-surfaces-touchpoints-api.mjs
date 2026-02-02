@@ -49,8 +49,10 @@ const expectedSurfaces = [
   'syntheverse-disclaimer-banner.html',
   'music-radio-console.html',
   'chancellor-daily-bulletin.html',
+  'escapes-magazine.html',
   'escapes-magazine-catalog-menu.html',
   'escapes-catalog-menu-component.html',
+  'guided-expeditions.html',
   'mens-club-restroom-landing.html',
   'vibeland-reno-buttons.html',
   'water-bridge-landing.html',
@@ -67,6 +69,9 @@ const expectedSurfaces = [
   'whitepaper.html',
   'proposal.html',
   'one-pager.html',
+  'first-singularity-january-13th-experience.html',
+  'first-singularity-novel.html',
+  'first-singularity-screenplay.html',
 ];
 const expectedJs = ['add-console-header.js', 'api-config.js', 'auth-api.js', 'golden-key-browser.js'];
 

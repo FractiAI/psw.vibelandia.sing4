@@ -3,363 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Escapes Magazine Catalog | NSPFRNP</title>
+    <title>Escapes Magazine — Natural Recreations & Therapeutic Escapes | VIBELANDIA RENO!</title>
+    <meta name="description" content="Escapes Magazine — premium editorial on natural recreations and therapeutic escapes. Forest walks, ocean breezes, meditation gardens. Mark Twain's Post-Singularity Vibelandia Reno.">
+    <meta http-equiv="refresh" content="0; url=escapes-magazine.html">
+    <link rel="canonical" href="escapes-magazine.html">
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
+        * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 50%, #16213e 100%);
-            color: #ffffff;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
             min-height: 100vh;
-        }
-
-        /* Floating Escapes Catalog Menu */
-        .escapes-catalog-menu {
-            position: fixed;
-            bottom: 20px;
-            right: 20px;
-            width: 320px;
-            max-width: 90vw;
-            max-height: 80vh;
-            background: linear-gradient(145deg, #1e1e2e 0%, #2a2a3e 100%);
-            border-radius: 16px;
-            box-shadow: 
-                0 20px 60px rgba(0, 0, 0, 0.5),
-                0 0 0 1px rgba(100, 200, 255, 0.3),
-                inset 0 1px 0 rgba(255, 255, 255, 0.1);
-            border: 1px solid rgba(100, 200, 255, 0.3);
-            z-index: 10000;
-            display: flex;
-            flex-direction: column;
-            overflow: hidden;
-            transition: all 0.3s ease;
-        }
-
-        .escapes-catalog-menu.minimized {
-            width: 60px;
-            height: 60px;
-            border-radius: 50%;
-        }
-
-        .escapes-catalog-menu.minimized .catalog-content {
-            display: none;
-        }
-
-        .escapes-catalog-menu.minimized .catalog-header {
-            justify-content: center;
-            padding: 0;
-        }
-
-        .catalog-header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 1rem 1.5rem;
-            background: linear-gradient(135deg, rgba(100, 200, 255, 0.1) 0%, rgba(255, 100, 255, 0.1) 100%);
-            border-bottom: 1px solid rgba(100, 200, 255, 0.2);
-            cursor: move;
-        }
-
-        .catalog-title {
-            display: flex;
-            align-items: center;
-            gap: 8px;
-            font-size: 16px;
-            font-weight: 600;
-            color: #ffffff;
-        }
-
-        .catalog-title-icon {
-            font-size: 20px;
-        }
-
-        .catalog-controls {
-            display: flex;
-            gap: 8px;
-            align-items: center;
-        }
-
-        .catalog-btn {
-            width: 28px;
-            height: 28px;
-            background: rgba(255, 255, 255, 0.1);
-            border: 1px solid rgba(255, 255, 255, 0.2);
-            border-radius: 6px;
-            color: #ffffff;
-            cursor: pointer;
             display: flex;
             align-items: center;
             justify-content: center;
-            font-size: 14px;
-            transition: all 0.2s ease;
+            background: linear-gradient(135deg, #0f1419 0%, #1a2f1a 50%, #0f1419 100%);
+            color: #e8ebe8;
         }
-
-        .catalog-btn:hover {
-            background: rgba(255, 255, 255, 0.2);
-        }
-
-        .catalog-content {
-            flex: 1;
-            overflow-y: auto;
-            padding: 1rem;
-        }
-
-        .catalog-content::-webkit-scrollbar {
-            width: 6px;
-        }
-
-        .catalog-content::-webkit-scrollbar-track {
-            background: rgba(0, 0, 0, 0.2);
-        }
-
-        .catalog-content::-webkit-scrollbar-thumb {
-            background: rgba(100, 200, 255, 0.3);
-            border-radius: 3px;
-        }
-
-        .catalog-section {
-            margin-bottom: 1.5rem;
-        }
-
-        .section-title {
-            font-size: 14px;
-            color: #64c8ff;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            margin-bottom: 0.75rem;
-            font-weight: 600;
-        }
-
-        .escape-item {
-            padding: 0.75rem;
-            background: rgba(0, 0, 0, 0.3);
-            border-radius: 8px;
-            border: 1px solid rgba(100, 200, 255, 0.2);
-            margin-bottom: 0.5rem;
-            cursor: pointer;
-            transition: all 0.2s ease;
-        }
-
-        .escape-item:hover {
-            background: rgba(100, 200, 255, 0.1);
-            border-color: rgba(100, 200, 255, 0.4);
-            transform: translateX(4px);
-        }
-
-        .escape-item-title {
-            font-size: 13px;
-            font-weight: 600;
-            color: #ffffff;
-            margin-bottom: 0.25rem;
-        }
-
-        .escape-item-description {
-            font-size: 11px;
-            color: #aaaaaa;
-            line-height: 1.4;
-        }
-
-        .escape-item-tags {
-            display: flex;
-            gap: 4px;
-            margin-top: 0.5rem;
-            flex-wrap: wrap;
-        }
-
-        .escape-tag {
-            font-size: 9px;
-            padding: 2px 6px;
-            background: rgba(100, 200, 255, 0.2);
-            border-radius: 4px;
-            color: #64c8ff;
-        }
-
-        .catalog-footer {
-            padding: 1rem;
-            background: rgba(0, 0, 0, 0.3);
-            border-top: 1px solid rgba(100, 200, 255, 0.2);
+        .redirect {
             text-align: center;
-            font-size: 10px;
-            color: #888;
+            padding: 2rem;
         }
-
-        .catalog-footer strong {
-            color: #64c8ff;
+        .redirect h1 { font-size: 1.5rem; margin-bottom: 1rem; font-weight: 600; }
+        .redirect p { margin-bottom: 1.5rem; opacity: 0.9; }
+        .redirect a {
+            display: inline-block;
+            padding: 1rem 1.75rem;
+            background: #228B22;
+            color: white;
+            text-decoration: none;
+            font-weight: 600;
+            border-radius: 10px;
+            transition: background 0.2s;
         }
+        .redirect a:hover { background: #2d9d2d; }
     </style>
 </head>
 <body>
-    <!-- Floating Escapes Catalog Menu -->
-    <div class="escapes-catalog-menu" id="escapesCatalogMenu">
-        <div class="catalog-header" id="catalogHeader">
-            <div class="catalog-title">
-                <span class="catalog-title-icon">🌿</span>
-                <span>Escapes Catalog</span>
-            </div>
-            <div class="catalog-controls">
-                <button class="catalog-btn" onclick="minimizeCatalog()" title="Minimize">−</button>
-                <button class="catalog-btn" onclick="closeCatalog()" title="Close">×</button>
-            </div>
-        </div>
-
-        <div class="catalog-content" id="catalogContent">
-            <div class="catalog-section">
-                <div class="section-title">Natural Recreations</div>
-                <div class="escape-item" onclick="openEscape('forest-walk')">
-                    <div class="escape-item-title">🌲 Forest Walk</div>
-                    <div class="escape-item-description">Immersive forest exploration, safe natural, imaginary based</div>
-                    <div class="escape-item-tags">
-                        <span class="escape-tag">Nature</span>
-                        <span class="escape-tag">Therapeutic</span>
-                    </div>
-                </div>
-                <div class="escape-item" onclick="openEscape('ocean-breeze')">
-                    <div class="escape-item-title">🌊 Ocean Breeze</div>
-                    <div class="escape-item-description">Coastal relaxation experience, like playing a really good video game</div>
-                    <div class="escape-item-tags">
-                        <span class="escape-tag">Relaxation</span>
-                        <span class="escape-tag">Imaginary</span>
-                    </div>
-                </div>
-                <div class="escape-item" onclick="openEscape('mountain-peak')">
-                    <div class="escape-item-title">⛰️ Mountain Peak</div>
-                    <div class="escape-item-description">Mountain summit journey, safe natural escape</div>
-                    <div class="escape-item-tags">
-                        <span class="escape-tag">Adventure</span>
-                        <span class="escape-tag">Natural</span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="catalog-section">
-                <div class="section-title">Therapeutic Escapes</div>
-                <div class="escape-item" onclick="openEscape('meditation-garden')">
-                    <div class="escape-item-title">🧘 Meditation Garden</div>
-                    <div class="escape-item-description">Peaceful garden meditation, imaginary based therapeutic escape</div>
-                    <div class="escape-item-tags">
-                        <span class="escape-tag">Meditation</span>
-                        <span class="escape-tag">Therapeutic</span>
-                    </div>
-                </div>
-                <div class="escape-item" onclick="openEscape('crystal-cave')">
-                    <div class="escape-item-title">💎 Crystal Cave</div>
-                    <div class="escape-item-description">Crystal healing sanctuary, safe natural recreation</div>
-                    <div class="escape-item-tags">
-                        <span class="escape-tag">Healing</span>
-                        <span class="escape-tag">Natural</span>
-                    </div>
-                </div>
-                <div class="escape-item" onclick="openEscape('starlight-meadow')">
-                    <div class="escape-item-title">✨ Starlight Meadow</div>
-                    <div class="escape-item-description">Stargazing meadow experience, like playing a really good video game</div>
-                    <div class="escape-item-tags">
-                        <span class="escape-tag">Stargazing</span>
-                        <span class="escape-tag">Imaginary</span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="catalog-section">
-                <div class="section-title">Adventure Escapes</div>
-                <div class="escape-item" onclick="openEscape('desert-oasis')">
-                    <div class="escape-item-title">🏜️ Desert Oasis</div>
-                    <div class="escape-item-description">Desert oasis discovery, safe natural adventure</div>
-                    <div class="escape-item-tags">
-                        <span class="escape-tag">Adventure</span>
-                        <span class="escape-tag">Natural</span>
-                    </div>
-                </div>
-                <div class="escape-item" onclick="openEscape('aurora-forest')">
-                    <div class="escape-item-title">🌌 Aurora Forest</div>
-                    <div class="escape-item-description">Northern lights forest experience, imaginary based</div>
-                    <div class="escape-item-tags">
-                        <span class="escape-tag">Aurora</span>
-                        <span class="escape-tag">Therapeutic</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="catalog-footer">
-            <strong>🌿 Natural Recreations & Therapeutic Escapes</strong><br>
-            Safe natural, imaginary based, like playing a really good video game<br>
-            <span style="margin-top:0.75rem;display:block;font-size:0.75rem;text-transform:uppercase;letter-spacing:0.12em;color:rgba(212,175,55,0.7);font-weight:600;">Hydrogen Holograph 100% · SNAP · Taino made. NSPFRNP-based BBHE. Energy all the way!</span>
-        </div>
+    <div class="redirect">
+        <h1>🌿 Escapes Magazine</h1>
+        <p>Redirecting to the full magazine…</p>
+        <a href="escapes-magazine.html">Enter Escapes Magazine →</a>
     </div>
-
-    <script>
-        let isMinimized = false;
-        let isDragging = false;
-        let currentX;
-        let currentY;
-        let initialX;
-        let initialY;
-        let xOffset = 0;
-        let yOffset = 0;
-
-        const catalogMenu = document.getElementById('escapesCatalogMenu');
-        const catalogHeader = document.getElementById('catalogHeader');
-
-        // Drag functionality
-        catalogHeader.addEventListener('mousedown', dragStart);
-        document.addEventListener('mousemove', drag);
-        document.addEventListener('mouseup', dragEnd);
-
-        function dragStart(e) {
-            if (e.target.classList.contains('catalog-btn')) return;
-            
-            initialX = e.clientX - xOffset;
-            initialY = e.clientY - yOffset;
-
-            if (e.target === catalogHeader || catalogHeader.contains(e.target)) {
-                isDragging = true;
-            }
-        }
-
-        function drag(e) {
-            if (isDragging) {
-                e.preventDefault();
-                currentX = e.clientX - initialX;
-                currentY = e.clientY - initialY;
-
-                xOffset = currentX;
-                yOffset = currentY;
-
-                setTranslate(currentX, currentY, catalogMenu);
-            }
-        }
-
-        function dragEnd(e) {
-            initialX = currentX;
-            initialY = currentY;
-            isDragging = false;
-        }
-
-        function setTranslate(xPos, yPos, el) {
-            el.style.transform = `translate(${xPos}px, ${yPos}px)`;
-        }
-
-        function minimizeCatalog() {
-            isMinimized = !isMinimized;
-            catalogMenu.classList.toggle('minimized', isMinimized);
-        }
-
-        function closeCatalog() {
-            catalogMenu.style.display = 'none';
-        }
-
-        function openEscape(escapeId) {
-            console.log(`[Escapes Catalog] Opening escape: ${escapeId}`);
-            alert(`🌿 Natural Recreations & Therapeutic Escapes — LIVE NOW\n\nYou selected: ${escapeId}.\n\nSafe, natural, imaginary-based experiences—like playing a really good video game. All escapes are operational on the VIBELANDIA RENO! campus. Visit the campus or email info@fractiai.com to book.`);
-        }
-
-        // Initialize position
-        setTranslate(0, 0, catalogMenu);
-    </script>
 </body>
 </html>
