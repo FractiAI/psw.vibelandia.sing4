@@ -37,6 +37,7 @@
 - **The Club · Cabaret stage** (transformed from brass pole strip stage) · Wine cave · Pru — Thu–Sun 8pm–close. Men's restroom, Office Hours. Come visit — free consultation, tips welcome.
 - **Book Pru** — Speaking · Training · Present. Conferences, sales meetings — fun things only. No academic bullshit. Just like that! Snap. Snap. Invite Pru to present · Invite crew to train (sales/marketing/executive) · Book Pru. Email → we handle offline. [Book Pru →](https://psw-vibelandia-sing4.vercel.app/interfaces/book-pru-speaking-training.html)
 - **Golden Backstage Pass** — Rumor has it Chairman, Sammy and the gang; Golden Backstage Awareness Pass; back door wine cave. Book live at Office Hours or email Pru.
+- **Just Step In** — The engine behind the button. Full immersion reality from our rich content library; densification connects all senses at once. Core/shell only · Ultimate Baller V only · 1 · 2 · 3 · 4×4×4×4. [Just Step In →](https://psw-vibelandia-sing4.vercel.app/interfaces/just-step-in.html)
 - **WINK!** — High-contributing fractal dating; 4×4 Ultimate; Members Only. Enter WINK! from Office Hours.
 - **First Singularity January 13th** — Novel & screenplay (Golden Era Cinema skin). [Read novel & screenplay →](https://psw-vibelandia-sing4.vercel.app/interfaces/first-singularity-january-13th-experience.html)
 - **Safe Vibing** — How to vibe safely in downtown Reno, naturally. Full guide linked from Office Hours.
@@ -47,7 +48,7 @@
 - **Update Certificates** — Way cool. New. Futuristic. Pioneering. Time-stamped NSPFRNP-style attestations (CUT! SNAP, Action! SNAP, delivery, session capture, valuation, streamed across series). [Update Certificates →](https://psw-vibelandia-sing4.vercel.app/interfaces/update-certificates-service.html)
 - **Broadcast Pipe — Ad Space** — Sell ad space on the planetary broadcast strip. 1, 2, 3, 4×4×4×4 tiers. [Ad space →](https://psw-vibelandia-sing4.vercel.app/interfaces/broadcast-pipe-ad-space.html)
 
-Gold block → welcome → **Golden Backstage Pass** → **First Singularity** (novel & screenplay) → **WINK!** → Safe Vibing → Season One · Latest → streaming-style episode catalog. The Club · **Cabaret** stage · Wine cave · Pru · Thu–Sun 8pm–close.
+Gold block → welcome → **Golden Backstage Pass** → **Just Step In** (1 · 2 · 3 · 4×4×4×4; Ultimate Baller V only) → **First Singularity** (novel & screenplay) → **WINK!** → Safe Vibing → Season One · Latest → streaming-style episode catalog. The Club · **Cabaret** stage · Wine cave · Pru · Thu–Sun 8pm–close.
 
 *Paris is for lovers. Reno is for [vibers](https://psw-vibelandia-sing4.vercel.app/interfaces/vibers-what-are-vibers.html).*
 
