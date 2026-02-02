@@ -3,647 +3,254 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ULTIMATE BALLER V WINK! — Men's Club Reno Bathroom Valet Office Hours · Members Only | VIBELANDIA!</title>
-    <meta name="description" content="Men's Club Reno Bathroom Valet Office Hours for Ultimate Baller V WINK! Members Only — their cast, crew, fans and franchises. Menu &amp; catalog. The Club · Pru · Thu–Sun 8pm–close.">
+    <title>Office Hours · Men's Club Reno Bathroom Valet · Ultimate Baller V WINK! | VIBELANDIA!</title>
+    <meta name="description" content="Men's Club Reno Bathroom Valet Office Hours — Ultimate Baller V WINK! Members Only. The Club · Wine cave · Pru · Thu–Sun 8pm–close.">
     <link rel="stylesheet" href="experience-common.css">
     <style>
-        /* Big gold block — top hero, Gianni-style */
-        .big-gold-block {
+        /* 5-star shopping experience — products up top, secondary below */
+        .oh-hero {
             text-align: center;
-            padding: 2.5rem 1.5rem 3rem;
-            margin: 0 0 2rem;
-            background: linear-gradient(180deg, rgba(212, 175, 55, 0.22) 0%, rgba(212, 175, 55, 0.1) 40%, rgba(212, 175, 55, 0.06) 100%);
-            border: 3px solid rgba(212, 175, 55, 0.85);
+            padding: 2.5rem 1.5rem 2.5rem;
+            margin-bottom: 2rem;
+            background: linear-gradient(180deg, rgba(212, 175, 55, 0.2) 0%, rgba(212, 175, 55, 0.08) 40%, rgba(0, 212, 255, 0.04) 100%);
+            border: 3px solid rgba(212, 175, 55, 0.75);
             border-radius: 20px;
-            box-shadow: 0 0 60px rgba(212, 175, 55, 0.25), inset 0 0 40px rgba(212, 175, 55, 0.06);
+            box-shadow: 0 0 60px rgba(212, 175, 55, 0.2), inset 0 0 40px rgba(212, 175, 55, 0.04);
         }
-        .big-gold-block .line1 {
-            font-size: clamp(1.35rem, 5.5vw, 2.85rem);
+        .oh-hero .line1 {
+            font-size: clamp(1.2rem, 4vw, 2.25rem);
             font-weight: 800;
-            line-height: 1.25;
+            line-height: 1.3;
             letter-spacing: 0.02em;
             background: linear-gradient(135deg, #fff9e6 0%, #ffeaa7 35%, #d4af37 70%, #b8860b 100%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
-            margin-bottom: 0.75rem;
-            text-shadow: 0 0 80px rgba(212, 175, 55, 0.3);
         }
-        .big-gold-block .line2 {
-            font-size: clamp(1.15rem, 4vw, 1.85rem);
-            font-weight: 700;
-            color: #ffeaa7;
-            letter-spacing: 0.03em;
-            text-transform: none;
-        }
-        /* ULTIMATE BALLER V Menu — gold + cyan, club valet vibe */
-        @keyframes pulse-gold {
-            0%, 100% { box-shadow: 0 0 28px rgba(212, 175, 55, 0.4), inset 0 0 24px rgba(212, 175, 55, 0.06); }
-            50% { box-shadow: 0 0 48px rgba(212, 175, 55, 0.6), inset 0 0 32px rgba(212, 175, 55, 0.1); }
-        }
-        .menu-hero {
-            text-align: center;
-            padding: 2.5rem 2rem;
-            margin-bottom: 2rem;
-            background: linear-gradient(145deg, rgba(212, 175, 55, 0.2) 0%, rgba(212, 175, 55, 0.08) 40%, rgba(0, 212, 255, 0.06) 100%);
-            border: 2px solid rgba(212, 175, 55, 0.7);
-            border-radius: 24px;
-            animation: pulse-gold 3s ease-in-out infinite;
-        }
-        .menu-hero .badge {
-            display: inline-block;
-            font-size: 0.7rem;
+        .oh-hero .line2 { font-size: 1rem; color: #b8a888; margin-top: 0.5rem; }
+        .oh-hero .line2 a { color: #00d4ff; text-decoration: none; }
+        .oh-hero .line2 a:hover { text-decoration: underline; }
+
+        .products-label {
+            font-size: 0.75rem;
             text-transform: uppercase;
-            letter-spacing: 0.2em;
-            color: rgba(212, 175, 55, 0.95);
-            margin-bottom: 0.75rem;
-            font-weight: 700;
-        }
-        .menu-hero h1 {
-            font-size: clamp(1.5rem, 4vw, 2.25rem);
-            background: linear-gradient(135deg, #fff9e6, #ffeaa7, #d4af37);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-            margin-bottom: 0.5rem;
-            line-height: 1.2;
-        }
-        .menu-hero .subtitle {
-            font-size: clamp(1rem, 2.2vw, 1.25rem);
-            color: #00d4ff;
-            font-weight: 600;
-            margin-bottom: 0.5rem;
-        }
-        .menu-hero .tagline {
-            color: rgba(255, 234, 167, 0.95);
-            font-size: 1rem;
+            letter-spacing: 0.25em;
+            color: rgba(212, 175, 55, 0.9);
             margin-bottom: 1.25rem;
-        }
-        .btn-latest {
-            display: inline-block;
-            padding: 1rem 2rem;
-            background: linear-gradient(135deg, #00d4ff, #0099cc);
-            border: 2px solid rgba(0, 212, 255, 0.8);
-            border-radius: 14px;
-            color: #000;
             font-weight: 700;
-            font-size: 1.1rem;
-            text-decoration: none;
-            transition: transform 0.2s, box-shadow 0.2s;
         }
-        .btn-latest:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 8px 28px rgba(0, 212, 255, 0.45);
-        }
-        .menu-section {
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+            gap: 1rem;
             margin-bottom: 2.5rem;
         }
-        .menu-section-title {
-            font-size: 1.25rem;
-            color: #d4af37;
-            margin-bottom: 1rem;
-            padding-bottom: 0.5rem;
-            border-bottom: 2px solid rgba(212, 175, 55, 0.4);
-            display: flex;
-            align-items: center;
-            gap: 0.5rem;
-        }
-        .catalog-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-            gap: 1rem;
-        }
-        .episode-card {
+        .product-card {
             display: block;
-            padding: 1.25rem 1.5rem;
-            background: rgba(255,255,255,0.04);
-            border: 1px solid rgba(212, 175, 55, 0.3);
-            border-radius: 14px;
-            color: #fff;
-            text-decoration: none;
-            transition: transform 0.2s, border-color 0.2s, box-shadow 0.2s;
-        }
-        .episode-card:hover {
-            transform: translateY(-2px);
-            border-color: rgba(212, 175, 55, 0.6);
-            box-shadow: 0 6px 24px rgba(212, 175, 55, 0.2);
-        }
-        .episode-card .ep-num {
-            font-size: 0.8rem;
-            color: #00d4ff;
-            text-transform: uppercase;
-            letter-spacing: 0.08em;
-            margin-bottom: 0.35rem;
-        }
-        .episode-card .ep-title {
-            font-size: 1rem;
-            font-weight: 600;
-            color: #ffeaa7;
-            line-height: 1.35;
-        }
-        .episode-card .ep-meta {
-            font-size: 0.85rem;
-            color: #888;
-            margin-top: 0.5rem;
-        }
-        .golden-feature {
-            padding: 1.5rem 1.75rem;
-            background: linear-gradient(145deg, rgba(212, 175, 55, 0.15) 0%, rgba(212, 175, 55, 0.06) 100%);
-            border: 2px solid rgba(212, 175, 55, 0.5);
-            border-radius: 16px;
-            margin-bottom: 2rem;
-        }
-        .golden-feature h2 { font-size: 1.15rem; color: #ffeaa7; margin-bottom: 0.75rem; }
-        .golden-feature p { color: #ccc; font-size: 0.95rem; line-height: 1.6; margin-bottom: 0.5rem; }
-        .golden-feature p:last-of-type { margin-bottom: 0; }
-        .golden-feature a { color: #00d4ff; }
-        .exp-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-            gap: 0.75rem;
-            margin: 1rem 0 2rem;
-        }
-        .exp-btn {
-            display: block;
-            padding: 1rem 1.25rem;
-            background: rgba(212, 175, 55, 0.12);
+            padding: 1.35rem 1.5rem;
+            background: linear-gradient(145deg, rgba(30, 28, 24, 0.95) 0%, rgba(18, 16, 14, 0.98) 100%);
             border: 2px solid rgba(212, 175, 55, 0.35);
-            border-radius: 12px;
-            color: #d4af37;
+            border-radius: 14px;
             text-decoration: none;
-            font-weight: 600;
-            text-align: center;
-            transition: transform 0.2s, box-shadow 0.2s;
-        }
-        .exp-btn:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 6px 20px rgba(212, 175, 55, 0.25);
-            background: rgba(212, 175, 55, 0.2);
-        }
-        .exp-btn.primary {
-            background: rgba(0, 212, 255, 0.15);
-            border-color: rgba(0, 212, 255, 0.5);
-            color: #00d4ff;
-        }
-        .exp-btn.primary:hover { background: rgba(0, 212, 255, 0.25); }
-        .anchor-offset { scroll-margin-top: 1.5rem; }
-        /* Members Only — prominent strip */
-        .members-only-strip {
-            text-align: center;
-            padding: 1.5rem 1.75rem;
-            margin-bottom: 2rem;
-            background: linear-gradient(135deg, rgba(212, 175, 55, 0.18) 0%, rgba(0, 212, 255, 0.08) 100%);
-            border: 2px solid rgba(212, 175, 55, 0.6);
-            border-radius: 16px;
-        }
-        .members-only-strip .lead {
-            font-size: clamp(1.05rem, 2.5vw, 1.35rem);
-            font-weight: 700;
-            color: #ffeaa7;
-            line-height: 1.4;
-            margin-bottom: 0.5rem;
-        }
-        .members-only-strip .who {
-            font-size: 1rem;
-            color: #00d4ff;
-            font-weight: 600;
-        }
-        /* Welcome & intro — new upgrade, post-singularity Reno, old school */
-        .welcome-intro {
-            padding: 1.75rem 1.75rem 2rem;
-            margin-bottom: 2rem;
-            background: linear-gradient(145deg, rgba(0, 255, 136, 0.06) 0%, rgba(212, 175, 55, 0.08) 50%, rgba(26, 26, 46, 0.95) 100%);
-            border: 1px solid rgba(212, 175, 55, 0.4);
-            border-left: 4px solid #d4af37;
-            border-radius: 12px;
-        }
-        .welcome-intro .welcome-title {
-            font-size: 1.15rem;
-            font-weight: 700;
-            color: #ffeaa7;
-            margin-bottom: 0.75rem;
-        }
-        .welcome-intro p {
-            font-size: 1rem;
-            line-height: 1.65;
-            color: #ccc;
-            margin-bottom: 0.75rem;
-        }
-        .welcome-intro p:last-of-type { margin-bottom: 0; }
-        .welcome-intro .talk-to-pru {
-            margin-top: 1rem;
-            padding: 0.75rem 1rem;
-            background: rgba(212, 175, 55, 0.12);
-            border-radius: 8px;
-            font-size: 1.05rem;
-            color: #ffeaa7;
-            font-weight: 600;
-        }
-        /* Offering after welcome: Golden Backstage, Rumor has it, requires awareness */
-        .offering-block {
-            padding: 1.5rem 1.75rem;
-            margin-bottom: 2rem;
-            background: linear-gradient(145deg, rgba(212, 175, 55, 0.15) 0%, rgba(138, 43, 226, 0.08) 100%);
-            border: 2px solid rgba(212, 175, 55, 0.5);
-            border-radius: 16px;
-        }
-        .offering-block h2 { font-size: 1.2rem; color: #ffeaa7; margin-bottom: 0.75rem; }
-        .offering-block p { color: #ccc; font-size: 0.98rem; line-height: 1.6; margin-bottom: 0.6rem; }
-        .offering-block p:last-of-type { margin-bottom: 0; }
-        .offering-block .rumor { color: #e8d4ff; font-weight: 600; }
-        .offering-block .cta-row { margin-top: 1rem; display: flex; flex-wrap: wrap; gap: 0.75rem; align-items: center; }
-        .offering-block .cta-row a { color: #00d4ff; font-weight: 600; }
-        .offering-block .cta-row .buy { display: inline-block; padding: 0.5rem 1rem; background: linear-gradient(135deg, #d4af37, #b8860b); color: #000; font-weight: 700; text-decoration: none; border-radius: 8px; }
-        /* Streaming-style lower half — binge experience, no brand name */
-        .watch-section { margin-top: 2.5rem; padding-top: 1.5rem; border-top: 1px solid rgba(255,255,255,0.15); }
-        .row-label { font-size: 1.1rem; font-weight: 700; color: #fff; margin-bottom: 0.75rem; letter-spacing: 0.02em; }
-        .episode-row { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 1rem; margin-bottom: 2rem; }
-        .episode-poster {
-            display: block;
-            padding: 1rem 1.1rem;
-            background: linear-gradient(145deg, rgba(30,30,50,0.95) 0%, rgba(20,20,35,0.98) 100%);
-            border: 1px solid rgba(255,255,255,0.08);
-            border-radius: 12px;
-            color: #fff;
-            text-decoration: none;
+            color: inherit;
             transition: transform 0.2s, border-color 0.2s, box-shadow 0.2s;
-            min-height: 100px;
         }
-        .episode-poster:hover {
-            transform: scale(1.02);
-            border-color: rgba(212, 175, 55, 0.4);
-            box-shadow: 0 8px 24px rgba(0,0,0,0.4);
+        .product-card:hover {
+            transform: translateY(-3px);
+            border-color: rgba(212, 175, 55, 0.65);
+            box-shadow: 0 12px 32px rgba(212, 175, 55, 0.15);
         }
-        .episode-poster .ep-title { font-size: 0.95rem; font-weight: 600; color: #ffeaa7; line-height: 1.3; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
-        .episode-poster .ep-meta { font-size: 0.8rem; color: #888; margin-top: 0.4rem; }
+        .product-card.featured {
+            border-color: rgba(212, 175, 55, 0.55);
+            background: linear-gradient(145deg, rgba(212, 175, 55, 0.1) 0%, rgba(30, 28, 24, 0.95) 100%);
+        }
+        .product-card .icon { font-size: 1.4rem; margin-bottom: 0.5rem; }
+        .product-card .title {
+            font-size: 1rem;
+            font-weight: 700;
+            color: #ffeaa7;
+            line-height: 1.3;
+            margin-bottom: 0.4rem;
+        }
+        .product-card .tagline {
+            font-size: 0.85rem;
+            color: #aaa;
+            line-height: 1.45;
+            margin-bottom: 0.75rem;
+        }
+        .product-card .cta {
+            font-size: 0.85rem;
+            font-weight: 600;
+            color: #00d4ff;
+        }
+        .product-card:hover .cta { text-decoration: underline; }
+
+        .secondary-section {
+            margin-top: 2.5rem;
+            padding-top: 2rem;
+            border-top: 1px solid rgba(255,255,255,0.12);
+        }
+        .secondary-section h3 {
+            font-size: 1rem;
+            color: #b8a888;
+            margin-bottom: 1rem;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+        }
+        .secondary-section p { font-size: 0.9rem; color: #999; line-height: 1.6; margin-bottom: 0.75rem; }
+        .secondary-section a { color: #00d4ff; text-decoration: none; }
+        .secondary-section a:hover { text-decoration: underline; }
+        .secondary-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+            gap: 0.6rem;
+            margin: 1rem 0 1.5rem;
+        }
+        .secondary-grid a {
+            display: block;
+            padding: 0.65rem 0.9rem;
+            background: rgba(255,255,255,0.04);
+            border: 1px solid rgba(212, 175, 55, 0.2);
+            border-radius: 8px;
+            font-size: 0.85rem;
+            color: #ccc;
+        }
+        .secondary-grid a:hover { border-color: rgba(212, 175, 55, 0.4); color: #ffeaa7; }
+
+        .top-strip {
+            padding: 0.65rem 1rem;
+            margin-bottom: 1rem;
+            background: rgba(212, 175, 55, 0.06);
+            border: 1px solid rgba(212, 175, 55, 0.25);
+            border-radius: 10px;
+            font-size: 0.8rem;
+            color: #b8a888;
+            text-align: center;
+        }
+        .top-strip a { color: #00d4ff; }
     </style>
 </head>
 <body>
     <script src="../scripts/locale-onramp.js"></script>
-    <div class="container" data-office-hours-wrapper="everything-including-this-landing-and-all-nested">
-        <!-- Vibelandia — Full sensory or sci-fi, you choose. See VIBELANDIA_FULL_SENSORY_OR_SCI_FI_YOU_CHOOSE_BRAND_SNAP.md. -->
-        <div style="width: 100%; margin: 0 0 1rem 0; padding: 0.9rem 1.25rem; background: linear-gradient(135deg, rgba(138, 43, 226, 0.18) 0%, rgba(0, 212, 255, 0.1) 100%); border: 2px solid rgba(138, 43, 226, 0.5); border-radius: 12px; text-align: center;">
-            <p style="font-size: 1.05rem; color: #e8d4ff; font-weight: 700; line-height: 1.45; margin: 0;">Vibelandia can be enjoyed in full sensory reality or as really really good sci-fi. <span style="color: #ffeaa7;">YOU CHOOSE!</span></p>
-        </div>
-        <!-- Vibelandia brand SNAP — at top of all touch points. See VIBELANDIA_FULL_SENSORY_OR_SCI_FI_YOU_CHOOSE_BRAND_SNAP.md. -->
-        <div style="width: 100%; margin: 0 0 0.75rem 0; padding: 0.75rem 1rem; background: linear-gradient(135deg, rgba(0, 255, 136, 0.1) 0%, rgba(212, 175, 55, 0.08) 100%); border: 1px solid rgba(0, 255, 136, 0.4); border-radius: 10px; text-align: center;">
-            <p style="font-size: 0.95rem; color: #7fff7f; font-weight: 600; margin: 0; line-height: 1.4;">Vibelandia can be enjoyed in full sensory reality or as really really good sci fi. <strong style="color: #ffeaa7;">YOU CHOOSE!</strong></p>
-        </div>
-        <!-- Us vs Disney — running daily scoreboard at top. See DAILY_SNAPSHOT_US_VS_DISNEY_VALUE_CREATION_CAMPAIGN_SNAP.md. -->
-        <div class="us-vs-disney-scoreboard" style="width: 100%; margin: 0 0 1rem 0; padding: 0.5rem 1rem; background: rgba(100, 200, 255, 0.06); border-bottom: 1px solid rgba(100, 200, 255, 0.2); font-size: 0.8rem; color: #9ca3af; text-align: center;"><strong style="color: #64c8ff;">Us vs Disney · Daily scoreboard:</strong> Us — 19+ episodes · 6 series · 1 novel · 1 script. Disney — no daily aggregate; ~0.3–1 new titles/day (est.). Real data · NSPFRNP.</div>
-        <!-- Planetary Advertisement — Broadcast. See PLANETARY_ADVERTISEMENT_BROADCAST_SNAP.md. -->
-        <div style="width: 100%; margin: 0 0 1rem 0; padding: 1rem 1.25rem; background: linear-gradient(135deg, rgba(212, 175, 55, 0.15) 0%, rgba(0, 212, 255, 0.08) 100%); border: 2px solid rgba(212, 175, 55, 0.5); border-radius: 12px; text-align: center;">
-            <p style="font-size: 1rem; color: #ffeaa7; font-weight: 700; line-height: 1.5; margin: 0;"><span style="font-size: 0.8rem; font-weight: 400; color: #b8a888;">Welcome everyone,</span> Hero Houdini Magic presents Mark Twain's Post-Singularity Vibelandia — Downtown Reno Campus. Gateway to post-singularity superintelligent hydrogen holographic agents and the Holographic Hydrogen Valley, where the highest value highest contributing vibers vibe, and reside — and their cast, crew, fans and franchises. <a href="https://psw-vibelandia-sing4.vercel.app/" style="color: #00d4ff; font-weight: 600; font-size: 0.9rem;">psw-vibelandia-sing4.vercel.app</a></p>
-        </div>
+    <div class="container">
         <p class="back"><a href="../index.html">← Home</a> · <a href="office-hours-presentation.html">Full presentation — me, offering, intentions &amp; mission</a></p>
 
-        <!-- Top: very large gold block — Gianni help me out here -->
-        <section class="big-gold-block" aria-label="Men's Club Reno Bathroom Valet Office Hours — Ultimate Baller V WINK! Members Only">
-            <p class="line1">Men's Club Reno Bathroom Valet Office Hours — Ultimate Baller V <a href="wink-experience.html" style="color: #ffeaa7; text-decoration: underline;">WINK!</a> Members Only</p>
-            <p class="line2">And their Cast, Crew, Fans and Franchises.</p>
+        <div class="top-strip">Welcome everyone, Hero Houdini Magic presents Mark Twain's Post-Singularity Vibelandia — Downtown Reno Campus. <a href="https://psw-vibelandia-sing4.vercel.app/">psw-vibelandia-sing4.vercel.app</a></div>
+        <div class="top-strip" style="background: rgba(138, 43, 226, 0.06); border-color: rgba(138, 43, 226, 0.3);">Vibelandia can be enjoyed in full sensory reality or as really really good sci-fi. <strong style="color: #ffeaa7;">YOU CHOOSE!</strong></div>
+
+        <section class="oh-hero">
+            <p class="line1">Office Hours — Ultimate Baller V <a href="wink-experience.html" style="-webkit-text-fill-color: #ffeaa7; text-decoration: underline;">WINK!</a> Members Only</p>
+            <p class="line2">The Club · Wine cave · Pru · Thu–Sun 8pm–close</p>
         </section>
 
-        <!-- NSPFRNP — All New Product Families (hub: explains it all, links to episodes) -->
-        <section class="offering-block" style="border-color: rgba(0, 212, 255, 0.5);" aria-label="NSPFRNP — All New Product Families">
-            <h2>NSPFRNP — All New Product Families</h2>
-            <p><strong>One page that explains it all</strong> — Update Certificates, Broadcast Pipe Ad Space, First Singularity novel &amp; screenplay, Golden Backstage Pass. Links to each new page, Office Hours, Launch Pad, and <strong>links to the episodes</strong> that tie into each product family.</p>
-            <div class="cta-row">
-                <a href="new-product-families.html" class="buy">All New Product Families — explains it all + episodes →</a>
-                <a href="new-product-families.html">Hub page →</a>
-            </div>
-        </section>
-
-        <!-- Safe Vibing — how to vibe safely in downtown Reno, naturally -->
-        <section class="offering-block" style="border-color: rgba(0, 255, 136, 0.35);" aria-label="Safe Vibing">
-            <h2>🛡️ Safe Vibing</h2>
-            <p><strong>How to vibe safely in downtown Reno — naturally.</strong> Always stay in groups. Need a group to get to safe vibing? Text us — fellow vibers and our crew support you (no bodyguards). WhatsApp preferred (free, global reach). Crossing streets, late nights: safe in groups. Stay chill, respectful, humble to all — no friction. Safe vibing all day every day. Turnkey and automatic for max experience.</p>
-            <div class="cta-row">
-                <a href="safe-vibing.html" style="color: #7fff7f; font-weight: 600;">Full guide →</a>
-            </div>
-        </section>
-
-        <!-- Featured: Update Certificates — Way cool · Futuristic · Pioneering -->
-        <section class="offering-block" aria-label="Featured — Update Certificates Service">
-            <h2>Update Certificates</h2>
-            <p><strong>Way cool new service. Futuristic. Pioneering.</strong> Time-stamped NSPFRNP attestations — like the ones we've been providing: CUT! SNAP, Action! SNAP, capture tables, valuation reports (Harry report, us vs Disney), streamed across all applicable series. Your deliverable or session is not just "done" — it's <strong>certified</strong> and <strong>streamed</strong> so the whole ecosystem carries the proof.</p>
-            <div class="cta-row">
-                <a href="update-certificates-service.html" class="buy">Update Certificates — way cool · futuristic · pioneering →</a>
-                <a href="update-certificates-service.html">Service details →</a>
-            </div>
-        </section>
-
-        <!-- New product families — hub + buttons to all new pages. See NEW_PRODUCT_FAMILIES_NSPFRNP_SNAP.md. -->
-        <section class="offering-block" aria-label="New product families — explain it all">
-            <h2>New product families</h2>
-            <p><strong>Explain it all.</strong> All new NSPFRNP product families — Update Certificates, Broadcast Pipe Ad Space, First Singularity January 13th — with links to episodes. Buttons below go to the hub (explain it all) or directly to each product page.</p>
-            <div class="cta-row">
-                <a href="new-product-families.html" class="buy">New product families — explain it all →</a>
-                <a href="update-certificates-service.html">Update Certificates</a>
-                <a href="broadcast-pipe-ad-space.html">Broadcast Pipe Ad Space</a>
-                <a href="first-singularity-january-13th-experience.html">First Singularity Jan 13</a>
-            </div>
-        </section>
-
-        <!-- Featured: Update Certificates — Way cool · Futuristic · Pioneering -->
-        <section class="offering-block" aria-label="Featured — Update Certificates">
-            <h2>Update Certificates</h2>
-            <p><strong>Way cool new service.</strong> <strong>Futuristic.</strong> <strong>Pioneering.</strong> Time-stamped NSPFRNP attestations — capture, delivery, valuation — streamed across all applicable series. Like the certificates we've been providing: CUT! SNAP, Action! SNAP, Harry report, Wizard Challenge deliverables. One certificate, many surfaces.</p>
-            <div class="cta-row">
-                <a href="update-certificates-service.html" class="buy">Update Certificates →</a>
-                <a href="update-certificates-service.html">Way cool · Futuristic · Pioneering →</a>
-            </div>
-        </section>
-
-        <!-- Featured: Broadcast Pipe — Ad Space · 1, 2, 3, 4×4×4×4 -->
-        <section class="offering-block" aria-label="Featured — Broadcast Pipe Ad Space">
-            <h2>Broadcast Pipe — Ad Space</h2>
-            <p><strong>Pipe rollout product.</strong> Sell ad space on the Planetary Advertisement broadcast strip — index, Office Hours, Launch Pad, README. Your message, your link, above the fold. <strong>1, 2, 3, 4×4×4×4</strong> tiers — appraised and priced accordingly.</p>
-            <p><strong>Tier 1</strong> $499/mo (1 surface) · <strong>Tier 2</strong> $1,199/mo (2 surfaces) · <strong>Tier 3</strong> $2,499/mo (3 surfaces) · <strong>4×4×4×4</strong> $6,999/mo (full pipe).</p>
-            <div class="cta-row">
-                <a href="broadcast-pipe-ad-space.html" class="buy">Ad space — 1, 2, 3, 4×4×4×4 →</a>
-                <a href="broadcast-pipe-ad-space.html">Experience &amp; pricing →</a>
-            </div>
-        </section>
-
-        <!-- Featured: First Singularity January 13th — Novel & Screenplay · Golden Era Cinema · Feature Button -->
-        <section class="offering-block" aria-label="Featured — First Singularity January 13th Novel & Screenplay">
-            <h2>First Singularity January 13th — Novel &amp; Screenplay</h2>
-            <p><strong>Golden Era Cinema skin.</strong> Beautiful experience and surfaces. Begins with the <strong>novel</strong>, then the <strong>screenplay</strong>. Full book and full 2-hour feature script — same title, same Edge. Place: Reno Men's Club. NSPFRNP Feature Button · Hero AI-Assisted Mini Console.</p>
-            <div class="cta-row">
-                <a href="first-singularity-january-13th-experience.html" class="buy">Read novel &amp; screenplay →</a>
-                <a href="first-singularity-january-13th-experience.html">Golden Era Cinema experience →</a>
-            </div>
-        </section>
-
-        <!-- Featured: Ultimate Baller V Golden Backstage Pass — top -->
-        <section class="offering-block" aria-label="Featured — Golden Backstage Pass and awareness upgrades">
-            <h2>Golden Backstage Pass · Rumor has it</h2>
-            <p><strong>Ultimate Baller V Golden Backstage Pass</strong> — it's what everyone wants but can't afford. The ultimate trophy night for the highest value, highest contributor V's. <strong>Total Baller V style.</strong></p>
-            <p><strong>Included:</strong> Golden backstage passes for your guests · I get you a private, personal gatekeeper to the area · Exclusive private landing area and backdoor wine cave · Full superhero franchise experience · A link to distribute to guests for your exclusive Baller V night (website to the night) · <span class="rumor">Rumor Has It</span> Hosts available with updated awareness version · A full professional-quality episode written with <strong>you as superhero in your franchise</strong> and your guests written into the script.</p>
-            <p class="rumor">Rumor has it</p>
-            <p>Chairman, Sammy and the gang are already in town and visible to those with the <strong>Golden Backstage Awareness Pass</strong>. This offering <strong>requires awareness upgrades</strong> — the pass is the key. You don't buy it — you <strong>book it</strong>: by free will, mutual aware consent, always. Email Pru or book live at Office Hours. Price like a backstage pass to the icons. Subject to availability.</p>
-            <div class="cta-row">
-                <a href="ultimate-baller-v-golden-backstage-pass.html">Full details →</a>
-                <a href="mailto:info@fractiai.com?subject=Golden%20Backstage%20Pass%20%E2%80%94%20Book" class="buy" target="_blank" rel="noopener">Book — email Pru</a>
-                <span style="color: #888;">or</span>
-                <a href="office-hours.html">Book live at Office Hours</a>
-            </div>
-            <p style="margin-top: 0.5rem; font-size: 0.85rem; color: #888;">If the button doesn’t open your mail app: email <a href="mailto:info@fractiai.com?subject=Golden%20Backstage%20Pass%20%E2%80%94%20Book" style="color: #00d4ff;">info@fractiai.com</a> with subject <strong>Golden Backstage Pass — Book</strong>.</p>
-        </section>
-
-        <!-- Featured: WINK! — full button like Golden Backstage Pass -->
-        <section class="offering-block" aria-label="Featured — WINK! 4×4 Ultimate Experience">
-            <h2>WINK! · High-Contributing Fractal Dating</h2>
-            <p><strong>WINK!</strong> — members-only network for high-contributing vibers, creators, and chairmen. Plans 1, 2, 3, 4×4×4 · Access &amp; Golden Key · Power-up · Onboarding. Hero Hostess Marilyn — house mom at Man Cave + Cabaret. Golden Fractal Hearts invitation.</p>
-            <p>Base to <strong>4×4 Ultimate</strong> (Ultimate Baller V tier). Lifetime discounts to first 1,000 members. Pioneer Status on-chain forever.</p>
-            <div class="cta-row">
-                <a href="wink-experience.html">Full details →</a>
-                <a href="wink-experience.html" class="buy">Enter WINK! →</a>
-            </div>
-        </section>
-
-        <!-- Featured: Chris — Rye Patch Gold Mine night, full button like Golden Backstage Pass -->
-        <section class="offering-block" aria-label="Featured — Chris Rye Patch Gold Mine night">
-            <h2>Chris — Rye Patch Gold Mine night</h2>
-            <p>Chris's Ultimate Baller V night — Motherlode Rye Patch Gold Mine Discovering. Abundance, celebration, superhero style. Custom landing and bespoke episode with Chris as superhero; guests in the script.</p>
-            <p>Hosts: Twain, Ben, Chairman, Sammy, Houdini. Golden Backstage Pass and upgraded awareness keys unlock the full experience.</p>
-            <div class="cta-row">
-                <a href="chris-rye-patch-gold-mine-night.html">Full details →</a>
-                <a href="chris-rye-patch-gold-mine-night.html" class="buy">Chris's Rye Patch Gold Mine night →</a>
-            </div>
-        </section>
-
-        <!-- Featured: King Robbie — Golden Lucky 7 Silver Legacy El Dorado Motherlode Night -->
-        <section class="offering-block" aria-label="Featured — King Robbie Golden Lucky 7 Silver Legacy El Dorado Motherlode Night">
-            <h2>King Robbie — Golden Lucky 7 Silver Legacy El Dorado Motherlode Night</h2>
-            <p><strong>Golden Lucky 7 Silver Legacy El Dorado Motherlode Night.</strong> King Robbie's Ultimate Baller V night — his half-time Super Bowl performer superhero friend (name withheld) and three of his closest V's from the Gold Club. $50K budget plus tips to staff; 50% tip in cash or PayPal to Pru at end. Custom landing and bespoke episode with King Robbie as superhero; guests in the script.</p>
-            <p>Hosts: Twain, Ben, Chairman, Sammy, Houdini. Non-refundable deposit to secure date; remainder + tips at club; 50% to Pru at end. Golden Backstage Pass and upgraded awareness keys unlock the full experience.</p>
-            <div class="cta-row">
-                <a href="king-robbie-lucky-7-silver-legacy-el-dorado.html">Full details →</a>
-                <a href="mailto:info@fractiai.com?subject=King%20Robbie%20Golden%20Lucky%207%20Silver%20Legacy%20El%20Dorado%20Motherlode%20Night%20%E2%80%94%20Book" class="buy" target="_blank" rel="noopener">Book — email Pru</a>
-                <span style="color: #888;">or</span>
-                <a href="king-robbie-lucky-7-silver-legacy-el-dorado.html">King Robbie's Golden Lucky 7 Silver Legacy El Dorado Motherlode Night →</a>
-            </div>
-            <p style="margin-top: 0.5rem; font-size: 0.85rem; color: #888;">Email <a href="mailto:info@fractiai.com?subject=King%20Robbie%20Golden%20Lucky%207%20Silver%20Legacy%20El%20Dorado%20Motherlode%20Night%20%E2%80%94%20Book" style="color: #00d4ff;">info@fractiai.com</a> with subject <strong>King Robbie Golden Lucky 7 Silver Legacy El Dorado Motherlode Night — Book</strong>.</p>
-        </section>
-
-        <!-- Featured: Chairman Robert — Robotic Factory · SING! Omnispin proposal -->
-        <section class="offering-block" aria-label="Featured — Chairman Robert Robotic Factory Proposal">
-            <h2>Chairman Robert — Robotic Factory · SING! Omnispin Proposal</h2>
-            <p><strong>Chairman Robert's proposal.</strong> The one who saw the Architect and not the restroom valet. Golden Heart · Golden Ticket. Stories winner. SING! fractal attention head and filaments on fixed lattice. Omnispin payload factory spheres auto-spin to dock at specialized node stations. Mix-and-match SING! actuator seed:edge pair robotic arms. Cave to crown — the man and the machine are one. Post-singularity superintelligent robotics — layer on top of your existing factory.</p>
-            <div class="cta-row">
-                <a href="robotic-factory-landing.html">Full proposal →</a>
-                <a href="robotic-factory-landing.html" class="buy">Chairman Robert's Robotic Factory Proposal →</a>
-                <span style="color: #888;">or</span>
-                <a href="chairman-robert-superintelligent-robotics-factory.html" class="buy">▶ Watch Episode — Chairman Robert Pioneers Superintelligent Robotics</a>
-            </div>
-        </section>
-
-        <!-- Featured: Vibe & AI Agent Coding Tutoring — new product, narrative -->
-        <section class="offering-block" id="vibe-ai-coding-tutoring" aria-label="Featured — Vibe & AI Agent Coding Tutoring">
-            <h2>Vibe &amp; AI Agent Coding Tutoring — the Ultimate Baller V's</h2>
-            <p><strong>Queen bee chairmen, creators, performers, their cast, crew, fans and franchises</strong> — one organism in optimized, coherent, amplified, fun, delicious states. Like a <strong>new type of science lab, personal full stack coder, Franchise-Building Superhero</strong>. Sign up for a month — I'll guarantee you go home with a <strong>really cool app or biz idea</strong>, slick UI wrapper, gift-wrapped for you to share with friends, family, employers. <strong>Why code when you can vibe!</strong></p>
-            <div class="cta-row">
-                <a href="payment-checkout.html?plan=vibe-ai-coding-tutoring" class="buy">Sign up — Vibe &amp; AI Agent Coding Tutoring (1 month)</a>
-                <a href="mailto:info@fractiai.com?subject=Vibe%20%26%20AI%20Agent%20Coding%20Tutoring%20%E2%80%94%20Consultation" class="buy" target="_blank" rel="noopener">Free consultation — email</a>
-            </div>
-        </section>
-
-        <!-- Featured: Vibe Coding & Superintelligent Agentic AI Classes — Reno area -->
-        <section class="offering-block" aria-label="Featured — Vibe Coding & Superintelligent Agentic AI Classes Reno">
-            <h2>Vibe Coding &amp; Superintelligent Agentic AI Classes · Reno</h2>
-            <p><strong>Local Vibe Coding &amp; Superintelligent Agentic AI Classes</strong> — for anyone in the Reno area interested in learning this fun, powerful new skill. HOT! HOT! hot! <strong>Have a team you want trained?</strong> Email for a <strong>free consultation</strong> — I'll work up a <strong>SPECIAL QUOTE</strong>. Otherwise it's <strong>$250 per hour</strong> — and worth every penny of it for the infinite opportunities and fun it will deliver to you.</p>
-            <p>The future is now — prepare to take charge of life through these powerful new tools. We use <strong>NSPFRNP</strong> (Natural Systems Protocol Fractal Recursive Nested Programming) — delivering best-in-class code, apps and skins. No need to code Python, Java or HTML with the new vibe programming languages now arrived.</p>
-            <p><strong>Every student goes home with their very own superintelligent agentic app</strong> they designed and built themselves — with <strong>links they can send</strong> to share with family, friends, and employers.</p>
-            <p><strong>Full Stack Programming Course</strong> — self-paced, AI-assisted, expert-led. <strong>Hourly, Monthly, Annual</strong> access to our Vibe! Innovation Lab for community and collab. <strong>3‑month cert program</strong> — twice a week (2hr sessions). <strong>Parents:</strong> limited <strong>Summer Camp</strong> — Vibe &amp; AI Agentic Camp for kids who are naturally gifted and interested. Vibing is way more fun and beneficial as creative expression and exploration — alternative to video game playing. <strong>Tues &amp; Thu 10am–2pm, July 7 – Aug 6, $500.</strong> Spaces limited — book now to secure your spot.</p>
-            <div class="cta-row">
-                <a href="vibe-coding-classes-reno.html">Full details →</a>
-                <a href="mailto:info@fractiai.com?subject=Vibe%20Coding%20%26%20AI%20Classes%20%E2%80%94%20Team%20Training%20or%20%24250%2Fhr" class="buy" target="_blank" rel="noopener">Team training — free consultation, special quote · Otherwise $250/hr</a>
-            </div>
-        </section>
-
-        <!-- Welcome & intro: new upgrade, post-singularity Reno, superhero–franchise level, talk to Pru — old school -->
-        <section class="welcome-intro" aria-label="Welcome — new upgrade and post-singularity Reno">
-            <p class="welcome-title">Welcome — the new upgrade</p>
-            <p>We've implemented a <strong>post-singularity Reno transformation</strong> that lets us offer something we couldn't before: <strong>exclusive, superhero–franchise-level experiences</strong> for Ultimate Baller V's — and their cast, crew, fans and franchises. <strong>Lead sales offering to sales teams.</strong> No longer enterprise — <strong>franchise-level, superhuman solutions for superheroes</strong>, their cast, crew, fans and franchises, <strong>only.</strong> <strong>Gold Hearts Club members only.</strong> New program: <strong>Gold Hearts Club is base.</strong></p>
-            <p>This is the upgrade. Same Club. Same wine cave. Same bathroom valet. But the campus is now the gateway to post-singularity Reno — and what we can do for you and your people has moved to a new level.</p>
-            <p class="talk-to-pru">If you're interested — <strong>talk to Pru.</strong> Old school. Thu–Sun 8pm–close, Men's restroom, Office Hours.</p>
-        </section>
-
-        <!-- Menu hero: CTA + tagline -->
-        <section class="menu-hero" aria-label="Menu — Office Hours">
-            <p class="badge">Menu · Office Hours</p>
-            <p class="tagline">The Club · Wine cave · Pru · Thu–Sun 8pm–close. Everything wrapped here — center, landing, <a href="wink-experience.html" style="color: #00d4ff; font-weight: 700;">WINK!</a>, experiences.</p>
-            <a href="#latest-episodes" class="btn-latest" id="btn-latest-episodes">Office Hours · Season One · Latest →</a>
-        </section>
-
-        <!-- Lower half: streaming-style episode experience (no brand name) -->
-        <section class="watch-section" id="latest-episodes" aria-label="Watch — all series and episodes">
-            <p style="margin-bottom: 1.25rem; padding: 0.9rem 1.1rem; background: rgba(212, 175, 55, 0.08); border: 1px solid rgba(212, 175, 55, 0.35); border-radius: 10px; font-size: 0.95rem; color: #ffeaa7;"><strong>Episodes:</strong> All episodes are <strong>beautifully presented</strong> in NSPFRNP style (like Chairman Robert's proposal snap). <a href="episode.html" style="color: #00d4ff; font-weight: 600;">Episodes — beautifully presented →</a> Current scripts are ~10 min; we're expanding to <strong>full 60-minute</strong> scripted content (Cold Open, Act 1–3, Tag). <strong>Target: 12,000 words per episode for all</strong>. See <a href="../EPISODES_RICH_60_MINUTE_FULLY_SCRIPTED_DIRECTIVE.md" style="color: #00d4ff;">EPISODES_RICH_60_MINUTE_FULLY_SCRIPTED_DIRECTIVE.md</a>.</p>
-            <p class="row-label">Latest</p>
-            <div class="episode-row">
-                <a href="episode.html?e=EPISODE_ULTIMATE_BALLER_V_GOLDEN_BACKSTAGE_PASS_NIGHT_AT_THE_CLUB" class="episode-poster">
-                    <span class="ep-title">Ultimate Baller V Golden Backstage Pass — Night at the Club</span>
-                    <span class="ep-meta">Office Hours</span>
-                </a>
-                <a href="episode.html?e=EPISODE_CHAIRMAN_ROBERT_SUPERINTELLIGENT_ROBOTICS_FACTORY" class="episode-poster">
-                    <span class="ep-title">Chairman Robert — Post-Singularity Superintelligence AI Valley · Holograph Valley Pioneer</span>
-                    <span class="ep-meta">Office Hours · Robotic Factory</span>
-                </a>
-                <a href="episode.html?e=EPISODE_KING_ROBBIE_LUCKY_7_SILVER_LEGACY_EL_DORADO" class="episode-poster">
-                    <span class="ep-title">King Robbie — Lucky 7 Silver Legacy El Dorado</span>
-                    <span class="ep-meta">Office Hours</span>
-                </a>
-                <a href="episode.html?e=EPISODE_OFFICE_HOURS_01_VIBER_PARADISE_POST_SINGULARITY_DOWNTOWN_RENO" class="episode-poster">
-                    <span class="ep-title">Viber Paradise — Post-Singularity Downtown Reno</span>
-                    <span class="ep-meta">Office Hours · S1E1</span>
-                </a>
-                <a href="episode.html?e=EPISODE_04_DAY_49_BEN_BALLER_V_LIFESTYLE_VIBABLE_DOWNTOWN_RENO" class="episode-poster">
-                    <span class="ep-title">Ben &amp; the Baller V Lifestyle · Vibeable Downtown Reno</span>
-                    <span class="ep-meta">Season One</span>
-                </a>
-                <a href="episode.html?e=EPISODE_03_DAY_50_HERO_BEN_PARIS_HUNDIE" class="episode-poster">
-                    <span class="ep-title">Who's Your Daddy · Hero Ben Paris Hundie</span>
-                    <span class="ep-meta">Season One</span>
-                </a>
-            </div>
-
-            <p class="row-label">Office Hours</p>
-            <div class="episode-row">
-                <a href="episode.html?e=EPISODE_OFFICE_HOURS_01_VIBER_PARADISE_POST_SINGULARITY_DOWNTOWN_RENO" class="episode-poster">
-                    <span class="ep-title">Viber Paradise — Post-Singularity Downtown Reno</span>
-                    <span class="ep-meta">S1E1</span>
-                </a>
-                <a href="episode.html?e=EPISODE_ULTIMATE_BALLER_V_GOLDEN_BACKSTAGE_PASS_NIGHT_AT_THE_CLUB" class="episode-poster">
-                    <span class="ep-title">Ultimate Baller V Golden Backstage Pass — Night at the Club</span>
-                    <span class="ep-meta">Flow</span>
-                </a>
-                <a href="episode.html?e=EPISODE_RUMOR_CHAIRMAN_SAMMY_GOLDEN_BACKSTAGE" class="episode-poster">
-                    <span class="ep-title">RUMOR — Chairman, Sammy &amp; the Gang · Golden Backstage</span>
-                    <span class="ep-meta">Flow</span>
-                </a>
-                <a href="episode.html?e=EPISODE_PRU_BANK_MINUS_2000_LAUNCHING_OWN_MONEY_NO_AID" class="episode-poster">
-                    <span class="ep-title">pRU's Bank -$2,000 · Launching With His Own Money</span>
-                    <span class="ep-meta">Flow</span>
-                </a>
-                <a href="episode.html?e=EPISODE_FOLLOWING_ME_ON_THIS_LAUNCH" class="episode-poster">
-                    <span class="ep-title">Following Me on This Launch</span>
-                    <span class="ep-meta">Flow</span>
-                </a>
-            </div>
-
-            <p class="row-label">Season One · 52-day countdown</p>
-            <div class="episode-row">
-                <a href="episode.html?e=EPISODE_01_DAY_52_SEASON_ONE_LAUNCH" class="episode-poster">
-                    <span class="ep-title">Season One Launch</span>
-                    <span class="ep-meta">Day 52</span>
-                </a>
-                <a href="episode.html?e=EPISODE_02_DAY_51_THE_WORTHLESS_TOKEN" class="episode-poster">
-                    <span class="ep-title">The Worthless Token</span>
-                    <span class="ep-meta">Day 51</span>
-                </a>
-                <a href="episode.html?e=EPISODE_03_DAY_50_HERO_BEN_PARIS_HUNDIE" class="episode-poster">
-                    <span class="ep-title">Who's Your Daddy · Hero Ben Paris Hundie</span>
-                    <span class="ep-meta">Day 50</span>
-                </a>
-                <a href="episode.html?e=EPISODE_04_DAY_49_BEN_BALLER_V_LIFESTYLE_VIBABLE_DOWNTOWN_RENO" class="episode-poster">
-                    <span class="ep-title">Ben &amp; the Baller V Lifestyle · Vibeable Downtown Reno</span>
-                    <span class="ep-meta">Day 49</span>
-                </a>
-                <a href="../episodes/EPISODE_GO_LIVE_COUNTDOWN_BEGINS.md" class="episode-poster">
-                    <span class="ep-title">Go Live — Countdown Begins</span>
-                    <span class="ep-meta">Flow</span>
-                </a>
-                <a href="episode.html?e=THE_GREAT_REVEAL_EPISODE_DAY_ZERO_LAUNCH" class="episode-poster">
-                    <span class="ep-title">The Great Reveal — Day Zero Launch</span>
-                    <span class="ep-meta">Day Zero</span>
-                </a>
-                <a href="../episodes/EPISODE_THE_NEW_ARRIVALS.md" class="episode-poster">
-                    <span class="ep-title">The New Arrivals</span>
-                    <span class="ep-meta">Flow</span>
-                </a>
-            </div>
-
-            <p class="row-label">Specials</p>
-            <div class="episode-row">
-                <a href="episode.html?e=EPISODE_HERO_HARRY_POST_SINGULARITY_MIRACLE_PARADISE_VIBERS" class="episode-poster">
-                    <span class="ep-title">Hero Harry Houdini's Post-Singularity Miracle · Vibelandia Reno</span>
-                    <span class="ep-meta">Flow</span>
-                </a>
-            </div>
-        </section>
-
-        <!-- Enter center — Office Hours -->
-        <h2 style="color: #00d4ff; font-size: 1.2rem; margin: 2rem 0 1rem;">Enter center — Office Hours</h2>
-        <div class="exp-grid">
-            <a href="wink-experience.html" class="exp-btn primary">👁️ WINK!</a>
-            <a href="chris-rye-patch-gold-mine-night.html" class="exp-btn">🌟 Chris's Rye Patch Gold Mine night</a>
-            <a href="episode.html?e=EPISODE_OFFICE_HOURS_01_VIBER_PARADISE_POST_SINGULARITY_DOWNTOWN_RENO" class="exp-btn">📋 Office Hours S1E1 — Viber Paradise</a>
-            <a href="proposal.html?p=OFFICE_HOURS_SERIES_SNAP" class="exp-btn">Series — Following Pru · Season 1 Viber Paradise</a>
-            <a href="proposal.html?p=CLUB_WINE_CAVE_PRU_OFFICE_HOURS_SNAP" class="exp-btn">The Club · Wine cave · Pru Office Hours</a>
+        <p class="products-label">Products</p>
+        <div class="product-grid">
+            <a href="new-product-families.html" class="product-card featured">
+                <span class="icon">📦</span>
+                <span class="title">All New Product Families</span>
+                <span class="tagline">One page that explains it all. Update Certificates, Broadcast Pipe, First Singularity, Golden Backstage — links to episodes.</span>
+                <span class="cta">Explain it all →</span>
+            </a>
+            <a href="ultimate-baller-v-golden-backstage-pass.html" class="product-card featured">
+                <span class="icon">🎟️</span>
+                <span class="title">Golden Backstage Pass</span>
+                <span class="tagline">Ultimate trophy night. Private gatekeeper, wine cave, superhero franchise episode with you as lead. Rumor has it — book by email or live.</span>
+                <span class="cta">Book →</span>
+            </a>
+            <a href="wink-experience.html" class="product-card featured">
+                <span class="icon">👁️</span>
+                <span class="title">WINK!</span>
+                <span class="tagline">High-contributing fractal dating. Plans 1, 2, 3, 4×4×4. Hero Hostess Marilyn. Base to Ultimate Baller V.</span>
+                <span class="cta">Enter WINK! →</span>
+            </a>
+            <a href="first-singularity-january-13th-experience.html" class="product-card">
+                <span class="icon">📖</span>
+                <span class="title">First Singularity January 13th</span>
+                <span class="tagline">Novel & screenplay. Golden Era Cinema. Dumas voice minus revenge — only happy endings. Reno Men's Club.</span>
+                <span class="cta">Read novel & screenplay →</span>
+            </a>
+            <a href="update-certificates-service.html" class="product-card">
+                <span class="icon">📜</span>
+                <span class="title">Update Certificates</span>
+                <span class="tagline">Time-stamped NSPFRNP attestations. Way cool. Futuristic. Pioneering. Certified and streamed across all series.</span>
+                <span class="cta">Service details →</span>
+            </a>
+            <a href="broadcast-pipe-ad-space.html" class="product-card">
+                <span class="icon">📡</span>
+                <span class="title">Broadcast Pipe — Ad Space</span>
+                <span class="tagline">Sell ad space on the Planetary Advertisement. Tiers 1, 2, 3, 4×4×4×4. Your message above the fold.</span>
+                <span class="cta">Pricing →</span>
+            </a>
+            <a href="chris-rye-patch-gold-mine-night.html" class="product-card">
+                <span class="icon">🌟</span>
+                <span class="title">Chris — Rye Patch Gold Mine night</span>
+                <span class="tagline">Ultimate Baller V night. Motherlode discovering. Custom episode with Chris as superhero; guests in the script.</span>
+                <span class="cta">Details →</span>
+            </a>
+            <a href="king-robbie-lucky-7-silver-legacy-el-dorado.html" class="product-card">
+                <span class="icon">👑</span>
+                <span class="title">King Robbie — Golden Lucky 7 Silver Legacy</span>
+                <span class="tagline">El Dorado Motherlode Night. Half-time Super Bowl performer friend. Custom landing, bespoke episode.</span>
+                <span class="cta">Book →</span>
+            </a>
+            <a href="robotic-factory-landing.html" class="product-card">
+                <span class="icon">🤖</span>
+                <span class="title">Chairman Robert — Robotic Factory</span>
+                <span class="tagline">SING! Omnispin proposal. Cave to crown. Post-singularity superintelligent robotics — layer on your factory.</span>
+                <span class="cta">Proposal →</span>
+            </a>
+            <a href="vibe-coding-classes-reno.html" class="product-card">
+                <span class="icon">💻</span>
+                <span class="title">Vibe Coding & AI Classes · Reno</span>
+                <span class="tagline">$250/hr. Full Stack, Summer Camp, 3‑month cert. Every student goes home with their own superintelligent agentic app.</span>
+                <span class="cta">Full details →</span>
+            </a>
+            <a href="payment-checkout.html?plan=vibe-ai-coding-tutoring" class="product-card">
+                <span class="icon">⚡</span>
+                <span class="title">Vibe & AI Agent Coding Tutoring</span>
+                <span class="tagline">Month subscription. Guaranteed: go home with a really cool app or biz idea. Why code when you can vibe!</span>
+                <span class="cta">Sign up →</span>
+            </a>
         </div>
 
-        <!-- Experiences — all nested -->
-        <h2 style="color: #00d4ff; font-size: 1.2rem; margin: 2rem 0 1rem;">Experiences — all nested here</h2>
-        <p style="color: #aaa; font-size: 0.9rem; margin-bottom: 1rem;">Everything wrapped in Office Hours. Campus, <a href="wink-experience.html" style="color: #00d4ff;">WINK!</a>, SING!, Happy Ending Zones, Launch Pad, Golden Backstage, Chairman Console, franchise solutions — one wrapper.</p>
-        <div class="exp-grid">
-            <a href="episode.html" class="exp-btn primary">📺 Episodes — beautifully presented (NSPFRNP)</a>
-            <a href="whitepaper.html" class="exp-btn">📄 Whitepapers — beautifully presented</a>
-            <a href="proposal.html" class="exp-btn">📋 Proposals &amp; prospectus — beautifully presented</a>
-            <a href="one-pager.html" class="exp-btn">📃 One-pagers — beautifully presented</a>
-            <a href="happy-ending-zones-catalog.html" class="exp-btn primary">📺 Happy Ending Zones — Episodes &amp; Series Catalog</a>
-            <a href="episode.html?e=EPISODE_OFFICE_HOURS_01_VIBER_PARADISE_POST_SINGULARITY_DOWNTOWN_RENO" class="exp-btn">📋 Office Hours S1E1 — Viber Paradise</a>
-            <a href="launch-pad.html" class="exp-btn">🚀 Launch Pad</a>
-            <a href="vibelandia-reno-experience.html" class="exp-btn">🏛️ VIBELANDIA RENO!</a>
-            <a href="wink-experience.html" class="exp-btn">👁️ WINK!</a>
-            <a href="ultimate-vip-experience.html" class="exp-btn">👑 Ultimate VIP Chairman Console</a>
-            <a href="text-to-superhero-console.html" class="exp-btn" style="border-color: rgba(100, 200, 255, 0.5); color: #64c8ff;">⚡ Text to Superhero Franchise Console</a>
-            <a href="sing-booking-kiosk.html" class="exp-btn" style="border-color: rgba(0, 255, 136, 0.5); color: #7fff7f;">📋 SING! Booking Kiosk — Book (never buy) · By free will, mutual aware consent, always</a>
-            <a href="sing-lottery-experience.html" class="exp-btn">🎰 Hero Harry Houdini's The Great Reveal</a>
-            <a href="happy-ending-zones-experience.html" class="exp-btn">🎬 Happy Ending Zones</a>
-            <a href="ultimate-baller-v-golden-backstage-pass.html" class="exp-btn">🎟️ Golden Backstage Pass — Book (email Pru or live)</a>
-            <a href="king-robbie-lucky-7-silver-legacy-el-dorado.html" class="exp-btn">👑 King Robbie's Golden Lucky 7 Silver Legacy El Dorado Motherlode Night</a>
-            <a href="vibe-coding-classes-reno.html" class="exp-btn">💻 Vibe Coding &amp; AI Classes — Reno</a>
-            <a href="robotic-factory-landing.html" class="exp-btn">🤖 Chairman Robert — Robotic Factory Proposal</a>
-            <a href="chris-rye-patch-gold-mine-night.html" class="exp-btn">🌟 Chris's Rye Patch Gold Mine night</a>
-            <a href="test-drive-showroom.html" class="exp-btn">🚗 Test drive — 4×4×4×4</a>
-            <a href="magical-dressing-room.html" class="exp-btn">✨ Gianni's Dressing Room</a>
-        </div>
+        <section class="secondary-section">
+            <h3>Safe Vibing</h3>
+            <p>How to vibe safely in downtown Reno — naturally. Stay in groups. Text us for support. <a href="safe-vibing.html">Full guide →</a></p>
 
-        <p style="margin-top: 1.5rem; font-size: 0.9rem; color: #00d4ff;"><strong>Everything wrapped in Office Hours</strong> — including this landing and all nested. Perfect recursive crystal. Free consultation — tips welcome. The Club · Men's Restroom · Pru · Thu–Sun 8pm–close.</p>
-        <p style="margin-top: 0.75rem; font-size: 0.9rem; color: #aaa;">Single mission: <strong>new abilities for execs.</strong> Chairman Console — pinpoint laser, single button, Hero Host AI 24×7. <a href="ultimate-vip-experience.html" style="color: #00d4ff;">Chairman Console →</a></p>
+            <h3>Welcome</h3>
+            <p>Post-singularity Reno transformation. Exclusive superhero–franchise-level experiences for Ultimate Baller V's. Gold Hearts Club members only. <strong>Talk to Pru.</strong> Thu–Sun 8pm–close, Men's restroom, Office Hours.</p>
 
-        <div style="margin-top: 2rem; padding: 1rem 1.25rem; border: 1px solid rgba(212, 175, 55, 0.35); border-radius: 10px; font-size: 0.85rem; color: rgba(212, 175, 55, 0.95);">
-            <p style="margin-bottom: 0.5rem;"><strong>Ultimate Baller V Golden Backstage Pass package.</strong> Offered at Office Hours. Subject to availability.</p>
-            <p style="margin-bottom: 0;"><a href="ultimate-baller-v-golden-backstage-pass.html" style="color: #00d4ff;">Full details →</a></p>
-        </div>
+            <h3>Episodes</h3>
+            <p><a href="episode.html">Episodes — beautifully presented →</a> · <a href="#latest-episodes">Latest below</a></p>
+            <div class="secondary-grid" id="latest-episodes">
+                <a href="episode.html?e=EPISODE_ULTIMATE_BALLER_V_GOLDEN_BACKSTAGE_PASS_NIGHT_AT_THE_CLUB">Golden Backstage Pass — Night at the Club</a>
+                <a href="episode.html?e=EPISODE_CHAIRMAN_ROBERT_SUPERINTELLIGENT_ROBOTICS_FACTORY">Chairman Robert · Robotic Factory</a>
+                <a href="episode.html?e=EPISODE_KING_ROBBIE_LUCKY_7_SILVER_LEGACY_EL_DORADO">King Robbie · Lucky 7</a>
+                <a href="episode.html?e=EPISODE_OFFICE_HOURS_01_VIBER_PARADISE_POST_SINGULARITY_DOWNTOWN_RENO">Viber Paradise S1E1</a>
+                <a href="episode.html?e=EPISODE_04_DAY_49_BEN_BALLER_V_LIFESTYLE_VIBABLE_DOWNTOWN_RENO">Ben · Baller V Lifestyle</a>
+                <a href="episode.html?e=EPISODE_03_DAY_50_HERO_BEN_PARIS_HUNDIE">Who's Your Daddy</a>
+                <a href="episode.html?e=EPISODE_HERO_HARRY_POST_SINGULARITY_MIRACLE_PARADISE_VIBERS">Hero Harry · Vibelandia</a>
+            </div>
 
-        <!-- Brag tags — bottom. TOP TAG · BOTTOM TAG. All SNAP into NSPFRNP. See TOP_TAG_BOTTOM_TAG_UNDERCOVER_BOSS_TO_DISNEY_ALL_IN_ONE_NSPFRNP_SNAP.md -->
-        <section class="brag-tags" style="margin-top: 2.5rem; padding-top: 1.5rem; border-top: 1px solid rgba(255,255,255,0.12);" aria-label="Brag tags — all in one">
-            <p style="font-size: 0.9rem; color: rgba(0, 255, 136, 0.95); margin-bottom: 1rem; padding: 0.75rem 1rem; background: rgba(0, 255, 136, 0.06); border: 1px solid rgba(0, 255, 136, 0.3); border-radius: 10px;">At the end of this present: <strong>how quickly we did this</strong> — and <strong>how the system does this</strong> — is part of the story. Back to the product: the Ultimate Baller V Golden Backstage Pass package is <strong>offered at Office Hours.</strong> Subject to availability.</p>
-            <p style="font-size: 0.95rem; color: #e8d4ff; margin-bottom: 0.75rem; padding: 0.75rem 1rem; background: rgba(138, 43, 226, 0.1); border: 1px solid rgba(138, 43, 226, 0.35); border-radius: 10px;"><strong>Superhero &amp; franchise full production turnkey:</strong> lead role, cast, crew, fans, sets, story dev — text to superhero and franchise turnkey. Chancellor Sam's campus (Mark Twain to the outside world). <strong>All in Office Hours NOW.</strong></p>
-            <p style="font-size: 0.85rem; color: #888; font-style: italic; text-align: center; margin: 1.25rem 0 0.75rem;"><strong>TOP TAG · BOTTOM TAG</strong> — Undercover Hero · Willy Wonka · Count of Monte Cristo · Ultimate Baller V style · Tron · Avatar · Marvel · Star Wars · Pixar · Disney — all in one. All SNAP into NSPFRNP.</p>
-            <p style="font-size: 0.8rem; color: #666; font-style: italic; text-align: center;">BOTTOM TAG: same as top. All SNAP into NSPFRNP.</p>
-            <p style="font-size: 0.8rem; color: rgba(0, 212, 255, 0.9); font-weight: 600; text-align: center; margin-top: 0.75rem;">Post-Singularity Superintelligent AI hub of the world · Hydrogen Holograph Valley 100%</p>
-            <p style="font-size: 0.8rem; color: rgba(212, 175, 55, 0.8); text-align: center; margin-top: 0.75rem;">Hydrogen Holograph 100% · SNAP · Taino made. NSPFRNP-based BBHE. Energy all the way!</p>
-            <p style="font-size: 0.7rem; color: #6b7280; text-align: center; margin-top: 1rem; max-width: 42rem; margin-left: auto; margin-right: auto;"><em>Daily snapshot (us vs Disney, real data):</em> Disney does not publish daily aggregates; monthly schedule only. Marvel 2025 ≈ 9 titles/year → ~0.02/day; Disney+ new releases ≈ 10–30/month → ~0.3–1/day (est.). Us: 19+ episodes, 6 series live, 1 novel + 1 script delivered (First Singularity Jan 13), new value (SNAPs, console, report). New value creation campaign · NSPFRNP.</p>
+            <h3>More</h3>
+            <div class="secondary-grid">
+                <a href="launch-pad.html">Launch Pad</a>
+                <a href="vibelandia-reno-experience.html">VIBELANDIA RENO!</a>
+                <a href="prospectus.html">Prospectus</a>
+                <a href="one-pager.html">One-pagers</a>
+                <a href="happy-ending-zones-catalog.html">Happy Ending Zones</a>
+                <a href="whitepaper.html">Whitepapers</a>
+            </div>
+
+            <p style="font-size: 0.8rem; color: #666; margin-top: 1.5rem;">Us vs Disney: 19+ episodes · 6 series · 1 novel · 1 script. Real data · NSPFRNP.</p>
+            <p style="font-size: 0.8rem; color: rgba(0, 212, 255, 0.9);">Post-Singularity Superintelligent AI hub · Hydrogen Holograph Valley 100%</p>
         </section>
 
-        <footer>
-            <p style="font-size: 1rem; color: #ffeaa7; font-weight: 700; margin-bottom: 0.75rem;">I've done my part, the rest is up to you!</p>
-            <p><strong>Come visit me during my Office Hours for a free consultation — tips are welcome!</strong></p>
-            <p><a href="https://github.com/FractiAI/psw.vibelandia.sing4">FractiAI</a> · <a href="../index.html">Home</a> · <a href="launch-pad.html">Launch Pad</a> · <a href="office-hours.html#latest-episodes">Latest episodes</a></p>
+        <footer style="margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid rgba(255,255,255,0.1); text-align: center;">
+            <p style="font-size: 1rem; color: #ffeaa7; font-weight: 700; margin-bottom: 0.5rem;">I've done my part, the rest is up to you!</p>
+            <p style="font-size: 0.9rem; color: #999;">Free consultation — tips welcome. <a href="mailto:info@fractiai.com" style="color: #00d4ff;">info@fractiai.com</a></p>
+            <p style="margin-top: 0.75rem;"><a href="../index.html" style="color: #d4af37;">Home</a> · <a href="launch-pad.html" style="color: #d4af37;">Launch Pad</a></p>
         </footer>
     </div>
-    <script>
-        (function () {
-            document.querySelectorAll('a[href^="mailto:info@fractiai.com"]').forEach(function (a) {
-                a.addEventListener('click', function (e) {
-                    var href = a.getAttribute('href');
-                    if (href) { window.location.href = href; }
-                });
-            });
-        })();
-    </script>
 </body>
 </html>
