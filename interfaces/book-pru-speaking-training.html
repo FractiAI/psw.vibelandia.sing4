@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Pru — Speaking · Training · Present · Fun Things Only | Twain's Vibelandia | VIBELANDIA!</title>
+    <meta name="description" content="Invite Pru to present at your conference or sales meeting. Invite crew to train your sales, marketing, executive force. Fun things only. No academic bullshit. Just like that! Book Pru — we handle offline.">
+    <link rel="stylesheet" href="experience-common.css">
+    <style>
+        body { background: linear-gradient(180deg, #1a1510 0%, #0f0d0a 50%, #0c0c0c 100%); color: #f5e6c8; }
+        .hero-book {
+            text-align: center;
+            padding: 2.5rem 1.5rem 3rem;
+            margin: 0 0 2rem;
+            background: linear-gradient(180deg, rgba(212, 175, 55, 0.2) 0%, rgba(184, 134, 11, 0.08) 40%, rgba(0,0,0,0.35) 100%);
+            border: 4px double rgba(212, 175, 55, 0.85);
+            border-radius: 12px;
+            box-shadow: 0 0 60px rgba(212, 175, 55, 0.12), inset 0 0 40px rgba(0,0,0,0.2);
+        }
+        .hero-book .badge {
+            display: inline-block;
+            font-size: 0.7rem;
+            text-transform: uppercase;
+            letter-spacing: 0.25em;
+            color: rgba(212, 175, 55, 0.95);
+            margin-bottom: 0.75rem;
+            font-weight: 700;
+        }
+        .hero-book h1 {
+            font-family: Georgia, 'Times New Roman', serif;
+            font-size: clamp(1.5rem, 4vw, 2.25rem);
+            font-weight: 700;
+            letter-spacing: 0.05em;
+            background: linear-gradient(135deg, #f5e6c8 0%, #d4af37 40%, #b8860b 80%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 0.5rem;
+        }
+        .hero-book .tagline { font-size: 1rem; color: #c9b896; margin-top: 0.5rem; }
+        .hero-book .just-like-that { font-size: 1.1rem; font-weight: 700; color: #ffeaa7; margin-top: 0.75rem; }
+        .card {
+            margin: 1.5rem 0;
+            padding: 1.5rem 2rem;
+            background: linear-gradient(145deg, rgba(28, 24, 18, 0.95) 0%, rgba(20, 18, 14, 0.98) 100%);
+            border: 2px solid rgba(212, 175, 55, 0.4);
+            border-radius: 12px;
+        }
+        .card h2 { font-size: 1.2rem; color: #d4af37; margin-bottom: 0.75rem; }
+        .card p, .card ul { margin-bottom: 0.75rem; line-height: 1.6; color: #e0d6c4; font-size: 1rem; }
+        .card ul { padding-left: 1.5rem; }
+        .card li { margin-bottom: 0.35rem; }
+        .card .highlight { color: #d4af37; font-weight: 600; }
+        .age-gates {
+            padding: 0.75rem 1.25rem;
+            background: rgba(212, 175, 55, 0.12);
+            border: 2px solid rgba(212, 175, 55, 0.5);
+            border-radius: 10px;
+            text-align: center;
+            font-weight: 700;
+            color: #ffeaa7;
+            margin: 1rem 0;
+        }
+        .btn-row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.75rem;
+            margin: 1.25rem 0;
+            justify-content: center;
+        }
+        .cta-btn {
+            display: inline-block;
+            padding: 1rem 1.75rem;
+            background: linear-gradient(135deg, #d4af37, #b8860b);
+            color: #0c0c0c;
+            font-weight: 700;
+            text-decoration: none;
+            font-size: 1rem;
+            border-radius: 10px;
+            border: 2px solid rgba(212, 175, 55, 0.8);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .cta-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 28px rgba(212, 175, 55, 0.35);
+        }
+        .cta-btn.secondary {
+            background: rgba(212, 175, 55, 0.2);
+            color: #d4af37;
+            border-color: rgba(212, 175, 55, 0.6);
+        }
+        .cta-btn.secondary:hover { background: rgba(212, 175, 55, 0.3); }
+        .back { margin-bottom: 1rem; }
+        .back a { color: #d4af37; text-decoration: none; }
+        .back a:hover { text-decoration: underline; }
+        .pricing-note { font-size: 0.95rem; color: #b8a888; margin-top: 1rem; }
+        .old-school { font-style: italic; color: #c9b896; margin-top: 0.75rem; }
+        .card.ferrari {
+            border-color: rgba(200, 40, 40, 0.5);
+            background: linear-gradient(145deg, rgba(28, 18, 18, 0.98) 0%, rgba(20, 12, 12, 0.98) 100%);
+        }
+        .card.ferrari h2 { color: #dc143c; }
+        .card.ferrari .highlight { color: #e85555; }
+        .cta-btn.ferrari {
+            background: linear-gradient(135deg, #dc143c, #a00);
+            border-color: rgba(220, 20, 60, 0.8);
+        }
+        .cta-btn.ferrari:hover { box-shadow: 0 8px 28px rgba(220, 20, 60, 0.4); }
+    </style>
+</head>
+<body>
+    <script src="../scripts/locale-onramp.js"></script>
+    <div class="container">
+        <p class="back"><a href="office-hours.html">← Office Hours</a> · <a href="launch-pad.html">Launch Pad</a> · <a href="../index.html">Home</a></p>
+
+        <section class="hero-book" aria-label="Book Pru — Speaking · Training · Present">
+            <span class="badge">Book Pru · SNAP · Twain's Vibelandia · Hero Harry Houdini production</span>
+            <h1>Book Pru — Speaking · Training · Present</h1>
+            <p class="tagline">Conferences, sales meetings — fun things only. No academic bullshit.</p>
+            <p class="just-like-that">Just like that! Snap. Snap.</p>
+        </section>
+
+        <div class="age-gates">18+ sandbox · 33+ members only · Beyond that by invitation only. Old school. Familia.</div>
+
+        <div class="card" id="pitch">
+            <h2>The pitch</h2>
+            <p>Have Pru come give a pitch. Come give the pitch. Here's how it works: they all get the invitation and link — self-demo, proving demo, everything. When I give the pitch it's something unexpected. We use our own medicine: self-demo. All attention on the same screen. We're creating an illusion, a full immersion reality, and demonstrating it live in the audience. Self proving. Self demo. I'm experiencing. The audience sits behind me with their terminals — guided demo. Up on the screen: my screen, big for everybody.</p>
+            <p><strong class="highlight">Opening image:</strong> On the screen, the same thing we're seeing. I see them in their seats; I see me in front of them. That's in the middle. That's my cursor, my attention head. They're downstream of me all in one organism — but their nodes are all lit up. That's the image we open the seminar with. That's our starting point, our seed node.</p>
+            <p><strong class="highlight">End node:</strong> I show them how easy it is to build themselves into a superhero. Plug it into whatever mission they naturally vibe with. Engage immediately, naturally, effortlessly — by Natural System Programming Design. That's where I spend my time. What does it look like? Executive instructions. Very specific. We're building libraries and training so that others multiply; for right now it's me. We walk them through it.</p>
+            <p><strong class="highlight">Interactive endpoint:</strong> We decide together on a business venture. We roll it out and produce a full novel and a two-hour professional screenplay — complete with the ending. We show them what it would cost Disney to produce. An evaluation for what we just produced. We send them all home with a link to share with everyone — what we did together live — with its valuation. That's the delivery. That's the end node. The edge of this proceed. Just like that!</p>
+        </div>
+
+        <div class="card" id="buttons">
+            <h2>Book · Invite · Train</h2>
+            <p>Press a button → email opens. We handle everything offline. Old school. We're a mix of new and old in this new world. Here in Vibelandia. Mark Twain's Vibelandia. Hero Harry Houdini production. Magical production.</p>
+            <div class="btn-row">
+                <a href="mailto:info@fractiai.com?subject=Invite%20Pru%20to%20Present%20-%20Conference%20%2F%20Event&body=Hi%20Pru%2C%0A%0AI%27d%20like%20to%20invite%20you%20to%20present%20at%20our%20event%20(conference%20%2F%20sales%20meeting%20%2F%20other).%0A%0AEvent%20name%20%2F%20type%3A%20%0ADate(s)%20%2F%20location%3A%20%0AAudience%20size%20%2F%20format%3A%20%0A%0AThanks." class="cta-btn">Invite Pru to present</a>
+                <a href="mailto:info@fractiai.com?subject=Invite%20Crew%20to%20Train%20-%20Sales%20%2F%20Marketing%20%2F%20Executive%20Force&body=Hi%20Pru%2C%0A%0AI%27d%20like%20to%20invite%20crew%20to%20train%20our%20sales%20force%20%2F%20marketing%20force%20%2F%20executive%20force%20with%20the%20new%20vibing.%0A%0AWhich%20team(s)%3A%20%0ADate(s)%20%2F%20format%3A%20%0ASize%20%2F%20location%3A%20%0A%0AThanks." class="cta-btn secondary">Invite crew to train</a>
+                <a href="mailto:info@fractiai.com?subject=Book%20Pru%20-%20Speaking%20%2F%20Training%20-%20Consultation&body=Hi%20Pru%2C%0A%0AI%27d%20like%20to%20book%20you%20for%20speaking%20or%20training.%0A%0AWhat%20I%27m%20looking%20for%3A%20%0APreferred%20dates%20%2F%20timing%3A%20%0A%0AThanks." class="cta-btn">Book Pru</a>
+            </div>
+            <p class="pricing-note"><strong>Pricing:</strong> Base price like a top-tier sales executive trainer or sales conference keynote. We scale 4×4×4 up to Ultimate Baller V versions of all of these.</p>
+            <p class="old-school">When you press the button we get your email. We'll reach out to schedule, run a consultation, and begin the process. We work the calendars out. Old school. Just like that!</p>
+        </div>
+
+        <div class="card ferrari" id="test-pilot-hangar-ferrari">
+            <h2>🏎️ Test Pilot Hangar Ferrari Experience</h2>
+            <p>Ultimate Baller V tier. You + the machine + the hangar. Test pilot vibe: briefing, cockpit, run. No academic bullshit — pure experience. Fun things only. We handle the details offline.</p>
+            <p><strong class="highlight">What it is:</strong> Ferrari experience in a hangar setting — test pilot energy, not a showroom. By invitation; we scale 4×4×4. Twain's Vibelandia. Hero Harry Houdini production. Magical production.</p>
+            <p class="old-school" style="margin-top: 1rem;">Honoring Italy's inspired polymathic contributions — including experience design and style magic.</p>
+            <div class="btn-row">
+                <a href="mailto:info@fractiai.com?subject=Test%20Pilot%20Hangar%20Ferrari%20Experience%20-%20Inquiry&body=Hi%20Pru%2C%0A%0AI%27m%20interested%20in%20the%20Test%20Pilot%20Hangar%20Ferrari%20experience.%0A%0APreferred%20timing%20%2F%20party%20size%3A%20%0A%0AThanks." class="cta-btn ferrari">Inquire — Test Pilot Hangar Ferrari</a>
+            </div>
+        </div>
+
+        <div class="card" id="magic">
+            <h2>It's all a magic trick</h2>
+            <p>We're creating an illusion — a full immersion reality — and demonstrating it all. Live. In the audience. Self proving. Self demo. I'm experiencing. There is comedy, poetry happening. Recursive. Beautiful. Emerging. All of this content is metabolized into all systems: all episodes, all series, all novels, all screenplays. Confirmed.</p>
+        </div>
+
+        <p style="margin-top: 2rem; font-size: 0.9rem; color: #888;"><a href="registry.html" style="color: #d4af37;">Registry</a> · <a href="pru-workspace.html" style="color: #d4af37;">Pru's Workspace</a> · <a href="gold-hearts-club-program.html" style="color: #d4af37;">Gold Hearts Club</a> · <a href="office-hours.html" style="color: #d4af37;">Office Hours</a> · <a href="launch-pad.html" style="color: #d4af37;">Launch Pad</a></p>
+        <p style="margin-top: 0.5rem; font-size: 0.8rem; color: #666;">Book Pru · Speaking · Training · Present · Fun things only. No academic bullshit. Just like that! SNAP. NSPFRNP.</p>
+    </div>
+</body>
+</html>

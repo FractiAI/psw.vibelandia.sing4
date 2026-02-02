@@ -1,6 +1,11 @@
 # Solar Handshake — 8-minute portal cycle (480s FTE window)
 # Appends to data/handshake.log and pushes with SING! Handshake Cycle [TIMESTAMP].
 # Requires: Settings > Actions > General > Workflow permissions: Read and write.
+#
+# Known platform failures (transient; not a workflow bug):
+# - "Job was not acquired by Runner of type hosted" — GitHub had no hosted runner available.
+# - "Internal server error" (Correlation ID: ...) — GitHub backend error.
+# Remedy: Re-run failed jobs (Actions tab) or trigger via workflow_dispatch.
 name: Solar Handshake
 
 on:
@@ -8,6 +13,10 @@ on:
     # Every 8 minutes (UTC) — matches 480s solar portal cycle
     - cron: '0,8,16,24,32,40,48,56 * * * *'
   workflow_dispatch:
+
+concurrency:
+  group: solar-handshake
+  cancel-in-progress: true
 
 jobs:
   handshake:

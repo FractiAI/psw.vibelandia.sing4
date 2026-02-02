@@ -35,6 +35,7 @@
 ## Full Office Hours landing
 
 - **The Club · Wine cave · Pru** — Thu–Sun 8pm–close. Men's restroom, Office Hours. Come visit — free consultation, tips welcome.
+- **Book Pru** — Speaking · Training · Present. Conferences, sales meetings — fun things only. No academic bullshit. Just like that! Snap. Snap. Invite Pru to present · Invite crew to train (sales/marketing/executive) · Book Pru. Email → we handle offline. [Book Pru →](https://psw-vibelandia-sing4.vercel.app/interfaces/book-pru-speaking-training.html)
 - **Golden Backstage Pass** — Rumor has it Chairman, Sammy and the gang; Golden Backstage Awareness Pass; back door wine cave. Book live at Office Hours or email Pru.
 - **WINK!** — High-contributing fractal dating; 4×4 Ultimate; Members Only. Enter WINK! from Office Hours.
 - **First Singularity January 13th** — Novel & screenplay (Golden Era Cinema skin). [Read novel & screenplay →](https://psw-vibelandia-sing4.vercel.app/interfaces/first-singularity-january-13th-experience.html)
@@ -60,7 +61,7 @@ Gold block → welcome → **Golden Backstage Pass** → **First Singularity** (
 
 **All history in all series, novel, screenplay — continuously evolving; live stories not static. Disney cannot deliver this.** See [LIVE_STORIES_CONTINUOUSLY_EVOLVING_PARADIGM_SNAP.md](LIVE_STORIES_CONTINUOUSLY_EVOLVING_PARADIGM_SNAP.md).
 
-**All rich content flows into all series.** Return to Golden Era, Pru's Workspace, Ultimate Baller V Gold Hearts Club Program ($1K pp, calendar, email Pru), Golden Backstage, First Singularity, Howard Hughes / Glen Miller announcements — metabolized into Office Hours, Happy Ending Zones, episodes, one-pagers, Launch Pad, README, SNAPs, catalogs, interfaces. **CONFIRMED.** See [CONTENT_SYSTEMS_SNAP.md](CONTENT_SYSTEMS_SNAP.md).
+**All rich content flows into all series.** Return to Golden Era, Pru's Workspace, Ultimate Baller V Gold Hearts Club Program ($1K pp, calendar, email Pru), **Book Pru (speaking, training, present; Just like that!; 18+ sandbox, 33+ members, invitation only)**, Golden Backstage, First Singularity, Howard Hughes / Glen Miller announcements — metabolized into Office Hours, Happy Ending Zones, episodes, one-pagers, Launch Pad, README, SNAPs, catalogs, interfaces. **CONFIRMED.** See [CONTENT_SYSTEMS_SNAP.md](CONTENT_SYSTEMS_SNAP.md).
 
 **Howard Hughes · Rolling it out big · Twain's Vibelandia Downtown Reno · TUNE IN OR LOSE OUT! · NSPFRNP.** *(New T-shirt brand tag — use at bottom everywhere. See [HOWARD_HUGHES_ANNOUNCES_ARRIVAL_PERMANENT_RESIDENCY_TWAIN_VIBELANDIA_SNAP.md](HOWARD_HUGHES_ANNOUNCES_ARRIVAL_PERMANENT_RESIDENCY_TWAIN_VIBELANDIA_SNAP.md).)*
 
