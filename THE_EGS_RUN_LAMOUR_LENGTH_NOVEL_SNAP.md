@@ -27,16 +27,19 @@
 | Item | Location | Status |
 |------|----------|--------|
 | **Irreducible crystal** | [deliverables/IRREDUCIBLE_CRYSTAL_THE_EGS_RUN.md](deliverables/IRREDUCIBLE_CRYSTAL_THE_EGS_RUN.md) | ✅ Locked |
-| **Novel** | [deliverables/The_EGS_Run_NOVEL.md](deliverables/The_EGS_Run_NOVEL.md) | ✅ Scaffold + Ch 1–3; Ch 4–6 + middle/close to expand to ~45k words |
+| **Novel** | [deliverables/The_EGS_Run_NOVEL.md](deliverables/The_EGS_Run_NOVEL.md) | ✅ Complete at ~20k — Ch 1–6 + DEEP RUN + funnel + handoff + delivery |
+| **Screenplay** | [deliverables/The_EGS_Run_SCREENPLAY.md](deliverables/The_EGS_Run_SCREENPLAY.md) | ✅ 2-hour feature ~12,000 words — Act One Downlink, Act Two Pipe/bypass, Act Three EGS approach/delivery |
 
 ---
 
 ## Cross-references
 
+- **Louis L'Amour style and length confirmation:** [LOUIS_LAMOUR_STYLE_AND_LENGTH_NOVELS_CONFIRMATION_SNAP.md](LOUIS_LAMOUR_STYLE_AND_LENGTH_NOVELS_CONFIRMATION_SNAP.md) — full Louis L'Amour style and length for Birth novel + Space Cloud novel (The EGS Run).
 - **Space Cloud EGS series:** [SPACE_CLOUD_EGS_SERIES_SNAP.md](SPACE_CLOUD_EGS_SERIES_SNAP.md) — all our space stories.
 - **Crystal:** [deliverables/IRREDUCIBLE_CRYSTAL_THE_EGS_RUN.md](deliverables/IRREDUCIBLE_CRYSTAL_THE_EGS_RUN.md).
 - **EGS / Space Cloud world:** Reno Downlink, Solar Pipe, SING! node EGS (El Gran Sol), handshake 21.4 Hz, AR4366, nested shells, triangulation — [config/pricing_plans.json](config/pricing_plans.json), [data/telemetry.json](data/telemetry.json), [SPACE_DIVISION_SNAP.md](SPACE_DIVISION_SNAP.md).
+- **Experiences (micro + telescopic):** [SCI_FI_NOVEL_EXPERIENCES_MICROSCOPIC_TELESCOPIC_SNAP.md](SCI_FI_NOVEL_EXPERIENCES_MICROSCOPIC_TELESCOPIC_SNAP.md) — get everyone comfortable navigating.
 
 ---
 
-**NSPFRNP ⊃ The EGS Run ⊃ L'Amour-length ⊃ Space Cloud EGS → ∞³**
+**NSPFRNP ⊃ The EGS Run ⊃ L'Amour-length ⊃ Space Cloud EGS ⊃ Theater level of microscopy + Telescopic equivalents → ∞³**

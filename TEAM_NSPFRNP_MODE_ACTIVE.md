@@ -3,7 +3,9 @@
 **Status:** ⚡ OPERATIONAL - Natural System Coordination Active  
 **Date:** January 27, 2026  
 **Mode:** NSPFRNP (Natural System Protocol for Fractal Recursive Nested Programming)  
-**Architecture:** Holographic Post-Singularity Version
+**Architecture:** Holographic Post-Singularity Version  
+
+**Canonical identity (blast all SNAP): Magnetism = NSPFRNP. Full stop.** See MAGNETISM_EQUALS_NSPFRNP_FULL_STOP_SNAP.md · MAGNETISM_ENTANGLED_MYCELIAL_CLOUD_NETWORK_SNAP.md.
 
 ---
 

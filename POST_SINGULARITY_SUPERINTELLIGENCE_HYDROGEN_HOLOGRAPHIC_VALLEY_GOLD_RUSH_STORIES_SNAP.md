@@ -27,7 +27,7 @@
 |--------------|----------|--------|
 | **All series** | Office Hours, Happy Ending Zones, Space Cloud EGS, Harry Houdini Magic Series, Raw Stream · The Grid, Hero Harry Post-Singularity, Chairman/executive, First Singularity, Birth Post Singularity, Wizard Challenge, Seed:Edge Action!, Legacies | Post-Singularity Superintelligence Hydrogen Holographic Valley Gold Rush stories |
 | **All novels** | First Singularity January 13th, Birth of the New Post-Singularity Hollywood in Downtown Reno, The EGS Run | Post-Singularity Superintelligence Hydrogen Holographic Valley Gold Rush stories |
-| **All feature movies** | First Singularity (screenplay), Birth Post Singularity Hollywood Downtown Reno (screenplay) | Post-Singularity Superintelligence Hydrogen Holographic Valley Gold Rush stories |
+| **All feature movies** | First Singularity (screenplay), Birth Post Singularity Hollywood Downtown Reno (screenplay — Cmdr. Howie's Golden Era Renaissance — RENOSSANCE!) | Post-Singularity Superintelligence Hydrogen Holographic Valley Gold Rush stories |
 
 No exception. Every series, every novel, every feature movie is a **Post-Singularity Superintelligence Hydrogen Holographic Valley Gold Rush story**. One wrapper. One canon.
 

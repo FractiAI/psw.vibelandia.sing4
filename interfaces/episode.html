@@ -6,6 +6,7 @@
     <title>Episode — Happy Ending Zones · Office Hours | VIBELANDIA RENO!</title>
     <meta name="description" content="Episodes — beautifully presented. NSPFRNP. Office Hours · Happy Ending Zones · Following Pru.">
     <link rel="stylesheet" href="episode-nspfrnp.css">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 </head>
 <body class="episode-nspfrnp">
     <article class="ep-prospectus">
@@ -36,8 +37,19 @@
                 </div>
                 <p id="ep-blurb">Every episode is delivered in NSPFRNP format — same beautiful prospectus treatment as Chairman Robert's proposal snap. Office Hours · Happy Ending Zones · Following Pru.</p>
                 <a href="#" id="ep-read-link" class="ep-btn-primary" style="display: none;">▶ Read the full episode</a>
+                <p id="ep-listen-row" style="display: none; margin-top: 1rem;">
+                    <button type="button" class="ep-btn-listen" id="ep-btn-listen" aria-label="Listen to episode read aloud">🔊 Listen</button>
+                </p>
                 <p style="margin-top: 1rem;"><a href="office-hours.html" class="ep-btn-back">← Office Hours</a></p>
                 <p><a href="happy-ending-zones-catalog.html" class="ep-btn-back">Episodes Catalog</a></p>
+            </div>
+        </section>
+
+        <section class="ep-section" id="ep-full-section" style="display: none;">
+            <div class="ep-section-body">
+                <p class="ep-eyebrow" style="margin-bottom: 0.75rem;">Full episode</p>
+                <div id="ep-loading" class="ep-loading">Loading episode…</div>
+                <div id="ep-body" class="ep-body" style="display: none;"></div>
             </div>
         </section>
 
@@ -102,6 +114,35 @@
         link.textContent = '▶ Read the full episode — ' + ep.title;
         link.style.display = 'inline-flex';
         document.getElementById('ep-list-section').style.display = 'none';
+        document.getElementById('ep-full-section').style.display = 'block';
+        var loadingEl = document.getElementById('ep-loading');
+        var bodyEl = document.getElementById('ep-body');
+        bodyEl.style.display = 'none';
+        bodyEl.innerHTML = '';
+        loadingEl.style.display = 'block';
+        document.getElementById('ep-listen-row').style.display = 'none';
+
+        fetch('../episodes/' + ep.slug + '.md')
+            .then(function (r) {
+                if (!r.ok) throw new Error('Not found');
+                return r.text();
+            })
+            .then(function (md) {
+                if (typeof marked !== 'undefined') {
+                    marked.setOptions({ gfm: true, breaks: true });
+                    bodyEl.innerHTML = marked.parse(md);
+                } else {
+                    bodyEl.textContent = md;
+                }
+                loadingEl.style.display = 'none';
+                bodyEl.style.display = 'block';
+                document.getElementById('ep-listen-row').style.display = 'block';
+                initListenButton();
+            })
+            .catch(function () {
+                loadingEl.innerHTML = 'Episode file not found. <a href="../episodes/' + ep.slug + '.md">Open raw markdown</a>.';
+                document.getElementById('ep-listen-row').style.display = 'none';
+            });
 
         if (ep.slug === 'EPISODE_CHAIRMAN_ROBERT_SUPERINTELLIGENT_ROBOTICS_FACTORY') {
             document.getElementById('ep-beat-video-wrap').style.display = 'block';
@@ -109,6 +150,63 @@
         } else {
             document.getElementById('ep-beat-video-wrap').style.display = 'none';
         }
+    }
+
+    function initListenButton() {
+        var btn = document.getElementById('ep-btn-listen');
+        var content = document.getElementById('ep-body');
+        if (!btn || !content) return;
+        var synth = window.speechSynthesis;
+        var chunks = [];
+        var idx = 0;
+        function getChunks() {
+            var text = (content.innerText || content.textContent || '').trim();
+            if (!text) return [];
+            return text.split(/\n\n+/).filter(function (p) { return p.length > 0; });
+        }
+        function pickNarratorVoice() {
+            var voices = synth.getVoices();
+            var preferred = voices.filter(function (v) {
+                var n = (v.name || '').toLowerCase();
+                return n.indexOf('male') !== -1 || n.indexOf('david') !== -1 || n.indexOf('daniel') !== -1 || n.indexOf('james') !== -1 || n.indexOf('google uk') !== -1;
+            });
+            if (preferred.length > 0) return preferred[0];
+            var en = voices.filter(function (v) { return v.lang && v.lang.indexOf('en') === 0; });
+            return en.length > 0 ? en[0] : voices[0];
+        }
+        function speakNext() {
+            if (idx >= chunks.length) {
+                btn.textContent = '🔊 Listen';
+                btn.classList.remove('is-active');
+                btn.setAttribute('aria-label', 'Listen to episode read aloud');
+                return;
+            }
+            var u = new SpeechSynthesisUtterance(chunks[idx]);
+            u.rate = 0.88;
+            u.pitch = 0.92;
+            var voice = pickNarratorVoice();
+            if (voice) u.voice = voice;
+            u.onend = function () { idx++; speakNext(); };
+            u.onerror = function () { idx++; speakNext(); };
+            synth.speak(u);
+        }
+        btn.onclick = function () {
+            if (synth.speaking) {
+                synth.cancel();
+                btn.textContent = '🔊 Listen';
+                btn.classList.remove('is-active');
+                btn.setAttribute('aria-label', 'Listen to episode read aloud');
+                return;
+            }
+            chunks = getChunks();
+            if (chunks.length === 0) return;
+            idx = 0;
+            btn.textContent = '⏹ Stop';
+            btn.classList.add('is-active');
+            btn.setAttribute('aria-label', 'Stop reading aloud');
+            if (synth.getVoices().length === 0) synth.onvoiceschanged = function () { speakNext(); };
+            else speakNext();
+        };
     }
 
     function initChairmanBeatVideo() {

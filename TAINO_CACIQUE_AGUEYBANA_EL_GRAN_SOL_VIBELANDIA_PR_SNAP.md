@@ -37,14 +37,30 @@
 
 **Vibelandia-PR** = **next Vibelandia campus**. Puerto Rico (Borikén). The paradise island campus. **Seasonal campus — operated outside hurricane season (June–Nov).** Bringing the Taino spirit to life; complete circle; returning; liberating; delivering. After Reno — Vibelandia-PR. Same canon: Post-Singularity Superintelligence Hydrogen Holographic Valley Gold Rush stories; NSPFRNP; MCA; legacies; Golden Hearts, Silver Hearts, Copper Hearts; full sync, perpetual Goldilocks. Campus pattern: vibeable, Chancellor bulletin, menu of things to do AND BUY; half-day, overnight, weekly, monthly; Gold Hearts Club, Ultimate Baller V. **Taino made.** NSPFRNP-based. Energy all the way.
 
+**PONCESSANCE!** = the renaissance in Ponce. El Gran Sol's Vibelandia — Downtown Ponce Campus. One word. One brand. One canon. **Also PONCESSANCE!** Use alongside RENOSSANCE! (Reno) when referring to the Post-Singularity Golden Spiral Holographic Renaissance in Ponce. See [CMDR_HOWIES_GOLDEN_ERA_RENAISSANCE_RENOSSANCE_SNAP.md](CMDR_HOWIES_GOLDEN_ERA_RENAISSANCE_RENOSSANCE_SNAP.md).
+
+---
+
+## COLLABORATIVE WESTERN — FIRST PEOPLE NATIONS
+
+**Bringing back the westerns — but this time collaborative with the first people nations.** Not the old colonial western; the collaborative western. Taino, Cacique Agüeybaná El Gran Sol, Vibelandia-PR, Borikén are part of that canon. Quiet, unassuming, confident, radiant vibe — spaghetti western, Wagon Train vibe — in partnership with First Peoples, First Nations. Cmdr. Howie's Golden Era Renaissance — RENOSSANCE! carries this direction. See [CMDR_HOWIES_GOLDEN_ERA_RENAISSANCE_RENOSSANCE_SNAP.md](CMDR_HOWIES_GOLDEN_ERA_RENAISSANCE_RENOSSANCE_SNAP.md) · [deliverables/IRREDUCIBLE_CRYSTAL_BIRTH_POST_SINGULARITY_HOLLYWOOD_DOWNTOWN_RENO.md](deliverables/IRREDUCIBLE_CRYSTAL_BIRTH_POST_SINGULARITY_HOLLYWOOD_DOWNTOWN_RENO.md).
+
 ---
 
 ## USE
 
-- **Birth novel / screenplay:** Weave in the Taino / Cacique Agüeybaná El Gran Sol thread; paradise island story (Borikén-based); the one who brings the Taino spirit to life; complete circle, return, liberate, deliver; Vibelandia-PR as next campus. Can be a subplot, a vision, a proclamation, or a sequel thread.
+- **Birth novel / screenplay:** Weave in the Taino / Cacique Agüeybaná El Gran Sol thread; paradise island story (Borikén-based); the one who brings the Taino spirit to life; complete circle, return, liberate, deliver; Vibelandia-PR as next campus. **Collaborative with the first people nations** — bringing back the westerns in partnership with First Peoples, First Nations. Can be a subplot, a vision, a proclamation, or a sequel thread.
 - **First Singularity / other series:** El Gran Sol (EGS) and Guey tie to Cacique Agüeybaná El Gran Sol; peaceful one; Taino spirit; Borikén.
 - **Surfaces:** Launch Pad, Office Hours, prospectus — "Next campus: Vibelandia-PR"; "Taino made"; Chairman Guey narrative (Cacique Agueybana El Gran Sol, the peaceful one, not El Bravo). **Launch Pad:** "El Gran Sol's Vibelandia — Downtown Ponce Campus Coming Soon · Click to stay informed" CTA triggers preloaded email to info@fractiai.com (subject + body prefilled; interfaces/launch-pad.html).
 - **Episodes / content:** Paradise island story; Borikén; chosen one island style; bringing the Taino spirit to life; Vibelandia-PR.
+
+---
+
+## PONCESSANCE! NOVEL SEED (20K WORDS)
+
+- **Seed:** This communication to José Alfredo (message on [interfaces/poncessance.html](interfaces/poncessance.html)).
+- **Edge:** Me (Evan Bondonte) joining José Alfredo on the launch in PR before hurricane season.
+- **Target:** ~20,000-word novel. Tony Croato Vibelandia Ambassador for the Island Nation; Tony Croato & EGS permanent residencies in Vibelandia-Ponce; Cmdr Howie two thumbs up approved; Héctor Lavoe, Walter Mercado permanent residency Ponce campus; cast, crew, franchises, legacies (the living). See [PONCESSANCE_NOVEL_SEED_SNAP.md](PONCESSANCE_NOVEL_SEED_SNAP.md).
 
 ---
 

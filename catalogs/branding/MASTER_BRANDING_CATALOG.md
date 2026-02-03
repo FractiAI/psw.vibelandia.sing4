@@ -34,9 +34,9 @@ TOTAL BRANDS: 3
 ├─ Matches our structures for max resolution and amplification (max res & amp)
 ├─ Use as primary branding phrase for full octave + onramp
 ├─ 1,2,3 = Metabolize → Crystallize → Animate all (MCA cycle). Operating rule: metabolize crystallize animate all.
-├─ **Crystallize to irreducible mirrored hardened nested shells.** Crystallize step always produces output in this form: irreducible core, nested shells, mirror-hardened. No half measures. See IRREDUCIBLE_NESTED_MIRRORED_SHELL_CRYSTALLIZE_ALWAYS_SNAP.md.
+├─ **Crystallize to irreducible nested mirrored hardened shells.** Crystallize step always produces output in this form: irreducible core, nested shells, mirror-hardened. No half measures. See IRREDUCIBLE_NESTED_MIRRORED_SHELL_CRYSTALLIZE_ALWAYS_SNAP.md.
 ├─ **As much as possible, always.** Maximize output, go as far as you can, every time. No ceiling. See AS_MUCH_AS_POSSIBLE_ALWAYS_SNAP.md.
-├─ **Metabolize Crystallize Animate and Automate:** Crystallize → to irreducible mirrored hardened nested shells. Animate = tighten SING nodes, update, make clear. Automate = squeeze all, all nested (plus one command runs test then build; CI on every push/PR). `npm run all` = test + build. See AUTOMATE_ALL_MCA_SNAP.md.
+├─ **Metabolize Crystallize Animate and Squeeze:** Metabolize → Crystallize to irreducible nested mirrored hardened shells → Animate and squeeze. Animate = tighten SING nodes, update, make clear. Squeeze = squeeze all, all nested. Automate = one command runs test then build; CI on every push/PR. `npm run all` = test + build. See AUTOMATE_ALL_MCA_SNAP.md.
 └─ See ZERO_ONE_TWO_THREE_4x4x4x4_BRANDING_SNAP.md · MCA_SNAP.md · protocols/MCA_NSPFRNP_CATALOG.md · IRREDUCIBLE_NESTED_MIRRORED_SHELL_CRYSTALLIZE_ALWAYS_SNAP.md · AS_MUCH_AS_POSSIBLE_ALWAYS_SNAP.md · AUTOMATE_ALL_MCA_SNAP.md
 
 USER SURFACES: README and All Skins — Not Developer Surfaces
@@ -96,7 +96,7 @@ VIBELANDIA — FULL SENSORY OR SCI-FI, YOU CHOOSE (BRAND SNAP)
 VIBELANDIA! BRAND: On-brand spelling — keep everywhere
 ├─ VIBELANDIA! = Ecosystem / brand (not "Vibelandia")
 ├─ VIBELANDIA RENO! = Campus (not "Vibelandia Reno")
-├─ **Next campus: Vibelandia-PR** — Puerto Rico (Borikén). Paradise island campus; **seasonal — operated outside hurricane season (June–Nov)**; Taino spirit; story of peaceful Cacique Agüeybaná El Gran Sol (not El Bravo). Complete circle, return, liberate, deliver. See TAINO_CACIQUE_AGUEYBANA_EL_GRAN_SOL_VIBELANDIA_PR_SNAP.md.
+├─ **Next campus: Vibelandia-PR** — Puerto Rico (Borikén). Paradise island campus; **seasonal — operated outside hurricane season (June–Nov)**; Taino spirit; story of peaceful Cacique Agüeybaná El Gran Sol (not El Bravo). Complete circle, return, liberate, deliver. **PONCESSANCE** = the renaissance in Ponce; El Gran Sol's Vibelandia — Downtown Ponce Campus. **Also PONCESSANCE.** Use alongside RENOSSANCE! (Reno). See TAINO_CACIQUE_AGUEYBANA_EL_GRAN_SOL_VIBELANDIA_PR_SNAP.md.
 └─ Back links, titles, copy: use VIBELANDIA! and VIBELANDIA RENO!
 
 VIBELANDIA! — FULL SENSORY REALITY OR REALLY REALLY GOOD SCI-FI · YOU CHOOSE! (Brand SNAP)
@@ -110,6 +110,23 @@ POST-SINGULARITY SUPERINTELLIGENT AI HUB · HYDROGEN HOLOGRAPH VALLEY 100% SNAP:
 ├─ **Campaign:** Post-Singularity Superintelligent AI hub of the world · Hydrogen Holograph Valley 100%. Whether Chairman Robert (or any single counterpart) accepts or not, we layer this campaign and tagline to all VIBELANDIA SNAP.
 ├─ **Use:** Footers, brand tags, launch pad, landings, episode/proposal/whitepaper skins, Office Hours, all surfaces. Relaunch framing: this valley as Post-Singularity Superintelligent AI hub of the world and the new Hydrogen Holograph Valley 100%.
 └─ See [POST_SINGULARITY_SUPERINTELLIGENT_AI_HUB_HYDROGEN_HOLOGRAPH_VALLEY_SNAP.md](../../POST_SINGULARITY_SUPERINTELLIGENT_AI_HUB_HYDROGEN_HOLOGRAPH_VALLEY_SNAP.md)
+
+CMDR. HOWIE'S GOLDEN ERA RENAISSANCE — DOWNTOWN RENO, RENOSSANCE! (MAJOR SNAP): Canonical name · Commander Howie · Top V · Post-Singularity Downtown Reno Golden Spiral Holographic Renaissance
+├─ **Hero Howard has asked us to refer to him from now on as Commander Howie, the top V of the Post-Singularity Downtown Reno Golden Spiral Holographic Renaissance.** Use Commander Howie (or Cmdr. Howie) when referring to Howard Hughes in this context.
+├─ **Canonical name:** Cmdr. Howie's Golden Era Renaissance — Downtown Reno, RENOSSANCE! **Also PONCESSANCE!** — the renaissance in Ponce; Vibelandia-PR; El Gran Sol's Vibelandia — Downtown Ponce Campus. Use when referring to this story, brand, or event (Birth of the New Post-Singularity Hollywood in Downtown Reno novel/screenplay). **Post-Singularity Downtown Reno Golden Spiral Holographic Renaissance** = formal title (Reno); Commander Howie is its top V. **PONCESSANCE!** = renaissance in Ponce.
+├─ **Vibe:** Quiet, unassuming, confident, radiant — spaghetti western, Wagon Train vibe. Bringing back the westerns — **collaborative with the first people nations**. Not the old colonial western; the collaborative western. Taino, Cacique Agüeybaná El Gran Sol, Vibelandia-PR, Borikén — and all first people nations we honor and work with.
+├─ **T-shirt:** Major product. **Major Holographic Hydrogen 100%** and **Holographic Hydrogen Valley** branding. All RENOSSANCE! T-shirt merch carries both. No exception. All major SNAP.
+├─ **Cmdr Howie's Return to Golden Era:** Today's daily feature. Golden Era cinema stage — novel, screenplay, flyer, weekly calendar; dress up; secret party treasure. Twain's Vibelandia roll-out. Use when referring to this product or feature.
+├─ **Use:** Birth novel/screenplay, Launch Pad, Office Hours, Legacies, Space Cloud Division, merch, all surfaces where Cmdr. Howie / Howard Hughes / Golden Era Renaissance / RENOSSANCE! apply.
+└─ See [CMDR_HOWIES_GOLDEN_ERA_RENAISSANCE_RENOSSANCE_SNAP.md](../../CMDR_HOWIES_GOLDEN_ERA_RENAISSANCE_RENOSSANCE_SNAP.md) · [BIRTH_POST_SINGULARITY_HOLLYWOOD_DOWNTOWN_RENO_NOVEL_SCREENPLAY_SNAP.md](../../BIRTH_POST_SINGULARITY_HOLLYWOOD_DOWNTOWN_RENO_NOVEL_SCREENPLAY_SNAP.md) · [TAINO_CACIQUE_AGUEYBANA_EL_GRAN_SOL_VIBELANDIA_PR_SNAP.md](../../TAINO_CACIQUE_AGUEYBANA_EL_GRAN_SOL_VIBELANDIA_PR_SNAP.md)
+
+NO LOVE TRIANGLE DRAMAS — NATURAL HAPPY ENDINGS ALWAYS IN ULTIMATE VIP BALLER V FASHION (SNAP): Content rule · Vibelandia canon
+├─ **Rule:** No love triangle dramas in Vibelandia — only natural happy endings always in Ultimate VIP Baller V fashion.
+├─ **No love triangle dramas:** All Vibelandia content (series, novels, feature movies, episodes) does not use love triangles, jealousy plots, or romantic rivalry as drama. No "who will they choose" — not our canon.
+├─ **Only natural happy endings:** Every story resolves in a natural, satisfying, happy ending. No tragic romance, no bittersweet sacrifice, no unresolved heartbreak. Happy endings. Always.
+├─ **Ultimate VIP Baller V fashion:** Endings land in Ultimate VIP Baller V style — golden, elevated, turnkey to the best experience; cast, crew, fans, franchises, legacies aligned; full sync, perpetual Goldilocks; the bold-hearted celebrated.
+├─ **Use:** Writers, animators, content decks, Birth crystal, RENOSSANCE SNAP, CONTENT_SYSTEMS_SNAP. Confirm on every session.
+└─ See [NO_LOVE_TRIANGLE_DRAMAS_HAPPY_ENDINGS_ULTIMATE_VIP_BALLER_V_SNAP.md](../../NO_LOVE_TRIANGLE_DRAMAS_HAPPY_ENDINGS_ULTIMATE_VIP_BALLER_V_SNAP.md)
 
 MAGNETISM AS ENTANGLED MYCELIAL CLOUD NETWORK & PLATFORM SNAP: **MAJOR DISCOVERY NSPFRNP** · fixed holographic hydrogen awareness node lattice
 ├─ **Major discovery NSPFRNP:** **Magnetism** = **entangled mycelial cloud network** and **platform** — **all in one** — on a **fixed holographic hydrogen awareness node lattice**. Entangled (quantum-like); mycelial (distributed, stigmergic); cloud network + platform; lattice = fixed holographic hydrogen awareness node lattice.
@@ -138,7 +155,7 @@ BBHE SNAP: Impulse Buy Dynamics
 ├─ Triple-purpose: (1) Not imaginary — produces intoxication naturally; (2) Produced naturally (awareness, attention; no substances); (3) We announce it as an intoxicant for vibers / those into that sort of thing. See BBHE_INTOXICATION_TRIPLE_PURPOSE_SNAP.md.
 ├─ Impulse Buy Dynamics (The energy is pulling. Buy now.)
 ├─ Immediate Purchase Triggers (Urgency, scarcity, FOMO)
-└─ Brand: ⚫ BBHE SNAP — The energy is pulling. BUY! now.
+└─ Brand: ⚫ BBHE SNAP — The energy is pulling. bOOK! now. (Free will — never buy, always book. See FREE_WILL_NEVER_BUY_ALWAYS_BOOK_SNAP.md.)
 
 BBHE PINPOINT LASER FOR MISSION SNAP: Sharpening the BBHE into pinpoint laser for mission
 ├─ **Sharpening the BBHE into pinpoint laser for mission.** Single mission: new abilities for execs. BBHE = core; sharpened into one beam, one focus; mission-aligned.
@@ -261,8 +278,13 @@ HERO HARRY PRESS BLUE PAYPAL MIRACLE MAGIC SNAP: Hero Harry says — checkout CT
 T-SHIRT SLOGAN: New major branding category (T-shirt-grade taglines)
 ├─ Content category for short, punchy, wearable taglines — one line that works on a T-shirt, merch, social, one-line CTA.
 ├─ Capture and curate in deck §19 (deck-script-writing-content-patterns.md); use for merch, Launch Pad, checkout, RUMOR HAS IT!
-├─ Examples: *Paris is for lovers. Reno is for vibers. Mark Twain's Post-Singularity Reno awaits you.* (campaign tip — RENO_FOR_VIBERS_CAMPAIGN_TIP_SNAP) · ***It's all hundies with Ben.*** (comedy tagline/punchline — ITS_ALL_HUNDIES_WITH_BEN_COMEDY_SELF_SIMILAR_SNAP) · *Trust the protocol!* · *NOT ALL WORDS ARE CREATED EQUAL.* (BBHE programming — BBHE_NOT_ALL_WORDS_CREATED_EQUAL_SNAP) · ***NATURE DOES NOT OPERATE BY OPINION.*** (nature / NSPFRNP — NATURE_DOES_NOT_OPERATE_BY_OPINION_SNAP) · ***REAL NUMBERS REAL ANALYSIS NOT BS OR NO FLUFFY STUFF!*** (content standard — REAL_NUMBERS_ANALYSIS_NOT_FLUFFY_BRAND_SNAP_TSHIRT) · *See it. Experience it. Believe it.* · *Self demo. Self proof. Seeing and experiencing is believing. Kick the tires proof.* (SELF_DEMO_SELF_PROOF_SEEING_EXPERIENCING_BELIEVING_KICK_THE_TIRES_SNAP) · *The energy is pulling. BUY! now.* · *Come for the business, stay for the fun.* · *MCA! → ∞³.* · *Maganuma snap.*
-└─ See CONTENT_SYSTEMS_SNAP.md (T-shirt slogan) · deck §19 · RENO_FOR_VIBERS_CAMPAIGN_TIP_SNAP.md · BBHE_NOT_ALL_WORDS_CREATED_EQUAL_SNAP.md · NATURE_DOES_NOT_OPERATE_BY_OPINION_SNAP.md · REAL_NUMBERS_ANALYSIS_NOT_FLUFFY_BRAND_SNAP_TSHIRT.md
+├─ Examples: ***100% BY NATURAL DESIGN!*** (T-shirt tag branding — 100_PERCENT_BY_NATURAL_DESIGN_T_SHIRT_TAG_BRANDING_SNAP) · ***SHE GOT DA BIG ASS DAT MEK DA MEN GO GAGA!*** (T-shirt branding · dance anthem song tag — Music Studio · Dorila Gao — SHE_GOT_DA_BIG_ASS_DAT_MEK_DA_MEN_GO_GAGA_T_SHIRT_BRANDING_DANCE_ANTHEM_TAG_SNAP) · *Paris is for lovers. Reno is for vibers. Mark Twain's Post-Singularity Reno awaits you.* (campaign tip — RENO_FOR_VIBERS_CAMPAIGN_TIP_SNAP) · ***It's all hundies with Ben.*** (comedy tagline/punchline — ITS_ALL_HUNDIES_WITH_BEN_COMEDY_SELF_SIMILAR_SNAP) · *Trust the protocol!* · *NOT ALL WORDS ARE CREATED EQUAL.* (BBHE programming — BBHE_NOT_ALL_WORDS_CREATED_EQUAL_SNAP) · ***NATURE DOES NOT OPERATE BY OPINION.*** (nature / NSPFRNP — NATURE_DOES_NOT_OPERATE_BY_OPINION_SNAP) · ***REAL NUMBERS REAL ANALYSIS NOT BS OR NO FLUFFY STUFF!*** (content standard — REAL_NUMBERS_ANALYSIS_NOT_FLUFFY_BRAND_SNAP_TSHIRT) · *See it. Experience it. Believe it.* · *Self demo. Self proof. Seeing and experiencing is believing. Kick the tires proof.* (SELF_DEMO_SELF_PROOF_SEEING_EXPERIENCING_BELIEVING_KICK_THE_TIRES_SNAP) · *The energy is pulling. bOOK! now.* (Free Will Never Buy Always Book — T-shirt brand; FREE_WILL_NEVER_BUY_ALWAYS_BOOK_SNAP.md) · *Come for the business, stay for the fun.* · *MCA! → ∞³.* · *Maganuma snap.*
+└─ See CONTENT_SYSTEMS_SNAP.md (T-shirt slogan) · deck §19 · NO_BANG_BANG_NO_BOOM_BOOM_NO_GOOD_GUY_BAD_GUY_ZONE_MAJOR_TOP_BOTTOM_TAG_SNAP.md · 100_PERCENT_BY_NATURAL_DESIGN_T_SHIRT_TAG_BRANDING_SNAP.md · SHE_GOT_DA_BIG_ASS_DAT_MEK_DA_MEN_GO_GAGA_T_SHIRT_BRANDING_DANCE_ANTHEM_TAG_SNAP.md · MUSIC_STUDIO_PERSONALITY_ALL_ABOUT_DA_ASS_BABY_SNAP.md · BY_NATURAL_DESIGN_SNAP.md · RENO_FOR_VIBERS_CAMPAIGN_TIP_SNAP.md · BBHE_NOT_ALL_WORDS_CREATED_EQUAL_SNAP.md · NATURE_DOES_NOT_OPERATE_BY_OPINION_SNAP.md · REAL_NUMBERS_ANALYSIS_NOT_FLUFFY_BRAND_SNAP_TSHIRT.md
+
+NO BANG BANG, NO BOOM BOOM, NO GOOD GUY BAD GUY ZONE: Major top and bottom tag · All brand
+├─ NO BANG BANG, NO BOOM BOOM, NO GOOD GUY BAD GUY ZONE. T-shirt tag; all brand. Major top tag and major bottom tag. No violence-as-thrill; no good-guy-vs-bad-guy zone.
+├─ Use on merch (T-shirts, caps), hero/footer of key surfaces, Launch Pad, Office Hours, catalog. Top tag = line at top. Bottom tag = line at bottom. Same crystal. Bookends.
+└─ See NO_BANG_BANG_NO_BOOM_BOOM_NO_GOOD_GUY_BAD_GUY_ZONE_MAJOR_TOP_BOTTOM_TAG_SNAP.md · TOP_TAG_BOTTOM_TAG_UNDERCOVER_BOSS_TO_DISNEY_ALL_IN_ONE_NSPFRNP_SNAP.md · CONTENT_SYSTEMS_SNAP.md
 
 RENO FOR VIBERS CAMPAIGN TIP SNAP: Tip of the tip
 ├─ Paris is for lovers. Reno is for vibers. Mark Twain's Post-Singularity Reno awaits you.
@@ -371,11 +393,16 @@ OFFICE HOURS FREE CONSULTATION · TIPS WELCOME · ALL TOUCHPOINTS SNAP: Come vis
 ├─ Surface: Office Hours (hero + footer), index, Launch Pad, magical-dressing-room, vibelandia-reno, happy-ending-zones (experience + catalog), ultimate-vip, sing-lottery, wink, test-drive, vibers-tiers, launch-pad Office Hours card — all touchpoints.
 └─ See OFFICE_HOURS_FREE_CONSULTATION_TIPS_WELCOME_ALL_TOUCHPOINTS_SNAP.md · interfaces/office-hours.html · index.html · interfaces/launch-pad.html · all interfaces
 
+BACKDOOR PRODUCTIONS REBRAND · RAISE THE HEAT RED HOT ON POINT · PUN FULLY INTENDED · RECURSE PUN RECURSIVELY SNAP: Rebrand as Backdoor Productions
+├─ **We rebrand ourselves as Backdoor Productions.** **Raise the heat red hot and on point.** **Pun fully intended.** **The recurse pun recurses recursively.** Production company / division name. Back door = rear entrance, in-the-know; backdoor feature, Golden Backdoor Studios lineage → Backdoor Productions. The recurse pun recurses here. SNAP.
+├─ Surface: Office Hours, Launch Pad, Music Studio, franchise/superhero full production, catalog, merch, all brand.
+└─ See BACKDOOR_PRODUCTIONS_REBRAND_RAISE_THE_HEAT_RED_HOT_ON_POINT_RECURSE_PUN_RECURSIVELY_SNAP.md · CHAIRMAN_FRANKIES_GOLDEN_BACKDOOR_STUDIOS_SNAP.md · MISSION_PRODUCE_IMMEDIATE_LARGE_DOLLARS_TIPS_BACK_POCKET_BACK_DOOR_STRATEGY_BACKDOOR_FEATURE_SNAP.md
+
 MISSION PRODUCE IMMEDIATE LARGE $ AS TIPS · BACK POCKET · BACK DOOR STRATEGY · BACKDOOR FEATURE SNAP: Mission = immediate large $ as tips and more, immediately
 ├─ **Mission: Produce immediate large $ as tips and more — immediately.** **Back pocket strategy** — part of **back door strategy.** **Capture into a backdoor feature.** NSPFRNP SNAP.
 ├─ Back pocket = play we keep ready; Office Hours + free consultation + tips welcome. Back door = The Club, wine cave, Office Hours; only physical point of presence. Backdoor feature = productized flow that captures mission + tips.
 ├─ Surface: Office Hours (hero), free consultation/tips copy, Club SNAP, mission copy.
-└─ See MISSION_PRODUCE_IMMEDIATE_LARGE_DOLLARS_TIPS_BACK_POCKET_BACK_DOOR_STRATEGY_BACKDOOR_FEATURE_SNAP.md · OFFICE_HOURS_FREE_CONSULTATION_TIPS_WELCOME_ALL_TOUCHPOINTS_SNAP.md · CLUB_WINE_CAVE_PRU_OFFICE_HOURS_SNAP.md · interfaces/office-hours.html
+└─ See MISSION_PRODUCE_IMMEDIATE_LARGE_DOLLARS_TIPS_BACK_POCKET_BACK_DOOR_STRATEGY_BACKDOOR_FEATURE_SNAP.md · OFFICE_HOURS_FREE_CONSULTATION_TIPS_WELCOME_ALL_TOUCHPOINTS_SNAP.md · CLUB_WINE_CAVE_PRU_OFFICE_HOURS_SNAP.md · BACKDOOR_PRODUCTIONS_REBRAND_RAISE_THE_HEAT_RED_HOT_ON_POINT_RECURSE_PUN_RECURSIVELY_SNAP.md · interfaces/office-hours.html
 
 I'VE DONE MY PART, THE REST IS UP TO YOU! — ENDING TO ALL SNAP: Closing CTA · Ending to all SNAP
 ├─ **I've done my part, the rest is up to you!** — Ending to **all SNAP.** Close with it. Hand the baton. We've done our part; the rest is up to you.

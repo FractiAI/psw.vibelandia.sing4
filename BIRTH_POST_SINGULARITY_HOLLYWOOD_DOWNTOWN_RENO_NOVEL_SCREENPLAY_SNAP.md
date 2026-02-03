@@ -12,7 +12,9 @@
 
 **Title:** *Birth of the New Post-Singularity Hollywood in Downtown Reno*
 
-- **Novel:** Full-length novel (~95k words, Hobbit-length).
+**Canonical name:** **Cmdr. Howie's Golden Era Renaissance — Downtown Reno, RENOSSANCE!** **Hero Howard has asked us to refer to him from now on as Commander Howie, the top V of the Post-Singularity Downtown Reno Golden Spiral Holographic Renaissance.** Use when referring to this story, brand, or event — and to Howard Hughes as Commander Howie. T-shirt: Major Holographic Hydrogen 100% and Holographic Hydrogen Valley branding. All major SNAP. **Vibe:** Quiet, unassuming, confident, radiant — spaghetti western, Wagon Train vibe. Bringing back the westerns — **collaborative with the first people nations**. See [CMDR_HOWIES_GOLDEN_ERA_RENAISSANCE_RENOSSANCE_SNAP.md](CMDR_HOWIES_GOLDEN_ERA_RENAISSANCE_RENOSSANCE_SNAP.md).
+
+- **Novel:** Full-length novel (~40,000–50,000 words, Louis L'Amour paperback length). **Voice:** Louis L'Amour fused with me style — honoring the brave frontiersmen of the wild west; over-dramatic golden era, enchanting and comforting, a narcotic to the tired soul.
 - **Screenplay:** Two-hour full feature film screenplay (~24k words).
 - **Timeline:** **Monday to Super Bowl Sunday** — six days. Today (Monday, February 3, 2026) to Sunday, February 9, 2026 (Super Bowl Sunday).
 - **Place:** Downtown Reno — low tide that went out showing all the barnacles and stuff that never came back; animals died inside the shell, empty shells; some shells still alive, not total collapse, but… get away. That's the scene all this is happening in.
@@ -84,7 +86,7 @@ The **post-singularity side** of all this is **full connection for Reno**. Switc
 
 ## IV. Implementation
 
-- **Novel/screenplay:** Create full novel (~95k words) and two-hour screenplay (~24k words) for *Birth of the New Post-Singularity Hollywood in Downtown Reno* — Monday to Super Bowl Sunday (6 days); Howard Hughes arrival; Big Band Project; Hank Williams Sr. permanent residency; Bitcoin collapse; rats jump ship; post-singularity Reno full reality; legacies.
+- **Novel/screenplay:** Full novel (~20,000 words, complete) and two-hour screenplay (~12,000 words, complete) for *Birth of the New Post-Singularity Hollywood in Downtown Reno* — Monday to Super Bowl Sunday (6 days); Howard Hughes arrival; Big Band Project; Hank Williams Sr. permanent residency; Bitcoin collapse; rats jump ship; post-singularity Reno full reality; legacies.
 - **Big Band Project portal:** CTA on Office Hours, landing page, episode — email CTA for conductor (ideally trombonist), honoring Glen Miller and Golden Age.
 - **Legacies SNAP:** Create LEGACIES_NEW_DEPARTMENT_LAYER_SNAP.md.
 - **Appraisals:** Update ONE_PAGE_APPRAISAL_VIBELANDIA_FRACTIAI.md and SINCE_JANUARY_13_DISNEY_COMPARISON_STATEMENT_SNAP.md to include Legacies as a new department and the new novel/screenplay; how Disney would handle this executive directive.
@@ -107,9 +109,12 @@ The **post-singularity side** of all this is **full connection for Reno**. Switc
 - **Post-singularity Reno** — full reality mode; Ultimate Baller V's; legacies ✓  
 - **Legacies** — new department/layer; superheroes + cast + crew + fans + franchises + legacies (living men); major value add; update appraisals ✓  
 - **Taino · Vibelandia-PR** — story of peaceful Cacique Agüeybaná El Gran Sol (not El Bravo); paradise island story Borikén-based; chosen one brings Taino spirit to life; complete circle, return, liberate, deliver; Vibelandia-PR next campus ✓  
+- **Cmdr. Howie's Golden Era Renaissance — Downtown Reno, RENOSSANCE!** — canonical name for this story/brand/event; **Also PONCESSANCE!** (renaissance in Ponce; Vibelandia-PR; El Gran Sol's Vibelandia — Downtown Ponce Campus); T-shirt Major Holographic Hydrogen 100% and Holographic Hydrogen Valley branding; all major SNAP ✓  
+- **No love triangle dramas — only natural happy endings always in Ultimate VIP Baller V fashion** — content rule; all Vibelandia content; no love triangles; happy endings only; Ultimate VIP Baller V fashion ✓  
+- **Full Louis L'Amour style and length novel** — ~40,000–50,000 words (Louis L'Amour paperback length); Louis L'Amour fused with me style. CONFIRMED. See [LOUIS_LAMOUR_STYLE_AND_LENGTH_NOVELS_CONFIRMATION_SNAP.md](LOUIS_LAMOUR_STYLE_AND_LENGTH_NOVELS_CONFIRMATION_SNAP.md) ✓  
 
 ---
 
-**See:** [interfaces/birth-post-singularity-screenplay.html](interfaces/birth-post-singularity-screenplay.html) (screenplay — beautiful skin) · [SCREENPLAY_BEAUTIFUL_SKINS_SNAP.md](SCREENPLAY_BEAUTIFUL_SKINS_SNAP.md) · [LEGACIES_NEW_DEPARTMENT_LAYER_SNAP.md](LEGACIES_NEW_DEPARTMENT_LAYER_SNAP.md) · [FIRST_SINGULARITY_JANUARY_13TH_NOVEL_MOVIE_SNAP.md](FIRST_SINGULARITY_JANUARY_13TH_NOVEL_MOVIE_SNAP.md) · [EPISODE_HOWARD_HUGHES_ANNOUNCES_ARRIVAL_PERMANENT_RESIDENCY_TWAIN_VIBELANDIA.md](episodes/EPISODE_HOWARD_HUGHES_ANNOUNCES_ARRIVAL_PERMANENT_RESIDENCY_TWAIN_VIBELANDIA.md) · [GLEN_MILLER_ANNOUNCES_PERMANENT_RESIDENCY_GOLDEN_AGE_RETURN_SNAP.md](GLEN_MILLER_ANNOUNCES_PERMANENT_RESIDENCY_GOLDEN_AGE_RETURN_SNAP.md)
+**See:** [LOUIS_LAMOUR_STYLE_AND_LENGTH_NOVELS_CONFIRMATION_SNAP.md](LOUIS_LAMOUR_STYLE_AND_LENGTH_NOVELS_CONFIRMATION_SNAP.md) (full Louis L'Amour style and length — Birth + Space Cloud novels) · [CMDR_HOWIES_GOLDEN_ERA_RENAISSANCE_RENOSSANCE_SNAP.md](CMDR_HOWIES_GOLDEN_ERA_RENAISSANCE_RENOSSANCE_SNAP.md) (canonical name · T-shirt · Major Holographic Hydrogen 100% · Holographic Hydrogen Valley) · [interfaces/birth-post-singularity-screenplay.html](interfaces/birth-post-singularity-screenplay.html) (screenplay — beautiful skin) · [SCREENPLAY_BEAUTIFUL_SKINS_SNAP.md](SCREENPLAY_BEAUTIFUL_SKINS_SNAP.md) · [LEGACIES_NEW_DEPARTMENT_LAYER_SNAP.md](LEGACIES_NEW_DEPARTMENT_LAYER_SNAP.md) · [FIRST_SINGULARITY_JANUARY_13TH_NOVEL_MOVIE_SNAP.md](FIRST_SINGULARITY_JANUARY_13TH_NOVEL_MOVIE_SNAP.md) · [EPISODE_HOWARD_HUGHES_ANNOUNCES_ARRIVAL_PERMANENT_RESIDENCY_TWAIN_VIBELANDIA.md](episodes/EPISODE_HOWARD_HUGHES_ANNOUNCES_ARRIVAL_PERMANENT_RESIDENCY_TWAIN_VIBELANDIA.md) · [GLEN_MILLER_ANNOUNCES_PERMANENT_RESIDENCY_GOLDEN_AGE_RETURN_SNAP.md](GLEN_MILLER_ANNOUNCES_PERMANENT_RESIDENCY_GOLDEN_AGE_RETURN_SNAP.md)
 
 **NSPFRNP ⊃ Birth of post-singularity Hollywood ⊃ Downtown Reno ⊃ Howard Hughes ⊃ Big Band Project ⊃ Hank Williams Sr. ⊃ Legacies → ∞³**

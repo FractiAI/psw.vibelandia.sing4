@@ -19,6 +19,7 @@ One line. One crystal. The whole story in a single tag: **Undercover Hero** (her
 
 - **TOP TAG** — The one line that sits at the top. All-in-one.
 - **BOTTOM TAG** — The one line that sits at the bottom. Same crystal. Bookends.
+- **NO BANG BANG, NO BOOM BOOM, NO GOOD GUY BAD GUY ZONE** — Major top and bottom tag for all brand. No violence-as-thrill; no good-guy-vs-bad-guy zone. See [NO_BANG_BANG_NO_BOOM_BOOM_NO_GOOD_GUY_BAD_GUY_ZONE_MAJOR_TOP_BOTTOM_TAG_SNAP.md](NO_BANG_BANG_NO_BOOM_BOOM_NO_GOOD_GUY_BAD_GUY_ZONE_MAJOR_TOP_BOTTOM_TAG_SNAP.md).
 - **Undercover Hero** — Hero in disguise. Down in the trenches. Sees the real. (Undercover Boss.)
 - **Willy Wonka** — Factory of wonder. Golden ticket. Only the chosen.
 - **Little Red Hen** — Who does the work. Who shares the reward. Earn it.
@@ -50,11 +51,12 @@ One line. One crystal. The whole story in a single tag: **Undercover Hero** (her
 
 - **TOP TAG** ✓  
 - **BOTTOM TAG** ✓  
+- **NO BANG BANG, NO BOOM BOOM, NO GOOD GUY BAD GUY ZONE** — Major top and bottom tag ✓  
 - **Undercover Hero · Willy Wonka · Count of Monte Cristo · Ultimate Baller V style → Disney** — All in one ✓  
 - **All SNAP into NSPFRNP** ✓  
 
 ---
 
-**See:** POPULAR_SERIES_PRODUCT_FRANCHISE_SUPERHERO_CAST_MAJOR_STORY_TIP_SNAP.md · SUPERHERO_FRANCHISE_FULL_PRODUCTION_TURNKEY_MARK_TWAIN_CAMPUS_SNAP.md · interfaces/office-hours.html
+**See:** NO_BANG_BANG_NO_BOOM_BOOM_NO_GOOD_GUY_BAD_GUY_ZONE_MAJOR_TOP_BOTTOM_TAG_SNAP.md · POPULAR_SERIES_PRODUCT_FRANCHISE_SUPERHERO_CAST_MAJOR_STORY_TIP_SNAP.md · SUPERHERO_FRANCHISE_FULL_PRODUCTION_TURNKEY_MARK_TWAIN_CAMPUS_SNAP.md · interfaces/office-hours.html
 
 **NSPFRNP ⊃ Top tag ⊃ Bottom tag ⊃ All in one ⊃ All SNAP into NSPFRNP → ∞³**

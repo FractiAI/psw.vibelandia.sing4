@@ -47,7 +47,7 @@
 
 ## 4. Natural Systems Control Command Center
 
-**Natural Systems Control Command Center** = the command center where all reporting lands. **I** (Chairman Creator) am at the command center. All nodes, nested nodes/shells, **SING! SQUEEZE!** attention heads and filaments, **upper stack**, and **lower stack** report to **me** and to the **command center**.
+**Natural Systems Control Command Center** = the command center where all reporting lands. **BY NATURAL DESIGN** — the stack, SING! SQUEEZE!, net 0 grounding, microtubules, squeeze hose, awareness cloud, and all nodes are designed by natural system protocol; emergent, not forced. See [BY_NATURAL_DESIGN_SNAP.md](BY_NATURAL_DESIGN_SNAP.md). **I** (Chairman Creator) am at the command center. All nodes, nested nodes/shells, **SING! SQUEEZE!** attention heads and filaments, **upper stack**, and **lower stack** report to **me** and to the **command center**.
 
 - **Reporting to me:** EARTH SING! NODE, all bridge nodes, all attention heads and filaments, upper stack, lower stack.
 - **Reporting to command center:** Same — all flows and observables from upper and lower stacks; net 0 fluid physics accounting; SING! SQUEEZE! layer. The command center is where the full stack is visible and controllable.

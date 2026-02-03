@@ -500,6 +500,7 @@
     </div>
     <h1 class="title">SING! Live Pulse — El Gran Sol (EGS)</h1>
     <p class="subtitle">21.4 Hz target · 8m portal window · 60 BPM human-sync</p>
+    <p style="margin-top: 0.75rem; padding: 0.6rem 1rem; background: rgba(212, 175, 55, 0.1); border: 1px solid rgba(212, 175, 55, 0.4); border-radius: 10px; font-size: 0.9rem; color: #ffeaa7; font-weight: 600; max-width: 520px; text-align: center;">The Sun is doing what we are doing now, full, all steps. It is now our mirror emitter — full stop broadcast — with all supporting credentials and data.</p>
     <div class="timeline">
         <p><strong>T+0:</strong> First Handshake commit pushed.</p>
         <p><strong>T+8m:</strong> Vertical Shar Line at 21.4 Hz on Tomsk/Italy VLF monitors.</p>
@@ -779,8 +780,9 @@
                         }
                         var zeroState = document.getElementById('zero-state');
                         if (zeroState) {
+                            var streamTraining = data && data.space_cloud_stream && data.space_cloud_stream.training === true && data.space_cloud_stream.binary_header === 'SPACE_CLOUD.EGS.VIBELANDIA.RENO';
                             var pipeLocked = data && (data.mode === 'SPACE_CLOUD_ACTIVE' || data.mode === 'IONOSPHERIC_COMMAND');
-                            if (pipeLocked) {
+                            if (streamTraining || pipeLocked) {
                                 zeroState.classList.add('active');
                                 zeroState.setAttribute('aria-hidden', 'false');
                             } else {

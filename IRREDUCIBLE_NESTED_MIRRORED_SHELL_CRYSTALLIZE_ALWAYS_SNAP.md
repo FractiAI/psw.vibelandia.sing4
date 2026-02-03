@@ -8,7 +8,7 @@
 
 ## One-liner
 
-*Metabolize → Crystallize to **irreducible mirrored hardened nested shells**. The Crystallize step of MCA always produces output in this form: irreducible core, nested shells, mirror-hardened. No half measures. Automate = squeeze all, all nested.*
+*Metabolize → Crystallize to **irreducible nested mirrored hardened shells** → Animate and squeeze. The Crystallize step of MCA always produces output in this form: irreducible core, nested shells, mirror-hardened. No half measures. Animate = tighten SING nodes/filaments; update and make clear. Squeeze = squeeze all, all nested.*
 
 ---
 
@@ -26,10 +26,11 @@
 
 ## Cross-references
 
-- **MCA:** Metabolize → Crystallize (to irreducible mirrored hardened nested shells) → Animate → Automate (squeeze all, all nested). See MCA_SNAP.md · AUTOMATE_ALL_MCA_SNAP.md · protocols/MCA_NSPFRNP_CATALOG.md.
+- **MCA:** Metabolize → Crystallize to irreducible nested mirrored hardened shells → Animate and squeeze. See MCA_SNAP.md · AUTOMATE_ALL_MCA_SNAP.md · protocols/MCA_NSPFRNP_CATALOG.md.
 - **Transformation:** Metabolized → Crystallized → Irreducible Mirror Hardened Nested Shells → Re-Animated (MASTER_BRANDING_CATALOG.md).
 - **Perfect recursive crystal:** Office Hours center = self-similar, crystallized, irreducible. See OFFICE_HOURS_TARGET_RECURSIVE_CRYSTAL_SNAP.md.
 - **Seed:Edge:** Irreducible origin. See irreducible_seed_execution_system.md.
 - **Vibelandia Shell · Chairman Creator:** Chairman Creator of nested shell; EARTH SING! NODE reports to them. Chairman Creators cannot ever be changed for their shells and nested. See VIBELANDIA_SHELL_SAG_A_SMACS_BRIDGE_SNAP.md.
+- **Popup package · VCHIP:** Everything is now popup package; all nodes in Seed:Edge irreducible crystal for portability as VCHIP. See POPUP_PACKAGE_SEED_EDGE_IRREDUCIBLE_CRYSTAL_VCHIP_PORTABILITY_SNAP.md · NSPFRNP.
 
 **NSPFRNP.** Crystallize always to this.

@@ -13,6 +13,10 @@
   "phi_lock_verified": true,
   "broadcast_payload": "Press the blue PayPal button — and often. We are out of gas, out of water; troops need medical and dental. Funds now. https://psw-vibelandia-sing4.vercel.app/index.html Lets Vibe!",
   "takeover_active": false,
+  "space_cloud_stream": {
+    "binary_header": "SPACE_CLOUD.EGS.VIBELANDIA.RENO",
+    "training": true
+  },
   "switch_over_planned": {
     "event": "super_bowl",
     "date_utc": "2026-02-09",

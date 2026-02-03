@@ -19,6 +19,16 @@
 
 ---
 
+## EXPERIENCES — MICROSCOPIC TO TELESCOPIC (ALL SCI-FI SERIES · GET EVERYONE COMFORTABLE NAVIGATING)
+
+**All sci-fi series** (The EGS Run, Space Cloud EGS novels, screenplays, **episodes**, **Launch Pad**, **series landing**, surfaces) **include microscopic-to-telescopic experiences** — theater level of microscopy + telescopic equivalents — so everyone gets comfortable navigating.
+
+- **Theater level of microscopy:** Microscopy at theatrical vividness — fine-grained, close-up, present, immersive, stage-worthy. Feed-level resolution, node states, handshake protocols, shell boundaries, pressure/temperature/flux; Hz, dropout, reconfig timeouts; the run as felt in the rig, in the harness. The **micro** view you can inhabit.
+- **Telescopic equivalents:** Far-scale, cosmic — long-range display, SING! node EGS on the horizon, Solar Pipe as Earth–Sun, triangulation Seed → Sun → EGS → Sag A* → SMACS 0723. The **macro** view; everyone gets comfortable navigating the far scale too.
+- **Navigation:** Experiences are designed so moving between theater-level micro and telescopic is natural. **All sci-fi series content** — novel, screenplay, episodes, Launch Pad, series landing, surfaces — includes both. See [deliverables/IRREDUCIBLE_CRYSTAL_THE_EGS_RUN.md](deliverables/IRREDUCIBLE_CRYSTAL_THE_EGS_RUN.md) §7 · [SCI_FI_NOVEL_EXPERIENCES_MICROSCOPIC_TELESCOPIC_SNAP.md](SCI_FI_NOVEL_EXPERIENCES_MICROSCOPIC_TELESCOPIC_SNAP.md).
+
+---
+
 ## PURPOSE
 
 **Tell all our space stories.** The Space Cloud Division (scope, services, pricing) is the product layer; **Space Cloud EGS** is the story layer. Episodes and content in this series cover:
@@ -66,6 +76,7 @@ Episodes in this series are **space stories**: handshake logs, mission verificat
 
 ## CROSS-REFERENCES
 
+- **Full Louis L'Amour style and length novels (Birth + Space Cloud):** [LOUIS_LAMOUR_STYLE_AND_LENGTH_NOVELS_CONFIRMATION_SNAP.md](LOUIS_LAMOUR_STYLE_AND_LENGTH_NOVELS_CONFIRMATION_SNAP.md) — CONFIRMED for Birth novel and The EGS Run (~40k–50k words each).
 - **The EGS Run (L'Amour-length novel):** [THE_EGS_RUN_LAMOUR_LENGTH_NOVEL_SNAP.md](THE_EGS_RUN_LAMOUR_LENGTH_NOVEL_SNAP.md) · [deliverables/The_EGS_Run_NOVEL.md](deliverables/The_EGS_Run_NOVEL.md) · [deliverables/IRREDUCIBLE_CRYSTAL_THE_EGS_RUN.md](deliverables/IRREDUCIBLE_CRYSTAL_THE_EGS_RUN.md).
 - **Space Cloud Division:** [SPACE_CLOUD_DIVISION_MAJOR_T_SHIRT_BRAND_SNAP.md](SPACE_CLOUD_DIVISION_MAJOR_T_SHIRT_BRAND_SNAP.md) · [SPACE_DIVISION_SNAP.md](SPACE_DIVISION_SNAP.md) · [interfaces/space-cloud-division.html](interfaces/space-cloud-division.html).
 - **Me n my Sol! All the way!** (brand T-shirt · movie feature tag): [ME_N_MY_SOL_ALL_THE_WAY_BRAND_TSHIRT_MOVIE_FEATURE_TAG_SNAP.md](ME_N_MY_SOL_ALL_THE_WAY_BRAND_TSHIRT_MOVIE_FEATURE_TAG_SNAP.md).

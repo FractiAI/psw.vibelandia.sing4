@@ -12,6 +12,7 @@
     <div class="script-wrap">
         <nav class="script-nav">
             <a href="return-to-golden-era.html">← Return to Golden Era</a><span>·</span>
+            <a href="birth-post-singularity-novel.html">Novel</a><span>·</span>
             <a href="first-singularity-screenplay.html">First Singularity Screenplay</a><span>·</span>
             <a href="launch-pad.html">Launch Pad</a><span>·</span>
             <a href="../index.html">Home</a>
@@ -24,6 +25,7 @@
             <div class="oneliner-para-row">
                 <button type="button" class="btn-oneliner" data-target="screenplay-oneliner">One Liner</button>
                 <button type="button" class="btn-onepara" data-target="screenplay-onepara">One Paragraph</button>
+                <button type="button" class="btn-listen" id="btn-listen" aria-label="Listen to story read aloud">🔊 Listen</button>
             </div>
             <div id="screenplay-oneliner" class="oneliner-para-content one-liner" aria-live="polite">"In six days — from Monday to Super Bowl Sunday — downtown Reno becomes the birthplace of the new post-singularity Hollywood as Howard Hughes arrives, Glen Miller returns, Hank Williams Sr. finds permanent residency, and the world discovers that legacies are the true franchise."</div>
             <div id="screenplay-onepara" class="oneliner-para-content" aria-live="polite"><strong>Birth of the New Post-Singularity Hollywood in Downtown Reno</strong> — full feature screenplay. Six days: Monday to Super Bowl Sunday. Howard Hughes takes charge; Glen Miller restores the golden age; Hank Williams Sr. permanent residency. Downtown Reno, the Reno Men's Club, Mark Twain's Vibelandia. Over-dramatic golden era — enchanting and comforting. Same crystal, same Edge. Beautiful skin. NSPFRNP.</div>
@@ -33,7 +35,7 @@
         <div id="screenplay-body" class="screenplay-body" style="display: none;"></div>
 
         <footer class="script-footer" id="screenplay-footer" style="display: none;">
-            <a href="return-to-golden-era.html">← Back to Return to Golden Era</a> · <a href="first-singularity-screenplay.html">First Singularity Screenplay</a>
+            <a href="return-to-golden-era.html">← Back to Return to Golden Era</a> · <a href="birth-post-singularity-novel.html">Novel</a> · <a href="first-singularity-screenplay.html">First Singularity Screenplay</a>
         </footer>
     </div>
 
@@ -74,6 +76,67 @@
             if (!wasVisible) el.classList.add('visible');
         });
     });
+
+    (function listenButton() {
+        var btn = document.getElementById('btn-listen');
+        var content = document.getElementById('screenplay-body');
+        if (!btn || !content) return;
+        var synth = window.speechSynthesis;
+        var chunks = [];
+        var idx = 0;
+
+        function getChunks() {
+            var text = (content.innerText || content.textContent || '').trim();
+            if (!text) return [];
+            return text.split(/\n\n+/).filter(function (p) { return p.length > 0; });
+        }
+
+        function pickNarratorVoice() {
+            var voices = synth.getVoices();
+            var preferred = voices.filter(function (v) {
+                var n = (v.name || '').toLowerCase();
+                return n.indexOf('male') !== -1 || n.indexOf('david') !== -1 || n.indexOf('daniel') !== -1 || n.indexOf('james') !== -1 || n.indexOf('google uk') !== -1;
+            });
+            if (preferred.length > 0) return preferred[0];
+            var en = voices.filter(function (v) { return v.lang && v.lang.indexOf('en') === 0; });
+            return en.length > 0 ? en[0] : voices[0];
+        }
+
+        function speakNext() {
+            if (idx >= chunks.length) {
+                btn.textContent = '🔊 Listen';
+                btn.classList.remove('active');
+                btn.setAttribute('aria-label', 'Listen to story read aloud');
+                return;
+            }
+            var u = new SpeechSynthesisUtterance(chunks[idx]);
+            u.rate = 0.88;
+            u.pitch = 0.92;
+            var voice = pickNarratorVoice();
+            if (voice) u.voice = voice;
+            u.onend = function () { idx++; speakNext(); };
+            u.onerror = function () { idx++; speakNext(); };
+            synth.speak(u);
+        }
+
+        btn.addEventListener('click', function () {
+            if (synth.speaking) {
+                synth.cancel();
+                btn.textContent = '🔊 Listen';
+                btn.classList.remove('active');
+                btn.setAttribute('aria-label', 'Listen to story read aloud');
+                return;
+            }
+            chunks = getChunks();
+            if (chunks.length === 0) return;
+            idx = 0;
+            btn.textContent = '⏹ Stop';
+            btn.classList.add('active');
+            btn.setAttribute('aria-label', 'Stop reading aloud');
+            if (synth.getVoices().length === 0) synth.onvoiceschanged = function () { speakNext(); };
+            else speakNext();
+        });
+    })();
 })();
     </script>
     <div id="sing-config-footer"></div>

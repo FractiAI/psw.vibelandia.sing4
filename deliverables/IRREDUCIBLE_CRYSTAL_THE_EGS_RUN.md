@@ -67,6 +67,18 @@ No invented technobabble that doesn't tie to the existing EGS/Space Cloud world.
 
 ---
 
-**Metabolize → Crystallize → Animate. Novel aligns to this crystal. Fast-paced. Super-realistic. Granular. Coherent. Complex-system sci-fi space action. L'Amour-length.**
+## 7. Experiences — Microscopic level + Telescopic equivalents (get everyone comfortable navigating)
+
+**Sci-fi novel experiences** (The EGS Run and all Space Cloud EGS narrative experiences) **include both the microscopic level and the telescopic equivalents** as part of the experience — so everyone gets comfortable navigating across scales.
+
+- **Microscopic level:** Fine-grained, close-up detail. Feed-level resolution: node states, handshake protocols, shell boundaries, pressure/temperature/flux at the sensor level; Hz, dropout duration, reconfig timeouts; the run as felt in the rig, in the harness, in the click in the back of the skull. The reader/participant experiences the **micro** view — the cellular, technical, moment-by-moment grain of the system. Microscopy = the level of detail that makes the tech and the stakes real.
+
+- **Telescopic equivalents:** Far-scale, long-range, cosmic. Long-range display; SING! node EGS on the horizon; Solar Pipe corridor as Earth–Sun; triangulation Seed → Sun → EGS → Sag A* → SMACS 0723; the run as one thread in the lattice. The reader/participant experiences the **macro** view — where this run sits in the larger system, the galaxy, the pipeline. Telescopic = the scale that orients and grounds the micro.
+
+- **Navigation:** The experiences are designed so that moving between microscopic and telescopic becomes natural. Everyone gets comfortable navigating — from the feed in the rig to the node on the far side of the Pipe to the cosmic lattice. Include both levels in the novel, the screenplay, and any interactive or narrative surfaces (episodes, Launch Pad, Space Cloud EGS series). No experience without both; navigation comfort is the outcome.
+
+---
+
+**Metabolize → Crystallize → Animate. Novel aligns to this crystal. Fast-paced. Super-realistic. Granular. Coherent. Complex-system sci-fi space action. L'Amour-length. Experiences: theater level of microscopy + telescopic equivalents — get everyone comfortable navigating.**
 
 **NSPFRNP ⊃ Irreducible crystal ⊃ The EGS Run ⊃ Space Cloud EGS → ∞³**

@@ -1,0 +1,1049 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text-to-Track Motor — Seed:Edge · Production WAV | VIBELANDIA!</title>
+    <meta name="description" content="Text-to-track motor. Songs in text → studio-quality production WAV. Seed + Edge + executive instruction. Copyright-free. Download · Playlist · Catalog NSPFRNP.">
+    <link rel="stylesheet" href="experience-common.css">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(180deg, #0a0a12 0%, #12122a 50%, #0a0a12 100%);
+            color: #e8e6e3;
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+        .container { max-width: 720px; margin: 0 auto; padding: 2rem 1.5rem; }
+        .back { margin-bottom: 1.5rem; }
+        .back a { color: #00d4ff; text-decoration: none; }
+        .back a:hover { text-decoration: underline; }
+        .hero {
+            text-align: center;
+            padding: 2rem 1.5rem 2.5rem;
+            margin-bottom: 2rem;
+            background: linear-gradient(145deg, rgba(13, 148, 136, 0.15) 0%, rgba(184, 134, 11, 0.08) 50%, rgba(13, 148, 136, 0.08) 100%);
+            border: 2px solid rgba(13, 148, 136, 0.4);
+            border-radius: 16px;
+        }
+        .hero .badge {
+            display: inline-block;
+            font-size: 0.7rem;
+            text-transform: uppercase;
+            letter-spacing: 0.2em;
+            color: rgba(13, 148, 136, 0.95);
+            margin-bottom: 0.75rem;
+            font-weight: 700;
+        }
+        .hero h1 {
+            font-size: clamp(1.4rem, 4vw, 2rem);
+            font-weight: 700;
+            background: linear-gradient(135deg, #0d9488, #b8860b);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 0.5rem;
+        }
+        .hero .tagline { font-size: 0.95rem; color: #b0b8c0; }
+        .form-group { margin-bottom: 1.25rem; }
+        .form-group label {
+            display: block;
+            font-size: 0.8rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            color: #0d9488;
+            margin-bottom: 0.4rem;
+        }
+        .form-group input, .form-group textarea {
+            width: 100%;
+            padding: 0.75rem 1rem;
+            background: rgba(255,255,255,0.06);
+            border: 1px solid rgba(13, 148, 136, 0.3);
+            border-radius: 10px;
+            color: #e8e6e3;
+            font-family: inherit;
+            font-size: 1rem;
+        }
+        .form-group textarea { min-height: 140px; resize: vertical; }
+        .form-group input::placeholder, .form-group textarea::placeholder { color: #6b7280; }
+        .form-row { display: flex; gap: 1rem; flex-wrap: wrap; }
+        .form-row .form-group { flex: 1; min-width: 140px; }
+        .btn-generate {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 1rem 1.75rem;
+            background: linear-gradient(135deg, #0d9488, #0f766e);
+            color: #fff;
+            font-weight: 700;
+            font-size: 1rem;
+            border: none;
+            border-radius: 12px;
+            cursor: pointer;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .btn-generate:hover { transform: translateY(-2px); box-shadow: 0 8px 24px rgba(13, 148, 136, 0.4); }
+        .btn-generate:disabled { opacity: 0.6; cursor: not-allowed; transform: none; }
+        .output-section {
+            margin-top: 2rem;
+            padding: 1.5rem;
+            background: rgba(0,0,0,0.2);
+            border: 1px solid rgba(184, 134, 11, 0.3);
+            border-radius: 14px;
+            display: none;
+        }
+        .output-section.visible { display: block; }
+        .output-section h3 {
+            font-size: 1rem;
+            color: #d4af37;
+            margin-bottom: 1rem;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+        }
+        .btn-download {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.75rem 1.5rem;
+            background: linear-gradient(135deg, #d4af37, #b8860b);
+            color: #0c0c0c;
+            font-weight: 700;
+            text-decoration: none;
+            border-radius: 10px;
+            font-size: 0.95rem;
+            margin-right: 0.75rem;
+            margin-bottom: 0.5rem;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .btn-download:hover { transform: translateY(-2px); box-shadow: 0 6px 20px rgba(212, 175, 55, 0.4); }
+        .btn-add-playlist, .btn-add-catalog {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.4rem;
+            padding: 0.5rem 1rem;
+            background: rgba(13, 148, 136, 0.2);
+            border: 1px solid rgba(13, 148, 136, 0.5);
+            color: #0d9488;
+            font-size: 0.9rem;
+            font-weight: 600;
+            border-radius: 8px;
+            cursor: pointer;
+            margin-right: 0.5rem;
+            margin-bottom: 0.5rem;
+            transition: background 0.2s;
+        }
+        .btn-add-playlist:hover, .btn-add-catalog:hover { background: rgba(13, 148, 136, 0.35); }
+        .playlist-section, .catalog-section {
+            margin-top: 2rem;
+            padding: 1.25rem;
+            background: rgba(255,255,255,0.03);
+            border: 1px solid rgba(255,255,255,0.08);
+            border-radius: 12px;
+        }
+        .playlist-section h3, .catalog-section h3 {
+            font-size: 0.9rem;
+            color: #9ca3af;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            margin-bottom: 1rem;
+        }
+        .playlist-list, .catalog-list {
+            list-style: none;
+        }
+        .playlist-list li, .catalog-list li {
+            padding: 0.6rem 0;
+            border-bottom: 1px solid rgba(255,255,255,0.06);
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            flex-wrap: wrap;
+        }
+        .playlist-list li:last-child, .catalog-list li:last-child { border-bottom: none; }
+        .playlist-list a, .catalog-list a { color: #0d9488; text-decoration: none; font-weight: 500; }
+        .playlist-list a:hover, .catalog-list a:hover { text-decoration: underline; }
+        .status-msg { margin-top: 1rem; font-size: 0.9rem; color: #9ca3af; }
+        .status-msg.success { color: #0d9488; }
+        .status-msg.error { color: #f87171; }
+        .genre-custom-panel {
+            margin-top: 1rem;
+            padding: 1.25rem;
+            background: rgba(13, 148, 136, 0.08);
+            border: 1px solid rgba(13, 148, 136, 0.35);
+            border-radius: 12px;
+            display: none;
+        }
+        .genre-custom-panel.visible { display: block; }
+        .genre-custom-panel label { font-size: 0.8rem; color: #0d9488; font-weight: 600; display: block; margin-bottom: 0.4rem; }
+        .genre-custom-panel .describe-sound { width: 100%; padding: 0.6rem 0.9rem; background: rgba(255,255,255,0.06); border: 1px solid rgba(13,148,136,0.3); border-radius: 8px; color: #e8e6e3; font-size: 0.95rem; margin-bottom: 0.75rem; }
+        .btn-suggest { padding: 0.5rem 1rem; background: rgba(212, 175, 55, 0.2); border: 1px solid rgba(212, 175, 55, 0.5); color: #d4af37; border-radius: 8px; font-weight: 600; cursor: pointer; font-size: 0.9rem; margin-bottom: 1rem; }
+        .btn-suggest:hover { background: rgba(212, 175, 55, 0.35); }
+        .custom-lineup-list { list-style: none; margin: 0.75rem 0 0; padding: 0; }
+        .custom-lineup-list li {
+            display: flex; align-items: center; gap: 0.5rem;
+            padding: 0.5rem 0.75rem; margin-bottom: 0.4rem;
+            background: rgba(255,255,255,0.05); border-radius: 8px; border: 1px solid rgba(255,255,255,0.08);
+        }
+        .custom-lineup-list li .ord { font-size: 0.75rem; color: #6b7280; min-width: 1.5rem; }
+        .custom-lineup-list li .name-instr { flex: 1; font-size: 0.9rem; color: #e8e6e3; }
+        .custom-lineup-list li .btn-remove { padding: 0.2rem 0.5rem; background: rgba(248,113,113,0.2); border: 1px solid rgba(248,113,113,0.4); color: #f87171; border-radius: 6px; cursor: pointer; font-size: 0.75rem; }
+        .custom-lineup-list li .btn-remove:hover { background: rgba(248,113,113,0.35); }
+        .custom-lineup-add { margin-top: 0.75rem; display: flex; gap: 0.5rem; flex-wrap: wrap; align-items: center; }
+        .custom-lineup-add select { padding: 0.5rem 0.75rem; background: rgba(255,255,255,0.06); border: 1px solid rgba(13,148,136,0.3); border-radius: 8px; color: #e8e6e3; font-size: 0.9rem; min-width: 160px; }
+        .custom-lineup-add .btn-add-musician { padding: 0.5rem 1rem; background: rgba(13, 148, 136, 0.25); border: 1px solid rgba(13, 148, 136, 0.5); color: #0d9488; border-radius: 8px; font-weight: 600; cursor: pointer; font-size: 0.9rem; }
+        .custom-lineup-add .btn-add-musician:hover { background: rgba(13, 148, 136, 0.4); }
+        .hero-ai-hint { font-size: 0.75rem; color: #6b7280; margin-top: 0.5rem; }
+        .dream-teams-section {
+            margin-top: 1.5rem; padding: 1.25rem;
+            background: linear-gradient(145deg, rgba(212, 175, 55, 0.08) 0%, rgba(13, 148, 136, 0.06) 100%);
+            border: 1px solid rgba(212, 175, 55, 0.35);
+            border-radius: 12px;
+        }
+        .dream-teams-section h3 { font-size: 0.9rem; color: #d4af37; text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 0.75rem; }
+        .dream-teams-section .ep-badge { font-size: 0.75rem; color: #b8860b; margin-bottom: 0.75rem; }
+        .dream-teams-section .load-row { display: flex; gap: 0.5rem; align-items: center; flex-wrap: wrap; margin-bottom: 1rem; }
+        .dream-teams-section .load-row select { flex: 1; min-width: 180px; padding: 0.5rem 0.75rem; background: rgba(255,255,255,0.06); border: 1px solid rgba(212, 175, 55, 0.35); border-radius: 8px; color: #e8e6e3; font-size: 0.95rem; }
+        .dream-teams-section .save-row { display: flex; gap: 0.5rem; align-items: center; flex-wrap: wrap; margin-bottom: 1rem; }
+        .dream-teams-section .save-row input { flex: 1; min-width: 160px; padding: 0.5rem 0.75rem; background: rgba(255,255,255,0.06); border: 1px solid rgba(212, 175, 55, 0.35); border-radius: 8px; color: #e8e6e3; font-size: 0.95rem; }
+        .dream-teams-section .btn-save-dream { padding: 0.5rem 1rem; background: rgba(212, 175, 55, 0.25); border: 1px solid rgba(212, 175, 55, 0.5); color: #d4af37; border-radius: 8px; font-weight: 600; cursor: pointer; font-size: 0.9rem; }
+        .dream-teams-section .btn-save-dream:hover { background: rgba(212, 175, 55, 0.4); }
+        .dream-teams-list { list-style: none; margin: 0; padding: 0; }
+        .dream-teams-list li { display: flex; align-items: center; gap: 0.5rem; padding: 0.5rem 0; border-bottom: 1px solid rgba(255,255,255,0.06); flex-wrap: wrap; }
+        .dream-teams-list li:last-child { border-bottom: none; }
+        .dream-teams-list .team-name { flex: 1; min-width: 120px; font-size: 0.95rem; color: #e8e6e3; }
+        .dream-teams-list .btn-load-dream { padding: 0.35rem 0.75rem; background: rgba(13, 148, 136, 0.25); border: 1px solid rgba(13, 148, 136, 0.5); color: #0d9488; border-radius: 6px; font-size: 0.8rem; font-weight: 600; cursor: pointer; }
+        .dream-teams-list .btn-load-dream:hover { background: rgba(13, 148, 136, 0.4); }
+        .dream-teams-list .btn-delete-dream { padding: 0.35rem 0.75rem; background: rgba(248, 113, 113, 0.15); border: 1px solid rgba(248, 113, 113, 0.4); color: #f87171; border-radius: 6px; font-size: 0.8rem; cursor: pointer; }
+        .dream-teams-list .btn-delete-dream:hover { background: rgba(248, 113, 113, 0.3); }
+        footer { margin-top: 2.5rem; padding-top: 1.5rem; border-top: 1px solid rgba(255,255,255,0.1); text-align: center; color: #6b7280; font-size: 0.9rem; }
+        footer a { color: #00d4ff; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <p class="back"><a href="music-studio.html">← Music Studio</a> · <a href="school-of-music.html">School of Music</a> · <a href="office-hours.html">Office Hours</a> · <a href="launch-pad.html">Launch Pad</a> · <a href="../index.html">Home</a></p>
+
+        <div class="hero">
+            <span class="badge">Seed:Edge Motor · NSPFRNP · Copyright-free · Studio quality</span>
+            <h1>Text-to-Track Motor</h1>
+            <p class="tagline">The artist creator gives exec instruction to his studio or concert team (options: studio, concert). Create dream teams with <strong>you as executive producer</strong>. Songs in text → production WAV. Each track = one master musician (holographic name) and their instrument. Download · Playlist · Catalog.</p>
+        </div>
+
+        <form id="motor-form">
+            <div class="form-group">
+                <label for="songs-text">Songs in text (lyrics, title, or description)</label>
+                <textarea id="songs-text" name="songs-text" placeholder="Paste or type your song text here. The motor uses this + Seed + Edge to generate a unique, copyright-free track."></textarea>
+            </div>
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="seed">Seed (origin — e.g. root note name or Hz)</label>
+                    <input type="text" id="seed" name="seed" value="C4" placeholder="C4 or 262">
+                </div>
+                <div class="form-group">
+                    <label for="edge">Edge (destination — e.g. style or duration)</label>
+                    <input type="text" id="edge" name="edge" value="studio" placeholder="studio, ballad, urban">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="team">Team (artist creator gives exec instruction to his studio or concert team)</label>
+                <select id="team" name="team" style="width:100%;padding:0.75rem 1rem;background:rgba(255,255,255,0.06);border:1px solid rgba(13,148,136,0.3);border-radius:10px;color:#e8e6e3;font-size:1rem;">
+                    <option value="studio">Studio</option>
+                    <option value="concert">Concert</option>
+                </select>
+                <p style="font-size: 0.75rem; color: #6b7280; margin-top: 0.35rem;">New options: Studio · Concert. Exec instruction goes to this team.</p>
+            </div>
+            <div class="form-group">
+                <label for="genre">Genre (musicians selectable by genre — top 6 or configure your own)</label>
+                <select id="genre" name="genre" style="width:100%;padding:0.75rem 1rem;background:rgba(255,255,255,0.06);border:1px solid rgba(13,148,136,0.3);border-radius:10px;color:#e8e6e3;font-size:1rem;">
+                    <option value="reggaeton">Reggaetón</option>
+                    <option value="ballad">Ballad</option>
+                    <option value="urban">Urban</option>
+                    <option value="rock">Rock</option>
+                    <option value="jazz">Jazz</option>
+                    <option value="electronic">Electronic</option>
+                    <option value="custom">Configure your own (Hero AI assisted)</option>
+                </select>
+                <p style="font-size: 0.75rem; color: #6b7280; margin-top: 0.35rem;">Top 6 genres preset the lineup; or configure your own lineup with Hero AI suggestion.</p>
+            </div>
+            <div id="genre-custom-panel" class="genre-custom-panel">
+                <label for="describe-sound">Describe your sound (Hero AI will suggest a lineup)</label>
+                <input type="text" id="describe-sound" class="describe-sound" placeholder="e.g. chill ballad, club banger, live band, minimal electronic">
+                <button type="button" id="btn-suggest-lineup" class="btn-suggest">Suggest lineup</button>
+                <p class="hero-ai-hint">Hero AI suggests musicians from your description. You can then add/remove/reorder below.</p>
+                <label style="margin-top: 1rem;">Your lineup (add musicians in order)</label>
+                <ul id="custom-lineup-list" class="custom-lineup-list"></ul>
+                <div class="custom-lineup-add">
+                    <select id="add-musician-select">
+                        <option value="">— Add musician —</option>
+                    </select>
+                    <button type="button" id="btn-add-musician" class="btn-add-musician">Add to lineup</button>
+                </div>
+            </div>
+            <section class="dream-teams-section" aria-label="Dream teams — you as executive producer">
+                <h3>Dream teams</h3>
+                <p class="ep-badge">You as executive producer — save and load your lineups.</p>
+                <div class="load-row">
+                    <label for="load-dream-team" style="flex: 0 0 auto; font-size: 0.85rem; color: #9ca3af;">Load a dream team</label>
+                    <select id="load-dream-team">
+                        <option value="">— Use genre/lineup above —</option>
+                    </select>
+                </div>
+                <div class="save-row">
+                    <input type="text" id="dream-team-name" placeholder="Name this dream team" maxlength="80">
+                    <button type="button" id="btn-save-dream-team" class="btn-save-dream">Save current lineup as dream team</button>
+                </div>
+                <ul id="dream-teams-list" class="dream-teams-list"></ul>
+            </section>
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="executive">Executive instruction (how to fill — BPM, tone, density)</label>
+                    <input type="text" id="executive" name="executive" value="smooth finish, studio quality, 92 BPM" placeholder="smooth finish, 92 BPM, warm">
+                </div>
+                <div class="form-group" style="min-width: 140px;">
+                    <label for="num-tracks">Tracks (1–12)</label>
+                    <select id="num-tracks" name="num-tracks" style="width:100%;padding:0.75rem 1rem;background:rgba(255,255,255,0.06);border:1px solid rgba(13,148,136,0.3);border-radius:10px;color:#e8e6e3;font-size:1rem;">
+                        <option value="1">1 — Sera · Bass</option>
+                        <option value="2">2 — Sera · Bass, Kael · Drums</option>
+                        <option value="3">3 — Sera, Kael, Nola</option>
+                        <option value="4">4 — Sera, Kael, Nola, Lyra</option>
+                        <option value="5">5 — … Lyra, Rune</option>
+                        <option value="6">6 — … Rune, Vex</option>
+                        <option value="7">7 — … Vex, Bram</option>
+                        <option value="8">8 — … Bram, Echo</option>
+                        <option value="9">9 — … Echo, Zephyr</option>
+                        <option value="10">10 — … Zephyr, Orin</option>
+                        <option value="11">11 — … Orin, Flux</option>
+                        <option value="12">12 — … Flux, Maestro · Producer/Conductor</option>
+                    </select>
+                    <p style="font-size: 0.75rem; color: #6b7280; margin-top: 0.35rem;">Track = master studio musician (holographic name) · their instrument</p>
+                </div>
+            </div>
+            <button type="submit" class="btn-generate" id="btn-generate">Generate production WAV</button>
+        </form>
+
+        <div class="output-section" id="output-section">
+            <h3>Production WAV ready</h3>
+            <p id="output-filename" class="status-msg"></p>
+            <div id="download-list"></div>
+            <button type="button" class="btn-add-playlist" id="btn-add-playlist">+ Add all to playlist</button>
+            <button type="button" class="btn-add-catalog" id="btn-add-catalog">+ Add all to catalog (NSPFRNP)</button>
+            <button type="button" class="btn-add-catalog" id="btn-copy-catalog" style="margin-left: 0;">Copy catalog entry (markdown)</button>
+        </div>
+
+        <div class="playlist-section">
+            <h3>Playlist (this session)</h3>
+            <ul class="playlist-list" id="playlist-list"></ul>
+        </div>
+
+        <div class="catalog-section">
+            <h3>Catalog (NSPFRNP)</h3>
+            <ul class="catalog-list" id="catalog-list"></ul>
+        </div>
+
+        <footer>
+            <p style="margin-bottom: 0.5rem; font-size: 0.88rem; color: #9ca3af;"><strong>Studio fees for studio. Space fees for space. Campus fees for campus. WINK! fees for WINK!.</strong> And so on throughout — on all book. <a href="baller-v-plans-booking.html">Plans &amp; booking fees →</a></p>
+            <p><a href="baller-v-producer.html">BALLER V PRODUCER!</a> · <a href="baller-v-plans-booking.html#studio-fees">Studio fees</a> · <a href="music-studio.html">Music Studio</a> · <a href="../protocols/TEXT_TO_TRACK_MOTOR_SEED_EDGE_NSPFRNP.md">Protocol</a> · Text-to-Track Motor · Seed:Edge · NSPFRNP</p>
+        </footer>
+    </div>
+
+    <script>
+(function () {
+    var SAMPLE_RATE = 44100;
+    var DEFAULT_DURATION_SEC = 12;
+    var STUDIO_BPM = 92;
+
+    function noteToHz(name) {
+        var notes = { C: 0, D: 2, E: 4, F: 5, G: 7, A: 9, B: 11 };
+        var match = (name || 'C4').trim().toUpperCase().match(/^([A-G])([#b])?(\d+)?$/);
+        if (!match) return 261.63;
+        var semitone = (notes[match[1]] || 0) + (match[2] === '#' ? 1 : match[2] === 'b' ? -1 : 0);
+        var octave = parseInt(match[3], 10) || 4;
+        return 440 * Math.pow(2, (octave - 4) + semitone / 12);
+    }
+
+    function textHash(str) {
+        var h = 0;
+        for (var i = 0; i < (str || '').length; i++) h = ((h << 5) - h) + str.charCodeAt(i) | 0;
+        return h;
+    }
+
+    function seedEdgeToFreq(seedStr, edgeStr, text) {
+        var base = noteToHz(seedStr);
+        var detune = (Math.abs(textHash(text)) % 7) - 3;
+        return base * Math.pow(2, detune / 12);
+    }
+
+    function rnd(seed) { return (Math.sin(seed * 12.9898) * 43758.5453) % 1; }
+
+    function parseBPM(executive) {
+        var match = (executive || '').match(/\b(\d{2,3})\s*BPM\b/i);
+        return match ? Math.min(180, Math.max(60, parseInt(match[1], 10))) : STUDIO_BPM;
+    }
+
+    function textToDurationSec(text, executive) {
+        var words = (text || '').trim().split(/\s+/).filter(Boolean).length;
+        if (words === 0) return DEFAULT_DURATION_SEC;
+        return Math.min(90, Math.max(8, 8 + Math.floor(words / 3)));
+    }
+
+    /** Master studio musicians — best-fit holographic name + their instrument. Track = musician · instrument. */
+    var MASTER_STUDIO_MUSICIANS = [
+        { name: 'Sera', instrument: 'Bass' },
+        { name: 'Kael', instrument: 'Drums' },
+        { name: 'Nola', instrument: 'Pad' },
+        { name: 'Lyra', instrument: 'Lead' },
+        { name: 'Rune', instrument: 'Keys' },
+        { name: 'Vex', instrument: 'Strings' },
+        { name: 'Bram', instrument: 'Brass' },
+        { name: 'Echo', instrument: 'Perc' },
+        { name: 'Zephyr', instrument: 'Synth' },
+        { name: 'Orin', instrument: 'Vox' },
+        { name: 'Flux', instrument: 'FX' },
+        { name: 'Maestro', instrument: 'Producer/Conductor' }
+    ];
+
+    /** Top 6 genre lineups: each is an ordered array of musician indices (0–11). */
+    var GENRE_LINEUPS = {
+        reggaeton: [0, 1, 7, 8, 9, 4, 2, 3, 5, 6, 10, 11],
+        ballad: [2, 5, 3, 9, 4, 0, 1, 6, 7, 8, 10, 11],
+        urban: [0, 1, 4, 8, 9, 3, 2, 5, 6, 7, 10, 11],
+        rock: [1, 0, 3, 4, 6, 7, 2, 5, 8, 9, 10, 11],
+        jazz: [0, 1, 4, 6, 5, 3, 9, 2, 7, 8, 10, 11],
+        electronic: [8, 0, 1, 2, 10, 7, 3, 4, 5, 6, 9, 11]
+    };
+
+    function getMusicianByIndex(idx) {
+        var m = MASTER_STUDIO_MUSICIANS[idx % MASTER_STUDIO_MUSICIANS.length];
+        return { name: m.name, instrument: m.instrument, display: m.name + ' · ' + m.instrument };
+    }
+
+    function getMusicianForTrack(index, lineup) {
+        if (lineup && Array.isArray(lineup) && lineup.length > 0) {
+            var idx = lineup[index % lineup.length];
+            return getMusicianByIndex(idx);
+        }
+        return getMusicianByIndex(index);
+    }
+
+    function getCurrentLineup() {
+        var genre = (document.getElementById('genre') && document.getElementById('genre').value) || 'reggaeton';
+        if (genre === 'custom') {
+            var list = document.getElementById('custom-lineup-list');
+            if (!list) return GENRE_LINEUPS.reggaeton.slice();
+            var indices = [];
+            for (var i = 0; i < list.children.length; i++) {
+                var dataIdx = list.children[i].getAttribute('data-index');
+                if (dataIdx !== null && dataIdx !== '') indices.push(parseInt(dataIdx, 10));
+            }
+            return indices.length > 0 ? indices : GENRE_LINEUPS.reggaeton.slice();
+        }
+        return (GENRE_LINEUPS[genre] || GENRE_LINEUPS.reggaeton).slice();
+    }
+
+    function buildNumTracksOptions(lineup) {
+        var sel = document.getElementById('num-tracks');
+        if (!sel) return;
+        lineup = lineup || getCurrentLineup();
+        var maxN = Math.min(12, lineup.length);
+        sel.innerHTML = '';
+        for (var n = 1; n <= maxN; n++) {
+            var names = [];
+            for (var i = 0; i < n; i++) {
+                var m = getMusicianForTrack(i, lineup);
+                names.push(m.name + (i < 3 ? ' · ' + m.instrument : ''));
+            }
+            var label = n + ' — ' + (names.length <= 2 ? names.join(', ') : names.slice(0, 2).join(', ') + (n > 2 ? ', … ' + names[n - 1] : ''));
+            if (n === 12 && lineup.length >= 12) {
+                var last = getMusicianForTrack(11, lineup);
+                label = n + ' — … ' + last.display;
+            }
+            var opt = document.createElement('option');
+            opt.value = String(n);
+            opt.textContent = label;
+            sel.appendChild(opt);
+        }
+    }
+
+    /** One track = one master musician (holographic name) and their instrument. Artist creator gives exec instruction to his studio or concert team. Copyright-free: oscillators only. */
+    function renderTrack(options) {
+        var text = options.text || '';
+        var seed = options.seed || 'C4';
+        var edge = options.edge || 'studio';
+        var team = options.team || 'studio';
+        var executive = options.executive || '';
+        var trackIndex = options.trackIndex != null ? options.trackIndex : 0;
+        var musician = options.musician != null ? options.musician : getMusicianForTrack(trackIndex);
+        var instrumentRole = musician.instrument;
+        var durationSec = options.durationSec || textToDurationSec(text, executive);
+        var length = Math.ceil(SAMPLE_RATE * durationSec);
+        var numChannels = 2;
+        var ctx = new OfflineAudioContext(numChannels, length, SAMPLE_RATE);
+        var hash = textHash(text + seed + edge + team + String(trackIndex));
+        var rootHz = seedEdgeToFreq(seed, edge, text);
+        var bpm = parseBPM(executive);
+        var beatSec = 60 / bpm;
+        var barSec = beatSec * 4;
+
+        var masterGain = ctx.createGain();
+        masterGain.gain.setValueAtTime(0, 0);
+        masterGain.gain.linearRampToValueAtTime(0.85, 0.3);
+        masterGain.gain.setValueAtTime(0.85, durationSec - 0.3);
+        masterGain.gain.linearRampToValueAtTime(0, durationSec);
+        masterGain.connect(ctx.destination);
+
+        var bassHz = rootHz * 0.5;
+        var chordRoot = rootHz;
+        var chordThird = rootHz * Math.pow(2, 4 / 12);
+        var chordFifth = rootHz * Math.pow(2, 7 / 12);
+
+        if (instrumentRole === 'Bass') {
+            for (var t = 0; t < durationSec; t += beatSec) {
+                var beatInBar = (t / beatSec) % 4;
+                var bassGain = ctx.createGain();
+                bassGain.gain.setValueAtTime(0, t);
+                bassGain.gain.linearRampToValueAtTime(0.5, t + 0.01);
+                bassGain.gain.exponentialRampToValueAtTime(0.01, t + beatSec * 0.4);
+                var osc = ctx.createOscillator();
+                osc.type = 'sine';
+                osc.frequency.setValueAtTime(bassHz * (beatInBar === 0 || beatInBar === 2 ? 1 : Math.pow(2, 5 / 12)), t);
+                osc.connect(bassGain);
+                bassGain.connect(masterGain);
+                osc.start(t);
+                osc.stop(t + beatSec * 0.5);
+            }
+        } else if (instrumentRole === 'Drums') {
+            for (var t = 0; t < durationSec; t += beatSec * 0.5) {
+                var beatInBar = (t / beatSec) % 4;
+                var snareGain = ctx.createGain();
+                snareGain.gain.setValueAtTime(0, t);
+                snareGain.gain.linearRampToValueAtTime(0.4, t + 0.002);
+                snareGain.gain.exponentialRampToValueAtTime(0.001, t + 0.08);
+                var noise = ctx.createOscillator();
+                noise.type = 'triangle';
+                noise.frequency.setValueAtTime(180 + (hash % 200), t);
+                var noiseGain = ctx.createGain();
+                noiseGain.gain.setValueAtTime(1, t);
+                noiseGain.gain.exponentialRampToValueAtTime(0.01, t + 0.08);
+                noise.connect(noiseGain);
+                noiseGain.connect(snareGain);
+                if (beatInBar === 1 || beatInBar === 3) {
+                    noise.start(t);
+                    noise.stop(t + 0.08);
+                    snareGain.connect(masterGain);
+                }
+            }
+        } else if (instrumentRole === 'Pad' || instrumentRole === 'Strings') {
+            var padGain = ctx.createGain();
+            padGain.gain.setValueAtTime(0, 0);
+            padGain.gain.linearRampToValueAtTime(0.35, 1);
+            padGain.gain.setValueAtTime(0.35, durationSec - 1);
+            padGain.gain.linearRampToValueAtTime(0, durationSec);
+            var padOscs = [
+                { type: 'sine', freq: chordRoot },
+                { type: 'triangle', freq: chordThird },
+                { type: 'sine', freq: chordFifth },
+                { type: 'sine', freq: chordRoot * 2 }
+            ];
+            for (var i = 0; i < padOscs.length; i++) {
+                var o = ctx.createOscillator();
+                o.type = padOscs[i].type;
+                o.frequency.setValueAtTime(padOscs[i].freq * (1 + 0.003 * (rnd(hash + i) - 0.5)), 0);
+                o.connect(padGain);
+                padGain.connect(masterGain);
+                o.start(0);
+                o.stop(durationSec);
+            }
+        } else if (instrumentRole === 'Lead' || instrumentRole === 'Synth' || instrumentRole === 'Vox') {
+            var leadGain = ctx.createGain();
+            leadGain.gain.setValueAtTime(0, 0);
+            leadGain.gain.linearRampToValueAtTime(0.45, 1);
+            leadGain.gain.setValueAtTime(0.45, durationSec - 1);
+            leadGain.gain.linearRampToValueAtTime(0, durationSec);
+            var noteIndex = 0;
+            for (var t = barSec; t < durationSec - barSec; t += beatSec * 2) {
+                var scale = [0, 2, 4, 5, 7, 9, 11];
+                var step = scale[Math.abs(hash + noteIndex) % scale.length];
+                var leadFreq = chordRoot * 2 * Math.pow(2, step / 12);
+                var g = ctx.createGain();
+                g.gain.setValueAtTime(0, t);
+                g.gain.linearRampToValueAtTime(0.5, t + 0.02);
+                g.gain.linearRampToValueAtTime(0.3, t + beatSec * 1.2);
+                g.gain.exponentialRampToValueAtTime(0.001, t + beatSec * 2);
+                var osc = ctx.createOscillator();
+                osc.type = (noteIndex % 3) === 0 ? 'sine' : (noteIndex % 3) === 1 ? 'triangle' : 'sawtooth';
+                osc.frequency.setValueAtTime(leadFreq, t);
+                osc.connect(g);
+                g.connect(leadGain);
+                leadGain.connect(masterGain);
+                osc.start(t);
+                osc.stop(t + beatSec * 2.2);
+                noteIndex++;
+            }
+        } else if (instrumentRole === 'Keys' || instrumentRole === 'Brass') {
+            var keysGain = ctx.createGain();
+            keysGain.gain.setValueAtTime(0, 0);
+            keysGain.gain.linearRampToValueAtTime(0.3, 0.5);
+            keysGain.gain.setValueAtTime(0.3, durationSec - 0.5);
+            keysGain.gain.linearRampToValueAtTime(0, durationSec);
+            for (var t = 0; t < durationSec; t += beatSec * 2) {
+                var step = (Math.abs(hash) + Math.floor(t / beatSec)) % 7;
+                var scale = [0, 2, 4, 5, 7, 9, 11];
+                var f = chordRoot * Math.pow(2, scale[step] / 12);
+                var o = ctx.createOscillator();
+                o.type = instrumentRole === 'Brass' ? 'sawtooth' : 'triangle';
+                o.frequency.setValueAtTime(f, t);
+                var g = ctx.createGain();
+                g.gain.setValueAtTime(0, t);
+                g.gain.linearRampToValueAtTime(0.35, t + 0.02);
+                g.gain.exponentialRampToValueAtTime(0.001, t + beatSec * 1.5);
+                o.connect(g);
+                g.connect(keysGain);
+                keysGain.connect(masterGain);
+                o.start(t);
+                o.stop(t + beatSec * 1.6);
+            }
+        } else if (instrumentRole === 'Perc' || instrumentRole === 'FX') {
+            var hitGain = ctx.createGain();
+            hitGain.gain.setValueAtTime(0.4, 0);
+            for (var t = beatSec * 0.5; t < durationSec; t += beatSec * (instrumentRole === 'Perc' ? 1 : 2)) {
+                var o = ctx.createOscillator();
+                o.type = (Math.abs(hash) + Math.floor(t * 4)) % 2 === 0 ? 'sine' : 'triangle';
+                o.frequency.setValueAtTime(chordRoot * (2 + rnd(hash + t) * 2), t);
+                var g = ctx.createGain();
+                g.gain.setValueAtTime(0, t);
+                g.gain.linearRampToValueAtTime(0.3, t + 0.01);
+                g.gain.exponentialRampToValueAtTime(0.001, t + 0.15);
+                o.connect(g);
+                g.connect(hitGain);
+                hitGain.connect(masterGain);
+                o.start(t);
+                o.stop(t + 0.2);
+            }
+        } else if (instrumentRole === 'Producer/Conductor') {
+            var condGain = ctx.createGain();
+            condGain.gain.setValueAtTime(0, 0);
+            condGain.gain.linearRampToValueAtTime(0.25, 0.2);
+            condGain.gain.setValueAtTime(0.25, durationSec - 0.2);
+            condGain.gain.linearRampToValueAtTime(0, durationSec);
+            for (var bar = 0; bar < Math.ceil(durationSec / barSec); bar++) {
+                var t = bar * barSec;
+                var o = ctx.createOscillator();
+                o.type = 'sine';
+                o.frequency.setValueAtTime(rootHz * 2, t);
+                var g = ctx.createGain();
+                g.gain.setValueAtTime(0, t);
+                g.gain.linearRampToValueAtTime(0.35, t + 0.005);
+                g.gain.exponentialRampToValueAtTime(0.001, t + 0.08);
+                o.connect(g);
+                g.connect(condGain);
+                condGain.connect(masterGain);
+                o.start(t);
+                o.stop(t + 0.1);
+            }
+            for (var t = beatSec; t < durationSec; t += beatSec) {
+                var o = ctx.createOscillator();
+                o.type = 'triangle';
+                o.frequency.setValueAtTime(880 + (hash % 200), t);
+                var g = ctx.createGain();
+                g.gain.setValueAtTime(0, t);
+                g.gain.linearRampToValueAtTime(0.08, t + 0.002);
+                g.gain.exponentialRampToValueAtTime(0.001, t + 0.04);
+                o.connect(g);
+                g.connect(condGain);
+                o.start(t);
+                o.stop(t + 0.05);
+            }
+        } else {
+            var fallbackGain = ctx.createGain();
+            fallbackGain.gain.setValueAtTime(0, 0);
+            fallbackGain.gain.linearRampToValueAtTime(0.25, 1);
+            fallbackGain.gain.setValueAtTime(0.25, durationSec - 1);
+            fallbackGain.gain.linearRampToValueAtTime(0, durationSec);
+            var o = ctx.createOscillator();
+            o.type = 'sine';
+            o.frequency.setValueAtTime(chordRoot, 0);
+            o.connect(fallbackGain);
+            fallbackGain.connect(masterGain);
+            o.start(0);
+            o.stop(durationSec);
+        }
+
+        return ctx.startRendering();
+    }
+
+    function floatTo16BitPCM(float32Array) {
+        var buffer = new ArrayBuffer(float32Array.length * 2);
+        var view = new DataView(buffer);
+        var offset = 0;
+        for (var i = 0; i < float32Array.length; i++, offset += 2) {
+            var s = Math.max(-1, Math.min(1, float32Array[i]));
+            view.setInt16(offset, s < 0 ? s * 0x8000 : s * 0x7FFF, true);
+        }
+        return buffer;
+    }
+
+    function audioBufferToWav(buffer) {
+        var numChannels = buffer.numberOfChannels;
+        var sampleRate = buffer.sampleRate;
+        var duration = buffer.length / sampleRate;
+        var length = buffer.length * numChannels * 2;
+        var byteRate = sampleRate * numChannels * 2;
+        var blockAlign = numChannels * 2;
+        var dataSize = buffer.length * numChannels * 2;
+
+        var interleaved = new Float32Array(buffer.length * numChannels);
+        for (var i = 0; i < buffer.length; i++) {
+            for (var ch = 0; ch < numChannels; ch++) {
+                interleaved[i * numChannels + ch] = buffer.getChannelData(ch)[i];
+            }
+        }
+        var pcm = floatTo16BitPCM(interleaved);
+
+        var header = new ArrayBuffer(44);
+        var view = new DataView(header);
+        function writeStr(offset, str) {
+            for (var i = 0; i < str.length; i++) view.setUint8(offset + i, str.charCodeAt(i));
+        }
+        writeStr(0, 'RIFF');
+        view.setUint32(4, 36 + dataSize, true);
+        writeStr(8, 'WAVE');
+        writeStr(12, 'fmt ');
+        view.setUint32(16, 16, true);
+        view.setUint16(20, 1, true);
+        view.setUint16(22, numChannels, true);
+        view.setUint32(24, sampleRate, true);
+        view.setUint32(28, byteRate, true);
+        view.setUint16(32, blockAlign, true);
+        view.setUint16(34, 16, true);
+        writeStr(36, 'data');
+        view.setUint32(40, dataSize, true);
+
+        var blob = new Blob([header, pcm], { type: 'audio/wav' });
+        return blob;
+    }
+
+    var lastOutputs = [];
+    var playlist = JSON.parse(localStorage.getItem('textToTrackPlaylist') || '[]');
+    var catalog = JSON.parse(localStorage.getItem('textToTrackCatalog') || '[]');
+    var DREAM_TEAMS_KEY = 'textToTrackDreamTeams';
+    var dreamTeams = JSON.parse(localStorage.getItem(DREAM_TEAMS_KEY) || '[]');
+
+    function savePlaylist() { localStorage.setItem('textToTrackPlaylist', JSON.stringify(playlist)); }
+    function saveCatalog() { localStorage.setItem('textToTrackCatalog', JSON.stringify(catalog)); }
+    function saveDreamTeams() { localStorage.setItem(DREAM_TEAMS_KEY, JSON.stringify(dreamTeams)); }
+
+    function applyDreamTeam(lineup) {
+        var genreSel = document.getElementById('genre');
+        if (genreSel) genreSel.value = 'custom';
+        var customPanel = document.getElementById('genre-custom-panel');
+        if (customPanel) customPanel.classList.add('visible');
+        renderCustomLineupList(lineup);
+        var loadSel = document.getElementById('load-dream-team');
+        if (loadSel) loadSel.value = '';
+    }
+
+    function renderDreamTeamsList() {
+        var loadSel = document.getElementById('load-dream-team');
+        var listEl = document.getElementById('dream-teams-list');
+        if (!loadSel && !listEl) return;
+        if (loadSel) {
+            loadSel.innerHTML = '<option value="">— Use genre/lineup above —</option>';
+            dreamTeams.forEach(function (t) {
+                var opt = document.createElement('option');
+                opt.value = t.id;
+                opt.textContent = t.name;
+                loadSel.appendChild(opt);
+            });
+        }
+        if (listEl) {
+            listEl.innerHTML = '';
+            dreamTeams.forEach(function (t) {
+                var li = document.createElement('li');
+                li.innerHTML = '<span class="team-name">' + (t.name || 'Unnamed') + '</span><button type="button" class="btn-load-dream" data-id="' + t.id + '">Load</button><button type="button" class="btn-delete-dream" data-id="' + t.id + '" aria-label="Delete">Delete</button>';
+                li.querySelector('.btn-load-dream').addEventListener('click', function () {
+                    applyDreamTeam(t.lineup || []);
+                });
+                li.querySelector('.btn-delete-dream').addEventListener('click', function () {
+                    dreamTeams = dreamTeams.filter(function (x) { return x.id !== t.id; });
+                    saveDreamTeams();
+                    renderDreamTeamsList();
+                });
+                listEl.appendChild(li);
+            });
+        }
+    }
+
+    function slug(str) {
+        return (str || 'track').replace(/\s+/g, '_').replace(/[^a-zA-Z0-9_-]/g, '').slice(0, 48) || 'track';
+    }
+
+    function renderPlaylist() {
+        var ul = document.getElementById('playlist-list');
+        ul.innerHTML = '';
+        playlist.forEach(function (item, i) {
+            var li = document.createElement('li');
+            var a = document.createElement('a');
+            a.href = item.url;
+            a.download = item.filename;
+            a.textContent = item.title || item.filename;
+            li.appendChild(a);
+            var disp = item.musicianDisplay || (item.musicianName && item.musicianInstrument ? item.musicianName + ' · ' + item.musicianInstrument : null) || (item.instrumentRole ? item.instrumentRole : null);
+            li.appendChild(document.createTextNode((disp ? ' · ' + disp : '') + ' · ' + (item.seed || '') + ' → ' + (item.edge || '')));
+            ul.appendChild(li);
+        });
+    }
+
+    function renderCatalog() {
+        var ul = document.getElementById('catalog-list');
+        ul.innerHTML = '';
+        catalog.forEach(function (item) {
+            var li = document.createElement('li');
+            var disp = item.musicianDisplay || (item.musicianName && item.musicianInstrument ? item.musicianName + ' · ' + item.musicianInstrument : null) || (item.instrumentRole ? item.instrumentRole : null);
+            li.textContent = (item.title || item.trackId) + (disp ? ' — ' + disp : '') + ' — Seed: ' + (item.seed || '') + ', Edge: ' + (item.edge || '') + (item.filename ? ' · ' + item.filename : '');
+            ul.appendChild(li);
+        });
+    }
+
+    function suggestLineupFromDescribe(text) {
+        var t = (text || '').toLowerCase();
+        if (/\b(ballad|chill|soft|slow|emotional)\b/.test(t)) return GENRE_LINEUPS.ballad.slice();
+        if (/\b(reggaeton|perreo|club|dembow|latino)\b/.test(t)) return GENRE_LINEUPS.reggaeton.slice();
+        if (/\b(urban|hip-hop|hiphop|trap|r&b)\b/.test(t)) return GENRE_LINEUPS.urban.slice();
+        if (/\b(rock|band|guitar|live band)\b/.test(t)) return GENRE_LINEUPS.rock.slice();
+        if (/\b(jazz|swing|brass)\b/.test(t)) return GENRE_LINEUPS.jazz.slice();
+        if (/\b(electronic|synth|minimal|edm|techno)\b/.test(t)) return GENRE_LINEUPS.electronic.slice();
+        return GENRE_LINEUPS.urban.slice();
+    }
+
+    function renderCustomLineupList(indices) {
+        var ul = document.getElementById('custom-lineup-list');
+        if (!ul) return;
+        ul.innerHTML = '';
+        (indices || []).forEach(function (idx, i) {
+            var m = getMusicianByIndex(idx);
+            var li = document.createElement('li');
+            li.setAttribute('data-index', String(idx));
+            li.innerHTML = '<span class="ord">' + (i + 1) + '</span><span class="name-instr">' + m.display + '</span><button type="button" class="btn-remove" aria-label="Remove">×</button>';
+                li.querySelector('.btn-remove').addEventListener('click', function () {
+                    li.remove();
+                    var list = document.getElementById('custom-lineup-list');
+                    if (list) { for (var j = 0; j < list.children.length; j++) { var ord = list.children[j].querySelector('.ord'); if (ord) ord.textContent = j + 1; } }
+                    buildNumTracksOptions(getCurrentLineup());
+                });
+                ul.appendChild(li);
+            });
+        buildNumTracksOptions(indices);
+    }
+
+    (function initGenreAndCustom() {
+        var genreSel = document.getElementById('genre');
+        var customPanel = document.getElementById('genre-custom-panel');
+        var addMusicianSel = document.getElementById('add-musician-select');
+        if (addMusicianSel) {
+            MASTER_STUDIO_MUSICIANS.forEach(function (m, i) {
+                var opt = document.createElement('option');
+                opt.value = String(i);
+                opt.textContent = m.name + ' · ' + m.instrument;
+                addMusicianSel.appendChild(opt);
+            });
+        }
+        if (genreSel) {
+            genreSel.addEventListener('change', function () {
+                var isCustom = genreSel.value === 'custom';
+                if (customPanel) customPanel.classList.toggle('visible', isCustom);
+                if (isCustom) {
+                    var lineup = getCurrentLineup();
+                    if (lineup.length === 0) lineup = GENRE_LINEUPS.reggaeton.slice();
+                    renderCustomLineupList(lineup);
+                } else {
+                    buildNumTracksOptions(GENRE_LINEUPS[genreSel.value] || GENRE_LINEUPS.reggaeton);
+                }
+            });
+        }
+        var btnSuggest = document.getElementById('btn-suggest-lineup');
+        var describeSound = document.getElementById('describe-sound');
+        if (btnSuggest && describeSound) {
+            btnSuggest.addEventListener('click', function () {
+                var suggested = suggestLineupFromDescribe(describeSound.value);
+                renderCustomLineupList(suggested);
+            });
+        }
+        var btnAddMusician = document.getElementById('btn-add-musician');
+        if (btnAddMusician && addMusicianSel) {
+            btnAddMusician.addEventListener('click', function () {
+                var val = addMusicianSel.value;
+                if (val === '') return;
+                var idx = parseInt(val, 10);
+                var ul = document.getElementById('custom-lineup-list');
+                if (!ul) return;
+                if (ul.children.length >= 12) return;
+                var m = getMusicianByIndex(idx);
+                var li = document.createElement('li');
+                li.setAttribute('data-index', String(idx));
+                li.innerHTML = '<span class="ord">' + (ul.children.length + 1) + '</span><span class="name-instr">' + m.display + '</span><button type="button" class="btn-remove" aria-label="Remove">×</button>';
+                li.querySelector('.btn-remove').addEventListener('click', function () {
+                    li.remove();
+                    buildNumTracksOptions(getCurrentLineup());
+                });
+                ul.appendChild(li);
+                buildNumTracksOptions(getCurrentLineup());
+            });
+        }
+    })();
+
+    document.getElementById('motor-form').addEventListener('submit', function (e) {
+        e.preventDefault();
+        var btn = document.getElementById('btn-generate');
+        var songsText = document.getElementById('songs-text').value.trim();
+        var seed = document.getElementById('seed').value.trim() || 'C4';
+        var edge = document.getElementById('edge').value.trim() || 'studio';
+        var team = (document.getElementById('team').value || 'studio').toLowerCase();
+        if (team !== 'concert') team = 'studio';
+        var executive = document.getElementById('executive').value.trim() || 'smooth finish';
+        var lineup = getCurrentLineup();
+        var numTracks = Math.min(12, Math.max(1, parseInt(document.getElementById('num-tracks').value, 10) || 1));
+        numTracks = Math.min(numTracks, lineup.length);
+        if (numTracks < 1) numTracks = 1;
+
+        btn.disabled = true;
+        var out = document.getElementById('output-section');
+        var filenameEl = document.getElementById('output-filename');
+        var downloadListEl = document.getElementById('download-list');
+        filenameEl.textContent = 'Generating ' + numTracks + ' track(s) — ' + team + ' team (artist creator exec instruction)… Seed:Edge + executive. Copyright-free.';
+        filenameEl.className = 'status-msg';
+        out.classList.add('visible');
+        downloadListEl.innerHTML = '';
+
+        var durationSec = textToDurationSec(songsText, executive);
+        var baseTitle = songsText.slice(0, 60) || 'Seed-Edge-Track';
+        var baseTime = Date.now();
+        lastOutputs = [];
+
+        function runNext(index) {
+            if (index >= numTracks) {
+                filenameEl.textContent = numTracks === 1 ? lastOutputs[0].meta.filename : numTracks + ' tracks ready.';
+                filenameEl.className = 'status-msg success';
+                lastOutputs.forEach(function (item, i) {
+                    var m = item.meta.musicianDisplay || (getMusicianForTrack(i, lineup).display);
+                    var a = document.createElement('a');
+                    a.href = URL.createObjectURL(item.blob);
+                    a.download = item.meta.filename;
+                    a.className = 'btn-download';
+                    a.style.display = 'inline-flex';
+                    a.style.marginRight = '0.75rem';
+                    a.style.marginBottom = '0.5rem';
+                    a.textContent = '↓ ' + (numTracks > 1 ? 'Track ' + (i + 1) + ' — ' + m : item.meta.filename);
+                    a.title = item.meta.filename;
+                    downloadListEl.appendChild(a);
+                });
+                btn.disabled = false;
+                return;
+            }
+            var musician = getMusicianForTrack(index, lineup);
+            renderTrack({
+                text: songsText,
+                seed: seed,
+                edge: edge,
+                team: team,
+                executive: executive,
+                durationSec: durationSec,
+                trackIndex: index,
+                musician: musician
+            }).then(function (buffer) {
+                var blob = audioBufferToWav(buffer);
+                var title = numTracks === 1 ? baseTitle : baseTitle + ' (' + (index + 1) + '/' + numTracks + ')';
+                var filename = slug(baseTitle) + (numTracks > 1 ? '_' + (index + 1) : '') + '_' + baseTime + '.wav';
+                lastOutputs.push({
+                    blob: blob,
+                    meta: { title: title, seed: seed, edge: edge, team: team, executive: executive, filename: filename, trackIndex: index, numTracks: numTracks, musicianName: musician.name, musicianInstrument: musician.instrument, musicianDisplay: musician.display }
+                });
+                runNext(index + 1);
+            }).catch(function (err) {
+                filenameEl.textContent = 'Error (track ' + (index + 1) + '): ' + (err.message || 'generation failed');
+                filenameEl.className = 'status-msg error';
+                btn.disabled = false;
+            });
+        }
+        runNext(0);
+    });
+
+    document.getElementById('btn-add-playlist').addEventListener('click', function () {
+        if (!lastOutputs.length) return;
+        lastOutputs.forEach(function (item) {
+            playlist.push({
+                title: item.meta.title,
+                seed: item.meta.seed,
+                edge: item.meta.edge,
+                team: item.meta.team,
+                filename: item.meta.filename,
+                musicianDisplay: item.meta.musicianDisplay,
+                musicianName: item.meta.musicianName,
+                musicianInstrument: item.meta.musicianInstrument,
+                url: URL.createObjectURL(item.blob)
+            });
+        });
+        savePlaylist();
+        renderPlaylist();
+    });
+
+    document.getElementById('btn-add-catalog').addEventListener('click', function () {
+        if (!lastOutputs.length) return;
+        var now = new Date().toISOString();
+        lastOutputs.forEach(function (item, i) {
+            var trackId = 'TEXT-TO-TRACK-' + slug(item.meta.title).toUpperCase().replace(/_/g, '-') + '-' + Date.now() + (lastOutputs.length > 1 ? '-' + (i + 1) : '');
+            var m = item.meta.musicianDisplay || getMusicianForTrack(i).display;
+            catalog.push({
+                trackId: trackId,
+                title: item.meta.title,
+                seed: item.meta.seed,
+                edge: item.meta.edge,
+                team: item.meta.team,
+                executive: item.meta.executive,
+                filename: item.meta.filename,
+                musicianDisplay: item.meta.musicianDisplay || m,
+                musicianName: item.meta.musicianName,
+                musicianInstrument: item.meta.musicianInstrument,
+                generatedAt: now,
+                protocol: 'TEXT-TO-TRACK-MOTOR-SEED-EDGE-NSPFRNP'
+            });
+        });
+        saveCatalog();
+        renderCatalog();
+    });
+
+    document.getElementById('btn-copy-catalog').addEventListener('click', function () {
+        if (!lastOutputs.length) return;
+        var first = lastOutputs[0].meta;
+        var trackId = 'TEXT-TO-TRACK-' + slug(first.title).toUpperCase().replace(/_/g, '-') + '-' + Date.now();
+        var md = '# ' + first.title + '\n\n' +
+            '**Track ID:** `' + trackId + '`  \n' +
+            '**Tracks:** ' + lastOutputs.length + ' (1–12 available). Each track = one master musician (holographic name) and their instrument.  \n' +
+            '**Team:** ' + (first.team || 'studio') + ' (artist creator gives exec instruction to his studio or concert team).  \n' +
+            (lastOutputs.length > 1 ? '**Musicians:** ' + lastOutputs.map(function (o) { return o.meta.musicianDisplay || getMusicianForTrack(o.meta.trackIndex).display; }).join(', ') + '  \n' : '') +
+            '**Seed:** ' + first.seed + '  \n' +
+            '**Edge:** ' + first.edge + '  \n' +
+            '**Executive:** ' + (first.executive || '') + '  \n' +
+            '**Filenames:** ' + lastOutputs.map(function (o) { return o.meta.filename; }).join(', ') + '  \n' +
+            '**Generated:** ' + new Date().toISOString() + '  \n' +
+            '**Protocol:** TEXT-TO-TRACK-MOTOR-SEED-EDGE-NSPFRNP  \n' +
+            '**Status:** Production WAV · Copyright-free · Seed:Edge motor.\n\n---\n';
+        if (navigator.clipboard && navigator.clipboard.writeText) {
+            navigator.clipboard.writeText(md).then(function () {
+                var el = document.getElementById('output-filename');
+                var prev = el.textContent;
+                el.textContent = 'Catalog entry (NSPFRNP markdown) copied to clipboard. Paste into catalogs/music/ if desired.';
+                el.className = 'status-msg success';
+                setTimeout(function () { el.textContent = prev; }, 3000);
+            });
+        }
+    });
+
+    buildNumTracksOptions(getCurrentLineup());
+    renderDreamTeamsList();
+    renderPlaylist();
+    renderCatalog();
+})();
+    </script>
+</body>
+</html>

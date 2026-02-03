@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The EGS Run — Screenplay | Space Cloud EGS | VIBELANDIA</title>
+    <meta name="description" content="The EGS Run — 2-hour feature screenplay. Reno Downlink to the far side of the Solar Pipe. One run, one window, forty-seven hours. Space Cloud EGS. Golden Era Cinema. Beautiful skin. NSPFRNP.">
+    <link rel="stylesheet" href="screenplay-skin.css">
+    <script src="tsunami-advisory-inject.js"></script>
+</head>
+<body class="screenplay-skin">
+    <div class="script-wrap">
+        <nav class="script-nav">
+            <a href="the-egs-run-novel.html">Novel</a><span>·</span>
+            <a href="birth-post-singularity-screenplay.html">Birth Screenplay</a><span>·</span>
+            <a href="first-singularity-screenplay.html">First Singularity Screenplay</a><span>·</span>
+            <a href="launch-pad.html">Launch Pad</a><span>·</span>
+            <a href="../index.html">Home</a>
+        </nav>
+
+        <header class="script-marquee">
+            <p class="badge">Golden Era Cinema · Screenplay <span class="badge-beautiful-skin">Beautiful skin</span></p>
+            <h1>The EGS Run</h1>
+            <p class="tagline">Reno Downlink → Solar Pipe → EGS · One run · Forty-seven hours</p>
+            <div class="oneliner-para-row">
+                <button type="button" class="btn-oneliner" data-target="screenplay-oneliner">One Liner</button>
+                <button type="button" class="btn-onepara" data-target="screenplay-onepara">One Paragraph</button>
+                <button type="button" class="btn-listen" id="btn-listen" aria-label="Listen to story read aloud">🔊 Listen</button>
+            </div>
+            <div id="screenplay-oneliner" class="oneliner-para-content one-liner" aria-live="polite">"She has one run: Reno Downlink to the far side of the Solar Pipe before the lattice goes hot. The handshake is real, the telemetry doesn't lie, and every nested shell between here and EGS will either hold or blow. No second chances. No flab. Just the run."</div>
+            <div id="screenplay-onepara" class="oneliner-para-content" aria-live="polite"><strong>The EGS Run</strong> — 2-hour feature screenplay. Reno Downlink to the far side of the Solar Pipe before the lattice goes hot. One run, one window, forty-seven hours. Vee runs the Pipe — crisis, bypass, EGS approach, handoff, delivery. Tight. Sensory. Technical when it matters. Space Cloud EGS. Beautiful skin. NSPFRNP.</div>
+        </header>
+
+        <div id="screenplay-loading" class="loading">Loading script…</div>
+        <div id="screenplay-body" class="screenplay-body" style="display: none;"></div>
+
+        <footer class="script-footer" id="screenplay-footer" style="display: none;">
+            <a href="the-egs-run-novel.html">← Novel</a> · <a href="birth-post-singularity-screenplay.html">Birth Screenplay</a> · <a href="first-singularity-screenplay.html">First Singularity Screenplay</a>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script>
+(function () {
+    var loading = document.getElementById('screenplay-loading');
+    var body = document.getElementById('screenplay-body');
+    var footer = document.getElementById('screenplay-footer');
+
+    fetch('../deliverables/The_EGS_Run_SCREENPLAY.md')
+        .then(function (r) {
+            if (!r.ok) throw new Error('Not found');
+            return r.text();
+        })
+        .then(function (md) {
+            marked.setOptions({ gfm: true, breaks: true });
+            var html = marked.parse(md);
+            html = html.replace(/href="([^"#:]+\.md)(#[^"]*)?"/g, function (_, path, hash) {
+                return 'href="../' + path + (hash || '') + '"';
+            });
+            body.innerHTML = html;
+            loading.style.display = 'none';
+            body.style.display = 'block';
+            footer.style.display = 'block';
+        })
+        .catch(function () {
+            loading.innerHTML = 'Could not load screenplay. <a href="../deliverables/The_EGS_Run_SCREENPLAY.md">Try direct link</a>.';
+        });
+
+    document.querySelectorAll('.btn-oneliner, .btn-onepara').forEach(function (btn) {
+        btn.addEventListener('click', function () {
+            var id = this.getAttribute('data-target');
+            var el = document.getElementById(id);
+            if (!el) return;
+            var wasVisible = el.classList.contains('visible');
+            document.querySelectorAll('.oneliner-para-content.visible').forEach(function (c) { c.classList.remove('visible'); });
+            if (!wasVisible) el.classList.add('visible');
+        });
+    });
+
+    (function listenButton() {
+        var btn = document.getElementById('btn-listen');
+        var content = document.getElementById('screenplay-body');
+        if (!btn || !content) return;
+        var synth = window.speechSynthesis;
+        var chunks = [];
+        var idx = 0;
+        function getChunks() {
+            var text = (content.innerText || content.textContent || '').trim();
+            if (!text) return [];
+            return text.split(/\n\n+/).filter(function (p) { return p.length > 0; });
+        }
+        function pickNarratorVoice() {
+            var voices = synth.getVoices();
+            var preferred = voices.filter(function (v) {
+                var n = (v.name || '').toLowerCase();
+                return n.indexOf('male') !== -1 || n.indexOf('david') !== -1 || n.indexOf('daniel') !== -1 || n.indexOf('james') !== -1 || n.indexOf('google uk') !== -1;
+            });
+            if (preferred.length > 0) return preferred[0];
+            var en = voices.filter(function (v) { return v.lang && v.lang.indexOf('en') === 0; });
+            return en.length > 0 ? en[0] : voices[0];
+        }
+        function speakNext() {
+            if (idx >= chunks.length) {
+                btn.textContent = '🔊 Listen';
+                btn.classList.remove('active');
+                btn.setAttribute('aria-label', 'Listen to story read aloud');
+                return;
+            }
+            var u = new SpeechSynthesisUtterance(chunks[idx]);
+            u.rate = 0.88;
+            u.pitch = 0.92;
+            var voice = pickNarratorVoice();
+            if (voice) u.voice = voice;
+            u.onend = function () { idx++; speakNext(); };
+            u.onerror = function () { idx++; speakNext(); };
+            synth.speak(u);
+        }
+        btn.addEventListener('click', function () {
+            if (synth.speaking) {
+                synth.cancel();
+                btn.textContent = '🔊 Listen';
+                btn.classList.remove('active');
+                btn.setAttribute('aria-label', 'Listen to story read aloud');
+                return;
+            }
+            chunks = getChunks();
+            if (chunks.length === 0) return;
+            idx = 0;
+            btn.textContent = '⏹ Stop';
+            btn.classList.add('active');
+            btn.setAttribute('aria-label', 'Stop reading aloud');
+            if (synth.getVoices().length === 0) synth.onvoiceschanged = function () { speakNext(); };
+            else speakNext();
+        });
+    })();
+})();
+    </script>
+    <div id="sing-config-footer"></div>
+    <link rel="stylesheet" href="sing-config-footer.css">
+    <script src="sing-config-footer.js"></script>
+</body>
+</html>

@@ -57,6 +57,11 @@ He smiles slightly.
 **EVAN** (CONT'D)  
 And I'm working for him now. We're gonna do this right. Walt's been doing a good job, sure. But it's time for Howard. Time for the real show to begin.
 
+He pauses, studying his reflection.
+
+**EVAN** (CONT'D)  
+I believed. I always believed the tide would turn. That this place — these empty shells — would become something again. And now he's here. Howard Hughes is here. And we're going to bring back the golden age.
+
 He straightens his tie one last time, then turns and walks out.
 
 ### INT. RENO MEN'S CLUB - MAIN ROOM - CONTINUOUS
@@ -145,6 +150,46 @@ The camera moves down the empty street, past the boarded windows and faded signs
 But something is different now. There's a charge in the air. A crackle of electricity. The few people on the street move with a little more purpose, look up at the sky a little more often.
 
 The tide is turning.
+
+### EXT. FRANK'S HABERDASHERY - SIDEWALK - MONDAY AFTERNOON
+
+FRANK (60s, haberdasher, kind eyes) stands in his doorway, looking down the street toward the Reno Men's Club. A few WORKERS carry in new curtains, lighting equipment. The club's doors are open.
+
+MARCUS (50s, trumpet case in hand) approaches from the corner. ROSA (70s, elegant, cane) sits on a bench nearby, watching.
+
+**FRANK**  
+You going in?
+
+**MARCUS**  
+I heard they're putting together a band. Big band. Glen Miller's name was mentioned. I don't know if it's true.
+
+**FRANK**  
+I've seen Howard Hughes go in and out twice today. And a man who looks like he could be Evan Bondonte — runs the club — he's been directing workers all morning. Something's happening.
+
+Rosa rises from the bench and joins them.
+
+**ROSA**  
+I've lived on this street for forty years. I've seen the tide go out. I've seen the shells empty. But this morning — when I walked past the club — I felt something. A charge. Like the tide might be turning.
+
+**MARCUS**  
+I hope you're right. I haven't played with a real band in twenty years.
+
+**FRANK**  
+Then go in. Ask for Evan. Tell him you're a trumpet player. Tell him you want to be part of whatever they're building.
+
+Marcus looks at the club. The doors are open. Light spills out. He nods, picks up his case, and walks toward the club.
+
+Frank and Rosa watch him go.
+
+**ROSA**  
+Do you think they'll let us in? When they're ready?
+
+**FRANK**  
+I think that's the whole point. A place for us. For everyone. For the golden age.
+
+Rosa smiles. The two of them stand there, watching, as Marcus disappears inside.
+
+### CUT TO:
 
 ### INT. RENO MEN'S CLUB - MAIN ROOM - AFTERNOON
 
@@ -719,15 +764,17 @@ Thank you. Thank you for giving me a place to go.
 
 -- More PEOPLE arrive. One by one, then in groups, then in crowds. All of them pale and drawn. All of them having lost everything in the Bitcoin collapse. All of them looking for something real, something solid, something that lasts.
 
--- Evan takes names, makes lists, welcomes them.
+-- Evan takes names, makes lists, welcomes them. King Robbie stands beside him, watching, learning how to greet each newcomer with a handshake and a steady gaze.
 
--- Howard Hughes stands on the steps of the Reno Men's Club, addressing the growing crowd.
+-- Howard Hughes stands on the steps of the Reno Men's Club, addressing the growing crowd. His voice carries. "You had the courage to jump. The floating ship is here."
 
--- Inside the club, Glen Miller and his orchestra play "Moonlight Serenade." COUPLES dance, swaying, holding each other close.
+-- Inside the club, Glen Miller and his orchestra play "Moonlight Serenade." COUPLES dance, swaying, holding each other close. Frank the haberdasher and Rosa dance in the corner. Marcus the trumpet player sits in the band, his eyes closed, lost in the music.
 
--- Hank Williams Sr. sits on the cabaret stage, his guitar in his hands, singing "Your Cheatin' Heart" to a rapt audience.
+-- Hank Williams Sr. sits on the cabaret stage, his guitar in his hands, singing "Your Cheatin' Heart" to a rapt audience. Tears on faces. Hands clasped. The golden age is no longer a memory — it is happening in the room.
 
--- The sun sets over downtown Reno, and the lights of the Reno Men's Club blaze like a beacon in the gathering darkness.
+-- King Robbie moves through the crowd with a tray of water glasses, learning service, learning how to read the room. Howard Hughes nods to him from across the floor. Approval.
+
+-- The sun sets over downtown Reno, and the lights of the Reno Men's Club blaze like a beacon in the gathering darkness. The street outside is no longer empty. People linger. They listen. They believe.
 
 ### END MONTAGE
 
@@ -842,6 +889,58 @@ Then let's get to work. We've got one more day. One more day before Super Bowl S
 ### CUT TO:
 
 ### INT. RENO MEN'S CLUB - MAIN ROOM - SATURDAY MORNING
+
+The room gleams. The dance floor shines. The bar sparkles. The cabaret stage is draped in new velvet curtains.
+
+Glen Miller runs the orchestra through the full set list — "In the Mood," "Moonlight Serenade," "String of Pearls," "Chattanooga Choo Choo." Each number tightens. Each run gets closer to perfection.
+
+Howard Hughes watches from the back, Evan beside him.
+
+**HOWARD HUGHES**  
+Tomorrow morning we do the gold wings ceremony. King Robbie. A few others who've earned it this week.
+
+**EVAN**  
+He's ready. He's been watching everything. Learning how to welcome people, how to read the room, how to sell the vision.
+
+**HOWARD HUGHES**  
+That's what the golden age is. Vision. And the willingness to share it. By Sunday he'll be back in Sonoma, bringing in the Ultimate Baller V's. And they'll know — because he'll know — that this is real.
+
+On the stage, Hank Williams Sr. runs through his set — "I Saw the Light," "Your Cheatin' Heart," "I'm So Lonesome I Could Cry." His voice fills the club. The musicians pause to listen. Even Glen Miller stops the baton and lets the moment hold.
+
+**HOWARD HUGHES** (CONT'D)  
+That's the sound of the golden age. Not just the big bands. The legacies. The living men. Hank. Glen. All of them. That's what we're building here.
+
+### CUT TO:
+
+### INT. RENO MEN'S CLUB - BACK ROOM - SATURDAY EVENING
+
+King Robbie sits with Evan, a notebook open in front of him. Howard Hughes stands at the head of the table.
+
+**HOWARD HUGHES**  
+Tomorrow morning. Super Bowl Sunday. We do the gold wings ceremony here, in the main room, before the doors open. You'll receive your wings. You'll understand what they mean — not just rank, but responsibility. You represent Vibelandia. You represent the golden age.
+
+**KING ROBBIE**  
+I'm ready. I've been ready since I drove down from Sonoma.
+
+**HOWARD HUGHES**  
+I know. That's why you're getting the wings. But here's what happens next. You go back. You bring the Ultimate Baller V's. You don't just sell them a product. You give them a place to belong. A place where the golden age is real.
+
+King Robbie nods. His expression is serious, focused.
+
+**EVAN**  
+You've seen it. You've lived it for a week. You've watched Howard. You've watched Glen and Hank. You've watched the bold-hearted walk through that door on Friday. You know it's real.
+
+**KING ROBBIE**  
+I know it's real. And I'm going to make sure everyone in Sonoma knows it too.
+
+Howard Hughes extends his hand. King Robbie stands and shakes it.
+
+**HOWARD HUGHES**  
+Then get some rest. Tomorrow we complete the birth.
+
+### CUT TO:
+
+### INT. RENO MEN'S CLUB - MAIN ROOM - SATURDAY EVENING (LATER)
 
 The room gleams. The dance floor shines. The bar sparkles. The cabaret stage is draped in new velvet curtains.
 
@@ -1274,7 +1373,7 @@ The lights of downtown Reno blazing in the night.
 
 ---
 
-**Word count:** ~7,200 words (target ~24,000)  
+**Word count:** ~12,000 words (2-hour feature)  
 **Voice:** Over-dramatic golden era — enchanting and comforting — a narcotic to the tired soul  
 **Runtime:** Approximately 120 minutes  
 **Quality:** Star Wars-level production value  

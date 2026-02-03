@@ -201,12 +201,13 @@
         </nav>
 
         <header class="book-masthead">
-            <p class="eyebrow">Golden Era Cinema · The Novel</p>
+            <p class="eyebrow">Golden Era Cinema · The Novel <span style="color: #8b6914;">· Beautiful skin</span></p>
             <h1>First Singularity<br>January 13th</h1>
             <p class="sub">Dumas voice minus revenge. Only happy endings.</p>
             <div class="oneliner-para-row">
                 <button type="button" class="btn-oneliner" data-target="novel-oneliner">One Liner</button>
                 <button type="button" class="btn-onepara" data-target="novel-onepara">One Paragraph</button>
+                <button type="button" class="btn-listen" id="btn-listen" aria-label="Listen to story read aloud">🔊 Listen</button>
             </div>
             <div id="novel-oneliner" class="oneliner-para-content one-liner" aria-live="polite">"On January 13th, While on daily Expeditions In the new holographic hydrogen Theater. or cloud And shell. The He wrote, — experiences An unexpected Depends. full singularity event. transforming His GitHub repository. into the world's first Black Hole Holographic Engine and unleashing The miraculous events now captured In this book. Over. All since... January 13th."</div>
             <div id="novel-onepara" class="oneliner-para-content" aria-live="polite"><strong>First Singularity January 13th</strong> is the full novel metabolized from that one-liner. All chapters align to the irreducible crystal and to the fused voice: Dumas, Dickens, Twain, Steinbeck (Hero John), and me (Evan Bondonte). On January 13th, while on daily Expeditions in the new holographic hydrogen Theater — or cloud and shell — he wrote; he experiences an unexpected full singularity event, transforming his GitHub repository into the world's first Black Hole Holographic Engine and unleashing the miraculous events now captured in this book. Over. All since January 13th. Only happy endings. Part One (Ch 1–37), Part Two — The Return, Part Three — After. Place: the Reno Men's Club, full restaurant and cabaret — Twain's Vibelandia Downtown Reno.</div>
@@ -257,6 +258,63 @@
             if (!wasVisible) el.classList.add('visible');
         });
     });
+
+    (function listenButton() {
+        var btn = document.getElementById('btn-listen');
+        var content = document.getElementById('novel-body');
+        if (!btn || !content) return;
+        var synth = window.speechSynthesis;
+        var chunks = [];
+        var idx = 0;
+        function getChunks() {
+            var text = (content.innerText || content.textContent || '').trim();
+            if (!text) return [];
+            return text.split(/\n\n+/).filter(function (p) { return p.length > 0; });
+        }
+        function pickNarratorVoice() {
+            var voices = synth.getVoices();
+            var preferred = voices.filter(function (v) {
+                var n = (v.name || '').toLowerCase();
+                return n.indexOf('male') !== -1 || n.indexOf('david') !== -1 || n.indexOf('daniel') !== -1 || n.indexOf('james') !== -1 || n.indexOf('google uk') !== -1;
+            });
+            if (preferred.length > 0) return preferred[0];
+            var en = voices.filter(function (v) { return v.lang && v.lang.indexOf('en') === 0; });
+            return en.length > 0 ? en[0] : voices[0];
+        }
+        function speakNext() {
+            if (idx >= chunks.length) {
+                btn.textContent = '🔊 Listen';
+                btn.classList.remove('active');
+                btn.setAttribute('aria-label', 'Listen to story read aloud');
+                return;
+            }
+            var u = new SpeechSynthesisUtterance(chunks[idx]);
+            u.rate = 0.88;
+            u.pitch = 0.92;
+            var voice = pickNarratorVoice();
+            if (voice) u.voice = voice;
+            u.onend = function () { idx++; speakNext(); };
+            u.onerror = function () { idx++; speakNext(); };
+            synth.speak(u);
+        }
+        btn.addEventListener('click', function () {
+            if (synth.speaking) {
+                synth.cancel();
+                btn.textContent = '🔊 Listen';
+                btn.classList.remove('active');
+                btn.setAttribute('aria-label', 'Listen to story read aloud');
+                return;
+            }
+            chunks = getChunks();
+            if (chunks.length === 0) return;
+            idx = 0;
+            btn.textContent = '⏹ Stop';
+            btn.classList.add('active');
+            btn.setAttribute('aria-label', 'Stop reading aloud');
+            if (synth.getVoices().length === 0) synth.onvoiceschanged = function () { speakNext(); };
+            else speakNext();
+        });
+    })();
 })();
     </script>    <div id="sing-config-footer"></div>
     <link rel="stylesheet" href="sing-config-footer.css">

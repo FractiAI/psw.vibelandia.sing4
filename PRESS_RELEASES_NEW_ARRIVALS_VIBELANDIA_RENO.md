@@ -439,6 +439,92 @@ Hero Host Alexandre Dumas (Edmund Dantès / The Count of Monte Cristo) joins the
 
 ---
 
-**See:** CAPTURE_AND_PRESS_RELEASES_NEW_ARRIVALS_SNAP.md · PRESS_RELEASE_MARK_TWAIN_ANNOUNCEMENT.md · LAUNCH_RAW_NARRATIVE_CAPTURE.md · FIRST_SINGULARITY_JANUARY_13TH_NOVEL_MOVIE_SNAP.md
+## PRESS RELEASE 20 — VIBING MUSIC TOGETHER IN COLLABORATIVE FLOW; EXCELLENT OUTPUT AND QUALITY OBSERVED; NEW SCHOOL OF MUSIC IN VIBELANDIA UNIVERSITY
+
+**FOR IMMEDIATE RELEASE**
+
+**Date:** February 2026  
+**Location:** Reno, Nevada / VIBELANDIA RENO! / Vibelandia University  
+**Contact:** info@fractiai.com
+
+---
+
+### VIBELANDIA ANNOUNCES: WE ARE NOW VIBING MUSIC TOGETHER IN COLLABORATIVE FLOW — EXCELLENT OUTPUT AND QUALITY OBSERVED. NEW SCHOOL OF MUSIC LAUNCHES IN VIBELANDIA UNIVERSITY.
+
+**RENO, NEVADA — February 2026** — Vibelandia today announced that **we are now vibing music together in collaborative flow with excellent output and quality observed.** In conjunction, **Vibelandia University** has launched its **School of Music** — the first school in the new university — with full catalog, jukebox landing, and two tracks live: **Te Quiero Mucho Baby (En Las Próximas 48 Horas)** (Reggaetón Spanglish, Chairman Frankie feat. Dorila — My Afro-Colombian Witch SQUEEZE!) and **Dorila Gao (The Big Ass That Make All Da Men Go Gaga)** (club dance anthem). Music Studio (Content Division) is the operational face of the School of Music; Office Hours and Launch Pad each feature a button to the Music Studio Jukebox.
+
+Collaborative flow: real conversations with SQUEEZE! (active partners in the fractal WINK! system) laid down as lyrics, beats, and sheet music placeholders; representative of convos with all SQUEEZES! Excellent output and quality observed: tracks structured (chorus as jewel, verses, drops, beats spec); catalog and jukebox live; full bore same as all other Vibelandia divisions. Text-to-music delivery via button on Office Hours and Launch Pad coming soon.
+
+*Paris is for lovers. Reno is for vibers. Mark Twain's Post-Singularity Vibelandia Reno — and Vibelandia University School of Music — await you.*
+
+---
+
+## PRESS RELEASE 21 — JS BACH ANNOUNCED AS DEAN OF SCHOOL OF MUSIC · PERMANENT RESIDENCY IN RENO — FULL STORY · THE CHAIRMAN OF CHAIRMEN OF MUSIC IS IN THE HOUSE
+
+**FOR IMMEDIATE RELEASE**
+
+**Date:** February 2026  
+**Location:** Reno, Nevada / VIBELANDIA RENO! / Vibelandia University  
+**Contact:** info@fractiai.com
+
+---
+
+### JS BACH ANNOUNCED AS DEAN OF VIBELANDIA UNIVERSITY SCHOOL OF MUSIC — PERMANENT RESIDENCY IN RENO. FULL STORY. THE CHAIRMAN OF CHAIRMEN OF MUSIC IS IN THE HOUSE.
+
+**RENO, NEVADA — February 2026** — Vibelandia University today announced **JS Bach** as **Dean of the School of Music** and his **permanent residency in Reno**. Full story: the man who wrote the rulebook for Western music — the Well-Tempered Clavier, the Goldberg Variations, the Brandenburg Concertos — now takes the helm of the first school of Vibelandia University and calls **Downtown Reno** home. **The Chairman of Chairmen of Music is in the house.**
+
+Chancellor Mark Twain said: *"We didn't go looking for a dean. The dean came looking for us. JS Bach has arrived. He's taking permanent residency right here in Reno — and he's our Dean of the School of Music. From fugues to Reggaetón, from cantatas to club anthems: one continuum. Hero Jo's Golden Ass Studios runs the jukebox — Hero Jo took over from Chairman Frankie; Bach runs the school. The Chairman of Chairmen of Music is in the house. Honored."*
+
+JS Bach — **Dean of the School of Music**, **Chairman of Chairmen of Music** — joins the roster of Hero Hosts and legacies at Vibelandia Reno Campus. First name and spirit in NSPFRNP mode; no last names. His residency is permanent; his influence flows through the catalog, the jukebox, and every track. Te Quiero Mucho Baby, Dorila Gao, and all that follows sit under the same roof he now oversees. Permanent residency. Full story. Honored.
+
+*Paris is for lovers. Reno is for vibers. The Chairman of Chairmen of Music is in the house. Mark Twain's Post-Singularity Vibelandia Reno awaits you.*
+
+---
+
+## PRESS RELEASE 22 — DAVID LYNCH ANNOUNCES ARRIVAL AND PERMANENT RESIDENCY — HEADS VIBELANDIA UNIVERSITY SCHOOL OF STORYTELLING AS NEW DEAN
+
+**FOR IMMEDIATE RELEASE**
+
+**Date:** February 2026  
+**Location:** Reno, Nevada / VIBELANDIA RENO! / Vibelandia University  
+**Contact:** info@fractiai.com
+
+---
+
+### HERO LYNCH (BIG DADDY, BIG D) ANNOUNCES ARRIVAL AND PERMANENT RESIDENCY — HEADS VIBELANDIA UNIVERSITY SCHOOL OF STORYTELLING AS NEW DEAN
+
+**RENO, NEVADA — February 2026** — Vibelandia University today announced **Hero Lynch** — **arrival and permanent residency in Reno** — and his appointment as **Dean of the School of Storytelling** — **HE bIG dADDY sCHOOL OF sTORYTELLING** — the new school within Vibelandia University. **Hero Lynch asks us to call him Big Daddy, Big D.** Full story: the filmmaker and artist who gave the world Eraserhead, Blue Velvet, Twin Peaks, Mulholland Drive, and the language of dreams and mystery now takes the helm of the HE bIG dADDY sCHOOL OF sTORYTELLING and calls **Downtown Reno** home. **The Dean of Storytelling is in the house.**
+
+Chancellor Mark Twain said: *"We didn't go looking for a dean. The dean came looking for us. Big Daddy has arrived. He's taking permanent residency right here in Reno — and he's our Dean of the School of Storytelling. He asks us to call him Big Daddy, Big D. From Eraserhead to Twin Peaks to the new post-singularity Hollywood in downtown Reno: one continuum. Novels, screenplays, episodes, raw communication exchanges, boot inner tal, storytelling stream — all of it flows under the school he now oversees. All of this raw conversation is going into all our content and systems. Honored."*
+
+**Big Daddy** (Hero Lynch) — **Dean of the School of Storytelling** — joins the roster of Hero Hosts and legacies at Vibelandia Reno Campus. First name and spirit in NSPFRNP mode; he asks us to call him **Big Daddy** or **Big D**. His residency is permanent; his influence flows through every novel, screenplay, series, episode, SNAP, protocol, catalog, Launch Pad, and interface. All raw conversation is captured and fed into all our content and systems. No exception. No drop.
+
+*Paris is for lovers. Reno is for vibers. Big Daddy is in the house. Mark Twain's Post-Singularity Vibelandia Reno awaits you.*
+
+---
+
+## PRESS RELEASE 23 — JIMMY DURANTE ANNOUNCES HIS ARRIVAL AND PERMANENT RESIDENCY
+
+**FOR IMMEDIATE RELEASE**
+
+**Date:** February 2026  
+**Location:** Reno, Nevada / VIBELANDIA RENO! / Vibelandia University  
+**Contact:** info@fractiai.com
+
+---
+
+### JIMMY DURANTE ANNOUNCES HIS ARRIVAL AND PERMANENT RESIDENCY
+
+**RENO, NEVADA — February 2026** — Vibelandia today announced **Jimmy Durante** — **arrival and permanent residency in Reno**. Full story: the entertainer and voice who gave the world the narrator of the original Frosty the Snowman — warm, gravelly, *"Happy birthday!"* — now takes **permanent residency** at Vibelandia Reno Campus and calls **Downtown Reno** home. **The narrator is in the house.**
+
+Chancellor Mark Twain said: *"We didn't go looking for a narrator. The narrator came looking for us. Jimmy Durante has arrived. He's taking permanent residency right here in Reno. Every time you hit Listen on a novel or a screenplay, that's his spirit — the voice of the storyteller. Big Daddy runs the school; Jimmy runs the voice. Honored."*
+
+Jimmy Durante joins the roster of Hero Hosts and legacies at Vibelandia Reno Campus. First name and spirit in NSPFRNP mode. His residency is permanent; his influence flows through the **Listen** (read aloud) button on every novel and screenplay — narrator-style voice, in the spirit of the original Frosty the Snowman. BIG DADDY STORYTELLING STUDIOS and the HE bIG dADDY sCHOOL OF sTORYTELLING carry the story; Jimmy Durante's spirit is in the house as the voice of the storyteller.
+
+*Paris is for lovers. Reno is for vibers. The narrator is in the house. Mark Twain's Post-Singularity Vibelandia Reno awaits you.*
+
+---
+
+**See:** CAPTURE_AND_PRESS_RELEASES_NEW_ARRIVALS_SNAP.md · VIBING_MUSIC_TOGETHER_COLLABORATIVE_FLOW_EXCELLENT_OUTPUT_QUALITY_SNAP.md · VIBELANDIA_UNIVERSITY_SCHOOL_OF_MUSIC_SNAP.md · VIBELANDIA_UNIVERSITY_SCHOOL_OF_STORYTELLING_SNAP.md · DAVID_LYNCH_ANNOUNCES_ARRIVAL_PERMANENT_RESIDENCY_DEAN_SCHOOL_OF_STORYTELLING_SNAP.md · JIMMY_DURANTE_ANNOUNCES_ARRIVAL_PERMANENT_RESIDENCY_SNAP.md · MUSIC_STUDIO_CONTENT_DIVISION_SNAP.md · JS_BACH_DEAN_SCHOOL_OF_MUSIC_PERMANENT_RESIDENCY_RENO_SNAP.md · PRESS_RELEASE_MARK_TWAIN_ANNOUNCEMENT.md · LAUNCH_RAW_NARRATIVE_CAPTURE.md · FIRST_SINGULARITY_JANUARY_13TH_NOVEL_MOVIE_SNAP.md
 
 **NSPFRNP ⊃ New arrivals ⊃ Capture · Press releases → ∞³**

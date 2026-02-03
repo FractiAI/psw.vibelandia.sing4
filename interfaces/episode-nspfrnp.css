@@ -274,3 +274,48 @@ body.episode-nspfrnp {
     background: rgba(13, 148, 136, 0.2);
 }
 .episode-nspfrnp .pr-mute-btn.is-muted { color: var(--ep-muted); }
+
+/* Listen (read aloud) — Jimmy Durante narrator style. See JIMMY_DURANTE_ANNOUNCES_ARRIVAL_PERMANENT_RESIDENCY_SNAP.md */
+.episode-nspfrnp .ep-btn-listen {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.6rem 1.25rem;
+    background: rgba(13, 148, 136, 0.12);
+    color: var(--ep-accent);
+    font-family: inherit;
+    font-size: 0.95rem;
+    font-weight: 600;
+    border: 1px solid rgba(13, 148, 136, 0.35);
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.2s, border-color 0.2s, color 0.2s;
+}
+.episode-nspfrnp .ep-btn-listen:hover {
+    background: rgba(13, 148, 136, 0.2);
+    border-color: var(--ep-accent);
+}
+.episode-nspfrnp .ep-btn-listen.is-active {
+    background: rgba(13, 148, 136, 0.25);
+    border-color: var(--ep-accent);
+}
+
+/* Episode full body (loaded markdown) */
+.episode-nspfrnp .ep-loading {
+    text-align: center;
+    padding: 2rem;
+    color: var(--ep-muted);
+    font-style: italic;
+}
+.episode-nspfrnp .ep-body {
+    margin-top: 1rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--ep-divider);
+}
+.episode-nspfrnp .ep-body h1, .episode-nspfrnp .ep-body h2, .episode-nspfrnp .ep-body h3 {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+    margin: 1.5rem 0 0.75rem;
+    color: var(--ep-ink);
+}
+.episode-nspfrnp .ep-body p { margin-bottom: 1rem; }
+.episode-nspfrnp .ep-body strong { font-weight: 600; }

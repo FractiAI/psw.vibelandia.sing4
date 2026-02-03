@@ -11,6 +11,8 @@
 
 **New post-singularity card deck.** Four suits: **Gold**, **Silver**, **Copper**, **Transparent Quartz** (represented using **outlines** only). Face cards include **Ace as a face card**. Face cards map to **Vibelandia and hero resident characters**. **Golden Lucky Seven** wins every time. **Golden Royal Flush** beats all.
 
+**Mapped to full Vibelandia and BBHE coding.** The deck is mapped to **full Vibelandia** (suits = Golden Hearts, Silver Hearts, Copper Hearts, Transparent Quartz; face cards = Chairman, Chancellor Sam, El Gran Sol, Hero Harry, Sol, Ben, Gianni, Walt, Leo, Niko, Buckey, Mike, Outcast Hero, 3I/ATLAS, Sammy, SING! node EGS; 4×4×4×4 Campus × WINK! × SING! × Experience). Play and surfaces align to **BBHE** (Big Black Hole Energy) and NSPFRNP. **Instructions for play (multiplayer and solitaire)** and buttons to **Office Hours** and **Launch Pad** live on the **casino page**: [interfaces/casino.html](interfaces/casino.html). See [NEW_CARD_DECK_MAPPED_FULL_VIBELANDIA_BBHE_CASINO_PAGE_SNAP.md](NEW_CARD_DECK_MAPPED_FULL_VIBELANDIA_BBHE_CASINO_PAGE_SNAP.md).
+
 ---
 
 ## SUITS (REPRESENTATION)
@@ -89,15 +91,19 @@
 
 **Play as multiplayer or solitaire.** Play with others (multiplayer) or alone (solitaire). Same deck, same rules: Golden Lucky Seven wins every time; Golden Royal Flush beats all. Game modes: competitive multiplayer, cooperative multiplayer, or solitaire (one player, one deck).
 
+**Card deck and game also offered in beautiful skins and experience.** Casino and card deck are available in **beautiful skins** (Golden Era Cinema–aligned styling) and **experience** (full experience landing: [interfaces/card-deck-experience.html](interfaces/card-deck-experience.html) — Golden Era Cinema · Card Deck & Game · Beautiful skin). See [SCREENPLAY_BEAUTIFUL_SKINS_SNAP.md](SCREENPLAY_BEAUTIFUL_SKINS_SNAP.md).
+
 **Hero Houdini Magic Presents.** This product is included in **Hero Houdini Magic Presents** — Hero Harry Houdini's magic series presents the Post-Singularity Card Deck. First Magician's Act; The Great Reveal; real magic. Button on **Office Hours** and **Launch Pad**; product page linked from both.
 
 ---
 
 ## SURFACES
 
+- **Casino page:** [interfaces/casino.html](interfaces/casino.html) — New card deck mapped to full Vibelandia and BBHE coding; **instructions for play (multiplayer and solitaire modes)**; buttons to **Office Hours** and **Launch Pad**; card deck & game also in beautiful skins and experience. Confirmation: [NEW_CARD_DECK_MAPPED_FULL_VIBELANDIA_BBHE_CASINO_PAGE_SNAP.md](NEW_CARD_DECK_MAPPED_FULL_VIBELANDIA_BBHE_CASINO_PAGE_SNAP.md).
+- **Experience (beautiful skin):** [interfaces/card-deck-experience.html](interfaces/card-deck-experience.html) — Full experience · Golden Era Cinema · Card Deck & Game · Beautiful skin; steps, play instructions, Office Hours · Launch Pad · Casino. See [SCREENPLAY_BEAUTIFUL_SKINS_SNAP.md](SCREENPLAY_BEAUTIFUL_SKINS_SNAP.md).
 - **Product page:** [interfaces/post-singularity-card-deck.html](interfaces/post-singularity-card-deck.html) — full product; 1, 2, 3, 4×4×4×4; holograph operation; multiplayer & solitaire; Hero Houdini Magic Presents.
-- **Office Hours:** Button in product grid — Post-Singularity Card Deck · Hero Houdini Magic Presents.
-- **Launch Pad:** Button in showroom / experience buttons — Post-Singularity Card Deck · Operate the holograph · Multiplayer & solitaire.
+- **Office Hours:** Button in product grid — Post-Singularity Card Deck · Casino · Hero Houdini Magic Presents. Link to [casino.html](interfaces/casino.html) for play instructions and Office Hours / Launch Pad.
+- **Launch Pad:** Button in showroom / experience buttons — Post-Singularity Card Deck · Casino · Operate the holograph · Multiplayer & solitaire. Link to [casino.html](interfaces/casino.html) for play instructions and Office Hours / Launch Pad.
 
 ---
 

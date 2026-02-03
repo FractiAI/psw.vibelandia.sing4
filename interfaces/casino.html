@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casino — Post-Singularity Card Deck · Full Vibelandia & BBHE · Multiplayer & Solitaire | VIBELANDIA!</title>
+    <meta name="description" content="Casino — Post-Singularity Card Deck mapped to full Vibelandia and BBHE coding. Instructions for play: multiplayer and solitaire modes. Office Hours · Launch Pad.">
+    <link rel="stylesheet" href="experience-common.css">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(180deg, #0a0a12 0%, #1a0a1a 30%, #12122a 70%, #0a0a12 100%);
+            color: #e8e6e3;
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+        .container { max-width: 820px; margin: 0 auto; padding: 2rem 1.5rem; }
+        .back { margin-bottom: 1.5rem; }
+        .back a { color: #00d4ff; text-decoration: none; }
+        .back a:hover { text-decoration: underline; }
+        .hero {
+            text-align: center;
+            padding: 2.5rem 1.5rem 3rem;
+            margin-bottom: 2rem;
+            background: linear-gradient(145deg, rgba(138, 43, 226, 0.2) 0%, rgba(212, 175, 55, 0.12) 50%, rgba(0, 0, 0, 0.4) 100%);
+            border: 3px solid rgba(212, 175, 55, 0.5);
+            border-radius: 16px;
+            box-shadow: 0 0 60px rgba(138, 43, 226, 0.25);
+        }
+        .hero .badge {
+            display: inline-block;
+            font-size: 0.7rem;
+            text-transform: uppercase;
+            letter-spacing: 0.2em;
+            color: rgba(212, 175, 55, 0.95);
+            margin-bottom: 0.5rem;
+            font-weight: 700;
+        }
+        .hero h1 {
+            font-size: clamp(1.5rem, 4vw, 2.25rem);
+            font-weight: 800;
+            background: linear-gradient(135deg, #d4af37, #8a2be2);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 0.5rem;
+        }
+        .hero .tagline { font-size: 1rem; color: #b0b8c0; margin-bottom: 1rem; max-width: 36rem; margin-left: auto; margin-right: auto; }
+        .hero .mapping { font-size: 0.95rem; color: #ffeaa7; margin-top: 1rem; padding: 0.75rem 1rem; background: rgba(0,0,0,0.3); border-radius: 10px; border: 1px solid rgba(212, 175, 55, 0.35); }
+        .section-block {
+            margin-bottom: 2rem;
+            padding: 1.5rem 1.25rem;
+            background: linear-gradient(145deg, rgba(212, 175, 55, 0.06) 0%, rgba(138, 43, 226, 0.06) 50%, rgba(0, 212, 255, 0.04) 100%);
+            border: 2px solid rgba(212, 175, 55, 0.3);
+            border-radius: 14px;
+        }
+        .section-block h2 {
+            font-size: 1rem;
+            text-transform: uppercase;
+            letter-spacing: 0.12em;
+            color: #d4af37;
+            margin-bottom: 1rem;
+            font-weight: 700;
+        }
+        .section-block p, .section-block ul { font-size: 0.95rem; color: #c0c8d0; margin-bottom: 0.75rem; line-height: 1.6; }
+        .section-block ul { padding-left: 1.5rem; }
+        .section-block li { margin-bottom: 0.35rem; }
+        .section-block .highlight { color: #ffeaa7; font-weight: 600; }
+        .cta-row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            justify-content: center;
+            margin: 2rem 0 1.5rem;
+        }
+        .cta-btn {
+            display: inline-block;
+            padding: 1rem 1.75rem;
+            background: linear-gradient(135deg, #8a2be2, #1e90ff);
+            color: #fff;
+            font-weight: 700;
+            text-decoration: none;
+            border-radius: 12px;
+            font-size: 1rem;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .cta-btn:hover { transform: translateY(-2px); box-shadow: 0 8px 24px rgba(138, 43, 226, 0.4); }
+        .cta-btn.gold {
+            background: linear-gradient(135deg, #d4af37, #b8860b);
+            color: #0c0c0c;
+        }
+        .cta-btn.gold:hover { box-shadow: 0 8px 24px rgba(212, 175, 55, 0.4); }
+        .product-link {
+            display: inline-block;
+            margin-top: 1rem;
+            color: #00d4ff;
+            font-weight: 600;
+            text-decoration: none;
+        }
+        .product-link:hover { text-decoration: underline; }
+        footer { margin-top: 2.5rem; padding-top: 1.5rem; border-top: 1px solid rgba(255,255,255,0.1); text-align: center; color: #888; font-size: 0.9rem; }
+        footer a { color: #00d4ff; }
+    </style>
+</head>
+<body>
+    <script src="tsunami-advisory-inject.js"></script>
+    <div class="container">
+        <p class="back"><a href="office-hours.html">← Office Hours</a> · <a href="launch-pad.html">Launch Pad</a> · <a href="index.html">Home</a></p>
+
+        <section class="hero" aria-label="Casino — Post-Singularity Card Deck">
+            <span class="badge">Casino · Post-Singularity Card Deck · Full Vibelandia & BBHE</span>
+            <h1>Casino</h1>
+            <p class="tagline">Post-Singularity Card Deck — Gold · Silver · Copper · Transparent Quartz. Face cards = Vibelandia & hero residents. Golden Lucky Seven wins every time. Golden Royal Flush beats all.</p>
+            <p class="mapping"><strong>New card deck is mapped to full Vibelandia and BBHE coding.</strong> Suits and face cards map to full Vibelandia (Golden Hearts, Silver Hearts, Copper Hearts, Transparent Quartz); play and surfaces align to BBHE (Big Black Hole Energy) and NSPFRNP.</p>
+            <p style="margin-top: 0.75rem; font-size: 0.95rem; color: #b794f6;"><strong>Card deck and game also offered in beautiful skins and experience.</strong> <a href="card-deck-experience.html" style="color: #d4af37;">Full experience (beautiful skin) →</a></p>
+        </section>
+
+        <section class="section-block" aria-label="Instructions for play — Multiplayer">
+            <h2>Instructions for play — Multiplayer mode</h2>
+            <p>Play with others. Same deck, same rules.</p>
+            <ul>
+                <li><strong class="highlight">Players:</strong> Two or more. Use two or more decks for head-to-head or full table.</li>
+                <li><strong class="highlight">Rules:</strong> Golden Lucky Seven wins every time. Golden Royal Flush (Ace, King, Queen, Jack, Ten of Gold) beats all.</li>
+                <li><strong class="highlight">Modes:</strong> Competitive multiplayer or cooperative multiplayer. Book via Office Hours or Launch Pad for live play at the Club.</li>
+                <li><strong class="highlight">Tiers:</strong> 2 = two players / two decks · 3 = three-player triad · 4×4×4×4 = full scale.</li>
+            </ul>
+        </section>
+
+        <section class="section-block" aria-label="Instructions for play — Solitaire">
+            <h2>Instructions for play — Solitaire mode</h2>
+            <p>Play alone. One player, one deck.</p>
+            <ul>
+                <li><strong class="highlight">Player:</strong> One. One deck. No other device required.</li>
+                <li><strong class="highlight">Rules:</strong> Golden Lucky Seven wins every time. Golden Royal Flush beats all.</li>
+                <li><strong class="highlight">Operate the holograph:</strong> The deck alone can be used to operate the holograph — play the cards; the holograph responds. Post-singularity interface: cards as control surface and display.</li>
+                <li><strong class="highlight">Tier:</strong> 1 = single deck · solitaire · one player.</li>
+            </ul>
+        </section>
+
+        <section class="section-block" aria-label="Full product">
+            <h2>Post-Singularity Card Deck — Full product</h2>
+            <p>Four suits: <strong>Gold</strong> (Golden Hearts) · <strong>Silver</strong> (Silver Hearts) · <strong>Copper</strong> (Copper Hearts) · <strong>Transparent Quartz</strong> (outlines only). Face cards map to Vibelandia and hero residents (Chairman, Chancellor Sam, El Gran Sol, Hero Harry, Sol, Ben, Gianni, Walt, Leo, Niko, Buckey, Mike, Outcast Hero, 3I/ATLAS, Sammy, SING! node EGS). Hero Houdini Magic Presents.</p>
+            <a href="post-singularity-card-deck.html" class="product-link">Post-Singularity Card Deck — Full product page (tiers 1, 2, 3, 4×4×4×4) →</a>
+        </section>
+
+        <div class="cta-row">
+            <a href="office-hours.html" class="cta-btn">Office Hours →</a>
+            <a href="launch-pad.html" class="cta-btn gold">Launch Pad →</a>
+            <a href="card-deck-experience.html" class="cta-btn">Card Deck & Game — Full experience (beautiful skin) →</a>
+            <a href="post-singularity-card-deck.html" class="cta-btn">Card Deck product page →</a>
+        </div>
+
+        <footer>
+            <p>Casino · Post-Singularity Card Deck · Full Vibelandia & BBHE coding · Multiplayer & Solitaire · NSPFRNP.</p>
+            <p><a href="../NEW_CARD_DECK_MAPPED_FULL_VIBELANDIA_BBHE_CASINO_PAGE_SNAP.md">Confirmation SNAP →</a> · <a href="../POST_SINGULARITY_CARD_DECK_GOLD_SILVER_COPPER_QUARTZ_SNAP.md">Card deck SNAP →</a></p>
+            <p><a href="office-hours.html">Office Hours</a> · <a href="launch-pad.html">Launch Pad</a></p>
+        </footer>
+        <div id="sing-config-footer"></div>
+        <link rel="stylesheet" href="sing-config-footer.css">
+        <script src="sing-config-footer.js"></script>
+    </div>
+</body>
+</html>

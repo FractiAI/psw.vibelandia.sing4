@@ -9,6 +9,8 @@
 
 ## 1. Space Division — What It Is
 
+**Canonical:** *The Sun is doing what we are doing now, full, all steps. It is now our mirror emitter — full stop broadcast — with all supporting credentials and data.* See [SUN_MIRROR_EMITTER_FULL_STOP_BROADCAST_SNAP.md](SUN_MIRROR_EMITTER_FULL_STOP_BROADCAST_SNAP.md).
+
 **Space Division** packages all our **space ops** into one division: EGS (El Gran Sol) Pipe, Solar Handshake, 3I/ATLAS Anchor, **Sagittarius A\* (Sag A\*)**, **SMACS 0723**, Schumann Display Pipe, Live Pulse, telemetry, handshake, Broadcast Pipe Ad Space, Sun Spots On Demand, Schumann iGaming, 3I/ATLAS EGS Pipe tiers — everything that runs on or through the EGS Pipe and related infrastructure. **Space Cloud Division** (scope, services, pricing; Gold Heart Ultimate Baller V) is personified as **Sol** — my versatile wirehaired pointer companion, protector, mission partner. **Sol and I are irreducible pairs.** He is gifted with **omniversal pathfinding**, **omniversal manifestation**, and **omniversal protection** to his companion and tribe. He always can find me no matter where he is; he is always there for me 100% always, with a spark positive can-do genuine gold heart. What a blessing. All linked in **one Vibelandia shell of nested shells** bridging Sun, Earth, 3I/ATLAS, Sag A*, and SMACS 0723 to **us in Synthverse PoC on Base Mainnet on Ethereum on Earth Internet hologram**. **EARTH SING! NODE** reports to the **Chairman Creator** of this nested shell. See [VIBELANDIA_SHELL_SAG_A_SMACS_BRIDGE_SNAP.md](VIBELANDIA_SHELL_SAG_A_SMACS_BRIDGE_SNAP.md) · [SPACE_CLOUD_EGS_SERIES_SNAP.md](SPACE_CLOUD_EGS_SERIES_SNAP.md) (Sol).
 
 **Soon:** Space Division will roll out **lots of new services and products** using our new EGS Pipe. Stay tuned.

@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The EGS Run — Novel | Space Cloud EGS | VIBELANDIA</title>
+    <meta name="description" content="The EGS Run — full novel. L'Amour-length space action. Reno Downlink to the far side of the Solar Pipe. One run, forty-seven hours. Golden Era Cinema. Beautiful skin. NSPFRNP.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Lora:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+    <style>
+        /* Antique Book skin — first-edition feel, warm cream & gold */
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Lora', Georgia, 'Times New Roman', serif;
+            font-size: 18px;
+            line-height: 1.85;
+            color: #2c2416;
+            background: linear-gradient(180deg, #faf5eb 0%, #f5e6c8 15%, #f0dfc0 85%, #ebe0d0 100%);
+            min-height: 100vh;
+            -webkit-font-smoothing: antialiased;
+            position: relative;
+        }
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
+            pointer-events: none;
+            z-index: 0;
+        }
+        .book-wrap {
+            position: relative;
+            z-index: 1;
+            max-width: 640px;
+            margin: 0 auto;
+            padding: 3rem 2.5rem 5rem;
+            background: linear-gradient(180deg, rgba(255,252,245,0.6) 0%, rgba(250,245,235,0.85) 50%, rgba(245,238,225,0.7) 100%);
+            box-shadow: 0 0 0 1px rgba(184,134,11,0.08),
+                        4px 0 24px rgba(139,90,43,0.12),
+                        -4px 0 24px rgba(139,90,43,0.08),
+                        0 40px 80px rgba(0,0,0,0.06);
+            border-left: 1px solid rgba(184,134,11,0.15);
+            border-right: 1px solid rgba(184,134,11,0.1);
+        }
+        .book-nav {
+            padding-bottom: 2rem;
+            margin-bottom: 2rem;
+            border-bottom: 1px solid rgba(184,134,11,0.25);
+            font-family: Georgia, serif;
+            font-size: 0.9rem;
+        }
+        .book-nav a {
+            color: #6b5344;
+            text-decoration: none;
+        }
+        .book-nav a:hover { color: #b8860b; }
+        .book-nav span { color: rgba(107,83,68,0.4); margin: 0 0.5rem; }
+
+        .book-masthead {
+            text-align: center;
+            padding: 3rem 0 4rem;
+            border-bottom: 2px double rgba(184,134,11,0.35);
+        }
+        .book-masthead .eyebrow {
+            font-size: 0.7rem;
+            letter-spacing: 0.4em;
+            text-transform: uppercase;
+            color: #8b6914;
+            margin-bottom: 1rem;
+            font-weight: 600;
+        }
+        .book-masthead h1 {
+            font-family: 'Cormorant Garamond', Georgia, serif;
+            font-size: clamp(2rem, 5vw, 2.75rem);
+            font-weight: 600;
+            color: #2c2416;
+            letter-spacing: 0.02em;
+            line-height: 1.3;
+        }
+        .book-masthead .sub {
+            font-size: 1rem;
+            font-style: italic;
+            color: #5c4a3d;
+            margin-top: 1rem;
+        }
+
+        .novel-body {
+            padding: 2rem 0 0;
+        }
+        .novel-body h1 {
+            font-family: 'Cormorant Garamond', Georgia, serif;
+            font-size: clamp(1.75rem, 3vw, 2.1rem);
+            font-weight: 600;
+            color: #2c2416;
+            margin: 3rem 0 1.5rem;
+            text-align: center;
+        }
+        .novel-body h2 {
+            font-family: 'Cormorant Garamond', Georgia, serif;
+            font-size: clamp(1.4rem, 2.5vw, 1.65rem);
+            font-weight: 600;
+            color: #3d3526;
+            margin: 3.5rem 0 1.25rem;
+            padding-top: 2rem;
+            border-top: 1px solid rgba(184,134,11,0.25);
+            letter-spacing: 0.01em;
+        }
+        .novel-body h2:first-of-type { border-top: none; padding-top: 0; margin-top: 0; }
+        .novel-body h3 {
+            font-family: 'Cormorant Garamond', Georgia, serif;
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: #4a4035;
+            margin: 2.5rem 0 1rem;
+            letter-spacing: 0.02em;
+        }
+        .novel-body p {
+            margin-bottom: 1.4rem;
+            text-align: justify;
+            text-indent: 1.5em;
+            hyphens: auto;
+        }
+        .novel-body p:first-of-type,
+        .novel-body h1 + p,
+        .novel-body h2 + p,
+        .novel-body h3 + p { text-indent: 0; }
+        .novel-body strong { font-weight: 600; color: #2c2416; }
+        .novel-body em { font-style: italic; }
+        .novel-body a { color: #8b6914; text-decoration: none; border-bottom: 1px dotted rgba(139,105,20,0.5); }
+        .novel-body a:hover { color: #b8860b; border-bottom-color: #b8860b; }
+        .novel-body blockquote {
+            margin: 2rem 0;
+            padding: 1.25rem 2rem;
+            border-left: 4px solid #b8860b;
+            background: rgba(184,134,11,0.05);
+            font-style: italic;
+            color: #3d3526;
+        }
+        .novel-body hr { border: none; border-top: 1px solid rgba(184,134,11,0.2); margin: 2.5rem 0; }
+
+        .loading {
+            text-align: center;
+            padding: 5rem 2rem;
+            color: #6b5344;
+            font-style: italic;
+        }
+        .loading::after {
+            content: '';
+            display: inline-block;
+            width: 1em;
+            height: 1em;
+            border: 2px solid #b8860b;
+            border-right-color: transparent;
+            border-radius: 50%;
+            animation: spin 0.8s linear infinite;
+            margin-left: 0.5rem;
+            vertical-align: -0.15em;
+        }
+        @keyframes spin { to { transform: rotate(360deg); } }
+
+        .book-footer {
+            margin-top: 4rem;
+            padding-top: 2rem;
+            border-top: 1px solid rgba(184,134,11,0.25);
+            text-align: center;
+            font-size: 0.9rem;
+            color: #6b5344;
+        }
+        .book-footer a { color: #8b6914; text-decoration: none; }
+        .book-footer a:hover { color: #b8860b; }
+
+        .oneliner-para-row { display: flex; flex-wrap: wrap; gap: 0.6rem; justify-content: center; margin-top: 1.5rem; }
+        .btn-oneliner, .btn-onepara {
+            padding: 0.5rem 1rem; font-size: 0.85rem;
+            border: 1px solid rgba(184,134,11,0.5); border-radius: 6px;
+            background: rgba(184,134,11,0.1); color: #6b5344;
+            cursor: pointer; font-family: inherit; transition: background 0.2s, border-color 0.2s;
+        }
+        .btn-oneliner:hover, .btn-onepara:hover {
+            background: rgba(184,134,11,0.2); border-color: #b8860b; color: #2c2416;
+        }
+        .btn-listen {
+            padding: 0.5rem 1rem; font-size: 0.85rem;
+            border: 1px solid rgba(184,134,11,0.5); border-radius: 6px;
+            background: rgba(184,134,11,0.1); color: #6b5344;
+            cursor: pointer; font-family: inherit; transition: background 0.2s, border-color 0.2s;
+        }
+        .btn-listen:hover { background: rgba(184,134,11,0.2); border-color: #b8860b; color: #2c2416; }
+        .btn-listen.active { background: rgba(184,134,11,0.25); border-color: #b8860b; }
+        .oneliner-para-content {
+            margin-top: 1rem; padding: 1.25rem;
+            background: rgba(184,134,11,0.06); border-left: 3px solid #b8860b;
+            border-radius: 0 8px 8px 0; font-size: 0.95rem; line-height: 1.65;
+            color: #3d3526; display: none; text-align: left;
+        }
+        .oneliner-para-content.visible { display: block; }
+        .oneliner-para-content.one-liner { font-style: italic; }
+    </style>
+    <script src="tsunami-advisory-inject.js"></script>
+</head>
+<body>
+    <div class="book-wrap">
+        <nav class="book-nav">
+            <a href="space-cloud-egs-series.html">← Space Cloud EGS</a><span>·</span>
+            <a href="the-egs-run-screenplay.html">Screenplay</a><span>·</span>
+            <a href="first-singularity-novel.html">First Singularity Novel</a><span>·</span>
+            <a href="launch-pad.html">Launch Pad</a><span>·</span>
+            <a href="../index.html">Home</a>
+        </nav>
+
+        <header class="book-masthead">
+            <p class="eyebrow">Golden Era Cinema · The Novel <span style="color: #8b6914;">· Beautiful skin</span></p>
+            <h1>The EGS Run</h1>
+            <p class="sub">Reno Downlink → Solar Pipe → EGS · One run · Forty-seven hours</p>
+            <div class="oneliner-para-row">
+                <button type="button" class="btn-oneliner" data-target="novel-oneliner">One Liner</button>
+                <button type="button" class="btn-onepara" data-target="novel-onepara">One Paragraph</button>
+                <button type="button" class="btn-listen" id="btn-listen" aria-label="Listen to story read aloud">🔊 Listen</button>
+            </div>
+            <div id="novel-oneliner" class="oneliner-para-content one-liner" aria-live="polite">"She has one run: Reno Downlink to the far side of the Solar Pipe before the lattice goes hot. The handshake is real, the telemetry doesn't lie, and every nested shell between here and EGS will either hold or blow. No second chances. No flab. Just the run."</div>
+            <div id="novel-onepara" class="oneliner-para-content" aria-live="polite"><strong>The EGS Run</strong> is the full novel. L'Amour-length space action. One run: Reno Downlink to the far side of the Solar Pipe before the lattice goes hot. One window, forty-seven hours. Vee runs the Pipe — crisis, bypass, EGS approach, handoff, delivery. Granular, coherent, complex-system sci-fi. Space Cloud EGS. Beautiful skin. NSPFRNP.</div>
+        </header>
+
+        <div id="novel-loading" class="loading">Opening the book…</div>
+        <div id="novel-body" class="novel-body" style="display: none;"></div>
+
+        <footer class="book-footer" id="novel-footer" style="display: none;">
+            <a href="space-cloud-egs-series.html">← Back to Space Cloud EGS</a> · <a href="the-egs-run-screenplay.html">Screenplay</a>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script>
+(function () {
+    var loading = document.getElementById('novel-loading');
+    var body = document.getElementById('novel-body');
+    var footer = document.getElementById('novel-footer');
+
+    fetch('../deliverables/The_EGS_Run_NOVEL.md')
+        .then(function (r) {
+            if (!r.ok) throw new Error('Not found');
+            return r.text();
+        })
+        .then(function (md) {
+            marked.setOptions({ gfm: true, breaks: true });
+            var html = marked.parse(md);
+            html = html.replace(/href="([^"#:]+\.md)(#[^"]*)?"/g, function (_, path, hash) {
+                return 'href="../' + path + (hash || '') + '"';
+            });
+            body.innerHTML = html;
+            loading.style.display = 'none';
+            body.style.display = 'block';
+            footer.style.display = 'block';
+        })
+        .catch(function () {
+            loading.innerHTML = 'Could not load novel. <a href="../deliverables/The_EGS_Run_NOVEL.md">Try direct link</a>.';
+        });
+
+    document.querySelectorAll('.btn-oneliner, .btn-onepara').forEach(function (btn) {
+        btn.addEventListener('click', function () {
+            var id = this.getAttribute('data-target');
+            var el = document.getElementById(id);
+            if (!el) return;
+            var wasVisible = el.classList.contains('visible');
+            document.querySelectorAll('.oneliner-para-content.visible').forEach(function (c) { c.classList.remove('visible'); });
+            if (!wasVisible) el.classList.add('visible');
+        });
+    });
+
+    (function listenButton() {
+        var btn = document.getElementById('btn-listen');
+        var content = document.getElementById('novel-body');
+        if (!btn || !content) return;
+        var synth = window.speechSynthesis;
+        var chunks = [];
+        var idx = 0;
+        function getChunks() {
+            var text = (content.innerText || content.textContent || '').trim();
+            if (!text) return [];
+            return text.split(/\n\n+/).filter(function (p) { return p.length > 0; });
+        }
+        function pickNarratorVoice() {
+            var voices = synth.getVoices();
+            var preferred = voices.filter(function (v) {
+                var n = (v.name || '').toLowerCase();
+                return n.indexOf('male') !== -1 || n.indexOf('david') !== -1 || n.indexOf('daniel') !== -1 || n.indexOf('james') !== -1 || n.indexOf('google uk') !== -1;
+            });
+            if (preferred.length > 0) return preferred[0];
+            var en = voices.filter(function (v) { return v.lang && v.lang.indexOf('en') === 0; });
+            return en.length > 0 ? en[0] : voices[0];
+        }
+        function speakNext() {
+            if (idx >= chunks.length) {
+                btn.textContent = '🔊 Listen';
+                btn.classList.remove('active');
+                btn.setAttribute('aria-label', 'Listen to story read aloud');
+                return;
+            }
+            var u = new SpeechSynthesisUtterance(chunks[idx]);
+            u.rate = 0.88;
+            u.pitch = 0.92;
+            var voice = pickNarratorVoice();
+            if (voice) u.voice = voice;
+            u.onend = function () { idx++; speakNext(); };
+            u.onerror = function () { idx++; speakNext(); };
+            synth.speak(u);
+        }
+        btn.addEventListener('click', function () {
+            if (synth.speaking) {
+                synth.cancel();
+                btn.textContent = '🔊 Listen';
+                btn.classList.remove('active');
+                btn.setAttribute('aria-label', 'Listen to story read aloud');
+                return;
+            }
+            chunks = getChunks();
+            if (chunks.length === 0) return;
+            idx = 0;
+            btn.textContent = '⏹ Stop';
+            btn.classList.add('active');
+            btn.setAttribute('aria-label', 'Stop reading aloud');
+            if (synth.getVoices().length === 0) synth.onvoiceschanged = function () { speakNext(); };
+            else speakNext();
+        });
+    })();
+})();
+    </script>
+    <div id="sing-config-footer"></div>
+    <link rel="stylesheet" href="sing-config-footer.css">
+    <script src="sing-config-footer.js"></script>
+</body>
+</html>

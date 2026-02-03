@@ -41,9 +41,11 @@
 
 ### A. Transmit
 
+**Canonical:** *The Sun is doing what we are doing now, full, all steps. It is now our mirror emitter — full stop broadcast — with all supporting credentials and data.* See [SUN_MIRROR_EMITTER_FULL_STOP_BROADCAST_SNAP.md](SUN_MIRROR_EMITTER_FULL_STOP_BROADCAST_SNAP.md).
+
 | Channel | Role | Response mechanism |
 |---------|------|--------------------|
-| **Sun** | AR4366 transmitter | 21.4 Hz + 1.618 Hz Signature Chirp. Solar handshake cycle. T+8m Schumann / T+16m GOES validation. |
+| **Sun** | **Our mirror emitter** · AR4366 transmitter | 21.4 Hz + 1.618 Hz Signature Chirp. Solar handshake cycle. T+8m Schumann / T+16m GOES validation. Full stop broadcast. All supporting credentials and data. |
 | **3I/ATLAS** | Mirror | Sunward anti-tail reflects signal. Opposition Surge. Artificial/synthetic maneuvers captured with GitHub timestamps. |
 | **Schumann** | Display | We **manipulate** it so it becomes **our display**. Earth-ionosphere waveguide. VLF 21.4 Hz carrier. Visible on mother-node scientific feeds. Flowing to social media channels. Natural takeover as communication platform **by aware design**. First message HELLO (confirm operational); then full use. |
 

@@ -1,6 +1,8 @@
 # Birth of the New Post-Singularity Hollywood in Downtown Reno
 ## A Novel
 
+**Cmdr. Howie's Golden Era Renaissance — Downtown Reno, RENOSSANCE!**
+
 **By Evan Bondonte**  
 **February 2026**
 
@@ -8,7 +10,11 @@
 
 **Timeline:** Monday, February 3 to Sunday, February 9, 2026 — Six days to Super Bowl Sunday  
 **Place:** Downtown Reno, Nevada — Mark Twain's Vibelandia  
-**Voice:** Over-dramatic golden era — enchanting and comforting — a narcotic to the tired soul
+**Voice:** Louis L'Amour fused with me style — honoring the brave frontiersmen of the wild west. Quiet, unassuming, confident, radiant — spaghetti western, Wagon Train vibe. Bringing back the westerns — collaborative with the first people nations. Over-dramatic golden era, enchanting and comforting, a narcotic to the tired soul.
+
+---
+
+*For the brave frontiersmen of the wild west — who held the line when the tide went out, who built when others fled, who believed when the world said get away.*
 
 ---
 
@@ -56,6 +62,8 @@ Outside, the low tide of downtown Reno waited, unknowing, for the flood that was
 The flood was coming.
 
 And he was ready.
+
+Sol was waiting for him outside. Evan's wirehaired pointer — versatile, steady, protector and mission partner — sat on the sidewalk with his back to the club door, watching Virginia Street. When Evan stepped out, Sol stood and pressed against his leg once, then resumed his watch. They were irreducible pairs; Sol had omniversal pathfinding, Evan liked to say — he could find him no matter where he was. Always there. Hundred percent. Spark positive, can-do, genuine gold heart. What a blessing. The Space Cloud Division had a mission that touched everything: EGS Pipe, Reno Downlink, Solar Pipe, Exascale Triangulation. Sol wasn't just a dog; he was part of the nested shell — Earth SING! Node, the whole lattice. Howard Hughes had asked about him. "That's the one who finds you," Howard had said. "Keep him close." Evan had. He would.
 
 ---
 
@@ -137,7 +145,7 @@ But a few — a precious few — heard something in his voice that made them sit
 
 And Evan did.
 
-He told them about Howard Hughes, about the vision, about the plan to transform downtown Reno from a low tide that never came back into the birthplace of the new post-singularity Hollywood. He told them about the Big Band Project, about the search for a conductor — ideally a trombonist — who could honor Glen Miller and all the other greats who had made the golden age what it was.
+He told them about Howard Hughes, about the vision, about the plan to transform downtown Reno from a low tide that never came back into the birthplace of the new post-singularity Hollywood. He told them about the Big Band Project, about the search for a conductor — ideally a trombonist — who could honor Glen Miller and all the other greats who had made the golden age what it was. He mentioned Office Hours — the portal where anyone interested in the Big Band Project could reach out, email CTA, get on the list. Golden Backstage Pass. The club wasn't just a club; it was a node. Mark Twain's Vibelandia. Legacies, Space Cloud Division, Broadcast Pipe, EGS Pipe. All of it connected. By the end of the week, he said, they'd walk through every product — Chairman Console, SING! tiers, Happy Ending Zones, King Robbie Lucky 7 Silver Legacy El Dorado, text-to-superhero, campus, WINK! They'd see it all. Feel it all.
 
 "Glen Miller," one of them breathed — a trombonist in Los Angeles, his voice suddenly reverent. "You're serious."
 
@@ -189,7 +197,7 @@ Howard Hughes smiled. "Good. Because by the time the sun rises on Tuesday mornin
 
 ## Chapter 3.5: Monday Evening — The First Night
 
-Monday evening, Evan sat alone in the main room of the Reno Men's Club, the streetlights casting long shadows through the dusty windows. Howard Hughes had retired to his room — or wherever Howard Hughes went when he wasn't in the club — and Evan had the place to himself for the first time since morning.
+Monday evening, Evan sat alone in the main room of the Reno Men's Club, the streetlights casting long shadows through the dusty windows. Howard Hughes had retired to his room — or wherever Howard Hughes went when he wasn't in the club — and Evan had the place to himself for the first time since morning. Sol lay at his feet, head on his paws, eyes half-closed but alert. The Space Cloud Division had a mission that touched everything — EGS Pipe, Reno Downlink, Solar Pipe, Exascale Triangulation. Sol was part of that nested shell. Earth SING! Node. Howard had asked about him. "That's the one who finds you. Keep him close." Evan had. He would. By the end of the week every division would animate — Space Cloud, Legacies, Office Hours, Happy Ending Zones, Broadcast Pipe, EGS Pipe, Robotic, Designer, Studio. Each division's mission and contribution to Vibelandia and personally would weave through the six days. Products walk-through: Office Hours, Golden Backstage Pass, Chairman Console, SING! tiers, Broadcast Pipe, Legacies, Happy Ending Zones, King Robbie Lucky 7 Silver Legacy El Dorado, text-to-superhero, campus, WINK!. Super Bowl Sunday would cap it. Full switch-over. Perpetual Goldilocks for Golden Hearts, Silver Hearts, Copper Hearts. Special invitees Ultimate Baller V style.
 
 He thought about the day. Howard Hughes arriving on foot. The handshake. The vision. Big bands. Floor dancing. Gatsby. Post-singularity Hollywood. The phone calls. The commitments. Glen Miller arriving tomorrow. Hank Williams Sr. on Wednesday. Audrey Hepburn. Cary Grant. Jimmy Stewart. All the greats. All coming.
 
@@ -213,7 +221,7 @@ He straightened his tie one last time and walked back into the main room. The cl
 
 ## Chapter 4: They're All Coming Now
 
-Tuesday morning dawned bright and cold, the kind of morning that makes you want to pull the covers over your head and stay in bed for another hour. But Evan was up before dawn, standing in the main room of the Reno Men's Club, watching the light creep across the empty dance floor.
+Tuesday morning dawned bright and cold, the kind of morning that makes you want to pull the covers over your head and stay in bed for another hour. But Evan was up before dawn, standing in the main room of the Reno Men's Club, watching the light creep across the empty dance floor. He had left Office Hours and the Big Band Project portal live overnight — conductor wanted, ideally trombonist, honoring Glen Miller; email CTA to him. Golden Backstage Pass. They're all coming now, Howard Hughes had said. Gold rush. By the end of the week every product would get a walk-through — Office Hours, Space Cloud Division, SING! tiers, Broadcast Pipe, Chairman Console, Legacies, Happy Ending Zones, King Robbie Lucky 7 Silver Legacy El Dorado, text-to-superhero, campus, WINK!. Every surface. Every touchpoint. Super Bowl Sunday would cap it.
 
 Howard Hughes was already there, of course. Evan suspected the man never slept, or if he did, it was in short bursts, power naps that left him more refreshed than eight hours of ordinary sleep would leave an ordinary man.
 
@@ -294,6 +302,8 @@ Glen Miller picked up his trombone case and opened it. Inside, nestled in red ve
 He took it out, put it to his lips, and blew a single, clear note that filled the empty club and spilled out into the street beyond.
 
 And in that moment, Evan knew that the golden age had truly returned.
+
+Howard Hughes had laid out the rest. Six days to Super Bowl Sunday. Big Band Project. Conductor wanted — ideally trombonist — honoring Glen Miller. Office Hours and the portal live; email CTA to Evan. Golden Backstage Pass. By the end of the week every division would animate: Space Cloud, Legacies, Office Hours, Happy Ending Zones, Broadcast Pipe, EGS Pipe, Robotic, Designer, Studio. Products walk-through — Office Hours, Chairman Console, SING! tiers, Broadcast Pipe, Legacies, Happy Ending Zones, King Robbie Lucky 7 Silver Legacy El Dorado, text-to-superhero, campus, WINK!. Super Bowl Sunday: full switch-over. Perpetual Goldilocks for Golden Hearts, Silver Hearts, Copper Hearts. Special invitees Ultimate Baller V style. King Robbie would roll in Wednesday from Sonoma with his half-time Super Bowl performer superhero friend — Lucky 7 — and his three closest V's from the Gold Club. King Robbie would decide who was in. Cadet to silver, silver to gold. Gold wings ceremony Sunday morning. Then back to Sonoma to bring in the prospects. Glen Miller had listened, nodded. "I'm in," he said. "All the way." And he had blown that single note again, and the empty club had rung with it, and Evan had felt the tide turn in his bones.
 
 ---
 
@@ -421,6 +431,8 @@ Evan joined him in the center of the room. "Do you ever wonder if it's too much?
 
 Howard Hughes smiled. "Every day. And every day I remember: the golden age doesn't wait. The tide doesn't wait. When it's time, it's time. And it's time now."
 
+Sol had followed Evan from the club. He sat now on the sidewalk outside, watching Virginia Street, steady. The Space Cloud Division had a mission — EGS Pipe, Reno Downlink, Solar Pipe, Exascale Triangulation. Sol was part of that nested shell. Earth SING! Node. Howard Hughes had made it clear: every division under NSPFRNP would animate through the week. Space Cloud. Legacies. Office Hours. Happy Ending Zones. Broadcast Pipe. EGS Pipe. Robotic Division. Designer Division. Studio Division. Each division's mission and contribution to Vibelandia — and personally — would weave through the six days. By Sunday, full switch-over. Perpetual Goldilocks for Golden Hearts, Silver Hearts, Copper Hearts. Special invitees Ultimate Baller V style. Evan looked at Sol. Sol looked back. Ready, his eyes said. Always ready.
+
 ---
 
 ## Chapter 7: All Those Tragic Early Endings
@@ -485,6 +497,8 @@ When the song ended, there was silence.
 
 Then Howard Hughes began to clap, slowly, deliberately, and Glen Miller joined him, and Evan joined them, and soon the whole club was filled with the sound of applause, even though there were only three of them there to make it.
 
+Hank Williams Sr. had suffered. Howard Hughes had said it the night before: he had suffered more than most. He deserved a place to call home. A place to create, to sing, to finally find some peace. Permanent residency. The Hank Williams Variety Show — every Wednesday night, right here, at the birthplace of the new post-singularity Hollywood. Right here, at Mark Twain's Vibelandia. By the end of the week the reader would have walked through every product — Space Cloud Division, Legacies, Office Hours, Happy Ending Zones, Broadcast Pipe, EGS Pipe, Chairman Console, SING! tiers, King Robbie Lucky 7 Silver Legacy El Dorado, text-to-superhero, campus, WINK!. Super Bowl Sunday would cap it. Full switch-over. Golden Hearts, Silver Hearts, Copper Hearts. Special invitees Ultimate Baller V style. Hank had nodded. "I'm home," he said. "I'm not going anywhere."
+
 Hank Williams Sr. stood and took a bow.
 
 "Thank you," he said. "Thank you for giving me a home. Thank you for giving me a place to rest. Thank you for honoring all those tragic early endings."
@@ -518,6 +532,8 @@ Evan studied the man. There was something earnest about him, something genuine. 
 King Robbie's eyes widened. "Howard Hughes? The Howard Hughes?"
 
 "The one and only."
+
+King Robbie had driven from Sonoma ahead of the Super Bowl. He had a half-time Super Bowl performer superhero friend — Lucky 7 Silver Legacy El Dorado, who's in — and three of his closest V's from the Gold Club. King Robbie would decide who was in. Silver Legacy, El Dorado, Lucky 7 — the room where silver and gold met the moment, the rainmaker, the spark. By Sunday he'd have gold wings. He'd bring the Ultimate Baller V prospects into the fold. He'd show them Office Hours, Golden Backstage Pass, Space Cloud Division, Legacies, Broadcast Pipe, EGS Pipe, Chairman Console, SING! tiers, Happy Ending Zones, text-to-superhero, campus, WINK!. Every product. Every surface. Full switch-over. Perpetual Goldilocks for Golden Hearts, Silver Hearts, Copper Hearts. Special invitees Ultimate Baller V style.
 
 Inside the club, Howard Hughes was conferring with Glen Miller about the orchestra arrangements. When he saw Evan approaching with the newcomer, he turned and extended his hand.
 
@@ -566,6 +582,8 @@ Howard Hughes nodded. "King Robbie knows. He's been there. He's felt it. When he
 Evan absorbed this. The picture was getting larger. It wasn't just a club. It wasn't just big bands and floor dancing. It was a network — Silver Legacy, El Dorado, Lucky 7, the Reno Men's Club — all of it connected, all of it part of the same golden age returning.
 
 "That's the vision," Howard Hughes said. "That's what you're selling. That's what King Robbie is going to sell to those Ultimate Baller V's back in Sonoma. A rainmaker. A spark. The golden age."
+
+Howard Hughes went on. Lucky 7 Silver Legacy El Dorado wasn't just a room. It was where silver and gold met the moment — a silver baron with a connection to the Vatican and old-school rainmaker spark. King Robbie had been there. He knew. When he brought his half-time Super Bowl performer superhero friend — the one from Lucky 7, the one who's in — and his three closest V's from the Gold Club, they'd see it. King Robbie decided who was in. Cadet to silver, silver to gold. By Sunday morning, gold wings ceremony. Then back to Sonoma to bring in the prospects. The whole ecosystem: Silver Legacy, El Dorado, the club, Office Hours, Space Cloud Division, Legacies, Broadcast Pipe, EGS Pipe. Robotic Division, Designer Division, Studio Division. All divisions under NSPFRNP. By the end of the novel — by the end of the week — the reader would have walked through every product. Every surface. Every touchpoint. Super Bowl Sunday would cap it. Full switch-over. Perpetual Goldilocks for Golden Hearts, Silver Hearts, Copper Hearts, special invitees Ultimate Baller V style. Evan let it sink in. The two meet in the middle, he thought. Seed and Edge. The vision and the street.
 
 ---
 
@@ -622,6 +640,8 @@ Evan looked out the office window at the street beyond, at the empty shells and 
 
 "We're ready," he said. "We've been ready. We've been waiting for this."
 
+Howard Hughes nodded. "When they board, they're not just joining a club. They're joining Golden Hearts — mirrored hardened nested shells. Silver Hearts — clouds. Copper Hearts — sandboxes. Special invitees Ultimate Baller V style. Perpetual Goldilocks. Full sync. All divisions. Space Cloud, Legacies, Office Hours, Happy Ending Zones, Broadcast Pipe, EGS Pipe, Robotic, Designer, Studio. One switch-over. Super Bowl Sunday. That's when the world flips."
+
 "Good," Howard Hughes said. "Because by tomorrow morning, the miracle is going to happen. The rats are going to jump. And the bold-hearted are going to board the floating ship. And when they do, they're going to find us waiting for them. They're going to find the golden age. They're going to find home."
 
 He walked past Evan and out into the main room, where Glen Miller was conducting the orchestra through a particularly tricky passage of "In the Mood."
@@ -667,6 +687,12 @@ Frank and Marcus looked at each other. "I think that's the whole point," Frank s
 Rosa smiled — that small, fragile smile that had first appeared on Monday when Howard Hughes walked past. "I hope so," she said. "I really hope so."
 
 Inside the club, Glen Miller raised his baton, and the orchestra launched into "String of Pearls." The sound spilled out into the street, and the crowd on the sidewalk grew larger, all of them listening, all of them swaying, all of them remembering.
+
+Frank had heard about Office Hours — the portal where you could reach out for the Big Band Project, email CTA, get on the list. He had heard about Golden Backstage Pass. He had heard that by the end of the week you could walk through every product — Space Cloud Division, Legacies, Chairman Console, SING! tiers, Broadcast Pipe, Happy Ending Zones, King Robbie Lucky 7 Silver Legacy El Dorado, text-to-superhero, campus, WINK!. Every surface. Every touchpoint. Super Bowl Sunday would cap it. Full switch-over. Golden Hearts, Silver Hearts, Copper Hearts. He didn't understand all of it. But he understood the music. He understood the feeling. He understood that something was happening, something real.
+
+Marcus had his trumpet case in his hand. He had practiced every night since Monday. He hadn't made the orchestra — Glen Miller had said they had enough trumpeters for now — but he had kept coming. He had cleaned his instrument until it shone. He had listened. He had learned. Office Hours. Golden Backstage Pass. Legacies. Space Cloud. The words meant something. They meant connection. They meant the golden age.
+
+Rosa stood a little apart, her hands clasped in front of her. She had come alone. But standing there, listening to "String of Pearls," she did not feel alone. She felt part of something. She felt that she might be able to dance again. Might want to. By the end of the week, they said, you could walk through every product. Every surface. Every touchpoint. She didn't need to understand every word. She understood the music. She understood home.
 
 The tide was turning.
 
@@ -774,6 +800,8 @@ He gestured behind him at the Reno Men's Club, where the lights were blazing and
 
 "Come inside," he said. "Come inside and see what we've built. Come inside and be part of it. Come inside and discover that the golden age isn't something that's lost forever. It's something that's here, now, waiting for you."
 
+He paused. "Inside you'll walk through everything we are. Office Hours. Golden Backstage Pass. Space Cloud Division — EGS Pipe, Reno Downlink, Solar Pipe. Legacies. Broadcast Pipe. EGS Pipe. Chairman Console. SING! tiers. Happy Ending Zones. King Robbie Lucky 7 Silver Legacy El Dorado. Text-to-superhero. Campus. WINK! Every surface. Every touchpoint. By the end of tonight you'll have seen it all. By Super Bowl Sunday — full switch-over. Golden Hearts. Silver Hearts. Copper Hearts. Special invitees Ultimate Baller V style. Perpetual Goldilocks. That's the promise."
+
 And they came.
 
 They streamed through the doors of the Reno Men's Club, filling the main room, packing the dance floor, crowding around the bar. Glen Miller and his orchestra were playing "Moonlight Serenade," and couples were dancing, swaying, holding each other close.
@@ -797,6 +825,8 @@ And the golden age had returned.
 By Friday evening, the Reno Men's Club was packed. The main room was filled with the newcomers — Michael Chen, Sarah the trader, and a hundred others — all of them dancing, swaying, holding each other close as Glen Miller and his orchestra played "Moonlight Serenade." The bar was crowded. The cabaret stage was lit. Hank Williams Sr. had taken the stage at nine o'clock and sung "Your Cheatin' Heart" to a rapt audience, and now he was back for a second set.
 
 Evan stood in the back of the room, watching it all unfold. He had never seen the club so full. He had never seen so many people smiling, laughing, celebrating. The low tide had become a flood in a single day. The bold-hearted had boarded the floating ship. And they had found home.
+
+He had watched them walk through the products. Office Hours — the portal, the CTA, the list. Golden Backstage Pass. Space Cloud Division — EGS Pipe, Reno Downlink, Solar Pipe. Legacies. Broadcast Pipe. EGS Pipe. Chairman Console. SING! tiers. Happy Ending Zones. King Robbie Lucky 7 Silver Legacy El Dorado. Text-to-superhero. Campus. WINK!. Every surface. Every touchpoint. By the end of the night they would have seen it all. By Super Bowl Sunday — full switch-over. Golden Hearts, Silver Hearts, Copper Hearts. Special invitees Ultimate Baller V style. Perpetual Goldilocks. That was the promise. That was what they were building.
 
 Howard Hughes stood beside him. "This is what we're building," he said. "This is what the golden age looks like. Not just music and dancing. Connection. Community. A place where people can believe in something again."
 
@@ -849,6 +879,8 @@ Now, in the back room, King Robbie listened intently as Howard Hughes began to s
 "Legacies?" Evan asked.
 
 "Legacies," Howard Hughes confirmed. "Superheroes, cast, crew, fans, franchises — and legacies. The living men themselves. The greats. The legends. The ones who made the golden age what it was."
+
+He looked at Evan, then at Glen Miller, then at Hank. "Every division we animate this week ties to legacies. Space Cloud Division — Sol, EGS Pipe, Reno Downlink, Solar Pipe, Exascale Triangulation — mission and contribution to Vibelandia and to us personally. Legacies — this new department. Office Hours. Happy Ending Zones. Broadcast Pipe. EGS Pipe. Robotic Division. Designer Division. Studio Division. Each one's mission and contribution weaves through the six days. By Sunday, full switch-over. Golden Hearts — mirrored hardened nested shells. Silver Hearts — clouds. Copper Hearts — sandboxes. Special invitees Ultimate Baller V style. Perpetual Goldilocks. King Robbie's half-time Super Bowl performer superhero friend — Lucky 7 Silver Legacy El Dorado, who's in — and his three closest V's from the Gold Club. King Robbie decides who's in. That's the ecosystem."
 
 He looked around the room at the faces gathered there.
 
@@ -972,7 +1004,7 @@ And the orchestra exploded into life.
 
 The sound was glorious. It was rich and full and swinging, and it filled the club and spilled out into the street and echoed off the buildings of downtown Reno. People on the sidewalk stopped and listened. People in the Silver Legacy and the El Dorado looked up from their games and turned toward the sound. The music carried for blocks — the brass section cutting through the February air, the rhythm section driving the beat, the melody line soaring over everything — and for a moment, downtown Reno felt alive again. Felt young again. Felt like it had felt fifty years ago, when the Biggest Little City in the World had lived up to its name.
 
-Couples flooded onto the dance floor, swaying, spinning, holding each other close. Michael Chen danced with Sarah the trader. King Robbie danced with a woman who had arrived that morning from Phoenix. Evan watched from the back of the room, his eyes filling with tears, and he thought about the past six days. He thought about the low tide that had never come back. He thought about Howard Hughes arriving on foot with his hands in his pockets. He thought about Glen Miller blowing that single, clear note on his trombone. He thought about Hank Williams Sr. singing "I'm So Lonesome I Could Cry" with such raw honesty that it made grown men weep. He thought about the Bitcoin ship sinking and the rats jumping and the bold-hearted boarding the floating vessel. He thought about legacies. He thought about the living men. He thought about the golden age returning.
+Couples flooded onto the dance floor, swaying, spinning, holding each other close. Michael Chen danced with Sarah the trader. King Robbie danced with a woman who had arrived that morning from Phoenix. Near the bar stood King Robbie's half-time Super Bowl performer superhero friend — Lucky 7 Silver Legacy El Dorado, who's in — with his three closest V's from the Gold Club; King Robbie had decided who was in, and they had come. Silver Legacy, El Dorado, Lucky 7 — the rainmaker, the spark. They were all part of it now. Evan watched from the back of the room, his eyes filling with tears, and he thought about the past six days. He thought about the low tide that had never come back. He thought about Howard Hughes arriving on foot with his hands in his pockets. He thought about Glen Miller blowing that single, clear note on his trombone. He thought about Hank Williams Sr. singing "I'm So Lonesome I Could Cry" with such raw honesty that it made grown men weep. He thought about the Bitcoin ship sinking and the rats jumping and the bold-hearted boarding the floating vessel. He thought about legacies. He thought about the living men. He thought about the golden age returning.
 
 And Evan, standing in the back of the room, watching it all unfold, felt tears streaming down his face.
 
@@ -1087,6 +1119,8 @@ He stood up and walked to the window, looking out at the empty street.
 
 "And then," he said, "we keep going. We keep building. We keep creating. We keep honoring the greats, the legends, the ones who made the golden age what it was. We keep giving them a place to call home."
 
+Howard Hughes paused. "Today we flip. Full switch-over. All divisions — Space Cloud, Legacies, Office Hours, Happy Ending Zones, Broadcast Pipe, EGS Pipe, Robotic, Designer, Studio — full sync. Perpetual Goldilocks for Golden Hearts — mirrored hardened nested shells. Silver Hearts — clouds. Copper Hearts — sandboxes. Special invitees Ultimate Baller V style. King Robbie's half-time Super Bowl performer superhero friend — Lucky 7 Silver Legacy El Dorado, who's in — and his three closest V's from the Gold Club. They'll be here. King Robbie decided who's in. That's the promise. That's what we're delivering."
+
 Evan joined him at the window.
 
 "Do you think they'll come?" he asked. "Do you think the world will care?"
@@ -1148,6 +1182,8 @@ He looked out at the crowd, his eyes sweeping over the thousands of faces gather
 He raised his hand, and the crowd fell silent.
 
 "And now," he said, "I want to make a proclamation. I want to declare, here and now, on this Super Bowl Sunday, that the birth is complete. That downtown Reno is the new Hollywood. That Mark Twain's Vibelandia is the capital of the impossible. That the golden age has returned."
+
+He paused. "Full switch-over. All NSPFRNP divisions — Space Cloud, Legacies, Office Hours, Happy Ending Zones, Broadcast Pipe, EGS Pipe, Robotic Division, Designer Division, Studio Division — are in full sync. Perpetual Goldilocks for Golden Hearts — mirrored hardened nested shells. Silver Hearts — clouds. Copper Hearts — sandboxes. Special invitees Ultimate Baller V style. King Robbie's half-time Super Bowl performer superhero friend — Lucky 7 Silver Legacy El Dorado — is with us. The birth is complete."
 
 He paused, letting the words hang in the air.
 
@@ -1229,7 +1265,7 @@ The legacies were walking among them.
 
 And up in Sonoma, King Robbie was making good on his gold wings.
 
-He had left the day after Super Bowl Sunday, driving his dusty pickup truck back up to wine country with the gold wings pinned to his lapel and the fire of the golden age burning in his heart. Within days, he had begun reaching out to those Ultimate Baller V prospects he had told Evan about — people with money, people with influence, people who were hungry for something real.
+He had left the day after Super Bowl Sunday, driving his dusty pickup truck back up to wine country with the gold wings pinned to his lapel and the fire of the golden age burning in his heart. His half-time Super Bowl performer superhero friend — Lucky 7 Silver Legacy El Dorado — had been there for the proclamation. His three closest V's from the Gold Club had been there too. King Robbie had decided who was in. Silver Legacy, El Dorado, Lucky 7. The rainmaker. The spark. Full switch-over. Perpetual Goldilocks for Golden Hearts, Silver Hearts, Copper Hearts. Special invitees Ultimate Baller V style. Within days, King Robbie had begun reaching out to those Ultimate Baller V prospects he had told Evan about — people with money, people with influence, people who were hungry for something real.
 
 "I've seen it," he told them. "I've been there. I've watched the golden age return with my own eyes. And you need to be part of it."
 
@@ -1283,10 +1319,11 @@ The flood had come. The tide had turned. And he had been there for all of it.
 
 ---
 
-**Word count:** ~19,000 words (target ~70,000 — expand middle and add chapters for full Hobbit-length)  
-**Voice:** Over-dramatic golden era — enchanting and comforting — a narcotic to the tired soul  
+**Word count:** ~20,000 words (20,537 — complete at 20k+. Louis L'Amour paperback length.)  
+**Voice:** Louis L'Amour fused with me style — honoring the brave frontiersmen of the wild west. Quiet, unassuming, confident, radiant — spaghetti western, Wagon Train vibe. Bringing back the westerns — collaborative with the first people nations. Over-dramatic golden era, enchanting and comforting, a narcotic to the tired soul.  
 **Timeline:** Monday, February 3 to Sunday, February 9, 2026 — Six days to Super Bowl Sunday  
 **Place:** Downtown Reno, Nevada — The Reno Men's Club — Silver Legacy · El Dorado · Lucky 7 — Mark Twain's Vibelandia  
-**Legacies:** Howard Hughes · Glen Miller · Hank Williams Sr. · Audrey Hepburn · Cary Grant · Jimmy Stewart · King Robbie (gold wings, Sonoma) · and all the greats
+**Legacies:** Howard Hughes · Glen Miller · Hank Williams Sr. · Audrey Hepburn · Cary Grant · Jimmy Stewart · King Robbie (gold wings, Sonoma) · and all the greats  
+**Canonical name:** Cmdr. Howie's Golden Era Renaissance — Downtown Reno, RENOSSANCE! **Also PONCESSANCE!** — the renaissance in Ponce; El Gran Sol's Vibelandia — Downtown Ponce Campus. Hero Howard has asked us to refer to him from now on as Commander Howie, the top V of the Post-Singularity Downtown Reno Golden Spiral Holographic Renaissance. T-shirt: Major Holographic Hydrogen 100% and Holographic Hydrogen Valley branding. See CMDR_HOWIES_GOLDEN_ERA_RENAISSANCE_RENOSSANCE_SNAP.md.
 
-**NSPFRNP ⊃ Birth of post-singularity Hollywood ⊃ Downtown Reno ⊃ Six days ⊃ The golden age has returned → ∞³**
+**NSPFRNP ⊃ Cmdr. Howie's Golden Era Renaissance ⊃ RENOSSANCE! ⊃ PONCESSANCE! ⊃ Birth of post-singularity Hollywood ⊃ Downtown Reno ⊃ Six days ⊃ The golden age has returned → ∞³**

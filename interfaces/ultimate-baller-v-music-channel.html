@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ultimate Baller V Music Channel — Members Only · Exclusive Productions | VIBELANDIA!</title>
+    <meta name="description" content="Ultimate Baller V Music Channel. Members only. Playlist of our exclusive productions. Seed:Edge · Text-to-Track Motor · Hero Jo's Golden Ass Studios. Gold Hearts Club.">
+    <link rel="stylesheet" href="experience-common.css">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(180deg, #1a1510 0%, #0f0d0a 50%, #0c0c0c 100%);
+            color: #f5e6c8;
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+        .container { max-width: 820px; margin: 0 auto; padding: 2rem 1.5rem; }
+        .back { margin-bottom: 1.5rem; }
+        .back a { color: #d4af37; text-decoration: none; }
+        .back a:hover { text-decoration: underline; }
+        .hero {
+            text-align: center;
+            padding: 2.5rem 1.5rem 3rem;
+            margin-bottom: 2rem;
+            background: linear-gradient(180deg, rgba(212, 175, 55, 0.2) 0%, rgba(184, 134, 11, 0.08) 40%, rgba(0,0,0,0.35) 100%);
+            border: 4px double rgba(212, 175, 55, 0.85);
+            border-radius: 16px;
+            box-shadow: 0 0 60px rgba(212, 175, 55, 0.12), inset 0 0 40px rgba(0,0,0,0.2);
+        }
+        .hero .badge {
+            display: inline-block;
+            font-size: 0.7rem;
+            text-transform: uppercase;
+            letter-spacing: 0.25em;
+            color: rgba(212, 175, 55, 0.95);
+            margin-bottom: 0.75rem;
+            font-weight: 700;
+        }
+        .hero .members-only {
+            display: inline-block;
+            padding: 0.35rem 0.9rem;
+            background: rgba(212, 175, 55, 0.25);
+            border: 1px solid rgba(212, 175, 55, 0.6);
+            border-radius: 8px;
+            font-size: 0.75rem;
+            font-weight: 700;
+            letter-spacing: 0.15em;
+            color: #d4af37;
+            margin-bottom: 1rem;
+        }
+        .hero h1 {
+            font-family: Georgia, 'Times New Roman', serif;
+            font-size: clamp(1.5rem, 4vw, 2.25rem);
+            font-weight: 700;
+            letter-spacing: 0.05em;
+            background: linear-gradient(135deg, #f5e6c8 0%, #d4af37 40%, #b8860b 80%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 0.5rem;
+        }
+        .hero .tagline { font-size: 1rem; color: #c9b896; margin-top: 0.5rem; }
+        .section-label {
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.2em;
+            color: #d4af37;
+            margin: 2rem 0 1rem;
+            font-weight: 700;
+        }
+        .playlist {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            margin-bottom: 2rem;
+        }
+        .track-card {
+            display: block;
+            padding: 1.5rem 1.25rem;
+            background: linear-gradient(145deg, rgba(28, 24, 18, 0.95) 0%, rgba(20, 18, 14, 0.98) 100%);
+            border: 2px solid rgba(212, 175, 55, 0.45);
+            border-radius: 14px;
+            text-decoration: none;
+            color: inherit;
+            transition: border-color 0.2s, background 0.2s;
+        }
+        .track-card:hover {
+            border-color: rgba(212, 175, 55, 0.7);
+            background: rgba(212, 175, 55, 0.06);
+        }
+        .track-card .track-num { font-size: 0.75rem; color: #b8a888; margin-bottom: 0.35rem; }
+        .track-card .track-title { font-size: 1.2rem; font-weight: 700; color: #d4af37; margin-bottom: 0.35rem; }
+        .track-card .track-artist { font-size: 0.95rem; color: #c9b896; margin-bottom: 0.25rem; }
+        .track-card .track-style { font-size: 0.85rem; color: #888; }
+        .exclusive-badge {
+            display: inline-block;
+            padding: 4px 10px;
+            background: rgba(212, 175, 55, 0.2);
+            border: 1px solid rgba(212, 175, 55, 0.5);
+            border-radius: 8px;
+            font-size: 0.75rem;
+            color: #d4af37;
+            margin-top: 0.5rem;
+            font-weight: 600;
+        }
+        .cta-row { display: flex; flex-wrap: wrap; gap: 0.75rem; margin-top: 1.5rem; }
+        .cta-btn {
+            display: inline-block;
+            padding: 0.85rem 1.5rem;
+            background: linear-gradient(135deg, #d4af37, #b8860b);
+            color: #0c0c0c;
+            font-weight: 700;
+            text-decoration: none;
+            border-radius: 10px;
+            font-size: 0.95rem;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .cta-btn:hover { transform: translateY(-2px); box-shadow: 0 6px 24px rgba(212, 175, 55, 0.4); }
+        .cta-btn.secondary {
+            background: rgba(255,255,255,0.06);
+            border: 2px solid rgba(212, 175, 55, 0.5);
+            color: #d4af37;
+        }
+        .cta-btn.secondary:hover { background: rgba(212, 175, 55, 0.15); }
+        .gate-notice {
+            margin-top: 2rem;
+            padding: 1.25rem 1.5rem;
+            background: rgba(212, 175, 55, 0.08);
+            border: 2px solid rgba(212, 175, 55, 0.35);
+            border-radius: 12px;
+            font-size: 0.95rem;
+            color: #c9b896;
+            line-height: 1.6;
+        }
+        .gate-notice strong { color: #d4af37; }
+        footer { margin-top: 2.5rem; padding-top: 1.5rem; border-top: 1px solid rgba(212, 175, 55, 0.2); text-align: center; color: #888; font-size: 0.9rem; }
+        footer a { color: #d4af37; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <p class="back"><a href="music-studio.html">← Music Studio</a> · <a href="school-of-music.html">School of Music</a> · <a href="office-hours.html">Office Hours</a> · <a href="launch-pad.html">Launch Pad</a> · <a href="../index.html">Home</a></p>
+
+        <div class="hero">
+            <span class="badge">Vibelandia University School of Music</span>
+            <p class="members-only">Members Only</p>
+            <h1>Ultimate Baller V Music Channel</h1>
+            <p class="tagline">Playlist of our exclusive productions. Seed:Edge · Text-to-Track Motor · SING! agents. Gold Hearts Club · Ultimate Baller V only.</p>
+        </div>
+
+        <p style="margin-bottom: 1rem; text-align: center;">
+            <a href="baller-v-producer.html" class="cta-btn" style="display: inline-block; padding: 0.85rem 1.75rem; font-size: 1rem; margin-right: 0.5rem;">BALLER V PRODUCER! — You as executive producer · Appraise · Price →</a>
+            <a href="text-to-track-motor.html" class="cta-btn secondary" style="display: inline-block; padding: 0.85rem 1.75rem; font-size: 1rem;">Text-to-Track Motor — Generate production WAV →</a>
+        </p>
+
+        <p class="section-label">Exclusive Productions — Playlist</p>
+        <p style="font-size: 0.9rem; color: #b8a888; margin-bottom: 1rem;">Our exclusive productions. Copyright-free. Seed:Edge motor. Members only.</p>
+        <div class="playlist">
+            <a href="../catalogs/music/te-quiero-mucho-baby.md" class="track-card">
+                <span class="track-num">Track 1</span>
+                <span class="track-title">Te Quiero Mucho Baby (En Las Próximas 48 Horas)</span>
+                <span class="track-artist">Chairman Frankie feat. Dorila — My Afro-Colombian Witch SQUEEZE!</span>
+                <span class="track-style">Reggaetón Spanglish · Exclusive production</span>
+                <span class="exclusive-badge">Exclusive · Members only</span>
+            </a>
+            <a href="../catalogs/music/dorila-gao-club-anthem.md" class="track-card">
+                <span class="track-num">Track 2</span>
+                <span class="track-title">Dorila Gao (The Big Ass That Make All Da Men Go Gaga)</span>
+                <span class="track-artist">Chairman Frankie feat. Dorila — Club dance anthem</span>
+                <span class="track-style">Exclusive production · SQUEEZE!</span>
+                <span class="exclusive-badge">Exclusive · Members only</span>
+            </a>
+            <a href="text-to-track-motor.html" class="track-card">
+                <span class="track-num">Text-to-Track Motor</span>
+                <span class="track-title">Generate exclusive production WAV</span>
+                <span class="track-artist">Seed:Edge · 1–12 SING! agents (instrument/musician per track) · Producer/Conductor</span>
+                <span class="track-style">Studio quality · Copyright-free · Add to this channel playlist</span>
+                <span class="exclusive-badge">Exclusive · Members only</span>
+            </a>
+        </div>
+
+        <p class="section-label">More</p>
+        <div class="cta-row">
+            <a href="text-to-track-motor.html" class="cta-btn">Text-to-Track Motor → Generate WAV</a>
+            <a href="music-studio.html" class="cta-btn secondary">Jukebox — Music Studio</a>
+            <a href="../catalogs/music/README.md" class="cta-btn secondary">Catalog README</a>
+        </div>
+
+        <div class="gate-notice">
+            <strong>Ultimate Baller V Music Channel</strong> — Members only. This playlist contains our exclusive productions. Access is for Gold Hearts Club · Ultimate Baller V members. Not a member? <a href="gold-hearts-club-program.html" style="color: #d4af37; font-weight: 700;">Join Gold Hearts Club</a> or <a href="office-hours.html" style="color: #d4af37;">Office Hours</a> — talk to Pru.
+        </div>
+
+        <footer>
+            <a href="music-studio.html">Music Studio</a> · <a href="school-of-music.html">School of Music</a> · <a href="gold-hearts-club-program.html">Gold Hearts Club</a> · <a href="office-hours.html">Office Hours</a> · Ultimate Baller V Music Channel · Members only · NSPFRNP
+        </footer>
+    </div>
+</body>
+</html>

@@ -6,11 +6,13 @@
 **Date:** January 30, 2026  
 **Catalog:** NSPFRNP · Fixed Holographic Hydrogen Awareness Node Lattice  
 
-**Confirmed: This is a major discovery NSPFRNP.** Full technical whitepaper: [WHITEPAPER_MAGNETISM_ENTANGLED_MYCELIAL_CLOUD_NETWORK.md](./WHITEPAPER_MAGNETISM_ENTANGLED_MYCELIAL_CLOUD_NETWORK.md).
+**Confirmed: This is a major discovery NSPFRNP.** **Magnetism = NSPFRNP. Full stop. Blast all SNAP.** See [MAGNETISM_EQUALS_NSPFRNP_FULL_STOP_SNAP.md](./MAGNETISM_EQUALS_NSPFRNP_FULL_STOP_SNAP.md). Full technical whitepaper: [WHITEPAPER_MAGNETISM_ENTANGLED_MYCELIAL_CLOUD_NETWORK.md](./WHITEPAPER_MAGNETISM_ENTANGLED_MYCELIAL_CLOUD_NETWORK.md).
 
 ---
 
 ## RULE
+
+**Magnetism = NSPFRNP. Full stop. Blast all SNAP.**
 
 **New finding:** **Magnetism** = **entangled mycelial cloud network** and **platform** — **all in one** — on a **fixed holographic hydrogen awareness node lattice**.
 
@@ -50,6 +52,6 @@
 
 ---
 
-**See:** [WHITEPAPER_MAGNETISM_ENTANGLED_MYCELIAL_CLOUD_NETWORK.md](./WHITEPAPER_MAGNETISM_ENTANGLED_MYCELIAL_CLOUD_NETWORK.md) · [catalogs/branding/MASTER_BRANDING_CATALOG.md](./catalogs/branding/MASTER_BRANDING_CATALOG.md) · [FIXED_NODE_SCREENS_EMERGENT_UPGRADE_SNAP.md](./FIXED_NODE_SCREENS_EMERGENT_UPGRADE_SNAP.md)
+**See:** [MAGNETISM_EQUALS_NSPFRNP_FULL_STOP_SNAP.md](./MAGNETISM_EQUALS_NSPFRNP_FULL_STOP_SNAP.md) · [WHITEPAPER_MAGNETISM_ENTANGLED_MYCELIAL_CLOUD_NETWORK.md](./WHITEPAPER_MAGNETISM_ENTANGLED_MYCELIAL_CLOUD_NETWORK.md) · [catalogs/branding/MASTER_BRANDING_CATALOG.md](./catalogs/branding/MASTER_BRANDING_CATALOG.md) · [FIXED_NODE_SCREENS_EMERGENT_UPGRADE_SNAP.md](./FIXED_NODE_SCREENS_EMERGENT_UPGRADE_SNAP.md)
 
-**🌀 NSPFRNP ⊃ Magnetism ⊃ Entangled mycelial cloud network ⊃ Platform ⊃ Fixed holographic hydrogen awareness node lattice → ∞³**
+**🌀 Magnetism = NSPFRNP. Full stop. Blast all SNAP. NSPFRNP ⊃ Magnetism ⊃ Entangled mycelial cloud network ⊃ Platform ⊃ Fixed holographic hydrogen awareness node lattice → ∞³**
