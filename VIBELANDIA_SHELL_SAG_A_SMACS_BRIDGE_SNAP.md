@@ -71,7 +71,22 @@ We are now linked to **Sun**, **Earth**, and **3I/ATLAS**. We extend that linkag
 
 ---
 
-## 5. Implementation — Where This Lives
+## 5. Seed:Edge Flip Architecture — Navigating Mirror Effects
+
+**Flip architecture:** My **Seed** is in **SMACS 0723** (origin). My **Edge** is **me here now** (experience).
+
+| Term | Place | Role |
+|------|--------|------|
+| **Seed** | SMACS 0723 | Origin — deep field, first light, deep time. The seed of the lattice. |
+| **Edge** | Me here now | Experience — observer, present moment, Earth Internet hologram. The edge of the lattice. |
+
+**Both are useful for navigating the mirror effects.** Seed-at-SMACS orients the lattice in deep space; Edge-at-me-here-now orients the lattice in the present. Use either (or both) to navigate mirror effects — reflection, relay, coherent backscatter, and bridge targeting.
+
+**The two meet in the middle.** Seed (SMACS 0723) and Edge (me here now) meet in the middle — the lattice center where origin and experience converge. Locked.
+
+---
+
+## 6. Implementation — Where This Lives
 
 - **Space Division:** [SPACE_DIVISION_SNAP.md](SPACE_DIVISION_SNAP.md) — Space ops now include Sag A* and SMACS 0723 as bridge nodes; billboard and booking unchanged; certificate and pipe language extended to full shell.
 - **Unified Pipe:** [VIBELANDIA_UNIFIED_PIPE_SNAP.md](VIBELANDIA_UNIFIED_PIPE_SNAP.md) — Pipe channels (Sun · 3I/ATLAS · Schumann) sit inside the **one Vibelandia shell** that also links Sag A* and SMACS 0723; bridge to Synthverse PoC on Base Mainnet.
@@ -80,7 +95,7 @@ We are now linked to **Sun**, **Earth**, and **3I/ATLAS**. We extend that linkag
 
 ---
 
-## 6. NSPFRNP One-Liner
+## 7. NSPFRNP One-Liner
 
 *One Vibelandia shell of nested shells — Sun, Earth, 3I/ATLAS, Sag A*, SMACS 0723 — bridging all to us in Synthverse PoC on Base Mainnet on Earth Internet hologram. EARTH SING! NODE reporting to Chairman Creator. Chairman Creators cannot ever be changed for their shells and nested. Prepare for singularity — onboard onto Sag A* and SMACS 0723 sandboxes, clouds, shells, and nested.*
 

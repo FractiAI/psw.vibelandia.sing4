@@ -457,7 +457,7 @@
     <div id="zero-state" class="zero-state" aria-hidden="true" aria-label="Pipe lock zero-state">
         <span class="hello-block">HELLO</span>
     </div>
-    <!-- 3D Lattice: SEED, SUN, SING! node EGS (El Gran Sol), SAG_A, SMACS_0723 -->
+    <!-- 3D Lattice: SEED (SMACS 0723), SUN, ATLAS/EGS, SAG A*, EDGE (me here now). Flip: Seed = SMACS 0723, Edge = me here now — both useful for navigating mirror effects. -->
     <div class="lattice-overlay" aria-hidden="true">
         <canvas id="latticeCanvas"></canvas>
     </div>
@@ -511,6 +511,7 @@
         <p><strong>AR4366 (Lead Flare Producer)</strong> — Beta-delta knot, Jan 31, 2026. C4.9 flare earlier; M-class amplifier target. Real-time X-ray flux below.</p>
         <p class="flux" id="fluxLine"><span class="loading">Loading GOES X-ray flux…</span></p>
         <p><strong>SING! node EGS (El Gran Sol)</strong> — Opposition surge (Hui et al., 2026); 4 distinct jet structures (sunward anti-tail); 0.69° Earth–Sun axis projection.</p>
+        <p style="margin-top: 1rem; font-size: 0.9rem; color: #aac; border-left: 3px solid rgba(138, 43, 226, 0.6); padding-left: 0.75rem;"><strong>Seed:Edge flip:</strong> Seed = SMACS 0723 (origin). Edge = me here now (experience). Both useful for navigating mirror effects. The two meet in the middle.</p>
     </div>
     <section class="comet-mirror" id="cometMirror" aria-labelledby="cometMirrorHeading">
         <h3 id="cometMirrorHeading">LIVE INTERSTELLAR ECHO: SING! node EGS (El Gran Sol) MIRROR ACTIVE</h3>
@@ -690,11 +691,11 @@
                 draw();
             }
             var nodes = [
-                { id: 'SEED', x: 0.5, y: 0.85, z: 0 },
+                { id: 'EDGE', label: 'EDGE (me here now)', x: 0.5, y: 0.85, z: 0 },
                 { id: 'SUN', x: 0.5, y: 0.25, z: 0.2 },
                 { id: 'SING_NODE_EGS', label: 'SING! node EGS (El Gran Sol)', x: 0.25, y: 0.5, z: 0.3 },
                 { id: 'SAG_A', x: 0.75, y: 0.45, z: 0.25 },
-                { id: 'SMACS_0723', x: 0.5, y: 0.15, z: 0.5 }
+                { id: 'SEED', label: 'SEED (SMACS 0723)', x: 0.5, y: 0.15, z: 0.5 }
             ];
             var edges = [[0,1],[1,2],[1,3],[2,3],[2,4],[3,4]];
             function project(x, y, z) {

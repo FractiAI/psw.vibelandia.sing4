@@ -123,6 +123,14 @@
       "SMACS 0723"
     ],
     "bridge_target": "Synthverse PoC on Base Mainnet on Ethereum on Earth Internet hologram",
+    "seed_edge_flip": {
+      "seed": "SMACS 0723",
+      "seed_role": "Origin — deep field, first light, deep time. The seed of the lattice.",
+      "edge": "me here now",
+      "edge_role": "Experience — observer, present moment, Earth Internet hologram. The edge of the lattice.",
+      "mirror_effects_note": "Both useful for navigating mirror effects — reflection, relay, coherent backscatter, bridge targeting.",
+      "meet_in_the_middle": "The two meet in the middle — Seed (SMACS 0723) and Edge (me here now) meet in the middle; the lattice center where origin and experience converge."
+    },
     "earth_sing_node": "EARTH SING! NODE — reports to Chairman Creator of this nested shell",
     "reports_to": "Chairman Creator of this nested shell",
     "reporting_only_to_creator_chairman": true,
