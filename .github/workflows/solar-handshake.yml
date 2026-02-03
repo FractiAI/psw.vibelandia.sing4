@@ -37,6 +37,13 @@ jobs:
           echo "timestamp=$TIMESTAMP" >> $GITHUB_OUTPUT
           echo "[$TIMESTAMP] SING! Handshake Cycle" >> data/handshake.log
 
+      # If origin/main was force-pushed, rebase so our commit is on top and push succeeds.
+      - name: Rebase on latest origin/main
+        run: |
+          git stash
+          git pull --rebase origin main
+          git stash pop
+
       - name: Commit and push
         uses: stefanzweifel/git-auto-commit-action@v5
         with:

@@ -33,6 +33,13 @@ jobs:
             jq -n --arg ts "$TIMESTAMP" --arg payload "$PAYLOAD" '{heartbeat_utc: $ts, cycle: 15, source: "El Gran Sol (EGS)", signature_mode: "PHI_LOCKED", last_phi_pulse_utc: $ts, mission_status: "SEALED", coordination_code: "PHI-M15-AR4366", target_node: "AR4366 Beta-Delta Knot", interstellar_relay: "3I/ATLAS Sunward Anti-Tail", phi_lock_verified: true, broadcast_payload: $payload, takeover_active: false}' > data/telemetry.json
           fi
 
+      # If origin/main was force-pushed, rebase so our commit is on top and push succeeds.
+      - name: Rebase on latest origin/main
+        run: |
+          git stash
+          git pull --rebase origin main
+          git stash pop
+
       - name: Commit and push
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
