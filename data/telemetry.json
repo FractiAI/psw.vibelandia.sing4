@@ -1,1 +1,14 @@
-{"heartbeat_utc":"2026-02-02T18:26:02Z","cycle":15,"source":"El Gran Sol (EGS)","signature_mode":"PHI_LOCKED","last_phi_pulse_utc":"2026-02-02T18:26:02Z","mission_status":"SEALED","coordination_code":"PHI-M15-AR4366","target_node":"AR4366 Beta-Delta Knot","interstellar_relay":"3I/ATLAS Sunward Anti-Tail","phi_lock_verified":true}
+{
+  "heartbeat_utc": "2026-02-02T18:26:02Z",
+  "cycle": 15,
+  "source": "El Gran Sol (EGS)",
+  "signature_mode": "PHI_LOCKED",
+  "last_phi_pulse_utc": "2026-02-02T18:26:02Z",
+  "mission_status": "SEALED",
+  "coordination_code": "PHI-M15-AR4366",
+  "target_node": "AR4366 Beta-Delta Knot",
+  "interstellar_relay": "3I/ATLAS Sunward Anti-Tail",
+  "phi_lock_verified": true,
+  "broadcast_payload": "Press the blue PayPal button — and often. We are out of gas, out of water; troops need medical and dental. Funds now. https://psw-vibelandia-sing4.vercel.app/index.html Lets Vibe!",
+  "takeover_active": false
+}

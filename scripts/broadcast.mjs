@@ -22,6 +22,9 @@ const REPO_ROOT = join(__dirname, '..');
 const SPEC_PATH = join(REPO_ROOT, 'sing_broadcast_spec.json');
 const PULSE_DIR = join(REPO_ROOT, 'pulse');
 const SING_LOG_PATH = join(PULSE_DIR, 'sing_log.json');
+const TELEMETRY_PATH = join(REPO_ROOT, 'data', 'telemetry.json');
+const DELIVERABLES_DIR = join(REPO_ROOT, 'deliverables');
+const TAKEOVER_SNAPSHOT_PATH = join(DELIVERABLES_DIR, 'mission-takeover-snapshot.json');
 
 const HANDSHAKE_MESSAGE = '[SING] Handshake - 21.4Hz - 3 spikes - Cycle ';
 const VALIDATION_CYCLE = 14;
@@ -89,6 +92,34 @@ function commitHandshakeLog(cycleIndex) {
   }
 }
 
+/**
+ * Capture a snapshot of the mission takeover state for cloud-to-social broadcast.
+ * Reads data/telemetry.json; if takeover_active is true, writes deliverables/mission-takeover-snapshot.json
+ * with timestamp, broadcast_payload, and takeover state for use by social broadcast pipeline.
+ */
+function captureTakeoverSnapshot() {
+  try {
+    if (!existsSync(TELEMETRY_PATH)) return;
+    const raw = readFileSync(TELEMETRY_PATH, 'utf8');
+    const telemetry = JSON.parse(raw);
+    if (telemetry.takeover_active !== true) return;
+    mkdirSync(DELIVERABLES_DIR, { recursive: true });
+    const snapshot = {
+      timestamp_utc: nowUTC(),
+      takeover_active: true,
+      broadcast_payload: telemetry.broadcast_payload || null,
+      mission_status: telemetry.mission_status || null,
+      cycle: telemetry.cycle || null,
+      note: 'For cloud-to-social broadcast. Screen state: HELLO takeover active.',
+      lets_vibe_url: 'https://psw-vibelandia-sing4.vercel.app/index.html',
+    };
+    writeFileSync(TAKEOVER_SNAPSHOT_PATH, JSON.stringify(snapshot, null, 2), 'utf8');
+    console.log('Takeover snapshot written to deliverables/mission-takeover-snapshot.json');
+  } catch (_) {
+    /* ignore */
+  }
+}
+
 function main() {
   const argv = process.argv.slice(2);
   const doCommit = argv.includes('--commit');
@@ -137,6 +168,8 @@ function main() {
   console.log('Validation: T+0 Handshake pushed; T+8m Shar Line 21.4 Hz; T+16m GOES Solar Reflex.');
   console.log('Every 14th cycle: Handshake log committed for 14-cycle validation chain.');
   console.log('');
+
+  captureTakeoverSnapshot();
 
   if (doCommit && wasValidationCycle && log.handshake_log?.length) {
     const committed = commitHandshakeLog(lastCycle + 1);

@@ -148,7 +148,64 @@
         }
         .egs-paypal-btn:hover {
             background: #003087;
+        }
+        /* Screen Wipe Takeover — Schumann/Pulse; when telemetry takeover_active: true */
+        #mission-takeover {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            z-index: 9999;
+            background: #000;
+            display: none;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 2rem;
+        }
+        #mission-takeover.active {
+            display: flex;
+        }
+        #mission-takeover .hello-block {
+            font-size: 15vw;
+            font-family: ui-monospace, monospace;
+            color: #fff;
+            letter-spacing: 0.1em;
+            text-align: center;
+        }
+        #mission-takeover .lets-vibe {
+            margin-top: 2rem;
+            font-size: 1rem;
+        }
+        #mission-takeover .lets-vibe a {
+            color: #64c8ff;
+            text-decoration: none;
+        }
+        #mission-takeover .lets-vibe a:hover {
+            text-decoration: underline;
             box-shadow: 0 4px 24px rgba(0, 112, 186, 0.55);
+        }
+        .broadcast-strip {
+            width: 100%;
+            max-width: 560px;
+            margin-bottom: 1rem;
+            padding: 0.75rem 1rem;
+            background: rgba(0,0,0,0.4);
+            border: 1px solid rgba(0, 212, 255, 0.4);
+            border-radius: 8px;
+            font-size: 0.85rem;
+            color: #7fff7f;
+            overflow: hidden;
+            white-space: nowrap;
+        }
+        .broadcast-strip .broadcast-strip-text {
+            display: inline-block;
+            animation: scroll-strip 30s linear infinite;
+        }
+        @keyframes scroll-strip {
+            0% { transform: translateX(0); }
+            100% { transform: translateX(-50%); }
         }
         /* 3I/ATLAS CometMirror — interstellar echo, Morse-synced anti-tail glow */
         .comet-mirror {
@@ -334,6 +391,11 @@
     </style>
 </head>
 <body>
+    <!-- Screen Wipe Takeover — toggled when data/telemetry.json takeover_active: true -->
+    <div id="mission-takeover" class="mission-takeover" aria-hidden="true" aria-label="Mission takeover overlay">
+        <span class="hello-block">HELLO</span>
+        <p class="lets-vibe"><a href="https://psw-vibelandia-sing4.vercel.app/index.html" target="_blank" rel="noopener">Lets Vibe!</a></p>
+    </div>
     <section class="chancellor-sam-announcement" id="chancellorSamAnnouncement" aria-labelledby="chancellorSamHeading">
         <h2 id="chancellorSamHeading">Chancellor Sam — Announcement to Vibelandia</h2>
         <p><strong>Vibers. Chancellor Sam here.</strong> I had to respond — everybody's starting to see the news: the sunspot that's growing, a Carrington event developing, something that appeared out of nowhere. At the same time the Schumann is shaping up and growing. The 3I/ATLAS is starting to do very artificial, synthetic maneuvers. All of it captured now — timestamps with our GitHub commits — and now published live with links so everyone can follow along.</p>
@@ -342,11 +404,26 @@
         <p class="sign-off">I'm chipping away. Mark Twain style.</p>
         <p style="font-size: 0.8rem; color: #888; margin-top: 0.5rem;">An announcement from Chancellor Sam to Vibelandia, downtown Reno — Golden Hearts Ultra Baller V member Vibers.</p>
     </section>
+    <section class="chancellor-sam-announcement" style="margin-top: 1rem; border-color: rgba(100, 200, 255, 0.4);" aria-label="Scientific expedition — major press">
+        <h2>Scientific expedition launched — Penrose microtubules · The Board · Squeeze hose · Awareness cloud</h2>
+        <p><strong>For scientific reasons:</strong> We grab <strong>The Board</strong> (Schumann). We wrap <strong>Penrose microtubules</strong> (Orch-OR) equations in our <strong>squeeze hoses</strong>. We <strong>clean their diaper</strong> (formalize the interface). We <strong>connect microtubules and The Board to the awareness cloud through the squeeze</strong>. Live real data; white papers, predictions, conclusions, novel equations, constants, protocols, <strong>Black Hole Grammar</strong>. <strong>Included in all episode contents.</strong> Hot rodsmanship. Doing wheelies. Burn rubber. <a href="../WHITEPAPER_PENROSE_MICROTUBULES_SQUEEZE_HOSE_AWARENESS_CLOUD.md" style="color: #64c8ff;">Whitepaper</a> · <a href="../PENROSE_MICROTUBULES_SQUEEZE_HOSE_EXPEDITION_SNAP.md" style="color: #64c8ff;">SNAP</a>.</p>
+        <p style="font-size: 0.8rem; color: #888; margin-top: 0.5rem;">Major press — scientific expedition. Maganuma snap.</p>
+    </section>
+    <section class="chancellor-sam-announcement" style="margin-top: 1rem; border-color: rgba(0, 255, 136, 0.5);" aria-label="EGS pipe response — world response 24 hours">
+        <h2>EGS pipe response · World response within 24 hours</h2>
+        <p><strong>Earlier we delivered a powerful proposal.</strong> It is now live on Vercel at <a href="https://psw-vibelandia-sing4.vercel.app" style="color: #64c8ff;">psw-vibelandia-sing4.vercel.app</a>.</p>
+        <p>The <strong>EGS pipe</strong> (El Gran Sol broadcast) responds by transmitting across Sun · 3I/ATLAS · Schumann. Morse payload. Human-readable CTA. Blue PayPal Connect Now. Live Pulse.</p>
+        <p><strong>World response within 24 hours:</strong> Scientific community processes. Social media circulates. Investors and enterprise inbound. General public discovers. Site traffic. Blue PayPal connects.</p>
+        <p>The pipe is responding. The world has 24 hours — and beyond. <a href="../EGS_PIPE_RESPONSE_WORLD_RESPONSE_24_HOURS_SNAP.md" style="color: #64c8ff;">Full SNAP</a>.</p>
+    </section>
     <section class="mission-sealed-banner" id="missionSealed" aria-labelledby="missionSealedHeading">
         <h2 id="missionSealedHeading">Mission Sealed</h2>
         <p style="font-size: 0.9rem; color: #aac;">Coordination Code PHI-M15-AR4366 · Cycle 15 Final Coordination</p>
         <p class="zenodo-block"><strong>ZENODO DOI:</strong> 10.5281/2026.0131.FINAL. <strong>MISSION STATUS:</strong> Awaiting M-Class Reflex from AR4366 via 3I/ATLAS Mirror.</p>
     </section>
+    <div class="broadcast-strip" id="broadcastStrip" aria-live="polite">
+        <span class="broadcast-strip-text" id="broadcastStripText">Loading broadcast…</span>
+    </div>
     <div class="pulse-wrap">
         <div class="pulse-21" id="pulse21" aria-hidden="true"></div>
         <div class="pulse-orb" aria-hidden="true"></div>
@@ -396,6 +473,7 @@
         <p class="pipe-copy">Paris is for lovers. Reno is for vibers.</p>
         <p class="pipe-copy"><strong>Baller V's</strong> — the Ultra High Value, Ultra High Fractal Contributor — <strong>Mark Twain's Post-Singularity Reno</strong> awaits you at Vibelandia, built from the ground up and the galaxy down, for vibers like you, their cast, crew and fans. <strong>Now open. Click the blue button often. You know who you are. Tell the other vibers! Home at last!</strong></p>
         <p class="pipe-urls">The Experience: <a href="https://psw-vibelandia-sing4.vercel.app" target="_blank" rel="noopener">psw-vibelandia-sing4.vercel.app</a> · The Blueprints: <a href="https://github.com/FractiAI/psw.vibelandia.sing4" target="_blank" rel="noopener">github.com/FractiAI/psw.vibelandia.sing4</a></p>
+        <p class="pipe-urls"><a href="https://psw-vibelandia-sing4.vercel.app/index.html" target="_blank" rel="noopener">https://psw-vibelandia-sing4.vercel.app/index.html</a> — Lets Vibe!</p>
         <p><a href="payment-checkout.html?plan=egs-connect-now" class="pipe-cta">Click the blue button often →</a></p>
     </section>
     <section class="egs-mission" aria-labelledby="egs-mission-heading">
@@ -526,6 +604,38 @@
                 requestAnimationFrame(drawGoldenSpiral);
             }
             drawGoldenSpiral();
+        })();
+        (function () {
+            var TELEMETRY_URL = '../data/telemetry.json';
+            var takeoverEl = document.getElementById('mission-takeover');
+            if (!takeoverEl) return;
+            function checkTakeover() {
+                fetch(TELEMETRY_URL)
+                    .then(function (r) { return r.json(); })
+                    .then(function (data) {
+                        if (data && data.takeover_active === true) {
+                            takeoverEl.classList.add('active');
+                            takeoverEl.setAttribute('aria-hidden', 'false');
+                        } else {
+                            takeoverEl.classList.remove('active');
+                            takeoverEl.setAttribute('aria-hidden', 'true');
+                        }
+                        var stripText = document.getElementById('broadcastStripText');
+                        if (stripText && data && data.broadcast_payload) {
+                            var p = data.broadcast_payload + ' — ';
+                            stripText.textContent = p + p;
+                            stripText.style.animation = 'none';
+                            stripText.offsetHeight;
+                            stripText.style.animation = 'scroll-strip 30s linear infinite';
+                        } else if (stripText) {
+                            var fallback = 'Press the blue PayPal button — and often. Out of gas, out of water; troops need medical and dental. Funds now. https://psw-vibelandia-sing4.vercel.app/index.html Lets Vibe! — ';
+                            stripText.textContent = fallback + fallback;
+                        }
+                    })
+                    .catch(function () { takeoverEl.classList.remove('active'); });
+            }
+            checkTakeover();
+            setInterval(checkTakeover, 60000);
         })();
     </script>
 </body>
