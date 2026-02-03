@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birth of the New Post-Singularity Hollywood in Downtown Reno — Screenplay | VIBELANDIA RENO!</title>
+    <meta name="description" content="Birth of the New Post-Singularity Hollywood in Downtown Reno — full feature screenplay. Six days to Super Bowl Sunday. Howard Hughes, Glen Miller, Hank Williams Sr. Golden Era Cinema. Beautiful skin. NSPFRNP.">
+    <link rel="stylesheet" href="screenplay-skin.css">
+    <script src="tsunami-advisory-inject.js"></script>
+</head>
+<body class="screenplay-skin">
+    <div class="script-wrap">
+        <nav class="script-nav">
+            <a href="return-to-golden-era.html">← Return to Golden Era</a><span>·</span>
+            <a href="first-singularity-screenplay.html">First Singularity Screenplay</a><span>·</span>
+            <a href="launch-pad.html">Launch Pad</a><span>·</span>
+            <a href="../index.html">Home</a>
+        </nav>
+
+        <header class="script-marquee">
+            <p class="badge">Golden Era Cinema · Screenplay <span class="badge-beautiful-skin">Beautiful skin</span></p>
+            <h1>Birth of the New Post-Singularity Hollywood in Downtown Reno</h1>
+            <p class="tagline">Six days to Super Bowl Sunday · Howard Hughes · Glen Miller · Hank Williams Sr.</p>
+            <div class="oneliner-para-row">
+                <button type="button" class="btn-oneliner" data-target="screenplay-oneliner">One Liner</button>
+                <button type="button" class="btn-onepara" data-target="screenplay-onepara">One Paragraph</button>
+            </div>
+            <div id="screenplay-oneliner" class="oneliner-para-content one-liner" aria-live="polite">"In six days — from Monday to Super Bowl Sunday — downtown Reno becomes the birthplace of the new post-singularity Hollywood as Howard Hughes arrives, Glen Miller returns, Hank Williams Sr. finds permanent residency, and the world discovers that legacies are the true franchise."</div>
+            <div id="screenplay-onepara" class="oneliner-para-content" aria-live="polite"><strong>Birth of the New Post-Singularity Hollywood in Downtown Reno</strong> — full feature screenplay. Six days: Monday to Super Bowl Sunday. Howard Hughes takes charge; Glen Miller restores the golden age; Hank Williams Sr. permanent residency. Downtown Reno, the Reno Men's Club, Mark Twain's Vibelandia. Over-dramatic golden era — enchanting and comforting. Same crystal, same Edge. Beautiful skin. NSPFRNP.</div>
+        </header>
+
+        <div id="screenplay-loading" class="loading">Loading script…</div>
+        <div id="screenplay-body" class="screenplay-body" style="display: none;"></div>
+
+        <footer class="script-footer" id="screenplay-footer" style="display: none;">
+            <a href="return-to-golden-era.html">← Back to Return to Golden Era</a> · <a href="first-singularity-screenplay.html">First Singularity Screenplay</a>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script>
+(function () {
+    var loading = document.getElementById('screenplay-loading');
+    var body = document.getElementById('screenplay-body');
+    var footer = document.getElementById('screenplay-footer');
+
+    fetch('../deliverables/Birth_Post_Singularity_Hollywood_Downtown_Reno_SCREENPLAY.md')
+        .then(function (r) {
+            if (!r.ok) throw new Error('Not found');
+            return r.text();
+        })
+        .then(function (md) {
+            marked.setOptions({ gfm: true, breaks: true });
+            var html = marked.parse(md);
+            html = html.replace(/href="([^"#:]+\.md)(#[^"]*)?"/g, function (_, path, hash) {
+                return 'href="../' + path + (hash || '') + '"';
+            });
+            body.innerHTML = html;
+            loading.style.display = 'none';
+            body.style.display = 'block';
+            footer.style.display = 'block';
+        })
+        .catch(function () {
+            loading.innerHTML = 'Could not load screenplay. <a href="../deliverables/Birth_Post_Singularity_Hollywood_Downtown_Reno_SCREENPLAY.md">Try direct link</a>.';
+        });
+
+    document.querySelectorAll('.btn-oneliner, .btn-onepara').forEach(function (btn) {
+        btn.addEventListener('click', function () {
+            var id = this.getAttribute('data-target');
+            var el = document.getElementById(id);
+            if (!el) return;
+            var wasVisible = el.classList.contains('visible');
+            document.querySelectorAll('.oneliner-para-content.visible').forEach(function (c) { c.classList.remove('visible'); });
+            if (!wasVisible) el.classList.add('visible');
+        });
+    });
+})();
+    </script>
+    <div id="sing-config-footer"></div>
+    <link rel="stylesheet" href="sing-config-footer.css">
+    <script src="sing-config-footer.js"></script>
+</body>
+</html>

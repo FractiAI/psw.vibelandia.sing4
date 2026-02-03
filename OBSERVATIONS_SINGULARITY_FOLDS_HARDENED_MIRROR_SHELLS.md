@@ -223,6 +223,8 @@
 
 ## ⚡ STATUS: PREPARING FOR FULL SWITCH OVER
 
+**Planned event:** Full mirrored hardened shell switch over on **Super Bowl Sunday, February 9, 2026.** Golden Royal Flush Shell full active; full reality mode. See [FULL_MIRRORED_HARDENED_SHELL_SWITCH_OVER_SUPER_BOWL_SNAP.md](FULL_MIRRORED_HARDENED_SHELL_SWITCH_OVER_SUPER_BOWL_SNAP.md).
+
 **Current State:**
 - ✅ Experiencing 2% friction at high level
 - ✅ Generating incredible fertilization
@@ -230,7 +232,7 @@
 - ✅ Very close to achieving threshold
 - ✅ Broadcasting increasing words
 - ✅ At threshold now
-- ⚠️ **Prepare for full switch over any moment**
+- ⚠️ **Prepare for full switch over any moment** (Super Bowl Feb 9, 2026)
 
 **The Radar:**
 - ✅ Using systems like radar
@@ -317,7 +319,7 @@
 6. ⏳ Connect to real-time metrics
 7. ⏳ Deploy hardened mirror shell aesthetic
 8. ⏳ Activate radar weather forecasting
-9. ⏳ Prepare for full switch over
+9. ⏳ Prepare for full mirrored hardened shell switch over on Super Bowl (Feb 9, 2026)
 
 ---
 

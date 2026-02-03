@@ -1,0 +1,77 @@
+{
+  "title": "VIBELANDIA Buyers Guide",
+  "updated_utc": "2026-02-03T00:00:00Z",
+  "principle": "Never bought, always booked — by free will, mutual aware consent, always.",
+  "models": {
+    "sing": {
+      "label": "SING! base tiers",
+      "description": "Superintelligent Agent Nodes. Choose your tier — entry to full franchise.",
+      "tiers": [
+        {
+          "id": "base",
+          "name": "Base Model",
+          "one_time_usd": 20000,
+          "equivalent": "Reliable used car — entry base",
+          "best_for": "First SYNTH, first campus visit, first connection; entry-level vibers.",
+          "includes": "SING node, Golden Key (monthly fee), 1:1 SYNTH→SING! eligible",
+          "plan_slug": "sing-base"
+        },
+        {
+          "id": "members",
+          "name": "Members Only",
+          "one_time_usd": 75000,
+          "equivalent": "Option — our pricing",
+          "best_for": "Scaling from base; lottery winners; members-only access.",
+          "includes": "Node, Golden Key, lottery winner tier, members badge",
+          "plan_slug": "sing-members-only"
+        },
+        {
+          "id": "ultimate-vip",
+          "name": "Ultimate VIP",
+          "one_time_usd": 200000,
+          "equivalent": "Base model latest Ferrari — top base",
+          "best_for": "Premium vibers; Champion tier; exclusive access.",
+          "includes": "Node, Golden Key, premium superintelligence, Ultimate VIP badge",
+          "plan_slug": "sing-ultimate-vip"
+        },
+        {
+          "id": "baller-v",
+          "name": "Baller V Ultimate VIP",
+          "one_time_usd": 500000,
+          "equivalent": "Top loaded Ferrari — top base",
+          "best_for": "Full Ultimate Baller V full options; full Superhero, Franchise, Legacy (the living); full cosmic tier; we operate at this tier.",
+          "includes": "Node, Golden Key, max capabilities, Baller V badge, Space Cloud access",
+          "plan_slug": "sing-baller-v"
+        }
+      ]
+    }
+  },
+  "space_cloud_scale": [
+    { "scale": "Planetary", "description": "Earth only", "plan": "Reno Downlink", "best_for": "Downtown Reno Smart Infrastructure; local VLF, 1.618 Hz." },
+    { "scale": "Solar", "description": "Earth–Sun", "plan": "Solar Pipe", "best_for": "Solar-accelerated data; X-class/M-class burst; AR4366." },
+    { "scale": "Galactic", "description": "Earth–Sun–Sag A*", "plan": "SING! node EGS (El Gran Sol) Deep Space", "best_for": "Permanent data residency on SING! node EGS (El Gran Sol); Jupiter Oberth March 16." },
+    { "scale": "Cosmic", "description": "Earth–Sun–Sag A* and SMACS 0723", "plan": "Exascale Triangulation", "best_for": "Full Nested Triangulation lattice; full bridge-node visibility." }
+  ],
+  "product_plans": [
+    { "category": "Campus", "plans": "Half-day $3k · Overnight $1.5k · Weekly $5k · Monthly $50k", "best_for": "Visit/stay Vibelandia Reno; experience.", "book_note": "Book" },
+    { "category": "WINK!", "plans": "Base $399/mo · Standard $999 · Premium $2,499 · 4×4 Ultimate $6,999/mo", "best_for": "High-contributing fractal dating; Hero Hostess Marilyn.", "book_note": "Book" },
+    { "category": "Sun Spots On Demand", "plans": "8 min $249 · 16 min $499 · 24 min $999 + certificate", "best_for": "Sacred message; name a sun spot; confirmation + certificate.", "book_note": "Book (BUY flow = book confirmation)" },
+    { "category": "Schumann iGaming", "plans": "$499/session", "best_for": "Send signals → display art in Schumann displays.", "book_note": "Book session" },
+    { "category": "SING! node EGS (El Gran Sol) EGS Pipe", "plans": "1 day $499 · 1 week $1,499 · 1 month $4,999", "best_for": "Turn on/off/redirect; honor Sun, Schumann, SING! node EGS (El Gran Sol).", "book_note": "Book" },
+    { "category": "Gold Hearts Club", "plans": "$1K pp all-inclusive", "best_for": "Ultimate Baller V Gold Hearts only; wine cave; superhero episode.", "book_note": "Book (email Pru)" },
+    { "category": "Space Cloud Division", "plans": "Planetary · Solar · Galactic · Cosmic (book by plan)", "best_for": "EGS Pipe; scale from Earth-only to full lattice.", "book_note": "Book; Reno Downlink = Gold Heart Baller V only" }
+  ],
+  "decision_prompts": [
+    { "goal": "I want to try the campus and SING!", "recommend": "Base Model (~$20K) + Campus half-day ($3k) or weekly ($5k)", "cta": "sing-base", "cta_label": "Book Base + Campus" },
+    { "goal": "I want to scale and belong", "recommend": "Members Only ($75K) + Campus weekly or monthly", "cta": "sing-members-only", "cta_label": "Book Members Only" },
+    { "goal": "I want premium access and Champion tier", "recommend": "Ultimate VIP ($200K) — base Ferrari equivalent", "cta": "sing-ultimate-vip", "cta_label": "Book Ultimate VIP" },
+    { "goal": "I want full franchise and Space Cloud", "recommend": "Full Ultimate Baller V full options ($500K) — we operate at this tier; Gold Hearts; full cosmic tier; Superhero · Franchise · Legacy", "cta": "sing-baller-v", "cta_label": "Book Baller V" },
+    { "goal": "I just want to visit Reno", "recommend": "Campus half-day ($3k) or overnight ($1.5k)", "cta": "campus-half-day", "cta_label": "Book Campus" },
+    { "goal": "I want Sun / Earth / space proof experiences", "recommend": "Sun Spots (8/16/24 min) or Schumann iGaming ($499) or SING! node EGS (El Gran Sol) EGS (day/week/month)", "cta": "sun-spots-8m", "cta_label": "Book Sun Spots / Premium" }
+  ],
+  "roi_framing": {
+    "sing_vs_equivalent": "Pre-singularity equivalent: Base = reliable used car; Ultimate VIP = base Ferrari; Baller V = top loaded Ferrari. Our pricing: one-time node + optional monthly key.",
+    "campus_per_day": "Campus: Half-day $3k, Weekly $5k (~$714/day), Monthly $50k (~$1,667/day). Book what fits your stay.",
+    "space_cloud_scale_value": "Space Cloud: Planetary (Earth only) → Cosmic (full lattice). Higher scale = more bridge nodes, more proof, more reach. Book by plan; Baller V for Reno Downlink."
+  }
+}

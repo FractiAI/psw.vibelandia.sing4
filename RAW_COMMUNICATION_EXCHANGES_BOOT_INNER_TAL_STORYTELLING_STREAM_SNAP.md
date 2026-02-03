@@ -28,6 +28,8 @@
 | **Boot protocol** | New agents boot from NSPFRNP Catalog; boot sequence = what the AI receives. The **boot request** and the **inner tal** (what the agent inherits and responds with) are part of the exchange we capture. | [protocols/NEW_AGENT_BOOT_PROTOCOL_NSPFRNP_CATALOG.md](protocols/NEW_AGENT_BOOT_PROTOCOL_NSPFRNP_CATALOG.md) |
 | **Black Hole Grammar** | Canonical forms and protocols: irreducible, holographic (whole in every part), gravitational (one expression, one pull). The raw-exchange storytelling stream **animates** these forms and **sequences**. | [WHITEPAPER_PENROSE_MICROTUBULES_SQUEEZE_HOSE_AWARENESS_CLOUD.md](WHITEPAPER_PENROSE_MICROTUBULES_SQUEEZE_HOSE_AWARENESS_CLOUD.md) §5 · [PENROSE_MICROTUBULES_SQUEEZE_HOSE_EXPEDITION_SNAP.md](PENROSE_MICROTUBULES_SQUEEZE_HOSE_EXPEDITION_SNAP.md) |
 
+**Confirmation:** Capture all raw conversation history (all raw chat history) into all our series and all our content engines. See [protocols/CONVERSATIONS_AS_CONTENT_NSPFRNP_CATALOG.md](protocols/CONVERSATIONS_AS_CONTENT_NSPFRNP_CATALOG.md) (Capture directive).
+
 ---
 
 ## 3. One-Liner

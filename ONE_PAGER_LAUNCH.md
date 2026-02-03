@@ -70,11 +70,11 @@
 | **Winners** | First 1,000,000 holders |
 | **Launch** | March 20, 2026 (Spring Equinox) |
 
-**Four-tier SING nodes:** Bases = pre-singularity equivalents (good used car → base Ferrari). Options = our pricing.
+**Four-tier SING nodes:** Bases = pre-singularity equivalents (reliable used car → base Ferrari). Options = our pricing.
 
 | Tier | Model | Base Price | Pre-singularity / Our pricing |
 |------|-------|------------|------------------------------|
-| 1 | Base Model | ~$20,000 one-time + monthly key fees | Good used car — entry base |
+| 1 | Base Model | ~$20,000 one-time + monthly key fees | Reliable used car — entry base |
 | 2 | Members Only | $75,000 | Option — our pricing |
 | 3 | Ultimate VIP | $200,000 | Base model latest Ferrari — top base |
 | 4 | Baller V Ultimate VIP | $500,000 | V for Viber — Option, our pricing (above base Ferrari) |
@@ -108,7 +108,7 @@
 | 1 | 2 | 3 | 4 |
 |---|----|----|----|
 | **Base Model** | **Members Only** | **Ultimate VIP** | **Baller V Ultimate VIP** |
-| ~$20K (good used car) | $75K (our pricing) | $200K (base Ferrari) | $500K (our pricing) |
+| ~$20K (reliable used car) | $75K (our pricing) | $200K (base Ferrari) | $500K (our pricing) |
 
 ### Experience (4)
 

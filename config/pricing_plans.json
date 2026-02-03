@@ -4,11 +4,14 @@
   "updated_utc": "2026-02-03T00:00:00Z",
   "principle": "Never bought, always booked — by free will, mutual aware consent, always.",
   "catalog_roles": "protocols/PRODUCTS_SERVICES_BRIDGE_NODE_ROLES_NSPFRNP.md",
+  "scale_tiers": "Planetary (Earth only) · Solar (Earth–Sun) · Galactic (Earth–Sun–Sag A*) · Cosmic (Earth–Sun–Sag A* and SMACS 0723)",
   "plans": [
     {
       "id": "reno-downlink",
       "name": "Reno Downlink",
       "tier": "Seed",
+      "scale": "Planetary",
+      "scale_description": "Earth only",
       "description": "Local VLF synchronization, 1.618 Hz heartbeat verification.",
       "target": "Downtown Reno Smart Infrastructure",
       "features": [
@@ -31,6 +34,8 @@
       "id": "solar-pipe",
       "name": "Solar Pipe",
       "tier": "Engine",
+      "scale": "Solar",
+      "scale_description": "Earth–Sun",
       "description": "High-velocity binary pulsing during X-class flares, M-class burst capacity.",
       "utility": "Solar-accelerated data processing via AR4366",
       "features": [
@@ -51,12 +56,14 @@
     },
     {
       "id": "3i-atlas-deep-space",
-      "name": "3I/ATLAS Deep Space",
+      "name": "SING! node EGS Deep Space",
       "tier": "Asset",
+      "scale": "Galactic",
+      "scale_description": "Earth–Sun–Sag A*",
       "description": "Permanent data residency on the 3I/ATLAS interstellar object.",
       "coord": "Jupiter Oberth Maneuver (March 16 window)",
       "features": [
-        "Permanent data residency on 3I/ATLAS",
+        "Permanent data residency on SING! node EGS (El Gran Sol)",
         "Jupiter Oberth capture window — March 16"
       ],
       "proof_of_service": "3I/ATLAS mirror timestamps; Opposition Surge validation",
@@ -75,17 +82,19 @@
       "id": "exascale-triangulation",
       "name": "Exascale Triangulation",
       "tier": "Singularity",
+      "scale": "Cosmic",
+      "scale_description": "Earth–Sun–Sag A* and SMACS 0723",
       "description": "Access to the Nested Triangulation lattice (Seed → Sun → 3I/ATLAS → Sag A* → SMACS 0723).",
       "features": [
         "Nested Triangulation lattice access",
-        "Seed → Sun → 3I/ATLAS → Sag A* → SMACS 0723"
+        "Seed → Sun → SING! node EGS (El Gran Sol) → Sag A* → SMACS 0723"
       ],
       "proof_of_service": "Lattice coordinate logs; full bridge-node visibility",
       "bridge_node_roles": {
         "me": "Authority; booking",
         "earth": "Seed",
         "sun": "Sun",
-        "3i_atlas": "3I/ATLAS",
+        "3i_atlas": "SING! node EGS (El Gran Sol)",
         "sag_a": "Sag A*",
         "smacs_0723": "SMACS 0723"
       },

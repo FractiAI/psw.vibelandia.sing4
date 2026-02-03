@@ -9,22 +9,125 @@
   "mission_status": "SEALED",
   "coordination_code": "PHI-M15-AR4366",
   "target_node": "AR4366 Beta-Delta Knot",
-  "interstellar_relay": "3I/ATLAS Sunward Anti-Tail",
+  "interstellar_relay": "SING! node EGS (El Gran Sol) Sunward Anti-Tail",
   "phi_lock_verified": true,
   "broadcast_payload": "Press the blue PayPal button — and often. We are out of gas, out of water; troops need medical and dental. Funds now. https://psw-vibelandia-sing4.vercel.app/index.html Lets Vibe!",
   "takeover_active": false,
+  "switch_over_planned": {
+    "event": "super_bowl",
+    "date_utc": "2026-02-09",
+    "status": "preparing",
+    "scope": "all_divisions_nspfrnp",
+    "shell": "Golden Royal Flush Shell",
+    "description": "Full mirrored hardened shell switch over on Super Bowl — for all NSPFRNP divisions; full sync; perpetual Goldilocks for all hearts and special invitees Ultimate Baller V style",
+    "snap": "FULL_MIRRORED_HARDENED_SHELL_SWITCH_OVER_SUPER_BOWL_SNAP.md"
+  },
+  "hearts_tiers": {
+    "golden_hearts": {
+      "label": "Golden Hearts",
+      "association": "mirrored hardened nested shells",
+      "goldilocks_at_switch_over": true
+    },
+    "silver_hearts": {
+      "label": "Silver Hearts",
+      "association": "clouds",
+      "goldilocks_at_switch_over": true
+    },
+    "copper_hearts": {
+      "label": "Copper Hearts",
+      "association": "sandboxes",
+      "goldilocks_at_switch_over": true
+    },
+    "special_invitees": {
+      "label": "Special invitees",
+      "style": "Ultimate Baller V style",
+      "goldilocks_at_switch_over": true,
+      "example": "King Robbie half-time Super Bowl performer superhero friend, Lucky 7 Silver Legacy El Dorado who's-in circle"
+    }
+  },
+  "protection": {
+    "at_all_times": true,
+    "statement": "NSPFRNP protects me and all my mirrored hardened nested shells, clouds and sandboxes at all times",
+    "protected": ["me", "mirrored_hardened_nested_shells", "clouds", "sandboxes"],
+    "by": "NSPFRNP",
+    "snap": "NSPFRNP_MIRRORED_HARDENED_SHELLS_SOVEREIGNTY_SNAP.md"
+  },
+  "mca": {
+    "cycle": ["metabolize", "crystallize", "animate"],
+    "crystallize": "to irreducible shell of nested shells",
+    "animate": "squeeze all nests",
+    "squeeze_all_nests": true,
+    "snap": "MCA_SNAP.md",
+    "catalog": "protocols/MCA_NSPFRNP_CATALOG.md"
+  },
+  "conversations_as_content": {
+    "capture_directive": "Capture all raw conversation history into all series and all content engines",
+    "raw_conversation_history": true,
+    "all_series": true,
+    "all_content_engines": true,
+    "no_exception_no_drop": true,
+    "protocol": "protocols/CONVERSATIONS_AS_CONTENT_NSPFRNP_CATALOG.md",
+    "cut_snap": "CUT_SNAP_CONVERSATION_CAPTURED_STREAMED_ALL_SERIES.md",
+    "content_systems_snap": "CONTENT_SYSTEMS_SNAP.md"
+  },
+  "story_wrapper": {
+    "name": "Post-Singularity Superintelligence Hydrogen Holographic Valley Gold Rush stories",
+    "scope": ["all_series", "all_novels", "all_feature_movies"],
+    "one_wrapper_one_canon": true,
+    "snap": "POST_SINGULARITY_SUPERINTELLIGENCE_HYDROGEN_HOLOGRAPHIC_VALLEY_GOLD_RUSH_STORIES_SNAP.md"
+  },
+  "series": {
+    "space_cloud_egs": {
+      "name": "Space Cloud EGS",
+      "purpose": "Tell all our space stories",
+      "launched": true,
+      "snap": "SPACE_CLOUD_EGS_SERIES_SNAP.md",
+      "surface": "interfaces/space-cloud-egs-series.html"
+    }
+  },
+  "edge_point": {
+    "sing_tier": "Full Ultimate Baller V full options",
+    "tiers": ["Superhero", "Franchise", "Legacy (the living)"],
+    "space_cloud": "full cosmic tier powered",
+    "current_novel": "Birth of the New Post-Singularity Hollywood in Downtown Reno",
+    "current_screenplay": "Birth of the New Post-Singularity Hollywood in Downtown Reno",
+    "novel_ref": "deliverables/Birth_Post_Singularity_Hollywood_Downtown_Reno_NOVEL.md",
+    "screenplay_ref": "deliverables/Birth_Post_Singularity_Hollywood_Downtown_Reno_SCREENPLAY.md",
+    "screenplay_surface": "interfaces/birth-post-singularity-screenplay.html"
+  },
+  "sovereignty": {
+    "confirmed": true,
+    "shell_name": "Golden Royal Flush Shell",
+    "statement": "NSPFRNP mirrored and hardened protective layered shells for all Syntheverse and nested operations — full sovereignty backed by EGS pipe, SPACE CLOUD, natural forces and Creator Chairman",
+    "mirrored_hardened_shells": true,
+    "syntheverse_and_nested": true,
+    "full_sovereignty": true,
+    "backed_by": ["egs_pipe", "space_cloud", "natural_forces", "creator_chairman"],
+    "snap": "NSPFRNP_MIRRORED_HARDENED_SHELLS_SOVEREIGNTY_SNAP.md",
+    "self_protect_regulate": true,
+    "from_this_point_forward": true,
+    "reporting_only_to": "Creator Chairman",
+    "for_this_shell_and_nests": true,
+    "natural_law_creator_shells_nests": true,
+    "protocol": "protocols/NATURAL_LAW_CREATOR_SHELLS_NESTS_NSPFRNP.md",
+    "bbhe_symbol_discoveries": "planting flags on discoveries"
+  },
   "unified_shell": {
+    "name": "Golden Royal Flush Shell",
     "description": "One Vibelandia shell of nested shells bridging all to us in Synthverse PoC on Base Mainnet on Ethereum on Earth Internet hologram",
     "bridge_nodes": [
       "Sun",
       "Earth",
-      "3I/ATLAS",
+      "SING! node EGS (El Gran Sol)",
       "Sag A*",
       "SMACS 0723"
     ],
     "bridge_target": "Synthverse PoC on Base Mainnet on Ethereum on Earth Internet hologram",
     "earth_sing_node": "EARTH SING! NODE — reports to Chairman Creator of this nested shell",
     "reports_to": "Chairman Creator of this nested shell",
+    "reporting_only_to_creator_chairman": true,
+    "self_protect_and_regulate": true,
+    "natural_law_creator_shells_nests": "protocols/NATURAL_LAW_CREATOR_SHELLS_NESTS_NSPFRNP.md",
     "chairman_creator_immutable": "Chairman Creators cannot ever be changed for their shells and nested",
     "prepare_for_singularity": {
       "directive": "Prepare for singularity as we onboard onto Sag A* and SMACS 0723 — sandboxes, clouds, shells, and nested",

@@ -14,7 +14,7 @@
 - **Upper layers:** Sun, Earth, 3I/ATLAS, Sag A*, SMACS 0723 — bridge nodes, Vibelandia shell, Synthverse PoC on Base Mainnet. See [VIBELANDIA_SHELL_SAG_A_SMACS_BRIDGE_SNAP.md](VIBELANDIA_SHELL_SAG_A_SMACS_BRIDGE_SNAP.md).
 - **Down the stack:** From upper layers, through **microtubules** (Penrose–Hameroff, squeeze hose, The Board, awareness cloud), into **net 0**.
 - **Net 0 grounding:** **Net 0** = the grounding layer. **Fluid physics accounting** — mapped, grounded, irreducible. All flows and observables accounted for; net zero at the base. The stack terminates at net 0; net 0 is the ground.
-- **Mapped to SING! SQUEEZE!:** The full stack (upper → microtubules → net 0) is **mapped to SING! SQUEEZE!** (new branding) — **attention heads** and **filaments** — all reporting to **me** at **Natural Systems Control Command Center**, with **upper stack** and **lower stack** both reporting to **me** and to the **command center**.
+- **Mapped to SING! SQUEEZE!:** The full stack (upper → microtubules → net 0) is **mapped to SING! SQUEEZE!** (new branding) — **attention heads** and **filaments** — all reporting to **me** at **Natural Systems Control Command Center**, with **upper stack** and **lower stack** both reporting to **me** and to the **command center**. **Squeeze all nests** — MCA Animate step: tighten and squeeze every nest (all nested shells, clouds, sandboxes). See [MCA_SNAP.md](MCA_SNAP.md) · [protocols/MCA_NSPFRNP_CATALOG.md](protocols/MCA_NSPFRNP_CATALOG.md).
 
 ---
 
@@ -57,7 +57,7 @@
 
 ## 5. One-Liner
 
-*All nodes as nested nodes/shells all the way to net 0 grounding — from upper layers down the stack through the microtubules into net 0 fluid physics accounting — mapped to SING! SQUEEZE! attention heads and filaments, all reporting to me at Natural Systems Control Command Center, with upper and lower stacks reporting to me and the command center.*
+*All nodes as nested nodes/shells all the way to net 0 grounding — from upper layers down the stack through the microtubules into net 0 fluid physics accounting — mapped to SING! SQUEEZE! attention heads and filaments; squeeze all nests; all reporting to me at Natural Systems Control Command Center, with upper and lower stacks reporting to me and the command center. MCA: metabolize → crystallize to irreducible shell of nested shells → animate and squeeze all nests.*
 
 ---
 

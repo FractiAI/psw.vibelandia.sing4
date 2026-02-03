@@ -16,6 +16,7 @@
 - **Screenplay:** Two-hour full feature film screenplay (~24k words).
 - **Timeline:** **Monday to Super Bowl Sunday** — six days. Today (Monday, February 3, 2026) to Sunday, February 9, 2026 (Super Bowl Sunday).
 - **Place:** Downtown Reno — low tide that went out showing all the barnacles and stuff that never came back; animals died inside the shell, empty shells; some shells still alive, not total collapse, but… get away. That's the scene all this is happening in.
+- **Presentation:** All screenplay scripts must be presented in beautiful skins. Screenplay surface: [interfaces/birth-post-singularity-screenplay.html](interfaces/birth-post-singularity-screenplay.html) — Golden Era Cinema beautiful skin. See [SCREENPLAY_BEAUTIFUL_SKINS_SNAP.md](SCREENPLAY_BEAUTIFUL_SKINS_SNAP.md).
 
 ---
 
@@ -43,7 +44,7 @@
 
 ### King Robbie — Rolling in from Sonoma
 
-**King Robbie rolls into town from Sonoma on Wednesday** ahead of Super Bowl, bringing several **Ultimate Baller V** prospects interested in what we're up to. He'll spend the week getting up to speed so he can be more effective selling — earning his wings. He arrives somewhere between **cadet and silver wings**; by Super Bowl Sunday he'll be somewhere between **silver and gold wings**. Training: learning the language, understanding the vision, watching how to welcome newcomers, understanding legacies. Gold wings ceremony Sunday morning. Returns to Sonoma to bring in the prospects.
+**King Robbie rolls into town from Sonoma on Wednesday** ahead of Super Bowl, bringing several **Ultimate Baller V** prospects interested in what we're up to. He'll spend the week getting up to speed so he can be more effective selling — earning his wings. He arrives somewhere between **cadet and silver wings**; by Super Bowl Sunday he'll be somewhere between **silver and gold wings**. **His half-time Super Bowl performer superhero friend** (Lucky 7 Silver Legacy El Dorado — who's in) and **three of his closest V's from the Gold Club**; King Robbie decides who's in. Training: learning the language, understanding the vision, watching how to welcome newcomers, understanding legacies. Gold wings ceremony Sunday morning. Returns to Sonoma to bring in the prospects.
 
 ### World events — Bitcoin collapse · Rats jump ship
 
@@ -52,6 +53,14 @@
 ### Super Bowl Sunday — endpoint
 
 **Super Bowl Sunday** — the endpoint. It's Monday; Super Bowl is Sunday. Six days away. This entire novel and two-hour feature film screenplay takes place over these six days — from today till Sunday. Does the world flip between now and then? Let me decide how that plays out.
+
+### All NSPFRNP divisions · Products walk-through
+
+The novel animates **all divisions** under NSPFRNP: **Space Cloud Division = Sol** (my versatile wirehaired pointer companion, protector, mission partner; **Sol and I are irreducible pairs**; gifted with **omniversal pathfinding**, **omniversal manifestation**, and **omniversal protection** to his companion and tribe; he always can find me no matter where he is; always there for me 100% always, spark positive can-do genuine gold heart — what a blessing; mission, contributions to Vibelandia and to me personally; EGS Pipe, Reno Downlink, Solar Pipe, Exascale Triangulation), **Legacies**, **Office Hours**, **Happy Ending Zones**, **Broadcast Pipe**, **EGS Pipe**, **Robotic Division**, **Designer Division**, **Studio Division**. By end of novel the reader has been walked through experiences using **all our products** — Office Hours, Golden Backstage Pass, Space Cloud Division, SING! tiers, Broadcast Pipe Ad Space, Chairman Console, Legacies, Happy Ending Zones, King Robbie Lucky 7 Silver Legacy El Dorado, text-to-superhero, campus, WINK!, and every surface/touchpoint. Super Bowl Sunday caps the walk-through. **Full switch-over** on Super Bowl Sunday for **all NSPFRNP divisions**: full sync; perpetual Goldilocks for **Golden Hearts** (mirrored hardened nested shells), **Silver Hearts** (clouds), **Copper Hearts** (sandboxes), and **special invitees Ultimate Baller V style**.
+
+### Taino · Cacique Agüeybaná El Gran Sol · Vibelandia-PR
+
+The story tells the story of the **peaceful Taino Cacique Agüeybaná El Gran Sol** (not to be confused with his fighting brother El Bravo). **Paradise island story** — Borikén (Puerto Rico) based, not Hawaii; island-quest style. The chosen one — **island style** (like Charlie, island heir) — **brings the Taino spirit to life**; **complete circle**; **returning**; **liberating**; **delivering**. **Vibelandia-PR** = **next Vibelandia campus**. See [TAINO_CACIQUE_AGUEYBANA_EL_GRAN_SOL_VIBELANDIA_PR_SNAP.md](TAINO_CACIQUE_AGUEYBANA_EL_GRAN_SOL_VIBELANDIA_PR_SNAP.md).
 
 ### Post-singularity side — full reality mode · Legacies
 
@@ -91,14 +100,16 @@ The **post-singularity side** of all this is **full connection for Reno**. Switc
 - **Howard Hughes arrival** — he's here; I'm working for him; time for Howard ✓  
 - **Big Band Project** — portal/CTA; conductor (trombonist); honoring Glen Miller, Golden Age ✓  
 - **Hank Williams Sr.** — just arrived; permanent residency; honoring his legacy ✓  
-- **King Robbie** — rolls in from Sonoma Wed with Ultimate Baller V prospects; cadet/silver → silver/gold wings; gold wings ceremony Sunday; returns to Sonoma to bring in prospects ✓  
+- **King Robbie** — rolls in from Sonoma Wed with Ultimate Baller V prospects; half-time Super Bowl performer superhero friend + three closest V's from Gold Club; King Robbie decides who's in; cadet/silver → silver/gold wings; gold wings ceremony Sunday; returns to Sonoma to bring in prospects ✓  
 - **Bitcoin collapse** — rats jump ship to the floating ship (Vibelandia) ✓  
-- **Super Bowl Sunday** — endpoint; does the world flip? ✓  
+- **Super Bowl Sunday** — endpoint; full switch-over for all NSPFRNP divisions; full sync; perpetual Goldilocks for Golden/Silver/Copper Hearts and special invitees Ultimate Baller V ✓  
+- **All NSPFRNP divisions** — Space Cloud, Legacies, Office Hours, Happy Ending Zones, Broadcast Pipe, EGS Pipe, Robotic Division, Designer Division, Studio Division animated; products walk-through by end of novel ✓  
 - **Post-singularity Reno** — full reality mode; Ultimate Baller V's; legacies ✓  
 - **Legacies** — new department/layer; superheroes + cast + crew + fans + franchises + legacies (living men); major value add; update appraisals ✓  
+- **Taino · Vibelandia-PR** — story of peaceful Cacique Agüeybaná El Gran Sol (not El Bravo); paradise island story Borikén-based; chosen one brings Taino spirit to life; complete circle, return, liberate, deliver; Vibelandia-PR next campus ✓  
 
 ---
 
-**See:** [LEGACIES_NEW_DEPARTMENT_LAYER_SNAP.md](LEGACIES_NEW_DEPARTMENT_LAYER_SNAP.md) · [FIRST_SINGULARITY_JANUARY_13TH_NOVEL_MOVIE_SNAP.md](FIRST_SINGULARITY_JANUARY_13TH_NOVEL_MOVIE_SNAP.md) · [EPISODE_HOWARD_HUGHES_ANNOUNCES_ARRIVAL_PERMANENT_RESIDENCY_TWAIN_VIBELANDIA.md](episodes/EPISODE_HOWARD_HUGHES_ANNOUNCES_ARRIVAL_PERMANENT_RESIDENCY_TWAIN_VIBELANDIA.md) · [GLEN_MILLER_ANNOUNCES_PERMANENT_RESIDENCY_GOLDEN_AGE_RETURN_SNAP.md](GLEN_MILLER_ANNOUNCES_PERMANENT_RESIDENCY_GOLDEN_AGE_RETURN_SNAP.md)
+**See:** [interfaces/birth-post-singularity-screenplay.html](interfaces/birth-post-singularity-screenplay.html) (screenplay — beautiful skin) · [SCREENPLAY_BEAUTIFUL_SKINS_SNAP.md](SCREENPLAY_BEAUTIFUL_SKINS_SNAP.md) · [LEGACIES_NEW_DEPARTMENT_LAYER_SNAP.md](LEGACIES_NEW_DEPARTMENT_LAYER_SNAP.md) · [FIRST_SINGULARITY_JANUARY_13TH_NOVEL_MOVIE_SNAP.md](FIRST_SINGULARITY_JANUARY_13TH_NOVEL_MOVIE_SNAP.md) · [EPISODE_HOWARD_HUGHES_ANNOUNCES_ARRIVAL_PERMANENT_RESIDENCY_TWAIN_VIBELANDIA.md](episodes/EPISODE_HOWARD_HUGHES_ANNOUNCES_ARRIVAL_PERMANENT_RESIDENCY_TWAIN_VIBELANDIA.md) · [GLEN_MILLER_ANNOUNCES_PERMANENT_RESIDENCY_GOLDEN_AGE_RETURN_SNAP.md](GLEN_MILLER_ANNOUNCES_PERMANENT_RESIDENCY_GOLDEN_AGE_RETURN_SNAP.md)
 
 **NSPFRNP ⊃ Birth of post-singularity Hollywood ⊃ Downtown Reno ⊃ Howard Hughes ⊃ Big Band Project ⊃ Hank Williams Sr. ⊃ Legacies → ∞³**

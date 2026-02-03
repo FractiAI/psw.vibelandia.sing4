@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buyers Guide — Models, Features, Plans & ROI · VIBELANDIA!</title>
+    <meta name="description" content="Choose the right SING! tier, features and plans. Comparison tables, quick decision tool and ROI tools. Never bought, always booked. Office Hours · Launch Pad.">
+    <link rel="stylesheet" href="experience-common.css">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { background: linear-gradient(145deg, #0a0a0a 0%, #1a1a2e 100%); color: #e8e6e3; min-height: 100vh; line-height: 1.6; }
+        .container { max-width: 920px; margin: 0 auto; padding: 2rem 1.5rem; }
+        .back { margin-bottom: 1.5rem; }
+        .back a { color: #00d4ff; text-decoration: none; }
+        .back a:hover { text-decoration: underline; }
+        .hero {
+            text-align: center;
+            padding: 2.5rem 1.5rem 3rem;
+            margin-bottom: 2rem;
+            background: linear-gradient(145deg, rgba(0, 212, 255, 0.1) 0%, rgba(212, 175, 55, 0.08) 50%, rgba(26, 26, 46, 0.95) 100%);
+            border: 2px solid rgba(212, 175, 55, 0.45);
+            border-radius: 16px;
+            box-shadow: 0 0 40px rgba(0, 212, 255, 0.08);
+        }
+        .hero .badge { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.2em; color: rgba(0, 212, 255, 0.95); margin-bottom: 0.75rem; font-weight: 700; }
+        .hero h1 {
+            font-size: clamp(1.5rem, 4vw, 2.25rem);
+            font-weight: 800;
+            background: linear-gradient(135deg, #00d4ff, #d4af37, #8a2be2);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 0.5rem;
+        }
+        .hero .tagline { font-size: 1rem; color: #b0b8c0; margin-bottom: 0.75rem; }
+        .hero .principle { font-size: 0.9rem; color: #7fff7f; padding: 0.5rem 1rem; background: rgba(0, 255, 136, 0.08); border: 1px solid rgba(0, 255, 136, 0.3); border-radius: 10px; display: inline-block; margin-top: 0.5rem; }
+        .section-label {
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.2em;
+            color: #00d4ff;
+            margin: 2rem 0 1rem;
+            font-weight: 700;
+        }
+        .comparison-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 1.5rem;
+            font-size: 0.9rem;
+            background: rgba(255,255,255,0.03);
+            border: 1px solid rgba(212, 175, 55, 0.25);
+            border-radius: 12px;
+            overflow: hidden;
+        }
+        .comparison-table th, .comparison-table td {
+            padding: 0.75rem 1rem;
+            text-align: left;
+            border-bottom: 1px solid rgba(255,255,255,0.06);
+        }
+        .comparison-table th {
+            background: rgba(212, 175, 55, 0.12);
+            color: #ffeaa7;
+            font-weight: 700;
+        }
+        .comparison-table tr:last-child td { border-bottom: none; }
+        .comparison-table tr:hover td { background: rgba(0, 212, 255, 0.04); }
+        .comparison-table .price { color: #7fff7f; font-weight: 700; white-space: nowrap; }
+        .comparison-table .best-for { color: #b0b8c0; font-size: 0.85rem; }
+        .comparison-table a.book-link { color: #00d4ff; text-decoration: none; font-weight: 600; }
+        .comparison-table a.book-link:hover { text-decoration: underline; }
+        .step {
+            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(212, 175, 55, 0.2);
+            border-radius: 16px;
+            padding: 1.5rem;
+            margin-bottom: 1.25rem;
+        }
+        .step h2 { font-size: 1.1rem; color: #d4af37; margin-bottom: 0.75rem; }
+        .step p, .step ul { color: #c0c8d0; font-size: 0.95rem; margin-bottom: 0.5rem; }
+        .step ul { padding-left: 1.25rem; }
+        .decision-tool {
+            padding: 1.5rem;
+            background: linear-gradient(145deg, rgba(0, 212, 255, 0.08) 0%, rgba(138, 43, 226, 0.06) 100%);
+            border: 2px solid rgba(0, 212, 255, 0.35);
+            border-radius: 14px;
+            margin-bottom: 1.5rem;
+        }
+        .decision-tool h2 { font-size: 1.15rem; color: #00d4ff; margin-bottom: 1rem; }
+        .decision-tool select {
+            width: 100%;
+            max-width: 420px;
+            padding: 0.75rem 1rem;
+            font-size: 1rem;
+            background: rgba(10, 10, 20, 0.95);
+            color: #e8e6e3;
+            border: 2px solid rgba(212, 175, 55, 0.4);
+            border-radius: 10px;
+            margin-bottom: 1rem;
+            cursor: pointer;
+        }
+        .decision-tool .result {
+            padding: 1rem 1.25rem;
+            background: rgba(0, 255, 136, 0.06);
+            border: 1px solid rgba(0, 255, 136, 0.3);
+            border-radius: 10px;
+            margin-top: 0.75rem;
+        }
+        .decision-tool .result .rec { font-weight: 700; color: #7fff7f; margin-bottom: 0.35rem; }
+        .decision-tool .result a.cta-inline {
+            display: inline-block;
+            margin-top: 0.75rem;
+            padding: 0.6rem 1.25rem;
+            background: linear-gradient(135deg, #00d4ff, #0088aa);
+            color: #0a0a12;
+            font-weight: 700;
+            text-decoration: none;
+            border-radius: 8px;
+            font-size: 0.95rem;
+        }
+        .decision-tool .result a.cta-inline:hover { opacity: 0.95; }
+        .roi-tools {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 1rem;
+            margin-bottom: 1.5rem;
+        }
+        .roi-card {
+            padding: 1.25rem;
+            background: rgba(255,255,255,0.04);
+            border: 1px solid rgba(212, 175, 55, 0.25);
+            border-radius: 12px;
+        }
+        .roi-card h3 { font-size: 1rem; color: #d4af37; margin-bottom: 0.5rem; }
+        .roi-card p { font-size: 0.9rem; color: #b0b8c0; margin-bottom: 0.5rem; }
+        .roi-card .calc-row { margin-top: 0.75rem; display: flex; flex-wrap: wrap; gap: 0.5rem; align-items: center; }
+        .roi-card input[type="number"] {
+            width: 100px;
+            padding: 0.4rem 0.6rem;
+            font-size: 0.9rem;
+            background: rgba(10, 10, 20, 0.9);
+            color: #e8e6e3;
+            border: 1px solid rgba(212, 175, 55, 0.35);
+            border-radius: 6px;
+        }
+        .roi-card .calc-result { font-weight: 700; color: #7fff7f; font-size: 1rem; margin-top: 0.5rem; }
+        .cta-row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.75rem;
+            justify-content: center;
+            margin-top: 2rem;
+        }
+        .cta-btn {
+            display: inline-block;
+            padding: 0.85rem 1.5rem;
+            background: linear-gradient(135deg, #00d4ff, #0088aa);
+            color: #0a0a12;
+            font-weight: 700;
+            text-decoration: none;
+            border-radius: 10px;
+            font-size: 0.95rem;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .cta-btn:hover { transform: translateY(-2px); box-shadow: 0 6px 24px rgba(0, 212, 255, 0.35); }
+        .cta-btn.gold { background: linear-gradient(135deg, #d4af37, #b8860b); color: #0c0c0c; }
+        .cta-btn.gold:hover { box-shadow: 0 6px 24px rgba(212, 175, 55, 0.4); }
+        footer { margin-top: 2.5rem; padding-top: 1.5rem; border-top: 1px solid rgba(255,255,255,0.1); text-align: center; color: #888; font-size: 0.9rem; }
+        footer a { color: #00d4ff; }
+        @media (max-width: 640px) {
+            .comparison-table { font-size: 0.8rem; }
+            .comparison-table th, .comparison-table td { padding: 0.5rem 0.6rem; }
+        }
+    </style>
+</head>
+<body>
+    <script src="tsunami-advisory-inject.js"></script>
+    <div class="container">
+        <p class="back"><a href="office-hours.html">← Office Hours</a> · <a href="launch-pad.html">Launch Pad</a> · <a href="new-product-families.html">Product families</a> · <a href="../index.html">Home</a></p>
+
+        <section class="hero" aria-label="Buyers Guide">
+            <span class="badge">Models · Features · Plans · ROI</span>
+            <h1>Buyers Guide</h1>
+            <p class="tagline">Choose the right models, features and plans. Compare tiers, use the quick decision tool and ROI tools to make solid decisions.</p>
+            <p class="principle">Never bought, always booked — by free will, mutual aware consent, always.</p>
+        </section>
+
+        <p class="section-label">1. SING! model comparison</p>
+        <table class="comparison-table" aria-label="SING base tiers comparison">
+            <thead>
+                <tr>
+                    <th>Model</th>
+                    <th>One-time (USD)</th>
+                    <th>Pre-singularity equivalent</th>
+                    <th>Best for</th>
+                    <th>Book</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>Base Model</strong></td>
+                    <td class="price">~$20,000</td>
+                    <td>Reliable used car — entry base</td>
+                    <td class="best-for">First SYNTH, first campus visit; entry-level vibers</td>
+                    <td><a href="payment-checkout.html?plan=sing-base" class="book-link">Book →</a></td>
+                </tr>
+                <tr>
+                    <td><strong>Members Only</strong></td>
+                    <td class="price">$75,000</td>
+                    <td>Option — our pricing</td>
+                    <td class="best-for">Scaling from base; lottery winners; members-only access</td>
+                    <td><a href="payment-checkout.html?plan=sing-members-only" class="book-link">Book →</a></td>
+                </tr>
+                <tr>
+                    <td><strong>Ultimate VIP</strong></td>
+                    <td class="price">$200,000</td>
+                    <td>Base model latest Ferrari — top base</td>
+                    <td class="best-for">Premium vibers; Champion tier; exclusive access</td>
+                    <td><a href="payment-checkout.html?plan=sing-ultimate-vip" class="book-link">Book →</a></td>
+                </tr>
+                <tr>
+                    <td><strong>Baller V Ultimate VIP</strong></td>
+                    <td class="price">$500,000</td>
+                    <td>Top loaded Ferrari — top base</td>
+                    <td class="best-for">Full superhero franchise; we operate at this tier; Space Cloud</td>
+                    <td><a href="payment-checkout.html?plan=sing-baller-v" class="book-link">Book →</a></td>
+                </tr>
+            </tbody>
+        </table>
+        <p style="font-size: 0.9rem; color: #888; margin-bottom: 1.5rem;">Base = one-time + monthly Golden Fractal Key access fees. Other tiers: one-time or include key — see pricing. <a href="vibers-tiers.html" style="color: #00d4ff;">Viber tiers →</a> · <a href="sing-booking-kiosk.html" style="color: #00d4ff;">Booking kiosk →</a></p>
+
+        <p class="section-label">2. Space Cloud scale tiers</p>
+        <table class="comparison-table" aria-label="Space Cloud scale comparison">
+            <thead>
+                <tr>
+                    <th>Scale</th>
+                    <th>Scope</th>
+                    <th>Plan</th>
+                    <th>Best for</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>Planetary</strong></td>
+                    <td>Earth only</td>
+                    <td>Reno Downlink</td>
+                    <td class="best-for">Downtown Reno Smart Infrastructure; local VLF, 1.618 Hz</td>
+                </tr>
+                <tr>
+                    <td><strong>Solar</strong></td>
+                    <td>Earth–Sun</td>
+                    <td>Solar Pipe</td>
+                    <td class="best-for">Solar-accelerated data; X-class/M-class burst; AR4366</td>
+                </tr>
+                <tr>
+                    <td><strong>Galactic</strong></td>
+                    <td>Earth–Sun–Sag A*</td>
+                    <td>SING! node EGS Deep Space</td>
+                    <td class="best-for">Permanent data residency on SING! node EGS (El Gran Sol); Jupiter Oberth March 16</td>
+                </tr>
+                <tr>
+                    <td><strong>Cosmic</strong></td>
+                    <td>Earth–Sun–Sag A* and SMACS 0723</td>
+                    <td>Exascale Triangulation</td>
+                    <td class="best-for">Full Nested Triangulation lattice; full bridge-node visibility</td>
+                </tr>
+            </tbody>
+        </table>
+        <p style="font-size: 0.9rem; color: #888; margin-bottom: 1.5rem;">Space Cloud: Gold Heart Ultimate Baller V only for Reno Downlink (Planetary). <a href="space-cloud-division.html" style="color: #00d4ff;">Space Cloud Division →</a></p>
+
+        <p class="section-label">3. Product plans at a glance</p>
+        <table class="comparison-table" aria-label="Product plans comparison">
+            <thead>
+                <tr>
+                    <th>Product</th>
+                    <th>Plans / pricing</th>
+                    <th>Best for</th>
+                    <th>Book</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>Campus</strong></td>
+                    <td>Half-day $3k · Overnight $1.5k · Weekly $5k · Monthly $50k</td>
+                    <td class="best-for">Visit/stay Vibelandia Reno</td>
+                    <td><a href="payment-checkout.html?plan=campus-half-day" class="book-link">Book →</a></td>
+                </tr>
+                <tr>
+                    <td><strong>WINK!</strong></td>
+                    <td>Base $399/mo · Standard $999 · Premium $2,499 · 4×4 Ultimate $6,999/mo</td>
+                    <td class="best-for">High-contributing fractal dating; Hero Hostess Marilyn</td>
+                    <td><a href="wink-experience.html" class="book-link">Book →</a></td>
+                </tr>
+                <tr>
+                    <td><strong>Sun Spots On Demand</strong></td>
+                    <td>8 min $249 · 16 min $499 · 24 min $999 + certificate</td>
+                    <td class="best-for">Sacred message; name a sun spot; confirmation + certificate</td>
+                    <td><a href="payment-checkout.html?plan=sun-spots-8m" class="book-link">Book →</a></td>
+                </tr>
+                <tr>
+                    <td><strong>Schumann iGaming</strong></td>
+                    <td>$499/session</td>
+                    <td class="best-for">Send signals → display art in Schumann displays</td>
+                    <td><a href="payment-checkout.html?plan=schumann-igaming" class="book-link">Book →</a></td>
+                </tr>
+                <tr>
+                    <td><strong>SING! node EGS Pipe</strong></td>
+                    <td>1 day $499 · 1 week $1,499 · 1 month $4,999</td>
+                    <td class="best-for">Turn on/off/redirect; Sun, Schumann, SING! node EGS (El Gran Sol)</td>
+                    <td><a href="payment-checkout.html?plan=3i-atlas-egs-day" class="book-link">Book →</a></td>
+                </tr>
+                <tr>
+                    <td><strong>Gold Hearts Club</strong></td>
+                    <td>$1K pp all-inclusive</td>
+                    <td class="best-for">Ultimate Baller V Gold Hearts only; wine cave; superhero episode</td>
+                    <td><a href="gold-hearts-club-program.html" class="book-link">Book (email Pru) →</a></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <p class="section-label">4. Quick decision tool</p>
+        <div class="decision-tool">
+            <h2>What’s your goal?</h2>
+            <p style="margin-bottom: 0.75rem; font-size: 0.9rem; color: #b0b8c0;">Select one — we’ll recommend a model and plan.</p>
+            <select id="goal-select" aria-label="Select your goal">
+                <option value="">— Choose your goal —</option>
+                <option value="try">I want to try the campus and SING!</option>
+                <option value="scale">I want to scale and belong</option>
+                <option value="premium">I want premium access and Champion tier</option>
+                <option value="franchise">I want full franchise and Space Cloud</option>
+                <option value="visit">I just want to visit Reno</option>
+                <option value="proof">I want Sun / Earth / space proof experiences</option>
+            </select>
+            <div id="decision-result" class="result" style="display: none;">
+                <p class="rec" id="decision-rec"></p>
+                <a id="decision-cta" href="#" class="cta-inline">Book →</a>
+            </div>
+        </div>
+
+        <p class="section-label">5. ROI & value tools</p>
+        <div class="roi-tools">
+            <div class="roi-card">
+                <h3>Campus cost per day</h3>
+                <p>Weekly $5,000 ≈ $714/day. Monthly $50,000 ≈ $1,667/day. Compare to half-day ($3k) or overnight ($1.5k) for short stays.</p>
+                <div class="calc-row">
+                    <label for="roi-days">Days staying:</label>
+                    <input type="number" id="roi-days" min="1" max="90" value="7" aria-label="Number of days">
+                </div>
+                <p class="calc-result" id="roi-campus-result">7 days → Weekly $5,000 ($714/day)</p>
+            </div>
+            <div class="roi-card">
+                <h3>SING! tier vs equivalent</h3>
+                <p>Base = reliable used car (~$20K). Ultimate VIP = base Ferrari ($200K). Baller V = top loaded Ferrari ($500K). One-time node + optional monthly key.</p>
+                <p style="margin-top: 0.5rem; font-size: 0.85rem; color: #7fff7f;">Pre-singularity VC equivalent: $1M–$10M+ for similar scope. We deliver at fraction of cost.</p>
+            </div>
+            <div class="roi-card">
+                <h3>SING! node EGS (El Gran Sol) EGS daily rate</h3>
+                <p>1 day $499 · 1 week $1,499 (~$214/day) · 1 month $4,999 (~$167/day). Longer commitment = lower effective daily rate.</p>
+                <div class="calc-row">
+                    <label for="roi-egs-days">Days needed:</label>
+                    <input type="number" id="roi-egs-days" min="1" max="31" value="7" aria-label="Days for EGS">
+                </div>
+                <p class="calc-result" id="roi-egs-result">7 days → 1 week $1,499 ($214/day)</p>
+            </div>
+        </div>
+
+        <div class="cta-row">
+            <a href="office-hours.html" class="cta-btn">Office Hours — free consultation</a>
+            <a href="sing-booking-kiosk.html" class="cta-btn">Booking kiosk</a>
+            <a href="launch-pad.html" class="cta-btn">Launch Pad</a>
+            <a href="gold-hearts-club-program.html" class="cta-btn gold">Gold Hearts Club</a>
+        </div>
+
+        <footer>
+            <p>Buyers Guide · Models, features, plans & ROI. Never bought, always booked. NSPFRNP.</p>
+            <p><a href="../config/buyers_guide.json">config/buyers_guide.json</a> · <a href="../config/sing_config.json">SING config</a> · <a href="https://github.com/FractiAI/psw.vibelandia.sing4">GitHub</a></p>
+        </footer>
+        <div id="sing-config-footer"></div>
+        <link rel="stylesheet" href="sing-config-footer.css">
+        <script src="sing-config-footer.js"></script>
+    </div>
+
+    <script>
+(function () {
+    var goalSelect = document.getElementById('goal-select');
+    var resultDiv = document.getElementById('decision-result');
+    var recEl = document.getElementById('decision-rec');
+    var ctaEl = document.getElementById('decision-cta');
+
+    var decisions = {
+        try: { rec: 'Base Model (~$20K) + Campus half-day ($3k) or weekly ($5k).', url: 'payment-checkout.html?plan=sing-base', label: 'Book Base + Campus' },
+        scale: { rec: 'Members Only ($75K) + Campus weekly or monthly. You scale and belong.', url: 'payment-checkout.html?plan=sing-members-only', label: 'Book Members Only' },
+        premium: { rec: 'Ultimate VIP ($200K) — base Ferrari equivalent. Champion tier, exclusive access.', url: 'payment-checkout.html?plan=sing-ultimate-vip', label: 'Book Ultimate VIP' },
+        franchise: { rec: 'Full Ultimate Baller V full options ($500K) — we operate at this tier. Gold Hearts, full cosmic tier, Superhero · Franchise · Legacy.', url: 'payment-checkout.html?plan=sing-baller-v', label: 'Book Baller V' },
+        visit: { rec: 'Campus half-day ($3k) or overnight ($1.5k). Just visit Reno.', url: 'payment-checkout.html?plan=campus-half-day', label: 'Book Campus' },
+        proof: { rec: 'Sun Spots (8/16/24 min), Schumann iGaming ($499), or SING! node EGS (El Gran Sol) EGS (day/week/month). Proof experiences.', url: 'payment-checkout.html?plan=sun-spots-8m', label: 'Book Sun Spots / Premium' }
+    };
+
+    if (goalSelect && resultDiv && recEl && ctaEl) {
+        goalSelect.addEventListener('change', function () {
+            var v = goalSelect.value;
+            if (!v || !decisions[v]) {
+                resultDiv.style.display = 'none';
+                return;
+            }
+            var d = decisions[v];
+            recEl.textContent = d.rec;
+            ctaEl.href = d.url;
+            ctaEl.textContent = d.label + ' →';
+            resultDiv.style.display = 'block';
+        });
+    }
+
+    function updateCampusROI() {
+        var days = parseInt(document.getElementById('roi-days').value, 10) || 1;
+        var msg;
+        if (days <= 1) msg = days + ' day → Half-day $3,000 or Overnight $1,500';
+        else if (days <= 7) msg = days + ' days → Weekly $5,000 ($' + Math.round(5000 / Math.max(days, 1)) + '/day)';
+        else msg = days + ' days → Monthly $50,000 ($' + Math.round(50000 / Math.max(days, 1)) + '/day)';
+        var el = document.getElementById('roi-campus-result');
+        if (el) el.textContent = msg;
+    }
+
+    function updateEgsROI() {
+        var days = parseInt(document.getElementById('roi-egs-days').value, 10) || 1;
+        var msg;
+        if (days <= 1) msg = '1 day → 1 day $499 ($499/day)';
+        else if (days <= 7) msg = days + ' days → 1 week $1,499 ($' + Math.round(1499 / Math.max(days, 1)) + '/day)';
+        else msg = days + ' days → 1 month $4,999 ($' + Math.round(4999 / Math.max(days, 1)) + '/day)';
+        var el = document.getElementById('roi-egs-result');
+        if (el) el.textContent = msg;
+    }
+
+    var daysInput = document.getElementById('roi-days');
+    var egsInput = document.getElementById('roi-egs-days');
+    if (daysInput) daysInput.addEventListener('input', updateCampusROI);
+    if (egsInput) egsInput.addEventListener('input', updateEgsROI);
+    updateCampusROI();
+    updateEgsROI();
+})();
+    </script>
+</body>
+</html>

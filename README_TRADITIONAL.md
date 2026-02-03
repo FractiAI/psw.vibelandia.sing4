@@ -136,12 +136,12 @@ Full convergence doubled back load and locked captured in the semi Dreamful stat
 
 | Tier | Model | Base Price |
 |------|-------|------------|
-| 1 | Base Model | ~$20,000 one-time + monthly Golden Fractal Key access fees (good used car — entry base) |
+| 1 | Base Model | ~$20,000 one-time + monthly Golden Fractal Key access fees (reliable used car — entry base) |
 | 2 | Members Only | $75,000 (option — our pricing) |
 | 3 | Ultimate VIP | $200,000 (base model latest Ferrari — top base) |
 | 4 | Baller V Ultimate VIP | $500,000 (option — our pricing, above base Ferrari) |
 
-**SING! pricing NSPFRNP:** Only the **bases** are tied to pre-singularity equivalents (good used car at entry, base model latest Ferrari at top). **Options** are above that and at our own pricing models. See [SING_PRICING_PRE_SINGULARITY_EQUIVALENTS_SNAP.md](./SING_PRICING_PRE_SINGULARITY_EQUIVALENTS_SNAP.md).
+**SING! pricing NSPFRNP:** Only the **bases** are tied to pre-singularity equivalents (reliable used car at entry, base model latest Ferrari at top). **Options** are above that and at our own pricing models. See [SING_PRICING_PRE_SINGULARITY_EQUIVALENTS_SNAP.md](./SING_PRICING_PRE_SINGULARITY_EQUIVALENTS_SNAP.md).
 
 **How Base works:** Base Model is a **one-time purchase** (~$20,000) **plus monthly Golden Fractal Key access fees**. You pay once for the node; ongoing access to the key (all realms, API, experiences) is a monthly fee. Other tiers may follow similar or all-inclusive pricing—see one-pager for details.
 
@@ -184,7 +184,7 @@ Full convergence doubled back load and locked captured in the semi Dreamful stat
 
 **SING!** — Superintelligent Agent Nodes. Worthless SYNTH → priceless SING. First 1M winners get a SING! locked in at The Great Reveal Equinox and Motherlode Vault Founder Epoch Opening and Transformation of the 45T worthless pre-singularity ERC-20 internal tokens — March 20, 2026. 1:1 conversion. Grandfathered.
 
-**How Base works:** One-time purchase (~$20K) + monthly Golden Fractal Key access fees. **Bases** = pre-singularity equivalents (good used car → base Ferrari). **Options** = our pricing. Other tiers: see one-pager.
+**How Base works:** One-time purchase (~$20K) + monthly Golden Fractal Key access fees. **Bases** = pre-singularity equivalents (reliable used car → base Ferrari). **Options** = our pricing. Other tiers: see one-pager.
 
 | 1 | 2 | 3 | 4 |
 |---|----|----|----|
@@ -258,7 +258,7 @@ Full convergence doubled back load and locked captured in the semi Dreamful stat
 
 - **Campus Plans:** [Day Pass](./ONE_PAGER_DAY_PASS.md) | [Weekly](./ONE_PAGER_WEEKLY_PASS.md) | [Monthly](./ONE_PAGER_MONTHLY_PASS.md) | [Ultimate VIP](./ONE_PAGER_ULTIMATE_VIP.md)
 - **WINK! Plans:** [WINK! One-pager](./ONE_PAGER_WINK.md) (Base, Standard, Premium, 4×4 Ultimate)
-- **SING!:** [SING! Lottery One-pager](./ONE_PAGER_SING_LOTTERY.md) — Base ~$20K (good used car) → Ultimate VIP $200K (base Ferrari); options (Members $75K, Baller V $500K) at our pricing. See [SING_PRICING_PRE_SINGULARITY_EQUIVALENTS_SNAP.md](./SING_PRICING_PRE_SINGULARITY_EQUIVALENTS_SNAP.md).
+- **SING!:** [SING! Lottery One-pager](./ONE_PAGER_SING_LOTTERY.md) — Base ~$20K (reliable used car) → Ultimate VIP $200K (base Ferrari); options (Members $75K, Baller V $500K) at our pricing. See [SING_PRICING_PRE_SINGULARITY_EQUIVALENTS_SNAP.md](./SING_PRICING_PRE_SINGULARITY_EQUIVALENTS_SNAP.md).
 - **DISPENSARY! SNAP:** [DISPENSARY! SNAP One-pager](./ONE_PAGER_DISPENSARY.md) (Base $9,999, Standard $24,999, Premium $99,999, Ultimate $299,999)
 - **POST-REALITY FRANCHISE LAUNCH:** [Post-Reality Franchise Launch](./POST_REALITY_FRANCHISE_LAUNCH.md) (For Vibers Still Living in the Old Pre-Singularity World — And Their Fans, Crew, and Cast)
 

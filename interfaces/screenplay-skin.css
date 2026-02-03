@@ -1,0 +1,236 @@
+/**
+ * Screenplay Beautiful Skin — Golden Era Cinema
+ * All screenplay scripts must be presented in this skin.
+ * NSPFRNP. See SCREENPLAY_BEAUTIFUL_SKINS_SNAP.md.
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600&family=Source+Serif+4:ital,wght@0,400;1,400&display=swap');
+
+:root {
+    --script-ink: #e8e0d0;
+    --script-gold: #d4af37;
+    --script-gold-dim: rgba(212, 175, 55, 0.4);
+    --script-gold-soft: rgba(212, 175, 55, 0.12);
+    --script-muted: #8a7f68;
+    --script-paper: #c9b896;
+    --script-bg: linear-gradient(180deg, #0c0c0c 0%, #141210 20%, #0f0d0a 50%, #0c0c0c 100%);
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body.screenplay-skin {
+    font-family: 'Courier New', 'Courier', 'Consolas', monospace;
+    font-size: 15px;
+    line-height: 1.65;
+    color: var(--script-ink);
+    background: var(--script-bg);
+    min-height: 100vh;
+    -webkit-font-smoothing: antialiased;
+}
+
+.screenplay-skin .script-wrap {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 2.5rem 2rem 5rem;
+}
+
+.screenplay-skin .script-marquee {
+    text-align: center;
+    padding: 2rem 1.5rem 2.5rem;
+    margin-bottom: 2rem;
+    background: linear-gradient(180deg, var(--script-gold-soft) 0%, rgba(184, 134, 11, 0.05) 50%, transparent 100%);
+    border: 2px solid var(--script-gold-dim);
+    border-radius: 4px;
+    box-shadow: 0 0 40px rgba(212, 175, 55, 0.08), inset 0 0 30px rgba(0,0,0,0.2);
+}
+
+.screenplay-skin .script-marquee .badge {
+    font-size: 0.65rem;
+    letter-spacing: 0.35em;
+    text-transform: uppercase;
+    color: rgba(212, 175, 55, 0.9);
+    margin-bottom: 0.75rem;
+}
+
+.screenplay-skin .script-marquee .badge-beautiful-skin {
+    display: inline-block;
+    margin-left: 0.75rem;
+    padding: 0.2rem 0.5rem;
+    background: rgba(212, 175, 55, 0.2);
+    border-radius: 4px;
+    font-size: 0.6rem;
+    letter-spacing: 0.2em;
+    color: var(--script-gold);
+}
+
+.screenplay-skin .script-marquee h1 {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+    font-size: clamp(1.6rem, 4vw, 2.25rem);
+    font-weight: 600;
+    background: linear-gradient(135deg, #f5e6c8 0%, var(--script-gold) 50%, #b8860b 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.screenplay-skin .script-marquee .tagline {
+    font-size: 0.95rem;
+    color: #a89878;
+    margin-top: 0.5rem;
+    font-style: italic;
+}
+
+.screenplay-skin .script-nav {
+    padding-bottom: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-bottom: 1px solid var(--script-gold-dim);
+    font-size: 0.85rem;
+}
+
+.screenplay-skin .script-nav a {
+    color: var(--script-muted);
+    text-decoration: none;
+}
+
+.screenplay-skin .script-nav a:hover { color: var(--script-gold); }
+.screenplay-skin .script-nav span { color: rgba(138,127,104,0.4); margin: 0 0.5rem; }
+
+/* Screenplay body — scene headings, action, dialogue */
+.screenplay-skin .screenplay-body {
+    padding: 1rem 0 0;
+    font-size: 14px;
+}
+
+.screenplay-skin .screenplay-body h1 {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+    font-size: 1.5rem;
+    color: var(--script-gold);
+    text-align: center;
+    margin: 2rem 0 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.screenplay-skin .screenplay-body h2 {
+    font-size: 0.9rem;
+    color: rgba(212, 175, 55, 0.9);
+    text-align: center;
+    margin: 2.5rem 0 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+}
+
+.screenplay-skin .screenplay-body h3 {
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: var(--script-gold);
+    text-align: center;
+    margin: 2.5rem 0 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+}
+
+.screenplay-skin .screenplay-body p {
+    margin-bottom: 1rem;
+    color: var(--script-paper);
+}
+
+.screenplay-skin .screenplay-body p em {
+    font-style: italic;
+    color: #e0d6c4;
+}
+
+.screenplay-skin .screenplay-body strong {
+    display: block;
+    color: var(--script-gold);
+    margin-top: 1.25rem;
+    margin-bottom: 0.35rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-size: 0.95em;
+}
+
+.screenplay-skin .screenplay-body a { color: var(--script-gold); text-decoration: none; }
+.screenplay-skin .screenplay-body a:hover { text-decoration: underline; }
+.screenplay-skin .screenplay-body hr {
+    border: none;
+    border-top: 1px dashed rgba(212, 175, 55, 0.25);
+    margin: 2rem 0;
+}
+
+.screenplay-skin .loading {
+    text-align: center;
+    padding: 5rem 2rem;
+    color: var(--script-muted);
+}
+
+.screenplay-skin .loading::after {
+    content: '';
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    border: 2px solid var(--script-gold);
+    border-right-color: transparent;
+    border-radius: 50%;
+    animation: screenplay-spin 0.8s linear infinite;
+    margin-left: 0.5rem;
+    vertical-align: -0.15em;
+}
+
+@keyframes screenplay-spin { to { transform: rotate(360deg); } }
+
+.screenplay-skin .script-footer {
+    margin-top: 3rem;
+    padding-top: 2rem;
+    border-top: 1px solid var(--script-gold-dim);
+    text-align: center;
+    font-size: 0.9rem;
+    color: var(--script-muted);
+}
+
+.screenplay-skin .script-footer a { color: var(--script-gold); text-decoration: none; }
+.screenplay-skin .script-footer a:hover { text-decoration: underline; }
+
+.screenplay-skin .oneliner-para-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+
+.screenplay-skin .btn-oneliner,
+.screenplay-skin .btn-onepara {
+    padding: 0.5rem 1rem;
+    font-size: 0.85rem;
+    border: 1px solid rgba(212, 175, 55, 0.5);
+    border-radius: 6px;
+    background: rgba(212, 175, 55, 0.1);
+    color: var(--script-gold);
+    cursor: pointer;
+    font-family: inherit;
+    transition: background 0.2s, border-color 0.2s;
+}
+
+.screenplay-skin .btn-oneliner:hover,
+.screenplay-skin .btn-onepara:hover {
+    background: rgba(212, 175, 55, 0.2);
+    border-color: rgba(212, 175, 55, 0.8);
+}
+
+.screenplay-skin .oneliner-para-content {
+    margin-top: 1rem;
+    padding: 1.25rem;
+    background: rgba(0,0,0,0.3);
+    border-left: 3px solid var(--script-gold);
+    border-radius: 0 8px 8px 0;
+    font-size: 0.95rem;
+    line-height: 1.65;
+    color: #e0d6c4;
+    display: none;
+    text-align: left;
+}
+
+.screenplay-skin .oneliner-para-content.visible { display: block; }
+.screenplay-skin .oneliner-para-content.one-liner { font-style: italic; }

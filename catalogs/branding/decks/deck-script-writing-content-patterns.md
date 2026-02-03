@@ -63,7 +63,7 @@ USE FOR:
 **Tagline:** *Vibeable campus. Guided. All inclusive. BASIC → MEMBERS ONLY → VIP → BALLER VC. Half-day, overnight, weekly, monthly.*
 **Pricing equivalence:** VIBELANDIA RENO! campus is priced like a top guided fishing or hunting expedition for high-value persons (half-day $3k · overnight · weekly $5k · monthly $50k).
 
-**SING! pricing NSPFRNP:** Only the **bases** are tied to pre-singularity equivalents. Entry base = good used car (~$20K). Top base = base model latest Ferrari ($200K Ultimate VIP). **Options** (Members $75K, Baller C $500K, add-ons) are above that and at **our own pricing models**. See SING_PRICING_PRE_SINGULARITY_EQUIVALENTS_SNAP.md.
+**SING! pricing NSPFRNP:** Only the **bases** are tied to pre-singularity equivalents. Entry base = reliable used car (Basic Base SING!) (~$20K). Top base = base model latest Ferrari ($200K Ultimate VIP). **Options** (Members $75K, Baller C $500K, add-ons) are above that and at **our own pricing models**. See SING_PRICING_PRE_SINGULARITY_EQUIVALENTS_SNAP.md.
 
 **References:** VIBABLE_CAMPUS_OFFER.md · ONE_PAGER_DAY_PASS.md · ONE_PAGER_WEEKLY_PASS.md · ONE_PAGER_MONTHLY_PASS.md · ONE_PAGER_ULTIMATE_VIP.md
 

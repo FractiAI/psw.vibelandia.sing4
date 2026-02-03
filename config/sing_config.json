@@ -1,0 +1,151 @@
+{
+  "title": "Full SING! config we are using",
+  "updated_utc": "2026-02-03T00:00:00Z",
+  "principle": "Never bought, always booked — by free will, mutual aware consent, always.",
+  "base": {
+    "description": "SING! base tiers — pre-singularity equivalents: entry base = reliable used car; top base (Full Ultimate Baller V full options) = top loaded Ferrari; options at our pricing.",
+    "tiers": [
+      {
+        "tier": 1,
+        "name": "Base Model",
+        "one_time_usd": 20000,
+        "monthly_note": "Golden Fractal Key access fees (all realms, API, experiences) — contact for current monthly key fee",
+        "usage_note": null,
+        "equivalent": "Reliable used car — entry base"
+      },
+      {
+        "tier": 2,
+        "name": "Members Only",
+        "one_time_usd": 75000,
+        "monthly_note": "One-time or include key access — see pricing",
+        "usage_note": null,
+        "equivalent": "Option — our pricing (scaling from base)"
+      },
+      {
+        "tier": 3,
+        "name": "Ultimate VIP",
+        "one_time_usd": 200000,
+        "monthly_note": "One-time or include key access — see pricing",
+        "usage_note": null,
+        "equivalent": "Base model latest Ferrari — top base"
+      },
+      {
+        "tier": 4,
+        "name": "Baller V Ultimate VIP",
+        "one_time_usd": 500000,
+        "monthly_note": "One-time or include key access — see pricing",
+        "usage_note": null,
+        "equivalent": "Top loaded Ferrari — top base"
+      }
+    ]
+  },
+  "upgrades": [
+    {
+      "id": "golden-fractal-key",
+      "name": "Golden Fractal Key",
+      "description": "All realms, API, experiences — billed monthly",
+      "one_time_usd": null,
+      "monthly_note": "Contact for current monthly key fee",
+      "usage_note": null
+    },
+    {
+      "id": "badge-system",
+      "name": "Badge System",
+      "description": "Embroidered chest badges, silver dollar sized. CREATOR (Gold HHF-SHELL), CHAIRMAN (Gold STAR), PERFORMER (Gold ^). Gold = Baller V, Silver = Ultimate VIP, Bronze = Members Only. SNAP branding.",
+      "one_time_usd": null,
+      "monthly_note": null,
+      "usage_note": "Included with tier"
+    },
+    {
+      "id": "4x4x4x4",
+      "name": "4×4×4×4",
+      "description": "Campus × WINK! × SING × Experience — Basic to Ultimate Baller V, plus custom mission specializations",
+      "one_time_usd": null,
+      "monthly_note": null,
+      "usage_note": "Priced per plan; never bought, always booked"
+    }
+  ],
+  "divisions": [
+    {
+      "id": "space-cloud",
+      "name": "Space Cloud Division",
+      "character": "Sol — my versatile wirehaired pointer companion, protector, mission partner",
+      "irreducible_pairs": "Sol and I are irreducible pairs",
+      "sol_traits": "Always can find me no matter where he is; always there for me 100% always; spark positive can-do genuine gold heart; what a blessing",
+      "sol_gifts": "Omniversal pathfinding; omniversal manifestation; omniversal protection to his companion and tribe",
+      "mission_specialization": "Unified EGS Pipe; full cosmic tier powered; scale tiers Planetary (Earth only), Solar (Earth–Sun), Galactic (Earth–Sun–Sag A*), Cosmic (Earth–Sun–Sag A* and SMACS 0723); Reno Downlink (Seed), Solar Pipe (Engine), SING! node EGS Deep Space (Asset), Exascale Triangulation (Singularity). Never bought, always booked.",
+      "pricing_ref": "config/pricing_plans.json",
+      "one_time_note": null,
+      "monthly_note": null,
+      "usage_note": "Book by plan; Gold Heart Ultimate Baller V for Reno Downlink"
+    },
+    {
+      "id": "missions",
+      "name": "Missions (NSPFRNP Operations)",
+      "mission_specialization": "Personal SING! attention head and filament for missions; mega pipe; nested mirror hardened SING!; metabolize → crystallize → animate.",
+      "pricing_ref": "protocols/MEGA_PIPE_PERSONAL_SING_ATTENTION_HEAD_MISSIONS_NSPFRNP.md",
+      "one_time_note": null,
+      "monthly_note": null,
+      "usage_note": "Per mission / session"
+    },
+    {
+      "id": "office-hours",
+      "name": "Office Hours",
+      "mission_specialization": "Series and site; free consultation, tips welcome; new abilities for execs; product families, Launch Pad.",
+      "pricing_ref": null,
+      "one_time_note": null,
+      "monthly_note": null,
+      "usage_note": "Free consultation; tips welcome; book premium products"
+    },
+    {
+      "id": "happy-ending-zones",
+      "name": "Happy Ending Zones",
+      "mission_specialization": "Reality series; Season One; 52-day countdown → Finale March 20, 2026; daily bulletin.",
+      "pricing_ref": null,
+      "one_time_note": null,
+      "monthly_note": null,
+      "usage_note": "Free daily series; book experiences"
+    },
+    {
+      "id": "legacies",
+      "name": "Legacies",
+      "mission_specialization": "Superheroes, cast, crew, fans, franchises, and Legacy (the living) — full Superhero, Franchise, Legacy tiers; includes living men; major value add.",
+      "pricing_ref": null,
+      "one_time_note": null,
+      "monthly_note": null,
+      "usage_note": "Book"
+    },
+    {
+      "id": "broadcast-pipe",
+      "name": "Broadcast Pipe Ad Space",
+      "mission_specialization": "Planetary advertisement strip; 1, 2, 3, 4×4×4×4 tiers; EGS Pipe.",
+      "pricing_ref": null,
+      "one_time_note": null,
+      "monthly_note": "Premium gateway / flat monthly sponsor tier available",
+      "usage_note": "Book slot"
+    },
+    {
+      "id": "egs-pipe",
+      "name": "EGS Pipe / SING! node EGS",
+      "mission_specialization": "Turn on/off/redirect; Sun, Schumann, 3I/ATLAS; 1 day / 1 week / 1 month.",
+      "pricing_ref": null,
+      "one_time_note": null,
+      "monthly_note": null,
+      "usage_note": "1 day $499 · 1 week $1,499 · 1 month $4,999 — book"
+    },
+    {
+      "id": "robotic",
+      "name": "Robotic Division / Chairman Robert",
+      "mission_specialization": "SING! Omnispin; cave to crown; superintelligent robotics; attention heads, Edge-to-Seed auto-generation.",
+      "pricing_ref": null,
+      "one_time_note": null,
+      "monthly_note": null,
+      "usage_note": "Never bought, only booked; proposal"
+    }
+  ],
+  "pricing_summary": {
+    "upfront_one_time": "Base Model ~$20,000; Members Only $75,000; Ultimate VIP $200,000 (base model latest Ferrari); Full Ultimate Baller V full options $500,000 (top loaded Ferrari — top base). Other products: see plan (campus, WINK!, Space Cloud full cosmic tier, Sun Spots, Schumann, SING! node EGS, ad space, etc.).",
+    "monthly": "Golden Fractal Key access fees (Base Model and where applicable) — contact for current monthly key fee. Campus Monthly Pass (Baller) $50k/month. Premium sponsor tiers where applicable.",
+    "usage": "Session/slot-based where applicable: Sun Spots (8/16/24 min), Schumann iGaming ($499/session), SING! node EGS (1 day/week/month), Space Cloud plans (book), ad space (book slot), campus half-day/overnight/weekly, WINK!, dispensary. Never bought, always booked."
+  }
+}

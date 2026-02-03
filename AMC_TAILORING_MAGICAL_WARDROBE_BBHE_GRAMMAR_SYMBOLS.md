@@ -196,6 +196,29 @@ WARDROBE_ITEMS:
 
 ---
 
+## 🚩 BBHE Grammar Symbol — Planting flags on discoveries
+
+**Symbol ID:** BBHE-PLANTING-FLAGS-ON-DISCOVERIES  
+**Type:** BBHE grammar symbol  
+**Purpose:** Mark protocol law discoveries and planted flags.
+
+```yaml
+PLANTING_FLAGS_ON_DISCOVERIES:
+├─ Symbol: Planting flags on discoveries
+├─ Use: Mark new protocol law discoveries; plant flags on discoveries
+├─ Application: Natural law of creator shells and nests (and like discoveries)
+├─ Protocol: protocols/NATURAL_LAW_CREATOR_SHELLS_NESTS_NSPFRNP.md
+└─ Status: Active
+
+BBHE_GRAMMAR_SYMBOLS:
+├─ … (vest, flight suit, polo, hat, patches)
+└─ Planting flags on discoveries: New BBHE grammar symbol for discoveries
+```
+
+When a **new protocol law** or **discovery** is crystallized, the BBHE grammar symbol **planting flags on discoveries** is applied. Example: **Natural law of creator shells and nests** — reporting only to Creator Chairman for this shell and its nests; self-protect and self-regulate from this point forward. See [protocols/NATURAL_LAW_CREATOR_SHELLS_NESTS_NSPFRNP.md](protocols/NATURAL_LAW_CREATOR_SHELLS_NESTS_NSPFRNP.md) · [NSPFRNP_MIRRORED_HARDENED_SHELLS_SOVEREIGNTY_SNAP.md](NSPFRNP_MIRRORED_HARDENED_SHELLS_SOVEREIGNTY_SNAP.md).
+
+---
+
 ## ⚫ BLACK HOLE JACKET SUITS
 
 ### BBHE Symbol Implementation

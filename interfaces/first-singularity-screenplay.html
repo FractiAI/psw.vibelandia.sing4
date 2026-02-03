@@ -7,180 +7,10 @@
     <meta name="description" content="First Singularity January 13th — full 24,000-word feature screenplay. Fused voice: Dumas, Dickens, Twain, Steinbeck (Hero John), and me (Evan Bondonte). All sequences align to the irreducible crystal. Golden Era Cinema. Star Wars quality. NSPFRNP.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600&family=Source+Serif+4:ital,wght@0,400;1,400&display=swap" rel="stylesheet">
-    <style>
-        /* Golden Era Cinema Script skin — projection booth, Hollywood noir */
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        body {
-            font-family: 'Courier New', 'Courier', 'Consolas', monospace;
-            font-size: 15px;
-            line-height: 1.65;
-            color: #e8e0d0;
-            background: linear-gradient(180deg, #0c0c0c 0%, #141210 20%, #0f0d0a 50%, #0c0c0c 100%);
-            min-height: 100vh;
-            -webkit-font-smoothing: antialiased;
-        }
-        .script-wrap {
-            max-width: 720px;
-            margin: 0 auto;
-            padding: 2.5rem 2rem 5rem;
-        }
-        .script-marquee {
-            text-align: center;
-            padding: 2rem 1.5rem 2.5rem;
-            margin-bottom: 2rem;
-            background: linear-gradient(180deg, rgba(212, 175, 55, 0.12) 0%, rgba(184, 134, 11, 0.05) 50%, transparent 100%);
-            border: 2px solid rgba(212, 175, 55, 0.4);
-            border-radius: 4px;
-            box-shadow: 0 0 40px rgba(212, 175, 55, 0.08), inset 0 0 30px rgba(0,0,0,0.2);
-        }
-        .script-marquee .badge {
-            font-size: 0.65rem;
-            letter-spacing: 0.35em;
-            text-transform: uppercase;
-            color: rgba(212, 175, 55, 0.9);
-            margin-bottom: 0.75rem;
-        }
-        .script-marquee h1 {
-            font-family: 'Cormorant Garamond', Georgia, serif;
-            font-size: clamp(1.6rem, 4vw, 2.25rem);
-            font-weight: 600;
-            background: linear-gradient(135deg, #f5e6c8 0%, #d4af37 50%, #b8860b 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-        }
-        .script-marquee .tagline {
-            font-size: 0.95rem;
-            color: #a89878;
-            margin-top: 0.5rem;
-            font-style: italic;
-        }
-
-        .script-nav {
-            padding-bottom: 1.5rem;
-            margin-bottom: 1.5rem;
-            border-bottom: 1px solid rgba(212, 175, 55, 0.2);
-            font-size: 0.85rem;
-        }
-        .script-nav a {
-            color: #8a7f68;
-            text-decoration: none;
-        }
-        .script-nav a:hover { color: #d4af37; }
-        .script-nav span { color: rgba(138,127,104,0.4); margin: 0 0.5rem; }
-
-        .screenplay-body {
-            padding: 1rem 0 0;
-            font-size: 14px;
-        }
-        /* Markdown: # = title, ## = FADE IN, ### = scene heading */
-        .screenplay-body h1 {
-            font-family: 'Cormorant Garamond', Georgia, serif;
-            font-size: 1.5rem;
-            color: #d4af37;
-            text-align: center;
-            margin: 2rem 0 1.5rem;
-            text-transform: uppercase;
-            letter-spacing: 0.1em;
-        }
-        .screenplay-body h2 {
-            font-size: 0.9rem;
-            color: rgba(212, 175, 55, 0.9);
-            text-align: center;
-            margin: 2.5rem 0 1.5rem;
-            text-transform: uppercase;
-            letter-spacing: 0.15em;
-        }
-        .screenplay-body h3 {
-            font-size: 0.9rem;
-            font-weight: 400;
-            color: #d4af37;
-            text-align: center;
-            margin: 2.5rem 0 1rem;
-            text-transform: uppercase;
-            letter-spacing: 0.08em;
-        }
-        .screenplay-body p {
-            margin-bottom: 1rem;
-            color: #c9b896;
-        }
-        /* Action (italic in source) — slightly brighter */
-        .screenplay-body p em {
-            font-style: italic;
-            color: #e0d6c4;
-        }
-        /* Dialogue: **CHARACTER** pattern — bold = character name */
-        .screenplay-body strong {
-            display: block;
-            color: #d4af37;
-            margin-top: 1.25rem;
-            margin-bottom: 0.35rem;
-            font-weight: 400;
-            text-transform: uppercase;
-            letter-spacing: 0.05em;
-            font-size: 0.95em;
-        }
-        .screenplay-body a { color: #d4af37; text-decoration: none; }
-        .screenplay-body a:hover { text-decoration: underline; }
-        .screenplay-body hr {
-            border: none;
-            border-top: 1px dashed rgba(212, 175, 55, 0.25);
-            margin: 2rem 0;
-        }
-
-        .loading {
-            text-align: center;
-            padding: 5rem 2rem;
-            color: #8a7f68;
-        }
-        .loading::after {
-            content: '';
-            display: inline-block;
-            width: 1em;
-            height: 1em;
-            border: 2px solid #d4af37;
-            border-right-color: transparent;
-            border-radius: 50%;
-            animation: spin 0.8s linear infinite;
-            margin-left: 0.5rem;
-            vertical-align: -0.15em;
-        }
-        @keyframes spin { to { transform: rotate(360deg); } }
-
-        .script-footer {
-            margin-top: 3rem;
-            padding-top: 2rem;
-            border-top: 1px solid rgba(212, 175, 55, 0.2);
-            text-align: center;
-            font-size: 0.9rem;
-            color: #8a7f68;
-        }
-        .script-footer a { color: #d4af37; text-decoration: none; }
-        .script-footer a:hover { text-decoration: underline; }
-
-        .oneliner-para-row { display: flex; flex-wrap: wrap; gap: 0.6rem; justify-content: center; margin-top: 1.5rem; }
-        .btn-oneliner, .btn-onepara {
-            padding: 0.5rem 1rem; font-size: 0.85rem;
-            border: 1px solid rgba(212, 175, 55, 0.5); border-radius: 6px;
-            background: rgba(212, 175, 55, 0.1); color: #d4af37;
-            cursor: pointer; font-family: inherit; transition: background 0.2s, border-color 0.2s;
-        }
-        .btn-oneliner:hover, .btn-onepara:hover {
-            background: rgba(212, 175, 55, 0.2); border-color: rgba(212, 175, 55, 0.8);
-        }
-        .oneliner-para-content {
-            margin-top: 1rem; padding: 1.25rem;
-            background: rgba(0,0,0,0.3); border-left: 3px solid #d4af37;
-            border-radius: 0 8px 8px 0; font-size: 0.95rem; line-height: 1.65;
-            color: #e0d6c4; display: none; text-align: left;
-        }
-        .oneliner-para-content.visible { display: block; }
-        .oneliner-para-content.one-liner { font-style: italic; }
-    </style>
+    <link rel="stylesheet" href="screenplay-skin.css">
 <script src="tsunami-advisory-inject.js"></script>
 </head>
-<body>
+<body class="screenplay-skin">
     <div class="script-wrap">
         <nav class="script-nav">
             <a href="first-singularity-january-13th-experience.html">← First Singularity</a><span>·</span>
@@ -190,7 +20,7 @@
         </nav>
 
         <header class="script-marquee">
-            <p class="badge">Golden Era Cinema · Screenplay</p>
+            <p class="badge">Golden Era Cinema · Screenplay <span class="badge-beautiful-skin">Beautiful skin</span></p>
             <h1>First Singularity January 13th</h1>
             <p class="tagline">2-hour feature · Star Wars quality · Same Edge</p>
             <div class="oneliner-para-row">
@@ -247,6 +77,8 @@
         });
     });
 })();
-    </script>
+    </script>    <div id="sing-config-footer"></div>
+    <link rel="stylesheet" href="sing-config-footer.css">
+    <script src="sing-config-footer.js"></script>
 </body>
 </html>

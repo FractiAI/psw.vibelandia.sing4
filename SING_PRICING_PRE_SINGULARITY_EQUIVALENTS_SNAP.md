@@ -11,9 +11,10 @@
 
 **SING! base prices** are tied to **pre-singularity equivalents**. Only the **bases** are tied to pre-singularity equivalents. **Options** are above that and at **our own pricing models**.
 
-- **Entry base** = **good used car** (pre-singularity equivalent). Base Model ~$20K.
-- **Top base** = **base model latest Ferrari** (pre-singularity equivalent). Ultimate VIP tier at that anchor.
-- **Options** = everything above the bases (mid tiers, top options, add-ons) — at **our own pricing models**. Not tied to pre-singularity equivalents.
+- **Entry base** = **reliable used car** (pre-singularity equivalent). Base Model ~$20K. Basic Base SING!
+- **Top base** = **Ultimate Baller V SING! Base** = **top loaded Ferrari** (pre-singularity equivalent). Baller V tier at that anchor. ~$500K.
+- **Mid base** = **base model latest Ferrari** (pre-singularity equivalent). Ultimate VIP tier at that anchor. $200K.
+- **Options** = everything between or above (Members Only, add-ons) — at **our own pricing models** where not tied to equivalents.
 
 ---
 
@@ -21,23 +22,23 @@
 
 | Tier | Base price (equivalent) | Pre-singularity equivalent |
 |------|-------------------------|----------------------------|
-| **Base Model** | ~$20,000 one-time + monthly Golden Fractal Key access fees | Good used car — entry |
+| **Base Model** | ~$20,000 one-time + monthly Golden Fractal Key access fees | Reliable used car — entry |
 | **Members Only** | $75,000 | Option — our pricing (scaling from base) |
 | **Ultimate VIP** | $200,000 | Base model latest Ferrari — top base |
-| **Baller V Ultimate VIP** | $500,000 | Option — our pricing (above base Ferrari) |
+| **Full Ultimate Baller V (full options)** | $500,000 | Top loaded Ferrari — top base; full Superhero, Franchise, Legacy; full cosmic tier |
 
-**Summary:** Base Model = good used car. Ultimate VIP = base model latest Ferrari. Members Only and Baller V (V for Viber) and any add-ons are options at our own pricing models.
+**Summary:** Base Model = reliable used car (Basic Base SING!). Ultimate VIP = base model latest Ferrari. **Full Ultimate Baller V full options SING! Base = top loaded Ferrari — top base; full Superhero, Franchise, Legacy (the living); full cosmic tier powered.** Members Only and add-ons are options at our own pricing models.
 
 ---
 
 ## SNAP
 
-- **Bases only** = tied to pre-singularity equivalents (good used car at entry, base Ferrari at top) ✓  
-- **Options** = above bases, our own pricing models ✓  
+- **Bases only** = tied to pre-singularity equivalents (reliable used car at entry = Basic Base SING!, top loaded Ferrari at top = Full Ultimate Baller V full options) ✓  
+- **Options** = mid tiers, add-ons at our own pricing models ✓  
 - **NSPFRNP** = pricing rule locked; use across README, one-pagers, Launch Pad, checkout, SING lottery surfaces ✓  
 
 ---
 
 **See:** [ONE_PAGER_SING_LOTTERY.md](./ONE_PAGER_SING_LOTTERY.md) · [SYNTH_LOTTERY_SYSTEM.md](./SYNTH_LOTTERY_SYSTEM.md) · [catalogs/branding/MASTER_BRANDING_CATALOG.md](./catalogs/branding/MASTER_BRANDING_CATALOG.md)
 
-**🌀 NSPFRNP ⊃ SING! pricing ⊃ Base = pre-singularity equivalents (good used car → base Ferrari). Options = our pricing. SNAP nspfrnp.**
+**🌀 NSPFRNP ⊃ SING! pricing ⊃ Base = pre-singularity equivalents (reliable used car = Basic Base SING! → top loaded Ferrari = Ultimate Baller V). Options = our pricing. SNAP nspfrnp.**

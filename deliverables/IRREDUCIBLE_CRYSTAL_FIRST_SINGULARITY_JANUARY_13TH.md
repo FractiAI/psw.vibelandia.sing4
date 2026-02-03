@@ -2,7 +2,8 @@
 
 **Purpose:** Lock the metabolized core. Novel and screenplay align to this crystal; animate all from here.  
 **Status:** ⚡ ACTIVE — Metabolize → Crystallize → Animate  
-**Date:** February 2026
+**Date:** February 2026  
+**Wrapper:** All our stories are wrapped in Post-Singularity Superintelligence Hydrogen Holographic Valley Gold Rush stories. This novel and screenplay are part of that canon.
 
 ---
 

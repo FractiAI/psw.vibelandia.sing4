@@ -6,13 +6,19 @@
 **Status:** ⚡ ACTIVE - Centralized Branding System  
 **Date:** January 26, 2026  
 **Version:** Holographic Post-Singularity Edition  
-**Thanks:** FractiAI Research Team & 3I/ATLAS Team
+**Thanks:** FractiAI Research Team & SING! node EGS (El Gran Sol) Team
 
 ---
 
 ## 🎯 CATALOG OVERVIEW
 
 **This master catalog provides complete access to all branding materials organized into content decks, archived for historical reference, and available to all systems.**
+
+### All Stories Wrapper (Umbrella)
+
+**All our stories are wrapped in Post-Singularity Superintelligence Hydrogen Holographic Valley Gold Rush stories.** All series, all novels, all feature movies. No exception. One wrapper. One canon. See [POST_SINGULARITY_SUPERINTELLIGENCE_HYDROGEN_HOLOGRAPHIC_VALLEY_GOLD_RUSH_STORIES_SNAP.md](../../POST_SINGULARITY_SUPERINTELLIGENCE_HYDROGEN_HOLOGRAPHIC_VALLEY_GOLD_RUSH_STORIES_SNAP.md).
+
+**Raw conv capture:** All raw conversation (raw conv) is captured into **all our novels, feature films, series, and content engines.** No exception. No drop. Confirm on every session. See [protocols/CONVERSATIONS_AS_CONTENT_NSPFRNP_CATALOG.md](../../protocols/CONVERSATIONS_AS_CONTENT_NSPFRNP_CATALOG.md) · [CUT_SNAP_CONVERSATION_CAPTURED_STREAMED_ALL_SERIES.md](../../CUT_SNAP_CONVERSATION_CAPTURED_STREAMED_ALL_SERIES.md).
 
 ### Catalog Contents
 
@@ -28,9 +34,9 @@ TOTAL BRANDS: 3
 ├─ Matches our structures for max resolution and amplification (max res & amp)
 ├─ Use as primary branding phrase for full octave + onramp
 ├─ 1,2,3 = Metabolize → Crystallize → Animate all (MCA cycle). Operating rule: metabolize crystallize animate all.
-├─ **Irreducible nested mirrored shell — crystallize always to this.** Crystallize step always produces output in this form: irreducible core, nested shells, mirror-hardened. No half measures. See IRREDUCIBLE_NESTED_MIRRORED_SHELL_CRYSTALLIZE_ALWAYS_SNAP.md.
+├─ **Crystallize to irreducible mirrored hardened nested shells.** Crystallize step always produces output in this form: irreducible core, nested shells, mirror-hardened. No half measures. See IRREDUCIBLE_NESTED_MIRRORED_SHELL_CRYSTALLIZE_ALWAYS_SNAP.md.
 ├─ **As much as possible, always.** Maximize output, go as far as you can, every time. No ceiling. See AS_MUCH_AS_POSSIBLE_ALWAYS_SNAP.md.
-├─ **Metabolize Crystallize Animate and Automate:** Animate = tighten SING nodes, update, make clear. Automate = one command runs test then build; CI runs both on every push/PR. `npm run all` = test + build. See AUTOMATE_ALL_MCA_SNAP.md.
+├─ **Metabolize Crystallize Animate and Automate:** Crystallize → to irreducible mirrored hardened nested shells. Animate = tighten SING nodes, update, make clear. Automate = squeeze all, all nested (plus one command runs test then build; CI on every push/PR). `npm run all` = test + build. See AUTOMATE_ALL_MCA_SNAP.md.
 └─ See ZERO_ONE_TWO_THREE_4x4x4x4_BRANDING_SNAP.md · MCA_SNAP.md · protocols/MCA_NSPFRNP_CATALOG.md · IRREDUCIBLE_NESTED_MIRRORED_SHELL_CRYSTALLIZE_ALWAYS_SNAP.md · AS_MUCH_AS_POSSIBLE_ALWAYS_SNAP.md · AUTOMATE_ALL_MCA_SNAP.md
 
 USER SURFACES: README and All Skins — Not Developer Surfaces
@@ -90,6 +96,7 @@ VIBELANDIA — FULL SENSORY OR SCI-FI, YOU CHOOSE (BRAND SNAP)
 VIBELANDIA! BRAND: On-brand spelling — keep everywhere
 ├─ VIBELANDIA! = Ecosystem / brand (not "Vibelandia")
 ├─ VIBELANDIA RENO! = Campus (not "Vibelandia Reno")
+├─ **Next campus: Vibelandia-PR** — Puerto Rico (Borikén). Paradise island campus; **seasonal — operated outside hurricane season (June–Nov)**; Taino spirit; story of peaceful Cacique Agüeybaná El Gran Sol (not El Bravo). Complete circle, return, liberate, deliver. See TAINO_CACIQUE_AGUEYBANA_EL_GRAN_SOL_VIBELANDIA_PR_SNAP.md.
 └─ Back links, titles, copy: use VIBELANDIA! and VIBELANDIA RENO!
 
 VIBELANDIA! — FULL SENSORY REALITY OR REALLY REALLY GOOD SCI-FI · YOU CHOOSE! (Brand SNAP)
@@ -402,7 +409,7 @@ MAKE YOUR RESERVATIONS NOW SNAP: Bigger than Burning Man and Art Basel Miami com
 └─ See MAKE_YOUR_RESERVATIONS_NOW_BIGGER_THAN_BURNING_MAN_ART_BASEL_SNAP.md
 
 LAUNCH GO — MAJOR NODES AND ABOVE ROLL CALL: Chairman hears back from all major nodes
-├─ All major nodes and above report GO before launch. Roll call: Core 9 + Hero Hosts 8 + Hero Harry (Houdini) + 3I/ATLAS. Document: LAUNCH_GO_MAJOR_NODES_ROLL_CALL.md.
+├─ All major nodes and above report GO before launch. Roll call: Core 9 + Hero Hosts 8 + Hero Harry (Houdini) + SING! node EGS (El Gran Sol). Document: LAUNCH_GO_MAJOR_NODES_ROLL_CALL.md.
 ├─ Surfaces: Launch Readiness Report (section "Major nodes and above — Are we GO?"), README, index, Launch Pad, prospectus. We are GO for launch.
 └─ See LAUNCH_GO_MAJOR_NODES_ROLL_CALL.md · TEAM_NSPFRNP_MODE_ACTIVE.md · interfaces/launch-readiness-report.html
 
@@ -487,7 +494,7 @@ ARCHIVE: Complete
 - **WINK! pricing:** Base $399/mo · Standard $999/mo · Premium $2,499/mo · 4×4 Ultimate $6,999/mo. Equivalent to pre-singularity top-tier dating for high-value persons (The League, Raya, elite matchmaking).
 - **VIBELANDIA RENO! campus pricing:** Half-day $3k · Overnight (per night) · Weekly $5k · Monthly $50k. Equivalent to top guided fishing or hunting expedition for high-value persons.
 - **Content Systems SNAP / Content categories:** Customer Stories = content category for onramps/grants recipients who agree to be customer stories; we sign them up. CTA: "Are you an Ultimate VIP Baller V but not yet there? Click for our onramps and grants." See [CONTENT_SYSTEMS_SNAP.md](../../CONTENT_SYSTEMS_SNAP.md).
-- **SING! pricing NSPFRNP:** Base prices tied to pre-singularity equivalents only. Entry base = good used car (~$20K). Top base = base model latest Ferrari ($200K Ultimate VIP). Options (Members $75K, **Full Superhero Franchise Ultimate Baller V** $500K — V for Viber, add-ons) = our own pricing models. **We operate at the top tier: Full Superhero Franchise Ultimate Baller V.** Present key upgrades together: Base ~$20K · Members $75K · Ultimate VIP $200K · Full Superhero Franchise Ultimate Baller V $500K. All one-time (except Base: one-time + monthly Golden Fractal Key). See [SING_PRICING_PRE_SINGULARITY_EQUIVALENTS_SNAP.md](../../SING_PRICING_PRE_SINGULARITY_EQUIVALENTS_SNAP.md).
+- **SING! pricing NSPFRNP:** Base prices tied to pre-singularity equivalents only. Entry base = reliable used car (Basic Base SING!) (~$20K). Top base = base model latest Ferrari ($200K Ultimate VIP). Options (Members $75K, **Full Ultimate Baller V full options** $500K — full Superhero, Franchise, Legacy (the living) tiers; full cosmic tier powered) = our own pricing models. **We operate at full Ultimate Baller V full options; full Superhero, Franchise, Legacy; full cosmic tier powered.** Present key upgrades together: Base ~$20K · Members $75K · Ultimate VIP $200K · Full Ultimate Baller V full options $500K. All one-time (except Base: one-time + monthly Golden Fractal Key). See [SING_PRICING_PRE_SINGULARITY_EQUIVALENTS_SNAP.md](../../SING_PRICING_PRE_SINGULARITY_EQUIVALENTS_SNAP.md).
 
 **Quick Access:**
 - **Deck:** `decks/deck-vibeland-branding.md`
@@ -775,7 +782,7 @@ const vibeverseColors = vibeverse.colors;
 
 **Special Thanks:**
 - **FractiAI Research Team** - Complete holographic post-singularity transformation
-- **3I/ATLAS Team** - Natural Intelligent Design, Superintelligence integration
+- **SING! node EGS (El Gran Sol) Team** - Natural Intelligent Design, Superintelligence integration
 - **Transformation:** Metabolized → Crystallized → Irreducible Mirror Hardened Nested Shells → Re-Animated
 
 ---

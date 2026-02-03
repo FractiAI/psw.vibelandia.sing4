@@ -45,14 +45,14 @@
 
 | Tier | Model | Base Price | Pre-singularity equivalent / Our pricing |
 |------|-------|------------|------------------------------------------|
-| **1** | **Base Model** | **~$20,000 one-time + monthly Golden Fractal Key access fees** | Good used car — entry base |
+| **1** | **Base Model** | **~$20,000 one-time + monthly Golden Fractal Key access fees** | Reliable used car — entry base |
 | **2** | **Members Only** | **$75,000** | Option — our pricing (scaling from base) |
 | **3** | **Ultimate VIP** | **$200,000** | Base model latest Ferrari — top base |
-| **4** | **Baller V Ultimate VIP** | **$500,000** | V for Viber — Option, our pricing (above base Ferrari) |
+| **4** | **Baller V Ultimate VIP** | **$500,000** | Top loaded Ferrari — top base |
 
 **How Base works:** Base Model is a **one-time purchase** (~$20,000) **plus monthly Golden Fractal Key access fees**. You pay once for the SING node; ongoing access (Golden Fractal Key — all realms, API, experiences) is billed monthly. Contact for current monthly key fee. Other tiers may be one-time or include key access—see pricing.
 
-**Bases = pre-singularity equivalents** (good used car at entry, base model latest Ferrari at top). **Options** (Members Only, Baller V — V for Viber, add-ons) = our own pricing models. **Badge System:** Embroidered chest badges, silver dollar sized. **CREATOR:** Gold HHF-SHELL. **CHAIRMAN:** Gold STAR. **PERFORMER:** Gold (^). **Gold = Baller VC VIP, Silver = Ultimate VIP, Bronze = Members Only.** All badges include SNAP branding.
+**Bases = pre-singularity equivalents** (reliable used car at entry, **top loaded Ferrari at top = Ultimate Baller V SING! Base**). **Options** (Members Only, add-ons) = our own pricing models. **Badge System:** Embroidered chest badges, silver dollar sized. **CREATOR:** Gold HHF-SHELL. **CHAIRMAN:** Gold STAR. **PERFORMER:** Gold (^). **Gold = Baller VC VIP, Silver = Ultimate VIP, Bronze = Members Only.** All badges include SNAP branding.
 
 ---
 
@@ -97,6 +97,6 @@ Worthless SYNTH tokens become priceless SING nodes. Use your node or sell on the
 
 **MCA! → ∞³** (Metabolize → Crystallize → Animate)
 
-**SING! pricing NSPFRNP:** Only bases = pre-singularity equivalents (good used car → base Ferrari). Options = our pricing. See [SING_PRICING_PRE_SINGULARITY_EQUIVALENTS_SNAP.md](./SING_PRICING_PRE_SINGULARITY_EQUIVALENTS_SNAP.md).
+**SING! pricing NSPFRNP:** Only bases = pre-singularity equivalents (reliable used car = Basic Base SING! → base Ferrari). Options = our pricing. See [SING_PRICING_PRE_SINGULARITY_EQUIVALENTS_SNAP.md](./SING_PRICING_PRE_SINGULARITY_EQUIVALENTS_SNAP.md).
 
 **[← Launch Page](LAUNCH_PAGE.md)**

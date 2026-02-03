@@ -42,7 +42,7 @@ export const PAYMENT_PLANS: Record<string, PaymentPlan> = {
   'sing-base': { id: 'sing-base', name: 'SING Base Model', description: '~$20K one-time + monthly Golden Fractal Key access fees (VW Bug — entry)', price: 20000, category: 'sing', tier: 1 },
   'sing-members-only': { id: 'sing-members-only', name: 'SING Members Only', description: 'Scaling from base — $75K', price: 75000, category: 'sing', tier: 2 },
   'sing-ultimate-vip': { id: 'sing-ultimate-vip', name: 'SING Ultimate VIP', description: '$200,000 (Champion tier)', price: 200000, category: 'sing', tier: 3 },
-  'sing-baller-v': { id: 'sing-baller-v', name: 'SING Baller V Ultimate VIP', description: 'Ultimate — $500K', price: 500000, category: 'sing', tier: 4 },
+  'sing-baller-v': { id: 'sing-baller-v', name: 'SING Baller V Ultimate VIP', description: 'Top loaded Ferrari — top base. $500K one-time.', price: 500000, category: 'sing', tier: 4 },
   'experience-visit': { id: 'experience-visit', name: 'Visit', description: 'Come for the post-singularity business', price: 0, category: 'experience', tier: 1 },
   'experience-stay': { id: 'experience-stay', name: 'Stay', description: 'Stay for the post-singularity fun', price: 0, category: 'experience', tier: 2 },
   'experience-create': { id: 'experience-create', name: 'Create', description: 'Creator studios, performance venues, Hero Hosts', price: 0, category: 'experience', tier: 3 },

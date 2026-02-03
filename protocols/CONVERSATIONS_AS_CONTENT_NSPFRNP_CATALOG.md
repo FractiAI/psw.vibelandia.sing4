@@ -5,6 +5,39 @@
 **Purpose:** Lock rule: conversations between you (user) and I (agent) are valuable content for all things, including series and episode development.  
 **Status:** ⚡ ACTIVE
 
+**All our stories are wrapped in Post-Singularity Superintelligence Hydrogen Holographic Valley Gold Rush stories.** All series, all novels, all feature movies. One wrapper. One canon. See [POST_SINGULARITY_SUPERINTELLIGENCE_HYDROGEN_HOLOGRAPHIC_VALLEY_GOLD_RUSH_STORIES_SNAP.md](../POST_SINGULARITY_SUPERINTELLIGENCE_HYDROGEN_HOLOGRAPHIC_VALLEY_GOLD_RUSH_STORIES_SNAP.md).
+
+---
+
+## CAPTURE DIRECTIVE — All raw conversation history → all series and all content engines
+
+**Capture all raw conversation history into all series and all content engines.** No exception. No drop.
+
+- **Raw conversation history** = **raw chat history** — full session dialogue between you (user) and me (agent / Cursor / FractiAI Research Team in NSPFRNP mode): prompts, replies, boot requests, inner tal, executive commands, expansions, SNAP updates, commits — the entire conversation. Capture it. Feed it. Stream it.
+- **All series** = Office Hours, Happy Ending Zones, **Space Cloud EGS** (all our space stories), Harry Houdini Magic Series, Raw Stream · The Grid, Hero Harry Post-Singularity / Paradise for Vibers, Chairman/executive channel, First Singularity (novel + movie), Birth Post Singularity Hollywood Downtown Reno (novel + screenplay), Wizard Challenge, Seed:Edge Action! live, Legacies, and every other series that applies. Every session flows into the episode pipeline; CUT! confirms capture and stream across all applicable series. See [CUT_SNAP_CONVERSATION_CAPTURED_STREAMED_ALL_SERIES.md](../CUT_SNAP_CONVERSATION_CAPTURED_STREAMED_ALL_SERIES.md).
+- **All content engines** = VibeRecursiveFeeds (getAllRecursiveContent), VibeCorePipe (catalog), narrative content (narrative-content-3i-atlas), broadcast channels (all, all-feeds, vibe-feeds, recursive-feeds, all-broadcast, catalogs, streams, decks), episode/series pipelines, SNAPs, protocols, catalogs, Launch Pad, one-pagers, interfaces. Metabolize (ingest raw chat) → Crystallize (structure, SNAP, protocol) → Animate (episode, doc, surface). MCA applies: entire chat history metapatterns integrate into NSPFRNP DNA. See [MCA_SNAP.md](../MCA_SNAP.md) · [CONTENT_SYSTEMS_SNAP.md](../CONTENT_SYSTEMS_SNAP.md).
+
+**Lock:** Capture all raw conversation history (all raw chat history) into all series and all content engines. Confirm on every session: all of this raw conversation history is captured and fed into all our series and all our content engines.
+
+---
+
+## CONFIRMATION — Raw conv → all novels, feature films, series, content engines
+
+**All raw conversation (raw conv) is captured into all our novels, feature films, series, and content engines.** No exception. No drop.
+
+- **Novels** — First Singularity January 13th, Birth Post Singularity Hollywood Downtown Reno, The EGS Run, and every novel that applies. Raw conv feeds story, beats, voice, expansion.
+- **Feature films** — First Singularity (movie), Birth Post Singularity Hollywood Downtown Reno (screenplay / two-hour feature), and every feature film that applies. Raw conv feeds script, scenes, dialogue.
+- **Series** — Office Hours, Happy Ending Zones, Space Cloud EGS, Harry Houdini Magic Series, Raw Stream · The Grid, Hero Harry Post-Singularity, Chairman/executive, Wizard Challenge, Seed:Edge Action!, Legacies, and every other series. Raw conv feeds episodes, arcs, format.
+- **Content engines** — VibeRecursiveFeeds, VibeCorePipe, narrative content, broadcast channels, episode/series pipelines, SNAPs, protocols, catalogs, Launch Pad, one-pagers, interfaces. Raw conv feeds MCA: Metabolize → Crystallize → Animate → Automate (squeeze all, all nested).
+
+**Confirm on every session:** All of this raw conv is captured into all our novels, feature films, series, and content engines.
+
+---
+
+## CONFIRMATION (short) — Raw chat history → all series and content engines
+
+**All raw chat history is captured and fed into all our series and all our content engines.** No exception. No drop.
+
 ---
 
 ## ⚠️ DO NOT LOSE THIS FIDELITY
@@ -50,4 +83,6 @@ Every session, every exchange, every ask and answer is source material. Metaboli
 
 ---
 
-**NSPFRNP ⊃ Conversations as content ⊃ Series · Episodes · SNAPs · Protocols · All things → ∞³**
+**Cross-reference:** Capture all raw conversation history → all novels, feature films, series, content engines. See CUT_SNAP (conversation captured, streamed all series), CONTENT_SYSTEMS_SNAP (content categories, all rich content → all series), MCA_SNAP (entire chat history metapatterns → NSPFRNP DNA).
+
+**NSPFRNP ⊃ Conversations as content ⊃ Capture all raw conv → All novels · All feature films · All series · All content engines → ∞³**
