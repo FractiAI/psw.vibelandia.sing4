@@ -42,7 +42,15 @@ We offer out of RJ campus. André — Porto Brachy / Angra dos Reis — Ambassad
 
 ## IV. Surfaces
 
-- **Landing:** [interfaces/vibelandia-rio-de-janeiro-campus.html](interfaces/vibelandia-rio-de-janeiro-campus.html)
+- **Landing:** [interfaces/vibelandia-rio-de-janeiro-campus.html](interfaces/vibelandia-rio-de-janeiro-campus.html) — Redirects to yacht-showroom.
+- **Canonical pitch:** [interfaces/yacht-showroom-andre-proposal.html](interfaces/yacht-showroom-andre-proposal.html) — 1,2,3 4×4×4×4. Real pricing. BUY buttons. 50% share. Live real. No demo.
+
+---
+
+## V. Live Real · 50% Share
+
+- **Live real.** Not a demo or simulation. BUY buttons point to Creator.
+- **50% share.** André and partners receive 50%. We send their share.
 
 ---
 

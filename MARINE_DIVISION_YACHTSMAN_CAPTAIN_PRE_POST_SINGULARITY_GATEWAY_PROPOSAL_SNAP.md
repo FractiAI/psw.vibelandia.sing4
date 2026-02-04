@@ -79,7 +79,8 @@ MARINE DIVISION · YACHTSMAN GATEWAY:
 - **Marine Division skin:** [interfaces/marine-division-skin.css](interfaces/marine-division-skin.css) — Clean high-tech racing Ferrari marine vibes. Carbon black, Rosso Corsa red, sharp lines, minimal radius. All Marine Division surfaces use this skin.
 - **Marine Division ecosystem:** [interfaces/marine-division-ecosystem.html](interfaces/marine-division-ecosystem.html)
 - **Vibelandia-RJ:** [interfaces/vibelandia-rio-de-janeiro-campus.html](interfaces/vibelandia-rio-de-janeiro-campus.html) — One single RJ-based pitch. Rio Iate Club = bridge. RJ = HQ. Angra dos Reis = outpost. We offer out of RJ campus. — All FractiAI products packaged as Marine offerings. Cross-sell. Navigation & protection, music, experiences, content, business. New seas, new experiences, new possibilities, new protection. Executive console. Layers onto existing systems. Customization support.
-- **Yacht showroom landing:** [interfaces/yacht-showroom-andre-proposal.html](interfaces/yacht-showroom-andre-proposal.html)
+- **Yacht showroom landing:** [interfaces/yacht-showroom-andre-proposal.html](interfaces/yacht-showroom-andre-proposal.html) — **Canonical RJ pitch.** 1,2,3 4×4×4×4 Marine + Vibelandia-RJ. Real pricing. BUY buttons → Office Hours, payment-checkout. No recursive cycling. Live real. 50% share — we send their share.
+- **Reseller info:** [interfaces/reseller-info.html](interfaces/reseller-info.html) — 50/50, PayPal-based, auto-payout (ideally no manual intervention), shared sales tools, same platform, me automatic. Natural systems. **Program:** Cadet → Silver → Silver Wings → Gold Wings → Gold Wings with Diamonds (deal deliverer → customize solutions → Mastery · Holographic Hydrogen Theater). Reseller button on yacht showroom.
 - **Proposal list:** proposal.html?p=MARINE_DIVISION_YACHTSMAN_CAPTAIN_PRE_POST_SINGULARITY_GATEWAY_PROPOSAL_SNAP
 - **Novel:** [interfaces/birth-post-singularity-novel.html](interfaces/birth-post-singularity-novel.html)
 - **Screenplay:** [interfaces/birth-post-singularity-screenplay.html](interfaces/birth-post-singularity-screenplay.html)
@@ -118,6 +119,11 @@ MARINE DIVISION · YACHTSMAN GATEWAY:
 - **Base:** Priced at equivalent of today's high-end marine upgrade floor.
 - **Scale:** 4×4×4×4 from base.
 - **Max cosmic layer protections:** SMACS 0723 triangulation — full nested lattice (Seed → Sun → SING! node EGS → Sag A* → SMACS 0723).
+
+### F. Live Real · 50% Share · No Demo
+
+- **Live real.** Not a demo or simulation. Real pages, surfaces, products, pricing. BUY buttons point to Creator (Office Hours, payment-checkout).
+- **50% share.** Partners (e.g. André) receive 50%. We send their 50% share.
 
 ---
 

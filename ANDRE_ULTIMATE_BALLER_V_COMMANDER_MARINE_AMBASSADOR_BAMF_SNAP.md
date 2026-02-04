@@ -33,6 +33,8 @@
 
 **Not two. One.** Rio Iate Club = bridge. Vibelandia-RJ = HQ. Angra dos Reis = outpost. We offer out of RJ campus.
 
+**Live real.** Not a demo or simulation. Real pricing. BUY buttons point to Creator. **50% share** — André receives 50%. We send his share.
+
 ## IV. Cross-References
 
 | Ref | SNAP / Surface |
