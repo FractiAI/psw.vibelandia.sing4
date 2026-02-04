@@ -225,52 +225,27 @@
         <p class="back"><a href="music-studio.html">← Music Studio</a> · <a href="school-of-music.html">School of Music</a> · <a href="office-hours.html">Office Hours</a> · <a href="launch-pad.html">Launch Pad</a> · <a href="../index.html">Home</a></p>
 
         <div class="hero">
-            <span class="badge">Seed:Edge Motor · NSPFRNP · Copyright-free · Studio quality</span>
+            <span class="badge">1 · 2 · 3 · 4×4×4×4 — Baller producers</span>
             <h1>Text-to-Track Motor</h1>
-            <p class="tagline">Songs in text → <strong>one WAV (entire song)</strong>. Simple 1, 2, 3. You as executive producer; studio or concert team. Download · Playlist · Catalog.</p>
-            <p style="margin-top: 1rem; font-size: 0.9rem; color: #b0b8c0;"><strong>1</strong> Lyrics · <strong>2</strong> Genre &amp; vibe · <strong>3</strong> Generate entire song</p>
-            <p style="margin-top: 1rem; font-size: 0.95rem; color: #d4af37; font-weight: 700;">Target: <strong>breakout viral hit quality</strong>. No less, always, all songs — why not.</p>
-            <p style="margin-top: 0.35rem; font-size: 0.85rem; color: #9ca3af;">Layer 0 WAV here = brief + proof of concept. Full pipeline (vocals, arrangement, mix, master) delivers that bar.</p>
+            <p class="tagline"><strong>1</strong> Lyrics · <strong>2</strong> Genre · <strong>3</strong> Generate. One WAV per song. For baller producers — simple.</p>
         </div>
 
-        <section class="dream-teams-section" style="margin-bottom: 1.5rem;" aria-label="Produce this song — Hero Jo studio">
-            <h3>Produce this song</h3>
-            <p class="ep-badge">Load lyrics + Reggaetón lineup. One click to fill, then hit Generate entire song (one WAV).</p>
-            <div class="load-row" style="flex-wrap: wrap; gap: 0.75rem;">
-                <a href="text-to-track-motor.html?song=te-quiero-mucho-baby" id="preset-te-quiero" class="btn-load-dream" style="display:inline-block;padding:0.6rem 1rem;text-decoration:none;">Te Quiero Mucho Baby</a>
-                <a href="text-to-track-motor.html?song=dorila-gao" id="preset-dorila" class="btn-load-dream" style="display:inline-block;padding:0.6rem 1rem;text-decoration:none;">Dorila Gao — Club anthem</a>
-            </div>
-        </section>
+        <p id="preset-ready-msg" class="status-msg success" style="display: none; margin-bottom: 1rem;">Lyrics loaded. Hit <strong>Generate</strong> below.</p>
 
-        <p id="preset-ready-msg" class="status-msg success" style="display: none; margin-bottom: 1rem;">Lyrics loaded. Hit <strong>Generate entire song</strong> below.</p>
+        <form id="motor-form" style="max-width: 520px; margin: 0 auto 2rem;">
+            <p style="font-size: 1rem; font-weight: 700; color: #d4af37; margin-bottom: 0.5rem;">1 — Lyrics</p>
+            <div style="margin-bottom: 0.5rem;">
+                <a href="text-to-track-motor.html?song=te-quiero-mucho-baby" id="preset-te-quiero" class="btn-load-dream" style="display:inline-block;padding:0.5rem 0.9rem;text-decoration:none;margin-right:0.5rem;margin-bottom:0.5rem;">Te Quiero Mucho Baby</a>
+                <a href="text-to-track-motor.html?song=dorila-gao" id="preset-dorila" class="btn-load-dream" style="display:inline-block;padding:0.5rem 0.9rem;text-decoration:none;margin-bottom:0.5rem;">Dorila Gao</a>
+            </div>
+            <div class="form-group">
+                <label for="songs-text">Paste or type lyrics</label>
+                <textarea id="songs-text" name="songs-text" placeholder="Paste or type your lyrics here."></textarea>
+            </div>
 
-        <form id="motor-form">
-            <p style="font-size: 0.8rem; font-weight: 700; color: #0d9488; text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 0.5rem;">Step 1 — Lyrics</p>
+            <p style="font-size: 1rem; font-weight: 700; color: #d4af37; margin: 1.25rem 0 0.5rem;">2 — Genre</p>
             <div class="form-group">
-                <label for="songs-text">Songs in text (lyrics, title, or description)</label>
-                <textarea id="songs-text" name="songs-text" placeholder="Paste or type your song text here. The motor uses this + Seed + Edge to generate one entire song (one WAV)."></textarea>
-            </div>
-            <p style="font-size: 0.8rem; font-weight: 700; color: #0d9488; text-transform: uppercase; letter-spacing: 0.1em; margin: 1.25rem 0 0.5rem;">Step 2 — Genre &amp; vibe</p>
-            <div class="form-row">
-                <div class="form-group">
-                    <label for="seed">Seed (origin — e.g. root note name or Hz)</label>
-                    <input type="text" id="seed" name="seed" value="C4" placeholder="C4 or 262">
-                </div>
-                <div class="form-group">
-                    <label for="edge">Edge (destination — e.g. style or duration)</label>
-                    <input type="text" id="edge" name="edge" value="studio" placeholder="studio, ballad, urban">
-                </div>
-            </div>
-            <div class="form-group">
-                <label for="team">Team (artist creator gives exec instruction to his studio or concert team)</label>
-                <select id="team" name="team" style="width:100%;padding:0.75rem 1rem;background:rgba(255,255,255,0.06);border:1px solid rgba(13,148,136,0.3);border-radius:10px;color:#e8e6e3;font-size:1rem;">
-                    <option value="studio">Studio</option>
-                    <option value="concert">Concert</option>
-                </select>
-                <p style="font-size: 0.75rem; color: #6b7280; margin-top: 0.35rem;">New options: Studio · Concert. Exec instruction goes to this team.</p>
-            </div>
-            <div class="form-group">
-                <label for="genre">Genre (musicians selectable by genre — top 6 or configure your own)</label>
+                <label for="genre">Pick a vibe</label>
                 <select id="genre" name="genre" style="width:100%;padding:0.75rem 1rem;background:rgba(255,255,255,0.06);border:1px solid rgba(13,148,136,0.3);border-radius:10px;color:#e8e6e3;font-size:1rem;">
                     <option value="reggaeton">Reggaetón</option>
                     <option value="ballad">Ballad</option>
@@ -278,63 +253,68 @@
                     <option value="rock">Rock</option>
                     <option value="jazz">Jazz</option>
                     <option value="electronic">Electronic</option>
-                    <option value="custom">Configure your own (Hero AI assisted)</option>
+                    <option value="custom">Other (custom)</option>
                 </select>
-                <p style="font-size: 0.75rem; color: #6b7280; margin-top: 0.35rem;">Top 6 genres preset the lineup; or configure your own lineup with Hero AI suggestion.</p>
             </div>
-            <div id="genre-custom-panel" class="genre-custom-panel">
-                <label for="describe-sound">Describe your sound (Hero AI will suggest a lineup)</label>
-                <input type="text" id="describe-sound" class="describe-sound" placeholder="e.g. chill ballad, club banger, live band, minimal electronic">
+            <div id="genre-custom-panel" class="genre-custom-panel" style="margin-top: 0.75rem;">
+                <label for="describe-sound">Describe your sound</label>
+                <input type="text" id="describe-sound" class="describe-sound" placeholder="e.g. chill ballad, club banger">
                 <button type="button" id="btn-suggest-lineup" class="btn-suggest">Suggest lineup</button>
-                <p class="hero-ai-hint">Hero AI suggests musicians from your description. You can then add/remove/reorder below.</p>
-                <label style="margin-top: 1rem;">Your lineup (add musicians in order)</label>
+                <p class="hero-ai-hint">Suggest musicians from your description.</p>
+                <label style="margin-top: 0.75rem;">Your lineup</label>
                 <ul id="custom-lineup-list" class="custom-lineup-list"></ul>
                 <div class="custom-lineup-add">
-                    <select id="add-musician-select">
-                        <option value="">— Add musician —</option>
-                    </select>
-                    <button type="button" id="btn-add-musician" class="btn-add-musician">Add to lineup</button>
+                    <select id="add-musician-select"><option value="">— Add musician —</option></select>
+                    <button type="button" id="btn-add-musician" class="btn-add-musician">Add</button>
                 </div>
             </div>
-            <section class="dream-teams-section" aria-label="Dream teams — you as executive producer">
-                <h3>Dream teams</h3>
-                <p class="ep-badge">You as executive producer — save and load your lineups.</p>
-                <div class="load-row">
-                    <label for="load-dream-team" style="flex: 0 0 auto; font-size: 0.85rem; color: #9ca3af;">Load a dream team</label>
-                    <select id="load-dream-team">
-                        <option value="">— Use genre/lineup above —</option>
-                    </select>
-                </div>
-                <div class="save-row">
-                    <input type="text" id="dream-team-name" placeholder="Name this dream team" maxlength="80">
-                    <button type="button" id="btn-save-dream-team" class="btn-save-dream">Save current lineup as dream team</button>
-                </div>
-                <ul id="dream-teams-list" class="dream-teams-list"></ul>
-            </section>
-            <div class="form-group">
-                <label for="executive">Executive instruction (BPM, tone, density)</label>
-                <input type="text" id="executive" name="executive" value="smooth finish, studio quality, 92 BPM" placeholder="smooth finish, 92 BPM, warm">
-            </div>
-            <p style="font-size: 0.8rem; font-weight: 700; color: #0d9488; text-transform: uppercase; letter-spacing: 0.1em; margin: 1.25rem 0 0.5rem;">Step 3 — Generate entire song</p>
-            <p style="font-size: 0.85rem; color: #9ca3af; margin-bottom: 1rem;">One WAV (full song). Layers mixed automatically. 6 layers default (Bass, Drums, Pad, Lead, Keys, more).</p>
-            <div class="form-group" style="display: none;" id="num-tracks-wrap">
-                <label for="num-tracks">Layers in mix (1–12)</label>
-                <select id="num-tracks" name="num-tracks" style="width:100%;padding:0.75rem 1rem;background:rgba(255,255,255,0.06);border:1px solid rgba(13,148,136,0.3);border-radius:10px;color:#e8e6e3;font-size:1rem;">
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                    <option value="5">5</option>
-                    <option value="6" selected>6</option>
-                    <option value="7">7</option>
-                    <option value="8">8</option>
-                    <option value="9">9</option>
-                    <option value="10">10</option>
-                    <option value="11">11</option>
-                    <option value="12">12</option>
-                </select>
-            </div>
+
+            <p style="font-size: 1rem; font-weight: 700; color: #d4af37; margin: 1.25rem 0 0.5rem;">3 — Generate</p>
             <button type="submit" class="btn-generate" id="btn-generate">Generate entire song (one WAV)</button>
+
+            <details id="more-options" style="margin-top: 1.5rem; padding: 1rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.08); border-radius: 10px;">
+                <summary style="cursor: pointer; font-size: 0.9rem; color: #9ca3af;">More options (team, BPM, etc.)</summary>
+                <div style="margin-top: 1rem;">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="seed">Seed</label>
+                            <input type="text" id="seed" name="seed" value="C4" placeholder="C4">
+                        </div>
+                        <div class="form-group">
+                            <label for="edge">Edge</label>
+                            <input type="text" id="edge" name="edge" value="studio" placeholder="studio">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="team">Team</label>
+                        <select id="team" name="team" style="width:100%;padding:0.75rem 1rem;background:rgba(255,255,255,0.06);border:1px solid rgba(13,148,136,0.3);border-radius:10px;color:#e8e6e3;font-size:1rem;">
+                            <option value="studio">Studio</option>
+                            <option value="concert">Concert</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="executive">Vibe (BPM, tone)</label>
+                        <input type="text" id="executive" name="executive" value="smooth finish, studio quality, 92 BPM" placeholder="e.g. 92 BPM, warm">
+                    </div>
+                    <div style="margin-top: 0.75rem;">
+                        <label for="load-dream-team">Load dream team</label>
+                        <select id="load-dream-team" style="width:100%;padding:0.5rem;background:rgba(255,255,255,0.06);border:1px solid rgba(13,148,136,0.3);border-radius:8px;color:#e8e6e3;">
+                            <option value="">— Use genre above —</option>
+                        </select>
+                    </div>
+                    <div class="save-row" style="margin-top: 0.75rem;">
+                        <input type="text" id="dream-team-name" placeholder="Name this dream team" maxlength="80" style="flex:1;padding:0.5rem;background:rgba(255,255,255,0.06);border:1px solid rgba(13,148,136,0.3);border-radius:8px;color:#e8e6e3;">
+                        <button type="button" id="btn-save-dream-team" class="btn-save-dream">Save lineup</button>
+                    </div>
+                    <ul id="dream-teams-list" class="dream-teams-list"></ul>
+                    <div class="form-group" style="display: none;" id="num-tracks-wrap">
+                        <label for="num-tracks">Layers in mix</label>
+                        <select id="num-tracks" name="num-tracks" style="width:100%;padding:0.5rem;background:rgba(255,255,255,0.06);border:1px solid rgba(13,148,136,0.3);border-radius:8px;color:#e8e6e3;">
+                            <option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6" selected>6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option><option value="10">10</option><option value="11">11</option><option value="12">12</option>
+                        </select>
+                    </div>
+                </div>
+            </details>
         </form>
 
         <div class="output-section" id="output-section">
@@ -346,20 +326,18 @@
             <button type="button" class="btn-add-catalog" id="btn-copy-catalog" style="margin-left: 0;">Copy catalog entry (markdown)</button>
         </div>
 
-        <div class="playlist-section">
-            <h3>Playlist (this session)</h3>
+        <div class="playlist-section" style="max-width: 520px; margin: 0 auto;">
+            <h3 style="font-size: 0.9rem;">Playlist (this session)</h3>
             <ul class="playlist-list" id="playlist-list"></ul>
         </div>
 
-        <div class="catalog-section">
-            <h3>Catalog (NSPFRNP)</h3>
+        <div class="catalog-section" style="max-width: 520px; margin: 0 auto;">
+            <h3 style="font-size: 0.9rem;">Catalog</h3>
             <ul class="catalog-list" id="catalog-list"></ul>
         </div>
 
         <footer>
-            <p style="margin-bottom: 0.5rem; font-size: 0.88rem; color: #9ca3af;"><strong>Studio fees for studio. Space fees for space. Campus fees for campus. WINK! fees for WINK!.</strong> And so on throughout — on all book. Studio fees are <strong>per song</strong> (one full production). <a href="baller-v-plans-booking.html#studio-fees">Plans &amp; booking fees (detailed) →</a></p>
-            <p style="margin-bottom: 0.5rem; font-size: 0.88rem; color: #d4af37;"><strong>Quality bar:</strong> <a href="../BREAKOUT_VIRAL_HIT_QUALITY_NO_LESS_ALWAYS_ALL_SONGS_SNAP.md" style="color: #d4af37;">Breakout viral hit quality — no less, always, all songs. Why not.</a></p>
-            <p><a href="baller-v-producer.html">BALLER V PRODUCER!</a> · <a href="baller-v-plans-booking.html#studio-fees">Studio fees</a> · <a href="music-studio.html">Music Studio</a> · <a href="../protocols/TEXT_TO_TRACK_MOTOR_SEED_EDGE_NSPFRNP.md">Protocol</a> · Text-to-Track Motor · Seed:Edge · NSPFRNP</p>
+            <p><a href="music-studio.html">Music Studio</a> · <a href="baller-v-producer.html">BALLER V PRODUCER!</a> · <a href="baller-v-plans-booking.html#studio-fees">Fees (4×4×4×4)</a> · <a href="../index.html">Home</a></p>
         </footer>
     </div>
 

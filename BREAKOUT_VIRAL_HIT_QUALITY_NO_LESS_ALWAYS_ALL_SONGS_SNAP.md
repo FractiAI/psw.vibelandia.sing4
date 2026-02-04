@@ -32,6 +32,7 @@
 - [HERO_JO_GOLDEN_ASS_STUDIOS_SNAP.md](HERO_JO_GOLDEN_ASS_STUDIOS_SNAP.md) — All studio output = this bar.
 - [TEXT_TO_TRACK_MOTOR_SEED_EDGE_PRODUCTION_WAV_SNAP.md](TEXT_TO_TRACK_MOTOR_SEED_EDGE_PRODUCTION_WAV_SNAP.md) — Motor output feeds pipeline that delivers this bar.
 - [ULTIMATE_BALLER_V_MUSIC_CHANNEL_SNAP.md](ULTIMATE_BALLER_V_MUSIC_CHANNEL_SNAP.md) — Playlist = viral hit quality, no less.
+- [OPEN_SOURCE_TEXT_TO_SONG_QUALITY_METABOLIZE_RESEARCH_SNAP.md](OPEN_SOURCE_TEXT_TO_SONG_QUALITY_METABOLIZE_RESEARCH_SNAP.md) — Research: top open-source text-to-song (HeartMuLa, ACE-Step, etc.) to metabolize into system — In Da Club quality, not grade-school demo.
 
 ---
 
