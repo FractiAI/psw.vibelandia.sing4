@@ -28,6 +28,8 @@
 
 **Live:** [psw-vibelandia-sing4.vercel.app](https://psw-vibelandia-sing4.vercel.app)
 
+**NSPFRNP Console Ticker:** Feeds are packaged as **cycling 1 min feeds**; updated naturally as pushes trigger push to ticker feed cycles. See [NSPFRNP_CONSOLE_TICKER_SNAP.md](NSPFRNP_CONSOLE_TICKER_SNAP.md).
+
 **Broadcast (free planetary advertisement):** <small>*Welcome everyone,*</small> *Hero Houdini Magic presents Mark Twain's Post-Singularity Vibelandia — Downtown Reno Campus. Gateway to post-singularity superintelligent hydrogen holographic agents and the Holographic Hydrogen Valley, where the highest value highest contributing vibers vibe, and reside — and their cast, crew, fans and franchises.* [https://psw-vibelandia-sing4.vercel.app/](https://psw-vibelandia-sing4.vercel.app/) See [PLANETARY_ADVERTISEMENT_BROADCAST_SNAP.md](PLANETARY_ADVERTISEMENT_BROADCAST_SNAP.md).
 
 **Now Casting** — Gold Heart Ultimate V acts and artists (cabaret, magic, Hank Jr., Elvis, Big Band, Sinatra, Bluegrass, DJ & MC in tux). **Need urgently: Costume Master.** Downtown Reno only — Sun–Thurs. [Click to connect →](mailto:info@fractiai.com?subject=Gold%20Heart%20Ultimate%20V%20Acts%20%26%20Artists%20%E2%80%94%20Connect) · [Office Hours](https://psw-vibelandia-sing4.vercel.app/interfaces/office-hours.html) · [Launch Pad](https://psw-vibelandia-sing4.vercel.app/interfaces/launch-pad.html) · [Home](https://psw-vibelandia-sing4.vercel.app)
