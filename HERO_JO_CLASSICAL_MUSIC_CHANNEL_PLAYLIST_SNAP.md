@@ -9,11 +9,11 @@
 
 ## CANONICAL RULE
 
-**Hero Jo Classical** = a **music channel and playlist** spun off from Hero Jo's Golden Ass Studios. Content: **classical versions of pop hits** and **new projects** — sure to satisfy the **classical vibe** and the **frontierman's palette**.
+**Hero Jo Classical** = a **music channel and playlist** spun off from Hero Jo's Golden Backdoor Studios. Content: **classical versions of pop hits** and **new projects** — sure to satisfy the **classical vibe** and the **frontierman's palette**.
 
 - **Channel:** Hero Jo Classical — classical arrangements, orchestral / chamber / piano treatments of pop hits; new classical-original and crossover projects.
 - **Playlist:** Curated classical vibe: pop hits reimagined in classical form; new works in the same spirit. Frontierman's palette = taste for frontier, clarity, and the classical tradition without losing the hook.
-- **Placement:** Under Hero Jo's Golden Ass Studios · Vibelandia University School of Music. Own page: [interfaces/hero-jo-classical.html](interfaces/hero-jo-classical.html). Linked from Music Studio, Ultimate Baller V Music Channel, School of Music, Office Hours, Launch Pad.
+- **Placement:** Under Hero Jo's Golden Backdoor Studios · Vibelandia University School of Music. Own page: [interfaces/hero-jo-classical.html](interfaces/hero-jo-classical.html). Linked from Music Studio, Ultimate Baller V Music Channel, School of Music, Office Hours, Launch Pad.
 - **Use:** Channel landing, playlist browse, classical vibe frontierman's palette tagline. Content Division · NSPFRNP.
 
 ---
@@ -28,10 +28,10 @@
 
 ## CROSS-REFERENCES
 
-- [HERO_JO_GOLDEN_ASS_STUDIOS_SNAP.md](HERO_JO_GOLDEN_ASS_STUDIOS_SNAP.md) — Parent studio; Hero Jo Classical spun off from Hero Jo's Golden Ass Studios.
+- [HERO_JO_GOLDEN_BACKDOOR_STUDIOS_SNAP.md](HERO_JO_GOLDEN_BACKDOOR_STUDIOS_SNAP.md) — Parent studio; Hero Jo Classical spun off from Hero Jo's Golden Backdoor Studios.
 - [ULTIMATE_BALLER_V_MUSIC_CHANNEL_SNAP.md](ULTIMATE_BALLER_V_MUSIC_CHANNEL_SNAP.md) — Sister channel (members only, exclusive productions).
 - [VIBELANDIA_UNIVERSITY_SCHOOL_OF_MUSIC_SNAP.md](VIBELANDIA_UNIVERSITY_SCHOOL_OF_MUSIC_SNAP.md) · [interfaces/school-of-music.html](interfaces/school-of-music.html) — School of Music.
 
 ---
 
-**NSPFRNP ⊃ Hero Jo Classical ⊃ Hero Jo's Golden Ass Studios ⊃ School of Music ⊃ Classical vibe · Frontierman's palette → ∞³**
+**NSPFRNP ⊃ Hero Jo Classical ⊃ Hero Jo's Golden Backdoor Studios ⊃ School of Music ⊃ Classical vibe · Frontierman's palette → ∞³**

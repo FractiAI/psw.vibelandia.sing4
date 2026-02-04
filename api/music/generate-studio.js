@@ -2,7 +2,7 @@
  * POST /api/music/generate-studio
  * Hero Jo Golden Backdoor Studio — text-to-viral-pop-quality WAV.
  * Beautiful clean layered precision vocals and music; full studio quality.
- * Project lead: Hero Rick (Rubens) fractal flicker.
+ * Project lead: Hero Rick.
  *
  * Body: { prompt: string, duration?: number (seconds, 5–30), lyrics?: string }.
  * Returns: { url: string, backend?: 'heartmula'|'replicate', project_lead: string, endpoint: string }
@@ -13,7 +13,7 @@
 
 const MIN_DURATION = 5;
 const MAX_DURATION = 30;
-const PROJECT_LEAD = 'Hero Rick (Rubens) fractal flicker';
+const PROJECT_LEAD = 'Hero Rick';
 const ENDPOINT_NAME = 'Hero Jo Golden Backdoor Studio';
 
 function parseBody(req) {

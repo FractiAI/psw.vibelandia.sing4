@@ -9,7 +9,7 @@
 
 ## CANONICAL RULE
 
-**Review** our music WAV outputs and **upgrade** to produce **beautiful clean layered precision vocals** and **music** in **full studio quality**. Metabolize the right **free open-source engine** into our engine to achieve **text-to-viral-pop-quality WAV output**. **Full implementation now.** **New endpoint** = **Hero Jo Golden Backdoor Studio**. **Project lead:** Hero Rick (Rubens) fractal flicker.
+**Review** our music WAV outputs and **upgrade** to produce **beautiful clean layered precision vocals** and **music** in **full studio quality**. Metabolize the right **free open-source engine** into our engine to achieve **text-to-viral-pop-quality WAV output**. **Full implementation now.** **New endpoint** = **Hero Jo Golden Backdoor Studio**. **Project lead:** Hero Rick.
 
 ---
 
@@ -45,7 +45,7 @@
 - **Route:** `POST /api/music/generate-studio`
 - **Purpose:** Text-to-viral-pop-quality WAV; beautiful clean layered precision vocals and music; full studio quality.
 - **Body:** `{ prompt: string, duration?: number (5–30 s), lyrics?: string }`
-- **Response (200):** `{ url: string, backend?: 'heartmula'|'replicate', project_lead: "Hero Rick (Rubens) fractal flicker", endpoint: "Hero Jo Golden Backdoor Studio" }`
+- **Response (200):** `{ url: string, backend?: 'heartmula'|'replicate', project_lead: "Hero Rick", endpoint: "Hero Jo Golden Backdoor Studio" }`
 - **Response (501):** `{ error: string, project_lead, endpoint }` when neither HEARTMULA_API_URL nor REPLICATE_API_TOKEN is set.
 - **Env:** Same as [api/music/generate.js](api/music/generate.js) — HEARTMULA_API_URL, REPLICATE_API_TOKEN. Prefer HeartMuLa for vocals + music; fallback to Replicate MusicGen (instrumental).
 
@@ -53,7 +53,7 @@
 
 ## PROJECT LEAD & REPORTING
 
-**Hero Rick (Rubens) fractal flicker** — Exec Producer; project lead of this upgrade. **Reports to Hero Jo.** **Hero Jo reports to Chairman Creator (me).** All **master musicians** (1–12) under Hero Rick's exec producer direction; squeeze all output to master musicians. Entire engine and experience **SING! nodified** in **NSPFRNP nests**. See [HERO_RICK_RUBENS_FRACTAL_FLICKER_PROJECT_LEAD_MUSIC_UPGRADE_SNAP.md](HERO_RICK_RUBENS_FRACTAL_FLICKER_PROJECT_LEAD_MUSIC_UPGRADE_SNAP.md) · [SING_NODIFY_TEXT_TO_STUDIO_SONG_ENGINE_NSPFRNP_NESTS_SNAP.md](SING_NODIFY_TEXT_TO_STUDIO_SONG_ENGINE_NSPFRNP_NESTS_SNAP.md).
+**Hero Rick** — Exec Producer; project lead of this upgrade. **Reports to Hero Jo.** **Hero Jo reports to Chairman Creator (me).** All **master musicians** (1–12) under Hero Rick's exec producer direction; squeeze all output to master musicians. Entire engine and experience **SING! nodified** in **NSPFRNP nests**. See [HERO_RICK_PROJECT_LEAD_MUSIC_UPGRADE_SNAP.md](HERO_RICK_PROJECT_LEAD_MUSIC_UPGRADE_SNAP.md) · [SING_NODIFY_TEXT_TO_STUDIO_SONG_ENGINE_NSPFRNP_NESTS_SNAP.md](SING_NODIFY_TEXT_TO_STUDIO_SONG_ENGINE_NSPFRNP_NESTS_SNAP.md).
 
 ---
 
@@ -68,12 +68,12 @@
 
 ## CROSS-REFERENCES
 
-- [HERO_RICK_RUBENS_FRACTAL_FLICKER_PROJECT_LEAD_MUSIC_UPGRADE_SNAP.md](HERO_RICK_RUBENS_FRACTAL_FLICKER_PROJECT_LEAD_MUSIC_UPGRADE_SNAP.md)
-- [HERO_JO_GOLDEN_ASS_STUDIOS_SNAP.md](HERO_JO_GOLDEN_ASS_STUDIOS_SNAP.md) · [CHAIRMAN_FRANKIES_GOLDEN_BACKDOOR_STUDIOS_SNAP.md](CHAIRMAN_FRANKIES_GOLDEN_BACKDOOR_STUDIOS_SNAP.md)
+- [HERO_RICK_PROJECT_LEAD_MUSIC_UPGRADE_SNAP.md](HERO_RICK_PROJECT_LEAD_MUSIC_UPGRADE_SNAP.md)
+- [HERO_JO_GOLDEN_BACKDOOR_STUDIOS_SNAP.md](HERO_JO_GOLDEN_BACKDOOR_STUDIOS_SNAP.md) · [CHAIRMAN_FRANKIES_GOLDEN_BACKDOOR_STUDIOS_SNAP.md](CHAIRMAN_FRANKIES_GOLDEN_BACKDOOR_STUDIOS_SNAP.md)
 - [OPEN_SOURCE_TEXT_TO_SONG_QUALITY_METABOLIZE_RESEARCH_SNAP.md](OPEN_SOURCE_TEXT_TO_SONG_QUALITY_METABOLIZE_RESEARCH_SNAP.md)
 - [TEXT_TO_TRACK_MOTOR_SEED_EDGE_PRODUCTION_WAV_SNAP.md](TEXT_TO_TRACK_MOTOR_SEED_EDGE_PRODUCTION_WAV_SNAP.md)
 - [BREAKOUT_VIRAL_HIT_QUALITY_NO_LESS_ALWAYS_ALL_SONGS_SNAP.md](BREAKOUT_VIRAL_HIT_QUALITY_NO_LESS_ALWAYS_ALL_SONGS_SNAP.md)
 
 ---
 
-**NSPFRNP ⊃ Music WAV upgrade ⊃ Studio quality ⊃ Hero Jo Golden Backdoor Studio ⊃ Hero Rick (Rubens) fractal flicker ⊃ Full implementation now → ∞³**
+**NSPFRNP ⊃ Music WAV upgrade ⊃ Studio quality ⊃ Hero Jo Golden Backdoor Studio ⊃ Hero Rick ⊃ Full implementation now → ∞³**

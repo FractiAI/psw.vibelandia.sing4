@@ -97,8 +97,8 @@ Research as of Feb 2026. All are open-source with model weights available; suita
 
 ## IMPLEMENTED — STUDIO QUALITY · HERO JO GOLDEN BACKDOOR STUDIO (NEW ENDPOINT)
 
-- **New endpoint:** [api/music/generate-studio.js](api/music/generate-studio.js) — **Hero Jo Golden Backdoor Studio**; text-to-viral-pop-quality WAV; beautiful clean **layered precision vocals** and **music** in **full studio quality**. Same backends (HeartMuLa preferred, Replicate fallback); returns `project_lead: "Hero Rick (Rubens) fractal flicker"` and `endpoint: "Hero Jo Golden Backdoor Studio"`.
-- **Project lead:** Hero Rick (Rubens) fractal flicker — project lead of the upgrade. See [HERO_RICK_RUBENS_FRACTAL_FLICKER_PROJECT_LEAD_MUSIC_UPGRADE_SNAP.md](HERO_RICK_RUBENS_FRACTAL_FLICKER_PROJECT_LEAD_MUSIC_UPGRADE_SNAP.md).
+- **New endpoint:** [api/music/generate-studio.js](api/music/generate-studio.js) — **Hero Jo Golden Backdoor Studio**; text-to-viral-pop-quality WAV; beautiful clean **layered precision vocals** and **music** in **full studio quality**. Same backends (HeartMuLa preferred, Replicate fallback); returns `project_lead: "Hero Rick fractal flicker"` and `endpoint: "Hero Jo Golden Backdoor Studio"`.
+- **Project lead:** Hero Rick fractal flicker — project lead of the upgrade. See [HERO_RICK_PROJECT_LEAD_MUSIC_UPGRADE_SNAP.md](HERO_RICK_PROJECT_LEAD_MUSIC_UPGRADE_SNAP.md).
 - **Front-end:** Text-to-Track Motor tries `/api/music/generate-studio` first (Hero Jo Golden Backdoor Studio), then `/api/music/generate` (In Da Club quality), then procedural WAV.
 - **Protocol:** [protocols/TEXT_TO_SONG_STUDIO_QUALITY_HERO_JO_GOLDEN_BACKDOOR.md](protocols/TEXT_TO_SONG_STUDIO_QUALITY_HERO_JO_GOLDEN_BACKDOOR.md). **SNAP:** [MUSIC_WAV_UPGRADE_STUDIO_QUALITY_HERO_JO_GOLDEN_BACKDOOR_SNAP.md](MUSIC_WAV_UPGRADE_STUDIO_QUALITY_HERO_JO_GOLDEN_BACKDOOR_SNAP.md).
 

@@ -11,7 +11,7 @@
 
 **JS Bach** = **Dean of Vibelandia University School of Music** and **Chairman of Chairmen of Music**. Announced with **permanent residency in Reno** — full story. **The Chairman of Chairmen of Music is in the house.**
 
-- **Dean:** JS Bach announced as **Dean of the School of Music** (Vibelandia University). First school, first dean. Operational face = Hero Jo's Golden Ass Studios (Music Studio / Jukebox; Hero Jo took over from Chairman Frankie); Dean Bach oversees the school — curriculum, spirit, golden-age-through-now continuum.
+- **Dean:** JS Bach announced as **Dean of the School of Music** (Vibelandia University). First school, first dean. Operational face = Hero Jo's Golden Backdoor Studios (Music Studio / Jukebox; Hero Jo took over from Chairman Frankie); Dean Bach oversees the school — curriculum, spirit, golden-age-through-now continuum.
 - **Chairman of Chairmen of Music:** Canonical title for JS Bach — **the Chairman of Chairmen of Music is in the house.** Use in press, Jukebox, Office Hours, Launch Pad, merch, social.
 - **Permanent residency Reno:** JS Bach takes **permanent residency** at Vibelandia Reno Campus (Downtown Reno). Full story in press release; honored.
 - **Placement:** School of Music SNAP (Dean = JS Bach); Music Studio / Jukebox; PR 21; Launch Pad, Office Hours where Music / Dean / residency apply.
@@ -29,7 +29,7 @@
 ## CROSS-REFERENCES
 
 - [VIBELANDIA_UNIVERSITY_SCHOOL_OF_MUSIC_SNAP.md](VIBELANDIA_UNIVERSITY_SCHOOL_OF_MUSIC_SNAP.md)
-- [HERO_JO_GOLDEN_ASS_STUDIOS_SNAP.md](HERO_JO_GOLDEN_ASS_STUDIOS_SNAP.md) — Current Music Studio name; Hero Jo took over from Chairman Frankie.
+- [HERO_JO_GOLDEN_BACKDOOR_STUDIOS_SNAP.md](HERO_JO_GOLDEN_BACKDOOR_STUDIOS_SNAP.md) — Current Music Studio name; Hero Jo took over from Chairman Frankie.
 - [CHAIRMAN_FRANKIES_GOLDEN_BACKDOOR_STUDIOS_SNAP.md](CHAIRMAN_FRANKIES_GOLDEN_BACKDOOR_STUDIOS_SNAP.md) — Founding name.
 - [MUSIC_STUDIO_CONTENT_DIVISION_SNAP.md](MUSIC_STUDIO_CONTENT_DIVISION_SNAP.md)
 - [PRESS_RELEASES_NEW_ARRIVALS_VIBELANDIA_RENO.md](PRESS_RELEASES_NEW_ARRIVALS_VIBELANDIA_RENO.md)

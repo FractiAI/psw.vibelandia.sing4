@@ -9,7 +9,7 @@
 
 ## CANONICAL RULE
 
-**Music Studio** = new division within **Content Division** — full bore same as all other divisions (Space Cloud, Office Hours, Happy Ending Zones, etc.). **Canonical name: Hero Jo's Golden Ass Studios.** Hero Jo took over the studio from Chairman Frankie. Operational face of Vibelandia University School of Music. Own jukebox landing page; button on Office Hours and Launch Pad. See [HERO_JO_GOLDEN_ASS_STUDIOS_SNAP.md](HERO_JO_GOLDEN_ASS_STUDIOS_SNAP.md) · [CHAIRMAN_FRANKIES_GOLDEN_BACKDOOR_STUDIOS_SNAP.md](CHAIRMAN_FRANKIES_GOLDEN_BACKDOOR_STUDIOS_SNAP.md). We are now vibing music together in collaborative flow with excellent output and quality observed. See [VIBELANDIA_UNIVERSITY_SCHOOL_OF_MUSIC_SNAP.md](VIBELANDIA_UNIVERSITY_SCHOOL_OF_MUSIC_SNAP.md) · [VIBING_MUSIC_TOGETHER_COLLABORATIVE_FLOW_EXCELLENT_OUTPUT_QUALITY_SNAP.md](VIBING_MUSIC_TOGETHER_COLLABORATIVE_FLOW_EXCELLENT_OUTPUT_QUALITY_SNAP.md).
+**Music Studio** = new division within **Content Division** — full bore same as all other divisions (Space Cloud, Office Hours, Happy Ending Zones, etc.). **Canonical name: Hero Jo's Golden Backdoor Studios.** Hero Jo took over the studio from Chairman Frankie. Operational face of Vibelandia University School of Music. Own jukebox landing page; button on Office Hours and Launch Pad. See [HERO_JO_GOLDEN_ASS_STUDIOS_SNAP.md](HERO_JO_GOLDEN_ASS_STUDIOS_SNAP.md) · [CHAIRMAN_FRANKIES_GOLDEN_BACKDOOR_STUDIOS_SNAP.md](CHAIRMAN_FRANKIES_GOLDEN_BACKDOOR_STUDIOS_SNAP.md). We are now vibing music together in collaborative flow with excellent output and quality observed. See [VIBELANDIA_UNIVERSITY_SCHOOL_OF_MUSIC_SNAP.md](VIBELANDIA_UNIVERSITY_SCHOOL_OF_MUSIC_SNAP.md) · [VIBING_MUSIC_TOGETHER_COLLABORATIVE_FLOW_EXCELLENT_OUTPUT_QUALITY_SNAP.md](VIBING_MUSIC_TOGETHER_COLLABORATIVE_FLOW_EXCELLENT_OUTPUT_QUALITY_SNAP.md).
 
 - **Placement:** Music Studios sit **under School of Music**; each Music Studio has its **own page**; Music Studios are listed on the **Jukebox page**. School of Music landing: [interfaces/school-of-music.html](interfaces/school-of-music.html).
 - **Jukebox landing:** [interfaces/music-studio.html](interfaces/music-studio.html) — Music Studio · Content Division; lists Music Studios under School of Music; playlist and catalog.
@@ -44,9 +44,9 @@
 - [PRESS_RELEASES_NEW_ARRIVALS_VIBELANDIA_RENO.md](PRESS_RELEASES_NEW_ARRIVALS_VIBELANDIA_RENO.md) — PR 20: full press release.
 - [MUSIC_STUDIO_PERSONALITY_ALL_ABOUT_DA_ASS_BABY_SNAP.md](MUSIC_STUDIO_PERSONALITY_ALL_ABOUT_DA_ASS_BABY_SNAP.md) — Studio personality: all about da ass baby; layered.
 - [SHE_GOT_DA_BIG_ASS_DAT_MEK_DA_MEN_GO_GAGA_T_SHIRT_BRANDING_DANCE_ANTHEM_TAG_SNAP.md](SHE_GOT_DA_BIG_ASS_DAT_MEK_DA_MEN_GO_GAGA_T_SHIRT_BRANDING_DANCE_ANTHEM_TAG_SNAP.md) — T-shirt branding · dance anthem song tag.
-- [HERO_JO_GOLDEN_ASS_STUDIOS_SNAP.md](HERO_JO_GOLDEN_ASS_STUDIOS_SNAP.md) — Canonical name: Hero Jo's Golden Ass Studios; Hero Jo took over from Chairman Frankie.
+- [HERO_JO_GOLDEN_ASS_STUDIOS_SNAP.md](HERO_JO_GOLDEN_ASS_STUDIOS_SNAP.md) — Canonical name: Hero Jo's Golden Backdoor Studios; Hero Jo took over from Chairman Frankie.
 - [CHAIRMAN_FRANKIES_GOLDEN_BACKDOOR_STUDIOS_SNAP.md](CHAIRMAN_FRANKIES_GOLDEN_BACKDOOR_STUDIOS_SNAP.md) — Founding name.
 
 ---
 
-**NSPFRNP ⊃ Hero Jo's Golden Ass Studios ⊃ Music Studio ⊃ Content Division ⊃ Jukebox → ∞³**
+**NSPFRNP ⊃ Hero Jo's Golden Backdoor Studios ⊃ Music Studio ⊃ Content Division ⊃ Jukebox → ∞³**

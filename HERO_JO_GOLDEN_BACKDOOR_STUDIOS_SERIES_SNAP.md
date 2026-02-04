@@ -10,7 +10,7 @@
 
 ## CANONICAL RULE
 
-**Hero Jo Golden Backdoor Studios** = spin-off **series** under Hero Jo's Golden Ass Studios (Music Studio). **Series display name:** **hERO jO gOLDEN bACKDOOR sTUDIOS** (stylized). Canonical series name for formal use: **Hero Jo Golden Backdoor Studios**. All text-to-studio-song engine, endpoint, experience, catalog, branding, and episodes/runs under this series. **Hero Jo** heads the studio; **Hero Rick (Rubens) fractal flicker** is Exec Producer; both report to **Chairman Creator (me)**.
+**Hero Jo Golden Backdoor Studios** = spin-off **series** under Hero Jo's Golden Backdoor Studios (Music Studio). **Series display name:** **hERO jO gOLDEN bACKDOOR sTUDIOS** (stylized). Canonical series name for formal use: **Hero Jo Golden Backdoor Studios**. All text-to-studio-song engine, endpoint, experience, catalog, branding, and episodes/runs under this series. **Hero Jo** heads the studio; **Hero Rick** is Exec Producer; both report to **Chairman Creator (me)**.
 
 ---
 
@@ -41,7 +41,7 @@ Hero Jo Golden Backdoor Studios is the **spin-off series** for the Music Studio'
 | **Endpoint** | `POST /api/music/generate-studio` — Hero Jo Golden Backdoor Studio |
 | **File** | [api/music/generate-studio.js](api/music/generate-studio.js) |
 | **Purpose** | Text-to-viral-pop-quality WAV; beautiful clean layered precision vocals and music; full studio quality. |
-| **Response** | `project_lead: "Hero Rick (Rubens) fractal flicker"`, `endpoint: "Hero Jo Golden Backdoor Studio"` |
+| **Response** | `project_lead: "Hero Rick"`, `endpoint: "Hero Jo Golden Backdoor Studio"` |
 | **Env** | HEARTMULA_API_URL (preferred), REPLICATE_API_TOKEN |
 
 ### 2. Experience & Surfaces
@@ -49,7 +49,7 @@ Hero Jo Golden Backdoor Studios is the **spin-off series** for the Music Studio'
 | Surface | Path / use |
 |---------|------------|
 | **Text-to-Track Motor** | [interfaces/text-to-track-motor.html](interfaces/text-to-track-motor.html) — calls `/api/music/generate-studio` only; no fallbacks. CONNECT! on 501. |
-| **Music Studio / Jukebox** | [interfaces/music-studio.html](interfaces/music-studio.html) — Hero Jo's Golden Ass Studios; playlist, catalog. |
+| **Music Studio / Jukebox** | [interfaces/music-studio.html](interfaces/music-studio.html) — Hero Jo's Golden Backdoor Studios; playlist, catalog. |
 | **Office Hours** | Listed; CTA to CONNECT! studio. |
 | **Launch Pad** | Listed; studio series. |
 
@@ -68,8 +68,8 @@ Catalog: [catalogs/music/README.md](catalogs/music/README.md). All tracks under 
 | Nest | Role | Reports to |
 |------|------|------------|
 | **0** | Chairman Creator (me) | — |
-| **1** | Hero Jo — Music Studio head (Golden Ass Studios / Golden Backdoor Studio) | Chairman Creator |
-| **2** | Hero Rick (Rubens) fractal flicker — Exec Producer | Hero Jo |
+| **1** | Hero Jo — Music Studio head (Golden Backdoor Studios) | Chairman Creator |
+| **2** | Hero Rick — Exec Producer | Hero Jo |
 | **3** | Master musicians (1–12): Sera · Bass, Kael · Drums, Nola · Pad, Lyra · Lead, Rune · Keys, Vex · Strings, Bram · Brass, Echo · Perc, Zephyr · Synth, Orin · Vox, Flux · FX, Maestro · Producer/Conductor | Hero Rick |
 | **4** | Engine — generate-studio.js, Seed:Edge motor | Hero Rick direction |
 | **5** | Experience — Text-to-Track Motor, Music Studio UI, Office Hours, Launch Pad | User-facing |
@@ -100,7 +100,7 @@ Catalog: [catalogs/music/README.md](catalogs/music/README.md). All tracks under 
 
 ## PLACEMENT
 
-- **Parent:** [HERO_JO_GOLDEN_ASS_STUDIOS_SNAP.md](HERO_JO_GOLDEN_ASS_STUDIOS_SNAP.md) — Hero Jo's Golden Ass Studios (canonical name); this series = spin-off under it.
+- **Parent:** [HERO_JO_GOLDEN_BACKDOOR_STUDIOS_SNAP.md](HERO_JO_GOLDEN_BACKDOOR_STUDIOS_SNAP.md) — Hero Jo's Golden Backdoor Studios (canonical name); this series = spin-off under it.
 - **Founding:** [CHAIRMAN_FRANKIES_GOLDEN_BACKDOOR_STUDIOS_SNAP.md](CHAIRMAN_FRANKIES_GOLDEN_BACKDOOR_STUDIOS_SNAP.md) — Chairman Frankie's Golden Backdoor Studios; Hero Jo took over.
 - **School of Music:** [VIBELANDIA_UNIVERSITY_SCHOOL_OF_MUSIC_SNAP.md](VIBELANDIA_UNIVERSITY_SCHOOL_OF_MUSIC_SNAP.md).
 - **Interfaces:** [interfaces/music-studio.html](interfaces/music-studio.html), [interfaces/text-to-track-motor.html](interfaces/text-to-track-motor.html).
@@ -111,14 +111,14 @@ Catalog: [catalogs/music/README.md](catalogs/music/README.md). All tracks under 
 
 ### Core series & studio
 
-- [HERO_JO_GOLDEN_ASS_STUDIOS_SNAP.md](HERO_JO_GOLDEN_ASS_STUDIOS_SNAP.md) — Canonical name; Hero Jo head; Golden Backdoor = studio endpoint/series.
+- [HERO_JO_GOLDEN_BACKDOOR_STUDIOS_SNAP.md](HERO_JO_GOLDEN_BACKDOOR_STUDIOS_SNAP.md) — Canonical name; Hero Jo head; Golden Backdoor = studio endpoint/series.
 - [CHAIRMAN_FRANKIES_GOLDEN_BACKDOOR_STUDIOS_SNAP.md](CHAIRMAN_FRANKIES_GOLDEN_BACKDOOR_STUDIOS_SNAP.md) — Founding name; handover to Hero Jo.
 - [CHAIRMAN_FRANKIE_REGGaETON_SPANGLISH_CHARACTER_SNAP.md](CHAIRMAN_FRANKIE_REGGaETON_SPANGLISH_CHARACTER_SNAP.md) — Chairman Frankie; Reggaetón Spanglish.
 
 ### Engine & upgrade
 
 - [SING_NODIFY_TEXT_TO_STUDIO_SONG_ENGINE_NSPFRNP_NESTS_SNAP.md](SING_NODIFY_TEXT_TO_STUDIO_SONG_ENGINE_NSPFRNP_NESTS_SNAP.md) — SING! node; nests; master musicians; reporting chain.
-- [HERO_RICK_RUBENS_FRACTAL_FLICKER_PROJECT_LEAD_MUSIC_UPGRADE_SNAP.md](HERO_RICK_RUBENS_FRACTAL_FLICKER_PROJECT_LEAD_MUSIC_UPGRADE_SNAP.md) — Hero Rick exec producer; project lead.
+- [HERO_RICK_PROJECT_LEAD_MUSIC_UPGRADE_SNAP.md](HERO_RICK_PROJECT_LEAD_MUSIC_UPGRADE_SNAP.md) — Hero Rick exec producer; project lead.
 - [MUSIC_WAV_UPGRADE_STUDIO_QUALITY_HERO_JO_GOLDEN_BACKDOOR_SNAP.md](MUSIC_WAV_UPGRADE_STUDIO_QUALITY_HERO_JO_GOLDEN_BACKDOOR_SNAP.md) — Studio quality WAV; endpoint; full implementation.
 - [TEXT_TO_TRACK_MOTOR_SEED_EDGE_PRODUCTION_WAV_SNAP.md](TEXT_TO_TRACK_MOTOR_SEED_EDGE_PRODUCTION_WAV_SNAP.md) — Seed:Edge motor; production WAV.
 - [OPEN_SOURCE_TEXT_TO_SONG_QUALITY_METABOLIZE_RESEARCH_SNAP.md](OPEN_SOURCE_TEXT_TO_SONG_QUALITY_METABOLIZE_RESEARCH_SNAP.md) — Engine metabolize; HeartMuLa, ACE-Step, AudioCraft, Bark.

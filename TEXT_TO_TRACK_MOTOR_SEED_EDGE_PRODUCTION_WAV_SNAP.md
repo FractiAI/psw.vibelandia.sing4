@@ -16,7 +16,7 @@
 ## Surfaces
 
 - **UI:** [interfaces/text-to-track-motor.html](interfaces/text-to-track-motor.html) — Songs in text, Seed, Edge, executive instruction → Generate → Production WAV → Download · Add to playlist · Add to catalog (NSPFRNP). **Studio quality:** Tries `/api/music/generate-studio` (Hero Jo Golden Backdoor Studio) first, then `/api/music/generate` (In Da Club quality), then procedural WAV.
-- **Studio endpoint:** [api/music/generate-studio.js](api/music/generate-studio.js) — Hero Jo Golden Backdoor Studio; text-to-viral-pop-quality WAV; project lead: Hero Rick (Rubens) fractal flicker. See [MUSIC_WAV_UPGRADE_STUDIO_QUALITY_HERO_JO_GOLDEN_BACKDOOR_SNAP.md](MUSIC_WAV_UPGRADE_STUDIO_QUALITY_HERO_JO_GOLDEN_BACKDOOR_SNAP.md).
+- **Studio endpoint:** [api/music/generate-studio.js](api/music/generate-studio.js) — Hero Jo Golden Backdoor Studio; text-to-viral-pop-quality WAV; project lead: Hero Rick. See [MUSIC_WAV_UPGRADE_STUDIO_QUALITY_HERO_JO_GOLDEN_BACKDOOR_SNAP.md](MUSIC_WAV_UPGRADE_STUDIO_QUALITY_HERO_JO_GOLDEN_BACKDOOR_SNAP.md).
 - **Protocol:** [protocols/TEXT_TO_TRACK_MOTOR_SEED_EDGE_NSPFRNP.md](protocols/TEXT_TO_TRACK_MOTOR_SEED_EDGE_NSPFRNP.md).
 - **Music Studio:** Button/link to Text-to-Track Motor from Music Studio (Jukebox) and School of Music.
 - **Playlist:** Session playlist (and catalog) stored NSPFRNP; tracks can be exported or synced to [catalogs/music/](catalogs/music/).

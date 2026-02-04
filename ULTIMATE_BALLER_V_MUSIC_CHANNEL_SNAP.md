@@ -9,7 +9,7 @@
 
 ## Canonical rule
 
-**Ultimate Baller V Music Channel** — A music channel and playlist for **members only**, containing **our exclusive productions**. Access: Gold Hearts Club · Ultimate Baller V members only. Content: exclusive productions from Hero Jo's Golden Ass Studios, Text-to-Track Motor (Seed:Edge, SING! agents), and catalog (Te Quiero Mucho Baby, Dorila Gao, etc.). NSPFRNP.
+**Ultimate Baller V Music Channel** — A music channel and playlist for **members only**, containing **our exclusive productions**. Access: Gold Hearts Club · Ultimate Baller V members only. Content: exclusive productions from Hero Jo's Golden Backdoor Studios, Text-to-Track Motor (Seed:Edge, SING! agents), and catalog (Te Quiero Mucho Baby, Dorila Gao, etc.). NSPFRNP.
 
 ---
 

@@ -65,7 +65,7 @@
 
 **Local path:** [interfaces/content-catalog.html](../interfaces/content-catalog.html)  
 
-**What it lists:** Novels (First Singularity, Birth Post Singularity, The EGS Run), Feature Films / Screenplays (same three), Episodes (19+ episodes, 6 series, browse Netflix-style), Music (Hero Jo's Golden Ass Studios, Jukebox, Te Quiero Mucho Baby, Dorila Gao, Dat Ass Red Hot like AR4366!, Ultimate Baller V Music Channel), New Superheroes & Franchises (Text-to-Superhero Console, BIG DADDY STORYTELLING STUDIOS, Space Cloud EGS, Legacies / Vibers). All since Jan 13.
+**What it lists:** Novels (First Singularity, Birth Post Singularity, The EGS Run), Feature Films / Screenplays (same three), Episodes (19+ episodes, 6 series, browse Netflix-style), Music (Hero Jo's Golden Backdoor Studios, Jukebox, Te Quiero Mucho Baby, Dorila Gao, Dat Ass Red Hot like AR4366!, Ultimate Baller V Music Channel), New Superheroes & Franchises (Text-to-Superhero Console, BIG DADDY STORYTELLING STUDIOS, Space Cloud EGS, Legacies / Vibers). All since Jan 13.
 
 ---
 

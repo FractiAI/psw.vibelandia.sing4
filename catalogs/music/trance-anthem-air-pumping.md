@@ -1,7 +1,7 @@
 # Dat Ass Red Hot like AR4366!
 
 **Track ID:** `DAT-ASS-RED-HOT-AR4366-003`  
-**Artist:** Hero Jo's Golden Ass Studios  
+**Artist:** Hero Jo's Golden Backdoor Studios  
 **Style:** Trance anthem · Dance · Simple repeating · Air pumping · AR4366 red-hot tag  
 **Status:** Layer 0 (text) · Lyrics + beats placeholder · Third on Music Studio playlist  
 **Signed:** Hero Jo, Music Studio · Vibelandia University School of Music.
@@ -64,7 +64,7 @@ Red hot like AR4366!
 
 ## CROSS-REFERENCES
 
-- [HERO_JO_GOLDEN_ASS_STUDIOS_SNAP.md](../../HERO_JO_GOLDEN_ASS_STUDIOS_SNAP.md) — T-shirt **Dat Ass red Hot like AR4366!**
+- [HERO_JO_GOLDEN_BACKDOOR_STUDIOS_SNAP.md](../../HERO_JO_GOLDEN_BACKDOOR_STUDIOS_SNAP.md) — T-shirt **Dat Ass red Hot like AR4366!**
 - [MUSIC_STUDIO_CONTENT_DIVISION_SNAP.md](../../MUSIC_STUDIO_CONTENT_DIVISION_SNAP.md)
 - [interfaces/music-studio.html](../../interfaces/music-studio.html)
 

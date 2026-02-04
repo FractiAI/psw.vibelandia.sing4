@@ -20,4 +20,4 @@ Classical arrangements and new works — sure to satisfy the classical vibe and 
 
 ---
 
-**Hero Jo Classical** — spun off from [Hero Jo's Golden Ass Studios](../../../HERO_JO_GOLDEN_ASS_STUDIOS_SNAP.md). Vibelandia University School of Music · Content Division · NSPFRNP.
+**Hero Jo Classical** — spun off from [Hero Jo's Golden Backdoor Studios](../../../HERO_JO_GOLDEN_BACKDOOR_STUDIOS_SNAP.md). Vibelandia University School of Music · Content Division · NSPFRNP.

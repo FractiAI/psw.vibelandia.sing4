@@ -36,7 +36,7 @@
 
 ## CROSS-REFERENCES
 
-- **Chairman Frankie's Golden Backdoor Studios** — Founding name (Music Studio); Hero Jo's Golden Ass Studios = current. Backdoor lineage. See [CHAIRMAN_FRANKIES_GOLDEN_BACKDOOR_STUDIOS_SNAP.md](CHAIRMAN_FRANKIES_GOLDEN_BACKDOOR_STUDIOS_SNAP.md).
+- **Chairman Frankie's Golden Backdoor Studios** — Founding name (Music Studio); Hero Jo's Golden Backdoor Studios = current. Backdoor lineage. See [CHAIRMAN_FRANKIES_GOLDEN_BACKDOOR_STUDIOS_SNAP.md](CHAIRMAN_FRANKIES_GOLDEN_BACKDOOR_STUDIOS_SNAP.md).
 - **Back door strategy · Backdoor feature** — Mission, Office Hours, back pocket, capture into backdoor feature. See [MISSION_PRODUCE_IMMEDIATE_LARGE_DOLLARS_TIPS_BACK_POCKET_BACK_DOOR_STRATEGY_BACKDOOR_FEATURE_SNAP.md](MISSION_PRODUCE_IMMEDIATE_LARGE_DOLLARS_TIPS_BACK_POCKET_BACK_DOOR_STRATEGY_BACKDOOR_FEATURE_SNAP.md) · [CLUB_WINE_CAVE_PRU_OFFICE_HOURS_SNAP.md](CLUB_WINE_CAVE_PRU_OFFICE_HOURS_SNAP.md).
 - **Master Branding Catalog** — [catalogs/branding/MASTER_BRANDING_CATALOG.md](catalogs/branding/MASTER_BRANDING_CATALOG.md).
 - **Content Systems** — T-shirt / brand source. See [CONTENT_SYSTEMS_SNAP.md](CONTENT_SYSTEMS_SNAP.md).
