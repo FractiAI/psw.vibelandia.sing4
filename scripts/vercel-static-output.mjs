@@ -68,6 +68,13 @@ if (fs.existsSync(deliverablesSrc)) {
   copyDir(deliverablesSrc, deliverablesDest);
 }
 
+// Copy catalogs/ so song pages (te-quiero-mucho-baby, dorila-gao, etc.) can fetch .md
+const catalogsSrc = path.join(root, 'catalogs');
+const catalogsDest = path.join(staticDir, 'catalogs');
+if (fs.existsSync(catalogsSrc)) {
+  copyDir(catalogsSrc, catalogsDest);
+}
+
 // Copy root .md and protocols/ so roll call, prospectus, chairman specs, etc. don't 404
 const rootMdDir = root;
 const rootFiles = fs.readdirSync(rootMdDir, { withFileTypes: true });

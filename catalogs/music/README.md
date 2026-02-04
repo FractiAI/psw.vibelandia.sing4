@@ -34,7 +34,8 @@
 - [DORILA_AFRO_COLOMBIAN_WITCH_SQUEEZE_CHARACTER_SNAP.md](../../DORILA_AFRO_COLOMBIAN_WITCH_SQUEEZE_CHARACTER_SNAP.md)
 - [PRESS_RELEASES_NEW_ARRIVALS_VIBELANDIA_RENO.md](../../PRESS_RELEASES_NEW_ARRIVALS_VIBELANDIA_RENO.md) — PR 20: full press release.
 - [ULTIMATE_BALLER_V_MUSIC_CHANNEL_SNAP.md](../../ULTIMATE_BALLER_V_MUSIC_CHANNEL_SNAP.md) — Ultimate Baller V Music Channel; members only; exclusive productions playlist.
+- [HERO_JO_CLASSICAL_MUSIC_CHANNEL_PLAYLIST_SNAP.md](../../HERO_JO_CLASSICAL_MUSIC_CHANNEL_PLAYLIST_SNAP.md) · [catalogs/music/hero-jo-classical/README.md](hero-jo-classical/README.md) — Hero Jo Classical; classical versions of pop hits; new projects; classical vibe · frontierman's palette.
 
 ---
 
-**NSPFRNP ⊃ Music Studio ⊃ Vibelandia University School of Music ⊃ Jukebox ⊃ Ultimate Baller V Music Channel (members only) → ∞³**
+**NSPFRNP ⊃ Music Studio ⊃ Vibelandia University School of Music ⊃ Jukebox ⊃ Ultimate Baller V Music Channel (members only) · Hero Jo Classical (classical vibe · frontierman's palette) → ∞³**

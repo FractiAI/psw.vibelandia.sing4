@@ -34,6 +34,7 @@ All content = our exclusive productions. Members only.
 
 ## Cross-references
 
+- [HERO_JO_CLASSICAL_MUSIC_CHANNEL_PLAYLIST_SNAP.md](HERO_JO_CLASSICAL_MUSIC_CHANNEL_PLAYLIST_SNAP.md) · [interfaces/hero-jo-classical.html](interfaces/hero-jo-classical.html) — Sister channel: Hero Jo Classical · classical versions of pop hits · classical vibe · frontierman's palette.
 - [LEAD_SALES_OFFERING_GOLD_HEARTS_CLUB_SNAP.md](LEAD_SALES_OFFERING_GOLD_HEARTS_CLUB_SNAP.md) · [interfaces/gold-hearts-club-program.html](interfaces/gold-hearts-club-program.html) — Gold Hearts Club; membership path.
 - [VIBELANDIA_UNIVERSITY_SCHOOL_OF_MUSIC_SNAP.md](VIBELANDIA_UNIVERSITY_SCHOOL_OF_MUSIC_SNAP.md) · [interfaces/music-studio.html](interfaces/music-studio.html) — School of Music; Music Studio / Jukebox.
 - [TEXT_TO_TRACK_MOTOR_SEED_EDGE_PRODUCTION_WAV_SNAP.md](TEXT_TO_TRACK_MOTOR_SEED_EDGE_PRODUCTION_WAV_SNAP.md) — Text-to-Track Motor; exclusive productions can be added to Ultimate Baller V Music Channel playlist.

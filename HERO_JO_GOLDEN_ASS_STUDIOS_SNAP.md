@@ -32,6 +32,8 @@
 ## CROSS-REFERENCES
 
 - [CHAIRMAN_FRANKIES_GOLDEN_BACKDOOR_STUDIOS_SNAP.md](CHAIRMAN_FRANKIES_GOLDEN_BACKDOOR_STUDIOS_SNAP.md) — Founding name; Hero Jo took over from Chairman Frankie.
+- [HERO_JO_CLASSICAL_MUSIC_CHANNEL_PLAYLIST_SNAP.md](HERO_JO_CLASSICAL_MUSIC_CHANNEL_PLAYLIST_SNAP.md) — Spun-off channel: classical versions of pop hits · classical vibe · frontierman's palette.
+- [ULTIMATE_BALLER_V_MUSIC_CHANNEL_SNAP.md](ULTIMATE_BALLER_V_MUSIC_CHANNEL_SNAP.md) — Members-only channel; exclusive productions.
 - [MUSIC_STUDIO_CONTENT_DIVISION_SNAP.md](MUSIC_STUDIO_CONTENT_DIVISION_SNAP.md)
 - [VIBELANDIA_UNIVERSITY_SCHOOL_OF_MUSIC_SNAP.md](VIBELANDIA_UNIVERSITY_SCHOOL_OF_MUSIC_SNAP.md)
 - [interfaces/music-studio.html](interfaces/music-studio.html)
