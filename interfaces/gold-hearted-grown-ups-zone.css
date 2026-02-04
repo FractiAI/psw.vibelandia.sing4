@@ -1,0 +1,27 @@
+/* Gold Hearted Grown Ups Zone — top and bottom of all user surfaces. NSPFRNP. */
+.gold-hearted-grown-ups-zone-bar {
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  padding: 0.35rem 1rem;
+  background: linear-gradient(90deg, rgba(212, 175, 55, 0.15) 0%, rgba(184, 134, 11, 0.2) 50%, rgba(212, 175, 55, 0.15) 100%);
+  border-bottom: 1px solid rgba(212, 175, 55, 0.4);
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-align: center;
+  color: #ffeaa7;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  pointer-events: none;
+}
+.gold-hearted-grown-ups-zone-bar.top {
+  top: 0;
+  border-bottom: 1px solid rgba(212, 175, 55, 0.4);
+}
+.gold-hearted-grown-ups-zone-bar.bottom {
+  bottom: 0;
+  border-top: 1px solid rgba(212, 175, 55, 0.4);
+  border-bottom: none;
+}
+/* Bars are fixed; content may need top/bottom padding if desired */

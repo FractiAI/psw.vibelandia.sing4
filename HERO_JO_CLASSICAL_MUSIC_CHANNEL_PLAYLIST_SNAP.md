@@ -9,7 +9,7 @@
 
 ## CANONICAL RULE
 
-**Hero Jo Classical** = a **music channel and playlist** spun off from Hero Jo's Golden Backdoor Studios. Content: **classical versions of pop hits** and **new projects** — sure to satisfy the **classical vibe** and the **frontierman's palette**.
+**Hero Jo Classical** = a **music channel and playlist** spun off from Hero Jo's Golden Backdoor Studios. Content: **classical versions of pop hits**, **new projects**, and **Dance Pump Classical** — sure to satisfy the **classical vibe** and the **frontierman's palette**. **Dance Pump Classical:** ALL dance pump music in classical style — orchestral (strings, brass, winds, piano, percussion) with dance/pump energy, four-on-the-floor, builds, drops. Surfaces and voices. See [HERO_JO_CLASSICAL_DANCE_PUMP_SNAP.md](HERO_JO_CLASSICAL_DANCE_PUMP_SNAP.md).
 
 - **Channel:** Hero Jo Classical — classical arrangements, orchestral / chamber / piano treatments of pop hits; new classical-original and crossover projects.
 - **Playlist:** Curated classical vibe: pop hits reimagined in classical form; new works in the same spirit. Frontierman's palette = taste for frontier, clarity, and the classical tradition without losing the hook.

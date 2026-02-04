@@ -117,10 +117,20 @@ So: **Vibeverse -1, 0, 1** = Pre-Vibeverse | Seed | Edge (Vibeverse experience).
 
 ---
 
+### 11. WINK! Kiosk — List message and full classic gold button (Ultimate Baller V)
+
+**Pattern:** WINK! Members Only Concierge Kiosk landing carries a **list-getting message** and **full classic gold button** designating exclusive Ultimate Baller V level. The message invites interest in getting on the list while directing members to check out the magazine and catalog in the meanwhile. The gold button links to Launch Pad and Office Hours; its design (gradient, border, hover) marks it as Ultimate Baller V tier.
+
+**Content use:** When describing WINK! Concierge Kiosk or Ultimate Baller V surfaces: *Let me know if interested in getting on the list. Check out the magazine and catalog in the meanwhile.* Full classic gold button — exclusive Ultimate Baller V level — to Launch Pad and Office Hours. Magazine and catalog linked for engagement while on list. Use in novels, screenplays, episodes, Launch Pad, Office Hours, WINK! experience, all WINK-related surfaces.
+
+**Reference:** WINK_MEMBERS_ONLY_CONCIERGE_KIOSK_TRIPS_SNAP, interfaces/wink-concierge-kiosk.html, CONTENT_SYSTEMS_SNAP.
+
+---
+
 ## Integration
 
 - **Full text → superhero text → franchise:** First Singularity novel/movie, Magic Channel, Generator Motor, Reno Men's Club bathroom, live recording for all series — metabolized into NSPFRNP in three layers: **full text** (complete narrative/spec), **superhero text** (condensed, punchy, Hero Harry, one-liners), **franchise** (scalable, repeatable, series, place, turnkey). See [NSPFRNP_METABOLIZED_FULL_TEXT_SUPERHERO_FRANCHISE.md](../NSPFRNP_METABOLIZED_FULL_TEXT_SUPERHERO_FRANCHISE.md).
-- **Script-writing deck:** Core vs vibes pattern + Vibeverse -1, 0, 1 FAQ + foundation/branches + triad/spine + lens/cockpit + Full Sensory Reality / natural systems added to deck-script-writing-content-patterns.md.
+- **Script-writing deck:** Core vs vibes pattern + Vibeverse -1, 0, 1 FAQ + foundation/branches + triad/spine + lens/cockpit + Full Sensory Reality / natural systems + WINK! Kiosk list message and gold button added to deck-script-writing-content-patterns.md.
 - **Team:** TEAM_NSPFRNP_MODE_ACTIVE.md — all referred to by role/context when needed; names always respectful.
 - **FAQ:** "What is Vibeverse -1, 0, 1?" answered in this doc and in the script deck for reuse.
 - **Privacy:** Raw correspondence is never stored or quoted. Only patterns are extracted. Contributors are not named in pattern descriptions; we use "one contributor," "another," "research-oriented contributor," "operator" etc. when structure requires a role.

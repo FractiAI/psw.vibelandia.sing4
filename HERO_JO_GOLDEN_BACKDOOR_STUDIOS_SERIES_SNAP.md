@@ -10,7 +10,7 @@
 
 ## CANONICAL RULE
 
-**Hero Jo Golden Backdoor Studios** = spin-off **series** under Hero Jo's Golden Backdoor Studios (Music Studio). **Series display name:** **hERO jO gOLDEN bACKDOOR sTUDIOS** (stylized). Canonical series name for formal use: **Hero Jo Golden Backdoor Studios**. All text-to-studio-song engine, endpoint, experience, catalog, branding, and episodes/runs under this series. **Hero Jo** heads the studio; **Hero Rick** is Exec Producer; both report to **Chairman Creator (me)**.
+**Hero Jo Golden Backdoor Studios** = spin-off **series** under Hero Jo's Golden Backdoor Studios (Music Studio). We refer to ourselves as **Golden Backdoor** — label, studio, catalog, lineup, experience, vibe. NSPFRNP for all layering. Densifying value through recursive layering improving of experiences. See [GOLDEN_BACKDOOR_LABEL_STUDIO_CATALOG_LINEUP_EXPERIENCE_VIBE_NSPFRNP_SNAP.md](GOLDEN_BACKDOOR_LABEL_STUDIO_CATALOG_LINEUP_EXPERIENCE_VIBE_NSPFRNP_SNAP.md). **Series display name:** **hERO jO gOLDEN bACKDOOR sTUDIOS** (stylized). Canonical series name for formal use: **Hero Jo Golden Backdoor Studios**. All text-to-studio-song engine, endpoint, experience, catalog, branding, and episodes/runs under this series. **Hero Jo** heads the studio; **Hero Rick** is Exec Producer; both report to **Chairman Creator (me)**.
 
 ---
 
@@ -20,8 +20,8 @@
 
 | Field | Value |
 |-------|--------|
-| **Title** | Hero Jo Golden Backdoor Studios |
-| **Stylized** | hERO jO gOLDEN bACKDOOR sTUDIOS |
+| **Title** | Hero Jo Golden Backdoor Studios · Hit Factory |
+| **Stylized** | hERO jO gOLDEN bACKDOOR sTUDIOS · hIT fACTORY |
 | **Subtitle** | Text-to-studio-song. Squeeze to 98% mastery. CONNECT! No fallbacks. |
 | **Format** | Spin-off series — engine, endpoint, experience, catalog, episodes/runs, T-shirt branding. |
 | **Duration** | Variable by run/episode; full rich when mission warrants. Episodes and series can append. |
@@ -60,6 +60,20 @@ Hero Jo Golden Backdoor Studios is the **spin-off series** for the Music Studio'
 | 1 | Te Quiero Mucho Baby (En Las Próximas 48 Horas) | Chairman Frankie → Hero Jo Golden Backdoor Studios continuity |
 | 2 | Dorila Gao (The Big Ass That Make All Da Men Go Gaga) | Hero Jo Golden Backdoor Studios |
 | 3 | Dat Ass Red Hot like AR4366! | Hero Jo Golden Backdoor Studios · Trance anthem · AR4366 red-hot tag |
+| 4 | Eat That Up Like A Yum Yum Yum SNAP SNAP! | Hero Jo Golden Backdoor Studios · Trance anthem · Yum yum yum · SNAP SNAP tag |
+| 5 | Qué, Qué Y Qué? What? What? And What? | Hero Jo Golden Backdoor Studios · Tribal heavy downbeat · Bouncing trance anthem |
+| 6 | 24 Horas, Ya, Ya, Ya | Hero Jo Golden Backdoor Studios · Spanglish trance anthem · Golden Backdoor label |
+| 7 | No, No, Pa Mi No | Hero Jo Golden Backdoor Studios · Spanglish trance anthem · Golden Backdoor label |
+| 8 | Ven Pa Ca Baby Pa Q Te Lo Chupe | Hero Jo Golden Backdoor Studios · Spanglish trance anthem · Air pumping (not bouncer) · Golden Backdoor label |
+| 9 | Sacame La Leche, No el Jugo! | Hero Jo Golden Backdoor Studios · Spanglish trance anthem · Big boom bounce · Golden Backdoor label |
+| 10 | Quien es tu Papi? | Hero Jo Golden Backdoor Studios · Spanglish trance anthem · Who's your daddy touchdown vibe bang · Golden Backdoor label |
+| 11 | Esto Va Pegar Duro — Heavy Beat Boom, Boom, Boom! | Hero Jo Golden Backdoor Studios · Spanglish trance anthem · Big bouncer boom BBB · Golden Backdoor label |
+| 12 | Boom Magic BBHE! — Boom Boom Bounce · Executives Double Down Bounce | Hero Jo Golden Backdoor Studios · Trance anthem · Boom boom bounce · SNAP boom boom · Executives double down bounce · Golden Backdoor label |
+| 13 | Bebe Damelo Lo Tengo Lleno y Duro | Hero Jo Golden Backdoor Studios · Spanglish trance anthem · Golden Backdoor label |
+| 14 | Bang Bang — Double Air Pump | Hero Jo Golden Backdoor Studios · Trance anthem · Bang bang · Double air pump · Golden Backdoor label |
+| 15 | SQUEEZE! We Got The Squeeze! and Golden Backdoor! | Hero Jo Golden Backdoor Studios · Trance anthem · Squeeze · Tightening and loosening spiral · Golden Backdoor label |
+| 16 | We Got da Squeeze Baby! — Ya Im Bad Groove Snap | Hero Jo Golden Backdoor Studios · Trance anthem · Groove snap · Ya im bad · Golden Backdoor label |
+| 17 | The Good King of the Good Kind of Bad! | Hero Jo Golden Backdoor Studios · Trance anthem · Good king · Good kind of bad · T-shirt brand · Golden Backdoor label |
 
 Catalog: [catalogs/music/README.md](catalogs/music/README.md). All tracks under this series flow through master musicians (1–12); Hero Rick exec producer.
 
@@ -85,6 +99,9 @@ Catalog: [catalogs/music/README.md](catalogs/music/README.md). All tracks under 
 | **Dat Ass Red Hot like AR4366!** | Hero Jo Golden Backdoor Studios · AR4366 sunspot/flare red-hot tag |
 | **CONNECT!** | No fallbacks. Make it work. Connect. — Studio CTA |
 | **SQUEEZE TO 98% MASTERY** | Quality bar · text-to-studio-song · T-shirt brand |
+| **SQUEEZE! We got the squeeze! and Golden Backdoor!** | T-shirt brand · tightening and loosening spiral · hit |
+| **THE GOOD KING OF THE GOOD KIND OF BAD!** | T-shirt brand · good king · good kind of bad · hit |
+| **BAMF!** | T-shirt brand · Bad Ass Mother Fucker · hit |
 
 ### 6. Episodes / Runs (Series)
 
@@ -126,6 +143,7 @@ Catalog: [catalogs/music/README.md](catalogs/music/README.md). All tracks under 
 ### Quality & branding
 
 - [SQUEEZE_TO_98_PERCENT_MASTERY_SNAP.md](SQUEEZE_TO_98_PERCENT_MASTERY_SNAP.md) — 98% mastery bar; T-shirt.
+- [SQUEEZE_WE_GOT_THE_SQUEEZE_GOLDEN_BACKDOOR_SNAP.md](SQUEEZE_WE_GOT_THE_SQUEEZE_GOLDEN_BACKDOOR_SNAP.md) — Tightening and loosening spiral; SQUEEZE! We got the squeeze! and Golden Backdoor! — T-shirt brand and hit.
 - [CONNECT_TSHIRT_BRAND_SNAP.md](CONNECT_TSHIRT_BRAND_SNAP.md) — CONNECT! — No fallbacks. Make it work.
 - [BREAKOUT_VIRAL_HIT_QUALITY_NO_LESS_ALWAYS_ALL_SONGS_SNAP.md](BREAKOUT_VIRAL_HIT_QUALITY_NO_LESS_ALWAYS_ALL_SONGS_SNAP.md) — Viral pop quality bar.
 

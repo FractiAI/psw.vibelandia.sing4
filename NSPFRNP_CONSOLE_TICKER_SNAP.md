@@ -8,7 +8,7 @@
 
 ## NARRATIVE
 
-**Streaming ticker at bottom of chairman consoles.** Feed important messages and key values in streaming ticker format. Very cool and effective NSPFRNP. Same pattern as Live Pulse legacy stream ticker — reused across all chairman consoles so we can stream messages and key values consistently.
+**Streaming ticker at bottom of chairman consoles.** Feed important messages and key values in streaming ticker format. Very cool and effective NSPFRNP. Same pattern as Live Pulse legacy stream ticker — reused across all chairman consoles so we can stream messages and key values consistently. **Calming trickle pace** — there's no rush, it's all flow. Slowed to a gentle stream, not a strong rush.
 
 **Feeds:** Packaged as **cycling 1 min feeds** with **1 min breaks** between feed cycles; updated naturally as pushes trigger push to ticker feed cycles.
 

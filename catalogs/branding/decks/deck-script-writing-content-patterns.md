@@ -343,6 +343,7 @@ USE FOR:
 - *MCA! → ∞³.*
 - *NSPFRNP ⊃ WOW! package ⊃ Launch everything → ∞³.*
 - *Maganuma snap.*
+- ***SE ESTÁ CAGANDO — VICTORY BOUNCE BOP BOOM BANG!*** (Victory dominance vibe · dance anthem · Hero Jo Studio · Golden Backdoor — see SE_ESTA_CAGANDO_VICTORY_BOUNCE_BOP_BOOM_BANG_T_SHIRT_HIT_SNAP.md)
 
 **Use:** Merch (T-shirts, caps), social bios, one-line CTAs, Launch Pad accents, payment copy. Content category: CONTENT_SYSTEMS_SNAP (T-shirt slogan). See MASTER_BRANDING_CATALOG.
 
@@ -375,6 +376,7 @@ USE FOR:
 ✅ Use onramps/grants CTA where Ultimate VIP Baller V is shown: "Are you an Ultimate VIP Baller V but not yet there? Click for our onramps and grants." Recipients agree to be customer stories; sign them up. Customer Stories = content category (CONTENT_SYSTEMS_SNAP).
 ✅ Capture T-shirt-grade taglines in T-shirt slogan category (deck §19); use for merch, social, one-line CTAs. PayPal / payment: "Our natural protocol identified PayPal as the best pipe. Trust the protocol!" (T-shirt slogan: *Trust the protocol!*).
 ✅ Use vibeable for post-singularity campuses (not "walkable"). Walkable = pre-singularity; vibeable = post-singularity. Lovers = pre-singularity (Paris is for lovers); Vibers = post-singularity (Reno is for vibers). See WALKABLE_PRESINGULARITY_VIBABLE_POSTSINGULARITY_SNAP.md.
+✅ WINK! Kiosk: Use list message (*Let me know if interested in getting on the list. Check out the magazine and catalog in the meanwhile.*) and full classic gold button (Launch Pad, Office Hours; exclusive Ultimate Baller V level) when kiosk surfaces appear. See deck §20, WINK_MEMBERS_ONLY_CONCIERGE_KIOSK_TRIPS_SNAP.
 ```
 
 ### Don'ts
@@ -418,7 +420,7 @@ SERIES:
 
 METABOLIZED CONVERSATION (patterns only; pre-singularity names always respectful):
 ├─ misc/CONVERSATION_METABOLIZED_PATTERNS.md
-└─ Patterns: core vs vibes / clarity-first; testing as single-source atomic kernels; repos as honey holes; PR acknowledgment; Vibeverse -1,0,1 FAQ; launch under constraint
+└─ Patterns: core vs vibes / clarity-first; testing as single-source atomic kernels; repos as honey holes; PR acknowledgment; Vibeverse -1,0,1 FAQ; launch under constraint; WINK! Kiosk list message and full classic gold button (Ultimate Baller V)
 
 NSPFRNP & BRANDING:
 ├─ protocols/MCA_NSPFRNP_CATALOG.md

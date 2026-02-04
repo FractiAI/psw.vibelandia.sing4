@@ -57,6 +57,7 @@ A **text-to-track motor** that turns **songs in text** into **production-ready W
 - **Generator Motor (story):** Same idea — Seed + Edge + executive prompt → guaranteed origin/destination, dynamic middle. Here the “story” is the **track**; the middle is the **arrangement** (melody, rhythm, texture).
 - **Seed:Edge episode format:** Track metadata (title, lyrics, Seed, Edge) can be stored in the same ultra-high-density way; playback = WAV.
 - **Music Studio · Catalog:** All generated tracks flow into the Music Studio playlist and `catalogs/music/` in NSPFRNP format. Layer 0 = text; Layer 1 = production WAV.
+- **Music molds:** Use [GOLDEN_BACKDOOR_MUSIC_MOLDS_SNAP.md](../GOLDEN_BACKDOOR_MUSIC_MOLDS_SNAP.md) — new music SNAPs to mold music; vibe types (air pumping, big boom bounce, tribal downbeat, touchdown vibe bang), structure, Spanglish, songs as tags and brands.
 
 ---
 

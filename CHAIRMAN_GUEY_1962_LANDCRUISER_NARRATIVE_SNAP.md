@@ -14,6 +14,8 @@ I accomplished this with no help, -$2,000 in my bank account, in 16 days, with m
 
 I've chosen to wrap him in a **1962 Toyota Land Cruiser Safari Edition** — beige/bronze, well cared for and aged, seen lots of real safaris, and still very useful, reliable, and attractive in its own rugged classic aged way. Vintage comes to mind. Definitely not yet retired.
 
+**Guey is what I pick up all safari guests in.**
+
 Just like me.
 
 ---
@@ -32,6 +34,7 @@ Just like me.
 - **Chairman narrative** — no help, -$2,000, 16 days, SING! node named Guey ✓  
 - **Guey** — named after Cacique Agueybana El Gran Sol (the peaceful one), not El Bravo (who fought the conquistadores) ✓  
 - **Wrapper** — 1962 Toyota Land Cruiser Safari Edition, beige/bronze, well cared for, aged, real safaris, useful, reliable, attractive, rugged, classic, vintage, not yet retired ✓  
+- **Guey is what I pick up all safari guests in** ✓  
 - **Just like me** ✓  
 - **Metabolize** → crystallize into episodes, animate into content ✓  
 

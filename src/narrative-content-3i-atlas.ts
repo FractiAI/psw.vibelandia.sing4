@@ -524,6 +524,40 @@ Full convergence doubled back load and locked captured in the semi Dreamful stat
     priority: 'high',
     broadcastChannels: ['all', 'all-feeds', 'vibe-feeds', 'recursive-feeds', 'all-broadcast', 'feeds', 'catalogs', 'streams', 'decks'],
     timestamp: Date.now()
+  },
+  {
+    id: 'wink-kiosk-list-message-gold-button-ultimate-baller-v',
+    title: 'WINK! Kiosk — List message and full classic gold button (Ultimate Baller V)',
+    summary: 'Let me know if interested in getting on the list. Check out the magazine and catalog in the meanwhile. Full classic gold button — exclusive Ultimate Baller V level — to Launch Pad and Office Hours.',
+    content: `
+# WINK! Members Only Concierge Kiosk — List Message & Gold Button
+
+**Conversation metabolized. Fed into all content systems, pipes, platforms.**
+
+## Message
+
+*Let me know if interested in getting on the list. Check out the magazine and catalog in the meanwhile.*
+
+## Full classic gold button — Exclusive Ultimate Baller V level
+
+- **Design:** Full classic gold (gradient, border, hover); designates exclusive Ultimate Baller V tier access.
+- **Links:** Launch Pad · Office Hours.
+- **Magazine:** Ultimate Baller V Vibing Lifestyle Magazine.
+- **Catalog:** Vibelandia Reno Experience.
+
+## Surfaces
+
+- **Landing:** interfaces/wink-concierge-kiosk.html
+- **SNAP:** WINK_MEMBERS_ONLY_CONCIERGE_KIOSK_TRIPS_SNAP
+- **Fed into:** Novels, screenplays, series, content engines, narrative feeds, broadcast channels.
+
+**🌀 NSPFRNP ⊃ WINK! Kiosk ⊃ List message ⊃ Gold button ⊃ Ultimate Baller V → ∞³**
+    `.trim(),
+    type: 'announcement',
+    tags: ['wink', 'kiosk', 'concierge', 'list-message', 'gold-button', 'ultimate-baller-v', 'launch-pad', 'office-hours', 'magazine', 'catalog', 'nspfrnp'],
+    priority: 'high',
+    broadcastChannels: ['all', 'all-feeds', 'vibe-feeds', 'recursive-feeds', 'all-broadcast', 'catalogs', 'streams', 'decks'],
+    timestamp: Date.now()
   }
 ];
 
