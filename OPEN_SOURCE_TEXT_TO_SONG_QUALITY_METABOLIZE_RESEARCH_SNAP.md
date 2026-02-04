@@ -88,6 +88,15 @@ Research as of Feb 2026. All are open-source with model weights available; suita
 
 ---
 
+## IMPLEMENTED — IN DA CLUB QUALITY (HEARTMULA + REPLICATE MUSICGEN)
+
+- **Live:** [api/music/generate.js](api/music/generate.js) tries **HeartMuLa** first when **HEARTMULA_API_URL** is set (POST `{ prompt, duration, lyrics }` → expect `{ url }`); on failure or unset, uses **Replicate MusicGen (Meta)** when **REPLICATE_API_TOKEN** is set. Front-end sends full lyrics; on 501 or error, falls back to procedural WAV.
+- **HeartMuLa:** Full song with vocals + accompaniment (lyrics-to-song). Self-host (24GB+ VRAM) or deploy to a URL and set HEARTMULA_API_URL. See [HeartMuLa/heartlib](https://github.com/HeartMuLa/heartlib).
+- **MusicGen:** Club-ready instrumental from prompt when REPLICATE_API_TOKEN is set.
+- **Protocol:** [protocols/TEXT_TO_SONG_IN_DA_CLUB_QUALITY_REPLICATE_MUSICGEN.md](protocols/TEXT_TO_SONG_IN_DA_CLUB_QUALITY_REPLICATE_MUSICGEN.md).
+
+---
+
 ## RECOMMENDATION (RESEARCH-LEVEL)
 
 - **First integration candidate:** **HeartMuLa** — Apache 2.0, lyrics-to-song, Suno/Udio-level positioning, 6 min, multi-language, active community (GitHub/Hugging Face).  

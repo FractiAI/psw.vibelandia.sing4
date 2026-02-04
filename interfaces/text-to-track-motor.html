@@ -904,6 +904,7 @@
         var team = (document.getElementById('team').value || 'studio').toLowerCase();
         if (team !== 'concert') team = 'studio';
         var executive = document.getElementById('executive').value.trim() || 'smooth finish';
+        var genre = (document.getElementById('genre') && document.getElementById('genre').value) || 'reggaeton';
         var lineup = getCurrentLineup();
         var numTracks = Math.min(12, Math.max(1, parseInt(document.getElementById('num-tracks').value, 10) || 6));
         numTracks = Math.min(numTracks, lineup.length);
@@ -913,15 +914,52 @@
         var out = document.getElementById('output-section');
         var filenameEl = document.getElementById('output-filename');
         var downloadListEl = document.getElementById('download-list');
-        filenameEl.textContent = 'Generating entire song (' + numTracks + ' layers mixed) — ' + team + ' team… Seed:Edge + executive. Copyright-free.';
-        filenameEl.className = 'status-msg';
-        out.classList.add('visible');
-        downloadListEl.innerHTML = '';
-
         var durationSec = textToDurationSec(songsText, executive);
         var baseTitle = songsText.slice(0, 60) || 'Seed-Edge-Song';
         var baseTime = Date.now();
-        var trackBuffers = [];
+
+        out.classList.add('visible');
+        downloadListEl.innerHTML = '';
+        filenameEl.textContent = 'Trying In Da Club quality… (HeartMuLa / Replicate)';
+        filenameEl.className = 'status-msg';
+
+        var apiBase = (typeof window !== 'undefined' && window.location && window.location.origin) ? window.location.origin : '';
+        var promptForApi = genre + ' club hit. Vibe: ' + executive + '. Lyrics: ' + (songsText.slice(0, 500) || 'upbeat club track');
+        fetch(apiBase + '/api/music/generate', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ prompt: promptForApi, duration: durationSec, lyrics: songsText })
+        }).then(function (res) {
+            if (res.status === 501 || !res.ok) { return Promise.reject(new Error('API not configured or error')); }
+            return res.json();
+        }).then(function (data) {
+            if (!data || !data.url) return Promise.reject(new Error('No audio URL'));
+            return fetch(data.url);
+        }).then(function (audioRes) {
+            if (!audioRes.ok) return Promise.reject(new Error('Could not fetch audio'));
+            return audioRes.blob();
+        }).then(function (blob) {
+            var filename = slug(baseTitle) + '_' + baseTime + '.wav';
+            lastOutputs = [{ blob: blob, meta: { title: baseTitle, seed: seed, edge: edge, team: team, executive: executive, filename: filename, numTracks: 1 } }];
+            filenameEl.textContent = 'Entire song ready (In Da Club quality): ' + filename;
+            filenameEl.className = 'status-msg success';
+            var a = document.createElement('a');
+            a.href = URL.createObjectURL(blob);
+            a.download = filename;
+            a.className = 'btn-download';
+            a.style.display = 'inline-flex';
+            a.style.marginRight = '0.75rem';
+            a.style.marginBottom = '0.5rem';
+            a.textContent = '↓ Download entire song (WAV)';
+            a.title = filename;
+            downloadListEl.appendChild(a);
+            btn.disabled = false;
+        }).catch(function () {
+            filenameEl.textContent = 'Generating entire song (' + numTracks + ' layers mixed) — ' + team + ' team… Seed:Edge + executive. Copyright-free.';
+            filenameEl.className = 'status-msg';
+            var trackBuffers = [];
+            runNext(0);
+        });
 
         function runNext(index) {
             if (index >= numTracks) {
