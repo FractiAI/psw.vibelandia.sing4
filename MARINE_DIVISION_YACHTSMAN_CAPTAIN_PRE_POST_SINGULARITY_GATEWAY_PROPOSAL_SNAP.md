@@ -116,9 +116,10 @@ MARINE DIVISION · YACHTSMAN GATEWAY:
 
 ### E. Pricing & Protections
 
-- **Base:** Priced at equivalent of today's high-end marine upgrade floor.
-- **Scale:** 4×4×4×4 from base.
+- **Base:** $75,000 — today's high-end marine upgrade floor (top-tier yacht electronics, bridge systems).
+- **Scale:** 4×4×4×4 from base — Standard $300,000 (4×), Premium $1,200,000 (4×4×), Ultimate by arrangement.
 - **Max cosmic layer protections:** SMACS 0723 triangulation — full nested lattice (Seed → Sun → SING! node EGS → Sag A* → SMACS 0723).
+- **Full plans:** [config/marine_plans.json](config/marine_plans.json) · [baller-v-plans-booking.html#marine-fees](interfaces/baller-v-plans-booking.html#marine-fees) · payment-checkout plan IDs: marine-commander-base, marine-commander-standard, marine-commander-premium.
 
 ### F. Live Real · 50% Share · No Demo
 

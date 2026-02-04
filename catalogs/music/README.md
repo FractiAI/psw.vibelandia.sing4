@@ -42,6 +42,8 @@
 | 17 | The Good King of the Good Kind of Bad! | Hero Jo's Golden Backdoor Studios | Trance anthem · Good king · Good kind of bad · Double sway pump bop boom · T-shirt brand · Golden Backdoor label | Lyrics + beats placeholder · Layer 0 · *In progress: studio quality engine* |
 | 18 | BAMF! — Bad Ass Mother Fucker | Hero Jo's Golden Backdoor Studios | Trance anthem · BAMF · T-shirt brand · Golden Backdoor label | Lyrics + beats placeholder · Layer 0 · *In progress: studio quality engine* |
 | 19 | Se Está Cagando — Victory Bounce Bop Boom Bang! | Hero Jo's Golden Backdoor Studios | Trance anthem · Spanglish · Victory Bounce Bop Boom Bang · T-shirt brand · Golden Backdoor label | Lyrics + beats placeholder · Layer 0 · *In progress: studio quality engine* |
+| 20 | Dámelo, Dámelo, Dámelo | 333 · Hero Jo's Golden Backdoor Studios | Trance anthem · Jump-up · Air · Pump · Dance · Spanglish · Golden Backdoor label · Maître d' assign (artist + label) | Lyrics + beats placeholder · Layer 0 · *In progress: studio quality engine* |
+| 21 | Pa Q Pa Q | 5050 · Hero Jo's Golden Backdoor Studios | Trance anthem · Punchy minimal · Air pump · Dance · Spanglish · Golden Backdoor label · Maître d' assign (artist + label) | Lyrics + beats placeholder · Layer 0 · *In progress: studio quality engine* |
 
 ---
 
@@ -61,6 +63,7 @@
 - [PRESS_RELEASES_NEW_ARRIVALS_VIBELANDIA_RENO.md](../../PRESS_RELEASES_NEW_ARRIVALS_VIBELANDIA_RENO.md) — PR 20: full press release.
 - [ULTIMATE_BALLER_V_MUSIC_CHANNEL_SNAP.md](../../ULTIMATE_BALLER_V_MUSIC_CHANNEL_SNAP.md) — Ultimate Baller V Music Channel; members only; exclusive productions playlist.
 - [HERO_JO_CLASSICAL_MUSIC_CHANNEL_PLAYLIST_SNAP.md](../../HERO_JO_CLASSICAL_MUSIC_CHANNEL_PLAYLIST_SNAP.md) · [catalogs/music/hero-jo-classical/README.md](hero-jo-classical/README.md) — Hero Jo Classical; classical versions of pop hits; new projects; classical vibe · frontierman's palette.
+- [MATRE_D_OMNIVERSAL_MATCHMAKER_SNAP.md](../../MATRE_D_OMNIVERSAL_MATCHMAKER_SNAP.md) — Maître d' · Omniversal Matchmaker; content, mission, specialization matching (e.g. assign tracks to label/surface).
 
 ---
 

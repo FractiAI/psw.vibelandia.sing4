@@ -288,3 +288,35 @@ body.marine-division-skin::before {
     color: var(--marine-ferrari-red);
     margin-top: 0.6rem;
 }
+
+/* Plans table — Marine Division pricing */
+.marine-plans-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0;
+    font-size: 0.9rem;
+}
+
+.marine-plans-table th,
+.marine-plans-table td {
+    padding: 0.6rem 0.75rem;
+    text-align: left;
+    border-bottom: 1px solid rgba(196, 30, 58, 0.2);
+}
+
+.marine-plans-table th {
+    color: var(--marine-ferrari-red);
+    font-weight: 600;
+}
+
+.marine-plans-table .fee {
+    color: #7fff7f;
+    font-weight: 700;
+}
+
+.marine-plans-table .buy,
+.marine-plans-table a[href*="payment-checkout"],
+.marine-plans-table a[href^="mailto"] {
+    color: var(--marine-ferrari-red);
+    font-weight: 600;
+}

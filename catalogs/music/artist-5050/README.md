@@ -23,6 +23,7 @@
 | 10 | Split Down the Middle | Layer 0 placeholder |
 | 11 | Fair Share | Layer 0 placeholder |
 | 12 | Fifty-Fifty Vibes | Layer 0 placeholder |
+| 13 | [Pa Q Pa Q](../pa-q-pa-q.md) | Maître d' assign · Punchy minimal · What for What for |
 
 ---
 

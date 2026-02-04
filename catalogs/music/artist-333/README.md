@@ -23,6 +23,7 @@
 | 10 | Expanding | Layer 0 placeholder |
 | 11 | Triad | Layer 0 placeholder |
 | 12 | Triple Crown | Layer 0 placeholder |
+| — | [Dámelo, Dámelo, Dámelo](../damelo-damelo-damelo.md) | Maître d' assign · Jump-up · Air · Pump · Trance · Dance |
 
 ---
 

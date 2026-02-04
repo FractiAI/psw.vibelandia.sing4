@@ -38,32 +38,6 @@
         .expeditions li { margin-bottom: 0.5rem; }
         .expeditions a { color: #7ec8e3; text-decoration: none; font-weight: 600; }
         .expeditions a:hover { text-decoration: underline; }
-        /* Floaters = gifts. See FLOATERS_ALWAYS_GIFTS_SNAP.md */
-        .gift-floater {
-            position: fixed;
-            right: 1rem;
-            bottom: 1rem;
-            display: flex;
-            flex-direction: column;
-            gap: 0.5rem;
-            z-index: 9999;
-        }
-        .gift-floater a {
-            display: block;
-            padding: 0.6rem 1rem;
-            background: linear-gradient(145deg, rgba(212, 175, 55, 0.25) 0%, rgba(138, 43, 226, 0.2) 100%);
-            border: 2px solid rgba(212, 175, 55, 0.5);
-            border-radius: 12px;
-            color: #f4e4bc;
-            text-decoration: none;
-            font-weight: 600;
-            font-size: 0.9rem;
-            box-shadow: 0 4px 16px rgba(0,0,0,0.3);
-            transition: transform 0.2s, box-shadow 0.2s;
-        }
-        .gift-floater a:hover { transform: translateY(-2px); box-shadow: 0 6px 20px rgba(212, 175, 55, 0.3); }
-        .gift-floater .gift-line { display: block; font-size: 0.75rem; color: #d4af37; font-weight: normal; margin-top: 0.2rem; }
-        .gift-floater { flex-direction: column-reverse; bottom: 1rem; }
     </style>
 <script src="tsunami-advisory-inject.js"></script>
 </head>
@@ -185,6 +159,7 @@
     </div>    <div id="sing-config-footer"></div>
     <link rel="stylesheet" href="sing-config-footer.css">
     <script src="sing-config-footer.js"></script>
+    <link rel="stylesheet" href="landing-bottom-bar.css">
     <link rel="stylesheet" href="nspfrnp-ticker.css">
     <link rel="stylesheet" href="gold-hearted-grown-ups-zone.css">
     <div class="nspfrnp-console-ticker" aria-live="polite"><span class="ticker-inner" id="nspfrnpTickerText"></span></div>

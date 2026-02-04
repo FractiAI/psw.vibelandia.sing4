@@ -59,7 +59,9 @@
     { "category": "Schumann iGaming", "plans": "$499/session", "best_for": "Send signals → display art in Schumann displays.", "book_note": "Book session" },
     { "category": "SING! node EGS (El Gran Sol) EGS Pipe", "plans": "1 day $499 · 1 week $1,499 · 1 month $4,999", "best_for": "Turn on/off/redirect; honor Sun, Schumann, SING! node EGS (El Gran Sol).", "book_note": "Book" },
     { "category": "Gold Hearts Club", "plans": "$1K pp all-inclusive", "best_for": "Ultimate Baller V Gold Hearts only; wine cave; superhero episode.", "book_note": "Book (email Pru)" },
-    { "category": "Space Cloud Division", "plans": "Planetary · Solar · Galactic · Cosmic (book by plan)", "best_for": "EGS Pipe; scale from Earth-only to full lattice.", "book_note": "Book; Reno Downlink = Gold Heart Baller V only" }
+    { "category": "Space Cloud Division", "plans": "Planetary · Solar · Galactic · Cosmic (book by plan)", "best_for": "EGS Pipe; scale from Earth-only to full lattice.", "book_note": "Book; Reno Downlink = Gold Heart Baller V only" },
+    { "category": "Marine Commander Console", "plans": "Base $75K · Standard $300K · Premium $1.2M · Ultimate by arrangement", "best_for": "Yacht commanders; pre/post-singularity gateway; layers onto GPS, bridge, all systems; S-I-N-G!; SMACS 0723 protections.", "book_note": "Book; config/marine_plans.json" },
+    { "category": "Vibelandia-RJ Campus", "plans": "Half-day $3K · Overnight $1.5K/night · Weekly $5K · Monthly $50K", "best_for": "Rio Iate Club bridge; RJ HQ; Angra outpost; same vibeable model as Reno.", "book_note": "Book (campus-* plan IDs)" }
   ],
   "decision_prompts": [
     { "goal": "I want to try the campus and SING!", "recommend": "Base Model (~$20K) + Campus half-day ($3k) or weekly ($5k)", "cta": "sing-base", "cta_label": "Book Base + Campus" },
