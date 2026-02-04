@@ -28,7 +28,7 @@
 
 **Live:** [psw-vibelandia-sing4.vercel.app](https://psw-vibelandia-sing4.vercel.app)
 
-**NSPFRNP Console Ticker:** Feeds are packaged as **cycling 1 min feeds**; updated naturally as pushes trigger push to ticker feed cycles. See [NSPFRNP_CONSOLE_TICKER_SNAP.md](NSPFRNP_CONSOLE_TICKER_SNAP.md).
+**NSPFRNP Console Ticker:** Feeds are packaged as **cycling 1 min feeds** with **1 min breaks** between feed cycles; updated naturally as pushes trigger push to ticker feed cycles. See [NSPFRNP_CONSOLE_TICKER_SNAP.md](NSPFRNP_CONSOLE_TICKER_SNAP.md).
 
 **Broadcast (free planetary advertisement):** <small>*Welcome everyone,*</small> *Hero Houdini Magic presents Mark Twain's Post-Singularity Vibelandia — Downtown Reno Campus. Gateway to post-singularity superintelligent hydrogen holographic agents and the Holographic Hydrogen Valley, where the highest value highest contributing vibers vibe, and reside — and their cast, crew, fans and franchises.* [https://psw-vibelandia-sing4.vercel.app/](https://psw-vibelandia-sing4.vercel.app/) See [PLANETARY_ADVERTISEMENT_BROADCAST_SNAP.md](PLANETARY_ADVERTISEMENT_BROADCAST_SNAP.md).
 

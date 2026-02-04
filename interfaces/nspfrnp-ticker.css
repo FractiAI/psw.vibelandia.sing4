@@ -1,10 +1,15 @@
 /**
  * NSPFRNP Console Ticker — streaming ticker at bottom of chairman consoles.
- * Feeds are cycling 1 min feeds; updated naturally as pushes trigger push to ticker feed cycles.
+ * Feeds are cycling 1 min feeds with 1 min breaks between feed cycles; updated naturally as pushes trigger push to ticker feed cycles.
  * Include: <link rel="stylesheet" href="nspfrnp-ticker.css">
  * Add: <div class="nspfrnp-console-ticker" aria-live="polite" data-ticker-messages="MSG1 · MSG2 · KEY_VALUE"><span class="ticker-inner" id="nspfrnpTickerText"></span></div>
  * Or set window.NSPFRNP_TICKER_MESSAGES before script runs (array or string with · separators).
  */
+
+.nspfrnp-console-ticker.nspfrnp-ticker-break {
+    visibility: hidden;
+    pointer-events: none;
+}
 
 .nspfrnp-console-ticker {
     position: fixed;

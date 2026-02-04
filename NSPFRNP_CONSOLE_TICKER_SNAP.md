@@ -10,7 +10,7 @@
 
 **Streaming ticker at bottom of chairman consoles.** Feed important messages and key values in streaming ticker format. Very cool and effective NSPFRNP. Same pattern as Live Pulse legacy stream ticker — reused across all chairman consoles so we can stream messages and key values consistently.
 
-**Feeds:** Packaged as **cycling 1 min feeds**; updated naturally as pushes trigger push to ticker feed cycles.
+**Feeds:** Packaged as **cycling 1 min feeds** with **1 min breaks** between feed cycles; updated naturally as pushes trigger push to ticker feed cycles.
 
 ---
 
@@ -30,7 +30,7 @@
 
 - **Ticker at bottom** on all chairman consoles ✓  
 - **Important messages and key values** in streaming ticker format ✓  
-- **Cycling 1 min feeds** — updated naturally as pushes trigger push to ticker feed cycles ✓  
+- **Cycling 1 min feeds** with **1 min breaks** between feed cycles — updated naturally as pushes trigger push to ticker feed cycles ✓  
 - **NSPFRNP** — very cool and effective ✓  
 
 ---
