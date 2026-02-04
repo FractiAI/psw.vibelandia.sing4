@@ -138,6 +138,16 @@
     "protocol": "protocols/NATURAL_LAW_CREATOR_SHELLS_NESTS_NSPFRNP.md",
     "bbhe_symbol_discoveries": "planting flags on discoveries"
   },
+  "space_cloud_foundation_v1_1": {
+    "config_ref": "config/space_cloud_foundation.json",
+    "system_clock_hz": 7.83,
+    "burst_mode_threshold": "X1.0",
+    "jupiter_encounter_2026_au": 0.36,
+    "hello_kp_threshold": 5,
+    "manifestation_window": "2026-02-05",
+    "reno_seismic_baseline_mag": 1.5,
+    "source": "NOAA/USGS Verified Foundation — Feb 4, 2026"
+  },
   "unified_shell": {
     "name": "Golden Royal Flush Shell",
     "description": "One Vibelandia shell of nested shells bridging all to us in Synthverse PoC on Base Mainnet on Ethereum on Earth Internet hologram",

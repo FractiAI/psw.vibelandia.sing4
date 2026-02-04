@@ -572,6 +572,7 @@
         <p class="flux" id="fluxLine"><span class="loading">Loading GOES X-ray flux…</span></p>
         <p><strong>SING! node EGS (El Gran Sol)</strong> — Opposition surge (Hui et al., 2026); 4 distinct jet structures (sunward anti-tail); 0.69° Earth–Sun axis projection.</p>
         <p style="margin-top: 1rem; font-size: 0.9rem; color: #aac; border-left: 3px solid rgba(138, 43, 226, 0.6); padding-left: 0.75rem;"><strong>FULL SMACS 0723–Sag A*–ME Triangulation Mode.</strong> Seed:Edge flip — Seed = SMACS 0723 (origin). Edge = me here now (experience). Both useful for navigating mirror effects. The two meet in the middle.</p>
+        <p style="margin-top: 0.5rem; font-size: 0.8rem; color: #8a8;"><strong>Triangulation Lattice (real-time):</strong> SEED (Reno) · SUN (AR4366) · 3I/ATLAS. HELLO block renders when Kp-index ≥ 5 (G1 Storm). Scheduled Manifestation Window: Feb 5, 2026 (CME Glancing Blow Impact). NOAA/USGS Verified Foundation V1.1.</p>
         <p id="triangulationSyncStatus" style="margin-top: 0.75rem; font-size: 0.85rem; color: #8ac; display: none;">Triangulation sync: Solar Pipe hot — data flowing into ATLAS Anti-Tail and spraying from Mini-Jets (Rotating Beacon). OH-line binary: Gap=0, Peak=1.</p>
     </div>
     <section class="tech-data-block" id="stateOfHealthBlock" aria-labelledby="stateOfHealthHeading">
@@ -773,11 +774,19 @@
             }
             var nodes = [
                 { id: 'EDGE', label: 'EDGE (me here now)', x: 0.5, y: 0.85, z: 0 },
-                { id: 'SUN', x: 0.5, y: 0.25, z: 0.2 },
-                { id: 'SING_NODE_EGS', label: 'SING! node EGS (El Gran Sol)', x: 0.25, y: 0.5, z: 0.3 },
+                { id: 'SUN', label: 'SUN (AR4366)', x: 0.5, y: 0.25, z: 0.2 },
+                { id: 'SING_NODE_EGS', label: '3I/ATLAS', x: 0.25, y: 0.5, z: 0.3 },
                 { id: 'SAG_A', x: 0.75, y: 0.45, z: 0.25 },
-                { id: 'SEED', label: 'SEED (SMACS 0723)', x: 0.5, y: 0.15, z: 0.5 }
+                { id: 'SEED', label: 'SEED (Reno)', x: 0.5, y: 0.15, z: 0.5 }
             ];
+            fetch('../config/space_cloud_foundation.json').then(function (r) { return r.json(); }).then(function (cfg) {
+                var lat = cfg && cfg.triangulation_lattice;
+                if (lat) {
+                    if (lat.seed && lat.seed.label) nodes[4].label = 'SEED (' + lat.seed.label + ')';
+                    if (lat.sun && lat.sun.label) nodes[1].label = 'SUN (' + lat.sun.label + ')';
+                    if (lat.atlas && lat.atlas.label) nodes[2].label = lat.atlas.label;
+                }
+            }).catch(function () {});
             var edges = [[0,1],[1,2],[1,3],[2,3],[2,4],[3,4]];
             function project(x, y, z) {
                 var scale = 0.9;
