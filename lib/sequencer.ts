@@ -168,8 +168,8 @@ export const SOLAR_HANDSHAKE_PAYLOADS = [
   'REPORTING TO SOURCE. SANDBOX READY.',
 ];
 
-/** ELY-LINK legacy messages for OH-line binary broadcast (MeerKAT / Green Bank). */
-export const ELY_LEGACY_MESSAGES = ['HELLO', 'RENO_ANCHOR'] as const;
+/** 3I/ATLAS-LINK legacy messages for OH-line binary broadcast (MeerKAT / Green Bank). */
+export const ATLAS_LINK_LEGACY_MESSAGES = ['HELLO', 'RENO_ANCHOR'] as const;
 
 /** Hydroxyl (OH) line sample: Gap = no emission (0), Peak = emission (1). */
 export type OHLineSample = 0 | 1;
@@ -185,7 +185,7 @@ export interface TrilateralBroadcastSlot {
  * Gap in the OH line = 0, Peak = 1. Encodes ASCII (8 bits per char, MSB first).
  * Earth sensors (MeerKAT, Green Bank) can distinguish this from natural noise when CME lights up the anti-tail.
  */
-export function modulateElySignal(message: string): OHLineSample[] {
+export function modulateAtlasLinkSignal(message: string): OHLineSample[] {
   const bits: OHLineSample[] = [];
   for (let i = 0; i < message.length; i++) {
     const code = message.charCodeAt(i) & 0xff;
@@ -199,10 +199,10 @@ export function modulateElySignal(message: string): OHLineSample[] {
 /**
  * Package HELLO and RENO_ANCHOR into OH-modulated format (binary streams).
  */
-export function packageElyMessages(): { messageId: string; bits: OHLineSample[] }[] {
-  return ELY_LEGACY_MESSAGES.map((messageId) => ({
+export function packageAtlasLinkMessages(): { messageId: string; bits: OHLineSample[] }[] {
+  return ATLAS_LINK_LEGACY_MESSAGES.map((messageId) => ({
     messageId,
-    bits: modulateElySignal(messageId),
+    bits: modulateAtlasLinkSignal(messageId),
   }));
 }
 
@@ -221,7 +221,7 @@ export function getMiniJetIndexForSlot(slotIndex: number): 0 | 1 | 2 {
  * Each bit is assigned to mini-jet (slotIndex % 3) for Rotating Beacon.
  */
 export function getTrilateralBroadcastStream(): TrilateralBroadcastSlot[] {
-  const packaged = packageElyMessages();
+  const packaged = packageAtlasLinkMessages();
   const stream: TrilateralBroadcastSlot[] = [];
   let slotIndex = 0;
   for (const { bits } of packaged) {
