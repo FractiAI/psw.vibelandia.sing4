@@ -52,7 +52,7 @@ function addConsoleHeader() {
     <div class="executive-tracking-strip" id="executive-tracking-strip">
         <span class="exec-tracking-label">Executive track:</span>
         <span class="exec-tracking-text">HOLD STOP — ALL HANDS — Howard Hughes return = new post-singularity golden era's return · Downtown Reno this time, not Hollywood or NY · Arrival &amp; permanent residency · Twain's Vibelandia · Full 1hr · TUNE IN OR LOSE OUT! · NSPFRNP.</span>
-        <span class="exec-tracking-links"><a href="../episodes/EPISODE_HOWARD_HUGHES_ANNOUNCES_ARRIVAL_PERMANENT_RESIDENCY_TWAIN_VIBELANDIA.md">Full episode →</a> · <a href="../TODAYS_OUTPUT_FEB_2_LIVE_STORIES_PARADIGM_FULL_EPISODE_SNAP.md">Today's output →</a> · <a href="../MAJOR_REORGS_EXECUTIVE_CHANGES_SINCE_JAN_13_DISNEY_RESPONSE_SNAP.md">Major reorgs →</a></span>
+        <span class="exec-tracking-links"><a href="../episodes/EPISODE_HOWARD_HUGHES_ANNOUNCES_ARRIVAL_PERMANENT_RESIDENCY_TWAIN_VIBELANDIA.md">Full episode →</a> · <a href="snap.html?snap=TODAYS_OUTPUT_FEB_2_LIVE_STORIES_PARADIGM_FULL_EPISODE_SNAP.md">Today's output →</a> · <a href="snap.html?snap=MAJOR_REORGS_EXECUTIVE_CHANGES_SINCE_JAN_13_DISNEY_RESPONSE_SNAP.md">Major reorgs →</a></span>
     </div>
 </div>
 

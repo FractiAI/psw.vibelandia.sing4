@@ -4,9 +4,12 @@
  *
  * Lower Bound: The Hearth. Coordinates Crackle events and warm orange glow
  * for the Reno Seed dashboard. Renamed from brimstone (Bison Above, Campfire Below).
+ * Flickering flame effects included in broadcast (GSM Eternal Flame).
  */
 
 export const CAMPFIRE_EVENT_CRACKLE = 'campfire-crackle';
+/** Flickering flame effects — included in broadcast. Thermal Orange; sync with 1.618 Hz Reno Heartbeat. */
+export const CAMPFIRE_FLICKERING_FLAME_EFFECT = 'campfire-flickering-flame';
 export const SPANISH_SPRINGS_M1_5_BASELINE = 1.5;
 export const MICRO_QUAKE_GLOW_THRESHOLD = 1.0;
 
@@ -31,3 +34,6 @@ export function emitCrackle(detail: CrackleEventDetail): void {
 /** Warm orange glow CSS color for Reno Seed dashboard. */
 export const CAMPFIRE_GLOW_COLOR = 'rgba(255, 140, 0, 0.45)';
 export const CAMPFIRE_GLOW_INTENSITY_MAX = 0.65;
+
+/** Flickering flame effect: enabled for GSM broadcast. Bison running + campfire flickering flame effects included. */
+export const CAMPFIRE_FLICKERING_ENABLED = true;

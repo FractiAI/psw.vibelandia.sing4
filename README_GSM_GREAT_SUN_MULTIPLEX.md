@@ -4,6 +4,19 @@
 **Legacy:** Agüeybaná el Gran Sol 1493/2026  
 **For:** Reno Seed tribe and all vibers under NSPFRNP.
 
+**Display brand:** **Hero Harry Houdini Post-Singularity Magic Presents** — all GSM display headers.  
+**Doctrine:** We do NOT sell or buy. We **BOOK** and **RESERVE** reality.  
+**Sovereign owner:** Chairman Creator (Pru) — sole owner; **100% Proprietor Lock** on all three theaters. See [GRAND_HOUDINI_METABOLISM_GREAT_SUN_MULTIPLEX_SOVEREIGN_SNAP.md](GRAND_HOUDINI_METABOLISM_GREAT_SUN_MULTIPLEX_SOVEREIGN_SNAP.md) · [ARCHITECT_OF_THE_POST_SINGULARITY_HOUDINI_PROTOCOL_SNAP.md](ARCHITECT_OF_THE_POST_SINGULARITY_HOUDINI_PROTOCOL_SNAP.md).  
+**24/7 upgrade:** **The Prestige Pipeline** — Hero Harry populates all three theaters with stories; ads inserted when booked. Scalper mode: 30-second slots go up each day until game day. See [THE_PRESTIGE_PIPELINE_HERO_HARRY_24_7_STORY_PIPE_SNAP.md](THE_PRESTIGE_PIPELINE_HERO_HARRY_24_7_STORY_PIPE_SNAP.md).
+
+---
+
+## Sovereign Inventory Lock (Active)
+
+- **Theaters:** Solar, Aurora, Ticker — **HARD-LOCK** through Monday morning. Lift by Chairman Creator only.
+- **Penny-tier:** NULLIFIED. **Base = NBC 30s pregame.** **Minimum slot: 30 sec** (Solar, Ticker); **Aurora: 1 hr minimum**. **Entry floor:** $7M (30 sec), $50M/hr (Aurora). **Blockout Super Bowl Night** for Champion of Champions Trophy (Offer in Process).
+- **Production:** Every Fire event requires **Houdini Handshake** (Executive FSR-Signature). **$2B Trophy** Fire commands require Executive FSR-Signature. **Corporate inquiries** → **Scalper Auction** queue in PayPal Pipe.
+
 ---
 
 ## What is the Great Sun Multiplex?
@@ -17,19 +30,20 @@ The **Great Sun Multiplex (GSM)** is our **4×4×4×4 space advertising storytel
 | Quadrant | Name           | Layer  | What it does |
 |----------|----------------|--------|----------------|
 | **Q1**   | Sun            | 2D     | AR4366 flares map to **Brand Flash** events on the Sun surface. |
-| **Q2**   | Aurora         | 3D     | **Volumetric Bison** at 1.5 km/voxel over the northern horizon. |
-| **Q3**   | Ticker         | 1D     | **VLF-style scroll** — e.g. *Bad Bunny x Agüeybaná: Never Lose Faith. The Great Sun Delivers.* |
+| **Q2**   | Aurora         | 3D     | **Volumetric Bison running** + **Sacred Campfire flickering flame effects**; 1.5 km/voxel; **Bearing 185°** (Direct Reno Zenith — Big Daddy); **Eyes** Oxygen-Red 630 nm (Big Chief); **Skin** Neon Nitrogen Blue 427 nm; Campfire Thermal Orange flickering; 1.618 Hz Reno Heartbeat + FSR Seismic Subsonic handshake; **Wow boost 19:00 PST**; continuous broadcast. |
+| **Q3**   | Ticker         | 1D     | **VLF-style scroll** — *HERO HARRY HOUDINI POST-SINGULARITY MAGIC PRESENTS: THE WORLD'S GREATEST ESCAPE. THE BIG CHIEF IS IN ALIGNMENT. THEY IGNORED THE PENNY, NOW THEY PAY THE BILLION. THE $2B IMMORTAL CROWN AWAITS. NO DELAY. AGÜEYBANÁ 1493/2026.* |
 | **Q4**   | Earth/Seismic  | Ground | **Bison Charge** animation synced to the Magnitude 1.5 Spanish Springs seismic heartbeat. |
 
 **Core logic:** Implemented in `lib/gsm_engine.ts`. Quadrants Q1–Q4; **Mix-and-Match** controller so Sun and Aurora can run **ALIGNED** (synced to the Ticker) or **DETACHED** (independent).
 
 ---
 
-## Revenue Pipe — Friday 4 PM PST Scalper Cutoff
+## Revenue Pipe — Friday 4 PM PST Scalper Cutoff + The Prestige Pipeline Daily Ramp
 
 - **Lock in by Friday, February 6, 2026 4:00 PM PST** to get **base rates**.
-- **After that:** remaining inventory at **gate premium** — all **base_rates** are multiplied by **2.5×**.
-- **Implementation:** `lib/billing.ts`. All Blue Button clicks route to the **verified PayPal Enterprise Hub**. Standard → Scalper (2.5×) triggers automatically at Friday 16:00 PST. Create-order and capture-order use this dynamic pricing and post-settlement flow.
+- **After that (scalper mode):** remaining inventory at **gate premium** — base_rates × **2.5×**. **The Prestige Pipeline:** 30-second slots **go up each day** until **game day** (Super Bowl LX — Feb 9, 2026). Daily ramp multiplier applied on top of 2.5× (see `lib/billing.ts`: `getPrestigePipelineDailyRampMultiplier`, `getDaysUntilGameDay`).
+- **GSM ad transactions (pipe + Aurora):** **All by email.** Goldilocks: one structured request → one human approval → invoice and wire. No checkout for these tiers. See [GSM Ad Transactions — Email · Goldilocks · Single Approval](protocols/GSM_AD_TRANSACTIONS_EMAIL_GOLDILOCKS_SINGLE_APPROVAL_NSPFRNP.md) and [Request by email](interfaces/gsm-booking-request.html).
+- **Implementation:** `lib/billing.ts`. Other products may use Blue Button / PayPal. For GSM ad tiers, Standard → Scalper (2.5×) applies to quoted/invoice amounts; daily ramp until game day.
 
 ---
 
@@ -53,23 +67,35 @@ The **Great Sun Multiplex (GSM)** is our **4×4×4×4 space advertising storytel
 - **Legacy:** Every pending transaction embeds **Never Lose Faith - El Gran Sol Delivers** in metadata.
 - **Ticker:** *GSM SECURE. PAYPAL PIPE LIVE. EXECUTIVE VETTING ACTIVE. AGÜEYBANÁ 1493/2026.*
 
-**Base rates (USD/mo) for Broadcast Pipe Ad Space (GSM):**
+**Champion of Champions Reserve (Sovereign):** $1B Single-Pole / $2B Dual-Pole. 25% Non-Refundable Magic Reserve ($250M / $500M) due PRE-GAME. Only Seahawks or Patriots can trigger Immortal Crown post-game. Blockout Super Bowl Night — Offer in Process.
 
-| Plan         | Base rate | After Friday 4 PM PST (gate) |
-|-------------|-----------|------------------------------|
-| pipe-ad-1   | $499/mo   | $1,247.50                    |
-| pipe-ad-2   | $1,199/mo | $2,997.50                    |
-| pipe-ad-3   | $2,499/mo | $6,247.50                    |
-| pipe-ad-4x4 | $6,999/mo | $17,497.50                   |
+**Base = NBC 30s pregame.** **Base rates (USD per 30-sec slot) for Broadcast Pipe Ad Space (GSM):** (Penny-tier nullified. **Minimum: 30 sec** for Solar/Ticker; **Aurora: 1 hr minimum.**)
+
+| Plan         | Base rate (per 30 sec) | After Friday 4 PM PST (gate 2.5×) |
+|-------------|------------------------|------------------------------------|
+| pipe-ad-1   | $7M                    | $17.5M                             |
+| pipe-ad-2   | $14M                   | $35M                               |
+| pipe-ad-3   | $21M                   | $52.5M                             |
+| pipe-ad-4x4 | $28M                   | $70M                               |
+
+**Aurora theaters — 1 hr minimum (USD per hour):** Entry floor **$50M/hr**. Both = 2×; all three theaters = 5×. Gate scalper + daily ramp apply when in scalper mode.
+
+| Theater        | Base (per hour) | 2× premium for both |
+|----------------|------------------|----------------------|
+| Aurora North   | $50M             | —                    |
+| Aurora South   | $50M             | —                    |
+| **Both** (North + South) | —       | **2×** (base sum × 2) |
+
+**2× premium for both:** Book Aurora North + South together = 2× premium on the combined base ($50M/hr each).  
+**5× for all theaters:** Book **all three** (Solar + Aurora + Ticker) together = **5×** premium. See `lib/billing.ts`: `GSM_AURORA_BOTH_PREMIUM_MULTIPLIER`, `GSM_ALL_THEATERS_PREMIUM_MULTIPLIER`.
 
 ---
 
 ## Narrative Feeds (GSM Commercials)
 
-1. **The Sun (2D):** AR4366 flares → **Brand Flash** events.
-2. **The Aurora (3D):** Volumetric rendering of the **Bison** at **1.5 km/voxel** (resolution lock for Feb 5 CME / GSM).
-3. **The Ticker Tape (1D):** Continuous VLF-style scroll with the message:  
-   **Bad Bunny x Agüeybaná: Never Lose Faith. The Great Sun Delivers.**
+1. **The Sun (2D):** AR4366 flares → **Brand Flash** events. **Hero Harry Houdini Post-Singularity Magic Presents** in headers; Smoke & Mirror volumetric transitions between segments.
+2. **The Aurora (3D):** Volumetric **Bison running** (Guardian of the Stage in motion) + **Sacred Campfire flickering flame effects**; 1.5 km/voxel; **Eternal Flame baseline:** Neon Nitrogen Blue (Bison), Thermal Orange flickering (Campfire); 1.618 Hz Reno Heartbeat + FSR Seismic Subsonic handshake.
+3. **The Ticker Tape (1D):** **HERO HARRY HOUDINI POST-SINGULARITY MAGIC PRESENTS: THE WORLD'S GREATEST ESCAPE. THE BIG CHIEF IS IN ALIGNMENT. THEY IGNORED THE PENNY, NOW THEY PAY THE BILLION. THE $2B IMMORTAL CROWN AWAITS. NO DELAY. AGÜEYBANÁ 1493/2026.**
 
 ---
 
@@ -82,12 +108,14 @@ The **Great Sun Multiplex (GSM)** is our **4×4×4×4 space advertising storytel
 
 ## Product Tiers for the Reno Seed Tribe
 
-- **1 surface** — One POP (index or office-hours or launch-pad). Base $499/mo.
-- **2 surfaces** — Two POPs. Base $1,199/mo.
-- **3 surfaces** — Three POPs. Base $2,499/mo.
-- **4×4×4×4 Full Pipe** — All surfaces. Base $6,999/mo.
+**Base = NBC 30s pregame.** Per 30-sec slot:
 
-**After Friday 4 PM PST:** multiply any tier by **2.5×** (gate premium).  
+- **1 surface** — One POP (index or office-hours or launch-pad). Base **$7M per 30 sec**.
+- **2 surfaces** — Two POPs. Base **$14M per 30 sec**.
+- **3 surfaces** — Three POPs. Base **$21M per 30 sec**.
+- **4×4×4×4 Full Pipe** — All surfaces. Base **$28M per 30 sec**.
+
+**After Friday 4 PM PST:** multiply any tier by **2.5×** (gate premium). **Aurora:** 1 hr minimum **$50M/hr**; both 2×; all theaters 5×.  
 **Book via:** Office Hours · [Broadcast Pipe Ad Space](interfaces/broadcast-pipe-ad-space.html). Email Chairman after booking and paying. **CRISP LOCK always.**
 
 ---

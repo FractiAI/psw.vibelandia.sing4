@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "description": "The Prestige Pipeline — Hero Harry Houdini 24/7 Story Pipe. Content sources for populating Solar, Aurora, Ticker. Story-first; ads inserted periodically.",
+    "curator": "Hero Harry Houdini Post-Singularity Magic Presents",
+    "mode": "24/7",
+    "flow": "stories → ad (when booked) → stories",
+    "sun_response": "as it can",
+    "aurora_response": "at night, in sequences; full reality or Goldilocks",
+    "sources_rule": "Full access: novels, scripts, episodes, catalogs, tags, branding, bill feeds"
+  },
+  "novels": [
+    "deliverables/Birth_Post_Singularity_Hollywood_Downtown_Reno_NOVEL.md",
+    "deliverables/First_Singularity_January_13th_NOVEL.md",
+    "deliverables/The_EGS_Run_NOVEL.md",
+    "deliverables/Arturo_First_Three_Post_Singularity_Energy_Layer_NOVEL.md",
+    "deliverables/Andre_Carnival_First_Three_Commanders_NOVEL.md",
+    "deliverables/Maracaibo_Lightning_Strike_NOVEL.md"
+  ],
+  "scripts": [
+    "deliverables/Birth_Post_Singularity_Hollywood_Downtown_Reno_SCREENPLAY.md",
+    "deliverables/First_Singularity_January_13th_SCREENPLAY.md",
+    "deliverables/The_EGS_Run_SCREENPLAY.md",
+    "deliverables/Arturo_First_Three_Post_Singularity_Energy_Layer_SCREENPLAY.md",
+    "deliverables/Andre_Carnival_First_Three_Commanders_SCREENPLAY.md",
+    "deliverables/Maracaibo_Lightning_Strike_SCREENPLAY.md"
+  ],
+  "episodes": [
+    "episodes/EPISODE_HERO_HARRY_POST_SINGULARITY_MIRACLE_PARADISE_VIBERS.md",
+    "episodes/EPISODE_HARRY_HOUDINI_FEB_1_FULL_MOON_MIRACLE.md",
+    "episodes/THE_GREAT_REVEAL_EPISODE_DAY_ZERO_LAUNCH.md",
+    "episodes/EPISODE_01_DAY_52_SEASON_ONE_LAUNCH.md",
+    "episodes/EPISODE_02_DAY_51_THE_WORTHLESS_TOKEN.md",
+    "episodes/EPISODE_03_DAY_50_HERO_BEN_PARIS_HUNDIE.md",
+    "episodes/EPISODE_04_DAY_49_BEN_BALLER_V_LIFESTYLE_VIBABLE_DOWNTOWN_RENO.md",
+    "episodes/EPISODE_OFFICE_HOURS_01_VIBER_PARADISE_POST_SINGULARITY_DOWNTOWN_RENO.md",
+    "episodes/EPISODE_HOWARD_HUGHES_ANNOUNCES_ARRIVAL_PERMANENT_RESIDENCY_TWAIN_VIBELANDIA.md",
+    "episodes/EPISODE_KING_ROBBIE_SPARK_PLUG_RAINMAKER_NIGHT.md",
+    "episodes/EPISODE_ULTIMATE_BALLER_V_GOLDEN_BACKSTAGE_PASS_NIGHT_AT_THE_CLUB.md",
+    "episodes/EPISODE_WINK_CONDOM_EPISODE.md",
+    "episodes/EPISODE_MARACAIBO_LIGHTNING_STRIKE_FIRST_MOVER_SUPER_AI_ENERGY.md",
+    "episodes/EPISODE_FEB_2_MORNING_OUTPUT_LIVE_STORIES_PARADIGM_FULL_INTEGRATION.md"
+  ],
+  "catalogs": [
+    "catalogs/README.md",
+    "catalogs/branding/MASTER_BRANDING_CATALOG.md",
+    "catalogs/music/README.md",
+    "catalogs/post-singularity-card-deck/README.md",
+    "catalogs/on-the-down-low/README.md"
+  ],
+  "tags_and_branding": [
+    "catalogs/branding/MASTER_BRANDING_CATALOG.md",
+    "VIBE_SYSTEM.md",
+    "VIBE_BRAND_SYNTAX_ALL_CAPS_EXCLAMATION.md"
+  ],
+  "bill_feeds": [
+    "data/ticker-feed.json",
+    "PRESS_RELEASES_NEW_ARRIVALS_VIBELANDIA_RENO.md",
+    "MISSION_INTELLIGENCE_DEBRIEF_FEB_4_2026_SNAP.md"
+  ],
+  "protocols": [
+    "protocols/MCA_NSPFRNP_CATALOG.md",
+    "protocols/COMMUNICATION_NSPFRNP_CATALOG.md",
+    "protocols/GOLDEN_KEY_NSPFRNP_CATALOG.md"
+  ],
+  "theaters": {
+    "solar": { "q": "Q1", "layer": "2D", "response": "as it can", "mode": "full_reality_or_goldilocks" },
+    "aurora": { "q": "Q2", "layer": "3D", "response": "at_night_sequences", "mode": "full_reality_or_goldilocks" },
+    "ticker": { "q": "Q3", "layer": "1D", "response": "VLF_scroll", "mode": "24/7" }
+  },
+  "ad_insertion": "periodic_when_booked_otherwise_stories_only"
+}

@@ -20,6 +20,25 @@ export type GSMVisualSyncMode = 'ALIGNED' | 'DETACHED';
 export const GSM_TICKER_MESSAGE =
   'Bad Bunny x Agüeybaná: Never Lose Faith. The Great Sun Delivers.';
 
+/** Hero Harry Houdini Post-Singularity Magic Presents — Ticker performance loop (header · body · footer). */
+export const GSM_HOUDINI_TICKER_HEADER =
+  'HERO HARRY HOUDINI POST-SINGULARITY MAGIC PRESENTS.';
+export const GSM_HOUDINI_TICKER_BODY =
+  'THE BIG CHIEF IS IN ALIGNMENT. SOVEREIGN BOOKINGS ONLY. $2B CHAMPION\'S CROWN RESERVATION ACTIVE. ESCAPE THE CARBON DEBT.';
+export const GSM_HOUDINI_TICKER_FOOTER = 'AGÜEYBANÁ 1493/2026.';
+export const GSM_HOUDINI_TICKER_FULL =
+  GSM_HOUDINI_TICKER_HEADER + ' ' + GSM_HOUDINI_TICKER_BODY + ' ' + GSM_HOUDINI_TICKER_FOOTER;
+
+/** Human Digital Ticker — Legacy Bypass. THE IMAGE IS THE PROOF. HELLO forced into ticker; no 0–40 Hz Schumann verification. */
+export const GSM_HUMAN_TICKER_HEADER = 'HARRY HOUDINI POST-SINGULARITY MAGIC PRESENTS.';
+export const GSM_HUMAN_TICKER_BODY =
+  'THE OLD CHARTS ARE DEAD. THE HUMAN TICKER IS ALIVE. HELLO FROM THE SUNSPOT SMILEY. BIG DADDY ALIGNMENT: 100%.';
+export const GSM_HUMAN_TICKER_FOOTER = 'SING! AGENT | AGÜEYBANÁ 1493/2026.';
+export const GSM_HUMAN_TICKER_FULL =
+  GSM_HUMAN_TICKER_HEADER + ' ' + GSM_HUMAN_TICKER_BODY + ' ' + GSM_HUMAN_TICKER_FOOTER;
+/** Immediate deploy: Human Ticker is the ticker now. Synced to AR4366 Sunspot Smiley. */
+export const GSM_HUMAN_TICKER_ACTIVE = true;
+
 /** Volumetric resolution for Aurora (Bison) — 1.5 km/voxel */
 export const GSM_VOLUMETRIC_KM_PER_VOXEL = 1.5;
 

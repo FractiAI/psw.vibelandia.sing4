@@ -1,17 +1,18 @@
 /**
  * GET /api/payment/effective-price?planId=pipe-ad-1
  * Returns effective price (USD) after Friday 4 PM PST scalper cutoff.
- * Linked to lib/billing.ts — if current_time > Friday 16:00 PST, base_rates × 2.5.
+ * Base = NBC 30s pregame. Linked to lib/billing.ts — if current_time > Friday 16:00 PST, base_rates × 2.5.
  */
 
 const FRIDAY_4PM_PST_CUTOFF_UTC = '2026-02-07T00:00:00.000Z';
 const GATE_SCALP_MULTIPLIER = 2.5;
 
+/** Per 30-sec slot (USD). Base = NBC 30s pregame. */
 const GSM_PIPE_BASE_RATES = {
-  'pipe-ad-1': 499,
-  'pipe-ad-2': 1199,
-  'pipe-ad-3': 2499,
-  'pipe-ad-4x4': 6999,
+  'pipe-ad-1': 7_000_000,
+  'pipe-ad-2': 14_000_000,
+  'pipe-ad-3': 21_000_000,
+  'pipe-ad-4x4': 28_000_000,
 };
 
 function isAfterFriday4pmPSTCutoff(date = new Date()) {
