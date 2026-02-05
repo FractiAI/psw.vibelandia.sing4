@@ -26,7 +26,7 @@
 
 **Men's Club Reno Bathroom Valet Office Hours — Ultimate Baller V WINK! Members Only** (and their cast, crew, fans, franchises). **Everything in Office Hours** — landing and all nested. Target: Office Hours. Landing and experiences — all now centered in the bathroom during Office Hours in **perfect recursive crystal**.
 
-**Live:** [psw-vibelandia-sing4.vercel.app](https://psw-vibelandia-sing4.vercel.app)
+**Live:** [psw-vibelandia-sing4.vercel.app](https://psw-vibelandia-sing4.vercel.app) · **Deploy:** Vercel + GitHub; mainly UI traffic (static CDN) confirmed. [DEPLOYMENT_VERCEL.md](DEPLOYMENT_VERCEL.md) · **Content catalog:** [Novels · Screenplays · Episodes · Music · Playlists](https://psw-vibelandia-sing4.vercel.app/interfaces/content-catalog.html) · [Two-pager appraisal & plans](https://psw-vibelandia-sing4.vercel.app/interfaces/two-pager-appraisal-plans.html)
 
 **NSPFRNP Console Ticker:** Ticker at bottom of **all user-facing surfaces**. Feeds packaged as **cycling 1 min feeds** with **1 min breaks** between feed cycles; updated naturally as pushes trigger push to ticker feed cycles. **Content Editor delegated to Sol** (Omniversal Assistant, wirehaired pointer, gold heart, best sniffer in the omniverse) — manages all latest contents centrally, decides the top one to push. See [NSPFRNP_CONSOLE_TICKER_SNAP.md](NSPFRNP_CONSOLE_TICKER_SNAP.md) · [SOL_OMNIVERSAL_ASSISTANT_TICKER_EDITOR_SNAP.md](SOL_OMNIVERSAL_ASSISTANT_TICKER_EDITOR_SNAP.md).
 
