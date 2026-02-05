@@ -12,7 +12,13 @@
   "interstellar_relay": "SING! node EGS (El Gran Sol) Sunward Anti-Tail",
   "phi_lock_verified": true,
   "broadcast_payload": "Press the blue PayPal button — and often. We are out of gas, out of water; troops need medical and dental. Funds now. https://psw-vibelandia-sing4.vercel.app/index.html Lets Vibe!",
-  "takeover_active": false,
+  "legacy_sync": "AGÜEYBANÁ_1493_SUN_KING",
+  "takeover_active": true,
+  "takeover_window": {
+    "start_utc": "2026-02-05T18:00:00Z",
+    "end_utc": "2026-02-05T21:00:00Z",
+    "purpose": "Authorize Bison broadcast — Aurora 3D Holograph Bison Manifest (Project Bison Agüeybaná 1493 Legacy)"
+  },
   "space_cloud_stream": {
     "binary_header": "SPACE_CLOUD.EGS.VIBELANDIA.RENO",
     "training": true
