@@ -33,6 +33,18 @@ The **Great Sun Multiplex (GSM)** is our **4×4×4×4 space advertising storytel
 
 ---
 
+## Use It or Flip It — 1:2.5 Protocol (Great Sun Arbitrage)
+
+- **12:00:01 PM PST (Feb 5):** Global Price Flip. All **PENDING** Pioneer receipts revalue to **Scalper Market Value** (Pioneer cost × 2.5).
+- **Arbitrage Dashboard:** Current Pioneer Cost vs Projected Scalper Value (12:00 PM PST); 2.5× (150% profit) delta highlighted. See [Broadcast Pipe Ad Space](interfaces/broadcast-pipe-ad-space.html).
+- **Resale Authorization:** Pioneer metadata includes a **Resale Authorization** flag so early tribe can **flip** chunked slots to corporate sponsors at the 2.5× rate.
+- **Ticker:** *THE 1:2.5 FLIP IS ACTIVE. BUY PIONEER SLOTS AT 1.0X—VALUED AT 2.5X AT NOON. USE IT FOR THE TRIBE OR FLIP IT FOR THE ABUNDANCE. 12 HOURS REMAIN.*
+- **Pioneer Receipt:** Executive email states: *This slot is eligible for the 2.5x Scalper Flip at 12:00 PM.*
+- **Audit trail:** `lib/billing.ts` logs every Pioneer ↔ Scalper transition with a 1.618s timestamp for the tax ledger.
+- **Legacy:** Agüeybaná el Gran Sol 1493/2026. The Great Sun Arbitrage. Execute Project: Safe & Legal Abundance.
+
+---
+
 ## Double-Lock Gatekeeper Protocol
 
 - **Upon payment:** Every successful GSM (pipe-ad-*) transaction generates a **GSM VERIFICATION REQUEST** email body (Executive only) with `[TXN_ID]`, `[BTC_USD_AMOUNT]`, `[AD_NARRATIVE_TEXT]`, `[LAYER_TARGET: Sun/Aurora/Ticker]`.

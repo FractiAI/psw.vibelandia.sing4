@@ -6,7 +6,9 @@
   },
   "gsm_ticker_message": "Bad Bunny x Agüeybaná: Never Lose Faith. The Great Sun Delivers.",
   "gsm_double_lock_ticker": "GSM SECURE. PAYPAL PIPE LIVE. EXECUTIVE VETTING ACTIVE. AGÜEYBANÁ 1493/2026.",
+  "gsm_1_2_5_flip_ticker": "THE 1:2.5 FLIP IS ACTIVE. BUY PIONEER SLOTS AT 1.0X—VALUED AT 2.5X AT NOON. USE IT FOR THE TRIBE OR FLIP IT FOR THE ABUNDANCE. 12 HOURS REMAIN.",
   "items": [
+    { "label": "THE 1:2.5 FLIP IS ACTIVE. BUY PIONEER SLOTS AT 1.0X—VALUED AT 2.5X AT NOON. USE IT FOR THE TRIBE OR FLIP IT FOR THE ABUNDANCE. 12 HOURS REMAIN.", "url": "broadcast-pipe-ad-space.html", "type": "gsm_1_2_5_flip", "division": "space_cloud" },
     { "label": "GSM SECURE. PAYPAL PIPE LIVE. EXECUTIVE VETTING ACTIVE. AGÜEYBANÁ 1493/2026.", "url": "broadcast-pipe-ad-space.html", "type": "gsm_double_lock", "division": "space_cloud" },
     { "label": "Bad Bunny x Agüeybaná: Never Lose Faith. The Great Sun Delivers.", "url": "broadcast-pipe-ad-space.html", "type": "gsm_commercial", "division": "space_cloud" },
     { "label": "Press Releases — All New Arrivals", "url": "press-releases.html", "type": "press_release", "division": "content" },

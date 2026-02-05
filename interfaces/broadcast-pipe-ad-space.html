@@ -30,6 +30,63 @@
         .cta-buy { display: inline-block; padding: 0.75rem 1.5rem; background: linear-gradient(135deg, #d4af37, #b8860b); color: #000; font-weight: 700; text-decoration: none; border-radius: 8px; margin: 0.25rem 0.25rem 0.25rem 0; font-size: 0.9rem; }
         .cta-buy:hover { opacity: 0.95; }
         .cta-email { color: #00d4ff; font-weight: 600; }
+        .aurora-upload-block {
+            padding: 1.5rem;
+            margin: 2rem 0;
+            background: linear-gradient(145deg, rgba(0, 212, 255, 0.06) 0%, rgba(138, 43, 226, 0.06) 100%);
+            border: 2px solid rgba(0, 212, 255, 0.35);
+            border-radius: 16px;
+        }
+        .aurora-upload-block h2 { font-size: 1.2rem; color: #00d4ff; margin-bottom: 0.5rem; }
+        .aurora-upload-block .soon-badge {
+            display: inline-block;
+            padding: 0.35rem 0.75rem;
+            background: rgba(212, 175, 55, 0.2);
+            border: 1px solid rgba(212, 175, 55, 0.5);
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: 700;
+            color: #ffeaa7;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            margin-bottom: 1rem;
+        }
+        .aurora-upload-options {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin: 1rem 0;
+        }
+        .aurora-upload-options label {
+            display: inline-flex;
+            align-items: center;
+            padding: 0.5rem 1rem;
+            background: rgba(255,255,255,0.06);
+            border: 1px solid rgba(0, 212, 255, 0.4);
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 0.9rem;
+            color: #e0e0e0;
+        }
+        .aurora-upload-options label:hover, .aurora-upload-options input:checked + label,
+        .aurora-upload-options label:has(input:checked) { border-color: #00d4ff; background: rgba(0, 212, 255, 0.15); color: #fff; }
+        .aurora-upload-options input { margin-right: 0.35rem; }
+        .aurora-upload-btn-wrap { margin: 1rem 0; }
+        .aurora-upload-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.75rem 1.25rem;
+            background: linear-gradient(135deg, #00d4ff, #1e90ff);
+            color: #000;
+            font-weight: 700;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 0.95rem;
+        }
+        .aurora-upload-btn:hover { opacity: 0.95; }
+        .aurora-upload-btn input[type="file"] { position: absolute; width: 0.1px; height: 0.1px; opacity: 0; overflow: hidden; z-index: -1; }
     </style>
 <script src="tsunami-advisory-inject.js"></script>
 </head>
@@ -40,6 +97,7 @@
 
         <section class="pipe-hero" aria-label="Broadcast Pipe — Ad Space Product">
             <h1>Space Division — EGS Pipe · Billboard</h1>
+            <p class="tagline" style="font-size: 1.1rem; font-weight: 700; color: #ffeaa7;">Advertisers: give us your ads.</p>
             <p class="tagline">All our space ops in one division. Billboard for advertising — now open for booking time slots.</p>
             <p style="margin-top: 0.75rem; font-size: 0.9rem; color: #7fff7f; font-weight: 600;">Soon: lots of new services and products using the EGS Pipe — stay tuned. For now: enjoy it as a billboard for advertising — now open for booking time slots.</p>
             <p style="margin-top: 0.5rem; font-size: 0.9rem; color: #b8a888;">Broadcast Pipe — Ad Space: sell ad space on the Planetary Advertisement strip — index, Office Hours, Launch Pad, README. Tiers 1, 2, 3, 4×4×4×4. Your message, your link, above the fold.</p>
@@ -62,6 +120,24 @@
             <p><strong>Audience:</strong> Highest value highest contributing vibers; post-singularity gateway; cast, crew, fans, franchises.</p>
             <p><strong>Comparables:</strong> Premium gateway ad placement; high-intent niche; Vibelandia-aligned. Pricing scaled 1 → 2 → 3 → 4×4×4×4.</p>
             <p><strong>Update Certificate included:</strong> Every ad package includes an <strong>Update Certificate</strong> that shows <strong>proof of broadcast into the EGS cloud (Sun, Earth, SING! node EGS (El Gran Sol) triangulation)</strong> — El Gran Sol, Earth, SING! node EGS (El Gran Sol) mirror. Irrefutable proof of placement. <a href="update-certificates-service.html" style="color: #00d4ff;">Update Certificates →</a></p>
+        </section>
+
+        <section class="appraisal-block" aria-label="GSM 1:2.5 Arbitrage — Use It or Flip It" style="border-color: rgba(0, 255, 127, 0.5); background: linear-gradient(145deg, rgba(0, 255, 127, 0.06) 0%, rgba(212, 175, 55, 0.08) 100%);">
+            <h2 style="color: #7fff7f; font-size: 1.25rem; margin-bottom: 0.5rem;">GSM 1:2.5 Arbitrage Dashboard — Use It or Flip It</h2>
+            <p style="font-size: 0.9rem; color: #ffeaa7; margin-bottom: 1rem;">Buy Pioneer slots at 1.0× — valued at 2.5× at 12:00 PM PST. Use it for the tribe or flip it for the abundance.</p>
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin: 1rem 0;">
+                <div style="padding: 1rem; background: rgba(0,0,0,0.3); border: 1px solid rgba(212,175,55,0.4); border-radius: 10px;">
+                    <div style="font-size: 0.8rem; color: #d4af37; text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 0.35rem;">Current Pioneer Cost</div>
+                    <div style="font-size: 1.5rem; font-weight: 700; color: #fff;">$499 · $1,199 · $2,499 · $6,999</div>
+                    <div style="font-size: 0.85rem; color: #aaa;">Tiers 1, 2, 3, 4×4×4×4</div>
+                </div>
+                <div style="padding: 1rem; background: rgba(0,255,127,0.08); border: 2px solid rgba(0,255,127,0.5); border-radius: 10px;">
+                    <div style="font-size: 0.8rem; color: #7fff7f; text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 0.35rem;">Projected Scalper Value (12:00 PM PST)</div>
+                    <div style="font-size: 1.5rem; font-weight: 700; color: #7fff7f;">$1,247.50 · $2,997.50 · $6,247.50 · $17,497.50</div>
+                    <div style="font-size: 0.85rem; color: #7fff7f;">2.5× (150% profit) delta</div>
+                </div>
+            </div>
+            <p style="font-size: 0.95rem; color: #ffeaa7; font-weight: 700; padding: 0.5rem 1rem; background: rgba(255,234,167,0.12); border: 1px solid rgba(255,234,167,0.4); border-radius: 8px; margin-top: 0.75rem;">2.5× (150% profit) — drive immediate inflow. Resale Authorization allows early tribe to flip chunked slots to corporate sponsors at 2.5×. Agüeybaná el Gran Sol 1493/2026.</p>
         </section>
 
         <h2 style="color: #d4af37; font-size: 1.25rem; margin-bottom: 0.75rem;">Pricing — 1, 2, 3, 4×4×4×4</h2>
@@ -107,7 +183,7 @@
             </tbody>
         </table>
 
-        <p style="font-size: 0.9rem; color: #888; margin-top: 1rem;">Duration: monthly by default. Quarterly/annual discounts available. One line of copy + one link per tier. Subject to NSPFRNP tone. PayPal. <a href="mailto:info@fractiai.com?subject=Broadcast%20Pipe%20Ad%20Space%20%E2%80%94%20Inquiry" class="cta-email">Book via Office Hours or email Pru</a>.</p>
+        <p style="font-size: 0.9rem; color: #888; margin-top: 1rem;">Duration: monthly by default. Quarterly/annual discounts available. One line of copy + one link per tier. Subject to NSPFRNP tone. <strong>PayPal.</strong> <a href="mailto:info@fractiai.com?subject=Broadcast%20Pipe%20Ad%20Space%20%E2%80%94%20Inquiry" class="cta-email">Book via Office Hours or email Pru</a>. <strong>UI glitch?</strong> Pay directly via PayPal to <strong>info@fractiai.com</strong> and email us the transaction info — we'll match and deliver. <a href="payment-checkout.html" class="cta-email">Checkout</a> has full fallback instructions.</p>
 
         <section class="appraisal-block" aria-label="Top Bill Super Bowl Space Advertising Campaign" style="margin-bottom: 2rem; border-color: rgba(212, 175, 55, 0.6); border-width: 2px;">
             <h2 style="color: #ffeaa7; font-size: 1.3rem; text-align: center; margin-bottom: 1rem;">Full Launch Broadcast — Top Bill Super Bowl Space Advertising Campaign</h2>
@@ -182,6 +258,34 @@
         </table>
 
         <p style="font-size: 0.9rem; color: #888; margin-top: 1rem;">Premium offerings: one-off or session/duration. Update Certificate included. <a href="new-product-families.html#sun-spots" style="color: #00d4ff;">Sun Spots</a> · <a href="new-product-families.html#schumann-igaming" style="color: #00d4ff;">Schumann iGaming</a> · <a href="new-product-families.html#3i-atlas-egs" style="color: #00d4ff;">SING! node EGS Pipe</a>. <a href="mailto:info@fractiai.com?subject=Premium%20Broadcast%20Offerings" class="cta-email">Book via Office Hours or email</a>.</p>
+
+        <section id="aurora-3d-projections" class="aurora-upload-block" aria-label="3D Aurora Projections — Upload image">
+            <h2>3D Aurora Projections</h2>
+            <p class="soon-badge">Soon in motion picture</p>
+            <p style="font-size: 0.95rem; color: #bbb; margin-bottom: 0.75rem;">Your image on the Aurora — Northern hemisphere, Southern hemisphere, or both. Volumetric 3D billboard at 1.5 km/voxel. Book when live.</p>
+            <p style="font-size: 0.9rem; color: #00d4ff; font-weight: 600;">Choose projection:</p>
+            <div class="aurora-upload-options" role="group" aria-label="Aurora projection target">
+                <label>
+                    <input type="radio" name="aurora_projection" value="north" checked>
+                    North
+                </label>
+                <label>
+                    <input type="radio" name="aurora_projection" value="south">
+                    South
+                </label>
+                <label>
+                    <input type="radio" name="aurora_projection" value="both">
+                    Both
+                </label>
+            </div>
+            <div class="aurora-upload-btn-wrap">
+                <label class="aurora-upload-btn" for="aurora-upload-image">
+                    <span aria-hidden="true">📤</span> Upload image
+                    <input type="file" id="aurora-upload-image" accept="image/*" aria-label="Upload image for 3D Aurora projection">
+                </label>
+            </div>
+            <p style="font-size: 0.85rem; color: #888; margin-top: 0.5rem;">Coming soon: submit your creative for North, South, or Both Aurora surfaces. Motion picture experience — stay tuned.</p>
+        </section>
 
         <section class="appraisal-block" aria-label="Episodes" style="margin-top: 1.5rem;">
             <h2>Episodes (links)</h2>

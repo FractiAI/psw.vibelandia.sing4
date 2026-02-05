@@ -125,12 +125,15 @@ export default async function handler(req, res) {
         `AD_NARRATIVE_TEXT: ${adNarrativeText}`,
         `LAYER_TARGET: ${layerTarget}`,
         '',
+        'This slot is eligible for the 2.5x Scalper Flip at 12:00 PM.',
+        '',
         'Copy this block and paste into the Executive console to validate and launch the 4×4×4×4 quadrant.',
       ].join('\n');
       responseData.gsm_verification_request = {
         subject: 'GSM VERIFICATION REQUEST',
         body: gsmBody,
         to: 'Executive only',
+        resale_authorization: true,
       };
       responseData.gsm_pipe_status_next = 'PENDING_EXECUTIVE_PASTE';
       responseData.legacy_metadata = 'Never Lose Faith - El Gran Sol Delivers';
