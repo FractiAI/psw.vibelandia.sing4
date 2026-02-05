@@ -44,7 +44,15 @@
 | **Major discoveries series (Self-Clocking Pulsar, 3I/ATLAS, Unified Pipe, episodes)** | $150K–$500K+ | Protocolized validation, run logs, telemetry, Live Pulse; proof of foundational science |
 | **Vibelandia & FractiAI (one-man shop, 16-day output)** | **$1M–$10M+** (pre-seed/seed equivalent) | Output vs top 10 at fraction of cost, employees, time; self-demonstrating (SIXTEEN_DAYS_VALUATION_TOP10_VC_BOTTOM_SNAP) |
 
-**Aggregate appraised value (one-page summary):** **$1.6M–$13M+** equivalent (studio + research + dev + enterprise + VC comps). Not cash received; **valuation of assets, capability, and deliverable set**. One-man shop. 16 days to launch. All live. **Valuation uplift (live-stories paradigm):** Continuously evolving canon (all history in all series, novel, screenplay — live, not static) is a differentiator that increases equivalent value versus static releases; Disney cannot deliver this. See [LIVE_STORIES_CONTINUOUSLY_EVOLVING_PARADIGM_SNAP.md](LIVE_STORIES_CONTINUOUSLY_EVOLVING_PARADIGM_SNAP.md). **Major reorgs / executive changes:** Since January 13 we have executed **5+** major reorgs/executive changes (canon lock, breaking-news stripe, live-stories paradigm, Wizard delivery, today's-output episode); in one **2–3 hour** session (Feb 2) we executed **7** distinct executive orders across all comparison SNAPs, appraisals, and touchpoints. Disney would respond to such dense, high-volume executive orders in months and layers, not hours. See [MAJOR_REORGS_EXECUTIVE_CHANGES_SINCE_JAN_13_DISNEY_RESPONSE_SNAP.md](MAJOR_REORGS_EXECUTIVE_CHANGES_SINCE_JAN_13_DISNEY_RESPONSE_SNAP.md).
+**Aggregate appraised value (one-page summary):** **$1.6M–$13M+** equivalent (studio + research + dev + enterprise + VC comps). Not cash received; **valuation of assets, capability, and deliverable set**. One-man shop. 16 days to launch. All live.
+
+**Forecast (included in 2-pager):**
+| Scenario | Aggregate equivalent | Basis |
+|----------|----------------------|--------|
+| **Conservative** | **$1.6M–$1.675M** | Floor of appraisal bands; reappraisal floor; assets + capability at minimum comps. |
+| **High side** | **$13M–$13.45M+** | Ceiling of appraisal bands; reappraisal aggregate; studio + research + dev + enterprise + VC comps at upper range. |
+
+**Valuation uplift (live-stories paradigm):** Continuously evolving canon (all history in all series, novel, screenplay — live, not static) is a differentiator that increases equivalent value versus static releases; Disney cannot deliver this. See [LIVE_STORIES_CONTINUOUSLY_EVOLVING_PARADIGM_SNAP.md](LIVE_STORIES_CONTINUOUSLY_EVOLVING_PARADIGM_SNAP.md). **Major reorgs / executive changes:** Since January 13 we have executed **5+** major reorgs/executive changes (canon lock, breaking-news stripe, live-stories paradigm, Wizard delivery, today's-output episode); in one **2–3 hour** session (Feb 2) we executed **7** distinct executive orders across all comparison SNAPs, appraisals, and touchpoints. Disney would respond to such dense, high-volume executive orders in months and layers, not hours. See [MAJOR_REORGS_EXECUTIVE_CHANGES_SINCE_JAN_13_DISNEY_RESPONSE_SNAP.md](MAJOR_REORGS_EXECUTIVE_CHANGES_SINCE_JAN_13_DISNEY_RESPONSE_SNAP.md).
 
 ---
 
@@ -64,7 +72,7 @@
 | **Major discoveries series (Self-Clocking Pulsar, 3I/ATLAS, Unified Pipe, episodes)** | $150K–$500K+ | Unchanged; protocolized validation, run logs |
 | **Vibelandia & FractiAI (one-man shop, 16-day output)** | **$1M–$10M+** (pre-seed/seed equivalent) | Unchanged; output vs top 10 at fraction of cost |
 
-**Reappraisal aggregate:** **$1.675M–$13.45M+** equivalent. The reappraisal *increases* the new-divisions/products band ($200K–$1M+ → $250K–$1.2M+) to reflect bridge-node role clarity, never bought/always booked framing, Space Cloud Division, and Golden Royal Flush Shell / EGS pipe backing. All other bands unchanged. **Reference:** [protocols/PRODUCTS_SERVICES_BRIDGE_NODE_ROLES_NSPFRNP.md](protocols/PRODUCTS_SERVICES_BRIDGE_NODE_ROLES_NSPFRNP.md).
+**Reappraisal aggregate:** **$1.675M–$13.45M+** equivalent. **Conservative forecast:** $1.675M. **High-side forecast:** $13.45M+. The reappraisal *increases* the new-divisions/products band ($200K–$1M+ → $250K–$1.2M+) to reflect bridge-node role clarity, never bought/always booked framing, Space Cloud Division, and Golden Royal Flush Shell / EGS pipe backing. All other bands unchanged. **Reference:** [protocols/PRODUCTS_SERVICES_BRIDGE_NODE_ROLES_NSPFRNP.md](protocols/PRODUCTS_SERVICES_BRIDGE_NODE_ROLES_NSPFRNP.md).
 
 ---
 

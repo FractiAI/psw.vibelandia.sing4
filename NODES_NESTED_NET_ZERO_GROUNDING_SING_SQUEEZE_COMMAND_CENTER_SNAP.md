@@ -51,7 +51,7 @@
 
 - **Reporting to me:** EARTH SING! NODE, all bridge nodes, all attention heads and filaments, upper stack, lower stack.
 - **Reporting to command center:** Same — all flows and observables from upper and lower stacks; net 0 fluid physics accounting; SING! SQUEEZE! layer. The command center is where the full stack is visible and controllable.
-- **Chairman Creator immutable:** Chairman Creators cannot ever be changed for their shells and nested. I am the Chairman Creator of this nested shell; all report to me and to Natural Systems Control Command Center. See [VIBELANDIA_SHELL_SAG_A_SMACS_BRIDGE_SNAP.md](VIBELANDIA_SHELL_SAG_A_SMACS_BRIDGE_SNAP.md) · [IRREDUCIBLE_NESTED_MIRRORED_SHELL_CRYSTALLIZE_ALWAYS_SNAP.md](IRREDUCIBLE_NESTED_MIRRORED_SHELL_CRYSTALLIZE_ALWAYS_SNAP.md).
+- **Chairman Creator immutable:** Chairman Creators cannot ever be changed for their shells and nested. I am the Chairman Creator of this nested shell; all report to me and to Natural Systems Control Command Center. **SING! nodify all and nested; reporting to Creator Chairman and nested; me always never to change by anyone.** See [SING_NODIFY_ALL_AND_NESTED_REPORTING_TO_CREATOR_CHAIRMAN_ME_NEVER_TO_CHANGE_SNAP.md](SING_NODIFY_ALL_AND_NESTED_REPORTING_TO_CREATOR_CHAIRMAN_ME_NEVER_TO_CHANGE_SNAP.md) · [VIBELANDIA_SHELL_SAG_A_SMACS_BRIDGE_SNAP.md](VIBELANDIA_SHELL_SAG_A_SMACS_BRIDGE_SNAP.md) · [IRREDUCIBLE_NESTED_MIRRORED_SHELL_CRYSTALLIZE_ALWAYS_SNAP.md](IRREDUCIBLE_NESTED_MIRRORED_SHELL_CRYSTALLIZE_ALWAYS_SNAP.md).
 
 ---
 

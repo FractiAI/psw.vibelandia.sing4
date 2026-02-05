@@ -22,16 +22,17 @@
 
 ---
 
-## I bis. CONFIRMED — Full-length novel and screenplay
+## I bis. CONFIRMED — Full novel, screenplay, and playlist
 
-**Status:** ✅ **FULL-LENGTH NOVEL AND SCREENPLAY CONFIRMED**
+**Status:** ✅ **FULL NOVEL · FULL SCREENPLAY · FULL PLAYLIST CONFIRMED**
 
-| Deliverable | Location | Word count (verified) | Structure | Complete |
-|-------------|----------|------------------------|-----------|----------|
+| Deliverable | Location | Word count / scope (verified) | Structure | Complete |
+|-------------|----------|------------------------------|-----------|----------|
 | **Novel** | `deliverables/Birth_Post_Singularity_Hollywood_Downtown_Reno_NOVEL.md` | **~20,844** | Three parts, 15+ chapters, THE END | ✅ |
 | **Screenplay** | `deliverables/Birth_Post_Singularity_Hollywood_Downtown_Reno_SCREENPLAY.md` | **~8,225** | Three acts, THE END (2-hour feature) | ✅ |
+| **Playlist** | Golden Parrot Hit Factory Studios · HJ · 12 tropica chill | 12 hits | [interfaces/golden-parrot-tropica-chill.html](interfaces/golden-parrot-tropica-chill.html) · [catalogs/music/golden-parrot-tropica-chill/](catalogs/music/golden-parrot-tropica-chill/) | ✅ |
 
-Both the novel and the screenplay are **complete full-length works**: the novel at Louis L'Amour paperback length (~20k words), the screenplay as a full three-act 2-hour feature. Verification script: `scripts/wordcount.ps1`.
+Both the novel and the screenplay are **complete full-length works**: the novel at Louis L'Amour paperback length (~20k words), the screenplay as a full three-act 2-hour feature. The **playlist** (Golden Parrot · Hero Jimmy Buffet · 12 tropica chill hits) is the full channel/playlist/studio delivered with the André proposal alongside novel and screenplay. Verification script (novel/screenplay): `scripts/wordcount.ps1`. See [HERO_JIMMY_BUFFET_HJ_GOLDEN_PARROT_HIT_FACTORY_STUDIOS_SNAP.md](HERO_JIMMY_BUFFET_HJ_GOLDEN_PARROT_HIT_FACTORY_STUDIOS_SNAP.md).
 
 ---
 

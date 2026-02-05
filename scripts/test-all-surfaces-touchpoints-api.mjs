@@ -72,6 +72,13 @@ const expectedSurfaces = [
   'first-singularity-january-13th-experience.html',
   'first-singularity-novel.html',
   'first-singularity-screenplay.html',
+  'birth-post-singularity-novel.html',
+  'birth-post-singularity-screenplay.html',
+  'the-egs-run-novel.html',
+  'the-egs-run-screenplay.html',
+  'hero-jo-classical.html',
+  'golden-parrot-tropica-chill.html',
+  'content-catalog.html',
 ];
 const expectedJs = ['add-console-header.js', 'api-config.js', 'auth-api.js', 'golden-key-browser.js'];
 

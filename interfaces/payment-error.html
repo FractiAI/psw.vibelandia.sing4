@@ -65,10 +65,11 @@
             <!-- Error details loaded here -->
         </div>
         
+        <p style="margin-top: 1.5rem; padding: 1rem; background: rgba(0,212,255,0.1); border: 1px solid rgba(0,212,255,0.3); border-radius: 12px; font-size: 0.95rem; text-align: left;"><strong>In the event of a UI glitch:</strong> Pay directly via <strong>PayPal</strong> to <strong>info@fractiai.com</strong>, then <strong>email info@fractiai.com</strong> with your PayPal transaction ID and the plan/product you paid for. We'll match the payment and deliver your access.</p>
         <div class="actions">
             <a href="payment-checkout.html" class="btn">Try Again</a>
             <a href="../index.html" class="btn">Return to VIBELANDIA!</a>
-            <a href="mailto:info@fractiai.com?subject=Payment Error" class="btn">Contact Support</a>
+            <a href="mailto:info@fractiai.com?subject=Payment%20Error%20-%20PayPal%20transaction%20info" class="btn">Email info@fractiai.com with PayPal transaction</a>
         </div>
     </div>
 
@@ -79,7 +80,7 @@
         document.getElementById('error-message').innerHTML = `
             <p><strong>Error:</strong></p>
             <p>${error}</p>
-            <p style="margin-top: 1rem; font-size: 0.9rem;">If this problem persists, please contact support.</p>
+            <p style="margin-top: 1rem; font-size: 0.9rem;">If this problem persists: pay via PayPal directly to info@fractiai.com and email us the transaction details so we can match and deliver.</p>
         `;
     </script>    <div id="sing-config-footer"></div>
     <link rel="stylesheet" href="sing-config-footer.css">

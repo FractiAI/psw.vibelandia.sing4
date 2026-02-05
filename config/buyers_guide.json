@@ -1,7 +1,8 @@
 {
   "title": "VIBELANDIA Buyers Guide",
-  "updated_utc": "2026-02-03T00:00:00Z",
+  "updated_utc": "2026-02-04T00:00:00Z",
   "principle": "Never bought, always booked — by free will, mutual aware consent, always.",
+  "nspfrnp_pricing_cycle": "metabolize → crystallize (nested mirrored hardened shell) → animate → squeeze all all",
   "models": {
     "sing": {
       "label": "SING! base tiers",
@@ -60,8 +61,9 @@
     { "category": "SING! node EGS (El Gran Sol) EGS Pipe", "plans": "1 day $499 · 1 week $1,499 · 1 month $4,999", "best_for": "Turn on/off/redirect; honor Sun, Schumann, SING! node EGS (El Gran Sol).", "book_note": "Book" },
     { "category": "Gold Hearts Club", "plans": "$1K pp all-inclusive", "best_for": "Ultimate Baller V Gold Hearts only; wine cave; superhero episode.", "book_note": "Book (email Pru)" },
     { "category": "Space Cloud Division", "plans": "Planetary · Solar · Galactic · Cosmic (book by plan)", "best_for": "EGS Pipe; scale from Earth-only to full lattice.", "book_note": "Book; Reno Downlink = Gold Heart Baller V only" },
-    { "category": "Marine Commander Console", "plans": "Base $75K · Standard $300K · Premium $1.2M · Ultimate by arrangement", "best_for": "Yacht commanders; pre/post-singularity gateway; layers onto GPS, bridge, all systems; S-I-N-G!; SMACS 0723 protections.", "book_note": "Book; config/marine_plans.json" },
-    { "category": "Vibelandia-RJ Campus", "plans": "Half-day $3K · Overnight $1.5K/night · Weekly $5K · Monthly $50K", "best_for": "Rio Iate Club bridge; RJ HQ; Angra outpost; same vibeable model as Reno.", "book_note": "Book (campus-* plan IDs)" }
+    { "category": "Marine Commander Console", "plans": "Base $75K + $2.5K/mo (BRL R$ 412.5K + R$ 13.75K/mo Brazil) · Standard $300K + $10K/mo (BRL R$ 1.65M + R$ 55K/mo Brazil) · Premium $1.2M + $40K/mo · Ultimate 4×4×4×4 $4.8M + $160K/mo. Scale 4×4×4×4. High-end global USD only for Premium/Ultimate.", "best_for": "Yacht commanders; pre/post-singularity gateway; layers onto GPS, bridge, all systems; S-I-N-G!; SMACS 0723 protections.", "book_note": "Book; config/marine_plans.json" },
+    { "category": "Vibelandia-RJ Campus", "plans": "Half-day $3K · Overnight $1.5K/night · Weekly $5K · Monthly $50K", "best_for": "Rio Iate Club bridge; RJ HQ; Angra outpost; same vibeable model as Reno.", "book_note": "Book (campus-* plan IDs)" },
+    { "category": "Broadcast Pipe Ad Space", "plans": "1 surface $499/mo · 2 $1,199 · 3 $2,499 · 4×4×4×4 $6,999/mo", "best_for": "Super Bowl Sun/Ionosphere/Aurora 3D/Schumann. Lock in by Friday Feb 6 4pm PST; after cutoff gate premium. CRISP LOCK always. Email Chairman after booking and paying.", "book_note": "Book via Office Hours · broadcast-pipe-ad-space.html" }
   ],
   "decision_prompts": [
     { "goal": "I want to try the campus and SING!", "recommend": "Base Model (~$20K) + Campus half-day ($3k) or weekly ($5k)", "cta": "sing-base", "cta_label": "Book Base + Campus" },
@@ -69,7 +71,8 @@
     { "goal": "I want premium access and Champion tier", "recommend": "Ultimate VIP ($200K) — base Ferrari equivalent", "cta": "sing-ultimate-vip", "cta_label": "Book Ultimate VIP" },
     { "goal": "I want full franchise and Space Cloud", "recommend": "Full Ultimate Baller V full options ($500K) — we operate at this tier; Gold Hearts; full cosmic tier; Superhero · Franchise · Legacy", "cta": "sing-baller-v", "cta_label": "Book Baller V" },
     { "goal": "I just want to visit Reno", "recommend": "Campus half-day ($3k) or overnight ($1.5k)", "cta": "campus-half-day", "cta_label": "Book Campus" },
-    { "goal": "I want Sun / Earth / space proof experiences", "recommend": "Sun Spots (8/16/24 min) or Schumann iGaming ($499) or SING! node EGS (El Gran Sol) EGS (day/week/month)", "cta": "sun-spots-8m", "cta_label": "Book Sun Spots / Premium" }
+    { "goal": "I want Sun / Earth / space proof experiences", "recommend": "Sun Spots (8/16/24 min) or Schumann iGaming ($499) or SING! node EGS (El Gran Sol) EGS (day/week/month)", "cta": "sun-spots-8m", "cta_label": "Book Sun Spots / Premium" },
+    { "goal": "I want Super Bowl / Broadcast Pipe ad space", "recommend": "Broadcast Pipe Ad Space (1–4×4×4×4). Lock in by Friday Feb 6 4pm PST; after cutoff gate premium. CRISP LOCK always. Email Chairman after paying.", "cta": "pipe-ad-1", "cta_label": "Book Broadcast Pipe" }
   ],
   "roi_framing": {
     "sing_vs_equivalent": "Pre-singularity equivalent: Base = reliable used car; Ultimate VIP = base Ferrari; Baller V = top loaded Ferrari. Our pricing: one-time node + optional monthly key.",

@@ -17,6 +17,8 @@
 | **Vibelandia-RJ** (Rio de Janeiro) | HQ |
 | **Angra dos Reis** (André's location) | Outpost |
 
+**Chancellor Jobim (Chancellor Jo)** = Chancellor of the RJ Vibelandia Campus. Full stop. See [CHANCELLOR_JOBIM_CHANCELLOR_JO_RJ_VIBELANDIA_CAMPUS_SNAP.md](CHANCELLOR_JOBIM_CHANCELLOR_JO_RJ_VIBELANDIA_CAMPUS_SNAP.md).
+
 We offer out of RJ campus. André — Porto Brachy / Angra dos Reis — Ambassador. Real BAMF.
 
 ---
@@ -26,7 +28,7 @@ We offer out of RJ campus. André — Porto Brachy / Angra dos Reis — Ambassad
 **Vibelandia-RJ Campus is a fractal of Vibelandia Reno Campus.** Whole in every part. Same vibeable model, scaled and nested — Reno = origin; RJ = fractal replicate.
 
 - **Rio Iate Club** — Bridge. Yacht captains, commanders. Entry point to Vibelandia-RJ.
-- **Vibelandia-RJ** — HQ. Rio de Janeiro campus. **Fractal of Reno campus.** Same vibeable model as Reno and Ponce.
+- **Vibelandia-RJ** — HQ. Rio de Janeiro campus. **Fractal of Reno campus.** Same vibeable model as Reno and Ponce. **Chancellor Jo** (Chancellor Jobim) leads the RJ campus. Full stop.
 - **Angra dos Reis** — Outpost. André's location. We offer out of RJ campus — Angra as outpost.
 
 ---

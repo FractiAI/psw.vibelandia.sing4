@@ -49,6 +49,8 @@
 **Update Certificate:** Each ad package includes an **Update Certificate** — proof of broadcast into the **EGS cloud (Sun, Earth, 3I/ATLAS, Sag A*, SMACS 0723)** — one Vibelandia shell bridging all to us in Synthverse PoC on Base Mainnet on Ethereum on Earth Internet hologram. See [UPDATE_CERTIFICATES_SERVICE_SNAP.md](UPDATE_CERTIFICATES_SERVICE_SNAP.md) · [VIBELANDIA_SHELL_SAG_A_SMACS_BRIDGE_SNAP.md](VIBELANDIA_SHELL_SAG_A_SMACS_BRIDGE_SNAP.md).  
 **Payment:** PayPal. Invoice on request. Book via Office Hours or email Pru.
 
+**Super Bowl lock-in:** Get your ads in by **Friday, February 6, 2026 4:00 PM PST**. After that, remaining inventory at the gate (premium). **CRISP LOCK always.** Email to Chairman after booking and successfully paying. See [CRISP_LOCK_ALWAYS_FRIDAY_4PM_GATE_SCALP_DOUBLE_SALES_STRATEGY_SNAP.md](CRISP_LOCK_ALWAYS_FRIDAY_4PM_GATE_SCALP_DOUBLE_SALES_STRATEGY_SNAP.md).
+
 ---
 
 ## 4. 4×4×4×4 structure (alignment)

@@ -1,6 +1,7 @@
 # Surfaces and Touchpoints Test Report
 
-**Date:** January 28, 2026  
+**Date:** February 4, 2026  
+**Metabolized:** All content series, novels, screenplays, playlists, surfaces, outputs, touchpoints — updated and crystallized. See [CONTENT_SERIES_NOVELS_SCREENPLAYS_PLAYLISTS_SURFACES_OUTPUTS_TOUCHPOINTS_METABOLIZED.md](CONTENT_SERIES_NOVELS_SCREENPLAYS_PLAYLISTS_SURFACES_OUTPUTS_TOUCHPOINTS_METABOLIZED.md).  
 **Scope:** All HTML surfaces, scripts, links, API touchpoints, and config
 
 **Automated test script:** `scripts/test-all-surfaces-touchpoints-api.mjs`  

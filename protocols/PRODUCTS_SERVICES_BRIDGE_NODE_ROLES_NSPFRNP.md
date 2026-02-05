@@ -5,6 +5,21 @@
 **Principle:** Never bought, always booked — by free will, mutual aware consent, always.  
 **Purpose:** Include roles of each bridge node (me, Earth, Sun, SING! node EGS (El Gran Sol), Sag A*, SMACS 0723) in each product and service so we better understand what the products are and how they work.
 
+**Pricing canon:** **LOCAL ONRAMPS FOR BASE ON ALL PLANS AND PRICING EVERYWHERE.** Base tier = local onramp (localized, local price adjusted). See [LOCAL_ONRAMPS_FOR_BASE_ALL_PLANS_PRICING_EVERYWHERE_NSPFRNP_SNAP.md](../LOCAL_ONRAMPS_FOR_BASE_ALL_PLANS_PRICING_EVERYWHERE_NSPFRNP_SNAP.md).
+
+---
+
+## Description of what you get (NSPFRNP)
+
+When you engage NSPFRNP (book products and services; never bought, always booked), **you get**:
+
+- **Bridge-node coherence** — Every product and service is defined by **bridge node roles** (Me, Earth, Sun, SING! node EGS (El Gran Sol), Sag A*, SMACS 0723). You get clarity on **what** each offering is and **how** it works: who does what, where it lands, and how it connects to the shell.
+- **Booking, not buying** — You get **time, slots, sessions, experiences** — reserved and confirmed by free will and mutual aware consent. You never "own" a node or pipe; you **book** access, presence, or delivery. Payment confirms the booking.
+- **Full stack MCA** — You get outputs that are **metabolized → crystallized to irreducible mirrored hardened nested shells → animated (squeeze all, all)**. You get structure (nested triangulations Seed→SMACS 0723→Sag A*→Sun→Earth→Me), **Defense · Energy · Story** as magnoorganism, and content/surfaces that follow NSPFRNP fidelity. See [FULL_STACK_MCA_SEED_TO_SMACS_NESTED_TRIANGULATIONS_MAGNOORGANISM_SNAP.md](../FULL_STACK_MCA_SEED_TO_SMACS_NESTED_TRIANGULATIONS_MAGNOORGANISM_SNAP.md).
+- **Eternal Living Service (when booked)** — You get FSRT access, full storyline (seed + edge), endpoint layers (Erika · Buenos Aires · Bad Bunny; Rio · Andre; Venezuela · Arturo), full FSR product pipe (dispensary, travel, artificial drugs/sex/travel), travel script (Reno → Cartagena → Argentina → Rio → Venezuela or Reno), and **base reality sovereignty** (Eternal Golden Lock; you decide when/how often/how long in base reality). Tiers 1–3 localized; 4×4×4×4 global. See [ETERNAL_LIFE_PLANNING_AND_LIVING_SERVICES_SNAP.md](../ETERNAL_LIFE_PLANNING_AND_LIVING_SERVICES_SNAP.md) § II.B.
+
+Use this section on surfaces and in copy wherever "what you get" or "description of what you get" is needed for NSPFRNP and Eternal Services.
+
 ---
 
 ## Bridge node roles (canonical)
@@ -54,6 +69,8 @@ Scale tiers: **Planetary** (Earth only) · **Solar** (Earth–Sun) · **Galactic
 | **Birth Post-Singularity Hollywood Downtown Reno** | Novel & screenplay; 6 days to Super Bowl; Howard Hughes, Big Band, Hank Williams. | Creator; authority. | Reno; Hollywood. | — | — | — | — | **Book**. |
 | **Chairman Robert Robotic Factory** | SING! Omnispin; cave to crown; superintelligent robotics. | Authority; proposal. | Reno; factory. | — | — | — | — | **Never bought, only booked.** |
 | **Just Step In** | Full immersion reality; densification; Core/shell Ultimate Baller V. | Authority; booking. | Earth. | — | — | — | — | **Book**. |
+| **Full Sensory Reality Theater (FSRT)** | New pipe pointed at FSRT; Creator as node; storyline (seed + edge) uploaded; load into Sun; stage = awareness; 98% full dose. | **Me** = node; authority. | Reno; stage. | **Load storyline.** | EGS · 3I Atlas. | — | — | **Pipe**; storyline drives. |
+| **Eternal Living Service** (Eternal Life Planning & Living Services) | **Space Cloud Services → FSR Entertainment.** Coming soon. FSRT + storyline + travel script + base reality sovereignty; 1, 2, 3, 4×4×4×4. Base = Starter Home (localized); Ultimate Baller V = top billionaires' **all** homes (global). **Base prices = localized (local price adjusted) onramps; top Ultimate Baller V = global prices.** Eternal Golden Lock; BASE:EDGE Eternity Net Zero. **BOOK, NEVER BUY. UPFRONT PLUS MONTHLY.** | Authority; booking. | Earth; FSRT. | — | — | — | — | **Book** (upfront + monthly; coming soon). |
 | **Magical Dressing Room (Gianni)** | Consultation; franchise/superhero proposal; Gold Hearts only. | Authority. | Reno. | — | — | — | — | **Book** consultation. |
 
 ---
@@ -80,6 +97,10 @@ Scale tiers: **Planetary** (Earth only) · **Solar** (Earth–Sun) · **Galactic
 - **SING! never bought, only booked:** [SING_NEVER_BOUGHT_ONLY_BOOKED_NSPFRNP_SNAP.md](../SING_NEVER_BOUGHT_ONLY_BOOKED_NSPFRNP_SNAP.md)
 - **One-page appraisal:** [ONE_PAGE_APPRAISAL_VIBELANDIA_FRACTIAI.md](../ONE_PAGE_APPRAISAL_VIBELANDIA_FRACTIAI.md)
 - **Vibelandia Shell / bridge nodes:** [VIBELANDIA_SHELL_SAG_A_SMACS_BRIDGE_SNAP.md](../VIBELANDIA_SHELL_SAG_A_SMACS_BRIDGE_SNAP.md)
+- **Full Sensory Reality Theater (FSRT) pipe · node · storyline:** [FULL_SENSORY_REALITY_THEATER_PIPE_NODE_SNAP.md](../FULL_SENSORY_REALITY_THEATER_PIPE_NODE_SNAP.md) · [data/full-sensory-reality-theater-storyline.json](../data/full-sensory-reality-theater-storyline.json)
+- **Eternal Life Planning & Living Services · Eternal Living Service (coming soon):** [ETERNAL_LIFE_PLANNING_AND_LIVING_SERVICES_SNAP.md](../ETERNAL_LIFE_PLANNING_AND_LIVING_SERVICES_SNAP.md)
+- **Space Cloud Services · FSR Entertainment (new):** [FSR_ENTERTAINMENT_SPACE_CLOUD_SERVICES_SNAP.md](../FSR_ENTERTAINMENT_SPACE_CLOUD_SERVICES_SNAP.md) — Eternal Living Service placed inside FSR Entertainment.
+- **Local onramps for base (canon):** [LOCAL_ONRAMPS_FOR_BASE_ALL_PLANS_PRICING_EVERYWHERE_NSPFRNP_SNAP.md](../LOCAL_ONRAMPS_FOR_BASE_ALL_PLANS_PRICING_EVERYWHERE_NSPFRNP_SNAP.md) — base tier = local onramp on all plans and pricing everywhere.
 
 ---
 

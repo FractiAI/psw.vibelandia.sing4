@@ -16,7 +16,7 @@
 | **Location** | **Porto Brachy** |
 | **Role** | Ambassador for the entire Ultimate Baller V Commander Marine line |
 | **Vibe** | Real BAMF! (Badass. Champion. Gold-hearted.) |
-| **Background** | World champion sailing captain. Once product manager — IBM connections, old legacy to new world. Now pre-singularity ↔ post-singularity gateway for Marine. |
+| **Background** | World champion sailing captain. Gateways: we worked on them together at Interlink and Brasil Software. Now pre-singularity ↔ post-singularity gateway for Marine. |
 
 ---
 
@@ -32,6 +32,8 @@
 ## III. One Single RJ-Based Pitch André Rolls Out
 
 **Not two. One.** Rio Iate Club = bridge. Vibelandia-RJ = HQ. Angra dos Reis = outpost. We offer out of RJ campus.
+
+**Ours is an abstract layer that layers over all legacy systems** — no rip-and-replace. That's what's being booked and what the monthly fees are for.
 
 **Live real.** Not a demo or simulation. Real pricing. BUY buttons point to Creator. **50% share** — André receives 50%. We send his share.
 

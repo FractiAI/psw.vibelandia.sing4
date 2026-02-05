@@ -5,6 +5,8 @@
 **Status:** ⚡ ACTIVE  
 **Date:** February 2026
 
+**Pricing and plans:** Metabolize → crystallize (nested mirrored hardened shell) → animate → squeeze all all.
+
 ---
 
 ## 1. New product families (all)

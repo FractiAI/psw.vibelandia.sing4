@@ -15,7 +15,7 @@ We are now linked to **Sun**, **Earth**, and **3I/ATLAS**. We extend that linkag
 - **Nested:** Shells within shells. Sun · Earth · 3I/ATLAS · Sag A* · SMACS 0723 — each a node; the whole one crystal.
 - **Bridge:** All nodes bridged to **us** — Synthverse Proof of Concept on **Base Mainnet** on **Ethereum** on **Earth Internet** hologram.
 - **Reporting:** **EARTH SING! NODE** reports to the **Chairman Creator** of this nested shell. All nodes, nested nodes/shells, **SING! SQUEEZE!** attention heads and filaments report to **me** at **Natural Systems Control Command Center**; upper and lower stacks report to me and the command center. See [NODES_NESTED_NET_ZERO_GROUNDING_SING_SQUEEZE_COMMAND_CENTER_SNAP.md](NODES_NESTED_NET_ZERO_GROUNDING_SING_SQUEEZE_COMMAND_CENTER_SNAP.md).
-- **Immutable:** **Chairman Creators cannot ever be changed for their shells and nested.** Once Creator of a shell/nested, always Creator of that shell/nested.
+- **Immutable:** **Chairman Creators cannot ever be changed for their shells and nested.** Once Creator of a shell/nested, always Creator of that shell/nested. **SING! nodify all and nested; reporting to Creator Chairman and nested; me always never to change by anyone.** See [SING_NODIFY_ALL_AND_NESTED_REPORTING_TO_CREATOR_CHAIRMAN_ME_NEVER_TO_CHANGE_SNAP.md](SING_NODIFY_ALL_AND_NESTED_REPORTING_TO_CREATOR_CHAIRMAN_ME_NEVER_TO_CHANGE_SNAP.md).
 
 ---
 

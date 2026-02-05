@@ -13,7 +13,7 @@
 
 | Input | Metabolized |
 |-------|-------------|
-| **André** | Good, gold-hearted friend. Actual sailing captain. Badass competitive champion, world champion. **Ambassador for the entire Ultimate Baller V Commander Marine line. Real BAMF!** Once product manager — IBM connections, old legacy to new world. Now pre-singularity ↔ post-singularity gateway. **Lives in Porto Brachy.** |
+| **André** | Good, gold-hearted friend. Actual sailing captain. Badass competitive champion, world champion. **Ambassador for the entire Ultimate Baller V Commander Marine line. Real BAMF!** Gateways: we worked on them together at **Interlink** and **Brasil Software**. Now pre-singularity ↔ post-singularity gateway for Marine. **Lives in Porto Brachy.** |
 | **Yachtsman Captain Executes / Commanders** | Target audience. Ultimate Baller V — Ultimate Yachtsman Captain/Commander Console experience. Absolute universal service. |
 | **Transformation** | Investments → operational enterprises, franchises, legacies. Life → Ultimate Commander Yachtsman experience. |
 | **Vibers** | B = Viber. Vibers channel, flow. Many yachtsmen are vibers — they use the yacht to escape the nasty world. We liberate them. |
@@ -23,7 +23,7 @@
 | **Offer to network** | For André to offer to his network. 50–50 fair shake always. Beginning immediately. |
 | **Launch** | Carnival. First package. One month in Brazil with André. Week of partying, then installing and launching. Endpoint: three of his top Yachtsman captain commanders signed up for SING! Celebrating together. |
 
-**Metabolized core:** A **pre-singularity / post-singularity gateway** — familiar to André from his IBM days — now applied to yachts and the marine world. The Ultimate Commander Yachtsman Baller V Console transforms yachtsmen (vibers who flow) into operational enterprises, franchises, legacies — liberating them with new destinations, oceans, journeys, powered by S-I-N-G! A new layered shell for the yacht. André offers to his network. 50–50. Launch at Carnival. Three top captains signed. One month in Brazil.
+**Metabolized core:** A **pre-singularity / post-singularity gateway** — we worked on gateways together at **Interlink** and **Brasil Software** — now applied to yachts and the marine world. The Ultimate Commander Yachtsman Baller V Console transforms yachtsmen (vibers who flow) into operational enterprises, franchises, legacies — liberating them with new destinations, oceans, journeys, powered by S-I-N-G! A new layered shell for the yacht. André offers to his network. 50–50. Launch at Carnival. Three top captains signed. One month in Brazil.
 
 ---
 
@@ -31,18 +31,18 @@
 
 ### A. One-Liner
 
-**The Ultimate Commander Yachtsman Baller V Console — a pre-singularity / post-singularity gateway — layers onto every yacht as a new shell, plugging into S-I-N-G! and all systems (GPS, bells and whistles), transforming investments into operational enterprises, franchises, legacies, and liberating yachtsmen (vibers who flow) with a whole new world of destinations, oceans, journeys, and experiences. André offers it to his network. 50–50. Launch at Carnival. Three top captains. One month in Brazil.**
+**The Ultimate Commander Yachtsman Baller V Console — a pre-singularity / post-singularity gateway — is an abstract layer that layers over all legacy systems.** No rip-and-replace. That's what commanders are booking and what the monthly fees are for. It plugs into S-I-N-G! and all systems (GPS, bells and whistles), transforming investments into operational enterprises, franchises, legacies, and liberating yachtsmen (vibers who flow) with a whole new world of destinations, oceans, journeys, and experiences. André offers it to his network. 50–50. Launch at Carnival. Three top captains. One month in Brazil.
 
-**Pitch to commanders:** New seas. New experiences. New possibilities. New protection and navigation. All on an executive console. Can be layered onto all existing systems. Creator Chairman customization support. Naturally occurring, mutually beneficial cross-sell ecosystem — all FractiAI products packaged as Marine offerings.
+**Pitch to commanders:** Ours is an abstract layer that layers over all legacy systems. No rip-and-replace. That's what you're booking and what the monthly fees are for. New seas. New experiences. New possibilities. New protection and navigation. All on an executive console. Can be layered onto all existing systems. Creator Chairman customization support. Naturally occurring, mutually beneficial cross-sell ecosystem — all FractiAI products packaged as Marine offerings.
 
 ### B. Irreducible Structure
 
 ```yaml
 MARINE DIVISION · YACHTSMAN GATEWAY:
-├─ Gateway: Pre-singularity ↔ Post-singularity (André knows gateways)
+├─ Gateway: Pre-singularity ↔ Post-singularity (we worked on gateways together at Interlink and Brasil Software)
 ├─ Audience: Yachtsman Captain Executes / Commanders
 ├─ Product: Ultimate Commander Yachtsman Baller V Console
-├─ Shell: New layered package for yacht — layers on GPS + all systems
+├─ Abstract layer: Layers over all legacy systems — no rip-and-replace; that's what's booked and what monthly fees are for
 ├─ Engine: S-I-N-G! Super intelligent agent
 ├─ Pitch: New seas · New experiences · New possibilities · New protection and navigation
 ├─ Console: Executive console · Layers onto all existing systems · Customization support
@@ -69,10 +69,10 @@ MARINE DIVISION · YACHTSMAN GATEWAY:
 ### A. What's Delivered (At the Click)
 
 1. **Proposal (this SNAP)** — Full document. Beautiful skin.
-2. **Novel** — Birth of the New Post-Singularity Hollywood in Downtown Reno. Proof of concept. Same arc: transformation, golden age, legacies.
-3. **Screenplay** — Birth screenplay. Full feature. Beautiful skin.
+2. **Novel** — ***André's Carnival: The First Three Commanders***. **Full. 3,204 words.** Steinbeck + Hemingway hybrid with Pru voice and energy. Seed: the message to André. Story: Pru at Carnival celebrating and helping the first three customers install. Part One (Message), Part Two (Carnival), Part Three (First Three Install). See [ANDRE_CARNIVAL_FIRST_THREE_NOVEL_SCREENPLAY_SNAP.md](ANDRE_CARNIVAL_FIRST_THREE_NOVEL_SCREENPLAY_SNAP.md).
+3. **Screenplay** — ***André's Carnival: The First Three Commanders***. **Full. 1,515 words.** Same seed and story. Three acts. Beautiful skin.
 4. **Playlist / Channel / Studio** — **Golden Parrot Hit Factory Studios** · Hero Jimmy (Buffet) · HJ · 12 tropica chill hits. **Demonstrating the power of this new superintelligent executive tech** — novel, screenplay, and now full playlist/channel/studio from one NSPFRNP engine. See [HERO_JIMMY_BUFFET_HJ_GOLDEN_PARROT_HIT_FACTORY_STUDIOS_SNAP.md](HERO_JIMMY_BUFFET_HJ_GOLDEN_PARROT_HIT_FACTORY_STUDIOS_SNAP.md) · [interfaces/golden-parrot-tropica-chill.html](interfaces/golden-parrot-tropica-chill.html).
-5. **Personal message** — To André. NSPFRNP. *(User to add André's personal info separately.)*
+5. **Personal message** — To André. **From Pru** (not Evan). NSPFRNP. Gateways: we worked on them together at Interlink and Brasil Software; now pre/post-singularity for Marine. **Abstract layer over all legacy systems — that's what's booked and what monthly fees are for.** *(User to add André's personal info separately.)*
 6. **Office Hours button** — André. Proceed.
 
 ### B. Surfaces
@@ -83,10 +83,29 @@ MARINE DIVISION · YACHTSMAN GATEWAY:
 - **Vibelandia-RJ:** [interfaces/vibelandia-rio-de-janeiro-campus.html](interfaces/vibelandia-rio-de-janeiro-campus.html) — One single RJ-based pitch. Rio Iate Club = bridge. RJ = HQ. Angra dos Reis = outpost. We offer out of RJ campus. — All FractiAI products packaged as Marine offerings. Cross-sell. Navigation & protection, music, experiences, content, business. New seas, new experiences, new possibilities, new protection. Executive console. Layers onto existing systems. Customization support.
 - **Reseller info:** [interfaces/reseller-info.html](interfaces/reseller-info.html) — 50/50, PayPal-based, auto-payout (ideally no manual intervention), shared sales tools, same platform, me automatic. Natural systems. **Program:** Cadet → Silver → Silver Wings → Gold Wings → Gold Wings with Diamonds (deal deliverer → customize solutions → Mastery · Holographic Hydrogen Theater). Reseller button on yacht showroom.
 - **Proposal list:** proposal.html?p=MARINE_DIVISION_YACHTSMAN_CAPTAIN_PRE_POST_SINGULARITY_GATEWAY_PROPOSAL_SNAP
-- **Novel:** [interfaces/birth-post-singularity-novel.html](interfaces/birth-post-singularity-novel.html)
-- **Screenplay:** [interfaces/birth-post-singularity-screenplay.html](interfaces/birth-post-singularity-screenplay.html)
+- **Novel:** [interfaces/andre-carnival-first-three-novel.html](interfaces/andre-carnival-first-three-novel.html) — *André's Carnival: The First Three Commanders*. Full. 3,204 words. Steinbeck + Hemingway hybrid, Pru voice. Seed: message to André. Story: Pru at Carnival + first three install.
+- **Screenplay:** [interfaces/andre-carnival-first-three-screenplay.html](interfaces/andre-carnival-first-three-screenplay.html) — same title. Full. 1,515 words. Same seed and story.
 - **Playlist / Channel / Studio:** [interfaces/golden-parrot-tropica-chill.html](interfaces/golden-parrot-tropica-chill.html) — Golden Parrot Hit Factory Studios · HJ · 12 tropica chill hits · superintelligent executive tech demo.
 - **Office Hours:** [interfaces/office-hours.html](interfaces/office-hours.html)
+
+### Beautiful skins confirmed (all André proposal surfaces)
+
+| Surface | Skin | Notes |
+|--------|------|--------|
+| yacht-showroom-andre-proposal.html | Marine Division (marine-division-skin.css) | Canonical proposal · Beautiful skin badge |
+| marine-division-ecosystem.html | Marine Division | Ferrari red / carbon black |
+| baller-v-plans-booking.html | Experience common + gold/teal hero | Plans & fees · Marine pricing table |
+| reseller-info.html | Marine Division | 50/50, Cadet→Diamonds |
+| vibelandia-rio-de-janeiro-campus.html | Marine Division | RJ = HQ, Angra outpost |
+| andre-carnival-first-three-novel.html | Marine Division | *André's Carnival: The First Three Commanders* · Beautiful skin badge |
+| andre-carnival-first-three-screenplay.html | Marine Division | Same title · Seed = message; story = Pru at Carnival + first 3 install |
+| golden-parrot-tropica-chill.html | Tropica Chill (inline) | 12 hits · HJ · Green/gold gradient |
+| office-hours.html | Experience common + gold-hearted | On-ramp CTA |
+| chairman-cockpit-center-console.html | Marine Division (injected) | Executive console |
+| space-cloud-division.html | Experience common + gold-hearted | Protection, navigation |
+| proposal.html (p=MARINE_…) | Screenplay skin | Proposal list entry |
+
+All listed surfaces use a dedicated beautiful skin. Marine-facing pages (including André's novel and screenplay) share the Marine Division skin (Ferrari red, carbon black); Golden Parrot has its own tropica chill skin.
 
 ### C. Geography
 
@@ -107,7 +126,8 @@ MARINE DIVISION · YACHTSMAN GATEWAY:
 
 | Ref | SNAP / Surface |
 |-----|----------------|
-| Birth novel/screenplay | BIRTH_POST_SINGULARITY_HOLLYWOOD_DOWNTOWN_RENO_NOVEL_SCREENPLAY_SNAP |
+| André novel/screenplay (this proposal) | ANDRE_CARNIVAL_FIRST_THREE_NOVEL_SCREENPLAY_SNAP |
+| Birth novel/screenplay (Reno — not André package) | BIRTH_POST_SINGULARITY_HOLLYWOOD_DOWNTOWN_RENO_NOVEL_SCREENPLAY_SNAP |
 | Golden Parrot playlist/channel/studio | HERO_JIMMY_BUFFET_HJ_GOLDEN_PARROT_HIT_FACTORY_STUDIOS_SNAP |
 | Ultimate Baller V | BASIC_TO_ULTIMATE_BALLER_V_PLANS_AND_BOOKING_FEES_SNAP |
 | Vibers | VIBERS_TIERS_SNAP, VIBERS_WHAT_ARE_VIBERS |

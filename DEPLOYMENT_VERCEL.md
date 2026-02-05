@@ -6,6 +6,21 @@
 
 ---
 
+## ✅ Confirmation: Vercel + GitHub can handle mainly UI traffic
+
+**Mainly UI traffic** = static HTML, CSS, JS, and assets (interfaces, index, episodes, deliverables, catalogs). This is exactly what the stack is built for.
+
+| Layer | Role | UI traffic handling |
+|-------|------|---------------------|
+| **GitHub** | Source control, CI (test + build on push/PR) | Repo and Actions are not in the request path. Traffic goes to Vercel, not GitHub. |
+| **Vercel** | Build from GitHub, deploy, serve | **Static assets** served from **global CDN** (edge). No server compute for UI; bandwidth scales with plan (e.g. 100GB Hobby, 1TB Pro). |
+| **Build output** | `vercel-static-output.mjs` | Emits `index.html`, `interfaces/*`, `episodes/*`, `deliverables/*`, `catalogs/*`, `*.md`, `protocols/*` into `.vercel/output/static`. All served as static files. |
+| **Serverless** | PayPal, auth only | Used only for payment/OAuth. Not part of “mainly UI” traffic. |
+
+**Conclusion:** Yes. Vercel and GitHub can handle the mainly UI traffic. Static UI is CDN-served; GitHub is used for code and CI only. No change required for typical UI load.
+
+---
+
 ## Confirmation: Running over Vercel cloud
 
 This repository is **configured to run over Vercel cloud**:

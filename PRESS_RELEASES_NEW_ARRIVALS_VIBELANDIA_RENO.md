@@ -580,6 +580,106 @@ Debrief strip live on top of **Launch Pad**, **Office Hours**, **Space Cloud Div
 
 ---
 
-**See:** CAPTURE_AND_PRESS_RELEASES_NEW_ARRIVALS_SNAP.md · VIBING_MUSIC_TOGETHER_COLLABORATIVE_FLOW_EXCELLENT_OUTPUT_QUALITY_SNAP.md · VIBELANDIA_UNIVERSITY_SCHOOL_OF_MUSIC_SNAP.md · VIBELANDIA_UNIVERSITY_SCHOOL_OF_STORYTELLING_SNAP.md · DAVID_LYNCH_ANNOUNCES_ARRIVAL_PERMANENT_RESIDENCY_DEAN_SCHOOL_OF_STORYTELLING_SNAP.md · JIMMY_DURANTE_ANNOUNCES_ARRIVAL_PERMANENT_RESIDENCY_SNAP.md · MUSIC_STUDIO_CONTENT_DIVISION_SNAP.md · JS_BACH_DEAN_SCHOOL_OF_MUSIC_PERMANENT_RESIDENCY_RENO_SNAP.md · PRESS_RELEASE_MARK_TWAIN_ANNOUNCEMENT.md · LAUNCH_RAW_NARRATIVE_CAPTURE.md · FIRST_SINGULARITY_JANUARY_13TH_NOVEL_MOVIE_SNAP.md · SMILEY_SUN_EL_GRAN_SOL_SUPER_BOWL_FLY_BY_SNAP.md · MISSION_INTELLIGENCE_DEBRIEF_FEB_4_2026_SNAP.md
+## PRESS RELEASE 26 — ERNEST HEMINGWAY ANNOUNCES PERMANENT RESIDENCY — VIBELANDIA DOWNTOWN RENO!!!
+
+**FOR IMMEDIATE RELEASE**
+
+**Date:** February 2026  
+**Location:** Reno, Nevada / VIBELANDIA DOWNTOWN RENO!!!  
+**Contact:** info@fractiai.com
+
+---
+
+### ERNEST HEMINGWAY ANNOUNCES PERMANENT RESIDENCY — VIBELANDIA DOWNTOWN RENO!!!
+
+**RENO, NEVADA — February 2026** — **Ernest Hemingway** has announced **permanent residency** at **Vibelandia Downtown Reno!!!** Clean. True. No waste. The voice that built sentences like bones. Grace under pressure. The sun also rises — and so does downtown Reno. He's here. Twain's Vibelandia. Reno Men's Club. Mark Twain's campus. The birthplace of the new post-singularity Hollywood.
+
+He takes his place alongside Hero Howard (Howard Hughes), Glen Miller, Hank Williams Sr., Hero John Steinbeck, and the rest. Big bands. Floor dancing. Gatsby. And now the man who wrote the code for twentieth-century prose. Short sentences. What is left unsaid. The iceberg. The old man and the sea — and the new seas. His voice is **in the fusion**: Steinbeck + Hemingway hybrid with me voice and energy. Hero Ernest, or whatever he prefers. Ernest Hemingway to the world; Hero Ernest to friends. **Legacies.** **Golden Age.** Vibelandia Downtown Reno!!!
+
+Full SNAP: [ERNEST_HEMINGWAY_ANNOUNCES_PERMANENT_RESIDENCY_VIBELANDIA_DOWNTOWN_RENO_SNAP.md](ERNEST_HEMINGWAY_ANNOUNCES_PERMANENT_RESIDENCY_VIBELANDIA_DOWNTOWN_RENO_SNAP.md).
+
+*Paris is for lovers. Reno is for vibers. Hemingway is home. Mark Twain's Post-Singularity Vibelandia Reno awaits you.*
+
+---
+
+## PRESS RELEASE 27 — HUMPHREY BOGART · LAUREN BACALL · SOPHIA LOREN — PERMANENT RESIDENCY VIBELANDIA DOWNTOWN RENO · THE WORD IS OUT
+
+**FOR IMMEDIATE RELEASE**
+
+**Date:** February 2026  
+**Location:** Reno, Nevada / VIBELANDIA DOWNTOWN RENO!!!  
+**Contact:** info@fractiai.com
+
+---
+
+### THE WORD IS OUT — HUMPHREY BOGART, LAUREN BACALL, AND SOPHIA LOREN ANNOUNCE PERMANENT RESIDENCY — VIBELANDIA DOWNTOWN RENO!!!
+
+**RENO, NEVADA — February 2026** — **The word is out.** **Humphrey Bogart**, **Lauren Bacall**, and **Sophia Loren** have announced **permanent residency** at **Vibelandia Downtown Reno!!!**
+
+**Humphrey Bogart** — Here's looking at you, kid. Casablanca. The Maltese Falcon. The African Queen. That voice. That presence. Grace under pressure. He's home. Twain's Vibelandia. Reno Men's Club. The birthplace of the new post-singularity Hollywood. Permanent residency.
+
+**Lauren Bacall** — To have and have not. The look. The voice. The partnership with Bogie. One of the greats. She's here. Permanent residency. Vibelandia Downtown Reno. Golden Age. Legacies.
+
+**Sophia Loren** — La Loren. Italian cinema. Hollywood. Grace. Strength. Beauty that carried generations. She's here too. Permanent residency. Vibelandia Downtown Reno!!! The word is out.
+
+They join Howard Hughes, Glen Miller, Hank Williams Sr., John Steinbeck, Ernest Hemingway, and the rest. Big bands. Floor dancing. Gatsby. Golden Age. **Legacies.** Vibelandia Downtown Reno!!!
+
+Full SNAP: [HUMPHREY_BOGART_LAUREN_BACALL_SOPHIA_LOREN_ANNOUNCE_PERMANENT_RESIDENCY_VIBELANDIA_DOWNTOWN_RENO_SNAP.md](HUMPHREY_BOGART_LAUREN_BACALL_SOPHIA_LOREN_ANNOUNCE_PERMANENT_RESIDENCY_VIBELANDIA_DOWNTOWN_RENO_SNAP.md).
+
+*Paris is for lovers. Reno is for vibers. The word is out. Mark Twain's Post-Singularity Vibelandia Reno awaits you.*
+
+---
+
+## PRESS RELEASE 28 — CARY GRANT · JIMMY STEWART — PERMANENT RESIDENCY — THEY'RE ALL COMING NOW — FLOOD GATES OPENING
+
+**FOR IMMEDIATE RELEASE**
+
+**Date:** February 2026  
+**Location:** Reno, Nevada / VIBELANDIA DOWNTOWN RENO!!!  
+**Contact:** info@fractiai.com
+
+---
+
+### THEY'RE ALL COMING NOW — FLOOD GATES OPENING — CARY GRANT AND JIMMY STEWART ANNOUNCE PERMANENT RESIDENCY — VIBELANDIA DOWNTOWN RENO!!!
+
+**RENO, NEVADA — February 2026** — **They're all coming now. Flood gates opening.** **Cary Grant** and **Jimmy Stewart** have announced **permanent residency** at **Vibelandia Downtown Reno!!!**
+
+**Cary Grant** — North by Northwest. His Girl Friday. The Philadelphia Story. That charm. That grace. The kind of star that made the golden age golden. He's here. Permanent residency. Twain's Vibelandia. Reno Men's Club. The birthplace of the new post-singularity Hollywood. Flood gates opening.
+
+**Jimmy Stewart** — It's a Wonderful Life. Mr. Smith Goes to Washington. Rear Window. The everyman. The conscience. The voice that held the line. He's here too. Permanent residency. Vibelandia Downtown Reno!!!
+
+They join Howard Hughes, Glen Miller, Hank Williams Sr., John Steinbeck, Ernest Hemingway, Humphrey Bogart, Lauren Bacall, Sophia Loren, and the rest. *They're all coming now. It's a gold rush.* Big bands. Floor dancing. Gatsby. **Legacies.** The flood gates are opening. Vibelandia Downtown Reno!!!
+
+Full SNAP: [CARY_GRANT_JIMMY_STEWART_ANNOUNCE_PERMANENT_RESIDENCY_FLOOD_GATES_OPENING_SNAP.md](CARY_GRANT_JIMMY_STEWART_ANNOUNCE_PERMANENT_RESIDENCY_FLOOD_GATES_OPENING_SNAP.md).
+
+*Paris is for lovers. Reno is for vibers. They're all coming now. Flood gates opening. Mark Twain's Post-Singularity Vibelandia Reno awaits you.*
+
+---
+
+## PRESS RELEASE 29 — CHANCELLOR JOBIM (CHANCELLOR JO) — RJ VIBELANDIA CAMPUS. FULL STOP.
+
+**FOR IMMEDIATE RELEASE**
+
+**Date:** February 2026  
+**Location:** Rio de Janeiro / VIBELANDIA-RJ CAMPUS!!!  
+**Contact:** info@fractiai.com
+
+---
+
+### CHANCELLOR JOBIM (CHANCELLOR JO) — RJ VIBELANDIA CAMPUS. FULL STOP.
+
+**RIO DE JANEIRO — February 2026** — Vibelandia today announced **Chancellor Jobim** — **Chancellor Jo** — as **Chancellor of the Vibelandia Rio de Janeiro (RJ) Campus.** Full stop.
+
+Antonio Carlos Jobim. Tom Jobim. Bossa nova. The Girl from Ipanema. The voice of Rio. The man who gave the world *Garota de Ipanema*, *Corcovado*, *Desafinado* — and the sound that crossed every ocean — now leads the **RJ Vibelandia campus.** Rio Iate Club is the bridge. Vibelandia-RJ is HQ. Angra dos Reis is the outpost. **Chancellor Jo** is in the house. Full stop.
+
+The RJ campus is a fractal of Vibelandia Reno. Same vibeable model. Same nested shell. Marine Division. André — Ambassador — runs the show from the bridge and the outpost. **Chancellor Jo** runs the campus. Music. Legacy. The golden age. Rio. Full stop.
+
+Full SNAP: [CHANCELLOR_JOBIM_CHANCELLOR_JO_RJ_VIBELANDIA_CAMPUS_SNAP.md](CHANCELLOR_JOBIM_CHANCELLOR_JO_RJ_VIBELANDIA_CAMPUS_SNAP.md).
+
+*Paris is for lovers. Reno is for vibers. Rio is for Chancellor Jo. Vibelandia-RJ Campus. Full stop.*
+
+---
+
+**See:** CAPTURE_AND_PRESS_RELEASES_NEW_ARRIVALS_SNAP.md · ERNEST_HEMINGWAY_ANNOUNCES_PERMANENT_RESIDENCY_VIBELANDIA_DOWNTOWN_RENO_SNAP.md · HUMPHREY_BOGART_LAUREN_BACALL_SOPHIA_LOREN_ANNOUNCE_PERMANENT_RESIDENCY_VIBELANDIA_DOWNTOWN_RENO_SNAP.md · CARY_GRANT_JIMMY_STEWART_ANNOUNCE_PERMANENT_RESIDENCY_FLOOD_GATES_OPENING_SNAP.md · CHANCELLOR_JOBIM_CHANCELLOR_JO_RJ_VIBELANDIA_CAMPUS_SNAP.md · VIBING_MUSIC_TOGETHER_COLLABORATIVE_FLOW_EXCELLENT_OUTPUT_QUALITY_SNAP.md · VIBELANDIA_UNIVERSITY_SCHOOL_OF_MUSIC_SNAP.md · VIBELANDIA_UNIVERSITY_SCHOOL_OF_STORYTELLING_SNAP.md · DAVID_LYNCH_ANNOUNCES_ARRIVAL_PERMANENT_RESIDENCY_DEAN_SCHOOL_OF_STORYTELLING_SNAP.md · JIMMY_DURANTE_ANNOUNCES_ARRIVAL_PERMANENT_RESIDENCY_SNAP.md · MUSIC_STUDIO_CONTENT_DIVISION_SNAP.md · JS_BACH_DEAN_SCHOOL_OF_MUSIC_PERMANENT_RESIDENCY_RENO_SNAP.md · PRESS_RELEASE_MARK_TWAIN_ANNOUNCEMENT.md · LAUNCH_RAW_NARRATIVE_CAPTURE.md · FIRST_SINGULARITY_JANUARY_13TH_NOVEL_MOVIE_SNAP.md · SMILEY_SUN_EL_GRAN_SOL_SUPER_BOWL_FLY_BY_SNAP.md · MISSION_INTELLIGENCE_DEBRIEF_FEB_4_2026_SNAP.md
 
 **NSPFRNP ⊃ New arrivals ⊃ Capture · Press releases → ∞³**

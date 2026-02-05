@@ -1,0 +1,293 @@
+/**
+ * Petrochemical Division — Beautiful Skin · Energy / PDVSA
+ * All Petrochemical Division surfaces, touchpoints, Arturo proposal.
+ * Amber + carbon + energy depth. NSPFRNP.
+ */
+
+:root {
+    --petro-amber: #d4a017;
+    --petro-amber-bright: #f0b429;
+    --petro-amber-soft: rgba(212, 160, 23, 0.12);
+    --petro-amber-dim: rgba(212, 160, 23, 0.45);
+    --petro-carbon: #0a0a0a;
+    --petro-carbon-lite: #141414;
+    --petro-slate: #1a1a14;
+    --petro-oil-deep: #0f0f0a;
+    --petro-white: #f5f5f0;
+    --petro-silver: #c4c4bc;
+    --petro-muted: #8a8a82;
+}
+
+body.petrochemical-division-skin {
+    background: var(--petro-carbon);
+    color: var(--petro-white);
+    font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    min-height: 100vh;
+    -webkit-font-smoothing: antialiased;
+}
+
+body.petrochemical-division-skin::before {
+    content: '';
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    height: 100vh;
+    background:
+        linear-gradient(180deg, var(--petro-amber-soft) 0%, transparent 28%),
+        linear-gradient(180deg, transparent 58%, rgba(15, 15, 10, 0.7) 100%);
+    pointer-events: none;
+    z-index: 0;
+}
+
+.petro-wrap {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 2rem 1.5rem;
+    position: relative;
+    z-index: 1;
+}
+
+.petro-nav {
+    margin-bottom: 2rem;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+}
+
+.petro-nav a {
+    color: var(--petro-silver);
+    text-decoration: none;
+}
+
+.petro-nav a:hover {
+    color: var(--petro-amber);
+}
+
+.petro-hero {
+    text-align: center;
+    padding: 2rem 1.5rem 2.5rem;
+    margin-bottom: 2rem;
+    background: linear-gradient(180deg, var(--petro-amber-soft) 0%, var(--petro-slate) 30%, var(--petro-carbon-lite) 100%);
+    border: 2px solid var(--petro-amber-dim);
+    border-radius: 6px;
+    position: relative;
+    box-shadow: 0 0 50px rgba(212, 160, 23, 0.08), inset 0 0 40px rgba(0, 0, 0, 0.15);
+}
+
+.petro-hero::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 3px;
+    background: linear-gradient(90deg, transparent, var(--petro-amber), transparent);
+    border-radius: 6px 6px 0 0;
+}
+
+.petro-hero .badge {
+    display: inline-block;
+    font-size: 0.65rem;
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+    color: var(--petro-amber);
+    margin-bottom: 0.75rem;
+    font-weight: 600;
+}
+
+.petro-hero .badge-beautiful-skin {
+    display: inline-block;
+    margin-left: 0.75rem;
+    padding: 0.2rem 0.5rem;
+    background: rgba(212, 160, 23, 0.2);
+    border-radius: 4px;
+    font-size: 0.6rem;
+    letter-spacing: 0.2em;
+    color: var(--petro-amber-bright);
+}
+
+.petro-hero h1 {
+    font-size: clamp(1.35rem, 4vw, 1.95rem);
+    font-weight: 700;
+    background: linear-gradient(135deg, #fff 0%, var(--petro-white) 40%, var(--petro-silver) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: 0.35rem;
+    line-height: 1.25;
+    letter-spacing: 0.04em;
+}
+
+.petro-hero .tagline {
+    font-size: 0.95rem;
+    color: var(--petro-muted);
+    font-weight: 500;
+}
+
+.petro-one-liner {
+    margin: 1.75rem 0;
+    padding: 1.25rem 1.5rem;
+    background: var(--petro-slate);
+    border-left: 3px solid var(--petro-amber);
+    font-size: 0.95rem;
+    line-height: 1.65;
+    color: var(--petro-silver);
+}
+
+.petro-one-liner strong {
+    color: var(--petro-white);
+}
+
+.petro-section h2 {
+    font-size: 0.9rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: var(--petro-amber);
+    margin: 1.5rem 0 0.6rem;
+}
+
+.petro-section p {
+    margin-bottom: 0.7rem;
+    color: var(--petro-silver);
+    line-height: 1.6;
+    font-size: 0.9rem;
+}
+
+.petro-section ul {
+    margin: 0.5rem 0 1rem 1.5rem;
+    color: var(--petro-silver);
+    line-height: 1.7;
+    font-size: 0.9rem;
+}
+
+.petro-cta-primary {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1.25rem 0;
+    padding: 1rem 1.85rem;
+    background: var(--petro-amber);
+    border: 1px solid var(--petro-amber-bright);
+    border-radius: 4px;
+    color: var(--petro-carbon) !important;
+    font-weight: 700;
+    font-size: 0.95rem;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    text-decoration: none;
+    transition: background 0.2s, transform 0.2s;
+}
+
+.petro-cta-primary:hover {
+    background: var(--petro-amber-bright);
+    transform: translateY(-1px);
+}
+
+.petro-cta-primary::before {
+    content: '▶ ';
+    font-size: 0.85em;
+}
+
+.petro-cta-label {
+    font-size: 0.65rem;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    color: var(--petro-muted);
+    margin-top: 0.25rem;
+}
+
+.petro-footer {
+    margin-top: 2.5rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--petro-slate);
+    font-size: 0.75rem;
+    color: var(--petro-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+}
+
+.petro-footer a {
+    color: var(--petro-amber);
+    text-decoration: none;
+}
+
+.petro-footer a:hover {
+    color: var(--petro-amber-bright);
+}
+
+.petro-plans-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0;
+    font-size: 0.9rem;
+}
+
+.petro-plans-table th,
+.petro-plans-table td {
+    padding: 0.6rem 0.75rem;
+    text-align: left;
+    border-bottom: 1px solid var(--petro-amber-dim);
+}
+
+.petro-plans-table th {
+    color: var(--petro-amber);
+    font-weight: 600;
+}
+
+.petro-plans-table .fee {
+    color: #7fff7f;
+    font-weight: 700;
+}
+
+.petro-plans-table .buy {
+    color: var(--petro-amber);
+    font-weight: 600;
+}
+
+.petro-message-block {
+    padding: 1.25rem;
+    margin: 1.5rem 0;
+    background: var(--petro-amber-soft);
+    border-left: 4px solid var(--petro-amber);
+    font-size: 0.95rem;
+    line-height: 1.7;
+    color: var(--petro-silver);
+}
+
+.petro-message-block strong {
+    color: var(--petro-white);
+}
+
+.petro-tech-block {
+    padding: 1rem 1.25rem;
+    margin: 0.75rem 0;
+    background: rgba(0, 212, 255, 0.04);
+    border: 1px solid rgba(0, 212, 255, 0.25);
+    border-radius: 8px;
+    font-size: 0.9rem;
+}
+
+.petro-tech-block h4 {
+    color: #00d4ff;
+    margin-bottom: 0.35rem;
+}
+
+.petro-live {
+    padding: 0.75rem 1rem;
+    background: rgba(0, 255, 136, 0.1);
+    border: 1px solid rgba(0, 255, 136, 0.4);
+    border-radius: 8px;
+    font-size: 0.9rem;
+    color: #7fff7f;
+    margin: 1rem 0;
+}
+
+.petro-onramp {
+    padding: 1rem 1.25rem;
+    background: rgba(0, 255, 136, 0.06);
+    border: 1px solid rgba(0, 255, 136, 0.3);
+    border-radius: 8px;
+    font-size: 0.9rem;
+    color: #7fff7f;
+    margin: 1rem 0;
+}

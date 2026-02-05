@@ -3,8 +3,9 @@
   "source": "Ultimate Commander Yachtsman Baller V",
   "updated_utc": "2026-02-03T00:00:00Z",
   "principle": "Never bought, always booked — by free will, mutual aware consent, always.",
-  "booking_model": "SING! and Marine Commander Console: upfront booking fee + monthly. On-ramp: experience first (Office Hours, demo, tour), then book.",
-  "pricing_principle": "Base = today's high-end marine upgrade floor. Scale 4×4×4×4 from base.",
+  "booking_model": "SING! and Marine Commander Console: upfront booking fee + monthly. Ours is an abstract layer that layers over all legacy systems — no rip-and-replace. That's what's booked and what the monthly fees are for. On-ramp: experience first (Office Hours, demo, tour), then book.",
+  "pricing_principle": "Base = today's high-end marine upgrade floor. Scale 4×4×4×4 from base. Upfront booking + monthly. Upgrades: 1 → 4× → 4×4× → 4×4×4×4 (Ultimate). Brazil: Base and Standard have BRL equivalents (realistic local mapping). Premium and Ultimate are global USD only.",
+  "brazil_pricing_note": "Base and Standard tiers: upfront and monthly in BRL for Brazil (Vibelandia-RJ, André network). Equivalent to USD at realistic mapping (~5.5 BRL/USD). Premium and Ultimate: global USD only.",
   "protections": "SMACS 0723 max cosmic layer triangulation — full nested lattice (Seed → Sun → SING! node EGS → Sag A* → SMACS 0723)",
   "marine_operation_areas": {
     "bridge_integration": {
@@ -84,7 +85,7 @@
   },
   "commander_console": {
     "label": "Marine Commander Console",
-    "description": "Pre-singularity / post-singularity gateway. Layers onto GPS, bridge, comms. S-I-N-G! super intelligent agent. New seas, new experiences, new possibilities, new protection and navigation.",
+    "description": "Pre-singularity / post-singularity gateway. An abstract layer that layers over all legacy systems — no rip-and-replace. That's what's booked and what the monthly fees are for. Layers onto GPS, bridge, comms. S-I-N-G! super intelligent agent. New seas, new experiences, new possibilities, new protection and navigation.",
     "full_product_description_captain_level": "The Marine Commander Console is a pre-singularity / post-singularity gateway product. It is an add-on shell: it layers onto existing GPS, bridge, and comms — no rip-and-replace of primary navigation or safety equipment. Delivered as an executive console (touch, voice, gesture) with NMEA 2000/0183 compatibility, bridge integration, GPS/nav enhancement, comms integration, and the S-I-N-G! super intelligent agent at the center. Protections: SMACS 0723 max cosmic layer triangulation over the full nested lattice. Tiers 1–4 (Base, Standard, Premium, Ultimate Baller V) scale from today’s high-end marine upgrade floor (Base) to full bespoke and white-label (Ultimate). On-ramp: experience first (Office Hours, demo, tour); then upfront booking fee + monthly. Never bought, always booked. Full technical specifications for each marine operation area (bridge integration, GPS & navigation, comms, S-I-N-G! agent, protections, customization) are set out in marine_operation_areas and are written to marine captain level.",
     "on_ramp": "Office Hours free consultation first. Tour of solutions. Experience the ecosystem. Then: upfront booking fee + monthly. Never bought, always booked.",
     "tiers": [
@@ -94,8 +95,11 @@
         "name": "Base",
         "fee_usd": 75000,
         "fee_type": "Upfront booking",
-        "monthly_usd": null,
-        "equivalent": "Today's high-end marine upgrade floor (top-tier yacht electronics, bridge systems)",
+        "monthly_usd": 2500,
+        "equivalent": "1× — Today's high-end marine upgrade floor (top-tier yacht electronics, bridge systems)",
+        "upgrade_scale": "1",
+        "fee_brl": 412500,
+        "monthly_brl": 13750,
         "includes": ["Commander Console base", "Bridge integration", "GPS/nav layer", "Comms integration", "S-I-N-G! agent", "SMACS 0723 protections", "Customization support"],
         "tech_summary_captain_level": "Base tier: full Commander Console with bridge overlay (NMEA 2000/0183), GPS/nav enhancement, comms integration, S-I-N-G! agent, SMACS 0723 protections, and standard customization. Equivalent to today’s high-end marine upgrade floor. Single-vessel; standard config and documentation; one to three day typical installation."
       },
@@ -105,8 +109,11 @@
         "name": "Standard",
         "fee_usd": 300000,
         "fee_type": "Upfront booking",
-        "monthly_usd": null,
+        "monthly_usd": 10000,
         "equivalent": "4× base",
+        "upgrade_scale": "4×",
+        "fee_brl": 1650000,
+        "monthly_brl": 55000,
         "includes": ["All Base features", "4× Standard tier", "Priority customization", "Extended bridge integration"],
         "tech_summary_captain_level": "Standard tier: all Base features; 4× scope (priority customization, extended bridge integration). Priority support and configuration; suitable for larger or more complex bridge layouts and multiple nav/comms stacks."
       },
@@ -116,8 +123,10 @@
         "name": "Premium",
         "fee_usd": 1200000,
         "fee_type": "Upfront booking",
-        "monthly_usd": null,
+        "monthly_usd": 40000,
         "equivalent": "4×4× base",
+        "upgrade_scale": "4×4×",
+        "global_only_usd": true,
         "includes": ["All Standard features", "4×4× Premium tier", "Full franchise support", "SMACS 0723 triangulation lattice", "Dedicated customization"],
         "tech_summary_captain_level": "Premium tier: all Standard features; full franchise support; explicit SMACS 0723 triangulation lattice integration; dedicated customization and support. For owners and captains requiring full technical and operational integration and dedicated resource."
       },
@@ -125,10 +134,12 @@
         "id": "marine-commander-ultimate",
         "tier": 4,
         "name": "Ultimate Baller V",
-        "fee_usd": null,
-        "fee_type": "By arrangement",
-        "monthly_usd": null,
-        "equivalent": "By arrangement",
+        "fee_usd": 4800000,
+        "fee_type": "Upfront booking",
+        "monthly_usd": 160000,
+        "equivalent": "4×4×4×4 — Global USD",
+        "upgrade_scale": "4×4×4×4",
+        "global_only_usd": true,
         "includes": ["Full Ultimate Baller V", "Multi-vessel", "White-label", "Office Hours with Creator"],
         "tech_summary_captain_level": "Ultimate Baller V: full bespoke configuration; multi-vessel deployment; white-label option; Office Hours with Creator Chairman. For fleets, brands, and commanders requiring sovereign-level customization and direct relationship."
       }

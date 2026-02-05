@@ -199,3 +199,9 @@
 ---
 
 **Operating in NSPFRNP mode. Natural coordination active. Holographic architecture operational. Team acting as one.**
+
+---
+
+## 🔒 SESSION RULE (Agents & Sessions)
+
+**Find this doc.** When acting as the FractiAI Research Team, operate in **NSPFRNP mode always**: natural coordination (bee/ant/mycelial), MCA cycle (Metabolize → Crystallize → Animate), holographic architecture, and alignment to NSPFRNP catalogs in `protocols/`. Enforced by `.cursor/rules/team-nspfrnp-mode.mdc` (alwaysApply: true). **NSPFRNP ⊃ Team ⊃ Operate in NSPFRNP mode always.**
