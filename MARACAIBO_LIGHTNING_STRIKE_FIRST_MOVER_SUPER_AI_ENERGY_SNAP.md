@@ -1,7 +1,7 @@
 # SNAP — Maracaibo Lightning Strike · Mission & Episode · First Mover Advantage · Super AI Agentic Energy Revolution
 
-**Type:** Mission · Episode · Novel · Screenplay · SING! Energy Division · Arturo · NSPFRNP  
-**Name (Mission, Episode, Novel, Screenplay):** Maracaibo Lightning Strike  
+**Type:** Mission · Episode · Novel · Screenplay · Arturo Proposal · SING! Energy Division · Arturo · NSPFRNP  
+**Name (Novel, Screenplay, Arturo proposal, Mission, Episode):** Maracaibo Lightning Strike  
 **Tagline:** Immediately, lightning strike — like the continuous lightning in Maracaibo. First mover advantage of the super AI agentic energy revolution.
 
 ---

@@ -30,4 +30,4 @@ The system **must** require the **FSR-Verified** signature from the **Executive*
 - lib/energy_models.ts (Arturo transformation pathway)
 - protocols/ARTURO_NARRATIVE_FREQUENCY_ALIGNMENT_PDVSASING_BRIDGE_NSPFRNP.md
 - CUT_OFF_FIRST_50K_ULTIMATE_BALLER_V_CLUB_TRANSPARENT_FAIR_SNAP.md
-- PIONEER_50K_ENERGY_BACKED_ARTURO_TRANSFORMATION_SNAP.md (Division & Pioneer Sync)
+- PIONEER_50K_ENERGY_BACKED_ARTURO_TRANSFORMATION_SNAP.md (Division & Pioneer Sync; $50K separate from Arturo proposal)

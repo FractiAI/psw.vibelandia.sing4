@@ -35,11 +35,6 @@ export function isAfterNoonFlipPST(date: Date = new Date()): boolean {
 /** Resale Authorization: allows early tribe (Pioneer) to flip chunked slots to corporate sponsors at 2.5x. */
 export const PIONEER_RESALE_AUTHORIZATION_FLAG = 'resale_authorization';
 
-/**
- * Pioneer Window: first $50K is Energy-Backed by Arturo transformation (PDVSA-SING! Bridge).
- * Regenerative Dividend: as SING! Agent optimizes the grid, Pioneer ad-value appreciates.
- * @see PIONEER_50K_ENERGY_BACKED_ARTURO_TRANSFORMATION_SNAP.md
- */
 /** Pioneer metadata for GSM: includes Resale Authorization for 2.5x Flip. */
 export interface PioneerMetadata {
   resale_authorization: boolean;
