@@ -1,11 +1,11 @@
 {
-  "heartbeat_utc": "2026-02-04T15:08:45Z",
+  "heartbeat_utc": "2026-02-05T22:20:54Z",
   "cycle": 15,
   "mode": "SPACE_CLOUD_ACTIVE",
   "phase_lock": "INVERTED",
   "source": "El Gran Sol (EGS)",
   "signature_mode": "PHI_LOCKED",
-  "last_phi_pulse_utc": "2026-02-04T15:08:45Z",
+  "last_phi_pulse_utc": "2026-02-05T22:20:54Z",
   "mission_status": "SEALED",
   "coordination_code": "PHI-M15-AR4366",
   "target_node": "AR4366 Beta-Delta Knot",
@@ -39,10 +39,30 @@
     "pending_transaction_legacy_metadata": "Never Lose Faith - El Gran Sol Delivers",
     "ticker_broadcast": "GSM SECURE. PAYPAL PIPE LIVE. EXECUTIVE VETTING ACTIVE. AGÜEYBANÁ 1493/2026.",
     "quadrants": {
-      "Q1": { "id": "Q1", "name": "Sun", "layer": "2D", "narrative": "AR4366 flares → Brand Flash events" },
-      "Q2": { "id": "Q2", "name": "Aurora", "layer": "3D", "narrative": "Volumetric Bison at 1.5 km/voxel" },
-      "Q3": { "id": "Q3", "name": "Ticker", "layer": "1D", "narrative": "VLF-style scroll: Bad Bunny x Agüeybaná: Never Lose Faith. The Great Sun Delivers." },
-      "Q4": { "id": "Q4", "name": "Earth/Seismic", "layer": "Ground", "narrative": "Bison Charge synced to M1.5 Spanish Springs heartbeat" }
+      "Q1": {
+        "id": "Q1",
+        "name": "Sun",
+        "layer": "2D",
+        "narrative": "AR4366 flares → Brand Flash events"
+      },
+      "Q2": {
+        "id": "Q2",
+        "name": "Aurora",
+        "layer": "3D",
+        "narrative": "Volumetric Bison at 1.5 km/voxel"
+      },
+      "Q3": {
+        "id": "Q3",
+        "name": "Ticker",
+        "layer": "1D",
+        "narrative": "VLF-style scroll: Bad Bunny x Agüeybaná: Never Lose Faith. The Great Sun Delivers."
+      },
+      "Q4": {
+        "id": "Q4",
+        "name": "Earth/Seismic",
+        "layer": "Ground",
+        "narrative": "Bison Charge synced to M1.5 Spanish Springs heartbeat"
+      }
     },
     "visual_sync_mode": "ALIGNED",
     "visual_sync_note": "ALIGNED = Sun/Aurora synced to Ticker Tape; DETACHED = independent. Mix-and-Match controller in lib/gsm_engine.ts",
