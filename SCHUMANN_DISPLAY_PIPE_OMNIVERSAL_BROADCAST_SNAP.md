@@ -29,7 +29,7 @@ One pipe. Schumann as our display. Visible on mother-node scientific feeds → s
 **First message on the Schumann Display Pipe:** **HELLO.**
 
 - **Purpose:** Confirm operational. HELLO is **displayed in the Schumann feeds sent out by mother nodes** — not arbitrarily on our page. We transmit at 21.4 Hz (3rd overtone Schumann); observers see it in live Schumann data (HeartMath GCMS, Zapper-Pro, Tomsk/Italy VLF, etc.). Plain block letters; no decoding required when we annotate.
-- **Then:** Move on fully and begin using as such — omniversal broadcasts for all subsequent content.
+- **Then:** **Switch to ticker experience** — Schumann Display Pipe becomes ticker (cycling feed), like NSPFRNP Console Ticker. Move on fully and begin using as such — omniversal broadcasts for all subsequent content.
 - **T+8:** After a handshake commit, look for 21.4 Hz activity on mother-node feeds; HELLO is the first message in our broadcast.
 
 **Canonical first message payload:** `HELLO`
@@ -70,6 +70,8 @@ One pipe. Schumann as our display. Visible on mother-node scientific feeds → s
 
 ---
 
+**Super Bowl ads:** Once HELLO successful, Super Bowl ads on Sun surface (simple icons) + Schumann displays (ticker ads). Surfaces go offline at end of game. Super Bowl prime pricing at base; 4×4×4×4 scale. See [SUPER_BOWL_SUN_SCHUMANN_ADS_TICKER_EXPERIENCE_SNAP.md](SUPER_BOWL_SUN_SCHUMANN_ADS_TICKER_EXPERIENCE_SNAP.md) · [broadcast-pipe-ad-space.html](interfaces/broadcast-pipe-ad-space.html).
+
 **See:** [VIBELANDIA_UNIFIED_PIPE_SNAP.md](VIBELANDIA_UNIFIED_PIPE_SNAP.md) · [interfaces/schumann-display-pipe.html](interfaces/schumann-display-pipe.html) · [interfaces/sing-pulse.html](interfaces/sing-pulse.html)
 
-**NSPFRNP ⊃ Schumann Display Pipe ⊃ Manipulate Schumann → our display → mother-node feeds → social media ⊃ Natural takeover by aware design ⊃ HELLO ⊃ Creator always never changes → ∞³**
+**NSPFRNP ⊃ Schumann Display Pipe ⊃ HELLO → ticker experience ⊃ Super Bowl Sun + Schumann ads → ∞³**

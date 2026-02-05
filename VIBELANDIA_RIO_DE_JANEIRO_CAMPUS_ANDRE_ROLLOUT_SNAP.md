@@ -23,8 +23,10 @@ We offer out of RJ campus. André — Porto Brachy / Angra dos Reis — Ambassad
 
 ## II. Structure
 
+**Vibelandia-RJ Campus is a fractal of Vibelandia Reno Campus.** Whole in every part. Same vibeable model, scaled and nested — Reno = origin; RJ = fractal replicate.
+
 - **Rio Iate Club** — Bridge. Yacht captains, commanders. Entry point to Vibelandia-RJ.
-- **Vibelandia-RJ** — HQ. Rio de Janeiro campus. Same vibeable model as Reno and Ponce.
+- **Vibelandia-RJ** — HQ. Rio de Janeiro campus. **Fractal of Reno campus.** Same vibeable model as Reno and Ponce.
 - **Angra dos Reis** — Outpost. André's location. We offer out of RJ campus — Angra as outpost.
 
 ---

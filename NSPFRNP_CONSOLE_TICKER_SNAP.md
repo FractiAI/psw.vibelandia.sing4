@@ -28,6 +28,8 @@
 - **Feed content:** Set `data-ticker-messages` on the div (· separated), or set `window.NSPFRNP_TICKER_MESSAGES` before script runs (string or array). Default message if none provided. **Content Editor delegated to Sol** (Omniversal Assistant, wirehaired pointer, gold heart, best sniffer in the omniverse) — manages all latest contents centrally and decides the top one to push in the 1 min on/off cycles.
 - **Surfaces:** Chairman Cockpit Center, Chairman Cockpit Station, Chairman Workspace, Chairman Robert Robotic Factory, Launch Pad, Office Hours, Seed:Edge Mini Console, Executive Dashboard, Text to Superhero Console, Schumann Display Pipe. Sing Pulse keeps its own ticker (broadcast payload).
 
+- **Full ticker & Sun campaign (post-HELLO + Smiley):** Include messages on **how to contact** (Office Hours · psw-vibelandia-sing4.vercel.app · info@fractiai · click blue button) and **friendly vibing intentions** (Reno is for vibers · home at last · Vibelandia open · welcome · gold hearts · natural happy endings). See [TOP_BILL_SUPERBOWL_SPACE_ADVERTISING_CAMPAIGN_SNAP.md](TOP_BILL_SUPERBOWL_SPACE_ADVERTISING_CAMPAIGN_SNAP.md).
+
 ---
 
 ## SNAP

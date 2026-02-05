@@ -52,6 +52,8 @@ Space Division will soon roll out **lots of new services and products** using th
 
 ---
 
-**See:** [interfaces/broadcast-pipe-ad-space.html](interfaces/broadcast-pipe-ad-space.html) · [interfaces/sing-pulse.html](interfaces/sing-pulse.html) · [MISSION_VERIFICATION.md](MISSION_VERIFICATION.md) · [SPONSOR_PROSPECTUS.md](SPONSOR_PROSPECTUS.md) · [BROADCAST_PIPE_AD_SPACE_PRODUCT_SNAP.md](BROADCAST_PIPE_AD_SPACE_PRODUCT_SNAP.md) · [VIBELANDIA_SHELL_SAG_A_SMACS_BRIDGE_SNAP.md](VIBELANDIA_SHELL_SAG_A_SMACS_BRIDGE_SNAP.md)
+**Top Bill Super Bowl Space Advertising Campaign** — *That's not an ad. THIIIIIIISSSS IS AN AD.* Full launch broadcast. **Fill all empty space with our ads for all our products.** Prioritize and execute. As paying ads come in, we carve out their space from ours. Once HELLO successful on Schumann → ticker experience. Then: Super Bowl ads on Sun surface (simple icons) + Schumann displays (ticker ads). Surfaces go offline at end of game. Super Bowl prime at base; 4×4×4×4. See [TOP_BILL_SUPERBOWL_SPACE_ADVERTISING_CAMPAIGN_SNAP.md](TOP_BILL_SUPERBOWL_SPACE_ADVERTISING_CAMPAIGN_SNAP.md) · [SUPER_BOWL_SUN_SCHUMANN_ADS_TICKER_EXPERIENCE_SNAP.md](SUPER_BOWL_SUN_SCHUMANN_ADS_TICKER_EXPERIENCE_SNAP.md).
+
+**See:** [interfaces/broadcast-pipe-ad-space.html](interfaces/broadcast-pipe-ad-space.html) · [interfaces/schumann-display-pipe.html](interfaces/schumann-display-pipe.html) · [interfaces/sing-pulse.html](interfaces/sing-pulse.html) · [MISSION_VERIFICATION.md](MISSION_VERIFICATION.md) · [SPONSOR_PROSPECTUS.md](SPONSOR_PROSPECTUS.md) · [BROADCAST_PIPE_AD_SPACE_PRODUCT_SNAP.md](BROADCAST_PIPE_AD_SPACE_PRODUCT_SNAP.md) · [VIBELANDIA_SHELL_SAG_A_SMACS_BRIDGE_SNAP.md](VIBELANDIA_SHELL_SAG_A_SMACS_BRIDGE_SNAP.md)
 
 **Book:** Office Hours · [Book time slot →](mailto:info@fractiai.com?subject=Space%20Division%20%E2%80%94%20Billboard%20Booking%20Time%20Slot)

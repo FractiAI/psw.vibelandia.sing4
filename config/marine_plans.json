@@ -45,7 +45,7 @@
   },
   "vibelandia_rj_campus": {
     "label": "Vibelandia-RJ Campus",
-    "description": "Rio Iate Club = bridge. Vibelandia-RJ = HQ. Angra dos Reis = outpost. Same vibeable model as Reno.",
+    "description": "Rio Iate Club = bridge. Vibelandia-RJ = HQ. Angra dos Reis = outpost. Vibelandia-RJ Campus is a fractal of Vibelandia Reno Campus — same vibeable model.",
     "tiers": [
       { "id": "campus-half-day", "name": "Half-day", "fee_usd": 3000 },
       { "id": "campus-overnight", "name": "Overnight", "fee_usd": 1500, "per": "night" },
