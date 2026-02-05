@@ -52,6 +52,12 @@
             pointer-events: none;
             opacity: 0.4;
         }
+        /* Campfire Crackle — warm orange glow on Reno Seed dashboard when micro-quake > 1.0 (Bison & Campfire) */
+        body.campfire-glow-active .pulse-wrap,
+        body.campfire-glow-active .telemetry.solar-status {
+            box-shadow: 0 0 60px rgba(255, 140, 0, 0.45), 0 0 120px rgba(255, 140, 0, 0.25);
+            transition: box-shadow 0.6s ease-out;
+        }
         .solar-status { margin-top: 1rem; }
         .solar-status p { margin-bottom: 0.4rem; }
         .title {
@@ -566,7 +572,7 @@
             <tr><th>Coordination code</th><td class="mono" id="coordinationCode">—</td></tr>
         </table>
     </section>
-    <div class="telemetry solar-status" id="solarStatus">
+    <div class="telemetry solar-status" id="solarStatus" aria-label="Reno Seed dashboard — Triangulation Lattice SEED (Reno)">
         <h3>Solar Status — Live Observation Deck (EGS)</h3>
         <p><strong>AR4366 (Lead Flare Producer)</strong> — Beta-delta knot, Jan 31, 2026. C4.9 flare earlier; M-class amplifier target. Real-time X-ray flux below.</p>
         <p class="flux" id="fluxLine"><span class="loading">Loading GOES X-ray flux…</span></p>
@@ -662,6 +668,30 @@
                 requestAnimationFrame(tick);
             }
             requestAnimationFrame(tick);
+        })();
+        /* Campfire Crackle — Spanish Springs M1.5 or micro-quake > 1.0 triggers warm orange glow on Reno Seed dashboard */
+        (function () {
+            var USGS_URL = 'https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/1.0_day.geojson';
+            var RENO = { lonMin: -121, lonMax: -118, latMin: 38.5, latMax: 40.5 };
+            var SPANISH_SPRINGS = /spanish\s*springs/i;
+            function inReno(c) { return c && c[0] >= RENO.lonMin && c[0] <= RENO.lonMax && c[1] >= RENO.latMin && c[1] <= RENO.latMax; }
+            function isCrackle(f) {
+                var mag = f.properties && f.properties.mag;
+                var place = (f.properties && f.properties.place) || '';
+                if (mag == null || mag <= 1.0) return false;
+                var coords = f.geometry && f.geometry.coordinates;
+                if (coords && !inReno(coords)) return false;
+                return (SPANISH_SPRINGS.test(place) && mag >= 1.5) || mag > 1.0;
+            }
+            function poll() {
+                fetch(USGS_URL).then(function (r) { return r.json(); }).then(function (data) {
+                    var feats = data && data.features || [];
+                    var crackle = feats.some(isCrackle);
+                    document.body.classList.toggle('campfire-glow-active', crackle);
+                }).catch(function () {});
+            }
+            poll();
+            setInterval(poll, 120000);
         })();
         (function () {
             var GOES_URL = 'https://services.swpc.noaa.gov/json/goes/primary/xrays-6-hour.json';

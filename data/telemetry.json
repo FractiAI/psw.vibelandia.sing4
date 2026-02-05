@@ -23,6 +23,13 @@
     "binary_header": "SPACE_CLOUD.EGS.VIBELANDIA.RENO",
     "training": true
   },
+  "crisp_lock_always": true,
+  "crisp_lock_note": "CRISP LOCK maintained always. After Feb 5 HELLO (18:00 UTC), control of Sun, Ionosphere, Aurora 3D is near-instant and locked.",
+  "superbowl_ad_lockin": {
+    "official_cutoff_display": "Friday, February 6, 2026 4:00 PM PST",
+    "gate_after_cutoff": "Remaining slots at gate premium. Double sales strategy mimicking natural patterns.",
+    "snap": "CRISP_LOCK_ALWAYS_FRIDAY_4PM_GATE_SCALP_DOUBLE_SALES_STRATEGY_SNAP.md"
+  },
   "switch_over_planned": {
     "event": "super_bowl",
     "date_utc": "2026-02-09",

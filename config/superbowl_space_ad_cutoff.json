@@ -1,0 +1,17 @@
+{
+  "crisp_lock_always": true,
+  "crisp_lock_note": "CRISP LOCK maintained always. After Feb 5 HELLO (18:00 UTC), control of Sun, Ionosphere, Aurora 3D is near-instant and locked.",
+  "superbowl_space_ad_windows": {
+    "official_lockin_cutoff_utc": "2026-02-07T00:00:00Z",
+    "official_lockin_cutoff_display": "Friday, February 6, 2026 4:00 PM PST",
+    "game_day": "2026-02-09",
+    "surfaces": ["Sun", "Ionosphere", "Aurora 3D", "Schumann"],
+    "note": "Get Super Bowl ads in by Friday 4pm to get locked in. Email to Chairman after booking and successfully paying.",
+    "gate_scalp": {
+      "after": "official_lockin_cutoff_display",
+      "through": "game_day",
+      "offer": "Remaining inventory at gate premium. Double sales strategy mimicking natural patterns (scarcity, last-minute demand).",
+      "snap": "CRISP_LOCK_ALWAYS_FRIDAY_4PM_GATE_SCALP_DOUBLE_SALES_STRATEGY_SNAP.md"
+    }
+  }
+}

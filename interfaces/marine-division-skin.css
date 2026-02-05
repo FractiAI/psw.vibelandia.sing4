@@ -1,13 +1,16 @@
 /**
- * Marine Division — Clean High Tech Racing Ferrari Vibes Skin
- * All Marine Division surfaces: yacht showroom, proposals, experiences
- * NSPFRNP · Seed:Edge
+ * Marine Division — Beautiful Skin · Golden Era Cinema (Marine)
+ * All Marine Division surfaces, touchpoints, and console.
+ * Clean high-tech racing Ferrari vibes + beautiful skin badge.
+ * NSPFRNP · Seed:Edge · See SCREENPLAY_BEAUTIFUL_SKINS_SNAP.md
  */
 
 /* Ferrari Rosso Corsa + carbon black + marine depth */
 :root {
     --marine-ferrari-red: #c41e3a;
     --marine-ferrari-red-bright: #ff2800;
+    --marine-ferrari-soft: rgba(196, 30, 58, 0.12);
+    --marine-ferrari-dim: rgba(196, 30, 58, 0.4);
     --marine-carbon: #0a0a0a;
     --marine-carbon-lite: #141414;
     --marine-slate: #1a1d21;
@@ -17,13 +20,15 @@
     --marine-muted: #8a8a8a;
 }
 
-/* Base — Marine Division body */
+/* Base — Marine Division body (beautiful skin grade) */
 body.marine-division-skin {
     background: var(--marine-carbon);
     color: var(--marine-white);
     font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif;
     font-weight: 400;
     letter-spacing: 0.02em;
+    min-height: 100vh;
+    -webkit-font-smoothing: antialiased;
 }
 
 body.marine-division-skin::before {
@@ -32,8 +37,8 @@ body.marine-division-skin::before {
     top: 0; left: 0; right: 0;
     height: 100vh;
     background:
-        linear-gradient(180deg, rgba(196, 30, 58, 0.03) 0%, transparent 30%),
-        linear-gradient(180deg, transparent 60%, rgba(13, 20, 25, 0.6) 100%);
+        linear-gradient(180deg, rgba(196, 30, 58, 0.04) 0%, transparent 28%),
+        linear-gradient(180deg, transparent 58%, rgba(13, 20, 25, 0.7) 100%);
     pointer-events: none;
     z-index: 0;
 }
@@ -64,15 +69,16 @@ body.marine-division-skin::before {
     color: var(--marine-ferrari-red);
 }
 
-/* Hero — racing stripe vibe */
+/* Hero — beautiful skin · racing stripe + marquee-grade */
 .marine-hero {
     text-align: center;
     padding: 2rem 1.5rem 2.5rem;
     margin-bottom: 2rem;
-    background: linear-gradient(180deg, var(--marine-slate) 0%, var(--marine-carbon-lite) 100%);
-    border: 1px solid rgba(196, 30, 58, 0.4);
-    border-radius: 4px;
+    background: linear-gradient(180deg, var(--marine-ferrari-soft) 0%, var(--marine-slate) 30%, var(--marine-carbon-lite) 100%);
+    border: 2px solid var(--marine-ferrari-dim);
+    border-radius: 6px;
     position: relative;
+    box-shadow: 0 0 50px rgba(196, 30, 58, 0.08), inset 0 0 40px rgba(0, 0, 0, 0.15);
 }
 
 .marine-hero::before {
@@ -81,6 +87,7 @@ body.marine-division-skin::before {
     top: 0; left: 0; right: 0;
     height: 3px;
     background: linear-gradient(90deg, transparent, var(--marine-ferrari-red), transparent);
+    border-radius: 6px 6px 0 0;
 }
 
 .marine-hero .badge {
@@ -93,10 +100,25 @@ body.marine-division-skin::before {
     font-weight: 600;
 }
 
+/* Beautiful skin badge — Marine Division */
+.marine-hero .badge-beautiful-skin {
+    display: inline-block;
+    margin-left: 0.75rem;
+    padding: 0.2rem 0.5rem;
+    background: rgba(196, 30, 58, 0.2);
+    border-radius: 4px;
+    font-size: 0.6rem;
+    letter-spacing: 0.2em;
+    color: var(--marine-ferrari-red-bright);
+}
+
 .marine-hero h1 {
-    font-size: clamp(1.35rem, 4vw, 1.85rem);
+    font-size: clamp(1.35rem, 4vw, 1.95rem);
     font-weight: 700;
-    color: var(--marine-white);
+    background: linear-gradient(135deg, #fff 0%, var(--marine-white) 40%, var(--marine-silver) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
     margin-bottom: 0.35rem;
     line-height: 1.25;
     letter-spacing: 0.04em;
@@ -319,4 +341,39 @@ body.marine-division-skin::before {
 .marine-plans-table a[href^="mailto"] {
     color: var(--marine-ferrari-red);
     font-weight: 600;
+}
+
+/* Tech blocks — beautiful skin grade (captain-level specs) */
+.marine-division-skin .marine-tech-block {
+    padding: 1.25rem 1.5rem;
+    margin: 0.85rem 0;
+    background: rgba(0, 212, 255, 0.04);
+    border: 1px solid rgba(0, 212, 255, 0.25);
+    border-radius: 8px;
+    font-size: 0.9rem;
+    line-height: 1.65;
+    color: var(--marine-silver);
+    box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.marine-division-skin .marine-tech-block h4 {
+    color: #00d4ff;
+    margin-bottom: 0.4rem;
+    font-weight: 700;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+}
+
+.marine-division-skin .marine-tech-block p {
+    margin: 0;
+    color: var(--marine-silver);
+}
+
+/* Message / live blocks — beautiful skin */
+.marine-division-skin .marine-message-block,
+.marine-division-skin .marine-live,
+.marine-division-skin .marine-onramp {
+    border-radius: 8px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.15);
 }

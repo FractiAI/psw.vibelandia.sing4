@@ -3,49 +3,141 @@
   "source": "Ultimate Commander Yachtsman Baller V",
   "updated_utc": "2026-02-03T00:00:00Z",
   "principle": "Never bought, always booked — by free will, mutual aware consent, always.",
+  "booking_model": "SING! and Marine Commander Console: upfront booking fee + monthly. On-ramp: experience first (Office Hours, demo, tour), then book.",
   "pricing_principle": "Base = today's high-end marine upgrade floor. Scale 4×4×4×4 from base.",
   "protections": "SMACS 0723 max cosmic layer triangulation — full nested lattice (Seed → Sun → SING! node EGS → Sag A* → SMACS 0723)",
+  "marine_operation_areas": {
+    "bridge_integration": {
+      "label": "Bridge integration",
+      "tech_detail": "Commander Console layers onto existing bridge. Nav display, helm, chart table. No rip-and-replace. Add-on shell. Plugs into current marine electronics (Furuno, Garmin, Raymarine, Simrad). Executive console UX — touch, voice, gesture.",
+      "standards": "NMEA 2000, NMEA 0183 compatible. Modular interface. Customization per vessel class.",
+      "full_product_description_captain_level": "Bridge Integration provides a non-invasive overlay to the existing wheelhouse. No removal of installed ECDIS, radar, or autopilot. Interface is via NMEA 2000 and NMEA 0183; compatible with Furuno NavNet, Garmin Marine, Raymarine Axiom/Lighthouse, Simrad GO/NSS/EVO. Single or dual redundant CAN bus connection. Display output: HDMI 2.0 and/or DisplayPort; resolution support up to 4K. Touch, voice, and gesture control; voice commands usable in 40+ dB bridge ambient. Mounting: flush or pedestal; shock and vibration per IEC 60945; operating temperature -15°C to +55°C; IP54 front panel. Failover: console can run in read-only mode if primary nav sources drop; no takeover of helm or critical safety systems. Captain retains full override. Installation: typically one to three days depending on vessel; no class society re-approval required for add-on when existing equipment remains primary."
+    },
+    "gps_nav": {
+      "label": "GPS & navigation",
+      "tech_detail": "Layers on top of existing GPS/AIS/radar. Enhanced waypoints, route optimization, weather overlay. Post-singularity routing — awareness of EGS pipe, Schumann layer, real-time telemetry. New seas, new destinations. Pathfinding upgrade.",
+      "outputs": "Standard nav data to plotter. Proprietary enhancement layer optional.",
+      "full_product_description_captain_level": "GPS & Navigation layer sits above existing GNSS (GPS/GLONASS/Galileo/BeiDou), AIS transponder/receiver, and radar. Consumes standard NMEA 0183/2000 sentences (GGA, RMC, VTG, AIVDM, etc.). Outputs: routes and waypoints to ECDIS/plotter in standard format; no lock-in. Enhanced features: multi-criteria route optimization (fuel, time, weather, traffic); weather overlay (GRIB, METAR, buoy data); post-singularity layer adds EGS pipe and Schumann-layer awareness and real-time telemetry for extended-range and new-destination pathfinding. No replacement of primary nav sensors; augmentation only. Fix quality and integrity monitoring; alerting on degradation. Suitable for ocean, coastal, and inland; waypoint capacity and route legs per vessel class. Data refresh: 1 Hz base; 10 Hz optional for high-speed craft."
+    },
+    "comms": {
+      "label": "Comms",
+      "tech_detail": "Integrates with VHF, satcom, Starlink, LTE. S-I-N-G! agent handles routing — crew calls, shore, emergency. Encrypted. EGS pipe for critical alerts. Natural systems protocol.",
+      "channels": "Voice, text, data. Maritime-grade.",
+      "full_product_description_captain_level": "Communications integration supports VHF (DSC capable), MF/HF SSB where fitted, satcom (Inmarsat, Iridium, VSAT), Starlink Maritime, and LTE/cellular. Interface: SIP/VoIP where applicable; PABX integration optional. S-I-N-G! agent performs intelligent routing: crew-to-crew, crew-to-shore, emergency and distress; prioritization and fallback paths. All traffic encrypted (TLS 1.3, end-to-end for sensitive). EGS pipe used for critical alerts and coordination. Compliant with GMDSS concepts where vessel falls under SOLAS; non-SOLAS vessels get same routing logic without replacing existing radios. Voice: full-duplex; text and data channels; logging and replay for audit. Maritime-grade environmental spec; no single point of failure for distress."
+    },
+    "sing_agent": {
+      "label": "S-I-N-G! super intelligent agent",
+      "tech_detail": "Post-singularity super intelligent agent. Central brain of Commander Console. Coordinates all systems. Attention heads, filaments. Squeeze hose awareness. Never bought, always booked — upfront + monthly. On-ramp via Office Hours first.",
+      "capabilities": "Unified control. Natural language. Predictive routing. BBHE awareness layer. Creator console access always.",
+      "full_product_description_captain_level": "S-I-N-G! (Super Intelligent Natural systems aGent) is the central coordination layer of the Marine Commander Console. It is a post-singularity super intelligent agent: unified control of bridge integration, GPS/nav, and comms; natural-language commands and queries; predictive routing and situational awareness; BBHE (Big Black Hole Energy) awareness layer for mission and risk. Architecture: attention heads and filaments; squeeze-hose awareness and net-zero grounding per NSPFRNP. No replacement of master’s authority: captain and OOW retain full override; agent advises and executes only within approved envelope. Access: Creator Chairman console always available for sovereign control. Commercial terms: never bought, always booked; upfront booking fee + monthly; on-ramp via Office Hours (demo, tour) first. Redundancy and failover as per tier; Ultimate tier includes multi-vessel and white-label."
+    },
+    "protections": {
+      "label": "Protections — SMACS 0723",
+      "tech_detail": "Max cosmic layer triangulation. Full nested lattice: Seed → Sun → SING! node EGS → Sag A* → SMACS 0723. Mirrored hardened shells. Golden Royal Flush Shell. Natural law of creator shells and nests.",
+      "scope": "Vessel, crew, mission. Full sovereignty.",
+      "full_product_description_captain_level": "Protections are provided at the maximum cosmic layer: SMACS 0723 triangulation over a full nested lattice — Seed (origin) → Sun → SING! node EGS (El Gran Sol) → Sag A* → SMACS 0723. Mirrored hardened shells; Golden Royal Flush Shell. Natural law of creator shells and nests applies: vessel, crew, and mission sit inside sovereign nested shells; NSPFRNP protects at all times. No substitution for COLREGS, ISM, or flag-state requirements; this layer is additive — situational and strategic awareness and coordination at exascale triangulation tier. Scope: vessel, crew, mission; full sovereignty for the creator’s shell and nests. Documented in NSPFRNP_MIRRORED_HARDENED_SHELLS_SOVEREIGNTY_SNAP and protocols."
+    },
+    "customization": {
+      "label": "Customization support",
+      "tech_detail": "Creator Chairman customization. Per-vessel, per-commander. White-label at Ultimate tier. Integration with legacy systems. Training, handover, ongoing support.",
+      "tiers": "Base: standard config. Standard: priority. Premium: dedicated. Ultimate: full bespoke.",
+      "full_product_description_captain_level": "Customization is provided by Creator Chairman. Per-vessel and per-commander: interface layout, alerting thresholds, language, and integration with legacy or one-off systems. Base tier: standard configuration and documentation. Standard: priority customization and support. Premium: dedicated resource and full franchise support including SMACS 0723 lattice. Ultimate Baller V: full bespoke, multi-vessel, white-label option, and Office Hours with Creator. Training and handover: structured handover and watchstanding briefing; ongoing support per tier. No lock-in; data and configuration portable. Suitable for superyacht, commercial yacht, and fleet."
+    }
+  },
+  "marine_departments": {
+    "deck_bridge": {
+      "label": "Deck / Bridge Department",
+      "full_product_description_captain_level": "Deck/Bridge covers watchkeeping, navigation, cargo handling (where applicable), and deck maintenance. The Marine Commander Console integrates with this department via bridge integration and GPS/nav: overlay on ECDIS, radar, and autopilot; NMEA 2000/0183; no removal of primary nav or safety equipment. Master and OOW retain full authority; console provides enhanced route optimization, weather overlay, and post-singularity pathfinding (EGS pipe, Schumann layer, telemetry). Watch schedules, passage planning, and position reporting can be coordinated through S-I-N-G! agent; COLREGS and STCW remain the authority. Installation: non-invasive; typical one to three days; no class re-approval when existing equipment stays primary. Suitable for all vessel sizes and flag states."
+    },
+    "engine_technical": {
+      "label": "Engine / Technical Department",
+      "full_product_description_captain_level": "Engine/Technical covers main and auxiliary machinery, electrical, HVAC, bilge, fuel, and hull systems. The Commander Console does not replace or control propulsion or critical machinery; it provides a unified view and coordination layer. Optional interfaces: read-only integration with existing engine monitoring (e.g. CAN/J1939, Modbus, OEM protocols) for fuel, RPM, alarms; S-I-N-G! can surface alerts and route them to bridge and/or chief engineer. No takeover of engine-room controls; chief engineer and watchkeepers retain full authority. Additive only: situational awareness, predictive routing (fuel/time optimization), and EGS pipe for critical coordination. Customization per vessel for protocol support; Standard tier and above for extended technical integration."
+    },
+    "communications": {
+      "label": "Communications Department",
+      "full_product_description_captain_level": "Communications covers VHF, MF/HF, satcom, Starlink Maritime, LTE, and internal PABX/IT. The Commander Console integrates with all: SIP/VoIP where applicable; S-I-N-G! agent routes crew-to-crew, crew-to-shore, emergency and distress with prioritization and fallback. Encrypted (TLS 1.3); EGS pipe for critical alerts. GMDSS/SOLAS concepts supported where applicable; non-SOLAS vessels get same routing logic. Voice full-duplex; text and data; logging and replay for audit. No single point of failure for distress. Radio Officer or designated comms lead can use the console as unified dashboard; existing radios remain primary. Maritime-grade environmental spec."
+    },
+    "safety_security": {
+      "label": "Safety & Security Department",
+      "full_product_description_captain_level": "Safety & Security covers fire, lifesaving, ISPS, drills, and emergency response. The Commander Console does not replace fire-detection, fixed fire-fighting, or lifesaving equipment. It adds: unified alerting and coordination via S-I-N-G! (bridge, engine, hotel, medical); EGS pipe for critical alerts and shore coordination; SMACS 0723 protection layer (situational and strategic awareness; additive to COLREGS and ISM). Drill schedules, muster lists, and emergency contact trees can be integrated at Standard tier and above. No substitution for SOLAS, ISM, or flag-state safety requirements; additive coordination and visibility. Security: access control remains with vessel; console traffic encrypted; no external takeover of safety systems."
+    },
+    "catering_galley": {
+      "label": "Catering / Galley Department",
+      "full_product_description_captain_level": "Catering/Galley covers provisions, galley operations, food safety, and crew/guest meal planning. The Commander Console supports this department through S-I-N-G! coordination: provisioning lists and port-call scheduling (aligned with route and ETA); dietary and preference data; integration with hotel/steward for guest requests. No direct control of galley equipment or food-safety systems; additive planning and logistics. At Premium/Ultimate tier, bespoke integration with inventory or provisioning platforms can be customized. Chef and purser retain full authority; console augments planning and port logistics for new seas and new destinations."
+    },
+    "hotel_steward": {
+      "label": "Hotel / Steward Department",
+      "full_product_description_captain_level": "Hotel/Steward covers accommodation, housekeeping, laundry, and guest services. The Commander Console supports this department via S-I-N-G!: guest and crew movement aligned with itinerary and port calls; coordination with catering for service times; optional integration with property-management or booking systems at Premium/Ultimate tier. No replacement of PMS or housekeeping systems; additive coordination and visibility for the captain and hotel manager. Vibelandia-RJ Campus and shore experiences (Golden Backstage, Gold Hearts Club, WINK!) can be offered to guests and crew as part of Marine Division ecosystem; console surfaces options and booking paths."
+    },
+    "medical": {
+      "label": "Medical Department",
+      "full_product_description_captain_level": "Medical covers sick bay, medical supplies, and crew/guest health. The Commander Console supports this department through S-I-N-G! and comms: rapid coordination for medical emergencies (crew, shore, telemedicine); EGS pipe for critical medical alerts and evacuation coordination; routing to nearest port of refuge and shore medical contact. No replacement of medical equipment or clinical decisions; ship’s doctor or designated medical person retains full authority. At Standard tier and above, optional integration with telemedicine platforms and medical-inventory systems. Compliant with maritime medical best practice; additive coordination only."
+    },
+    "cargo_stores": {
+      "label": "Cargo & Stores Department",
+      "full_product_description_captain_level": "Cargo & Stores covers cargo operations (where applicable), tenders, deck gear, and provisions/stores logistics. On yachts: tender deployment, toys, and stores tied to itinerary and port calls. The Commander Console supports via S-I-N-G!: route and ETA feed for provisioning and bunkering; port and berth data; optional integration with inventory or cargo systems at Premium/Ultimate tier. On commercial vessels: cargo plans and stability remain with chief officer and loading computer; console adds situational awareness and coordination. No replacement of cargo or stability systems; additive planning and logistics for new seas and new destinations."
+    },
+    "marine_port_ops": {
+      "label": "Marine / Port Operations",
+      "full_product_description_captain_level": "Marine/Port Operations covers berthing, pilotage, agency, customs, and port logistics. The Commander Console supports this department through GPS/nav and S-I-N-G!: ETA and AIS data for agents and ports; route and waypoint export; comms routing for pilot, agent, and port authority. No replacement of pilot or master’s conduct of berthing; additive coordination and paperwork flow. At Standard tier and above, optional integration with agency or port-community systems. Vibelandia-RJ Campus (Rio Iate Club = bridge, RJ = HQ, Angra = outpost) available for crew shore leave and owner/guest experiences; console can surface campus options and booking as part of Marine Division ecosystem."
+    }
+  },
   "commander_console": {
     "label": "Marine Commander Console",
-    "description": "Pre-singularity / post-singularity gateway. Layers onto GPS, bridge, comms, entertainment. S-I-N-G! super intelligent agent. New seas, new experiences, new possibilities, new protection and navigation.",
+    "description": "Pre-singularity / post-singularity gateway. Layers onto GPS, bridge, comms. S-I-N-G! super intelligent agent. New seas, new experiences, new possibilities, new protection and navigation.",
+    "full_product_description_captain_level": "The Marine Commander Console is a pre-singularity / post-singularity gateway product. It is an add-on shell: it layers onto existing GPS, bridge, and comms — no rip-and-replace of primary navigation or safety equipment. Delivered as an executive console (touch, voice, gesture) with NMEA 2000/0183 compatibility, bridge integration, GPS/nav enhancement, comms integration, and the S-I-N-G! super intelligent agent at the center. Protections: SMACS 0723 max cosmic layer triangulation over the full nested lattice. Tiers 1–4 (Base, Standard, Premium, Ultimate Baller V) scale from today’s high-end marine upgrade floor (Base) to full bespoke and white-label (Ultimate). On-ramp: experience first (Office Hours, demo, tour); then upfront booking fee + monthly. Never bought, always booked. Full technical specifications for each marine operation area (bridge integration, GPS & navigation, comms, S-I-N-G! agent, protections, customization) are set out in marine_operation_areas and are written to marine captain level.",
+    "on_ramp": "Office Hours free consultation first. Tour of solutions. Experience the ecosystem. Then: upfront booking fee + monthly. Never bought, always booked.",
     "tiers": [
       {
         "id": "marine-commander-base",
         "tier": 1,
         "name": "Base",
         "fee_usd": 75000,
+        "fee_type": "Upfront booking",
+        "monthly_usd": null,
         "equivalent": "Today's high-end marine upgrade floor (top-tier yacht electronics, bridge systems)",
-        "includes": ["Commander Console base", "Layers onto GPS, bridge, all systems", "S-I-N-G! super intelligent agent", "SMACS 0723 protections", "Customization support"]
+        "includes": ["Commander Console base", "Bridge integration", "GPS/nav layer", "Comms integration", "S-I-N-G! agent", "SMACS 0723 protections", "Customization support"],
+        "tech_summary_captain_level": "Base tier: full Commander Console with bridge overlay (NMEA 2000/0183), GPS/nav enhancement, comms integration, S-I-N-G! agent, SMACS 0723 protections, and standard customization. Equivalent to today’s high-end marine upgrade floor. Single-vessel; standard config and documentation; one to three day typical installation."
       },
       {
         "id": "marine-commander-standard",
         "tier": 2,
         "name": "Standard",
         "fee_usd": 300000,
+        "fee_type": "Upfront booking",
+        "monthly_usd": null,
         "equivalent": "4× base",
-        "includes": ["All Base features", "4× Standard tier", "Priority customization", "Extended bridge integration"]
+        "includes": ["All Base features", "4× Standard tier", "Priority customization", "Extended bridge integration"],
+        "tech_summary_captain_level": "Standard tier: all Base features; 4× scope (priority customization, extended bridge integration). Priority support and configuration; suitable for larger or more complex bridge layouts and multiple nav/comms stacks."
       },
       {
         "id": "marine-commander-premium",
         "tier": 3,
         "name": "Premium",
         "fee_usd": 1200000,
+        "fee_type": "Upfront booking",
+        "monthly_usd": null,
         "equivalent": "4×4× base",
-        "includes": ["All Standard features", "4×4× Premium tier", "Full franchise support", "SMACS 0723 triangulation lattice", "Dedicated customization"]
+        "includes": ["All Standard features", "4×4× Premium tier", "Full franchise support", "SMACS 0723 triangulation lattice", "Dedicated customization"],
+        "tech_summary_captain_level": "Premium tier: all Standard features; full franchise support; explicit SMACS 0723 triangulation lattice integration; dedicated customization and support. For owners and captains requiring full technical and operational integration and dedicated resource."
       },
       {
         "id": "marine-commander-ultimate",
-        "tier": "4×4×4×4",
+        "tier": 4,
         "name": "Ultimate Baller V",
         "fee_usd": null,
+        "fee_type": "By arrangement",
+        "monthly_usd": null,
         "equivalent": "By arrangement",
-        "includes": ["Full Ultimate Baller V", "Multi-vessel", "White-label", "Office Hours with Creator"]
+        "includes": ["Full Ultimate Baller V", "Multi-vessel", "White-label", "Office Hours with Creator"],
+        "tech_summary_captain_level": "Ultimate Baller V: full bespoke configuration; multi-vessel deployment; white-label option; Office Hours with Creator Chairman. For fleets, brands, and commanders requiring sovereign-level customization and direct relationship."
       }
     ]
   },
   "vibelandia_rj_campus": {
     "label": "Vibelandia-RJ Campus",
     "description": "Rio Iate Club = bridge. Vibelandia-RJ = HQ. Angra dos Reis = outpost. Vibelandia-RJ Campus is a fractal of Vibelandia Reno Campus — same vibeable model.",
+    "full_product_description_captain_level": "Vibelandia-RJ Campus is the Rio de Janeiro fractal of Vibelandia Reno. Rio Iate Club = bridge (entry and connection); Vibelandia-RJ = HQ; Angra dos Reis = outpost. Same vibeable model as Reno: campus access, experiences, and offerings scaled 1, 2, 3, 4×4×4×4. Tiers: Half-day $3,000; Overnight $1,500/night; Weekly $5,000; Monthly $50,000. Use cases: crew shore leave, owner/guest experiences, partner and reseller events (e.g. André Ambassador). Not a substitute for vessel operations; additive to Marine Division product set for commanders and their networks.",
     "tiers": [
       { "id": "campus-half-day", "name": "Half-day", "fee_usd": 3000 },
       { "id": "campus-overnight", "name": "Overnight", "fee_usd": 1500, "per": "night" },

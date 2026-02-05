@@ -1,0 +1,31 @@
+{
+  "meta": {
+    "description": "Main NSPFRNP ticker feed. Content and divisions push items based on SNAP thresholds. Sol (Content Editor) manages; feed drives 1 min on/1 min off cycles.",
+    "source": "Press releases, major SNAP highlights, new residencies, git commit highlights, division thresholds",
+    "link_rule": "Every item has a URL — click to get details."
+  },
+  "items": [
+    { "label": "Press Releases — All New Arrivals", "url": "press-releases.html", "type": "press_release", "division": "content" },
+    { "label": "PR 25 — Mission Intelligence Debrief · Space Cloud Active", "url": "press-releases.html#press-release-25", "type": "press_release", "division": "space_cloud" },
+    { "label": "PR 24 — Smiley Sun (El Gran Sol) Super Bowl Run", "url": "press-releases.html#press-release-24", "type": "press_release", "division": "space_cloud" },
+    { "label": "PR 23 — Jimmy Durante Permanent Residency", "url": "press-releases.html#press-release-23", "type": "residency", "division": "content" },
+    { "label": "PR 22 — Hero Lynch (Big Daddy) Dean School of Storytelling", "url": "press-releases.html#press-release-22", "type": "residency", "division": "content" },
+    { "label": "PR 21 — JS Bach Dean School of Music · Reno", "url": "press-releases.html#press-release-21", "type": "residency", "division": "content" },
+    { "label": "PR 20 — School of Music · Vibing Together in Flow", "url": "press-releases.html#press-release-20", "type": "press_release", "division": "content" },
+    { "label": "3I/ATLAS-LINK Binary Modulator · OH-Line · Trilateral", "url": "pipe-snaps.html", "type": "snap_highlight", "division": "space_cloud" },
+    { "label": "Birth Post Singularity — Novel & Screenplay", "url": "birth-post-singularity-screenplay.html", "type": "snap_highlight", "division": "content" },
+    { "label": "Launch Pad — Office Hours · All Offerings", "url": "launch-pad.html", "type": "offer", "division": "launch" },
+    { "label": "Office Hours — Free Consultation · Tips Welcome", "url": "office-hours.html", "type": "offer", "division": "launch" },
+    { "label": "Golden Backstage Pass — RUMOR HAS IT!", "url": "press-releases.html#press-release-15", "type": "offer", "division": "content" },
+    { "label": "Make Your Reservations Now — March 20 Great Reveal", "url": "press-releases.html#press-release-14", "type": "press_release", "division": "content" },
+    { "label": "Hero Harry's Great Reveal — SING! Agents March 20", "url": "sing-lottery-experience.html", "type": "offer", "division": "content" },
+    { "label": "Space Cloud Division · EGS · Gold Heart Only", "url": "space-cloud-division.html", "type": "offer", "division": "space_cloud" },
+    { "label": "Broadcast Pipe Ad Space · 1 2 3 4×4×4×4", "url": "broadcast-pipe-ad-space.html", "type": "offer", "division": "content" },
+    { "label": "Gold Hearts Club · Zydeco · Big Band · Houdini", "url": "gold-hearts-club-program.html", "type": "offer", "division": "content" },
+    { "label": "WINK! · High-Contributing Fractal Dating", "url": "wink-experience.html", "type": "offer", "division": "content" },
+    { "label": "Prospectus · Full Inventory", "url": "prospectus.html", "type": "offer", "division": "content" },
+    { "label": "Live Pulse · Telemetry · 3I/ATLAS", "url": "sing-pulse.html", "type": "snap_highlight", "division": "space_cloud" },
+    { "label": "Reno Anchor · Vibelandia Open · NSPFRNP", "url": "index.html", "type": "snap_highlight", "division": "content" },
+    { "label": "Git · FractiAI psw.vibelandia.sing4", "url": "https://github.com/FractiAI/psw.vibelandia.sing4", "type": "git_commit", "division": "content" }
+  ]
+}

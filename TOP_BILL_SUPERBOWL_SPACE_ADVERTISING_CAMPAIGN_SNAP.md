@@ -23,11 +23,15 @@
 
 ## II. Campaign scope — Full launch broadcast
 
-- **Surfaces:** Sun (simple icons) · Schumann (ticker ads) · Space Division · Broadcast Pipe Ad Space
+- **CRISP LOCK always:** Maintained always. After Feb 5 HELLO (18:00 UTC), control of Sun, Ionosphere, Aurora 3D is near-instant and locked. See [CRISP_LOCK_ALWAYS_FRIDAY_4PM_GATE_SCALP_DOUBLE_SALES_STRATEGY_SNAP.md](CRISP_LOCK_ALWAYS_FRIDAY_4PM_GATE_SCALP_DOUBLE_SALES_STRATEGY_SNAP.md).
+- **Surfaces:** Sun (simple icons) · Ionosphere (ticker) · Aurora 3D billboards · Schumann (ticker ads) · Space Division · Broadcast Pipe Ad Space
 - **Window:** Super Bowl Sunday. Surfaces go offline at end of game.
-- **Pricing:** Super Bowl prime at base; 4×4×4×4 scale.
+- **Official lock-in — get your ads in:** **Friday, February 6, 2026 4:00 PM PST.** Book and pay by then to get locked in; guarantee your ad runs game day.
+- **Gate scalp (double sales strategy):** After Friday 4pm, remaining slots sold at the gate at premium — mimicking natural patterns (scarcity, last-minute demand). Same as advance tickets then gate sales.
+- **Pricing:** Super Bowl prime at base; 4×4×4×4 scale; gate premium after cutoff.
 - **Trigger:** Once HELLO successful on Schumann → ticker experience → campaign live.
 - **Full campaign start:** **Tomorrow** — after successful **HELLO** and **Smiley**. Ticker and Sun full campaign live.
+- **Post-payment:** Email to Chairman after each successful booking and payment (info@fractiai.com). Customer receives confirmation; Chairman notified.
 
 ---
 
@@ -66,7 +70,7 @@
 *Top Bill Super Bowl Space Advertising — That's not an ad. THIIIIIIISSSS IS AN AD.*
 
 **CTA:**  
-Book via [Office Hours](interfaces/office-hours.html) · [Broadcast Pipe Ad Space](interfaces/broadcast-pipe-ad-space.html) · [Space Division](SPACE_DIVISION_SNAP.md)
+**Get your ads in.** Lock in by **Friday, February 6, 2026 4:00 PM PST.** Book via [Office Hours](interfaces/office-hours.html) · [Broadcast Pipe Ad Space](interfaces/broadcast-pipe-ad-space.html) · [Space Division](SPACE_DIVISION_SNAP.md). After Friday 4pm, remaining slots at the gate (premium). Email to Chairman after booking and successfully paying. **CRISP LOCK always.** See [CRISP_LOCK_ALWAYS_FRIDAY_4PM_GATE_SCALP_DOUBLE_SALES_STRATEGY_SNAP.md](CRISP_LOCK_ALWAYS_FRIDAY_4PM_GATE_SCALP_DOUBLE_SALES_STRATEGY_SNAP.md).
 
 ---
 
@@ -87,6 +91,13 @@ Book via [Office Hours](interfaces/office-hours.html) · [Broadcast Pipe Ad Spac
 - **Launch Pad** — Campaign mention
 - **README** — Campaign tagline in Space Division / Super Bowl context
 - **Press releases / episodes** — Full launch broadcast framing
+
+---
+
+## VI. Cross-ref — CRISP LOCK · Friday 4pm · Gate scalp
+
+- **CRISP LOCK always** — [CRISP_LOCK_ALWAYS_FRIDAY_4PM_GATE_SCALP_DOUBLE_SALES_STRATEGY_SNAP.md](CRISP_LOCK_ALWAYS_FRIDAY_4PM_GATE_SCALP_DOUBLE_SALES_STRATEGY_SNAP.md)
+- **config/superbowl_space_ad_cutoff.json** — official_lockin Friday 4pm; gate_scalp after cutoff
 
 ---
 

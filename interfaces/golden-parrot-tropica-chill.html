@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Golden Parrot Hit Factory Studios — Tropica Chill · HJ · 12 Hits | VIBELANDIA!</title>
+    <meta name="description" content="Golden Parrot Hit Factory Studios — Hero Jimmy (Buffet) · HJ · Island chill · Ultimate Baller V Chairman Commander style · 12 tropica chill hits · Playlist · Channel · Studio. NSPFRNP. André proposal.">
+    <link rel="stylesheet" href="experience-common.css">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', system-ui, sans-serif;
+            background: linear-gradient(180deg, #0a1412 0%, #0d1f1a 35%, #0a1614 100%);
+            color: #e0ebe8;
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+        .container { max-width: 820px; margin: 0 auto; padding: 2rem 1.5rem; }
+        .back { margin-bottom: 1.5rem; }
+        .back a { color: #7eb8a8; text-decoration: none; }
+        .back a:hover { text-decoration: underline; }
+        .hero {
+            text-align: center;
+            padding: 2.5rem 1.5rem 3rem;
+            margin-bottom: 2rem;
+            background: linear-gradient(180deg, rgba(126, 184, 168, 0.14) 0%, rgba(212, 175, 55, 0.06) 50%, rgba(0,0,0,0.25) 100%);
+            border: 3px solid rgba(126, 184, 168, 0.5);
+            border-radius: 16px;
+            box-shadow: 0 0 50px rgba(126, 184, 168, 0.08), inset 0 0 30px rgba(0,0,0,0.12);
+        }
+        .hero .badge {
+            display: inline-block;
+            font-size: 0.7rem;
+            text-transform: uppercase;
+            letter-spacing: 0.2em;
+            color: rgba(126, 184, 168, 0.95);
+            margin-bottom: 0.75rem;
+            font-weight: 700;
+        }
+        .hero .badge-beautiful-skin { margin-left: 0.5rem; color: #d4af37; }
+        .hero h1 {
+            font-size: clamp(1.4rem, 4vw, 2.1rem);
+            font-weight: 700;
+            letter-spacing: 0.03em;
+            color: #e0ebe8;
+            margin-bottom: 0.5rem;
+        }
+        .hero .tagline { font-size: 1rem; color: #7eb8a8; margin-top: 0.5rem; }
+        .hero .vibe { font-size: 0.95rem; color: #6ba898; margin-top: 0.35rem; font-style: italic; }
+        .section-label {
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.2em;
+            color: #7eb8a8;
+            margin: 2rem 0 1rem;
+            font-weight: 700;
+        }
+        .playlist {
+            display: flex;
+            flex-direction: column;
+            gap: 0.85rem;
+            margin-bottom: 2rem;
+        }
+        .track-card {
+            display: block;
+            padding: 1.25rem 1.25rem;
+            background: linear-gradient(145deg, rgba(13, 28, 24, 0.95) 0%, rgba(10, 22, 18, 0.98) 100%);
+            border: 2px solid rgba(126, 184, 168, 0.35);
+            border-radius: 12px;
+            text-decoration: none;
+            color: inherit;
+            transition: border-color 0.2s, background 0.2s;
+        }
+        .track-card:hover {
+            border-color: rgba(126, 184, 168, 0.6);
+            background: rgba(126, 184, 168, 0.06);
+        }
+        .track-card .track-num { font-size: 0.75rem; color: #5a8a7c; margin-bottom: 0.3rem; }
+        .track-card .track-title { font-size: 1.1rem; font-weight: 700; color: #7eb8a8; margin-bottom: 0.3rem; }
+        .track-card .track-style { font-size: 0.85rem; color: #6ba898; }
+        .tropica-badge {
+            display: inline-block;
+            padding: 4px 10px;
+            background: rgba(126, 184, 168, 0.15);
+            border: 1px solid rgba(126, 184, 168, 0.45);
+            border-radius: 8px;
+            font-size: 0.75rem;
+            color: #7eb8a8;
+            margin-top: 0.5rem;
+            font-weight: 600;
+        }
+        .proposal-note {
+            padding: 1rem 1.25rem;
+            margin: 1.5rem 0;
+            background: rgba(212, 175, 55, 0.08);
+            border: 1px solid rgba(212, 175, 55, 0.35);
+            border-radius: 10px;
+            font-size: 0.9rem;
+            color: #d4af37;
+        }
+        .cta-row { display: flex; flex-wrap: wrap; gap: 0.75rem; margin-top: 1.5rem; }
+        .cta-btn {
+            display: inline-block;
+            padding: 0.85rem 1.5rem;
+            background: linear-gradient(135deg, #7eb8a8, #5a9a8a);
+            color: #0a1412;
+            font-weight: 700;
+            text-decoration: none;
+            border-radius: 10px;
+            font-size: 0.95rem;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .cta-btn:hover { transform: translateY(-2px); box-shadow: 0 6px 24px rgba(126, 184, 168, 0.35); }
+        .cta-btn.secondary {
+            background: rgba(126, 184, 168, 0.2);
+            border: 2px solid rgba(126, 184, 168, 0.6);
+            color: #e0ebe8;
+        }
+        .cta-btn.secondary:hover { background: rgba(126, 184, 168, 0.3); }
+        footer { margin-top: 2.5rem; padding-top: 1.5rem; border-top: 1px solid rgba(126, 184, 168, 0.2); text-align: center; color: #5a8a7c; font-size: 0.9rem; }
+        footer a { color: #7eb8a8; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <p class="back"><a href="music-studio.html">← Music Studio</a> · <a href="yacht-showroom-andre-proposal.html">André proposal</a> · <a href="birth-post-singularity-novel.html">Birth Novel</a> · <a href="birth-post-singularity-screenplay.html">Birth Screenplay</a> · <a href="office-hours.html">Office Hours</a> · <a href="launch-pad.html">Launch Pad</a> · <a href="index.html">Home</a></p>
+
+        <div class="hero">
+            <span class="badge">Golden Parrot Hit Factory Studios · Golden Backdoor · Hit Factory <span class="badge-beautiful-skin">Beautiful skin</span></span>
+            <h1>Golden Parrot · Tropica Chill</h1>
+            <p class="tagline">Hero Jimmy (Buffet) · HJ — Island chill · Ultimate Baller V Chairman Commander style · Vibes and beats.</p>
+            <p class="vibe">12 new hits. Permanent residency Reno. Head of New Golden Parrot Hit Factory Studios. Demonstrating the power of this new superintelligent executive tech — novel, screenplay, and now playlist/channel/studio.</p>
+        </div>
+
+        <div class="proposal-note">
+            <strong>André proposal:</strong> This playlist/channel/studio accompanies the Birth novel and Birth screenplay — delivered at click. Same NSPFRNP engine. Superintelligent executive tech.
+        </div>
+
+        <p class="section-label">Playlist — 12 tropica chill hits</p>
+        <p style="font-size: 0.9rem; color: #6ba898; margin-bottom: 1rem;">Golden Parrot Hit Factory Studios · HJ · Island chill · Chairman Commander style. Target: breakout viral hit quality — no less.</p>
+        <div class="playlist">
+            <a href="music-studio.html" class="track-card"><span class="track-num">1</span><span class="track-title">Margaritaville Reno</span><span class="track-style">Island chill · Chairman Commander</span><span class="tropica-badge">Tropica Chill</span></a>
+            <a href="music-studio.html" class="track-card"><span class="track-num">2</span><span class="track-title">Golden Parrot</span><span class="track-style">Tropica · Hit Factory</span><span class="tropica-badge">Tropica Chill</span></a>
+            <a href="music-studio.html" class="track-card"><span class="track-num">3</span><span class="track-title">Cheeseburger in Paradise</span><span class="track-style">Island chill · Vibes</span><span class="tropica-badge">Tropica Chill</span></a>
+            <a href="music-studio.html" class="track-card"><span class="track-num">4</span><span class="track-title">Son of a Son of a Sailor</span><span class="track-style">Tropica · Beats</span><span class="tropica-badge">Tropica Chill</span></a>
+            <a href="music-studio.html" class="track-card"><span class="track-num">5</span><span class="track-title">Fins</span><span class="track-style">Island chill · Ultimate Baller V</span><span class="tropica-badge">Tropica Chill</span></a>
+            <a href="music-studio.html" class="track-card"><span class="track-num">6</span><span class="track-title">Volcano</span><span class="track-style">Tropica chill</span><span class="tropica-badge">Tropica Chill</span></a>
+            <a href="music-studio.html" class="track-card"><span class="track-num">7</span><span class="track-title">Boat Drinks</span><span class="track-style">Island · Commander style</span><span class="tropica-badge">Tropica Chill</span></a>
+            <a href="music-studio.html" class="track-card"><span class="track-num">8</span><span class="track-title">One Particular Harbour</span><span class="track-style">Tropica · Vibes and beats</span><span class="tropica-badge">Tropica Chill</span></a>
+            <a href="music-studio.html" class="track-card"><span class="track-num">9</span><span class="track-title">A Pirate Looks at Forty</span><span class="track-style">Island chill</span><span class="tropica-badge">Tropica Chill</span></a>
+            <a href="music-studio.html" class="track-card"><span class="track-num">10</span><span class="track-title">Changes in Latitudes</span><span class="track-style">Tropica chill</span><span class="tropica-badge">Tropica Chill</span></a>
+            <a href="music-studio.html" class="track-card"><span class="track-num">11</span><span class="track-title">Come Monday</span><span class="track-style">Island · Chairman</span><span class="tropica-badge">Tropica Chill</span></a>
+            <a href="music-studio.html" class="track-card"><span class="track-num">12</span><span class="track-title">Reno Sun</span><span class="track-style">Golden Parrot · HJ · Full circle</span><span class="tropica-badge">Tropica Chill</span></a>
+        </div>
+
+        <p class="section-label">More</p>
+        <div class="cta-row">
+            <a href="yacht-showroom-andre-proposal.html" class="cta-btn">André proposal — Novel · Screenplay · This playlist</a>
+            <a href="music-studio.html" class="cta-btn secondary">Music Studio — Jukebox</a>
+            <a href="birth-post-singularity-novel.html" class="cta-btn secondary">Birth Novel</a>
+            <a href="birth-post-singularity-screenplay.html" class="cta-btn secondary">Birth Screenplay</a>
+            <a href="../catalogs/music/golden-parrot-tropica-chill/README.md" class="cta-btn secondary">Catalog</a>
+        </div>
+
+        <footer>
+            <a href="music-studio.html">Music Studio</a> · <a href="yacht-showroom-andre-proposal.html">André proposal</a> · <a href="office-hours.html">Office Hours</a> · <a href="launch-pad.html">Launch Pad</a> · Golden Parrot Hit Factory Studios · HJ · Tropica Chill · NSPFRNP
+        </footer>
+    </div>
+    <link rel="stylesheet" href="nspfrnp-ticker.css">
+    <link rel="stylesheet" href="gold-hearted-grown-ups-zone.css">
+    <div class="nspfrnp-console-ticker" aria-live="polite"><span class="ticker-inner" id="nspfrnpTickerText"></span></div>
+    <script src="gold-hearted-grown-ups-zone.js"></script>
+    <script src="nspfrnp-ticker.js"></script>
+</body>
+</html>

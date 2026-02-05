@@ -59,7 +59,7 @@ MARINE DIVISION · YACHTSMAN GATEWAY:
 
 ### C. Starting Point · Endpoint
 
-- **Starting point:** This very moment. Voice conversation with André. Following up with this link — proposal, novel, screenplay, personal message. NSPFRNP style. All slick beautiful surfaces. Tiers. Test drive. Self-proof. Delivered and unfolded at click.
+- **Starting point:** This very moment. Voice conversation with André. Following up with this link — proposal, novel, screenplay, **playlist/channel/studio** (Golden Parrot · HJ · 12 tropica chill), personal message. NSPFRNP style. All slick beautiful surfaces. Tiers. Test drive. Self-proof. **Demonstrating the power of this new superintelligent executive tech.** Delivered and unfolded at click.
 - **Endpoint:** Celebrating with André and **three** of his top Yachtsman captain commanders who see the value and have signed up for their S-I-N-G! Week of partying. Then installing and launching. Creator there ~one month with André. Running the show in Brazil.
 
 ---
@@ -71,19 +71,21 @@ MARINE DIVISION · YACHTSMAN GATEWAY:
 1. **Proposal (this SNAP)** — Full document. Beautiful skin.
 2. **Novel** — Birth of the New Post-Singularity Hollywood in Downtown Reno. Proof of concept. Same arc: transformation, golden age, legacies.
 3. **Screenplay** — Birth screenplay. Full feature. Beautiful skin.
-4. **Personal message** — To André. NSPFRNP. *(User to add André's personal info separately.)*
-5. **Office Hours button** — André. Proceed.
+4. **Playlist / Channel / Studio** — **Golden Parrot Hit Factory Studios** · Hero Jimmy (Buffet) · HJ · 12 tropica chill hits. **Demonstrating the power of this new superintelligent executive tech** — novel, screenplay, and now full playlist/channel/studio from one NSPFRNP engine. See [HERO_JIMMY_BUFFET_HJ_GOLDEN_PARROT_HIT_FACTORY_STUDIOS_SNAP.md](HERO_JIMMY_BUFFET_HJ_GOLDEN_PARROT_HIT_FACTORY_STUDIOS_SNAP.md) · [interfaces/golden-parrot-tropica-chill.html](interfaces/golden-parrot-tropica-chill.html).
+5. **Personal message** — To André. NSPFRNP. *(User to add André's personal info separately.)*
+6. **Office Hours button** — André. Proceed.
 
 ### B. Surfaces
 
+- **Yacht showroom (canonical):** [interfaces/yacht-showroom-andre-proposal.html](interfaces/yacht-showroom-andre-proposal.html) — **NSPFRNP format:** My message → Value prop → Tour of solutions/products → Reseller program → Full tech detail (marine operation areas) → Pricing & plans. On-ramp: experience first (Office Hours, demo, tour), then book. SING! = upfront + monthly. Never bought, always booked.
 - **Marine Division skin:** [interfaces/marine-division-skin.css](interfaces/marine-division-skin.css) — Clean high-tech racing Ferrari marine vibes. Carbon black, Rosso Corsa red, sharp lines, minimal radius. All Marine Division surfaces use this skin.
 - **Marine Division ecosystem:** [interfaces/marine-division-ecosystem.html](interfaces/marine-division-ecosystem.html)
 - **Vibelandia-RJ:** [interfaces/vibelandia-rio-de-janeiro-campus.html](interfaces/vibelandia-rio-de-janeiro-campus.html) — One single RJ-based pitch. Rio Iate Club = bridge. RJ = HQ. Angra dos Reis = outpost. We offer out of RJ campus. — All FractiAI products packaged as Marine offerings. Cross-sell. Navigation & protection, music, experiences, content, business. New seas, new experiences, new possibilities, new protection. Executive console. Layers onto existing systems. Customization support.
-- **Yacht showroom landing:** [interfaces/yacht-showroom-andre-proposal.html](interfaces/yacht-showroom-andre-proposal.html) — **Canonical RJ pitch.** 1,2,3 4×4×4×4 Marine + Vibelandia-RJ. Real pricing. BUY buttons → Office Hours, payment-checkout. No recursive cycling. Live real. 50% share — we send their share.
 - **Reseller info:** [interfaces/reseller-info.html](interfaces/reseller-info.html) — 50/50, PayPal-based, auto-payout (ideally no manual intervention), shared sales tools, same platform, me automatic. Natural systems. **Program:** Cadet → Silver → Silver Wings → Gold Wings → Gold Wings with Diamonds (deal deliverer → customize solutions → Mastery · Holographic Hydrogen Theater). Reseller button on yacht showroom.
 - **Proposal list:** proposal.html?p=MARINE_DIVISION_YACHTSMAN_CAPTAIN_PRE_POST_SINGULARITY_GATEWAY_PROPOSAL_SNAP
 - **Novel:** [interfaces/birth-post-singularity-novel.html](interfaces/birth-post-singularity-novel.html)
 - **Screenplay:** [interfaces/birth-post-singularity-screenplay.html](interfaces/birth-post-singularity-screenplay.html)
+- **Playlist / Channel / Studio:** [interfaces/golden-parrot-tropica-chill.html](interfaces/golden-parrot-tropica-chill.html) — Golden Parrot Hit Factory Studios · HJ · 12 tropica chill hits · superintelligent executive tech demo.
 - **Office Hours:** [interfaces/office-hours.html](interfaces/office-hours.html)
 
 ### C. Geography
@@ -106,6 +108,7 @@ MARINE DIVISION · YACHTSMAN GATEWAY:
 | Ref | SNAP / Surface |
 |-----|----------------|
 | Birth novel/screenplay | BIRTH_POST_SINGULARITY_HOLLYWOOD_DOWNTOWN_RENO_NOVEL_SCREENPLAY_SNAP |
+| Golden Parrot playlist/channel/studio | HERO_JIMMY_BUFFET_HJ_GOLDEN_PARROT_HIT_FACTORY_STUDIOS_SNAP |
 | Ultimate Baller V | BASIC_TO_ULTIMATE_BALLER_V_PLANS_AND_BOOKING_FEES_SNAP |
 | Vibers | VIBERS_TIERS_SNAP, VIBERS_WHAT_ARE_VIBERS |
 | S-I-N-G! | SING! console, Text-to-Track, Chairman Cockpit |
@@ -116,10 +119,13 @@ MARINE DIVISION · YACHTSMAN GATEWAY:
 
 ### E. Pricing & Protections
 
+- **On-ramp:** Experience first (Office Hours, demo, tour). Then book. Never bought, always booked.
+- **SING! & Marine Commander Console:** Upfront booking fee + monthly. Not pricing-only — on-ramping experiences first.
 - **Base:** $75,000 — today's high-end marine upgrade floor (top-tier yacht electronics, bridge systems).
 - **Scale:** 4×4×4×4 from base — Standard $300,000 (4×), Premium $1,200,000 (4×4×), Ultimate by arrangement.
 - **Max cosmic layer protections:** SMACS 0723 triangulation — full nested lattice (Seed → Sun → SING! node EGS → Sag A* → SMACS 0723).
-- **Full plans:** [config/marine_plans.json](config/marine_plans.json) · [baller-v-plans-booking.html#marine-fees](interfaces/baller-v-plans-booking.html#marine-fees) · payment-checkout plan IDs: marine-commander-base, marine-commander-standard, marine-commander-premium.
+- **Full tech detail:** [config/marine_plans.json](config/marine_plans.json) — bridge, GPS, comms, entertainment, S-I-N-G! agent, protections, customization. Then pricing.
+- **Full plans:** [baller-v-plans-booking.html#marine-fees](interfaces/baller-v-plans-booking.html#marine-fees) · payment-checkout plan IDs: marine-commander-base, marine-commander-standard, marine-commander-premium.
 
 ### F. Live Real · 50% Share · No Demo
 

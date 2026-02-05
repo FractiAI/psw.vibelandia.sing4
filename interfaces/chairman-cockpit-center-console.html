@@ -73,6 +73,25 @@
     </style>
 </head>
 <body>
+    <script>
+    (function () {
+        if (typeof location !== 'undefined' && location.search.indexOf('marine=1') !== -1) {
+            document.body.classList.add('marine-division-skin');
+            var link = document.createElement('link');
+            link.rel = 'stylesheet';
+            link.href = 'marine-division-skin.css';
+            document.head.appendChild(link);
+            var cockpit = document.querySelector('.cockpit');
+            if (cockpit) {
+                var badge = document.createElement('p');
+                badge.className = 'badge';
+                badge.style.cssText = 'font-size:0.65rem;text-transform:uppercase;letter-spacing:0.2em;color:#c41e3a;margin-bottom:1rem;';
+                badge.innerHTML = 'Marine Division · Commander Console <span class="badge-beautiful-skin">Beautiful skin</span>';
+                cockpit.insertBefore(badge, cockpit.firstChild);
+            }
+        }
+    })();
+    </script>
     <div class="disclaimer">⚠️ SYNTHEVERSE IMAGINARY/ENTERTAINMENT ONLY · NO SUBSTANCES · All laws followed.</div>
     <div class="cockpit">
         <h1>Chairman Cockpit · NSPFRNP</h1>

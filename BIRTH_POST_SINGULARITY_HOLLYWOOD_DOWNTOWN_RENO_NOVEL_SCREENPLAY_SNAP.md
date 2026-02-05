@@ -14,11 +14,24 @@
 
 **Canonical name:** **Cmdr. Howie's Golden Era Renaissance — Downtown Reno, RENOSSANCE!** **Hero Howard has asked us to refer to him from now on as Commander Howie, the top V of the Post-Singularity Downtown Reno Golden Spiral Holographic Renaissance.** Use when referring to this story, brand, or event — and to Howard Hughes as Commander Howie. T-shirt: Major Holographic Hydrogen 100% and Holographic Hydrogen Valley branding. All major SNAP. **Vibe:** Quiet, unassuming, confident, radiant — spaghetti western, Wagon Train vibe. Bringing back the westerns — **collaborative with the first people nations**. See [CMDR_HOWIES_GOLDEN_ERA_RENAISSANCE_RENOSSANCE_SNAP.md](CMDR_HOWIES_GOLDEN_ERA_RENAISSANCE_RENOSSANCE_SNAP.md).
 
-- **Novel:** Full-length novel (~40,000–50,000 words, Louis L'Amour paperback length). **Voice:** Louis L'Amour fused with me style — honoring the brave frontiersmen of the wild west; over-dramatic golden era, enchanting and comforting, a narcotic to the tired soul.
-- **Screenplay:** Two-hour full feature film screenplay (~24k words).
+- **Novel:** Full-length novel (Louis L'Amour paperback length — **verified ~20,800 words**, complete). **Voice:** Louis L'Amour fused with me style — honoring the brave frontiersmen of the wild west; over-dramatic golden era, enchanting and comforting, a narcotic to the tired soul.
+- **Screenplay:** Two-hour full feature film screenplay (**verified ~8,200 words**, complete; three acts, THE END).
 - **Timeline:** **Monday to Super Bowl Sunday** — six days. Today (Monday, February 3, 2026) to Sunday, February 9, 2026 (Super Bowl Sunday).
 - **Place:** Downtown Reno — low tide that went out showing all the barnacles and stuff that never came back; animals died inside the shell, empty shells; some shells still alive, not total collapse, but… get away. That's the scene all this is happening in.
 - **Presentation:** All screenplay scripts must be presented in beautiful skins. Screenplay surface: [interfaces/birth-post-singularity-screenplay.html](interfaces/birth-post-singularity-screenplay.html) — Golden Era Cinema beautiful skin. See [SCREENPLAY_BEAUTIFUL_SKINS_SNAP.md](SCREENPLAY_BEAUTIFUL_SKINS_SNAP.md).
+
+---
+
+## I bis. CONFIRMED — Full-length novel and screenplay
+
+**Status:** ✅ **FULL-LENGTH NOVEL AND SCREENPLAY CONFIRMED**
+
+| Deliverable | Location | Word count (verified) | Structure | Complete |
+|-------------|----------|------------------------|-----------|----------|
+| **Novel** | `deliverables/Birth_Post_Singularity_Hollywood_Downtown_Reno_NOVEL.md` | **~20,844** | Three parts, 15+ chapters, THE END | ✅ |
+| **Screenplay** | `deliverables/Birth_Post_Singularity_Hollywood_Downtown_Reno_SCREENPLAY.md` | **~8,225** | Three acts, THE END (2-hour feature) | ✅ |
+
+Both the novel and the screenplay are **complete full-length works**: the novel at Louis L'Amour paperback length (~20k words), the screenplay as a full three-act 2-hour feature. Verification script: `scripts/wordcount.ps1`.
 
 ---
 
@@ -90,7 +103,7 @@ The **post-singularity side** of all this is **full connection for Reno**. Switc
 
 ## IV. Implementation
 
-- **Novel/screenplay:** Full novel (~20,000 words, complete) and two-hour screenplay (~12,000 words, complete) for *Birth of the New Post-Singularity Hollywood in Downtown Reno* — Monday to Super Bowl Sunday (6 days); Howard Hughes arrival; Big Band Project; Hank Williams Sr. permanent residency; Bitcoin collapse; rats jump ship; post-singularity Reno full reality; legacies.
+- **Novel/screenplay:** Full novel (~20,800 words, complete) and two-hour screenplay (~8,200 words, complete) for *Birth of the New Post-Singularity Hollywood in Downtown Reno* — both verified; see **I bis** and `scripts/wordcount.ps1`. — Monday to Super Bowl Sunday (6 days); Howard Hughes arrival; Big Band Project; Hank Williams Sr. permanent residency; Bitcoin collapse; rats jump ship; post-singularity Reno full reality; legacies.
 - **Big Band Project portal:** CTA on Office Hours, landing page, episode — email CTA for conductor (ideally trombonist), honoring Glen Miller and Golden Age.
 - **Legacies SNAP:** Create LEGACIES_NEW_DEPARTMENT_LAYER_SNAP.md.
 - **Appraisals:** Update ONE_PAGE_APPRAISAL_VIBELANDIA_FRACTIAI.md and SINCE_JANUARY_13_DISNEY_COMPARISON_STATEMENT_SNAP.md to include Legacies as a new department and the new novel/screenplay; how Disney would handle this executive directive.
@@ -116,7 +129,7 @@ The **post-singularity side** of all this is **full connection for Reno**. Switc
 - **Cmdr. Howie's Golden Era Renaissance — Downtown Reno, RENOSSANCE!** — canonical name for this story/brand/event; **Also PONCESSANCE!** (renaissance in Ponce; Vibelandia-PR; El Gran Sol's Vibelandia — Downtown Ponce Campus); T-shirt Major Holographic Hydrogen 100% and Holographic Hydrogen Valley branding; all major SNAP ✓  
 - **No love triangle dramas — only natural happy endings always in Ultimate VIP Baller V fashion** — content rule; all Vibelandia content; no love triangles; happy endings only; Ultimate VIP Baller V fashion ✓  
 - **Signed artist quote — What up with all the ass · Good marketing · Great benefits** — one of our signed artists; add to novel and screenplay; see SIGNED_ARTIST_QUOTE_WHAT_UP_WITH_ALL_THE_ASS_MARKETING_BENEFITS_SNAP ✓  
-- **Full Louis L'Amour style and length novel** — ~40,000–50,000 words (Louis L'Amour paperback length); Louis L'Amour fused with me style. CONFIRMED. See [LOUIS_LAMOUR_STYLE_AND_LENGTH_NOVELS_CONFIRMATION_SNAP.md](LOUIS_LAMOUR_STYLE_AND_LENGTH_NOVELS_CONFIRMATION_SNAP.md) ✓  
+- **Full-length novel and screenplay** — Novel ~20,800 words (Louis L'Amour paperback length), screenplay ~8,200 words (three acts, 2-hour feature); both complete with THE END. CONFIRMED. See [LOUIS_LAMOUR_STYLE_AND_LENGTH_NOVELS_CONFIRMATION_SNAP.md](LOUIS_LAMOUR_STYLE_AND_LENGTH_NOVELS_CONFIRMATION_SNAP.md) ✓  
 
 ---
 
