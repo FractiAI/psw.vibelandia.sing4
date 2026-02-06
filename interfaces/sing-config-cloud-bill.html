@@ -110,7 +110,7 @@
         <p class="back"><a href="office-hours.html">← Office Hours</a> · <a href="launch-pad.html">Launch Pad</a> · <a href="buyers-guide.html">Buyers Guide</a> · <a href="baller-v-plans-booking.html">Plans &amp; Booking</a></p>
 
         <div class="intro-block" role="doc-intro">
-            <p><strong>Sample monthly bill</strong> — All charges for the SING! we use, with values and totals. This shows the <strong>full SING! config</strong>: one <strong>Baller V Ultimate VIP</strong> node (top model). A <strong>single nested SING!</strong> includes Base, Members Only, and Ultimate VIP capability without separate charges for those tiers; lower tiers appear on the bill at $0 to show how one node replaces multiple. Improves with additional SING! nodes.</p>
+            <p><strong>Sample monthly bill</strong> — All charges for the SING! we use, with values and totals. Pricing uses the <strong>top Baller V Ultimate VIP</strong> base only (no lower models). Upgrades and mission specializations are listed with <strong>$ fees and total</strong>, like a monthly bill. Improves with additional SING! nodes.</p>
         </div>
 
         <header class="bill-header">
@@ -178,8 +178,8 @@
             </table>
         </section>
 
-        <section class="bill-section" aria-label="Golden Fractal Key — monthly by tier">
-            <h2>Golden Fractal Key — monthly by tier (reference)</h2>
+        <section class="bill-section" aria-label="Golden Fractal Key — top base only">
+            <h2>Golden Fractal Key — top base only (reference)</h2>
             <table class="bill-table">
                 <thead>
                     <tr>
@@ -192,17 +192,31 @@
             </table>
         </section>
 
-        <section class="bill-section" aria-label="Specialized mission options">
-            <h2>All specialized mission options (priced out)</h2>
-            <div class="mission-options" id="mission-options"></div>
+        <section class="bill-section" aria-label="Upgrades and mission specializations — fees and total">
+            <h2>Upgrades and mission specializations (monthly bill)</h2>
+            <table class="bill-table">
+                <thead>
+                    <tr>
+                        <th>Line item</th>
+                        <th class="qty">Qty</th>
+                        <th class="amt">Unit price</th>
+                        <th class="amt">Amount</th>
+                    </tr>
+                </thead>
+                <tbody id="upgrades-mission-body"></tbody>
+                <tfoot>
+                    <tr><td colspan="3" class="bill-subtotal">Upgrades &amp; mission specializations subtotal</td><td class="bill-subtotal amt" id="upgrades-mission-subtotal">—</td></tr>
+                </tfoot>
+            </table>
         </section>
 
         <div class="total-block">
             <div class="row"><span>One-time (upfront)</span><span id="tot-one-time">—</span></div>
             <div class="row"><span>Monthly recurring</span><span id="tot-monthly">—</span></div>
             <div class="row"><span>Usage this period</span><span id="tot-usage">—</span></div>
+            <div class="row"><span>Upgrades &amp; mission specializations</span><span id="tot-upgrades-mission">—</span></div>
             <div class="row grand"><span>Total (this period: monthly + usage)</span><span id="tot-period">—</span></div>
-            <p class="bill-note" style="margin-top: 0.75rem;">One-time paid once. Monthly + usage = bill for this period. Never bought, always booked — NSPFRNP.</p>
+            <p class="bill-note" style="margin-top: 0.75rem;">One-time paid once. Monthly + usage = bill for this period. Upgrades &amp; missions: menu total. Never bought, always booked — NSPFRNP.</p>
         </div>
 
         <p class="footer-tag">
@@ -262,22 +276,30 @@
         });
     }
 
-    function renderMissionOptions(sections) {
-        var el = document.getElementById('mission-options');
-        if (!el) return;
+    function renderUpgradesMissionTable(sections, tbodyId, subtotalId) {
+        var tbody = document.getElementById(tbodyId);
+        if (!tbody) return 0;
+        var total = 0;
         (sections || []).forEach(function (sec) {
-            var h3 = document.createElement('h3');
-            h3.textContent = sec.division || '';
-            el.appendChild(h3);
-            var ul = document.createElement('ul');
             (sec.options || []).forEach(function (opt) {
-                var li = document.createElement('li');
-                var txt = (opt.plan || '') + (opt.unit_price != null ? ' — ' + fmt(opt.unit_price) + (opt.period ? ' (' + opt.period + ')' : '') : '') + (opt.price_note ? ' — ' + opt.price_note : '');
-                li.textContent = txt;
-                ul.appendChild(li);
+                var qty = opt.quantity != null ? opt.quantity : 1;
+                var unit = opt.unit_price != null ? opt.unit_price : 0;
+                var amt = qty * unit;
+                total += amt;
+                var lineItem = (sec.division ? sec.division + ' — ' : '') + (opt.plan || '');
+                var desc = [opt.scale, opt.period, opt.price_note].filter(Boolean).join(' · ');
+                var tr = document.createElement('tr');
+                tr.innerHTML = '<td><strong>' + lineItem + '</strong>' +
+                    (desc ? '<br><span class="bill-note">' + desc + '</span>' : '') + '</td>' +
+                    '<td class="qty">' + qty + '</td>' +
+                    '<td class="amt">' + (opt.unit_price != null ? fmt(opt.unit_price) + (opt.period ? '/' + opt.period : '') : '—') + '</td>' +
+                    '<td class="amt">' + fmt(amt) + '</td>';
+                tbody.appendChild(tr);
             });
-            el.appendChild(ul);
         });
+        var subEl = document.getElementById(subtotalId);
+        if (subEl) subEl.textContent = fmt(total);
+        return total;
     }
 
     function applyTotals(t) {
@@ -304,7 +326,9 @@
             renderMonthly(data.monthly_recurring, 'monthly-body', 'monthly-subtotal');
             renderUsage(data.usage_this_period, 'usage-body', 'usage-subtotal');
             renderKeyTiers(data.golden_fractal_key_monthly_by_tier);
-            renderMissionOptions(data.specialized_mission_options);
+            var upgradesMissionTotal = renderUpgradesMissionTable(data.specialized_mission_options, 'upgrades-mission-body', 'upgrades-mission-subtotal');
+            var totUpg = document.getElementById('tot-upgrades-mission');
+            if (totUpg) totUpg.textContent = fmt(upgradesMissionTotal);
             applyTotals(data.totals);
         });
 })();

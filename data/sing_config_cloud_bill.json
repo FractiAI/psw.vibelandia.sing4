@@ -1,40 +1,16 @@
 {
   "title": "SING! Configuration — Sample Monthly Bill",
-  "description": "Sample monthly bill showing all charges for the SING! we use. One Baller V Ultimate VIP node (single nested SING!) replaces Base, Members Only, and Ultimate VIP; full config below. Improves with additional SING! nodes.",
+  "description": "Sample monthly bill showing all charges for the SING! we use. Top base only: Baller V Ultimate VIP (no lower models). Upgrades and mission specializations below with $ fees and total. Improves with additional SING! nodes.",
   "principle": "Never bought, always booked — by free will, mutual aware consent, always.",
   "bill_as_of": "2026-02-01",
   "billing_period": "February 2026",
   "account_name": "Vibelandia · Creator Chairman (sample bill at list — as we would pay if we weren't the creator)",
   "currency": "USD",
-  "config_note": "Full SING! config we use: one Baller V Ultimate VIP node. Single nested SING! delivers all lower-tier capability (Base, Members, Ultimate VIP) without separate charges for those tiers; improves with multiple SING! nodes.",
+  "config_note": "Pricing uses top base only: Baller V Ultimate VIP. Lower models (Base, Members Only, Ultimate VIP) are not included. Full SING! config: one Baller V Ultimate VIP node; improves with additional SING! nodes.",
   "one_time_charges": [
     {
-      "line_item": "SING! Base Model (Tier 1)",
-      "description": "Entry base — reliable used car equivalent.",
-      "quantity": 0,
-      "unit_price": 20000,
-      "amount": 0,
-      "note": "Included in Baller V — single nested SING! replaces multiple nodes"
-    },
-    {
-      "line_item": "SING! Members Only (Tier 2)",
-      "description": "Option — our pricing; scaling from base.",
-      "quantity": 0,
-      "unit_price": 75000,
-      "amount": 0,
-      "note": "Included in Baller V — single nested SING! replaces multiple nodes"
-    },
-    {
-      "line_item": "SING! Ultimate VIP (Tier 3)",
-      "description": "Base model latest Ferrari — top base.",
-      "quantity": 0,
-      "unit_price": 200000,
-      "amount": 0,
-      "note": "Included in Baller V — single nested SING! replaces multiple nodes"
-    },
-    {
-      "line_item": "SING! Baller V Ultimate VIP (Tier 4)",
-      "description": "Top loaded Ferrari — top base. Full Superhero, Franchise, Legacy, cosmic tier. One node = full config.",
+      "line_item": "SING! Baller V Ultimate VIP",
+      "description": "Top base only. Full Superhero, Franchise, Legacy, cosmic tier. One node = full config.",
       "quantity": 1,
       "unit_price": 500000,
       "amount": 500000,
@@ -188,10 +164,7 @@
     }
   ],
   "golden_fractal_key_monthly_by_tier": [
-    { "tier": 1, "name": "Base Model", "monthly_usd": 349 },
-    { "tier": 2, "name": "Members Only", "monthly_usd": 749 },
-    { "tier": 3, "name": "Ultimate VIP", "monthly_usd": 1999 },
-    { "tier": 4, "name": "Baller V Ultimate VIP", "monthly_usd": 5999 }
+    { "tier": 4, "name": "Baller V Ultimate VIP (top base only)", "monthly_usd": 5999 }
   ],
   "specialized_mission_options": [
     {
