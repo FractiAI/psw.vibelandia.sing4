@@ -130,22 +130,6 @@
             font-weight: 600;
         }
         .links a:hover { background: rgba(100, 200, 255, 0.25); }
-        /* Ticker gate: placeholder until HELLO successful */
-        .nspfrnp-ticker-hello-placeholder {
-            padding: 0.6rem 1rem;
-            font-size: 0.85rem;
-            color: #7fff7f;
-            background: rgba(0, 40, 40, 0.6);
-            border: 2px solid rgba(0, 255, 255, 0.4);
-            border-radius: 8px;
-            margin-top: 1rem;
-        }
-        .nspfrnp-ticker-hello-placeholder a {
-            color: #00ffff;
-            font-weight: 700;
-            text-decoration: none;
-        }
-        .nspfrnp-ticker-hello-placeholder a:hover { text-decoration: underline; }
     </style>
 </head>
 <body>
@@ -163,6 +147,7 @@
             <h2>Schumann feeds from mother nodes</h2>
             <p class="decode-label">First message displayed in these feeds (plain block letters — no decoding required):</p>
             <p class="decode-hello" id="first-message">HELLO</p>
+            <p class="decode-hello-tagline">First message — operational. El Gran Sol · NSPFRNP</p>
             <p class="feed-note">We manipulate the Schumann so it becomes our display. What we put in shows up on current mother-node scientific feeds — and those feeds flow to social media. HELLO at 21.4 Hz (3rd overtone Schumann) is our first message; visible in the feeds below. Natural takeover by aware design.</p>
             <div class="feed-links">
                 <a href="https://www.heartmath.org/gci/gcms/live-data/gcms-magnetometer/" target="_blank" rel="noopener">HeartMath GCMS — Schumann Resonances Power (live)</a>
@@ -175,6 +160,11 @@
         <div class="card" id="omniversal">
             <h2>Aware design — Schumann as our display</h2>
             <p>We <strong>manipulate the Schumann</strong> in such a way that it becomes <strong>our display</strong> — as seen by <strong>current mother-node scientific feeds</strong> and flowing to <strong>social media channels</strong>. We are taking it over as a <strong>communication platform naturally by aware design</strong>. First message: <strong>HELLO</strong> — to confirm operational. Then we move on fully and begin using as such.</p>
+        </div>
+
+        <div class="card" style="border-color: rgba(0, 255, 127, 0.5);">
+            <h2 style="color: #7fff7f;">The World Ticker — Global 7.83 Hz</h2>
+            <p><strong>$25M AD SPACE</strong> is pushed into the <strong>global 7.83 Hz Schumann fundamental</strong> so it broadcasts to <strong>every continent simultaneously</strong>. The planet is the screen. The Sun is the projector. Book via <a href="broadcast-pipe-ad-space.html" style="color: #00d4ff;">Broadcast Pipe Ad Space</a>.</p>
         </div>
 
         <div class="card" id="creator-access">
@@ -204,32 +194,8 @@
     <link rel="stylesheet" href="sing-config-footer.css">
     <script src="sing-config-footer.js"></script>
     <link rel="stylesheet" href="nspfrnp-ticker.css">
-    <div id="schumann-ticker-gate"></div>
-    <script>
-    (function () {
-        var HELLO_KEY = 'schumann_hello_successful';
-        var qs = new URLSearchParams(location.search);
-        var helloSuccess = (localStorage.getItem(HELLO_KEY) === 'true') || (qs.get('hello') === 'success');
-        var gate = document.getElementById('schumann-ticker-gate');
-        if (!gate) return;
-        var TICKER_MSGS = 'HELLO · SCHUMANN_DISPLAY_PIPE · NSPFRNP · MANIPULATE_SCHUMANN_OUR_DISPLAY · MOTHER_NODE_FEEDS · SOCIAL_MEDIA · CLICK_BLUE_BUTTON · ';
-        if (helloSuccess) {
-            gate.outerHTML = '<div class="nspfrnp-console-ticker" aria-live="polite" data-ticker-messages="' + TICKER_MSGS.replace(/"/g, '&quot;') + '"><span class="ticker-inner" id="nspfrnpTickerText"></span></div>';
-            var s = document.createElement('script');
-            s.src = 'nspfrnp-ticker.js';
-            document.body.appendChild(s);
-        } else {
-            gate.innerHTML = '<div class="nspfrnp-ticker-hello-placeholder">Ticker feeds will push here once HELLO handshake is successful. <a href="?hello=success" id="schumann-mark-hello">Mark HELLO successful</a></div>';
-            var link = document.getElementById('schumann-mark-hello');
-            if (link) {
-                link.addEventListener('click', function (e) {
-                    e.preventDefault();
-                    localStorage.setItem(HELLO_KEY, 'true');
-                    location.replace(location.pathname + '?hello=success');
-                });
-            }
-        }
-    })();
-    </script>
+    <div class="nspfrnp-console-ticker" aria-live="polite"><span class="ticker-inner" id="nspfrnpTickerText"></span></div>
+    <script src="nspfrnp-ticker.js"></script>
+    <!-- Legacy Bypass: ticker on Schumann screens is live now. No HELLO gate; Human Ticker (data/ticker-feed.json) drives this. THE IMAGE IS THE PROOF. -->
 </body>
 </html>

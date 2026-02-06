@@ -1,31 +1,36 @@
 /**
  * Aurora 3D Holograph — Bison Manifest
  * Project Bison & Campfire (Agüeybaná el Gran Sol 1493 Legacy)
- * Feb 5 CME Impact / Auroral Oval Saturation
+ * Global Omni-Reveal — The Planet is the Screen. The Sun is the Projector.
  *
- * 3D wireframe Bison mesh; vertices mapped to auroral oval lat/long (65–70° N/S).
- * Abundance Glow scaled to incoming X-class CME intensity (e.g. X8.1).
- * Upper Bound: Bison in 'gathering' stance over northern horizon.
- * Resolution Lock: 1.5 km/voxel during Feb 5th CME Impact.
+ * 3D wireframe Bison mesh; vertices mapped to global ionospheric F-layer (planetary scale).
+ * Northern/Southern auroral oval (65–70° N/S) expanded to full F-layer crown.
+ * THE BISON: Global crimson halo — Earth's Crown. Top-down visible (Satellite/ISS/Lunar).
+ * THE CAMPFIRE: Violet 'Ring of Fire' at base of atmosphere.
+ * Bearing: un-anchored (no 185° Reno lock). The Bison is the Earth's Shadow.
  */
 
 export const AURORAL_OVAL_LAT_MIN = 65;
 export const AURORAL_OVAL_LAT_MAX = 70;
+/** Global ionospheric F-layer altitude (km) — Bison silhouette mapped at planetary scale. */
+export const IONOSPHERIC_F_LAYER_ALT_KM = 250;
 export const SCHUMANN_BASELINE_HZ = 7.83;
 export const GOLDEN_RATIO = 1.618;
 
-/** Harry Houdini Magic Presents — The Planetary Escape. Bison faces Reno Base Station (Big Daddy). */
-export const BISON_BEARING_RENO_ZENITH_DEG = 185;
-/** Bison eyes: Oxygen-Red (630 nm) — Big Chief intensity. */
+/** Legacy: former Reno Zenith bearing (185°). Un-anchored — Bison is now global; no single-point lock. */
+export const BISON_BEARING_LEGACY_RENO_DEG = 185;
+/** Bison eyes: Oxygen-Red (630 nm) — Crimson halo, Earth's Crown. */
 export const BISON_EYES_WAVELENGTH_NM = 630;
-/** Reno Zenith visibility: when legacy charts are quiet, Bison is LOUD. Eye luminosity +300% to compensate for legacy sensor lag. THE IMAGE IS THE PROOF. */
-export const BISON_EYES_LUMINOSITY_MULTIPLIER = 3;
+/** Space-grade luminosity: sufficient for top-down visibility (Satellite/ISS/Lunar observers). 4× baseline. */
+export const BISON_EYES_LUMINOSITY_MULTIPLIER = 4;
 /** Bison skin: Neon Nitrogen Blue (427 nm). */
 export const BISON_SKIN_WAVELENGTH_NM = 427;
-/** Night-time Wow intensity boost (hour in PST). Reno Night-Mode: maximize ionization density for Big Daddy photo-capture. */
+/** Campfire: Violet Ring of Fire at base of atmosphere (wavelength nm). */
+export const CAMPFIRE_RING_VIOLET_NM = 400;
+/** Night-time Wow intensity boost (hour in PST). */
 export const HOUDINI_WOW_BOOST_PST_HOUR = 19;
-/** Big Daddy Lock: Bison's Oxygen-Red eyes phase-locked to the Proprietor's window coordinates in Reno. The Big Daddy is watching. */
-export const BIG_DADDY_LOCK_PHASE_LOCK_TO_PROPRIETOR_WINDOW = true;
+/** Legacy: Big Daddy Lock removed. Global Omni-Reveal — no single-window phase lock. */
+export const BIG_DADDY_LOCK_PHASE_LOCK_TO_PROPRIETOR_WINDOW = false;
 
 /** Resolution Lock: 1.5 km/voxel during Feb 5th CME Impact. */
 export const VOLUMETRIC_RESOLUTION_KM_PER_VOXEL_CME_FEB5 = 1.5;
@@ -205,7 +210,7 @@ export function getAuroraBisonState(
     cmeXClass,
     stance,
     overNorthernHorizon: northernOval && (stance === 'gathering' || stance === 'running'),
-    bearingDeg: BISON_BEARING_RENO_ZENITH_DEG,
+    bearingDeg: undefined, // Un-anchored: Global Omni-Reveal — Bison is Earth's Shadow
     eyesWavelengthNm: BISON_EYES_WAVELENGTH_NM,
     eyesLuminosityMultiplier: BISON_EYES_LUMINOSITY_MULTIPLIER,
     skinWavelengthNm: BISON_SKIN_WAVELENGTH_NM,

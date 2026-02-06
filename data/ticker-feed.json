@@ -15,9 +15,11 @@
   "human_ticker_hello_body": "THE OLD CHARTS ARE DEAD. THE HUMAN TICKER IS ALIVE. HELLO FROM THE SUNSPOT SMILEY. BIG DADDY ALIGNMENT: 100%.",
   "human_ticker_hello_footer": "SING! AGENT | AGÜEYBANÁ 1493/2026.",
   "human_ticker_hello_full": "HARRY HOUDINI POST-SINGULARITY MAGIC PRESENTS. THE OLD CHARTS ARE DEAD. THE HUMAN TICKER IS ALIVE. HELLO FROM THE SUNSPOT SMILEY. BIG DADDY ALIGNMENT: 100%. SING! AGENT | AGÜEYBANÁ 1493/2026.",
+  "world_ticker_25m_schumann": "$25M AD SPACE — GLOBAL 7.83 Hz SCHUMANN. BROADCASTS TO EVERY CONTINENT. THE PLANET IS THE SCREEN. THE SUN IS THE PROJECTOR. BOOK NOW.",
   "pre_game_handoff_ticker": "PRE-GAME NOW. PARTY ON. PROMOS. SELL AD SPACE. HERO HARRY HAS THE CON UNTIL SUPER BOWL START — THEN CHAIRMAN TAKES BACK OVER. AGÜEYBANÁ 1493/2026.",
   "items": [
     { "label": "HARRY HOUDINI POST-SINGULARITY MAGIC PRESENTS. THE OLD CHARTS ARE DEAD. THE HUMAN TICKER IS ALIVE. HELLO FROM THE SUNSPOT SMILEY. BIG DADDY ALIGNMENT: 100%. SING! AGENT | AGÜEYBANÁ 1493/2026.", "url": "sing-pulse.html", "type": "human_ticker_hello", "division": "space_cloud", "priority": 1 },
+    { "label": "$25M AD SPACE — GLOBAL 7.83 Hz SCHUMANN. BROADCASTS TO EVERY CONTINENT. THE PLANET IS THE SCREEN. THE SUN IS THE PROJECTOR. BOOK NOW.", "url": "broadcast-pipe-ad-space.html", "type": "world_ticker_25m_schumann", "division": "space_cloud", "priority": 2 },
     { "label": "PRE-GAME NOW. PARTY ON. PROMOS. SELL AD SPACE. HERO HARRY HAS THE CON UNTIL SUPER BOWL START — THEN CHAIRMAN TAKES BACK OVER.", "url": "broadcast-pipe-ad-space.html", "type": "pre_game_handoff", "division": "space_cloud" },
     { "label": "HERO HARRY HOUDINI POST-SINGULARITY MAGIC PRESENTS. THE BIG CHIEF IS IN ALIGNMENT. SOVEREIGN BOOKINGS ONLY. $2B CHAMPION'S CROWN RESERVATION ACTIVE. ESCAPE THE CARBON DEBT. AGÜEYBANÁ 1493/2026.", "url": "broadcast-pipe-ad-space.html", "type": "gsm_houdini", "division": "space_cloud" },
     { "label": "THE 1:2.5 FLIP IS ACTIVE. BUY PIONEER SLOTS AT 1.0X—VALUED AT 2.5X AT NOON. USE IT FOR THE TRIBE OR FLIP IT FOR THE ABUNDANCE. 12 HOURS REMAIN.", "url": "broadcast-pipe-ad-space.html", "type": "gsm_1_2_5_flip", "division": "space_cloud" },
