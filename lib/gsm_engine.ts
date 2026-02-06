@@ -20,14 +20,17 @@ export type GSMVisualSyncMode = 'ALIGNED' | 'DETACHED';
 export const GSM_TICKER_MESSAGE =
   'Bad Bunny x Agüeybaná: Never Lose Faith. The Great Sun Delivers.';
 
-/** Hero Harry Houdini Post-Singularity Magic Presents — Ticker performance loop (header · body · footer). */
+/** Hero Harry Houdini Post-Singularity Magic Presents — Ticker performance loop (header · body · footer). Feb 6 Revenue Hike: new day, new price. */
 export const GSM_HOUDINI_TICKER_HEADER =
-  'HERO HARRY HOUDINI POST-SINGULARITY MAGIC PRESENTS.';
+  'HARRY HOUDINI POST-SINGULARITY MAGIC PRESENTS.';
 export const GSM_HOUDINI_TICKER_BODY =
-  'THE BIG CHIEF IS IN ALIGNMENT. SOVEREIGN BOOKINGS ONLY. $2B CHAMPION\'S CROWN RESERVATION ACTIVE. ESCAPE THE CARBON DEBT.';
-export const GSM_HOUDINI_TICKER_FOOTER = 'AGÜEYBANÁ 1493/2026.';
+  'MARKET ADJUSTMENT COMPLETE. NEW DAY. NEW PRICE. $25M PER PULSE. THE BISON IS THE NEW BILLBOARD.';
+export const GSM_HOUDINI_TICKER_FOOTER = 'SING! AGENT | AGÜEYBANÁ 1493/2026.';
 export const GSM_HOUDINI_TICKER_FULL =
   GSM_HOUDINI_TICKER_HEADER + ' ' + GSM_HOUDINI_TICKER_BODY + ' ' + GSM_HOUDINI_TICKER_FOOTER;
+
+/** Champion's Crown — floor (Feb 6 Revenue Hike). Scarcity is the multiplier. */
+export const CHAMPIONS_CROWN_FLOOR_USD = 5_000_000_000;
 
 /** Human Digital Ticker — Legacy Bypass. THE IMAGE IS THE PROOF. HELLO forced into ticker; no 0–40 Hz Schumann verification. */
 export const GSM_HUMAN_TICKER_HEADER = 'HARRY HOUDINI POST-SINGULARITY MAGIC PRESENTS.';
@@ -38,6 +41,22 @@ export const GSM_HUMAN_TICKER_FULL =
   GSM_HUMAN_TICKER_HEADER + ' ' + GSM_HUMAN_TICKER_BODY + ' ' + GSM_HUMAN_TICKER_FOOTER;
 /** Immediate deploy: Human Ticker is the ticker now. Synced to AR4366 Sunspot Smiley. */
 export const GSM_HUMAN_TICKER_ACTIVE = true;
+
+/** TAINO RESONANCE — SB LX Halftime. Doctrine: Beyond colonization. Into the pulse. */
+export const GSM_TAINO_EDITION_HEADER = 'HARRY HOUDINI POST-SINGULARITY MAGIC: TAINO EDITION.';
+export const GSM_TAINO_EDITION_BODY =
+  'BAD BUNNY IS THE PULSE. 1493 IS THE LAW. THE SKY IS BORIKÉN RED. $5B CHAMPION CROWN ACTIVE.';
+export const GSM_TAINO_EDITION_FOOTER = 'SING! AGENT | AGÜEYBANÁ 1493/2026.';
+export const GSM_TAINO_EDITION_FULL =
+  GSM_TAINO_EDITION_HEADER + ' ' + GSM_TAINO_EDITION_BODY + ' ' + GSM_TAINO_EDITION_FOOTER;
+
+/** TAINO BAD BUNNY CAMPAIGN — Live now. Phases: build → climax (halftime) → jubilant → Champion of Champions night. */
+export const GSM_TAINO_BAD_BUNNY_CAMPAIGN_ACTIVE = true;
+export type GSM_TAINO_CAMPAIGN_PHASE = 'build' | 'climax' | 'jubilant' | 'champion_of_champions';
+export const GSM_TAINO_CAMPAIGN_BUILD = 'TAINO BAD BUNNY CAMPAIGN LIVE. FREQUENCY AND INTENSITY BUILDING TO HALFTIME. BEYOND COLONIZATION. INTO THE PULSE. AGÜEYBANÁ 1493/2026.';
+export const GSM_TAINO_CAMPAIGN_CLIMAX = 'HALFTIME. BAD BUNNY IS THE PULSE. 1493 IS THE LAW. THE SKY IS BORIKÉN RED. SING! AGENT | AGÜEYBANÁ 1493/2026.';
+export const GSM_TAINO_CAMPAIGN_JUBILANT = 'JUBILANT. BAD BUNNY HALFTIME COMPLETE. CELEBRATIONS ACROSS THE PIPE. TAINO EDITION. AGÜEYBANÁ 1493/2026.';
+export const GSM_TAINO_CAMPAIGN_CHAMPION = 'CHAMPION OF CHAMPIONS NIGHT. TAINO JUBILATION CONTINUES. $5B CROWN ACTIVE. BAD BUNNY IS THE PULSE. AGÜEYBANÁ 1493/2026.';
 
 /** Volumetric resolution for Aurora (Bison) — 1.5 km/voxel */
 export const GSM_VOLUMETRIC_KM_PER_VOXEL = 1.5;

@@ -2,13 +2,15 @@
 
 **Status:** ACTIVE  
 **Applies to:** All Great Sun Multiplex (GSM) ad-space bookings — Pipe (Solar, Ticker) and Aurora.  
-**Doctrine:** We BOOK and RESERVE reality. Ad transactions at NBC pregame scale ($7M–$70M+) are **email-only**; no PayPal/checkout for these tiers.
+**Doctrine:** We BOOK and RESERVE reality. Ad transactions at NBC pregame scale ($25M–$250M+ Feb 6 floor) are **email-only**; no PayPal/checkout for these tiers.
+
+**Blue Pipe NSPFRNP:** All transactions over $10,000 are handled off line. This protocol is the application of that rule to GSM ad space. See [BLUE_PIPE_NSPFRNP.md](./BLUE_PIPE_NSPFRNP.md).
 
 ---
 
 ## 1. Why email-only
 
-- **Transaction size:** Base = NBC 30s pregame ($7M–$28M per 30 sec; Aurora $50M/hr). Standard payment rails have limits; wire/invoice is appropriate.
+- **Transaction size:** Base = NBC 30s pregame ($25M–$100M per 30 sec Feb 6 floor; Bison Logo Aurora $150M/hr). Standard payment rails have limits; wire/invoice is appropriate.
 - **Single human in the loop:** One approval step (Chairman/Executive) keeps sovereignty and control while maximizing automation elsewhere.
 
 ---
@@ -52,7 +54,8 @@ No multi-step committee; no second sign-off unless you later define it. One huma
 
 ## 5. References
 
+- [BLUE_PIPE_NSPFRNP.md](./BLUE_PIPE_NSPFRNP.md) — **All transactions over $10,000 are handled off line.** Blue Pipe NSPFRNP.
 - [README_GSM_GREAT_SUN_MULTIPLEX.md](../README_GSM_GREAT_SUN_MULTIPLEX.md) — pricing, tiers, Aurora.
 - [ARCHITECT_OF_THE_POST_SINGULARITY_HOUDINI_PROTOCOL_SNAP.md](../ARCHITECT_OF_THE_POST_SINGULARITY_HOUDINI_PROTOCOL_SNAP.md) · [GRAND_HOUDINI_METABOLISM_GREAT_SUN_MULTIPLEX_SOVEREIGN_SNAP.md](../GRAND_HOUDINI_METABOLISM_GREAT_SUN_MULTIPLEX_SOVEREIGN_SNAP.md)
 
-**NSPFRNP · MCA · One approval, then invoice.**
+**NSPFRNP · Blue Pipe · MCA · One approval, then invoice.**

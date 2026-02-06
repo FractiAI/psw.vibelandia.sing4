@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "description": "Canonical assets and treatments for the actual projected holographs at North and South poles (Aurora 3D). Full picture quality. Not landing page only — this spec drives what is projected at the ionospheric F-layer.",
+    "resolution_km_per_voxel": 1.5,
+    "source": "lib/aurora_vfx.ts, Project Bison & Campfire (Agüeybaná el Gran Sol 1493 Legacy)"
+  },
+  "north_pole": {
+    "label": "AURORA 3D North",
+    "surface": "Northern hemisphere auroral oval (65–70° N), F-layer",
+    "bison_holograph": {
+      "asset": "interfaces/assets/bison-holograph-reference.png",
+      "role": "Full-picture-quality reference for the Bison silhouette projected at the pole. Dark-furred bison in profile; shaggy head, hump, distinct silhouette. Rendered as global crimson halo (Earth's Crown), 630 nm Oxygen-Red; space-grade luminosity for Satellite/ISS/Lunar top-down visibility.",
+      "color_treatment": "crimson_halo",
+      "wavelength_nm": 630,
+      "luminosity_multiplier": 4
+    },
+    "wireframe_placement": "Vertices from lib/aurora_vfx.ts (BISON_WIREFRAME, BISON_GATHERING_WIREFRAME, BISON_RUNNING_WIREFRAME) mapped to lat/long via mapToAuroralLat/Long; visual at those coordinates filled from this asset."
+  },
+  "south_pole": {
+    "label": "AURORA 3D South",
+    "surface": "Southern hemisphere auroral oval (65–70° S), F-layer",
+    "bison_holograph": {
+      "asset": "interfaces/assets/bison-holograph-reference.png",
+      "role": "Same full-picture-quality Bison reference; mirrored for Southern hemisphere. Crimson halo, Earth's Crown.",
+      "color_treatment": "crimson_halo",
+      "wavelength_nm": 630,
+      "mirror": true
+    }
+  },
+  "campfire_ring": {
+    "label": "Campfire — Violet Ring of Fire",
+    "surface": "Base of atmosphere (violet shimmer ring)",
+    "asset": "interfaces/assets/campfire-ring-reference.png",
+    "role": "Full-picture-quality reference for the Campfire projected at the base of the atmosphere. Teepee-style flames, dynamic upward reach, glowing core. Rendered as violet Ring of Fire (400 nm); same form and luminosity distribution as reference, spectrum shifted to violet.",
+    "color_treatment": "violet_ring",
+    "wavelength_nm": 400
+  }
+}

@@ -228,7 +228,7 @@
             <span class="badge">1 · 2 · 3 · 4×4×4×4 — Baller producers</span>
             <h1>Text-to-Track Motor</h1>
             <p class="tagline"><strong>1</strong> Lyrics · <strong>2</strong> Genre · <strong>3</strong> Generate. One WAV per song. For baller producers — simple.</p>
-            <p style="margin-top: 1rem; font-size: 0.85rem; color: rgba(13, 148, 136, 0.95); padding: 0.6rem 1rem; background: rgba(13, 148, 136, 0.1); border: 1px solid rgba(13, 148, 136, 0.35); border-radius: 10px;"><strong>In progress:</strong> We're currently working on our studio quality engine. Full WAV output via Hero Jo Golden Backdoor Studio — CONNECT! to use when configured. Squeeze to 98% mastery.</p>
+            <p style="margin-top: 1rem; font-size: 0.85rem; color: rgba(13, 148, 136, 0.95); padding: 0.6rem 1rem; background: rgba(13, 148, 136, 0.1); border: 1px solid rgba(13, 148, 136, 0.35); border-radius: 10px;"><strong>In progress:</strong> We're currently working on our studio quality engine. Full WAV output via Hero Jo Golden Backdoor Hit Factory — CONNECT! to use when configured. Squeeze to 98% mastery.</p>
         </div>
 
         <p id="preset-ready-msg" class="status-msg success" style="display: none; margin-bottom: 1rem;">Lyrics loaded. Hit <strong>Generate</strong> below.</p>
@@ -939,7 +939,7 @@
 
         out.classList.add('visible');
         downloadListEl.innerHTML = '';
-        filenameEl.textContent = 'Trying Hero Jo Golden Backdoor Studio (full studio quality)…';
+        filenameEl.textContent = 'Trying Hero Jo Golden Backdoor Hit Factory (full studio quality)…';
         filenameEl.className = 'status-msg';
 
         var apiBase = (typeof window !== 'undefined' && window.location && window.location.origin) ? window.location.origin : '';
@@ -983,7 +983,7 @@
             });
         }
 
-        tryApi('/api/music/generate-studio', 'Hero Jo Golden Backdoor Studio')
+        tryApi('/api/music/generate-studio', 'Hero Jo Golden Backdoor Hit Factory')
             .then(fetchBlobAndDone)
             .catch(function (err) {
                 filenameEl.innerHTML = 'No fallbacks — let\'s make it work. <strong>Connect</strong> your studio: set HEARTMULA_API_URL or REPLICATE_API_TOKEN. <a href="office-hours.html" style="color:#0d9488;font-weight:700;">Office Hours →</a>';

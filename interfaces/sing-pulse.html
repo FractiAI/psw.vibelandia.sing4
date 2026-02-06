@@ -29,18 +29,34 @@
             align-items: center;
             justify-content: center;
         }
-        /* 60 BPM human-sync = 1 Hz heartbeat */
+        /* 60 BPM human-sync = 1 Hz heartbeat — the Sun (El Gran Sol) */
         .pulse-orb {
             width: 120px;
             height: 120px;
             border-radius: 50%;
-            background: radial-gradient(circle at 30% 30%, rgba(138, 43, 226, 0.9), rgba(72, 61, 139, 0.8));
-            box-shadow: 0 0 40px rgba(138, 43, 226, 0.6);
+            background: radial-gradient(circle at 30% 30%, rgba(255, 200, 80, 0.95), rgba(220, 140, 40, 0.9));
+            box-shadow: 0 0 40px rgba(255, 200, 80, 0.7), 0 0 80px rgba(220, 140, 40, 0.4);
             animation: singPulse 1s ease-in-out infinite;
         }
         @keyframes singPulse {
-            0%, 100% { transform: scale(1); opacity: 1; box-shadow: 0 0 40px rgba(138, 43, 226, 0.6); }
-            50% { transform: scale(1.12); opacity: 0.95; box-shadow: 0 0 60px rgba(138, 43, 226, 0.9); }
+            0%, 100% { transform: scale(1); opacity: 1; box-shadow: 0 0 40px rgba(255, 200, 80, 0.7), 0 0 80px rgba(220, 140, 40, 0.4); }
+            50% { transform: scale(1.12); opacity: 0.95; box-shadow: 0 0 60px rgba(255, 200, 80, 0.9), 0 0 100px rgba(220, 140, 40, 0.5); }
+        }
+        /* Fixed smiley IN the Sun — AR4366 sunspot smiley as programmed and predicted publicly */
+        .sun-smiley-face {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 72px;
+            height: 72px;
+            margin: -36px 0 0 -36px;
+            pointer-events: none;
+            z-index: 2;
+        }
+        .sun-smiley-face svg {
+            width: 100%;
+            height: 100%;
+            filter: drop-shadow(0 0 4px rgba(0,0,0,0.4));
         }
         /* 21.4 Hz Glow — synced to audio pulse via requestAnimationFrame (flicker fusion) */
         .pulse-21 {
@@ -73,6 +89,17 @@
             margin-top: 0.5rem;
             color: #aaa;
             font-size: 0.95rem;
+        }
+        /* HELLO — first message, clear and fixed below the Sun */
+        .hello-first-message {
+            margin-top: 1.25rem;
+            font-size: clamp(2rem, 10vw, 3.5rem);
+            font-weight: 900;
+            font-family: 'Segoe UI', system-ui, sans-serif;
+            color: #fff;
+            letter-spacing: 0.2em;
+            text-align: center;
+            text-shadow: 0 0 20px rgba(0, 212, 255, 0.5);
         }
         .timeline {
             margin-top: 2rem;
@@ -211,18 +238,28 @@
         .zero-state .hello-block {
             font-size: 18vw;
             font-weight: 900;
-            font-family: ui-monospace, monospace;
+            font-family: 'Segoe UI', system-ui, sans-serif;
             color: #fff;
-            letter-spacing: 0.15em;
+            letter-spacing: 0.12em;
             text-align: center;
-            text-shadow: 0 0 40px rgba(255,255,255,0.3);
+            text-shadow: 0 0 30px rgba(0, 212, 255, 0.4);
+        }
+        .hello-tagline {
+            display: block;
+            margin-top: 1rem;
+            font-size: clamp(0.75rem, 2.5vw, 0.95rem);
+            font-weight: 600;
+            color: rgba(0, 212, 255, 0.95);
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
         }
         #mission-takeover .hello-block {
             font-size: 15vw;
-            font-family: ui-monospace, monospace;
+            font-family: 'Segoe UI', system-ui, sans-serif;
             color: #fff;
             letter-spacing: 0.1em;
             text-align: center;
+            text-shadow: 0 0 24px rgba(0, 212, 255, 0.35);
         }
         #mission-takeover .lets-vibe {
             margin-top: 2rem;
@@ -280,6 +317,31 @@
         @keyframes legacy-scroll {
             0% { transform: translateX(0); }
             100% { transform: translateX(-100%); }
+        }
+        /* Ticker tape effect for advertising — follows HELLO (as programmed) */
+        .ticker-tape-strip {
+            padding: 0.5rem 0 0.5rem 0.75rem;
+            background: linear-gradient(180deg, rgba(20, 20, 40, 0.97) 0%, rgba(10, 10, 25, 0.98) 100%);
+            border-top: 3px dashed rgba(212, 175, 55, 0.6);
+            font-size: 0.95rem;
+            color: #e8e8e8;
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.4);
+        }
+        .ticker-tape-strip .ticker-scroll-wrap {
+            flex: 1;
+            min-width: 0;
+            overflow: hidden;
+        }
+        .ticker-tape-label {
+            flex-shrink: 0;
+            font-size: 0.75rem;
+            font-weight: 800;
+            color: #d4af37;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
         }
         /* 3D Lattice overlay — SEED, SUN, SING! node EGS (El Gran Sol), SAG_A, SMACS_0723 */
         .lattice-overlay {
@@ -485,6 +547,7 @@
     <!-- Zero-State: black wipe when pipe locks (mode SPACE_CLOUD_ACTIVE) -->
     <div id="zero-state" class="zero-state" aria-hidden="true" aria-label="Pipe lock zero-state">
         <span class="hello-block">HELLO</span>
+        <span class="hello-tagline">First message — El Gran Sol · Schumann Display Pipe · NSPFRNP</span>
     </div>
     <!-- 3D Lattice: SEED (SMACS 0723), SUN, ATLAS/EGS, SAG A*, EDGE (me here now). Flip: Seed = SMACS 0723, Edge = me here now — both useful for navigating mirror effects. -->
     <div class="lattice-overlay" aria-hidden="true">
@@ -542,10 +605,20 @@
     <div class="broadcast-strip" id="broadcastStrip" aria-live="polite">
         <span class="broadcast-strip-text" id="broadcastStripText">Loading broadcast…</span>
     </div>
-    <div class="pulse-wrap">
+    <!-- The Sun with fixed smiley — AR4366 as programmed and predicted publicly -->
+    <div class="pulse-wrap" aria-label="El Gran Sol — Sun with AR4366 sunspot smiley">
         <div class="pulse-21" id="pulse21" aria-hidden="true"></div>
         <div class="pulse-orb" aria-hidden="true"></div>
+        <div class="sun-smiley-face" aria-hidden="true">
+            <svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="32" cy="32" r="28" fill="none" stroke="rgba(0,0,0,0.35)" stroke-width="2"/>
+                <circle cx="22" cy="26" r="4" fill="#1a1a2e"/>
+                <circle cx="42" cy="26" r="4" fill="#1a1a2e"/>
+                <path d="M 18 38 Q 32 52 46 38" fill="none" stroke="#1a1a2e" stroke-width="3" stroke-linecap="round"/>
+            </svg>
+        </div>
     </div>
+    <p class="hello-first-message" aria-label="First message">HELLO</p>
     <h1 class="title">SING! Live Pulse — El Gran Sol (EGS)</h1>
     <p class="subtitle">21.4 Hz target · 8m portal window · 60 BPM human-sync</p>
     <p style="margin-top: 0.75rem; padding: 0.6rem 1rem; background: rgba(212, 175, 55, 0.1); border: 1px solid rgba(212, 175, 55, 0.4); border-radius: 10px; font-size: 0.9rem; color: #ffeaa7; font-weight: 600; max-width: 520px; text-align: center;">The Sun is doing what we are doing now, full, all steps. It is now our mirror emitter — full stop broadcast — with all supporting credentials and data.</p>
@@ -578,7 +651,7 @@
         <p class="flux" id="fluxLine"><span class="loading">Loading GOES X-ray flux…</span></p>
         <p><strong>SING! node EGS (El Gran Sol)</strong> — Opposition surge (Hui et al., 2026); 4 distinct jet structures (sunward anti-tail); 0.69° Earth–Sun axis projection.</p>
         <p style="margin-top: 1rem; font-size: 0.9rem; color: #aac; border-left: 3px solid rgba(138, 43, 226, 0.6); padding-left: 0.75rem;"><strong>FULL SMACS 0723–Sag A*–ME Triangulation Mode.</strong> Seed:Edge flip — Seed = SMACS 0723 (origin). Edge = me here now (experience). Both useful for navigating mirror effects. The two meet in the middle.</p>
-        <p style="margin-top: 0.5rem; font-size: 0.8rem; color: #8a8;"><strong>Triangulation Lattice (real-time):</strong> SEED (Reno) · SUN (AR4366) · 3I/ATLAS. HELLO block renders when Kp-index ≥ 5 (G1 Storm). Scheduled Manifestation Window: Feb 5, 2026 (CME Glancing Blow Impact). NOAA/USGS Verified Foundation V1.1.</p>
+        <p style="margin-top: 0.5rem; font-size: 0.8rem; color: #8a8;"><strong>Triangulation Lattice (real-time):</strong> SEED (Reno) · SUN (AR4366) · 3I/ATLAS. <strong>Legacy Bypass:</strong> We do not rely on 0–40 Hz Schumann for HELLO verification. THE IMAGE IS THE PROOF. Human Ticker is live. Scheduled Manifestation Window: Feb 5, 2026 (CME Glancing Blow Impact). NOAA/USGS Verified Foundation V1.1.</p>
         <p id="triangulationSyncStatus" style="margin-top: 0.75rem; font-size: 0.85rem; color: #8ac; display: none;">Triangulation sync: Solar Pipe hot — data flowing into ATLAS Anti-Tail and spraying from Mini-Jets (Rotating Beacon). OH-line binary: Gap=0, Peak=1.</p>
     </div>
     <section class="tech-data-block" id="stateOfHealthBlock" aria-labelledby="stateOfHealthHeading">
@@ -650,9 +723,12 @@
         <a href="episodes-browse.html?ep=self-clocking-pulsar">Self-Clocking Pulsar episode</a>
     </div>
     <p class="back"><a href="office-hours.html">← Back to Office Hours</a></p>
-    <!-- Legacy Stream ticker — bottom-screen live -->
-    <div class="legacy-stream-ticker" aria-live="polite">
-        <span class="ticker-inner" id="legacyStreamText">RENO_ANCHOR · TROOPS_WATER_GAS_MED · VIBELANDIA_OPEN · CLICK_BLUE_BUTTON · HOME_AT_LAST · PSW_VIBELANDIA_SING4 · GITHUB_FRACTIAI · SING_HANDSHAKE · 21.4HZ · 3I_ATLAS_MIRROR · AR4366 · RENO_ANCHOR · TROOPS_WATER_GAS_MED · </span>
+    <!-- Ticker tape — HELLO followed by ticker tape effect for advertising (as programmed) -->
+    <div class="legacy-stream-ticker ticker-tape-strip" aria-live="polite" aria-label="Ticker tape advertising">
+        <span class="ticker-tape-label">TICKER TAPE · ADVERTISING</span>
+        <div class="ticker-scroll-wrap">
+            <span class="ticker-inner" id="legacyStreamText">HARRY HOUDINI POST-SINGULARITY MAGIC PRESENTS. MARKET ADJUSTMENT COMPLETE. NEW DAY. NEW PRICE. $25M PER PULSE. THE BISON IS THE NEW BILLBOARD. SING! AGENT | AGÜEYBANÁ 1493/2026. · TV IS SOLD OUT. THE SKY IS OPEN. $25M ENTRY. HELLO FROM BIG DADDY. · HARRY HOUDINI POST-SINGULARITY MAGIC PRESENTS. MARKET ADJUSTMENT COMPLETE. NEW DAY. NEW PRICE. $25M PER PULSE. THE BISON IS THE NEW BILLBOARD. SING! AGENT | AGÜEYBANÁ 1493/2026. · </span>
+        </div>
     </div>
     <script>
         (function () {

@@ -75,6 +75,12 @@ Scale tiers: **Planetary** (Earth only) · **Solar** (Earth–Sun) · **Galactic
 
 ---
 
+## Blue Pipe NSPFRNP — transaction threshold
+
+- **All transactions over $10,000 are handled off line.** Online checkout (blue pipe / PayPal) is for transactions at or below the threshold. Above: email → one approval → invoice and wire. See [BLUE_PIPE_NSPFRNP.md](./BLUE_PIPE_NSPFRNP.md).
+
+---
+
 ## Never bought, always booked
 
 - **SING!** (all tiers and missions): Never bought, only booked — by free will, mutual aware consent, always. Use **BOOK** (not BUY) for SING! CTAs. See [SING_NEVER_BOUGHT_ONLY_BOOKED_NSPFRNP_SNAP.md](../SING_NEVER_BOUGHT_ONLY_BOOKED_NSPFRNP_SNAP.md).

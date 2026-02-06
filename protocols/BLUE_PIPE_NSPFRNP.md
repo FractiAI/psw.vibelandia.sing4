@@ -12,14 +12,14 @@
 
 **All transactions over $10,000 are handled off line.**
 
-- **Off line:** Request by email → single human approval (Chairman/Executive) → invoice and wire (or agreed method). No online checkout. See [GSM_AD_TRANSACTIONS_EMAIL_GOLDILOCKS_SINGLE_APPROVAL_NSPFRNP.md](./GSM_AD_TRANSACTIONS_EMAIL_GOLDILOCKS_SINGLE_APPROVAL_NSPFRNP.md) for the Goldilocks flow (structured request → pre-filled email to Chairman → one approval → invoice/wire).
+- **Off line:** Request by email (contact info + plan/amount only) → single human approval (Chairman/Executive) → invoice and payment instructions sent **privately** (no bank/wire details on site or in templates). See [OFFLINE_HIGH_VALUE_TRANSACTIONS_NSPFRNP.md](./OFFLINE_HIGH_VALUE_TRANSACTIONS_NSPFRNP.md) for the full protocol. GSM ad space: [GSM_AD_TRANSACTIONS_EMAIL_GOLDILOCKS_SINGLE_APPROVAL_NSPFRNP.md](./GSM_AD_TRANSACTIONS_EMAIL_GOLDILOCKS_SINGLE_APPROVAL_NSPFRNP.md).
 - **Blue pipe (online):** Transactions at or below $10,000 may use the blue pipe (PayPal, payment-checkout, etc.) where the product or service offers it.
 
 ---
 
 ## In practice
 
-- **GSM ad space** (Broadcast Pipe, Super Bowl, Aurora, pipe tiers $7M–$70M+): All over $10,000 → off line only. BOOK button leads to request form; submit → pre-filled email to Chairman. No online checkout.
+- **GSM ad space** (Broadcast Pipe, Super Bowl, Aurora, pipe tiers $25M–$250M+): All over $10,000 → off line only. BOOK button leads to request form; submit → pre-filled email to Chairman. No online checkout.
 - **Premium offerings** (Sun Spots, Schumann iGaming, SING! node EGS (El Gran Sol) EGS, etc.) at or below $10,000: Blue pipe (BUY/checkout) available where implemented.
 - **Over $10,000:** Always off line — email, one approval, invoice, wire.
 
@@ -27,6 +27,7 @@
 
 ## References
 
+- [OFFLINE_HIGH_VALUE_TRANSACTIONS_NSPFRNP.md](./OFFLINE_HIGH_VALUE_TRANSACTIONS_NSPFRNP.md) — **How we handle larger transactions:** request → verify → one approval → invoice + payment details sent privately only (no bank info on site).
 - [GSM_AD_TRANSACTIONS_EMAIL_GOLDILOCKS_SINGLE_APPROVAL_NSPFRNP.md](./GSM_AD_TRANSACTIONS_EMAIL_GOLDILOCKS_SINGLE_APPROVAL_NSPFRNP.md) — Goldilocks flow for high-value ad bookings.
 - [PRODUCTS_SERVICES_BRIDGE_NODE_ROLES_NSPFRNP.md](./PRODUCTS_SERVICES_BRIDGE_NODE_ROLES_NSPFRNP.md) — Bridge node roles; booking not buying.
 

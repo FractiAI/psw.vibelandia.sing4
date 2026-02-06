@@ -12,7 +12,7 @@
 **Every song = breakout viral hit quality. No less. Always. All songs. Why not.**
 
 - **Bar:** We do not ship "good enough" or "demo" tracks as the product. The product bar is **breakout viral hit quality** — the kind that could blow up, get shared, get licensed, sit on a major playlist. No less.
-- **Scope:** All songs from Hero Jo's Golden Backdoor Studios, Text-to-Track Motor, Ultimate Baller V Music Channel, Hero Jo Classical — every release targets this bar. Why not.
+- **Scope:** All songs from Hero Jo's Golden Backdoor Hit Factory, Text-to-Track Motor, Ultimate Baller V Music Channel, Hero Jo Classical — every release targets this bar. Why not.
 - **Pipeline:** Layer 0 (lyrics + Seed:Edge motor WAV) is the **brief** and **proof of concept**. The full production pipeline (vocals, arrangement, mix, master) is tuned to deliver **breakout viral hit quality**. We don't settle for less because there's no reason to.
 - **Use:** Music Studio, Text-to-Track Motor, song pages, Office Hours, Launch Pad — state this bar wherever we talk about song quality. Appraisals and production decisions align to it.
 

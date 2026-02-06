@@ -11,6 +11,21 @@
     var DEFAULT = 'FULL_NSPFRNP · RENO_ANCHOR · VIBELANDIA_OPEN · NSPFRNP · SEED_EDGE · MCA · CLICK_BLUE_BUTTON · OFFICE_HOURS_FREE_CONSULTATION · PSW_VIBELANDIA_SING4_VERCEL_APP · GITHUB_FRACTIAI · RENO_IS_FOR_VIBERS · GOLD_HEARTS · WELCOME · ';
     var TICKER_FEED_URL = 'data/ticker-feed.json';
     var ticker = document.querySelector('.nspfrnp-console-ticker');
+    if (ticker && !ticker.querySelector('.ticker-label')) {
+        var label = document.createElement('span');
+        label.className = 'ticker-label';
+        label.setAttribute('aria-hidden', 'true');
+        label.textContent = 'HUMAN TICKER';
+        var innerEl = ticker.querySelector('.ticker-inner') || document.getElementById('nspfrnpTickerText');
+        if (innerEl) {
+            var wrap = document.createElement('div');
+            wrap.className = 'ticker-scroll-wrap';
+            wrap.setAttribute('aria-hidden', 'true');
+            innerEl.parentNode.insertBefore(wrap, innerEl);
+            wrap.appendChild(innerEl);
+        }
+        ticker.insertBefore(label, ticker.firstChild);
+    }
     var inner = document.getElementById('nspfrnpTickerText') || (ticker ? ticker.querySelector('.ticker-inner') : null);
     if (!inner) return;
 

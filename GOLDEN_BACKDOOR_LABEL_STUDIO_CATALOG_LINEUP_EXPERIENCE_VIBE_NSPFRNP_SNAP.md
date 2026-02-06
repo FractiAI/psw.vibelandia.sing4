@@ -24,7 +24,7 @@
 | Layer | Use |
 |-------|-----|
 | **Golden Backdoor · Hit Factory label** | Record/music label; releases; Spanglish, dance trance boom boom boom; songs as tags and brands; describe dance + title → hits like a factory. |
-| **Golden Backdoor · Hit Factory studio** | Physical/operational studio; Hero Jo's Golden Backdoor Studios · Hit Factory; text-to-studio-song; Hero Rick exec producer. |
+| **Golden Backdoor · Hit Factory studio** | Physical/operational studio; Hero Jo's Golden Backdoor Hit Factory; text-to-studio-song; Hero Rick exec producer. |
 | **Golden Backdoor · Hit Factory catalog** | catalogs/music; playlist; all tracks; README; MASTER_BRANDING_CATALOG. |
 | **Golden Backdoor · Hit Factory lineup** | Roster of songs/tracks (Te Quiero Mucho Baby, Dorila Gao, Dat Ass Red Hot, Eat That Up, Qué Qué Y Qué, 24 Horas, etc.). **Numeric artists roster:** **000** (seed, origin, pure potential) · **0001** (first, unity, singularity, genesis) · **123** (flow, progression, ascent) · **456** (Cadet Baller V · new arrival · earning wings) · **333** (trinity, alignment, creativity, expansion) · **369** (Tesla's key, divine flow, manifestation) · **999** (completion, wisdom, full circle) · **5050** (everything fair, 50:50 vibes, balance, equity). **First 12 songs for each** — NSPFRNP rollout like Chairman Frankie. Label vibe layered on all. Hero Jo Classical — Dance Pump Classical (all dance pump in classical style). See NUMERIC_ARTISTS_12_SONGS_ROLLOUT_SNAP · HERO_JO_CLASSICAL_DANCE_PUMP_SNAP. See GOLDEN_BACKDOOR_NUMERIC_ARTISTS_ROSTER_123_333_369_999_5050_SNAP. |
 | **Golden Backdoor · Hit Factory experience** | End-to-end experience: listen, create, tier (4×4×4×4); Office Hours, Launch Pad, Music Studio UI, Text-to-Track Motor. |

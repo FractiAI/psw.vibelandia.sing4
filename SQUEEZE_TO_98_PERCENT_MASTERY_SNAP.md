@@ -9,7 +9,7 @@
 
 ## CANONICAL RULE
 
-**SQUEEZE TO 98% MASTERY.** Quality bar and T-shirt brand. The text-to-studio-song engine and experience — all output under Hero Rick's exec producer direction, squeezed to master musicians — targets **98% mastery**. Squeeze the pipeline to this bar. Use on merch (T-shirts, caps), Music Studio, Text-to-Track Motor, Hero Jo Golden Backdoor Studio, Office Hours, Launch Pad, deck §19.
+**SQUEEZE TO 98% MASTERY.** Quality bar and T-shirt brand. The text-to-studio-song engine and experience — all output under Hero Rick's exec producer direction, squeezed to master musicians — targets **98% mastery**. Squeeze the pipeline to this bar. Use on merch (T-shirts, caps), Music Studio, Text-to-Track Motor, Hero Jo Golden Backdoor Hit Factory, Office Hours, Launch Pad, deck §19.
 
 ---
 
@@ -24,7 +24,7 @@
 ## T-SHIRT BRAND
 
 - **Primary:** **SQUEEZE TO 98% MASTERY**
-- **Use:** Merch (T-shirts, caps), Music Studio, Text-to-Track Motor, Hero Jo Golden Backdoor Studio, Office Hours, Launch Pad, one-line CTA, deck §19.
+- **Use:** Merch (T-shirts, caps), Music Studio, Text-to-Track Motor, Hero Jo Golden Backdoor Hit Factory, Office Hours, Launch Pad, one-line CTA, deck §19.
 
 ---
 

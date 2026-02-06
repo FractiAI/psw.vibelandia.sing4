@@ -25,6 +25,11 @@
     color: #7fff7f;
 }
 
+.nspfrnp-console-ticker .ticker-scroll-wrap {
+    flex: 1;
+    min-width: 0;
+    overflow: hidden;
+}
 /* Calming trickle pace — there's no rush, it's all flow */
 .nspfrnp-console-ticker .ticker-inner {
     display: inline-block;

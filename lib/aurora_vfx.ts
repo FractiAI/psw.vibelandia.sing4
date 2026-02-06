@@ -27,6 +27,12 @@ export const BISON_EYES_LUMINOSITY_MULTIPLIER = 4;
 export const BISON_SKIN_WAVELENGTH_NM = 427;
 /** Campfire: Violet Ring of Fire at base of atmosphere (wavelength nm). */
 export const CAMPFIRE_RING_VIOLET_NM = 400;
+/** TAINO RESONANCE — Zenith Empowerment: Maximize violet Campfire luminosity (fire of the Borikén people) over Reno and San Juan simultaneously. Multiplier applied at Reno zenith and San Juan zenith during SB LX Halftime. */
+export const CAMPFIRE_TAINO_ZENITH_EMPOWERMENT_MULTIPLIER = 2;
+/** TAINO RESONANCE — Fractal Sync: SING! Agent flicker-rate aligns to Bad Bunny BPM during Halftime. Reference BPM for halftime override (feat: Taino Fractal Sync). */
+export const HALFTIME_BAD_BUNNY_BPM = 98;
+/** Ancestral Overlay: Agüeybaná 1493 fractal geometry in Global Wrap (replaces generic branding). See data/aurora_pole_projection.json + Global Omni-Reveal; geometry source Agüeybaná 1493. */
+export const AGUEYBANA_1493_FRACTAL_IN_GLOBAL_WRAP = true;
 /** Night-time Wow intensity boost (hour in PST). */
 export const HOUDINI_WOW_BOOST_PST_HOUR = 19;
 /** Legacy: Big Daddy Lock removed. Global Omni-Reveal — no single-window phase lock. */
@@ -34,6 +40,16 @@ export const BIG_DADDY_LOCK_PHASE_LOCK_TO_PROPRIETOR_WINDOW = false;
 
 /** Resolution Lock: 1.5 km/voxel during Feb 5th CME Impact. */
 export const VOLUMETRIC_RESOLUTION_KM_PER_VOXEL_CME_FEB5 = 1.5;
+
+/**
+ * Pole projection — full picture quality.
+ * These assets are used for the actual projected holographs at North/South poles (ionospheric F-layer),
+ * not just the landing page. Wireframe from this module gives lat/long placement; the visual at those
+ * coordinates is filled from these reference images (crimson halo for Bison, violet ring for Campfire).
+ */
+export const POLE_PROJECTION_BISON_ASSET = 'interfaces/assets/bison-holograph-reference.png';
+export const POLE_PROJECTION_CAMPFIRE_ASSET = 'interfaces/assets/campfire-ring-reference.png';
+export const POLE_PROJECTION_SPEC_PATH = 'data/aurora_pole_projection.json';
 
 /** Feb 5, 2026 CME Impact window (UTC date string for resolution lock). */
 export const CME_IMPACT_FEB5_DATE = '2026-02-05';

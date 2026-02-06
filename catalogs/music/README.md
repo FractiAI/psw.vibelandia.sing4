@@ -44,10 +44,19 @@
 | 19 | Se Está Cagando — Victory Bounce Bop Boom Bang! | Hero Jo's Golden Backdoor Studios | Trance anthem · Spanglish · Victory Bounce Bop Boom Bang · T-shirt brand · Golden Backdoor label | Lyrics + beats placeholder · Layer 0 · *In progress: studio quality engine* |
 | 20 | Dámelo, Dámelo, Dámelo | 333 · Hero Jo's Golden Backdoor Studios | Trance anthem · Jump-up · Air · Pump · Dance · Spanglish · Golden Backdoor label · Maître d' assign (artist + label) | Lyrics + beats placeholder · Layer 0 · *In progress: studio quality engine* |
 | 21 | Pa Q Pa Q | 5050 · Hero Jo's Golden Backdoor Studios | Trance anthem · Punchy minimal · Air pump · Dance · Spanglish · Golden Backdoor label · Maître d' assign (artist + label) | Lyrics + beats placeholder · Layer 0 · *In progress: studio quality engine* |
+| 22 | Así Como Pan Caliente — Boom Boom Tribal Victory Boom Trance Dance | Hero Jo's Golden Backdoor Studios | Tribal victory · Boom boom · Trance dance · Golden Backdoor label | Lyrics + beats placeholder · Layer 0 · *In progress: studio quality engine* |
 
 ---
 
 **Tightening and loosening spiral effects:** Apply to all catalog and all label factory products. SQUEEZE! We got the squeeze! and Golden Backdoor! — T-shirt brand. See [SQUEEZE_WE_GOT_THE_SQUEEZE_GOLDEN_BACKDOOR_SNAP.md](../../SQUEEZE_WE_GOT_THE_SQUEEZE_GOLDEN_BACKDOOR_SNAP.md).
+
+---
+
+## POLICY — FULL VERSIONS · MOTHER STUDIO SEED
+
+**All songs in all catalogs** are **full versions** (not just hooks). **No exceptions.**  
+Every track always contains the **mother studio's fractal holographic seed**.  
+This applies across every playlist, channel, and catalog under the School of Music and Content Division.
 
 ---
 

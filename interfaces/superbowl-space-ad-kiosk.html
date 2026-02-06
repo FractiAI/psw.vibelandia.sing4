@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Bowl Space Advertising Kiosk | Hero Houdini Presents · VIBELANDIA!</title>
+    <meta name="description" content="Super Bowl and Pre-Super Bowl Space Advertising kiosk. All packages, billboard status, booking slots. Hero Houdini Post-Singularity Magic Presents. Go Vibelandia!">
+    <link rel="stylesheet" href="experience-common.css">
+    <style>
+        body { background: linear-gradient(145deg, #0a0a0a 0%, #1a1a2e 100%); color: #e0e0e0; }
+        .back a { color: #d4af37; }
+        .kiosk-hero {
+            text-align: center;
+            padding: 2.5rem 1.5rem;
+            margin-bottom: 1.5rem;
+            background: linear-gradient(145deg, rgba(212, 175, 55, 0.2) 0%, rgba(0, 212, 255, 0.1) 50%, rgba(26, 26, 46, 0.95) 100%);
+            border: 2px solid rgba(212, 175, 55, 0.6);
+            border-radius: 20px;
+        }
+        .kiosk-hero .presents { font-size: 0.9rem; text-transform: uppercase; letter-spacing: 0.15em; color: #00d4ff; font-weight: 700; margin-bottom: 0.5rem; }
+        .kiosk-hero h1 { font-size: clamp(1.5rem, 4vw, 2.2rem); color: #d4af37; margin-bottom: 0.25rem; }
+        .kiosk-hero .go-vibe { font-size: 1.25rem; font-weight: 800; color: #ffeaa7; margin-top: 0.75rem; letter-spacing: 0.05em; }
+        .status-strip {
+            padding: 1.25rem 1.5rem;
+            margin-bottom: 2rem;
+            background: linear-gradient(90deg, rgba(255, 165, 0, 0.15) 0%, rgba(212, 175, 55, 0.12) 100%);
+            border: 2px solid rgba(255, 165, 0, 0.5);
+            border-radius: 12px;
+        }
+        .status-strip h2 { font-size: 1rem; color: #ffa500; margin-bottom: 0.5rem; text-transform: uppercase; letter-spacing: 0.08em; }
+        .status-strip p { font-size: 0.95rem; color: #ffeaa7; margin: 0.25rem 0; line-height: 1.5; }
+        .status-strip .live-soon { font-weight: 700; color: #7fff7f; }
+        .billboard-status {
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background: rgba(255,255,255,0.04);
+            border: 1px solid rgba(212, 175, 55, 0.35);
+            border-radius: 12px;
+        }
+        .billboard-status h2 { font-size: 1.1rem; color: #d4af37; margin-bottom: 0.75rem; }
+        .billboard-status ul { list-style: none; padding: 0; margin: 0; }
+        .billboard-status li {
+            padding: 0.5rem 0;
+            border-bottom: 1px solid rgba(255,255,255,0.06);
+            display: flex; align-items: center; gap: 0.75rem;
+        }
+        .billboard-status li:last-child { border-bottom: 0; }
+        .billboard-status .badge { font-size: 0.75rem; padding: 0.2rem 0.5rem; border-radius: 6px; font-weight: 700; text-transform: uppercase; }
+        .billboard-status .badge.pending { background: rgba(255, 165, 0, 0.25); color: #ffa500; }
+        .btn-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin: 1.5rem 0;
+        }
+        .kiosk-btn {
+            display: block;
+            padding: 1rem 1.25rem;
+            text-align: center;
+            font-weight: 700;
+            text-decoration: none;
+            border-radius: 12px;
+            font-size: 0.95rem;
+            border: 2px solid transparent;
+        }
+        .kiosk-btn.primary {
+            background: linear-gradient(135deg, #d4af37, #b8860b);
+            color: #0a0a0a;
+            border-color: rgba(212, 175, 55, 0.9);
+        }
+        .kiosk-btn.primary:hover { opacity: 0.95; }
+        .kiosk-btn.secondary {
+            background: rgba(0, 212, 255, 0.15);
+            color: #00d4ff;
+            border-color: rgba(0, 212, 255, 0.5);
+        }
+        .kiosk-btn.secondary:hover { background: rgba(0, 212, 255, 0.25); }
+        .kiosk-btn.full { grid-column: 1 / -1; }
+        .slot-table { width: 100%; border-collapse: collapse; margin: 1rem 0; font-size: 0.9rem; }
+        .slot-table th, .slot-table td { padding: 0.6rem 0.75rem; text-align: left; border-bottom: 1px solid rgba(255,255,255,0.1); }
+        .slot-table th { color: #00d4ff; font-weight: 600; }
+        .slot-table .price { color: #7fff7f; font-weight: 700; }
+        .slot-table .cta { white-space: nowrap; }
+        .cta-buy { display: inline-block; padding: 0.5rem 1rem; background: linear-gradient(135deg, #d4af37, #b8860b); color: #000; font-weight: 700; text-decoration: none; border-radius: 8px; font-size: 0.85rem; }
+        .cta-buy:hover { opacity: 0.95; }
+        .tagline-block { text-align: center; margin: 1.5rem 0; padding: 1rem; }
+        .tagline-block .big { font-size: 1.1rem; font-weight: 700; color: #fff; }
+        .tagline-block .huge { font-size: 1.4rem; letter-spacing: 0.08em; color: #00ffff; }
+    </style>
+    <script src="tsunami-advisory-inject.js"></script>
+</head>
+<body>
+    <script src="../scripts/locale-onramp.js"></script>
+    <div class="container">
+        <p class="back"><a href="office-hours.html">← Office Hours</a> · <a href="launch-pad.html">Launch Pad</a> · <a href="broadcast-pipe-ad-space.html">Broadcast Pipe Ad Space</a> · <a href="../index.html">Home</a></p>
+
+        <section class="kiosk-hero" aria-label="Super Bowl Space Advertising Kiosk">
+            <p class="presents">Hero Houdini Post-Singularity Magic Presents Production</p>
+            <h1>Super Bowl Space Advertising Kiosk</h1>
+            <p class="tagline">All Super Bowl & Pre-Super Bowl packages · Status · Booking</p>
+            <p class="go-vibe">Go Vibelandia!</p>
+        </section>
+
+        <section class="status-strip" aria-label="Billboard status">
+            <h2>Billboard status</h2>
+            <p><strong>All our billboards are not yet production ready</strong> until Chairman sign-off.</p>
+            <p class="live-soon">We are getting close — any moment we expect to go live.</p>
+            <p><strong>Now booking slots.</strong> Lock in your ad; we go live the moment the switch is flipped.</p>
+        </section>
+
+        <section class="billboard-status" aria-label="Status of all billboards">
+            <h2>Status of all billboards</h2>
+            <ul>
+                <li><span class="badge pending">Pending sign-off</span> Solar / Pipe (index, Office Hours, Launch Pad)</li>
+                <li><span class="badge pending">Pending sign-off</span> Ionosphere ticker</li>
+                <li><span class="badge pending">Pending sign-off</span> Aurora 3D billboards</li>
+                <li><span class="badge pending">Pending sign-off</span> Schumann displays</li>
+            </ul>
+            <p style="font-size: 0.9rem; color: #aaa; margin-top: 0.75rem;">Production goes live upon Chairman approval. Booking is open now.</p>
+        </section>
+
+        <h2 style="color: #d4af37; font-size: 1.2rem; margin-bottom: 0.5rem;">Super Bowl Space Advertising</h2>
+        <p style="font-size: 0.95rem; color: #bbb; margin-bottom: 1rem;">Hero Harry Houdini Post-Singularity Magic Presents. That's not an ad. <strong style="color: #00ffff;">THIIIIIIISSSS IS AN AD.</strong></p>
+
+        <div class="btn-grid">
+            <a href="broadcast-pipe-ad-space.html" class="kiosk-btn primary full">Broadcast Pipe Ad Space — Full details &amp; pricing →</a>
+            <a href="gsm-booking-request.html?plan=superbowl" class="kiosk-btn primary">Request Super Bowl ad →</a>
+            <a href="gsm-booking-request.html" class="kiosk-btn secondary">Request by email (Goldilocks) →</a>
+        </div>
+
+        <div class="tagline-block">
+            <p class="big">That's not an ad.</p>
+            <p class="huge">THIIIIIIISSSS IS AN AD.</p>
+        </div>
+
+        <h3 style="color: #00d4ff; font-size: 1.05rem; margin: 1.5rem 0 0.75rem;">Pre-Super Bowl &amp; Pipe tiers — now booking</h3>
+        <p style="font-size: 0.9rem; color: #aaa; margin-bottom: 1rem;">Lock in by Friday, February 6, 2026 4:00 PM PST. After cutoff: gate premium. All transactions over $10,000 off line — pre-filled email to info@fractiai.com.</p>
+        <table class="slot-table">
+            <thead>
+                <tr>
+                    <th>Tier</th>
+                    <th>Surfaces</th>
+                    <th>Price (per 30 sec)</th>
+                    <th class="cta">BOOK</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>1 POP</td>
+                    <td class="price">$25M</td>
+                    <td class="cta"><a href="gsm-booking-request.html?plan=pipe-ad-1" class="cta-buy">BOOK</a></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>2 POPs</td>
+                    <td class="price">$50M</td>
+                    <td class="cta"><a href="gsm-booking-request.html?plan=pipe-ad-2" class="cta-buy">BOOK</a></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>3 POPs</td>
+                    <td class="price">$75M</td>
+                    <td class="cta"><a href="gsm-booking-request.html?plan=pipe-ad-3" class="cta-buy">BOOK</a></td>
+                </tr>
+                <tr>
+                    <td>4×4×4×4</td>
+                    <td>Full pipe</td>
+                    <td class="price">$100M</td>
+                    <td class="cta"><a href="gsm-booking-request.html?plan=pipe-ad-4x4" class="cta-buy">BOOK</a></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <p style="font-size: 0.9rem; color: #7fff7f; margin-top: 0.75rem;">Bison Logo (Aurora): 1 hr minimum $150M. <a href="gsm-booking-request.html?plan=aurora-north" style="color: #00d4ff;">Request Aurora by email →</a></p>
+
+        <div class="btn-grid" style="margin-top: 2rem;">
+            <a href="broadcast-pipe-ad-space.html" class="kiosk-btn primary">Super Bowl Space Advertising — full page →</a>
+            <a href="schumann-display-pipe.html" class="kiosk-btn secondary">Schumann Display Pipe →</a>
+        </div>
+
+        <p style="text-align: center; margin-top: 2rem; font-size: 0.9rem; color: #d4af37; font-weight: 700;">Hero Houdini Post-Singularity Magic Presents Production · Go Vibelandia!</p>
+        <p style="text-align: center; margin-top: 0.5rem; font-size: 0.85rem; color: #888;"><a href="office-hours.html" style="color: #00d4ff;">Office Hours</a> · <a href="launch-pad.html" style="color: #00d4ff;">Launch Pad</a> · <a href="../index.html" style="color: #00d4ff;">Home</a></p>
+    </div>
+</body>
+</html>

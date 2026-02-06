@@ -22,7 +22,7 @@
 ## RULE
 
 - **All songs as T-shirts and brands:** Every Golden Backdoor label song is a T-shirt level tag and brand. Wearable, merch-ready, social-ready. SNAP SNAP SNAP.
-- **All studio for now:** All tracks delivered at studio quality via Hero Jo Golden Backdoor Studio (text-to-studio-song engine). Layer 0 = text; Layer 1 = production WAV.
+- **All studio for now:** All tracks delivered at studio quality via Hero Jo Golden Backdoor Hit Factory (text-to-studio-song engine). Layer 0 = text; Layer 1 = production WAV.
 - **Selectable and customizable for whatever mission:** Each song can be selected and customized to fit the mission — Office Hours, Launch Pad, episode, novel, screenplay, event, campaign.
 - **Layered amplifier of boom magic BBHE:** Songs function as layered amplifiers of boom magic BBHE (Big Black Hole Energy). Triple-purpose: not imaginary, natural, announcement for vibers. Boom = heavy beat, bounce, trance; magic = the amplification effect.
 - **Tightening and loosening spiral effects:** Apply to all catalog and all label factory products. SQUEEZE! We got the squeeze! and Golden Backdoor! — T-shirt brand and hit. See [SQUEEZE_WE_GOT_THE_SQUEEZE_GOLDEN_BACKDOOR_SNAP.md](SQUEEZE_WE_GOT_THE_SQUEEZE_GOLDEN_BACKDOOR_SNAP.md).

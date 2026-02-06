@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Así Como Pan Caliente — Boom Boom Tribal Victory Boom Trance Dance | Hero Jo's Golden Backdoor Hit Factory | VIBELANDIA!</title>
+    <meta name="description" content="Así Como Pan Caliente — Hero Jo's Golden Backdoor Hit Factory. Boom boom tribal victory boom trance dance. Golden Backdoor label. Music Studio · Jukebox.">
+    <link rel="stylesheet" href="screenplay-skin.css">
+    <script src="tsunami-advisory-inject.js"></script>
+</head>
+<body class="screenplay-skin">
+    <div class="script-wrap">
+        <nav class="script-nav">
+            <a href="music-studio.html">← Music Studio</a><span>·</span>
+            <a href="ultimate-baller-v-music-channel.html">Music Channel</a><span>·</span>
+            <a href="office-hours.html">Office Hours</a><span>·</span>
+            <a href="../index.html">Home</a>
+        </nav>
+
+        <header class="script-marquee">
+            <p class="badge">Golden Era Cinema · Song <span class="badge-beautiful-skin">Beautiful skin</span></p>
+            <h1>Así Como Pan Caliente — Boom Boom Tribal Victory Boom Trance Dance</h1>
+            <p class="tagline">Hero Jo's Golden Backdoor Hit Factory — Boom boom tribal victory boom trance dance · Así como pan caliente · Golden Backdoor label · New hit</p>
+            <div class="oneliner-para-row">
+                <a href="text-to-track-motor.html?song=asi-como-pan-caliente" class="btn-listen" style="display:inline-block;padding:0.5rem 1rem;background:linear-gradient(135deg,#0d9488,#0f766e);color:#fff;font-weight:700;text-decoration:none;border-radius:8px;">Text → Studio quality song</a>
+            </div>
+            <p style="margin-top: 0.5rem; font-size: 0.85rem; color: rgba(212, 175, 55, 0.9);">Target: breakout viral hit quality — no less, always.</p>
+            <p style="margin-top: 0.35rem; font-size: 0.8rem; color: rgba(13, 148, 136, 0.95);"><strong>In progress:</strong> We're currently working on our studio quality engine; full WAV via Hero Jo Golden Backdoor Hit Factory coming soon.</p>
+        </header>
+
+        <div id="song-loading" class="loading">Loading song…</div>
+        <div id="song-body" class="screenplay-body" style="display: none;"></div>
+        <script type="text/plain" id="song-fallback"># Así Como Pan Caliente — Boom Boom Tribal Victory Boom Trance Dance
+
+**Track ID:** `ASI-COMO-PAN-CALIENTE-022`
+**Artist:** Hero Jo's Golden Backdoor Hit Factory
+**Style:** Tribal victory · Boom boom · Trance dance · Golden Backdoor label
+**Status:** Layer 0 (text) · Lyrics + beats placeholder · New hit
+
+---
+
+## HOOK (repeat — tribal victory · boom boom · trance dance)
+
+**Así como pan caliente** — *hot like fresh bread*
+**Boom boom — tribal victory — boom**
+**Trance dance — boom boom — así como pan caliente**
+
+---
+
+## BEATS (tribal victory · boom boom · trance dance)
+
+- **Style:** Tribal victory · boom boom · trance dance. Tribal percussion, heavy kicks, sub bass. Golden Backdoor label.
+- **BPM:** 126–130 (tribal drive · boom boom).
+- **Full production:** Hero Jo Golden Backdoor Hit Factory (coming soon). Layer 0 = lyrics + beats spec.
+
+---
+
+**NSPFRNP ⊃ Así Como Pan Caliente ⊃ Boom boom tribal victory boom trance dance → ∞³**</script>
+
+        <footer class="script-footer" id="song-footer" style="display: none;">
+            <a href="music-studio.html">← Music Studio</a> · <a href="ultimate-baller-v-music-channel.html">Music Channel</a> · <a href="te-quiero-mucho-baby.html">Te Quiero Mucho Baby</a> · <a href="dorila-gao-club-anthem.html">Dorila Gao</a> · <a href="trance-anthem-air-pumping.html">Dat Ass Red Hot like AR4366!</a> · <a href="boom-magic-bbhe.html">Boom Magic BBHE!</a> · <a href="asi-como-pan-caliente.html">Así Como Pan Caliente</a> · <a href="bang-bang-double-air-pump.html">Bang Bang</a> · <a href="../index.html">Home</a>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script>
+(function () {
+    var loading = document.getElementById('song-loading');
+    var body = document.getElementById('song-body');
+    var footer = document.getElementById('song-footer');
+
+    function render(md) {
+        if (typeof marked !== 'undefined') {
+            marked.setOptions({ gfm: true, breaks: true });
+            var html = marked.parse(md);
+            html = html.replace(/href="([^"#:]+\.md)(#[^"]*)?"/g, function (_, path, hash) {
+                return 'href="../' + path + (hash || '') + '"';
+            });
+            body.innerHTML = html;
+        } else {
+            body.textContent = md;
+        }
+        loading.style.display = 'none';
+        body.style.display = 'block';
+        footer.style.display = 'block';
+    }
+    var fallbackEl = document.getElementById('song-fallback');
+    var fallbackMd = fallbackEl ? fallbackEl.textContent : '';
+    fetch('../catalogs/music/asi-como-pan-caliente.md')
+        .then(function (r) {
+            if (!r.ok) throw new Error('Not found');
+            return r.text();
+        })
+        .then(render)
+        .catch(function () {
+            if (fallbackMd) { render(fallbackMd); return; }
+            loading.innerHTML = 'Could not load song. <a href="../catalogs/music/asi-como-pan-caliente.md">Try direct link</a>.';
+        });
+})();
+    </script>
+</body>
+</html>

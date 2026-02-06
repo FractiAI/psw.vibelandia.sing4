@@ -58,7 +58,7 @@ MAÎTRE D' · OMNIVERSAL MATCHMAKER:
 
 | Ref | SNAP / Surface |
 |-----|----------------|
-| Hero Jo Golden Backdoor | HERO_JO_GOLDEN_BACKDOOR_STUDIOS_SNAP |
+| Hero Jo Golden Backdoor Hit Factory | HERO_JO_GOLDEN_BACKDOOR_STUDIOS_SNAP |
 | Music Studio · Catalog | catalogs/music/README.md |
 | Content systems | CONTENT_SYSTEMS_SNAP |
 | Team roles | TEAM_NSPFRNP_MODE_ACTIVE · misc/CURRENT_TEAM_SUMMARY.md |

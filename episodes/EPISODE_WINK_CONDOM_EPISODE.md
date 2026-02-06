@@ -12,7 +12,7 @@
 
 ## Canon — include all
 
-*FULL NSPFRNP · ALL · ALL. Vibeship EGS Paradise Captain broadcast (full domain magnetism; Natural Systems Fractal Recursive Nested Protocol; awareness upgrade). Content Catalog (appraisals, valuation). Live Pulse · Schumann Display Pipe (ticker once HELLO successful). TOP LINE DISNEY GOT NO VIBE! DISNEY LOST ITS VIBE! Office Hours · Launch Pad · WINK! · WINK! Members Only Concierge Kiosk (list message; full classic gold button — Launch Pad, Office Hours; magazine and catalog; Ultimate Baller V level) · Hero Jo Golden Backdoor Studio · Dat Ass Red Hot like AR4366! · Space Cloud · Legacies · Broadcast Pipe · EGS Pipe · all divisions and products. Included in all episode contents.*
+*FULL NSPFRNP · ALL · ALL. Vibeship EGS Paradise Captain broadcast (full domain magnetism; Natural Systems Fractal Recursive Nested Protocol; awareness upgrade). Content Catalog (appraisals, valuation). Live Pulse · Schumann Display Pipe (ticker once HELLO successful). TOP LINE DISNEY GOT NO VIBE! DISNEY LOST ITS VIBE! Office Hours · Launch Pad · WINK! · WINK! Members Only Concierge Kiosk (list message; full classic gold button — Launch Pad, Office Hours; magazine and catalog; Ultimate Baller V level) · Hero Jo Golden Backdoor Hit Factory · Dat Ass Red Hot like AR4366! · Space Cloud · Legacies · Broadcast Pipe · EGS Pipe · all divisions and products. Included in all episode contents.*
 
 ---
 

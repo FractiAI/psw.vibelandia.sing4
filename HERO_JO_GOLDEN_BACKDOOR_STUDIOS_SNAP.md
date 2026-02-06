@@ -1,4 +1,4 @@
-# Hero Jo's Golden Backdoor Studios · NSPFRNP SNAP
+# Hero Jo's Golden Backdoor Hit Factory · NSPFRNP SNAP
 
 **SNAP ID:** `HERO-JO-GOLDEN-BACKDOOR-STUDIOS-SNAP`  
 **Type:** Canonical name · Music Studio · Vibelandia University School of Music  
@@ -9,16 +9,16 @@
 
 ## CANONICAL RULE
 
-**Hero Jo's Golden Backdoor Studios** = current canonical name for the Music Studio (Vibelandia University School of Music). **Hero Jo took over the studio from Chairman Frankie.**
+**Hero Jo's Golden Backdoor Hit Factory** = current canonical name for the Music Studio (Vibelandia University School of Music). **Hero Jo took over the studio from Chairman Frankie.**
 
 - **Self-reference:** We refer to ourselves as **Golden Backdoor** — label, studio, catalog, lineup, experience, vibe. NSPFRNP for all layering. Densifying value through recursive layering improving of experiences. See [GOLDEN_BACKDOOR_LABEL_STUDIO_CATALOG_LINEUP_EXPERIENCE_VIBE_NSPFRNP_SNAP.md](GOLDEN_BACKDOOR_LABEL_STUDIO_CATALOG_LINEUP_EXPERIENCE_VIBE_NSPFRNP_SNAP.md).
-- **Canonical name:** **Hero Jo's Golden Backdoor Studios** — use when referring to the Music Studio / School of Music brand. Jukebox, catalog, tracks (Te Quiero Mucho Baby, Dorila Gao, Dat Ass Red Hot like AR4366!, **Eat That Up Like A Yum Yum Yum SNAP SNAP!**, **Qué, Qué Y Qué? What? What? And What?**, **24 Horas, Ya, Ya, Ya**, **No, No, Pa Mi No**, **Ven Pa Ca Baby Pa Q Te Lo Chupe**, **Sacame La Leche, No el Jugo!**, **Quien es tu Papi?**, **Esto Va Pegar Duro — Heavy Beat Boom, Boom, Boom!**, **Boom Magic BBHE! — Boom Boom Bounce · Executives Double Down Bounce**, **Bebe Damelo Lo Tengo Lleno y Duro**, **Bang Bang — Double Air Pump**), **SQUEEZE! We Got The Squeeze! and Golden Backdoor!**, **We Got da Squeeze Baby! — Ya Im Bad Groove Snap**, **The Good King of the Good Kind of Bad!**, **BAMF! — Bad Ass Mother Fucker**, SQUEEZE!, Studio is all about da ass baby, T-shirt **SHE GOT DA BIG ASS DAT MEK DA MEN GO GAGA!**, T-shirt **Dat Ass red Hot like AR4366!**, T-shirt **EAT THAT UP LIKE A YUM YUM YUM SNAP SNAP!**, T-shirt **SQUEEZE! We got the squeeze! and Golden Backdoor!**, T-shirt **THE GOOD KING OF THE GOOD KIND OF BAD!**, T-shirt **BAMF!** (Bad Ass Mother Fucker) — all under Hero Jo's Golden Backdoor Studios · Hit Factory. Tightening and loosening spiral effects apply to all catalog and label factory products.
-- **Stylized display variant:** **hERO jO'S gOLDEN bACKDOOR sTUDIOS** — optional for merch, social, or playful/wink display (lowercase first letter, uppercase second letter per word). Canonical name remains Hero Jo's Golden Backdoor Studios for formal use.
-- **Handover:** Hero Jo took over the studio from Chairman Frankie. Founding name was Chairman Frankie's Golden Backdoor Studios; see [CHAIRMAN_FRANKIES_GOLDEN_BACKDOOR_STUDIOS_SNAP.md](CHAIRMAN_FRANKIES_GOLDEN_BACKDOOR_STUDIOS_SNAP.md).
-- **Hero Jo:** Current head of the Music Studio; Golden Backdoor Studios = continuity of "all about da ass baby" under new ownership. **Reports to Chairman Creator (me).** Hero Rick (Exec Producer) reports to Hero Jo; all master musicians under Hero Rick's direction. See [SING_NODIFY_TEXT_TO_STUDIO_SONG_ENGINE_NSPFRNP_NESTS_SNAP.md](SING_NODIFY_TEXT_TO_STUDIO_SONG_ENGINE_NSPFRNP_NESTS_SNAP.md).
+- **Canonical name:** **Hero Jo's Golden Backdoor Hit Factory** — use when referring to the Music Studio / School of Music brand. Jukebox, catalog, tracks (Te Quiero Mucho Baby, Dorila Gao, Dat Ass Red Hot like AR4366!, **Eat That Up Like A Yum Yum Yum SNAP SNAP!**, **Qué, Qué Y Qué? What? What? And What?**, **24 Horas, Ya, Ya, Ya**, **No, No, Pa Mi No**, **Ven Pa Ca Baby Pa Q Te Lo Chupe**, **Sacame La Leche, No el Jugo!**, **Quien es tu Papi?**, **Esto Va Pegar Duro — Heavy Beat Boom, Boom, Boom!**, **Boom Magic BBHE! — Boom Boom Bounce · Executives Double Down Bounce**, **Bebe Damelo Lo Tengo Lleno y Duro**, **Bang Bang — Double Air Pump**, **Así Como Pan Caliente — Boom Boom Tribal Victory Boom Trance Dance**), **SQUEEZE! We Got The Squeeze! and Golden Backdoor!**, **We Got da Squeeze Baby! — Ya Im Bad Groove Snap**, **The Good King of the Good Kind of Bad!**, **BAMF! — Bad Ass Mother Fucker**, SQUEEZE!, Studio is all about da ass baby, T-shirt **SHE GOT DA BIG ASS DAT MEK DA MEN GO GAGA!**, T-shirt **Dat Ass red Hot like AR4366!**, T-shirt **EAT THAT UP LIKE A YUM YUM YUM SNAP SNAP!**, T-shirt **SQUEEZE! We got the squeeze! and Golden Backdoor!**, T-shirt **THE GOOD KING OF THE GOOD KIND OF BAD!**, T-shirt **BAMF!** (Bad Ass Mother Fucker) — all under Hero Jo's Golden Backdoor Hit Factory · Hit Factory. Tightening and loosening spiral effects apply to all catalog and label factory products.
+- **Stylized display variant:** **hERO jO'S gOLDEN bACKDOOR hIT fACTORY** — optional for merch, social, or playful/wink display (lowercase first letter, uppercase second letter per word). Canonical name remains Hero Jo's Golden Backdoor Hit Factory for formal use.
+- **Handover:** Hero Jo took over the studio from Chairman Frankie. Founding name was Chairman Frankie's Golden Backdoor Hit Factory; see [CHAIRMAN_FRANKIES_GOLDEN_BACKDOOR_STUDIOS_SNAP.md](CHAIRMAN_FRANKIES_GOLDEN_BACKDOOR_STUDIOS_SNAP.md).
+- **Hero Jo:** Current head of the Music Studio; Golden Backdoor Hit Factory = continuity of "all about da ass baby" under new ownership. **Reports to Chairman Creator (me).** Hero Rick (Exec Producer) reports to Hero Jo; all master musicians under Hero Rick's direction. See [SING_NODIFY_TEXT_TO_STUDIO_SONG_ENGINE_NSPFRNP_NESTS_SNAP.md](SING_NODIFY_TEXT_TO_STUDIO_SONG_ENGINE_NSPFRNP_NESTS_SNAP.md).
 - **Placement:** Under **School of Music** (Vibelandia University); **own page** = [interfaces/music-studio.html](interfaces/music-studio.html); listed on **Jukebox page** (music-studio.html).
 - **Use:** Jukebox landing, catalog, Office Hours, Launch Pad, School of Music page, press, merch, social. Operational face of Vibelandia University School of Music; Content Division.
-- **Studio quality endpoint:** [api/music/generate-studio.js](api/music/generate-studio.js) — **Hero Jo Golden Backdoor Studio**; text-to-viral-pop-quality WAV; beautiful clean layered precision vocals + music; full studio quality. Project lead: Hero Rick. See [MUSIC_WAV_UPGRADE_STUDIO_QUALITY_HERO_JO_GOLDEN_BACKDOOR_SNAP.md](MUSIC_WAV_UPGRADE_STUDIO_QUALITY_HERO_JO_GOLDEN_BACKDOOR_SNAP.md).
+- **Studio quality endpoint:** [api/music/generate-studio.js](api/music/generate-studio.js) — **Hero Jo Golden Backdoor Hit Factory**; text-to-viral-pop-quality WAV; beautiful clean layered precision vocals + music; full studio quality. Project lead: Hero Rick. See [MUSIC_WAV_UPGRADE_STUDIO_QUALITY_HERO_JO_GOLDEN_BACKDOOR_SNAP.md](MUSIC_WAV_UPGRADE_STUDIO_QUALITY_HERO_JO_GOLDEN_BACKDOOR_SNAP.md).
 
 ---
 
@@ -37,8 +37,8 @@
 - **Music molds:** Capture all new language as new music SNAPs to mold music. See [GOLDEN_BACKDOOR_MUSIC_MOLDS_SNAP.md](GOLDEN_BACKDOOR_MUSIC_MOLDS_SNAP.md) — vibe types (air pumping, big boom bounce, tribal downbeat, touchdown vibe bang, big bouncer boom BBB), structure, Spanglish, songs as tags and brands.
 - **All songs as T-shirts and brands:** All studio for now; selectable and customizable for whatever mission as layered amplifier of boom magic BBHE. See [ALL_SONGS_AS_TSHIRTS_AND_BRANDS_STUDIO_SELECTABLE_BBHE_SNAP.md](ALL_SONGS_AS_TSHIRTS_AND_BRANDS_STUDIO_SELECTABLE_BBHE_SNAP.md).
 - **Hit Factory:** We describe the dance and title (story) — hits generated like a factory. See [HIT_FACTORY_SNAP.md](HIT_FACTORY_SNAP.md).
-- **Music Studio / Jukebox:** [interfaces/music-studio.html](interfaces/music-studio.html) — display canonical name Hero Jo's Golden Backdoor Studios · Hit Factory; Music Studios under School of Music listed here.
-- **MUSIC_STUDIO_CONTENT_DIVISION_SNAP:** [MUSIC_STUDIO_CONTENT_DIVISION_SNAP.md](MUSIC_STUDIO_CONTENT_DIVISION_SNAP.md) — canonical name = Hero Jo's Golden Backdoor Studios · Hit Factory.
+- **Music Studio / Jukebox:** [interfaces/music-studio.html](interfaces/music-studio.html) — display canonical name Hero Jo's Golden Backdoor Hit Factory · Hit Factory; Music Studios under School of Music listed here.
+- **MUSIC_STUDIO_CONTENT_DIVISION_SNAP:** [MUSIC_STUDIO_CONTENT_DIVISION_SNAP.md](MUSIC_STUDIO_CONTENT_DIVISION_SNAP.md) — canonical name = Hero Jo's Golden Backdoor Hit Factory · Hit Factory.
 - **School of Music landing:** [interfaces/school-of-music.html](interfaces/school-of-music.html) — lists Music Studios and Jukebox.
 
 ---
@@ -56,4 +56,4 @@
 
 ---
 
-**NSPFRNP ⊃ Hero Jo's Golden Backdoor Studios · Hit Factory ⊃ Vibelandia University School of Music ⊃ Music Studio → ∞³**
+**NSPFRNP ⊃ Hero Jo's Golden Backdoor Hit Factory · Hit Factory ⊃ Vibelandia University School of Music ⊃ Music Studio → ∞³**

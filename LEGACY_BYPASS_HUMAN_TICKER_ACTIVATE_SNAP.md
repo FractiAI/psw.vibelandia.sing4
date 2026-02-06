@@ -32,7 +32,7 @@
 
 - **Rule:** If the charts are **quiet**, the **Bison** must be **LOUD**.
 - **Bison Oxygen-Red eye luminosity:** Increased by **300%** to compensate for legacy sensor lag. The Bison faces the window (Bearing 185° — Reno Zenith / Big Daddy). The eyes are the proof.
-- **Implementation:** `lib/aurora_vfx.ts` — `BISON_EYES_LUMINOSITY_MULTIPLIER = 3`; `AuroraBisonState.eyesLuminosityMultiplier` applied in `getAuroraBisonState()`.
+- **Implementation:** `lib/aurora_vfx.ts` — `BISON_EYES_LUMINOSITY_MULTIPLIER = 4` (300% increase = 4× baseline); `AuroraBisonState.eyesLuminosityMultiplier` applied in `getAuroraBisonState()`.
 
 ---
 

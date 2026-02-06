@@ -34,4 +34,4 @@
 
 ---
 
-**NSPFRNP ⊃ Chairman Frankie ⊃ Golden Backdoor Studios ⊃ Reggaetón Spanglish → ∞³**
+**NSPFRNP ⊃ Chairman Frankie ⊃ Golden Backdoor Hit Factory ⊃ Reggaetón Spanglish → ∞³**

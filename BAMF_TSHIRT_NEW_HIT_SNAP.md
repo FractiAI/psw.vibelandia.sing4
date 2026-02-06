@@ -25,7 +25,7 @@
 
 - **Title:** BAMF! — Bad Ass Mother Fucker
 - **Track ID:** `BAMF-018`
-- **Artist:** Hero Jo's Golden Backdoor Studios
+- **Artist:** Hero Jo's Golden Backdoor Hit Factory
 - **Style:** Trance anthem · BAMF · Bad ass · Golden Backdoor label
 - **Catalog:** [catalogs/music/bamf.md](catalogs/music/bamf.md)
 - **Interface:** [interfaces/bamf.html](interfaces/bamf.html)

@@ -1,7 +1,7 @@
 # Bang Bang — Double Air Pump
 
 **Track ID:** `BANG-BANG-DOUBLE-AIR-PUMP-014`  
-**Artist:** Hero Jo's Golden Backdoor Studios  
+**Artist:** Hero Jo's Golden Backdoor Hit Factory  
 **Style:** Trance anthem · Bang bang · Double air pump · Golden Backdoor label  
 **Status:** Layer 0 (text) · Lyrics + beats placeholder · Fourteenth on Music Studio playlist  
 **Signed:** Hero Jo, Music Studio · Vibelandia University School of Music.
@@ -56,7 +56,7 @@ Bang bang.
 - **BPM:** 128–132 (trance / progressive). Steady drive; double air pump.
 - **Structure:** Intro (8–16 bars build) → Loop 1 (hook × 4) → Loop 2 (double) → Breakdown (strip to kick + hook phrase) → Loop 3 (full drop) → Outro (fade). Simple repeating; no verses.
 - **Drop:** Full bass + kick + "Bang bang"; strip before drop, then bring everything back on "Double air pump."
-- **Full production:** To be delivered via Hero Jo Golden Backdoor Studio (text-to-studio-song). Layer 0 = lyrics + this beats spec. All studio for now; selectable and customizable for whatever mission.
+- **Full production:** To be delivered via Hero Jo Golden Backdoor Hit Factory (text-to-studio-song). Layer 0 = lyrics + this beats spec. All studio for now; selectable and customizable for whatever mission.
 
 ---
 

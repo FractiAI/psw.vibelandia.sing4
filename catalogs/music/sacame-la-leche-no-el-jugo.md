@@ -1,7 +1,7 @@
 # Sacame La Leche, No el Jugo!
 
 **Track ID:** `SACAME-LA-LECHE-NO-EL-JUGO-009`  
-**Artist:** Hero Jo's Golden Backdoor Studios  
+**Artist:** Hero Jo's Golden Backdoor Hit Factory  
 **Style:** Trance anthem · Spanglish · Big boom bounce · Golden Backdoor label  
 **Status:** Layer 0 (text) · Lyrics + beats placeholder · Ninth on Music Studio playlist  
 **Signed:** Hero Jo, Music Studio · Vibelandia University School of Music.
@@ -57,7 +57,7 @@ Sacame la leche, no el jugo!
 - **BPM:** 128–132 (trance / progressive). Steady drive; big boom; bounce.
 - **Structure:** Intro (8–16 bars build) → Loop 1 (hook × 4) → Loop 2 (double) → Breakdown (strip to kick + hook phrase) → Loop 3 (full drop) → Outro (fade). Simple repeating; no verses.
 - **Drop:** Full bass + kick + big boom + "Sacame la leche, no el jugo!"; strip before drop, then bring everything back on "No el jugo!"
-- **Full production:** To be delivered via Hero Jo Golden Backdoor Studio (text-to-studio-song). Layer 0 = lyrics + this beats spec.
+- **Full production:** To be delivered via Hero Jo Golden Backdoor Hit Factory (text-to-studio-song). Layer 0 = lyrics + this beats spec.
 
 ---
 

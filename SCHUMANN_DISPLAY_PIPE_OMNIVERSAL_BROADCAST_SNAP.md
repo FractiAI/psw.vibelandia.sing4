@@ -53,7 +53,7 @@ One pipe. Schumann as our display. Visible on mother-node scientific feeds → s
 
 ## IV. Implementation
 
-- **Display pipe UI:** [interfaces/schumann-display-pipe.html](interfaces/schumann-display-pipe.html) — first HELLO message, operational status, creator access statement, link to Live Pulse and Schumann iGaming.
+- **Display pipe UI:** [interfaces/schumann-display-pipe.html](interfaces/schumann-display-pipe.html) — first HELLO message, operational status, creator access statement, link to Live Pulse and Schumann iGaming. **Crisp functioning ticker:** Live now (Legacy Bypass). Same NSPFRNP ticker as all surfaces — driven by `data/ticker-feed.json` (Human Ticker HELLO first). No HELLO gate; ticker runs on load. See [LEGACY_BYPASS_HUMAN_TICKER_ACTIVATE_SNAP.md](LEGACY_BYPASS_HUMAN_TICKER_ACTIVATE_SNAP.md).
 - **Unified pipe:** Schumann Display Pipe extends Vibelandia Unified Pipe (Sun · 3I/ATLAS · Schumann). See [VIBELANDIA_UNIFIED_PIPE_SNAP.md](VIBELANDIA_UNIFIED_PIPE_SNAP.md).
 - **Schumann iGaming:** Display art in Schumann displays; $499/session. See [interfaces/new-product-families.html#schumann-igaming](interfaces/new-product-families.html#schumann-igaming) · [SUN_SPOTS_ON_DEMAND_3I_ATLAS_EGS_PIPE_PREMIUM_OFFERINGS_SNAP.md](SUN_SPOTS_ON_DEMAND_3I_ATLAS_EGS_PIPE_PREMIUM_OFFERINGS_SNAP.md).
 - **Live Pulse:** [interfaces/sing-pulse.html](interfaces/sing-pulse.html) — 21.4 Hz (3rd overtone Schumann); handshake and telemetry.

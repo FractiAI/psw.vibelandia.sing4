@@ -17,15 +17,15 @@
 
 **EAT THAT UP LIKE A YUM YUM YUM SNAP SNAP!** = Hero Jo Studio T-shirt branding.
 
-- **T-shirt:** Wear the tag. Merch (T-shirts, caps); Hero Jo's Golden Backdoor Studios / Hero Jo Golden Backdoor Studio; Vibelandia University School of Music. Content category: T-shirt slogan; MASTER_BRANDING_CATALOG.
-- **Hero Jo Studio:** Under Hero Jo's Golden Backdoor Studios; studio is all about da ass baby; text-to-studio-song; 98% mastery; CONNECT! See [HERO_JO_GOLDEN_BACKDOOR_STUDIOS_SNAP.md](HERO_JO_GOLDEN_BACKDOOR_STUDIOS_SNAP.md) · [HERO_JO_GOLDEN_BACKDOOR_STUDIOS_SERIES_SNAP.md](HERO_JO_GOLDEN_BACKDOOR_STUDIOS_SERIES_SNAP.md).
+- **T-shirt:** Wear the tag. Merch (T-shirts, caps); Hero Jo's Golden Backdoor Hit Factory / Hero Jo Golden Backdoor Hit Factory; Vibelandia University School of Music. Content category: T-shirt slogan; MASTER_BRANDING_CATALOG.
+- **Hero Jo Hit Factory:** Under Hero Jo's Golden Backdoor Hit Factory; studio is all about da ass baby; text-to-studio-song; 98% mastery; CONNECT! See [HERO_JO_GOLDEN_BACKDOOR_STUDIOS_SNAP.md](HERO_JO_GOLDEN_BACKDOOR_STUDIOS_SNAP.md) · [HERO_JO_GOLDEN_BACKDOOR_STUDIOS_SERIES_SNAP.md](HERO_JO_GOLDEN_BACKDOOR_STUDIOS_SERIES_SNAP.md).
 - **Use:** T-shirt, merch, Music Studio jukebox, Office Hours, Launch Pad, social, one-line CTAs. Yum yum yum = appetite, vibe, SQUEEZE! SNAP SNAP = double snap — lock it in.
 
 ---
 
 ## PLACEMENT
 
-- **Music Studio · Jukebox:** [interfaces/music-studio.html](interfaces/music-studio.html) · [interfaces/eat-that-up-like-a-yum-yum-yum-snap-snap.html](interfaces/eat-that-up-like-a-yum-yum-yum-snap-snap.html) · Hero Jo's Golden Backdoor Studios.
+- **Music Studio · Jukebox:** [interfaces/music-studio.html](interfaces/music-studio.html) · [interfaces/eat-that-up-like-a-yum-yum-yum-snap-snap.html](interfaces/eat-that-up-like-a-yum-yum-yum-snap-snap.html) · Hero Jo's Golden Backdoor Hit Factory.
 - **Catalog:** [catalogs/music/eat-that-up-like-a-yum-yum-yum-snap-snap.md](catalogs/music/eat-that-up-like-a-yum-yum-yum-snap-snap.md) · [catalogs/music/README.md](catalogs/music/README.md) (track #4).
 - **Launch Pad · Office Hours:** Merch / T-shirt tag; dance anthem song; bOOK! Email Pru.
 - **CONTENT_SYSTEMS:** T-shirt slogan category; Hero Jo Studio branding; dance anthem song.

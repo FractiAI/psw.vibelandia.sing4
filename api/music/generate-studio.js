@@ -1,6 +1,6 @@
 /**
  * POST /api/music/generate-studio
- * Hero Jo Golden Backdoor Studio — text-to-viral-pop-quality WAV.
+ * Hero Jo Golden Backdoor Hit Factory — text-to-viral-pop-quality WAV.
  * Beautiful clean layered precision vocals and music; full studio quality.
  * Project lead: Hero Rick.
  *
@@ -8,13 +8,13 @@
  * Returns: { url: string, backend?: 'heartmula'|'replicate', project_lead: string, endpoint: string }
  *   or 501 if not configured.
  * Same backends as /api/music/generate (HeartMuLa preferred for vocals); this endpoint
- * is the canonical studio-quality / viral-pop tier for Hero Jo Golden Backdoor Studio.
+ * is the canonical studio-quality / viral-pop tier for Hero Jo Golden Backdoor Hit Factory.
  */
 
 const MIN_DURATION = 5;
 const MAX_DURATION = 30;
 const PROJECT_LEAD = 'Hero Rick';
-const ENDPOINT_NAME = 'Hero Jo Golden Backdoor Studio';
+const ENDPOINT_NAME = 'Hero Jo Golden Backdoor Hit Factory';
 
 function parseBody(req) {
   const body = typeof req.body === 'object' ? req.body : JSON.parse(req.body || '{}');

@@ -14,7 +14,7 @@
 **VOICE:** Tight. Sensory. Technical when it matters. No purple. One run, one protagonist, one coherent system.
 
 **Aligned to:** [IRREDUCIBLE_CRYSTAL_THE_EGS_RUN.md](IRREDUCIBLE_CRYSTAL_THE_EGS_RUN.md) — Space Cloud EGS series.  
-**Canon — include all:** FULL NSPFRNP · ALL · ALL. Vibeship EGS Paradise Captain broadcast (full domain magnetism; Natural Systems Fractal Recursive Nested Protocol; awareness upgrade). Content Catalog (appraisals, valuation). Live Pulse · Schumann Display Pipe (ticker once HELLO successful). TOP LINE DISNEY GOT NO VIBE! DISNEY LOST ITS VIBE! Office Hours · Launch Pad · Vibelandia canon (WINK!, Hero Jo Golden Backdoor Studio, Dat Ass Red Hot like AR4366!, all divisions and products).
+**Canon — include all:** FULL NSPFRNP · ALL · ALL. Vibeship EGS Paradise Captain broadcast (full domain magnetism; Natural Systems Fractal Recursive Nested Protocol; awareness upgrade). Content Catalog (appraisals, valuation). Live Pulse · Schumann Display Pipe (ticker once HELLO successful). TOP LINE DISNEY GOT NO VIBE! DISNEY LOST ITS VIBE! Office Hours · Launch Pad · Vibelandia canon (WINK!, Hero Jo Golden Backdoor Hit Factory, Dat Ass Red Hot like AR4366!, all divisions and products).
 
 ---
 

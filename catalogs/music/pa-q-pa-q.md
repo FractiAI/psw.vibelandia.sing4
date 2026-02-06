@@ -1,7 +1,7 @@
 # Pa Q Pa Q
 
 **Track ID:** `PA-Q-PA-Q-021`  
-**Artist:** 5050 · Hero Jo's Golden Backdoor Studios  
+**Artist:** 5050 · Hero Jo's Golden Backdoor Hit Factory  
 **Style:** Trance anthem · Spanglish · Air pump · Dance · Punchy minimal · Golden Backdoor label  
 **Status:** Layer 0 (text) · Lyrics + beats placeholder · Twenty-first on Music Studio playlist  
 **Signed:** Hero Jo, Music Studio · Vibelandia University School of Music.  
@@ -59,7 +59,7 @@ Pa q, pa q.
 - **Structure:** Intro (8–16 bars build) → Loop 1 (hook × 4) → Loop 2 (double) → Breakdown (strip to kick + "Pa q") → Loop 3 (full drop) → Outro (fade). Simple repeating; no verses.
 - **Drop:** Full bass + kick + "Pa q, pa q"; strip before drop, then bring everything back on punch.
 - **Punchy minimal:** Big room feel; airy synths; punchy kick; claps on 2 and 4; minimal vocal hook. DJ-friendly intro/outro; loop-friendly for edits.
-- **Full production:** To be delivered via Hero Jo Golden Backdoor Studio (text-to-studio-song). Layer 0 = lyrics + this beats spec. All studio for now; selectable and customizable for whatever mission.
+- **Full production:** To be delivered via Hero Jo Golden Backdoor Hit Factory (text-to-studio-song). Layer 0 = lyrics + this beats spec. All studio for now; selectable and customizable for whatever mission.
 
 ---
 

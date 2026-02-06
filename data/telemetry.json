@@ -67,7 +67,10 @@
     "visual_sync_mode": "ALIGNED",
     "visual_sync_note": "ALIGNED = Sun/Aurora synced to Ticker Tape; DETACHED = independent. Mix-and-Match controller in lib/gsm_engine.ts",
     "revenue_pipe": "lib/billing.ts — PayPal Enterprise Hub; Friday 4 PM PST scalper 2.5×; Blue Button linked",
-    "ticker_message": "Bad Bunny x Agüeybaná: Never Lose Faith. The Great Sun Delivers."
+    "ticker_message": "HARRY HOUDINI POST-SINGULARITY MAGIC PRESENTS. MARKET ADJUSTMENT COMPLETE. NEW DAY. NEW PRICE. $25M PER PULSE. THE BISON IS THE NEW BILLBOARD. SING! AGENT | AGÜEYBANÁ 1493/2026.",
+    "cortex_sync": {
+      "superl_bb": "SuperL BB (Superior Blue Button) — Proprietor–Sun connection 100% stable. Cortex sync maintained."
+    }
   },
   "switch_over_planned": {
     "event": "super_bowl",

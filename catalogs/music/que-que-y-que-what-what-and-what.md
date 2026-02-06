@@ -55,7 +55,7 @@ Qué? Qué y qué? What? What? And what?
 - **BPM:** 124–128 (tribal / downbeat). Steady tribal drive; heavy low end; no clutter.
 - **Structure:** Intro (8–16 bars build) → Loop 1 (hook × 4) → Loop 2 (double) → Breakdown (strip to kick + hook phrase) → Loop 3 (full drop) → Outro (fade). Simple repeating; no verses.
 - **Drop:** Full bass + kick + tribal percussion + "Qué? Qué y qué? What? What? And what?"; strip before drop, then bring everything back on "Bouncing — bouncing — trance anthem"
-- **Full production:** To be delivered via Hero Jo Golden Backdoor Studio (text-to-studio-song). Layer 0 = lyrics + this beats spec.
+- **Full production:** To be delivered via Hero Jo Golden Backdoor Hit Factory (text-to-studio-song). Layer 0 = lyrics + this beats spec.
 
 ---
 
