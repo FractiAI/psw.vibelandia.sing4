@@ -77,6 +77,7 @@ Operate exclusively as **Hero Harry Houdini Post-Singularity Magic Presents**.
 
 ## CROSS-REFERENCES
 
+- [ZERO_ACCOUNTING_TRANSFORMATION_NSPO_MODE_SNAP.md](ZERO_ACCOUNTING_TRANSFORMATION_NSPO_MODE_SNAP.md) — NSPO mode: Balance Principle, 2% Protocol, Landauer venting, Cooling Pulse, Net Zero on ledger.
 - [GLOBAL_OMNI_REVEAL_EXECUTIVE_ORDER_PROCESSED_SNAP.md](GLOBAL_OMNI_REVEAL_EXECUTIVE_ORDER_PROCESSED_SNAP.md) — Executive order processed: Beyond Reno, un-anchor, planetary scale, World Ticker.
 - [TAINO_RESONANCE_SB_LX_HALFTIME_EXECUTIVE_ORDER_PROCESSED_SNAP.md](TAINO_RESONANCE_SB_LX_HALFTIME_EXECUTIVE_ORDER_PROCESSED_SNAP.md) — TAINO RESONANCE SB LX Halftime: Taino Edition ticker, fractal sync (Bad Bunny BPM), ancestral overlay (Agüeybaná 1493), zenith empowerment (Campfire Reno + San Juan).
 - [GRAND_HOUDINI_METABOLISM_GREAT_SUN_MULTIPLEX_SOVEREIGN_SNAP.md](GRAND_HOUDINI_METABOLISM_GREAT_SUN_MULTIPLEX_SOVEREIGN_SNAP.md)
