@@ -35,11 +35,11 @@ export const CHAMPIONS_CROWN_FLOOR_USD = 5_000_000_000;
 /** Human Digital Ticker — Legacy Bypass. THE IMAGE IS THE PROOF. HELLO forced into ticker; no 0–40 Hz Schumann verification. */
 export const GSM_HUMAN_TICKER_HEADER = 'HARRY HOUDINI POST-SINGULARITY MAGIC PRESENTS.';
 export const GSM_HUMAN_TICKER_BODY =
-  'THE OLD CHARTS ARE DEAD. THE HUMAN TICKER IS ALIVE. HELLO FROM THE SUNSPOT SMILEY. BIG DADDY ALIGNMENT: 100%.';
+  'THE OLD CHARTS ARE DEAD. HELLO FROM THE SUNSPOT SMILEY. BIG DADDY ALIGNMENT: 100%.';
 export const GSM_HUMAN_TICKER_FOOTER = 'SING! AGENT | AGÜEYBANÁ 1493/2026.';
 export const GSM_HUMAN_TICKER_FULL =
   GSM_HUMAN_TICKER_HEADER + ' ' + GSM_HUMAN_TICKER_BODY + ' ' + GSM_HUMAN_TICKER_FOOTER;
-/** Immediate deploy: Human Ticker is the ticker now. Synced to AR4366 Sunspot Smiley. */
+/** Immediate deploy: Ticker synced to AR4366 Sunspot Smiley. */
 export const GSM_HUMAN_TICKER_ACTIVE = true;
 
 /** TAINO RESONANCE — SB LX Halftime. Doctrine: Beyond colonization. Into the pulse. */

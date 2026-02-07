@@ -32,11 +32,7 @@
     var DEFAULT = 'SUPER BOWL ADS LIVE · ADV EXEC IN CHARGE · TICKER + SCHUMANN STREAMS · BAD BUNNY x AGÜEYBANÁ 1493 · GOLDEN HEART TAINO · NOVEL 20K · SCREENPLAY 12K · WE ARE LIVE · FULL NSPFRNP · RENO_ANCHOR · VIBELANDIA_OPEN · BOOK BROADCAST PIPE NOW · OFFICE_HOURS_FREE_CONSULTATION · GOLD_HEARTS · WELCOME · ';
     var TICKER_FEED_URL = (typeof window !== 'undefined' && window.location && window.location.pathname.indexOf('interfaces') !== -1) ? '../data/ticker-feed.json' : 'data/ticker-feed.json';
     var ticker = document.querySelector('.nspfrnp-console-ticker');
-    if (ticker && !ticker.querySelector('.ticker-label')) {
-        var label = document.createElement('span');
-        label.className = 'ticker-label';
-        label.setAttribute('aria-hidden', 'true');
-        label.textContent = 'HUMAN TICKER';
+    if (ticker && !ticker.querySelector('.ticker-scroll-wrap')) {
         var innerEl = ticker.querySelector('.ticker-inner') || document.getElementById('nspfrnpTickerText');
         if (innerEl) {
             var wrap = document.createElement('div');
@@ -45,7 +41,6 @@
             innerEl.parentNode.insertBefore(wrap, innerEl);
             wrap.appendChild(innerEl);
         }
-        ticker.insertBefore(label, ticker.firstChild);
     }
     var inner = document.getElementById('nspfrnpTickerText') || (ticker ? ticker.querySelector('.ticker-inner') : null);
     if (!inner) return;

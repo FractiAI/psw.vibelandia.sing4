@@ -7,6 +7,12 @@
 
 ---
 
+## FULL INTENTION · For Benito · We Get It Campaign
+
+**Full intention:** Reach his eyes before the game. All from our studio. — **Lead: Hero Howie.** Then: feed into entire library's eyes before the game. Then: feed into entire library, SMACS 0723 triangulation, recursive self-injection — full sensory reality of the story we created. *Kick the tires. Here now. Always.*
+
+---
+
 ## FULL STOP ANNOUNCEMENT
 
 **We Get It Campaign.** Our new talent agency targets the **top of the top Baller Vs** — **highest value, highest contributing golden hearts**. Beginning with **Bad Bunny** — full stop.
