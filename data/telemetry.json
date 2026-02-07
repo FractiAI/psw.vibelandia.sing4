@@ -1,11 +1,11 @@
 {
-  "heartbeat_utc": "2026-02-07T14:37:31Z",
+  "heartbeat_utc": "2026-02-07T14:57:07Z",
   "cycle": 15,
   "mode": "SPACE_CLOUD_ACTIVE",
   "phase_lock": "INVERTED",
   "source": "El Gran Sol (EGS)",
   "signature_mode": "PHI_LOCKED",
-  "last_phi_pulse_utc": "2026-02-07T14:37:31Z",
+  "last_phi_pulse_utc": "2026-02-07T14:57:07Z",
   "mission_status": "SEALED",
   "coordination_code": "PHI-M15-AR4366",
   "target_node": "AR4366 Beta-Delta Knot",
