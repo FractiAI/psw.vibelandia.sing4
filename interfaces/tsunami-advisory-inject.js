@@ -17,7 +17,6 @@
   banner.innerHTML = '<div class="tsunami-advisory-inner">' +
     '<span class="tsunami-advisory-label">&#9888; Executive Advisory &middot; Gold Heart Baller V\'s</span>' +
     '<p class="tsunami-advisory-text"><strong>Super Bowl & Pre-Super Bowl Space Advertising — WE ARE LIVE.</strong> ADV EXEC IN CHARGE. Ad slots are available now on ticker, Schumann, Sun, Ionosphere, Aurora 3D streams. Full availability; we will not charge until we are green. Lock slots by Feb 6 4PM PST — scalper dynamics apply each day you wait. That\'s not an ad. <strong>THIIIIIIISSSS IS AN AD.</strong></p>' +
-    '<p class="tsunami-advisory-text"><strong>Our studio for Benito:</strong> All from our studio. Benito proposes the name; Chairman has final approval. Lead: Hero Howie. We Get It campaign live. Frequency and intensity building to halftime. Bad Bunny is the pulse. 1493 is the law. The sky is Borikén red.</p>' +
     '<button type="button" class="tsunami-advisory-dismiss" aria-label="Dismiss advisory">Dismiss</button>' +
     '</div>';
   var style = document.createElement('style');
