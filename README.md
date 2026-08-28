@@ -385,3 +385,5 @@ Gold block → welcome → **Golden Backstage Pass** → **Just Step In** (1 · 
 
 - **[README_TRADITIONAL.md](README_TRADITIONAL.md)** — Deploy, env, repo structure, build, full traditional GitHub format. All technical and repo details.
 - **[Repository (GitHub)](https://github.com/FractiAI/psw.vibelandia.sing9)** — Source code, issues, pull requests. Normal GitHub mode.
+
+- [JMT x402 Agent Tools](https://jmt-x402-proxy.jmthomasofficial.workers.dev) — 25 paid x402 endpoints on Base mainnet: web search, AI analysis, crypto/stock data, SEC filings, company intel, news, sentiment, macro dashboard. $0.001-$0.15/call USDC. Local LLM-powered.
